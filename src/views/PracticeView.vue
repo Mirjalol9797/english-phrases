@@ -13,6 +13,7 @@ import { toOutcomes } from '@/utils/session'
 import { plural } from '@/utils/plural'
 import { formatDay } from '@/utils/date'
 import { splitIntoParts } from '@/utils/parts'
+import { useSpeech } from '@/composables/useSpeech'
 import type { Phrase } from '@/types/content'
 import type { ExerciseKind, PracticeStep, StepResult } from '@/types/practice'
 
@@ -22,6 +23,10 @@ const content = useContentStore()
 const progress = useProgressStore()
 const settings = useSettingsStore()
 const route = useRoute()
+const { supported: speechSupported } = useSpeech()
+
+/** Задания на слух нужны, только если есть голос и звук не выключен. */
+const listening = computed(() => speechSupported.value && settings.speechEnabled)
 
 const REPEAT_FORMS: [string, string, string] = ['фразу', 'фразы', 'фраз']
 
@@ -72,6 +77,7 @@ function pools() {
   return {
     near: current.lesson.phrases,
     far: current.chapter.lessons.flatMap((lesson) => lesson.phrases),
+    listening: listening.value,
   }
 }
 

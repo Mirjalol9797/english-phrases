@@ -9,14 +9,15 @@ const OPTION_COUNT = 4
 const MIN_WORDS_TO_ASSEMBLE = 2
 
 /**
- * Четыре этапа тестирования в порядке возрастания сложности: узнать перевод,
+ * Этапы в порядке возрастания сложности: узнать перевод, понять на слух,
  * вспомнить фразу, собрать её из слов, написать самому. Каждая фраза урока
  * проходит все этапы, поэтому порядок здесь — это порядок этапов занятия.
  */
-export const EXERCISE_ORDER: ExerciseKind[] = ['choice-ru', 'choice-en', 'assemble', 'typing']
+export const EXERCISE_ORDER: ExerciseKind[] = ['choice-ru', 'listen', 'choice-en', 'assemble', 'typing']
 
 export const EXERCISE_TITLES: Record<ExerciseKind, string> = {
   'choice-ru': 'Выбор перевода',
+  listen: 'На слух',
   'choice-en': 'Выбор фразы',
   assemble: 'Сборка из слов',
   typing: 'Письмо',
@@ -74,9 +75,10 @@ const toEn = (p: Phrase) => p.en
 
 /** Возвращает null, если этап для этой фразы невозможен (нечего собирать из одного слова). */
 function buildStep(phrase: Phrase, kind: ExerciseKind, near: Phrase[], far: Phrase[]): PracticeStep | null {
-  if (kind === 'choice-ru' || kind === 'choice-en') {
-    const answerOf = kind === 'choice-ru' ? toRu : toEn
-    const promptOf = kind === 'choice-ru' ? toEn : toRu
+  // «На слух» — тот же вопрос, что и в выборе перевода, только звучит, а не показан.
+  if (kind === 'choice-ru' || kind === 'choice-en' || kind === 'listen') {
+    const answerOf = kind === 'choice-en' ? toEn : toRu
+    const promptOf = kind === 'choice-en' ? toRu : toEn
     const answer = answerOf(phrase)
     return {
       kind,
@@ -107,6 +109,11 @@ interface BuildOptions {
   near: Phrase[]
   /** Остальные фразы главы: добираются, когда в уроке вариантов не хватило. */
   far: Phrase[]
+  /**
+   * Можно ли давать задания на слух. Без английского голоса в системе
+   * или с выключенным звуком отвечать на них нечем.
+   */
+  listening?: boolean
 }
 
 /**
@@ -117,10 +124,11 @@ export function buildPractice(
   phrases: Phrase[],
   options: BuildOptions & { withCards?: boolean },
 ): PracticeStep[] {
-  const { near, far, withCards = true } = options
+  const { near, far, withCards = true, listening = false } = options
   const steps: PracticeStep[] = withCards ? phrases.map((phrase) => ({ kind: 'card', phrase })) : []
 
   for (const kind of EXERCISE_ORDER) {
+    if (kind === 'listen' && !listening) continue
     for (const phrase of shuffle(phrases)) {
       const step = buildStep(phrase, kind, near, far)
       if (step) steps.push(step)
@@ -139,12 +147,15 @@ export function buildReview(
   boxOf: (phrase: Phrase) => number,
   options: BuildOptions,
 ): PracticeStep[] {
-  const { near, far } = options
+  const { near, far, listening = false } = options
   const steps: PracticeStep[] = []
 
   for (const phrase of phrases) {
     const box = boxOf(phrase)
-    const wanted: ExerciseKind = box >= 5 ? 'typing' : box >= 4 ? 'assemble' : box >= 3 ? 'choice-en' : 'choice-ru'
+    let wanted: ExerciseKind =
+      box >= 5 ? 'typing' : box >= 4 ? 'assemble' : box >= 3 ? 'choice-en' : box >= 2 ? 'listen' : 'choice-ru'
+    // Без звука на слух не ответить.
+    if (wanted === 'listen' && !listening) wanted = 'choice-ru'
     // Сборка невозможна для однословных фраз — тогда спрашиваем выбором.
     steps.push(buildStep(phrase, wanted, near, far) ?? buildStep(phrase, 'choice-en', near, far)!)
   }
@@ -159,11 +170,12 @@ export function buildRepeat(
   mistakes: { phrase: Phrase; kind: ExerciseKind }[],
   options: BuildOptions,
 ): PracticeStep[] {
-  const { near, far } = options
+  const { near, far, listening = false } = options
   const seen = new Set<string>()
   const steps: PracticeStep[] = []
 
   for (const kind of EXERCISE_ORDER) {
+    if (kind === 'listen' && !listening) continue
     for (const mistake of mistakes) {
       if (mistake.kind !== kind) continue
       const key = `${mistake.phrase.id}:${kind}`

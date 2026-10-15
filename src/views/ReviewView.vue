@@ -2,6 +2,8 @@
 import { computed, ref, shallowRef } from 'vue'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
+import { useSettingsStore } from '@/stores/settings'
+import { useSpeech } from '@/composables/useSpeech'
 import { useAsyncData } from '@/composables/useAsyncData'
 import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
@@ -19,6 +21,11 @@ const BATCH_SIZE = 20
 
 const content = useContentStore()
 const progress = useProgressStore()
+const settings = useSettingsStore()
+const { supported: speechSupported } = useSpeech()
+
+/** Задания на слух нужны, только если есть голос и звук не выключен. */
+const listening = computed(() => speechSupported.value && settings.speechEnabled)
 
 useDocumentTitle(() => 'Повторение')
 
@@ -68,6 +75,7 @@ function start(batch: Phrase[]) {
   steps.value = buildReview(batch, (phrase) => progress.boxOf(phrase.id), {
     near: batch,
     far: allPhrases.value,
+    listening: listening.value,
   })
   running.value = true
 }

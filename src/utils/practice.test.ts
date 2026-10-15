@@ -1,6 +1,13 @@
 import { describe, expect, it } from 'vitest'
 import type { Phrase } from '@/types/content'
-import type { AssembleStep, ChoiceStep, ExerciseKind, PracticeStep, TypingStep } from '@/types/practice'
+import type {
+  AssembleStep,
+  ChoiceStep,
+  ExerciseKind,
+  ListenStep,
+  PracticeStep,
+  TypingStep,
+} from '@/types/practice'
 import { EXERCISE_ORDER, buildPractice, buildRepeat, buildReview, shuffle } from './practice'
 import { normalizeAnswer } from './answer'
 
@@ -24,6 +31,7 @@ const otherChapter: Phrase[] = [
 ]
 
 const pools = { near: lesson, far: [...lesson, ...otherChapter] }
+const withSound = { ...pools, listening: true }
 
 const isChoice = (step: PracticeStep): step is ChoiceStep =>
   step.kind === 'choice-ru' || step.kind === 'choice-en'
@@ -77,6 +85,7 @@ describe('buildPractice', () => {
         phrase.en.split(' ').length >= 2
           ? ['choice-ru', 'choice-en', 'assemble', 'typing']
           : ['choice-ru', 'choice-en', 'typing']
+      // Без звука заданий на слух быть не должно.
       expect(kinds.sort()).toEqual([...expected].sort())
     }
   })
@@ -214,5 +223,51 @@ describe('buildReview', () => {
   it('подменяет сборку выбором, если фраза из одного слова', () => {
     const steps = buildReview([lesson[0]!], () => 4, pools)
     expect(steps[0]!.kind).toBe('choice-en')
+  })
+})
+
+describe('задания на слух', () => {
+  it('без звука их нет вовсе', () => {
+    const kinds = buildPractice(lesson, { ...pools, withCards: false }).map((s) => s.kind)
+    expect(kinds).not.toContain('listen')
+  })
+
+  it('со звуком каждая фраза проходит и этот этап', () => {
+    const steps = buildPractice(lesson, { ...withSound, withCards: false })
+    const listening = steps.filter((s) => s.kind === 'listen')
+    expect(listening).toHaveLength(lesson.length)
+    expect(listening.map((s) => s.phrase.id).sort()).toEqual(lesson.map((p) => p.id).sort())
+  })
+
+  it('идёт вторым этапом, сразу после выбора перевода', () => {
+    const kinds = buildPractice(lesson, { ...withSound, withCards: false }).map((s) => s.kind)
+    expect(kinds.indexOf('listen')).toBeGreaterThan(kinds.lastIndexOf('choice-ru'))
+    expect(kinds.lastIndexOf('listen')).toBeLessThan(kinds.indexOf('choice-en'))
+  })
+
+  it('спрашивает перевод и показывает ровно один верный вариант', () => {
+    times(30, () => {
+      const steps = buildPractice(lesson, { ...withSound, withCards: false })
+      for (const step of steps.filter((s): s is ListenStep => s.kind === 'listen')) {
+        expect(step.answer).toBe(step.phrase.ru)
+        const correct = step.options.filter((o) => normalizeAnswer(o) === normalizeAnswer(step.answer))
+        expect(correct).toHaveLength(1)
+      }
+    })
+  })
+
+  it('в повторении достаётся второй коробке', () => {
+    const phrase = lesson[4]!
+    const kindFor = (box: number, listening: boolean) =>
+      buildReview([phrase], () => box, { ...pools, listening })[0]!.kind
+    expect(kindFor(2, true)).toBe('listen')
+    // Без звука вместо него обычный выбор перевода.
+    expect(kindFor(2, false)).toBe('choice-ru')
+  })
+
+  it('в повторе ошибок без звука не переспрашивается', () => {
+    const mistakes = [{ phrase: lesson[0]!, kind: 'listen' as const }]
+    expect(buildRepeat(mistakes, pools)).toHaveLength(0)
+    expect(buildRepeat(mistakes, { ...pools, listening: true })).toHaveLength(1)
   })
 })

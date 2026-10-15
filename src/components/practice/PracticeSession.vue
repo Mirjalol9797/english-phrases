@@ -7,6 +7,7 @@ import PracticeCard from './PracticeCard.vue'
 import ChoiceExercise from './ChoiceExercise.vue'
 import AssembleExercise from './AssembleExercise.vue'
 import TypingExercise from './TypingExercise.vue'
+import ListenExercise from './ListenExercise.vue'
 import { EXERCISE_ORDER, EXERCISE_TITLES } from '@/utils/practice'
 import { isPhraseDone } from '@/utils/session'
 import { isTypingTarget, useHasKeyboard, useWindowKey } from '@/composables/useWindowKey'
@@ -32,7 +33,7 @@ const emit = defineEmits<{
 }>()
 
 const settings = useSettingsStore()
-const { supported: speechSupported, speak, stop: stopSpeech } = useSpeech()
+const { supported: speechSupported, speaking, speak, stop: stopSpeech } = useSpeech()
 
 const index = ref(0)
 const answered = ref(false)
@@ -84,6 +85,7 @@ const cardStep = computed(() => (step.value?.kind === 'card' ? step.value : null
 const choiceStep = computed(() =>
   step.value?.kind === 'choice-ru' || step.value?.kind === 'choice-en' ? step.value : null,
 )
+const listenStep = computed(() => (step.value?.kind === 'listen' ? step.value : null))
 const assembleStep = computed(() => (step.value?.kind === 'assemble' ? step.value : null))
 const typingStep = computed(() => (step.value?.kind === 'typing' ? step.value : null))
 
@@ -147,6 +149,7 @@ useWindowKey((event) => {
 const keyboardHint = computed(() => {
   if (!hasKeyboard.value) return null
   if (answered.value || step.value?.kind === 'card') return 'Enter — дальше'
+  if (listenStep.value) return 'Цифры — ответ, пробел — повторить'
   if (choiceStep.value) return 'Цифры — ответ, Enter — дальше'
   if (assembleStep.value) return 'Enter — проверить, Backspace — убрать слово'
   if (typingStep.value) return 'Enter — проверить'
@@ -202,6 +205,14 @@ const keyboardHint = computed(() => {
         :step="choiceStep"
         :speak="speak"
         :speech-supported="speechSupported"
+        @answer="onAnswer"
+      />
+      <ListenExercise
+        v-else-if="listenStep"
+        :key="`listen-${index}`"
+        :step="listenStep"
+        :speak="speak"
+        :speaking="speaking"
         @answer="onAnswer"
       />
       <AssembleExercise v-else-if="assembleStep" :key="`assemble-${index}`" :step="assembleStep" @answer="onAnswer" />

@@ -1,7 +1,7 @@
 import type { Phrase } from './content'
 
-/** Четыре типа упражнений. Карточка — не упражнение, в ней нечего проверять. */
-export type ExerciseKind = 'choice-ru' | 'choice-en' | 'assemble' | 'typing'
+/** Типы упражнений. Карточка — не упражнение, в ней нечего проверять. */
+export type ExerciseKind = 'choice-ru' | 'listen' | 'choice-en' | 'assemble' | 'typing'
 
 /** Знакомство с фразой: английский текст, озвучка, перевод по нажатию. */
 export interface CardStep {
@@ -14,6 +14,17 @@ export interface ChoiceStep {
   kind: 'choice-ru' | 'choice-en'
   phrase: Phrase
   /** Правильный ответ уже перемешан с неверными. */
+  options: string[]
+  answer: string
+}
+
+/**
+ * Послушать фразу и выбрать перевод. Текста на экране нет — в этом и смысл.
+ * Появляется, только если есть английский голос и звук не выключен.
+ */
+export interface ListenStep {
+  kind: 'listen'
+  phrase: Phrase
   options: string[]
   answer: string
 }
@@ -33,7 +44,7 @@ export interface TypingStep {
   accept: string[]
 }
 
-export type PracticeStep = CardStep | ChoiceStep | AssembleStep | TypingStep
+export type PracticeStep = CardStep | ChoiceStep | ListenStep | AssembleStep | TypingStep
 
 export interface StepResult {
   phrase: Phrase
