@@ -13,7 +13,11 @@ export default defineConfig({
     vue(),
     tailwindcss(),
     VitePWA({
-      registerType: 'autoUpdate',
+      // Не подменяем версию молча: приложение офлайн-первое, и правки иначе
+      // появляются только со второго запуска. Про обновление спрашиваем — см. UpdateBanner.
+      registerType: 'prompt',
+      // Регистрацию делает сам UpdateBanner через virtual:pwa-register/vue.
+      injectRegister: null,
       // Иконки из манифеста плагин кладёт в кэш сам, здесь — остальное из public.
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
       manifest: {

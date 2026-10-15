@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AppNav from '@/components/AppNav.vue'
 import ThemeToggle from '@/components/ThemeToggle.vue'
+import UpdateBanner from '@/components/UpdateBanner.vue'
 </script>
 
 <template>
@@ -14,6 +15,8 @@ import ThemeToggle from '@/components/ThemeToggle.vue'
         </div>
       </div>
     </header>
+
+    <UpdateBanner />
 
     <main class="app-main mx-auto w-full max-w-3xl flex-1 px-5 pt-3">
       <RouterView />
