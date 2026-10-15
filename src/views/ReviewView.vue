@@ -155,13 +155,13 @@ function onFinish(sessionResults: StepResult[]) {
         </div>
 
         <ol class="mt-6 sm:mt-8 divide-y divide-line border-y border-line">
-          <li v-for="phrase in due.slice(0, BATCH_SIZE)" :key="phrase.id" class="flex items-baseline gap-3 py-3">
+          <li v-for="phrase in due.slice(0, BATCH_SIZE)" :key="phrase.id" class="flex items-baseline gap-3 py-2 sm:py-3">
             <span class="w-10 shrink-0 text-xs text-muted tabular-nums">
               {{ progress.boxOf(phrase.id) }} / {{ LAST_BOX }}
             </span>
             <span class="min-w-0 flex-1">
               <span lang="en" class="block font-serif text-lg leading-snug">{{ phrase.en }}</span>
-              <span class="block text-sm text-muted">{{ phrase.ru }}</span>
+              <span class="block text-sm leading-snug text-muted">{{ phrase.ru }}</span>
             </span>
           </li>
         </ol>
@@ -175,13 +175,13 @@ function onFinish(sessionResults: StepResult[]) {
           Здесь ошибались чаще всего — {{ plural(progress.hardCount, PHRASE_FORMS) }} за всё время.
         </p>
         <ol class="mt-3 divide-y divide-line border-y border-line">
-          <li v-for="phrase in hard" :key="phrase.id" class="flex items-baseline gap-3 py-3">
+          <li v-for="phrase in hard" :key="phrase.id" class="flex items-baseline gap-3 py-2 sm:py-3">
             <span class="w-14 shrink-0 text-xs text-bad tabular-nums">
               {{ progress.get(phrase.id)?.wrong }} из {{ progress.get(phrase.id)?.seen }}
             </span>
             <span class="min-w-0 flex-1">
               <span lang="en" class="block font-serif text-base leading-snug sm:text-lg">{{ phrase.en }}</span>
-              <span class="block text-sm text-muted">{{ phrase.ru }}</span>
+              <span class="block text-sm leading-snug text-muted">{{ phrase.ru }}</span>
             </span>
           </li>
         </ol>

@@ -154,9 +154,9 @@ useDocumentTitle(() => (ctx.value ? `Урок: ${ctx.value.lesson.title.ru}` : '
       </p>
 
       <ol v-if="mistakenPhrases.length" class="mt-4 sm:mt-5 divide-y divide-line border-y border-line">
-        <li v-for="phrase in mistakenPhrases" :key="phrase.id" class="py-3">
+        <li v-for="phrase in mistakenPhrases" :key="phrase.id" class="py-2 sm:py-3">
           <p lang="en" class="font-serif text-lg leading-snug">{{ phrase.en }}</p>
-          <p class="mt-0.5 text-sm text-muted">{{ phrase.ru }}</p>
+          <p class="mt-0.5 text-sm leading-snug text-muted">{{ phrase.ru }}</p>
         </li>
       </ol>
 

@@ -10,14 +10,14 @@ defineProps<{
 </script>
 
 <template>
-  <li class="py-3 sm:py-4">
+  <li class="py-2 sm:py-4">
     <p lang="en" class="font-serif text-lg leading-snug sm:text-xl">
       <HighlightedText :text="phrase.en" :query="query" />
     </p>
-    <p class="mt-1 text-[0.9375rem] text-muted sm:text-base"><HighlightedText :text="phrase.ru" :query="query" /></p>
+    <p class="mt-0.5 text-[0.9375rem] leading-snug text-muted sm:mt-1 sm:text-base sm:leading-normal"><HighlightedText :text="phrase.ru" :query="query" /></p>
 
     <!-- Пример употребления есть у выражений, у обычных фраз его нет. -->
-    <p v-if="phrase.example" class="mt-2 border-l-2 border-line pl-3 text-sm text-muted">
+    <p v-if="phrase.example" class="mt-1.5 border-l-2 border-line pl-3 text-sm leading-snug text-muted sm:mt-2">
       <span lang="en" class="block font-serif">{{ phrase.example.en }}</span>
       <span class="block">{{ phrase.example.ru }}</span>
     </p>
