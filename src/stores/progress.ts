@@ -1,7 +1,18 @@
 import { defineStore } from 'pinia'
 import { computed, ref, watch } from 'vue'
 import { addDays, daysBetween, isDayKey, today, type DayKey } from '@/utils/date'
-import { dueAfter, FIRST_BOX, isLearned, LAST_BOX, nextBox } from '@/utils/leitner'
+import {
+  DEFAULT_EASE,
+  dueAfter,
+  easeAfterMistakes,
+  isLearned,
+  LEARNED_INTERVAL,
+  levelOf,
+  MIN_INTERVAL,
+  newSchedule,
+  nextSchedule,
+  type Schedule,
+} from '@/utils/sm2'
 
 const STORAGE_KEY = 'english-phrases:progress'
 const DATA_VERSION = 1
@@ -12,8 +23,10 @@ const MAX_DAYS = 400
 export interface PhraseProgress {
   /** Глава фразы. Храним здесь, чтобы считать прогресс по главам, не загружая их. */
   chapter: string
-  /** Коробка Лейтнера, 1…5. */
-  box: number
+  /** Перерыв в днях, коэффициент лёгкости и число верных ответов подряд — см. sm2.ts. */
+  interval: number
+  ease: number
+  reps: number
   /** День, с которого фразу пора повторить. */
   due: DayKey
   /**
@@ -24,8 +37,6 @@ export interface PhraseProgress {
   /** Сколько занятий прошла и в скольких были ошибки. */
   seen: number
   wrong: number
-  /** Сколько занятий подряд провалена. Вторая ошибка подряд роняет в первую коробку. */
-  misses: number
   updated: DayKey
 }
 
@@ -45,14 +56,33 @@ function isProgress(value: unknown): value is PhraseProgress {
   const p = value as Record<string, unknown>
   // Про главу намеренно не спрашиваем: она нужна только счётчикам по главам,
   // и запись без неё терять нельзя — это живой прогресс пользователя.
-  return (
-    typeof p.box === 'number' &&
-    p.box >= FIRST_BOX &&
-    p.box <= LAST_BOX &&
-    isDayKey(p.due) &&
-    typeof p.seen === 'number' &&
-    typeof p.wrong === 'number'
-  )
+  // Старые копии хранили коробку Лейтнера вместо перерыва — их переносим ниже.
+  const hasSchedule = typeof p.interval === 'number' || typeof p.box === 'number'
+  return hasSchedule && isDayKey(p.due) && typeof p.seen === 'number' && typeof p.wrong === 'number'
+}
+
+/**
+ * Расписание записи. Старые копии хранили коробку Лейтнера — переводим её
+ * в перерыв, а накопленные ошибки переносим в коэффициент лёгкости, чтобы
+ * трудная фраза не начала вдруг расти как лёгкая.
+ */
+const BOX_TO_INTERVAL = [MIN_INTERVAL, MIN_INTERVAL, 5, 10, 21]
+
+function scheduleFrom(value: Partial<PhraseProgress> & { box?: unknown }, wrong: number): Schedule {
+  if (typeof value.interval === 'number') {
+    return {
+      interval: Math.max(MIN_INTERVAL, Math.round(value.interval)),
+      ease: typeof value.ease === 'number' ? value.ease : DEFAULT_EASE,
+      reps: typeof value.reps === 'number' ? Math.max(0, Math.round(value.reps)) : 0,
+    }
+  }
+
+  const box = typeof value.box === 'number' ? Math.min(Math.max(Math.round(value.box), 1), 5) : 1
+  return {
+    interval: BOX_TO_INTERVAL[box - 1]!,
+    ease: easeAfterMistakes(wrong),
+    reps: box,
+  }
 }
 
 /**
@@ -69,15 +99,14 @@ export function parseProgress(raw: unknown): ProgressData | null {
   if (source.phrases && typeof source.phrases === 'object') {
     for (const [id, value] of Object.entries(source.phrases as Record<string, unknown>)) {
       if (isProgress(value)) {
+        const wrong = Math.max(0, Math.round(value.wrong))
         data.phrases[id] = {
           chapter: typeof value.chapter === 'string' ? value.chapter : '',
           firstSeen: isDayKey(value.firstSeen) ? value.firstSeen : '',
-          box: value.box,
+          ...scheduleFrom(value, wrong),
           due: value.due,
           seen: Math.max(0, Math.round(value.seen)),
-          wrong: Math.max(0, Math.round(value.wrong)),
-          // В старых копиях поля нет: начинаем счёт заново, а не выдумываем задним числом.
-          misses: typeof value.misses === 'number' ? Math.max(0, Math.round(value.misses)) : 0,
+          wrong,
           updated: isDayKey(value.updated) ? value.updated : value.due,
         }
       }
@@ -132,11 +161,18 @@ export const useProgressStore = defineStore('progress', () => {
     return data.value.phrases[phraseId] ?? null
   }
 
-  function boxOf(phraseId: string): number {
-    return data.value.phrases[phraseId]?.box ?? 0
+  /** Насколько сложно спрашивать фразу. Ноль — ещё не начинали. */
+  function levelOfPhrase(phraseId: string): number {
+    const entry = data.value.phrases[phraseId]
+    return entry ? levelOf(entry) : 0
   }
 
-  /** Итог занятия: коробка каждой фразы меняется один раз, а не после каждого ответа. */
+  /** Начата ли фраза: запись о ней уже есть. */
+  function isStarted(phraseId: string): boolean {
+    return Boolean(data.value.phrases[phraseId])
+  }
+
+  /** Итог занятия: расписание каждой фразы меняется один раз, а не после каждого ответа. */
   function commitSession(outcomes: SessionOutcome[]) {
     if (outcomes.length === 0) return
     const day = today()
@@ -145,18 +181,16 @@ export const useProgressStore = defineStore('progress', () => {
 
     for (const outcome of outcomes) {
       const previous = phrases[outcome.phraseId]
-      const misses = outcome.correct ? 0 : (previous?.misses ?? 0) + 1
-      const box = nextBox(previous?.box ?? 0, outcome.correct, previous?.misses ?? 0)
+      const schedule = nextSchedule(previous ?? newSchedule(), outcome.correct)
       phrases[outcome.phraseId] = {
         chapter: outcome.chapterId,
         // Фраза новая, только если записи о ней ещё не было.
         // У старой записи без дня так и оставляем пусто: задним числом не выдумываем.
         firstSeen: previous ? previous.firstSeen : day,
-        box,
-        due: dueAfter(day, box),
+        ...schedule,
+        due: dueAfter(day, schedule.interval),
         seen: (previous?.seen ?? 0) + 1,
         wrong: (previous?.wrong ?? 0) + (outcome.correct ? 0 : 1),
-        misses,
         updated: day,
       }
       answers += outcome.answers
@@ -193,7 +227,7 @@ export const useProgressStore = defineStore('progress', () => {
       .sort((a, b) => {
         if (a[1].due !== b[1].due) return a[1].due < b[1].due ? -1 : 1
         const hardness = hardnessOf(b[1]) - hardnessOf(a[1])
-        return hardness !== 0 ? hardness : a[1].box - b[1].box
+        return hardness !== 0 ? hardness : a[1].interval - b[1].interval
       })
       .map(([id]) => id)
   }
@@ -205,7 +239,7 @@ export const useProgressStore = defineStore('progress', () => {
   function hardestIds(limit = 20): string[] {
     return Object.entries(data.value.phrases)
       .filter(([, progress]) => progress.wrong > 0)
-      .sort((a, b) => hardnessOf(b[1]) - hardnessOf(a[1]) || a[1].box - b[1].box)
+      .sort((a, b) => hardnessOf(b[1]) - hardnessOf(a[1]) || a[1].interval - b[1].interval)
       .slice(0, limit)
       .map(([id]) => id)
   }
@@ -248,11 +282,11 @@ export const useProgressStore = defineStore('progress', () => {
       if (!entry.chapter) continue
       const row = (counts[entry.chapter] ??= { started: 0, learned: 0 })
       row.started += 1
-      if (isLearned(entry.box)) row.learned += 1
+      if (isLearned(entry)) row.learned += 1
     }
     return counts
   })
-  const learnedCount = computed(() => Object.values(data.value.phrases).filter((p) => isLearned(p.box)).length)
+  const learnedCount = computed(() => Object.values(data.value.phrases).filter((p) => isLearned(p)).length)
 
   /**
    * Серия: сколько дней подряд были занятия, считая от сегодня.
@@ -284,15 +318,31 @@ export const useProgressStore = defineStore('progress', () => {
     return best
   })
 
-  /** Сколько фраз лежит в каждой коробке: 1 — только начата, 5 — выучена. */
-  const boxCounts = computed(() => {
-    const counts = Array.from({ length: LAST_BOX }, () => 0)
-    for (const entry of Object.values(data.value.phrases)) {
-      const index = Math.min(Math.max(entry.box, FIRST_BOX), LAST_BOX) - 1
-      counts[index] = (counts[index] ?? 0) + 1
-    }
-    return counts
-  })
+  /**
+   * Границы разбивки по срокам. Верхняя не входит в столбик, и последняя
+   * граница — ровно порог выученной фразы: иначе выученные попадали бы
+   * в середину, где они закрашены как ещё не выученные.
+   */
+  const INTERVAL_BUCKETS = [
+    { label: 'До недели', upto: 7 },
+    { label: 'До трёх недель', upto: LEARNED_INTERVAL },
+    { label: 'Три недели и дольше', upto: Infinity },
+  ]
+
+  /** Сколько фраз на каком перерыве — вместо прежней разбивки по коробкам. */
+  const intervalBuckets = computed(() =>
+    INTERVAL_BUCKETS.map((bucket, i) => {
+      const from = i === 0 ? 0 : INTERVAL_BUCKETS[i - 1]!.upto
+      return {
+        label: bucket.label,
+        from,
+        upto: bucket.upto,
+        count: Object.values(data.value.phrases).filter(
+          (entry) => entry.interval >= from && entry.interval < bucket.upto,
+        ).length,
+      }
+    }),
+  )
 
   const totalAnswers = computed(() => Object.values(data.value.days).reduce((sum, n) => sum + n, 0))
 
@@ -339,7 +389,8 @@ export const useProgressStore = defineStore('progress', () => {
   return {
     data,
     get,
-    boxOf,
+    levelOf: levelOfPhrase,
+    isStarted,
     commitSession,
     dueIds,
     hardestIds,
@@ -353,7 +404,7 @@ export const useProgressStore = defineStore('progress', () => {
     countsByChapter,
     streak,
     bestStreak,
-    boxCounts,
+    intervalBuckets,
     totalAnswers,
     activeDays,
     answersOn,

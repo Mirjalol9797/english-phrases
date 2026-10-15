@@ -21,7 +21,7 @@ const { data: ctx, loading, error, notFound, reload } = useAsyncData(
   () => content.loadLesson(props.lessonId),
 )
 
-const started = (phrase: { id: string }) => progress.boxOf(phrase.id) > 0
+const started = (phrase: { id: string }) => progress.isStarted(phrase.id)
 
 /** Сколько новых фраз в части, которую собираемся проходить. */
 const newInPart = computed(() => (parts.value[nextPart.value] ?? []).filter((p) => progress.isNew(p.id)).length)

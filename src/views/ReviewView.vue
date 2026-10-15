@@ -12,12 +12,14 @@ import { buildReview } from '@/utils/practice'
 import { toOutcomes } from '@/utils/session'
 import { plural, PHRASE_FORMS } from '@/utils/plural'
 import { formatDay, today } from '@/utils/date'
-import { LAST_BOX } from '@/utils/leitner'
+import { plural as pluralOf } from '@/utils/plural'
 import type { Phrase } from '@/types/content'
 import type { PracticeStep, StepResult } from '@/types/practice'
 
 /** За один заход повторяем не больше: длинная очередь отпугивает сильнее, чем помогает. */
 const BATCH_SIZE = 20
+
+const DAY_FORMS: [string, string, string] = ['день', 'дня', 'дней']
 
 const content = useContentStore()
 const progress = useProgressStore()
@@ -94,7 +96,7 @@ const correctCount = computed(() => results.value?.filter((r) => r.correct).leng
 function start(batch: Phrase[]) {
   if (batch.length === 0) return
   results.value = null
-  steps.value = buildReview(batch, (phrase) => progress.boxOf(phrase.id), {
+  steps.value = buildReview(batch, (phrase) => progress.levelOf(phrase.id), {
     near: batch,
     far: allPhrases.value,
     stages: stages.value,
@@ -171,8 +173,8 @@ function onFinish(sessionResults: StepResult[]) {
 
         <ol class="mt-6 sm:mt-8 divide-y divide-line border-y border-line">
           <li v-for="phrase in due.slice(0, BATCH_SIZE)" :key="phrase.id" class="flex items-baseline gap-3 py-2 sm:py-3">
-            <span class="w-10 shrink-0 text-xs text-muted tabular-nums">
-              {{ progress.boxOf(phrase.id) }} / {{ LAST_BOX }}
+            <span class="w-16 shrink-0 text-xs text-muted tabular-nums">
+              {{ pluralOf(progress.get(phrase.id)?.interval ?? 0, DAY_FORMS) }}
             </span>
             <span class="min-w-0 flex-1">
               <span lang="en" class="block font-serif text-lg leading-snug">{{ phrase.en }}</span>
@@ -180,7 +182,9 @@ function onFinish(sessionResults: StepResult[]) {
             </span>
           </li>
         </ol>
-        <p class="mt-3 text-sm text-muted">Слева — коробка: чем выше, тем реже фраза будет возвращаться.</p>
+        <p class="mt-3 text-sm text-muted">
+          Слева — нынешний перерыв: через столько дней фраза вернётся, если ответить верно.
+        </p>
       </template>
 
       <!-- Где чаще всего спотыкаемся. Эти данные копились всё время, но нигде не показывались. -->

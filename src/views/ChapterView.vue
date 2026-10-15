@@ -7,7 +7,7 @@ import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import AppIcon from '@/components/AppIcon.vue'
 import { plural, itemForms, LESSON_FORMS } from '@/utils/plural'
-import { isLearned } from '@/utils/leitner'
+import { isLearned } from '@/utils/sm2'
 
 const props = defineProps<{ chapterId: string }>()
 const content = useContentStore()
@@ -20,16 +20,16 @@ const { data: chapter, loading, error, notFound, reload } = useAsyncData(
 
 const phraseCount = computed(() => chapter.value?.lessons.reduce((sum, l) => sum + l.phrases.length, 0) ?? 0)
 
-/** Для каждого урока: сколько фраз уже проходили и сколько выучено до последней коробки. */
+/** Для каждого урока: сколько фраз уже проходили и сколько дошло до выученных. */
 const lessonProgress = computed(() => {
   const rows: Record<string, { started: number; learned: number; total: number }> = {}
   for (const lesson of chapter.value?.lessons ?? []) {
     let started = 0
     let learned = 0
     for (const phrase of lesson.phrases) {
-      const box = progress.boxOf(phrase.id)
-      if (box > 0) started += 1
-      if (isLearned(box)) learned += 1
+      const entry = progress.get(phrase.id)
+      if (entry) started += 1
+      if (entry && isLearned(entry)) learned += 1
     }
     rows[lesson.id] = { started, learned, total: lesson.phrases.length }
   }
@@ -72,7 +72,7 @@ useDocumentTitle(() => chapter.value?.title.en)
             </span>
             <span class="block text-sm text-muted">{{ lesson.title.ru }}</span>
           </span>
-          <!-- Галочка, когда весь урок дошёл до последней коробки. -->
+          <!-- Галочка, когда весь урок стал выученным. -->
           <span
             v-if="stat(lesson.id).total > 0 && stat(lesson.id).learned === stat(lesson.id).total"
             class="shrink-0 text-ok"

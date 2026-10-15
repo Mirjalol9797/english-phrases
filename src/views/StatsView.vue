@@ -7,7 +7,7 @@ import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import { plural, itemForms } from '@/utils/plural'
 import { addDays, formatDay, today, weekdayOf, type DayKey } from '@/utils/date'
-import { BOX_INTERVALS, LAST_BOX } from '@/utils/leitner'
+import { LEARNED_INTERVAL } from '@/utils/sm2'
 
 /** Календарь занятий: 18 недель назад — примерно четыре месяца, помещается в ширину экрана. */
 const WEEKS = 18
@@ -55,7 +55,7 @@ function cellStyle(answers: number) {
   return { background: 'var(--marker)', opacity: String(0.35 + share * 0.65) }
 }
 
-const maxBox = computed(() => Math.max(1, ...progress.boxCounts))
+const maxBucket = computed(() => Math.max(1, ...progress.intervalBuckets.map((b) => b.count)))
 
 /** Прогресс по главам: берём названия из индекса, числа — из прогресса. */
 const chapters = computed(() =>
@@ -138,24 +138,20 @@ const chapters = computed(() =>
       <!-- Насколько прочно сидят фразы -->
       <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Прочность</h2>
       <p class="mt-1 text-sm text-muted">
-        Чем выше коробка, тем реже фраза возвращается. Из пятой она уже не спрашивается чаще раза в три недели.
+        Перерыв у каждой фразы свой: отвечаете верно — он растёт, ошибаетесь — возвращается к двум дням.
+        Выученной фраза считается с перерыва в {{ plural(LEARNED_INTERVAL, DAY_FORMS) }}.
       </p>
       <ol class="mt-3 space-y-2">
-        <li v-for="(count, i) in progress.boxCounts" :key="i" class="flex items-center gap-3">
-          <span class="w-20 shrink-0 text-sm text-muted">
-            Коробка {{ i + 1 }}
-          </span>
+        <li v-for="bucket in progress.intervalBuckets" :key="bucket.label" class="flex items-center gap-3">
+          <span class="w-28 shrink-0 text-sm text-muted">{{ bucket.label }}</span>
           <span class="h-5 flex-1 overflow-hidden rounded-sm bg-line">
             <span
               class="block h-full rounded-sm"
-              :class="i + 1 === LAST_BOX ? 'bg-ok' : 'bg-marker'"
-              :style="{ width: `${(count / maxBox) * 100}%` }"
+              :class="bucket.from >= LEARNED_INTERVAL ? 'bg-ok' : 'bg-marker'"
+              :style="{ width: `${(bucket.count / maxBucket) * 100}%` }"
             />
           </span>
-          <span class="w-16 shrink-0 text-right text-sm tabular-nums">{{ count }}</span>
-          <span class="hidden w-28 shrink-0 text-xs text-muted sm:block">
-            раз в {{ plural(BOX_INTERVALS[i] ?? 0, DAY_FORMS) }}
-          </span>
+          <span class="w-16 shrink-0 text-right text-sm tabular-nums">{{ bucket.count }}</span>
         </li>
       </ol>
 

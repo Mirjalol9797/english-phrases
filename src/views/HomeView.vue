@@ -21,14 +21,14 @@ const { data, loading, error, reload } = useAsyncData(
     const chapter = firstChapter ? await content.loadChapter(firstChapter.id) : null
     // Следующий урок — первый, где есть ещё не тронутые фразы.
     const nextLesson =
-      chapter?.lessons.find((lesson) => lesson.phrases.some((phrase) => progress.boxOf(phrase.id) === 0)) ??
+      chapter?.lessons.find((lesson) => lesson.phrases.some((phrase) => !progress.isStarted(phrase.id))) ??
       chapter?.lessons[0] ??
       null
     return { index, nextLesson }
   },
 )
 
-const featured = computed(() => data.value?.nextLesson?.phrases.find((p) => progress.boxOf(p.id) === 0) ?? data.value?.nextLesson?.phrases[0] ?? null)
+const featured = computed(() => data.value?.nextLesson?.phrases.find((p) => !progress.isStarted(p.id)) ?? data.value?.nextLesson?.phrases[0] ?? null)
 
 const dueCount = computed(() => progress.dueIds().length)
 

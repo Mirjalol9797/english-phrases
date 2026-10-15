@@ -205,26 +205,31 @@ describe('buildRepeat', () => {
 })
 
 describe('buildReview', () => {
-  it('усложняет способ проверки по мере роста коробки', () => {
+  it('усложняет способ проверки по мере роста уровня', () => {
     const phrase = lesson[4]! // многословная, годится для сборки
-    const kindFor = (box: number) => buildReview([phrase], () => box, pools)[0]!.kind
-    expect(kindFor(1)).toBe('choice-ru')
-    expect(kindFor(2)).toBe('listen')
-    expect(kindFor(3)).toBe('choice-en')
-    expect(kindFor(4)).toBe('assemble')
-    expect(kindFor(5)).toBe('typing')
+    const kindFor = (level: number) => buildReview([phrase], () => level, pools)[0]!.kind
+    expect(kindFor(0)).toBe('choice-ru')
+    expect(kindFor(1)).toBe('listen')
+    expect(kindFor(2)).toBe('choice-en')
+    expect(kindFor(3)).toBe('assemble')
+    expect(kindFor(4)).toBe('typing')
+  })
+
+  it('на самом верху шкалы остаётся самый сложный способ', () => {
+    // Уровень растёт без предела: верных ответов подряд может быть сколько угодно.
+    expect(buildReview([lesson[4]!], () => 42, pools)[0]!.kind).toBe('typing')
   })
 
   it('даёт по одному упражнению на фразу', () => {
-    const steps = buildReview(lesson, () => 3, pools)
+    const steps = buildReview(lesson, () => 2, pools)
     expect(steps).toHaveLength(lesson.length)
     expect(steps.map((s) => s.phrase.id).sort()).toEqual(lesson.map((p) => p.id).sort())
   })
 
   it('подменяет сборку соседним этапом, если фраза из одного слова', () => {
-    // Коробка 4 — это сборка. Ближайший этап полегче — выбор фразы,
+    // Уровень 3 — это сборка. Ближайший этап полегче — выбор фразы,
     // а не откат к самому лёгкому способу в начале шкалы.
-    const steps = buildReview([lesson[0]!], () => 4, pools)
+    const steps = buildReview([lesson[0]!], () => 3, pools)
     expect(steps[0]!.kind).toBe('choice-en')
   })
 })
@@ -259,13 +264,13 @@ describe('задания на слух', () => {
     })
   })
 
-  it('в повторении достаётся второй коробке', () => {
+  it('в повторении достаётся второму уровню', () => {
     const phrase = lesson[4]!
-    const kindFor = (box: number, stages: ExerciseKind[]) =>
-      buildReview([phrase], () => box, { ...pools, stages })[0]!.kind
-    expect(kindFor(2, [...EXERCISE_ORDER])).toBe('listen')
-    // Без этого этапа шкала становится короче, и вторая коробка берёт следующий способ.
-    expect(kindFor(2, withoutSound.stages)).toBe('choice-en')
+    const kindFor = (level: number, stages: ExerciseKind[]) =>
+      buildReview([phrase], () => level, { ...pools, stages })[0]!.kind
+    expect(kindFor(1, [...EXERCISE_ORDER])).toBe('listen')
+    // Без этого этапа шкала становится короче, и тот же уровень берёт следующий способ.
+    expect(kindFor(1, withoutSound.stages)).toBe('choice-en')
   })
 
   it('в повторе ошибок без звука не переспрашивается', () => {
@@ -296,12 +301,12 @@ describe('выбор этапов', () => {
     expect(kinds.size).toBeGreaterThan(1)
   })
 
-  it('в повторении коробка выбирает из оставшихся этапов', () => {
+  it('в повторении уровень выбирает из оставшихся этапов', () => {
     const phrase = lesson[4]!
     const stages: ExerciseKind[] = ['choice-ru', 'typing']
-    const kindFor = (box: number) => buildReview([phrase], () => box, { ...pools, stages })[0]!.kind
-    expect(kindFor(1)).toBe('choice-ru')
-    expect(kindFor(2)).toBe('typing')
+    const kindFor = (level: number) => buildReview([phrase], () => level, { ...pools, stages })[0]!.kind
+    expect(kindFor(0)).toBe('choice-ru')
+    expect(kindFor(1)).toBe('typing')
     // Выше последнего этапа шкала не растёт.
     expect(kindFor(5)).toBe('typing')
   })

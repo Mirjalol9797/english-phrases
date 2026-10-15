@@ -143,13 +143,14 @@ export function buildPractice(
 }
 
 /**
- * Повторение по Лейтнеру: одно упражнение на фразу, тип — по коробке.
+ * Повторение: одно упражнение на фразу, способ проверки — по уровню фразы.
  * Чем дольше фраза держится в памяти, тем сложнее способ её вспомнить:
  * сначала узнать перевод, в конце написать самому.
  */
 export function buildReview(
   phrases: Phrase[],
-  boxOf: (phrase: Phrase) => number,
+  /** Насколько сложно спрашивать фразу: 0 — только познакомились. */
+  levelOf: (phrase: Phrase) => number,
   options: BuildOptions,
 ): PracticeStep[] {
   const { near, far } = options
@@ -157,9 +158,9 @@ export function buildReview(
   const steps: PracticeStep[] = []
 
   for (const phrase of phrases) {
-    // Коробка выбирает способ проверки: чем дольше фраза держится в памяти,
-    // тем сложнее её вспомнить. Если этапов осталось меньше, шкала короче.
-    const index = Math.min(Math.max(boxOf(phrase), 1), allowed.length) - 1
+    // Уровень выбирает способ проверки: чем увереннее отвечают, тем сложнее
+    // спрашиваем. Если этапов осталось меньше, шкала просто короче.
+    const index = Math.min(Math.max(levelOf(phrase), 0), allowed.length - 1)
 
     // Сборка невозможна для однословных фраз. Тогда берём соседний этап —
     // сначала на ступень легче, потом сложнее: он ближе по трудности,
