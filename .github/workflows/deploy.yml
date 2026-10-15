@@ -1,0 +1,65 @@
+name: Публикация на GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Позволяет запустить публикацию вручную со страницы Actions.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Публикуем по одной за раз и не обрываем начатую: иначе сайт может остаться
+# с наполовину выложенной сборкой.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Сборка
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # vitest требует Node 22.12 и новее, см. engines в package.json
+          node-version: 22
+          cache: yarn
+
+      - name: Установка зависимостей
+        run: yarn install --frozen-lockfile
+
+      - name: Тесты
+        run: yarn test
+
+      - name: Проверка данных глав
+        run: yarn data:validate
+
+      - name: Сборка
+        run: yarn build
+
+      - name: Проверка офлайн-кэша
+        run: yarn pwa:check
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    name: Публикация
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
