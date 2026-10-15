@@ -2,6 +2,7 @@
 import { computed, ref, useTemplateRef, onMounted } from 'vue'
 import type { TypingStep } from '@/types/practice'
 import { isSameAnswer } from '@/utils/answer'
+import { closestAnswer, diffWords } from '@/utils/diff'
 
 const props = defineProps<{ step: TypingStep }>()
 const emit = defineEmits<{ answer: [correct: boolean] }>()
@@ -19,6 +20,12 @@ const correct = computed(() => props.step.accept.some((variant) => isSameAnswer(
 
 /** Что показать после проверки: то, что ждали, или то, что написано в главе. */
 const expected = computed(() => props.step.accept.join(' / '))
+
+/**
+ * Разбор ошибки по словам. Показать правильный ответ целиком мало:
+ * на длинной фразе непонятно, где именно разошлось.
+ */
+const diff = computed(() => diffWords(value.value, closestAnswer(value.value, props.step.accept)))
 
 function check() {
   if (checked.value || !value.value.trim()) return
@@ -49,10 +56,33 @@ function check() {
       <button v-if="!checked" type="submit" class="btn-primary mt-4" :disabled="!value.trim()">Проверить</button>
     </form>
 
-    <p v-if="checked && !correct" class="mt-4 sm:mt-5">
-      <span class="text-sm text-muted">Правильно:</span>
-      <span lang="en" class="mt-1 block font-serif text-lg">{{ expected }}</span>
-    </p>
+    <template v-if="checked && !correct">
+      <p class="mt-4 sm:mt-5 text-sm text-muted">Вы написали</p>
+      <!-- Пробел внутри слова, а не отдельным узлом: между тегами его съедает сборка,
+           а раскладкой через flex слова разъезжаются переносами при копировании. -->
+      <p lang="en" class="mt-1 font-serif text-lg">
+        <span
+          v-for="(part, index) in diff.typed"
+          :key="`t-${index}`"
+          :class="part.same ? '' : 'text-bad line-through'"
+          >{{ index < diff.typed.length - 1 ? `${part.text} ` : part.text }}</span
+        >
+      </p>
+
+      <p class="mt-3 text-sm text-muted">Правильно</p>
+      <p lang="en" class="mt-1 font-serif text-lg">
+        <span
+          v-for="(part, index) in diff.expected"
+          :key="`e-${index}`"
+          :class="part.same ? '' : 'marker font-semibold'"
+          >{{ index < diff.expected.length - 1 ? `${part.text} ` : part.text }}</span
+        >
+      </p>
+      <p v-if="step.accept.length > 1" class="mt-2 text-sm text-muted">
+        Подошло бы и так: <span lang="en" class="font-serif">{{ expected }}</span>
+      </p>
+    </template>
+
     <!-- Регистр, апостроф и точка в конце ошибкой не считаются, но написание покажем как в главе. -->
     <p v-else-if="checked && value.trim() !== step.phrase.en" class="mt-4 sm:mt-5 text-sm text-muted">
       В главе записано так: <span lang="en" class="font-serif">{{ step.phrase.en }}</span>
