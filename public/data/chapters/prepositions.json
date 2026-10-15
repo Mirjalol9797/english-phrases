@@ -1,0 +1,2476 @@
+{
+  "id": "prepositions",
+  "order": 12,
+  "prefix": "PR",
+  "kind": "expressions",
+  "title": {
+    "en": "English Prepositions",
+    "ru": "Предлоги"
+  },
+  "lessons": [
+    {
+      "id": "PR-L01",
+      "order": 1,
+      "title": {
+        "en": "In",
+        "ru": "Выражения с «in»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_IN001",
+          "en": "in the morning",
+          "ru": "утром",
+          "example": {
+            "en": "I study English in the morning.",
+            "ru": "Я изучаю английский утром."
+          }
+        },
+        {
+          "id": "PRE_IN002",
+          "en": "in the evening",
+          "ru": "вечером",
+          "example": {
+            "en": "We watch TV in the evening.",
+            "ru": "Мы смотрим телевизор вечером."
+          }
+        },
+        {
+          "id": "PRE_IN003",
+          "en": "in the room",
+          "ru": "в комнате",
+          "example": {
+            "en": "The children are in the room.",
+            "ru": "Дети в комнате."
+          }
+        },
+        {
+          "id": "PRE_IN004",
+          "en": "in a hurry",
+          "ru": "в спешке",
+          "example": {
+            "en": "I'm in a hurry.",
+            "ru": "Я спешу."
+          }
+        },
+        {
+          "id": "PRE_IN005",
+          "en": "in fact",
+          "ru": "на самом деле",
+          "example": {
+            "en": "In fact, I don't know him.",
+            "ru": "На самом деле я его не знаю."
+          }
+        },
+        {
+          "id": "PRE_IN006",
+          "en": "in the future",
+          "ru": "в будущем",
+          "example": {
+            "en": "I want to travel more in the future.",
+            "ru": "В будущем я хочу больше путешествовать."
+          }
+        },
+        {
+          "id": "PRE_IN007",
+          "en": "in two days",
+          "ru": "через два дня",
+          "example": {
+            "en": "The course starts in two days.",
+            "ru": "Курс начинается через два дня."
+          }
+        },
+        {
+          "id": "PRE_IN008",
+          "en": "interested in",
+          "ru": "интересоваться чем-либо",
+          "example": {
+            "en": "I'm interested in technology.",
+            "ru": "Я интересуюсь технологиями."
+          }
+        },
+        {
+          "id": "PRE_IN009",
+          "en": "believe in",
+          "ru": "верить в",
+          "example": {
+            "en": "I believe in you.",
+            "ru": "Я верю в тебя."
+          }
+        },
+        {
+          "id": "PRE_IN010",
+          "en": "in English",
+          "ru": "на английском языке",
+          "example": {
+            "en": "Can you say it in English?",
+            "ru": "Можешь сказать это по-английски?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L02",
+      "order": 2,
+      "title": {
+        "en": "On",
+        "ru": "Выражения с «on»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_ON001",
+          "en": "on the table",
+          "ru": "на столе",
+          "example": {
+            "en": "Your keys are on the table.",
+            "ru": "Твои ключи на столе."
+          }
+        },
+        {
+          "id": "PRE_ON002",
+          "en": "on Monday",
+          "ru": "в понедельник",
+          "example": {
+            "en": "I have an English lesson on Monday.",
+            "ru": "У меня урок английского в понедельник."
+          }
+        },
+        {
+          "id": "PRE_ON003",
+          "en": "on time",
+          "ru": "вовремя",
+          "example": {
+            "en": "Please arrive on time.",
+            "ru": "Пожалуйста, приходи вовремя."
+          }
+        },
+        {
+          "id": "PRE_ON004",
+          "en": "on the way",
+          "ru": "по пути",
+          "example": {
+            "en": "I'll buy bread on the way home.",
+            "ru": "Я куплю хлеб по пути домой."
+          }
+        },
+        {
+          "id": "PRE_ON005",
+          "en": "on the bus",
+          "ru": "в автобусе",
+          "example": {
+            "en": "I met her on the bus.",
+            "ru": "Я встретил её в автобусе."
+          }
+        },
+        {
+          "id": "PRE_ON006",
+          "en": "on the phone",
+          "ru": "по телефону",
+          "example": {
+            "en": "I'm on the phone right now.",
+            "ru": "Я сейчас разговариваю по телефону."
+          }
+        },
+        {
+          "id": "PRE_ON007",
+          "en": "on TV",
+          "ru": "по телевизору",
+          "example": {
+            "en": "I saw it on TV.",
+            "ru": "Я видел это по телевизору."
+          }
+        },
+        {
+          "id": "PRE_ON008",
+          "en": "on sale",
+          "ru": "на распродаже; со скидкой",
+          "example": {
+            "en": "These shoes are on sale.",
+            "ru": "Эти туфли продаются со скидкой."
+          }
+        },
+        {
+          "id": "PRE_ON009",
+          "en": "on holiday",
+          "ru": "в отпуске",
+          "example": {
+            "en": "They're on holiday this week.",
+            "ru": "На этой неделе они в отпуске."
+          }
+        },
+        {
+          "id": "PRE_ON010",
+          "en": "depend on",
+          "ru": "зависеть от",
+          "example": {
+            "en": "It depends on the weather.",
+            "ru": "Это зависит от погоды."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L03",
+      "order": 3,
+      "title": {
+        "en": "At",
+        "ru": "Выражения с «at»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_AT001",
+          "en": "at seven o'clock",
+          "ru": "в семь часов",
+          "example": {
+            "en": "I get up at seven o'clock.",
+            "ru": "Я встаю в семь часов."
+          }
+        },
+        {
+          "id": "PRE_AT002",
+          "en": "at night",
+          "ru": "ночью",
+          "example": {
+            "en": "I sometimes work at night.",
+            "ru": "Иногда я работаю ночью."
+          }
+        },
+        {
+          "id": "PRE_AT003",
+          "en": "at home",
+          "ru": "дома",
+          "example": {
+            "en": "I'm at home now.",
+            "ru": "Я сейчас дома."
+          }
+        },
+        {
+          "id": "PRE_AT004",
+          "en": "at work",
+          "ru": "на работе",
+          "example": {
+            "en": "My father is at work.",
+            "ru": "Мой отец на работе."
+          }
+        },
+        {
+          "id": "PRE_AT005",
+          "en": "at school",
+          "ru": "в школе; на занятиях",
+          "example": {
+            "en": "The children are at school.",
+            "ru": "Дети в школе."
+          }
+        },
+        {
+          "id": "PRE_AT006",
+          "en": "at the bus stop",
+          "ru": "на автобусной остановке",
+          "example": {
+            "en": "I'll meet you at the bus stop.",
+            "ru": "Я встречу тебя на автобусной остановке."
+          }
+        },
+        {
+          "id": "PRE_AT007",
+          "en": "at first",
+          "ru": "сначала",
+          "example": {
+            "en": "At first, the task was difficult.",
+            "ru": "Сначала задание было трудным."
+          }
+        },
+        {
+          "id": "PRE_AT008",
+          "en": "at the moment",
+          "ru": "в данный момент",
+          "example": {
+            "en": "I'm busy at the moment.",
+            "ru": "Я сейчас занят."
+          }
+        },
+        {
+          "id": "PRE_AT009",
+          "en": "good at",
+          "ru": "хорошо уметь что-либо",
+          "example": {
+            "en": "She's good at maths.",
+            "ru": "Она хорошо разбирается в математике."
+          }
+        },
+        {
+          "id": "PRE_AT010",
+          "en": "look at",
+          "ru": "смотреть на",
+          "example": {
+            "en": "Look at this picture.",
+            "ru": "Посмотри на эту картинку."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L04",
+      "order": 4,
+      "title": {
+        "en": "For",
+        "ru": "Выражения с «for»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_FOR001",
+          "en": "for you",
+          "ru": "для тебя",
+          "example": {
+            "en": "This gift is for you.",
+            "ru": "Этот подарок для тебя."
+          }
+        },
+        {
+          "id": "PRE_FOR002",
+          "en": "for example",
+          "ru": "например",
+          "example": {
+            "en": "For example, you can start with this book.",
+            "ru": "Например, можешь начать с этой книги."
+          }
+        },
+        {
+          "id": "PRE_FOR003",
+          "en": "for a week",
+          "ru": "в течение недели",
+          "example": {
+            "en": "I'm staying here for a week.",
+            "ru": "Я останусь здесь на неделю."
+          }
+        },
+        {
+          "id": "PRE_FOR004",
+          "en": "for two hours",
+          "ru": "в течение двух часов",
+          "example": {
+            "en": "We waited for two hours.",
+            "ru": "Мы ждали два часа."
+          }
+        },
+        {
+          "id": "PRE_FOR005",
+          "en": "for the first time",
+          "ru": "впервые",
+          "example": {
+            "en": "I'm visiting Samarkand for the first time.",
+            "ru": "Я впервые посещаю Самарканд."
+          }
+        },
+        {
+          "id": "PRE_FOR006",
+          "en": "thank you for",
+          "ru": "спасибо за",
+          "example": {
+            "en": "Thank you for your help.",
+            "ru": "Спасибо за помощь."
+          }
+        },
+        {
+          "id": "PRE_FOR007",
+          "en": "wait for",
+          "ru": "ждать кого-либо или чего-либо",
+          "example": {
+            "en": "I'm waiting for the bus.",
+            "ru": "Я жду автобус."
+          }
+        },
+        {
+          "id": "PRE_FOR008",
+          "en": "look for",
+          "ru": "искать",
+          "example": {
+            "en": "I'm looking for my keys.",
+            "ru": "Я ищу свои ключи."
+          }
+        },
+        {
+          "id": "PRE_FOR009",
+          "en": "ready for",
+          "ru": "готовый к чему-либо",
+          "example": {
+            "en": "Are you ready for the test?",
+            "ru": "Ты готов к тесту?"
+          }
+        },
+        {
+          "id": "PRE_FOR010",
+          "en": "ask for",
+          "ru": "просить что-либо",
+          "example": {
+            "en": "You can ask for help.",
+            "ru": "Ты можешь попросить о помощи."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L05",
+      "order": 5,
+      "title": {
+        "en": "To",
+        "ru": "Выражения с «to»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_TO001",
+          "en": "go to work",
+          "ru": "идти на работу",
+          "example": {
+            "en": "I go to work by bus.",
+            "ru": "Я езжу на работу на автобусе."
+          }
+        },
+        {
+          "id": "PRE_TO002",
+          "en": "go to bed",
+          "ru": "ложиться спать",
+          "example": {
+            "en": "I go to bed at eleven.",
+            "ru": "Я ложусь спать в одиннадцать."
+          }
+        },
+        {
+          "id": "PRE_TO003",
+          "en": "listen to",
+          "ru": "слушать",
+          "example": {
+            "en": "I listen to music every day.",
+            "ru": "Я слушаю музыку каждый день."
+          }
+        },
+        {
+          "id": "PRE_TO004",
+          "en": "talk to",
+          "ru": "разговаривать с",
+          "example": {
+            "en": "I need to talk to you.",
+            "ru": "Мне нужно поговорить с тобой."
+          }
+        },
+        {
+          "id": "PRE_TO005",
+          "en": "write to",
+          "ru": "писать кому-либо",
+          "example": {
+            "en": "I wrote to my friend yesterday.",
+            "ru": "Вчера я написал другу."
+          }
+        },
+        {
+          "id": "PRE_TO006",
+          "en": "give it to me",
+          "ru": "дай это мне",
+          "example": {
+            "en": "Please give it to me.",
+            "ru": "Пожалуйста, дай это мне."
+          }
+        },
+        {
+          "id": "PRE_TO007",
+          "en": "welcome to",
+          "ru": "добро пожаловать в",
+          "example": {
+            "en": "Welcome to our school.",
+            "ru": "Добро пожаловать в нашу школу."
+          }
+        },
+        {
+          "id": "PRE_TO008",
+          "en": "next to",
+          "ru": "рядом с",
+          "example": {
+            "en": "The bank is next to the shop.",
+            "ru": "Банк находится рядом с магазином."
+          }
+        },
+        {
+          "id": "PRE_TO009",
+          "en": "from Monday to Friday",
+          "ru": "с понедельника по пятницу",
+          "example": {
+            "en": "I work from Monday to Friday.",
+            "ru": "Я работаю с понедельника по пятницу."
+          }
+        },
+        {
+          "id": "PRE_TO010",
+          "en": "want to learn",
+          "ru": "хотеть учиться",
+          "example": {
+            "en": "I want to learn English.",
+            "ru": "Я хочу учить английский."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L06",
+      "order": 6,
+      "title": {
+        "en": "From",
+        "ru": "Выражения с «from»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_FROM001",
+          "en": "from Uzbekistan",
+          "ru": "из Узбекистана",
+          "example": {
+            "en": "I'm from Uzbekistan.",
+            "ru": "Я из Узбекистана."
+          }
+        },
+        {
+          "id": "PRE_FROM002",
+          "en": "from work",
+          "ru": "с работы",
+          "example": {
+            "en": "I just got back from work.",
+            "ru": "Я только что вернулся с работы."
+          }
+        },
+        {
+          "id": "PRE_FROM003",
+          "en": "from home",
+          "ru": "из дома; от дома",
+          "example": {
+            "en": "I work from home twice a week.",
+            "ru": "Я работаю из дома два раза в неделю."
+          }
+        },
+        {
+          "id": "PRE_FROM004",
+          "en": "from 9 to 5",
+          "ru": "с девяти до пяти",
+          "example": {
+            "en": "The office is open from 9 to 5.",
+            "ru": "Офис открыт с девяти до пяти."
+          }
+        },
+        {
+          "id": "PRE_FROM005",
+          "en": "a message from",
+          "ru": "сообщение от",
+          "example": {
+            "en": "I got a message from my teacher.",
+            "ru": "Я получил сообщение от учителя."
+          }
+        },
+        {
+          "id": "PRE_FROM006",
+          "en": "different from",
+          "ru": "отличающийся от",
+          "example": {
+            "en": "This version is different from the old one.",
+            "ru": "Эта версия отличается от старой."
+          }
+        },
+        {
+          "id": "PRE_FROM007",
+          "en": "protect from",
+          "ru": "защищать от",
+          "example": {
+            "en": "This jacket protects you from the cold.",
+            "ru": "Эта куртка защищает от холода."
+          }
+        },
+        {
+          "id": "PRE_FROM008",
+          "en": "borrow from",
+          "ru": "занимать у",
+          "example": {
+            "en": "Can I borrow a pen from you?",
+            "ru": "Можно одолжить у тебя ручку?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L07",
+      "order": 7,
+      "title": {
+        "en": "With",
+        "ru": "Выражения с «with»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_WITH001",
+          "en": "with me",
+          "ru": "со мной",
+          "example": {
+            "en": "Come with me, please.",
+            "ru": "Пойдём со мной, пожалуйста."
+          }
+        },
+        {
+          "id": "PRE_WITH002",
+          "en": "with my family",
+          "ru": "с моей семьёй",
+          "example": {
+            "en": "I live with my family.",
+            "ru": "Я живу с семьёй."
+          }
+        },
+        {
+          "id": "PRE_WITH003",
+          "en": "with a friend",
+          "ru": "с другом",
+          "example": {
+            "en": "I went there with a friend.",
+            "ru": "Я ходил туда с другом."
+          }
+        },
+        {
+          "id": "PRE_WITH004",
+          "en": "a cup of tea with milk",
+          "ru": "чашка чая с молоком",
+          "example": {
+            "en": "I'd like tea with milk.",
+            "ru": "Я хотел бы чай с молоком."
+          }
+        },
+        {
+          "id": "PRE_WITH005",
+          "en": "help with",
+          "ru": "помогать с",
+          "example": {
+            "en": "Can you help me with my homework?",
+            "ru": "Можешь помочь мне с домашним заданием?"
+          }
+        },
+        {
+          "id": "PRE_WITH006",
+          "en": "agree with",
+          "ru": "соглашаться с",
+          "example": {
+            "en": "I agree with you.",
+            "ru": "Я с тобой согласен."
+          }
+        },
+        {
+          "id": "PRE_WITH007",
+          "en": "deal with",
+          "ru": "иметь дело с; справляться с",
+          "example": {
+            "en": "I can deal with this problem.",
+            "ru": "Я могу справиться с этой проблемой."
+          }
+        },
+        {
+          "id": "PRE_WITH008",
+          "en": "be careful with",
+          "ru": "быть осторожным с",
+          "example": {
+            "en": "Be careful with that glass.",
+            "ru": "Будь осторожен с этим стаканом."
+          }
+        },
+        {
+          "id": "PRE_WITH009",
+          "en": "happy with",
+          "ru": "довольный чем-либо",
+          "example": {
+            "en": "I'm happy with the result.",
+            "ru": "Я доволен результатом."
+          }
+        },
+        {
+          "id": "PRE_WITH010",
+          "en": "talk with",
+          "ru": "разговаривать с",
+          "example": {
+            "en": "I talked with my manager.",
+            "ru": "Я поговорил со своим менеджером."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L08",
+      "order": 8,
+      "title": {
+        "en": "About",
+        "ru": "Выражения с «about»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_ABOUT001",
+          "en": "talk about",
+          "ru": "говорить о",
+          "example": {
+            "en": "Let's talk about your plans.",
+            "ru": "Давай поговорим о твоих планах."
+          }
+        },
+        {
+          "id": "PRE_ABOUT002",
+          "en": "think about",
+          "ru": "думать о",
+          "example": {
+            "en": "I'm thinking about my future.",
+            "ru": "Я думаю о своём будущем."
+          }
+        },
+        {
+          "id": "PRE_ABOUT003",
+          "en": "know about",
+          "ru": "знать о",
+          "example": {
+            "en": "What do you know about this place?",
+            "ru": "Что ты знаешь об этом месте?"
+          }
+        },
+        {
+          "id": "PRE_ABOUT004",
+          "en": "learn about",
+          "ru": "узнавать о",
+          "example": {
+            "en": "We learned about the city at school.",
+            "ru": "В школе мы узнали об этом городе."
+          }
+        },
+        {
+          "id": "PRE_ABOUT005",
+          "en": "worry about",
+          "ru": "беспокоиться о",
+          "example": {
+            "en": "Don't worry about me.",
+            "ru": "Не беспокойся обо мне."
+          }
+        },
+        {
+          "id": "PRE_ABOUT006",
+          "en": "excited about",
+          "ru": "быть в предвкушении",
+          "example": {
+            "en": "I'm excited about the trip.",
+            "ru": "Я с нетерпением жду поездку."
+          }
+        },
+        {
+          "id": "PRE_ABOUT007",
+          "en": "about ten minutes",
+          "ru": "около десяти минут",
+          "example": {
+            "en": "It takes about ten minutes.",
+            "ru": "Это занимает около десяти минут."
+          }
+        },
+        {
+          "id": "PRE_ABOUT008",
+          "en": "what about...?",
+          "ru": "как насчёт...?",
+          "example": {
+            "en": "What about going for a walk?",
+            "ru": "Как насчёт прогулки?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L09",
+      "order": 9,
+      "title": {
+        "en": "Of",
+        "ru": "Выражения с «of»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_OF001",
+          "en": "a cup of tea",
+          "ru": "чашка чая",
+          "example": {
+            "en": "I'd like a cup of tea.",
+            "ru": "Я хотел бы чашку чая."
+          }
+        },
+        {
+          "id": "PRE_OF002",
+          "en": "a lot of",
+          "ru": "много",
+          "example": {
+            "en": "I have a lot of work today.",
+            "ru": "У меня сегодня много работы."
+          }
+        },
+        {
+          "id": "PRE_OF003",
+          "en": "a piece of",
+          "ru": "кусок; часть",
+          "example": {
+            "en": "Can I have a piece of cake?",
+            "ru": "Можно мне кусок торта?"
+          }
+        },
+        {
+          "id": "PRE_OF004",
+          "en": "one of my friends",
+          "ru": "один из моих друзей",
+          "example": {
+            "en": "He's one of my best friends.",
+            "ru": "Он один из моих лучших друзей."
+          }
+        },
+        {
+          "id": "PRE_OF005",
+          "en": "kind of",
+          "ru": "вроде; своего рода",
+          "example": {
+            "en": "It's kind of strange.",
+            "ru": "Это немного странно."
+          }
+        },
+        {
+          "id": "PRE_OF006",
+          "en": "afraid of",
+          "ru": "бояться",
+          "example": {
+            "en": "I'm afraid of spiders.",
+            "ru": "Я боюсь пауков."
+          }
+        },
+        {
+          "id": "PRE_OF007",
+          "en": "proud of",
+          "ru": "гордиться",
+          "example": {
+            "en": "I'm proud of you.",
+            "ru": "Я горжусь тобой."
+          }
+        },
+        {
+          "id": "PRE_OF008",
+          "en": "because of",
+          "ru": "из-за",
+          "example": {
+            "en": "The game was cancelled because of rain.",
+            "ru": "Игра была отменена из-за дождя."
+          }
+        },
+        {
+          "id": "PRE_OF009",
+          "en": "the end of the day",
+          "ru": "конец дня",
+          "example": {
+            "en": "I'll call you at the end of the day.",
+            "ru": "Я позвоню тебе в конце дня."
+          }
+        },
+        {
+          "id": "PRE_OF010",
+          "en": "a friend of mine",
+          "ru": "мой друг",
+          "example": {
+            "en": "A friend of mine lives nearby.",
+            "ru": "Один мой друг живёт неподалёку."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L10",
+      "order": 10,
+      "title": {
+        "en": "By",
+        "ru": "Выражения с «by»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_BY001",
+          "en": "by bus",
+          "ru": "на автобусе",
+          "example": {
+            "en": "I go to work by bus.",
+            "ru": "Я езжу на работу на автобусе."
+          }
+        },
+        {
+          "id": "PRE_BY002",
+          "en": "by car",
+          "ru": "на машине",
+          "example": {
+            "en": "We travelled by car.",
+            "ru": "Мы путешествовали на машине."
+          }
+        },
+        {
+          "id": "PRE_BY003",
+          "en": "by train",
+          "ru": "на поезде",
+          "example": {
+            "en": "You can get there by train.",
+            "ru": "Туда можно добраться на поезде."
+          }
+        },
+        {
+          "id": "PRE_BY004",
+          "en": "by myself",
+          "ru": "самостоятельно; один",
+          "example": {
+            "en": "I did it by myself.",
+            "ru": "Я сделал это самостоятельно."
+          }
+        },
+        {
+          "id": "PRE_BY005",
+          "en": "by the way",
+          "ru": "кстати",
+          "example": {
+            "en": "By the way, how's your brother?",
+            "ru": "Кстати, как твой брат?"
+          }
+        },
+        {
+          "id": "PRE_BY006",
+          "en": "by hand",
+          "ru": "вручную",
+          "example": {
+            "en": "This bag is made by hand.",
+            "ru": "Эта сумка сделана вручную."
+          }
+        },
+        {
+          "id": "PRE_BY007",
+          "en": "by mistake",
+          "ru": "по ошибке",
+          "example": {
+            "en": "I called you by mistake.",
+            "ru": "Я позвонил тебе по ошибке."
+          }
+        },
+        {
+          "id": "PRE_BY008",
+          "en": "by Friday",
+          "ru": "к пятнице",
+          "example": {
+            "en": "Please finish this by Friday.",
+            "ru": "Пожалуйста, закончи это к пятнице."
+          }
+        },
+        {
+          "id": "PRE_BY009",
+          "en": "written by",
+          "ru": "написанный кем-либо",
+          "example": {
+            "en": "This book was written by a famous author.",
+            "ru": "Эта книга написана известным автором."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L11",
+      "order": 11,
+      "title": {
+        "en": "Without",
+        "ru": "Выражения с «without»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_WITHOUT001",
+          "en": "without you",
+          "ru": "без тебя",
+          "example": {
+            "en": "I can't do this without you.",
+            "ru": "Я не могу сделать это без тебя."
+          }
+        },
+        {
+          "id": "PRE_WITHOUT002",
+          "en": "without a doubt",
+          "ru": "без сомнения",
+          "example": {
+            "en": "She is without a doubt the best person for the job.",
+            "ru": "Она, без сомнения, лучший кандидат на эту работу."
+          }
+        },
+        {
+          "id": "PRE_WITHOUT003",
+          "en": "without permission",
+          "ru": "без разрешения",
+          "example": {
+            "en": "You can't enter without permission.",
+            "ru": "Нельзя входить без разрешения."
+          }
+        },
+        {
+          "id": "PRE_WITHOUT004",
+          "en": "without any problems",
+          "ru": "без каких-либо проблем",
+          "example": {
+            "en": "We finished the work without any problems.",
+            "ru": "Мы закончили работу без каких-либо проблем."
+          }
+        },
+        {
+          "id": "PRE_WITHOUT005",
+          "en": "go without",
+          "ru": "обходиться без",
+          "example": {
+            "en": "I can't go without my phone.",
+            "ru": "Я не могу обходиться без телефона."
+          }
+        },
+        {
+          "id": "PRE_WITHOUT006",
+          "en": "coffee without sugar",
+          "ru": "кофе без сахара",
+          "example": {
+            "en": "I'd like coffee without sugar.",
+            "ru": "Я хотел бы кофе без сахара."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L12",
+      "order": 12,
+      "title": {
+        "en": "Before",
+        "ru": "Выражения с «before»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_BEFORE001",
+          "en": "before work",
+          "ru": "до работы",
+          "example": {
+            "en": "I exercise before work.",
+            "ru": "Я занимаюсь спортом до работы."
+          }
+        },
+        {
+          "id": "PRE_BEFORE002",
+          "en": "before lunch",
+          "ru": "до обеда",
+          "example": {
+            "en": "Let's finish this before lunch.",
+            "ru": "Давай закончим это до обеда."
+          }
+        },
+        {
+          "id": "PRE_BEFORE003",
+          "en": "before you go",
+          "ru": "перед тем как ты уйдёшь",
+          "example": {
+            "en": "Call me before you go.",
+            "ru": "Позвони мне перед уходом."
+          }
+        },
+        {
+          "id": "PRE_BEFORE004",
+          "en": "the day before",
+          "ru": "накануне",
+          "example": {
+            "en": "I saw him the day before.",
+            "ru": "Я видел его накануне."
+          }
+        },
+        {
+          "id": "PRE_BEFORE005",
+          "en": "before long",
+          "ru": "вскоре",
+          "example": {
+            "en": "You'll understand before long.",
+            "ru": "Скоро ты поймёшь."
+          }
+        },
+        {
+          "id": "PRE_BEFORE006",
+          "en": "before and after",
+          "ru": "до и после",
+          "example": {
+            "en": "Take a photo before and after.",
+            "ru": "Сделай фото до и после."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L13",
+      "order": 13,
+      "title": {
+        "en": "After",
+        "ru": "Выражения с «after»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_AFTER001",
+          "en": "after work",
+          "ru": "после работы",
+          "example": {
+            "en": "Let's meet after work.",
+            "ru": "Давай встретимся после работы."
+          }
+        },
+        {
+          "id": "PRE_AFTER002",
+          "en": "after school",
+          "ru": "после школы",
+          "example": {
+            "en": "I play football after school.",
+            "ru": "Я играю в футбол после школы."
+          }
+        },
+        {
+          "id": "PRE_AFTER003",
+          "en": "after lunch",
+          "ru": "после обеда",
+          "example": {
+            "en": "I'll call you after lunch.",
+            "ru": "Я позвоню тебе после обеда."
+          }
+        },
+        {
+          "id": "PRE_AFTER004",
+          "en": "look after",
+          "ru": "заботиться о",
+          "example": {
+            "en": "Can you look after my cat?",
+            "ru": "Можешь присмотреть за моей кошкой?"
+          }
+        },
+        {
+          "id": "PRE_AFTER005",
+          "en": "soon after",
+          "ru": "вскоре после",
+          "example": {
+            "en": "He arrived soon after me.",
+            "ru": "Он приехал вскоре после меня."
+          }
+        },
+        {
+          "id": "PRE_AFTER006",
+          "en": "day after day",
+          "ru": "день за днём",
+          "example": {
+            "en": "She practised day after day.",
+            "ru": "Она тренировалась день за днём."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L14",
+      "order": 14,
+      "title": {
+        "en": "During",
+        "ru": "Выражения с «during»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_DURING001",
+          "en": "during the day",
+          "ru": "в течение дня",
+          "example": {
+            "en": "I feel busy during the day.",
+            "ru": "В течение дня я занят."
+          }
+        },
+        {
+          "id": "PRE_DURING002",
+          "en": "during the meeting",
+          "ru": "во время встречи",
+          "example": {
+            "en": "Please don't use your phone during the meeting.",
+            "ru": "Пожалуйста, не пользуйся телефоном во время встречи."
+          }
+        },
+        {
+          "id": "PRE_DURING003",
+          "en": "during the night",
+          "ru": "в течение ночи",
+          "example": {
+            "en": "It rained during the night.",
+            "ru": "Ночью шёл дождь."
+          }
+        },
+        {
+          "id": "PRE_DURING004",
+          "en": "during the summer",
+          "ru": "летом; в течение лета",
+          "example": {
+            "en": "We stayed with our grandparents during the summer.",
+            "ru": "Летом мы жили у бабушки и дедушки."
+          }
+        },
+        {
+          "id": "PRE_DURING005",
+          "en": "during the lesson",
+          "ru": "во время урока",
+          "example": {
+            "en": "Don't talk during the lesson.",
+            "ru": "Не разговаривай во время урока."
+          }
+        },
+        {
+          "id": "PRE_DURING006",
+          "en": "during my holiday",
+          "ru": "во время моего отпуска",
+          "example": {
+            "en": "I read three books during my holiday.",
+            "ru": "Во время отпуска я прочитал три книги."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L15",
+      "order": 15,
+      "title": {
+        "en": "Between",
+        "ru": "Выражения с «between»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_BETWEEN001",
+          "en": "between you and me",
+          "ru": "между нами",
+          "example": {
+            "en": "Between you and me, I don't like this plan.",
+            "ru": "Между нами, мне не нравится этот план."
+          }
+        },
+        {
+          "id": "PRE_BETWEEN002",
+          "en": "between two buildings",
+          "ru": "между двумя зданиями",
+          "example": {
+            "en": "The café is between two buildings.",
+            "ru": "Кафе находится между двумя зданиями."
+          }
+        },
+        {
+          "id": "PRE_BETWEEN003",
+          "en": "between Monday and Friday",
+          "ru": "между понедельником и пятницей",
+          "example": {
+            "en": "I'll call you between Monday and Friday.",
+            "ru": "Я позвоню тебе с понедельника по пятницу."
+          }
+        },
+        {
+          "id": "PRE_BETWEEN004",
+          "en": "choose between",
+          "ru": "выбирать между",
+          "example": {
+            "en": "You must choose between these two options.",
+            "ru": "Ты должен выбрать между этими двумя вариантами."
+          }
+        },
+        {
+          "id": "PRE_BETWEEN005",
+          "en": "share between us",
+          "ru": "разделить между нами",
+          "example": {
+            "en": "Let's share the cost between us.",
+            "ru": "Давай разделим расходы между нами."
+          }
+        },
+        {
+          "id": "PRE_BETWEEN006",
+          "en": "the difference between",
+          "ru": "разница между",
+          "example": {
+            "en": "What's the difference between these words?",
+            "ru": "В чём разница между этими словами?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L16",
+      "order": 16,
+      "title": {
+        "en": "Among",
+        "ru": "Выражения с «among»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_AMONG001",
+          "en": "among friends",
+          "ru": "среди друзей",
+          "example": {
+            "en": "I feel comfortable among friends.",
+            "ru": "Я чувствую себя комфортно среди друзей."
+          }
+        },
+        {
+          "id": "PRE_AMONG002",
+          "en": "among the best",
+          "ru": "среди лучших",
+          "example": {
+            "en": "She's among the best students in class.",
+            "ru": "Она среди лучших учеников в классе."
+          }
+        },
+        {
+          "id": "PRE_AMONG003",
+          "en": "among other things",
+          "ru": "среди прочего",
+          "example": {
+            "en": "Among other things, we discussed the budget.",
+            "ru": "Среди прочего мы обсудили бюджет."
+          }
+        },
+        {
+          "id": "PRE_AMONG004",
+          "en": "share among yourselves",
+          "ru": "разделить между собой",
+          "example": {
+            "en": "Share the sweets among yourselves.",
+            "ru": "Разделите конфеты между собой."
+          }
+        },
+        {
+          "id": "PRE_AMONG005",
+          "en": "popular among young people",
+          "ru": "популярный среди молодёжи",
+          "example": {
+            "en": "This app is popular among young people.",
+            "ru": "Это приложение популярно среди молодёжи."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L17",
+      "order": 17,
+      "title": {
+        "en": "Under",
+        "ru": "Выражения с «under»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_UNDER001",
+          "en": "under the table",
+          "ru": "под столом",
+          "example": {
+            "en": "The cat is under the table.",
+            "ru": "Кошка под столом."
+          }
+        },
+        {
+          "id": "PRE_UNDER002",
+          "en": "under the bed",
+          "ru": "под кроватью",
+          "example": {
+            "en": "I found my shoes under the bed.",
+            "ru": "Я нашёл обувь под кроватью."
+          }
+        },
+        {
+          "id": "PRE_UNDER003",
+          "en": "under 18",
+          "ru": "младше 18 лет",
+          "example": {
+            "en": "Children under 18 can enter for free.",
+            "ru": "Дети младше 18 лет могут входить бесплатно."
+          }
+        },
+        {
+          "id": "PRE_UNDER004",
+          "en": "under pressure",
+          "ru": "под давлением",
+          "example": {
+            "en": "I work better when I'm not under pressure.",
+            "ru": "Я работаю лучше, когда на меня не давят."
+          }
+        },
+        {
+          "id": "PRE_UNDER005",
+          "en": "under control",
+          "ru": "под контролем",
+          "example": {
+            "en": "Don't worry; everything is under control.",
+            "ru": "Не волнуйся, всё под контролем."
+          }
+        },
+        {
+          "id": "PRE_UNDER006",
+          "en": "under construction",
+          "ru": "на реконструкции; строится",
+          "example": {
+            "en": "The road is under construction.",
+            "ru": "Дорога на ремонте."
+          }
+        },
+        {
+          "id": "PRE_UNDER007",
+          "en": "under the weather",
+          "ru": "плохо себя чувствовать",
+          "example": {
+            "en": "I'm feeling a bit under the weather today.",
+            "ru": "Сегодня я немного плохо себя чувствую."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L18",
+      "order": 18,
+      "title": {
+        "en": "Over",
+        "ru": "Выражения с «over»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_OVER001",
+          "en": "over the bridge",
+          "ru": "через мост",
+          "example": {
+            "en": "We walked over the bridge.",
+            "ru": "Мы прошли по мосту."
+          }
+        },
+        {
+          "id": "PRE_OVER002",
+          "en": "over there",
+          "ru": "вон там",
+          "example": {
+            "en": "The bus stop is over there.",
+            "ru": "Автобусная остановка вон там."
+          }
+        },
+        {
+          "id": "PRE_OVER003",
+          "en": "over 100 people",
+          "ru": "более 100 человек",
+          "example": {
+            "en": "Over 100 people came to the event.",
+            "ru": "На мероприятие пришло более 100 человек."
+          }
+        },
+        {
+          "id": "PRE_OVER004",
+          "en": "all over the world",
+          "ru": "по всему миру",
+          "example": {
+            "en": "People use this app all over the world.",
+            "ru": "Люди используют это приложение по всему миру."
+          }
+        },
+        {
+          "id": "PRE_OVER005",
+          "en": "over the weekend",
+          "ru": "за выходные",
+          "example": {
+            "en": "I finished the book over the weekend.",
+            "ru": "Я закончил книгу за выходные."
+          }
+        },
+        {
+          "id": "PRE_OVER006",
+          "en": "get over something",
+          "ru": "пережить; оправиться",
+          "example": {
+            "en": "It took me time to get over the flu.",
+            "ru": "Мне понадобилось время, чтобы оправиться после гриппа."
+          }
+        },
+        {
+          "id": "PRE_OVER007",
+          "en": "over and over again",
+          "ru": "снова и снова",
+          "example": {
+            "en": "I listened to the song over and over again.",
+            "ru": "Я слушал эту песню снова и снова."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L19",
+      "order": 19,
+      "title": {
+        "en": "Above",
+        "ru": "Выражения с «above»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_ABOVE001",
+          "en": "above the door",
+          "ru": "над дверью",
+          "example": {
+            "en": "There's a clock above the door.",
+            "ru": "Над дверью висят часы."
+          }
+        },
+        {
+          "id": "PRE_ABOVE002",
+          "en": "above average",
+          "ru": "выше среднего",
+          "example": {
+            "en": "Her English is above average.",
+            "ru": "Её английский выше среднего."
+          }
+        },
+        {
+          "id": "PRE_ABOVE003",
+          "en": "above all",
+          "ru": "прежде всего",
+          "example": {
+            "en": "Above all, be honest.",
+            "ru": "Прежде всего будь честным."
+          }
+        },
+        {
+          "id": "PRE_ABOVE004",
+          "en": "the temperature is above zero",
+          "ru": "температура выше нуля",
+          "example": {
+            "en": "The temperature is above zero today.",
+            "ru": "Сегодня температура выше нуля."
+          }
+        },
+        {
+          "id": "PRE_ABOVE005",
+          "en": "mentioned above",
+          "ru": "упомянутый выше",
+          "example": {
+            "en": "Please read the information mentioned above.",
+            "ru": "Пожалуйста, прочитай информацию, упомянутую выше."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L20",
+      "order": 20,
+      "title": {
+        "en": "Below",
+        "ru": "Выражения с «below»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_BELOW001",
+          "en": "below zero",
+          "ru": "ниже нуля",
+          "example": {
+            "en": "It's five degrees below zero.",
+            "ru": "Пять градусов ниже нуля."
+          }
+        },
+        {
+          "id": "PRE_BELOW002",
+          "en": "below average",
+          "ru": "ниже среднего",
+          "example": {
+            "en": "His score was below average.",
+            "ru": "Его результат был ниже среднего."
+          }
+        },
+        {
+          "id": "PRE_BELOW003",
+          "en": "below the window",
+          "ru": "под окном; ниже окна",
+          "example": {
+            "en": "The desk is below the window.",
+            "ru": "Стол находится под окном."
+          }
+        },
+        {
+          "id": "PRE_BELOW004",
+          "en": "see below",
+          "ru": "см. ниже",
+          "example": {
+            "en": "Please see the details below.",
+            "ru": "Подробности смотри ниже."
+          }
+        },
+        {
+          "id": "PRE_BELOW005",
+          "en": "below sea level",
+          "ru": "ниже уровня моря",
+          "example": {
+            "en": "Some parts of the city are below sea level.",
+            "ru": "Некоторые части города находятся ниже уровня моря."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L21",
+      "order": 21,
+      "title": {
+        "en": "Behind",
+        "ru": "Выражения с «behind»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_BEHIND001",
+          "en": "behind me",
+          "ru": "позади меня",
+          "example": {
+            "en": "Someone is standing behind me.",
+            "ru": "Кто-то стоит позади меня."
+          }
+        },
+        {
+          "id": "PRE_BEHIND002",
+          "en": "behind the house",
+          "ru": "за домом",
+          "example": {
+            "en": "There's a garden behind the house.",
+            "ru": "За домом есть сад."
+          }
+        },
+        {
+          "id": "PRE_BEHIND003",
+          "en": "behind schedule",
+          "ru": "с отставанием от графика",
+          "example": {
+            "en": "We're behind schedule.",
+            "ru": "Мы отстаём от графика."
+          }
+        },
+        {
+          "id": "PRE_BEHIND004",
+          "en": "behind the scenes",
+          "ru": "за кулисами",
+          "example": {
+            "en": "She works behind the scenes.",
+            "ru": "Она работает за кулисами."
+          }
+        },
+        {
+          "id": "PRE_BEHIND005",
+          "en": "fall behind",
+          "ru": "отставать",
+          "example": {
+            "en": "I missed a lesson and fell behind.",
+            "ru": "Я пропустил урок и отстал."
+          }
+        },
+        {
+          "id": "PRE_BEHIND006",
+          "en": "behind the wheel",
+          "ru": "за рулём",
+          "example": {
+            "en": "Never use your phone behind the wheel.",
+            "ru": "Никогда не пользуйся телефоном за рулём."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L22",
+      "order": 22,
+      "title": {
+        "en": "In Front of",
+        "ru": "Выражения с «in front of»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_IN_FRONT_OF001",
+          "en": "in front of the house",
+          "ru": "перед домом",
+          "example": {
+            "en": "The car is in front of the house.",
+            "ru": "Машина стоит перед домом."
+          }
+        },
+        {
+          "id": "PRE_IN_FRONT_OF002",
+          "en": "in front of me",
+          "ru": "передо мной",
+          "example": {
+            "en": "Please stand in front of me.",
+            "ru": "Пожалуйста, встань передо мной."
+          }
+        },
+        {
+          "id": "PRE_IN_FRONT_OF003",
+          "en": "in front of the bank",
+          "ru": "перед банком",
+          "example": {
+            "en": "I'll wait in front of the bank.",
+            "ru": "Я подожду перед банком."
+          }
+        },
+        {
+          "id": "PRE_IN_FRONT_OF004",
+          "en": "speak in front of people",
+          "ru": "выступать перед людьми",
+          "example": {
+            "en": "I'm nervous speaking in front of people.",
+            "ru": "Я нервничаю, когда выступаю перед людьми."
+          }
+        },
+        {
+          "id": "PRE_IN_FRONT_OF005",
+          "en": "right in front of you",
+          "ru": "прямо перед тобой",
+          "example": {
+            "en": "Your phone is right in front of you.",
+            "ru": "Твой телефон прямо перед тобой."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L23",
+      "order": 23,
+      "title": {
+        "en": "Next to",
+        "ru": "Выражения с «next to»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_NEXT_TO001",
+          "en": "next to me",
+          "ru": "рядом со мной",
+          "example": {
+            "en": "Please sit next to me.",
+            "ru": "Пожалуйста, сядь рядом со мной."
+          }
+        },
+        {
+          "id": "PRE_NEXT_TO002",
+          "en": "next to the bank",
+          "ru": "рядом с банком",
+          "example": {
+            "en": "The café is next to the bank.",
+            "ru": "Кафе находится рядом с банком."
+          }
+        },
+        {
+          "id": "PRE_NEXT_TO003",
+          "en": "live next to",
+          "ru": "жить по соседству",
+          "example": {
+            "en": "I live next to a small park.",
+            "ru": "Я живу рядом с небольшим парком."
+          }
+        },
+        {
+          "id": "PRE_NEXT_TO004",
+          "en": "sit next to someone",
+          "ru": "сидеть рядом с кем-либо",
+          "example": {
+            "en": "She sat next to her friend.",
+            "ru": "Она села рядом с подругой."
+          }
+        },
+        {
+          "id": "PRE_NEXT_TO005",
+          "en": "right next to",
+          "ru": "прямо рядом с",
+          "example": {
+            "en": "The pharmacy is right next to the clinic.",
+            "ru": "Аптека находится прямо рядом с клиникой."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L24",
+      "order": 24,
+      "title": {
+        "en": "Near",
+        "ru": "Выражения с «near»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_NEAR001",
+          "en": "near my house",
+          "ru": "рядом с моим домом",
+          "example": {
+            "en": "There's a shop near my house.",
+            "ru": "Рядом с моим домом есть магазин."
+          }
+        },
+        {
+          "id": "PRE_NEAR002",
+          "en": "near the station",
+          "ru": "рядом со станцией",
+          "example": {
+            "en": "Let's meet near the station.",
+            "ru": "Давай встретимся возле станции."
+          }
+        },
+        {
+          "id": "PRE_NEAR003",
+          "en": "near here",
+          "ru": "здесь поблизости",
+          "example": {
+            "en": "Is there a bank near here?",
+            "ru": "Здесь поблизости есть банк?"
+          }
+        },
+        {
+          "id": "PRE_NEAR004",
+          "en": "come near",
+          "ru": "подойти близко",
+          "example": {
+            "en": "Don't come near the dog.",
+            "ru": "Не подходи близко к собаке."
+          }
+        },
+        {
+          "id": "PRE_NEAR005",
+          "en": "near the end",
+          "ru": "ближе к концу",
+          "example": {
+            "en": "We're near the end of the lesson.",
+            "ru": "Мы близки к концу урока."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L25",
+      "order": 25,
+      "title": {
+        "en": "Across",
+        "ru": "Выражения с «across»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_ACROSS001",
+          "en": "across the street",
+          "ru": "через дорогу; на другой стороне улицы",
+          "example": {
+            "en": "The bank is across the street.",
+            "ru": "Банк находится на другой стороне улицы."
+          }
+        },
+        {
+          "id": "PRE_ACROSS002",
+          "en": "walk across the road",
+          "ru": "перейти дорогу",
+          "example": {
+            "en": "Look both ways before you walk across the road.",
+            "ru": "Посмотри в обе стороны перед тем, как переходить дорогу."
+          }
+        },
+        {
+          "id": "PRE_ACROSS003",
+          "en": "across the river",
+          "ru": "через реку; на другом берегу",
+          "example": {
+            "en": "There's a bridge across the river.",
+            "ru": "Через реку есть мост."
+          }
+        },
+        {
+          "id": "PRE_ACROSS004",
+          "en": "all across the country",
+          "ru": "по всей стране",
+          "example": {
+            "en": "The news spread all across the country.",
+            "ru": "Новость распространилась по всей стране."
+          }
+        },
+        {
+          "id": "PRE_ACROSS005",
+          "en": "across from",
+          "ru": "напротив",
+          "example": {
+            "en": "The hotel is across from the station.",
+            "ru": "Отель находится напротив станции."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L26",
+      "order": 26,
+      "title": {
+        "en": "Through",
+        "ru": "Выражения с «through»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_THROUGH001",
+          "en": "go through the door",
+          "ru": "пройти через дверь",
+          "example": {
+            "en": "Please go through the door on the left.",
+            "ru": "Пожалуйста, пройди через дверь слева."
+          }
+        },
+        {
+          "id": "PRE_THROUGH002",
+          "en": "through the window",
+          "ru": "через окно",
+          "example": {
+            "en": "Sunlight came through the window.",
+            "ru": "Солнечный свет проникал через окно."
+          }
+        },
+        {
+          "id": "PRE_THROUGH003",
+          "en": "all through the night",
+          "ru": "всю ночь",
+          "example": {
+            "en": "The baby cried all through the night.",
+            "ru": "Ребёнок плакал всю ночь."
+          }
+        },
+        {
+          "id": "PRE_THROUGH004",
+          "en": "read through",
+          "ru": "прочитать полностью; просмотреть",
+          "example": {
+            "en": "Please read through this message.",
+            "ru": "Пожалуйста, прочитай это сообщение полностью."
+          }
+        },
+        {
+          "id": "PRE_THROUGH005",
+          "en": "go through a difficult time",
+          "ru": "переживать трудный период",
+          "example": {
+            "en": "He's going through a difficult time.",
+            "ru": "Он переживает трудный период."
+          }
+        },
+        {
+          "id": "PRE_THROUGH006",
+          "en": "through hard work",
+          "ru": "благодаря упорной работе",
+          "example": {
+            "en": "She succeeded through hard work.",
+            "ru": "Она добилась успеха благодаря упорной работе."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L27",
+      "order": 27,
+      "title": {
+        "en": "Around",
+        "ru": "Выражения с «around»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_AROUND001",
+          "en": "around the world",
+          "ru": "по всему миру",
+          "example": {
+            "en": "I'd love to travel around the world.",
+            "ru": "Я хотел бы путешествовать по всему миру."
+          }
+        },
+        {
+          "id": "PRE_AROUND002",
+          "en": "around the corner",
+          "ru": "за углом; совсем скоро",
+          "example": {
+            "en": "The shop is around the corner.",
+            "ru": "Магазин находится за углом."
+          }
+        },
+        {
+          "id": "PRE_AROUND003",
+          "en": "look around",
+          "ru": "осмотреться",
+          "example": {
+            "en": "Let's look around the city.",
+            "ru": "Давай осмотрим город."
+          }
+        },
+        {
+          "id": "PRE_AROUND004",
+          "en": "walk around",
+          "ru": "гулять вокруг; ходить по",
+          "example": {
+            "en": "We walked around the park.",
+            "ru": "Мы гуляли по парку."
+          }
+        },
+        {
+          "id": "PRE_AROUND005",
+          "en": "around ten o'clock",
+          "ru": "около десяти часов",
+          "example": {
+            "en": "I'll arrive around ten o'clock.",
+            "ru": "Я приеду примерно в десять."
+          }
+        },
+        {
+          "id": "PRE_AROUND006",
+          "en": "come around",
+          "ru": "зайти; прийти в себя",
+          "example": {
+            "en": "Why don't you come around this evening?",
+            "ru": "Почему бы тебе не зайти сегодня вечером?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L28",
+      "order": 28,
+      "title": {
+        "en": "Into",
+        "ru": "Выражения с «into»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_INTO001",
+          "en": "go into the room",
+          "ru": "войти в комнату",
+          "example": {
+            "en": "She went into the room quietly.",
+            "ru": "Она тихо вошла в комнату."
+          }
+        },
+        {
+          "id": "PRE_INTO002",
+          "en": "get into the car",
+          "ru": "сесть в машину",
+          "example": {
+            "en": "Get into the car, please.",
+            "ru": "Садись в машину, пожалуйста."
+          }
+        },
+        {
+          "id": "PRE_INTO003",
+          "en": "turn into",
+          "ru": "превратиться в",
+          "example": {
+            "en": "The water turned into ice.",
+            "ru": "Вода превратилась в лёд."
+          }
+        },
+        {
+          "id": "PRE_INTO004",
+          "en": "look into a problem",
+          "ru": "изучить проблему",
+          "example": {
+            "en": "We'll look into the problem tomorrow.",
+            "ru": "Мы изучим проблему завтра."
+          }
+        },
+        {
+          "id": "PRE_INTO005",
+          "en": "be into music",
+          "ru": "увлекаться музыкой",
+          "example": {
+            "en": "He's really into music.",
+            "ru": "Он очень увлекается музыкой."
+          }
+        },
+        {
+          "id": "PRE_INTO006",
+          "en": "run into a friend",
+          "ru": "случайно встретить друга",
+          "example": {
+            "en": "I ran into a friend at the market.",
+            "ru": "Я случайно встретил друга на рынке."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L29",
+      "order": 29,
+      "title": {
+        "en": "Out of",
+        "ru": "Выражения с «out of»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_OUT_OF001",
+          "en": "get out of the car",
+          "ru": "выйти из машины",
+          "example": {
+            "en": "Please get out of the car.",
+            "ru": "Пожалуйста, выйди из машины."
+          }
+        },
+        {
+          "id": "PRE_OUT_OF002",
+          "en": "out of time",
+          "ru": "время вышло; не осталось времени",
+          "example": {
+            "en": "We're out of time.",
+            "ru": "У нас закончилось время."
+          }
+        },
+        {
+          "id": "PRE_OUT_OF003",
+          "en": "out of money",
+          "ru": "без денег; деньги закончились",
+          "example": {
+            "en": "I'm almost out of money.",
+            "ru": "У меня почти закончились деньги."
+          }
+        },
+        {
+          "id": "PRE_OUT_OF004",
+          "en": "out of order",
+          "ru": "не работает; неисправен",
+          "example": {
+            "en": "The lift is out of order.",
+            "ru": "Лифт не работает."
+          }
+        },
+        {
+          "id": "PRE_OUT_OF005",
+          "en": "out of date",
+          "ru": "устаревший; просроченный",
+          "example": {
+            "en": "This information is out of date.",
+            "ru": "Эта информация устарела."
+          }
+        },
+        {
+          "id": "PRE_OUT_OF006",
+          "en": "out of breath",
+          "ru": "запыхавшийся",
+          "example": {
+            "en": "I was out of breath after running.",
+            "ru": "После бега я запыхался."
+          }
+        },
+        {
+          "id": "PRE_OUT_OF007",
+          "en": "get out of trouble",
+          "ru": "выйти из затруднительного положения",
+          "example": {
+            "en": "He helped me get out of trouble.",
+            "ru": "Он помог мне выйти из затруднительного положения."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L30",
+      "order": 30,
+      "title": {
+        "en": "Up",
+        "ru": "Выражения с «up»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_UP001",
+          "en": "stand up",
+          "ru": "встать",
+          "example": {
+            "en": "Please stand up.",
+            "ru": "Пожалуйста, встань."
+          }
+        },
+        {
+          "id": "PRE_UP002",
+          "en": "get up",
+          "ru": "вставать",
+          "example": {
+            "en": "I get up at seven.",
+            "ru": "Я встаю в семь."
+          }
+        },
+        {
+          "id": "PRE_UP003",
+          "en": "go up the stairs",
+          "ru": "подниматься по лестнице",
+          "example": {
+            "en": "We went up the stairs.",
+            "ru": "Мы поднялись по лестнице."
+          }
+        },
+        {
+          "id": "PRE_UP004",
+          "en": "wake up",
+          "ru": "просыпаться",
+          "example": {
+            "en": "I wake up early on weekdays.",
+            "ru": "По будням я рано просыпаюсь."
+          }
+        },
+        {
+          "id": "PRE_UP005",
+          "en": "pick up",
+          "ru": "поднять; забрать",
+          "example": {
+            "en": "Can you pick up the bag?",
+            "ru": "Можешь поднять сумку?"
+          }
+        },
+        {
+          "id": "PRE_UP006",
+          "en": "hurry up",
+          "ru": "поторопиться",
+          "example": {
+            "en": "Hurry up or we'll be late.",
+            "ru": "Поторопись, иначе мы опоздаем."
+          }
+        },
+        {
+          "id": "PRE_UP007",
+          "en": "clean up",
+          "ru": "убраться",
+          "example": {
+            "en": "Let's clean up the kitchen.",
+            "ru": "Давай уберёмся на кухне."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L31",
+      "order": 31,
+      "title": {
+        "en": "Down",
+        "ru": "Выражения с «down»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_DOWN001",
+          "en": "sit down",
+          "ru": "сесть",
+          "example": {
+            "en": "Please sit down.",
+            "ru": "Пожалуйста, садись."
+          }
+        },
+        {
+          "id": "PRE_DOWN002",
+          "en": "go down the stairs",
+          "ru": "спуститься по лестнице",
+          "example": {
+            "en": "He went down the stairs.",
+            "ru": "Он спустился по лестнице."
+          }
+        },
+        {
+          "id": "PRE_DOWN003",
+          "en": "slow down",
+          "ru": "сбавить скорость; замедлиться",
+          "example": {
+            "en": "Please slow down.",
+            "ru": "Пожалуйста, сбавь скорость."
+          }
+        },
+        {
+          "id": "PRE_DOWN004",
+          "en": "write down",
+          "ru": "записать",
+          "example": {
+            "en": "Write down the new words.",
+            "ru": "Запиши новые слова."
+          }
+        },
+        {
+          "id": "PRE_DOWN005",
+          "en": "calm down",
+          "ru": "успокоиться",
+          "example": {
+            "en": "Take a breath and calm down.",
+            "ru": "Вдохни и успокойся."
+          }
+        },
+        {
+          "id": "PRE_DOWN006",
+          "en": "turn down the volume",
+          "ru": "уменьшить громкость",
+          "example": {
+            "en": "Turn down the volume, please.",
+            "ru": "Уменьши громкость, пожалуйста."
+          }
+        },
+        {
+          "id": "PRE_DOWN007",
+          "en": "break down",
+          "ru": "сломаться",
+          "example": {
+            "en": "My car broke down yesterday.",
+            "ru": "Моя машина сломалась вчера."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L32",
+      "order": 32,
+      "title": {
+        "en": "Off",
+        "ru": "Выражения с «off»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_OFF001",
+          "en": "turn off the light",
+          "ru": "выключить свет",
+          "example": {
+            "en": "Please turn off the light.",
+            "ru": "Пожалуйста, выключи свет."
+          }
+        },
+        {
+          "id": "PRE_OFF002",
+          "en": "take off your shoes",
+          "ru": "снять обувь",
+          "example": {
+            "en": "Take off your shoes at the door.",
+            "ru": "Сними обувь у двери."
+          }
+        },
+        {
+          "id": "PRE_OFF003",
+          "en": "get off the bus",
+          "ru": "выйти из автобуса",
+          "example": {
+            "en": "We get off at the next stop.",
+            "ru": "Мы выходим на следующей остановке."
+          }
+        },
+        {
+          "id": "PRE_OFF004",
+          "en": "the day off",
+          "ru": "выходной день",
+          "example": {
+            "en": "I have a day off tomorrow.",
+            "ru": "Завтра у меня выходной."
+          }
+        },
+        {
+          "id": "PRE_OFF005",
+          "en": "be off work",
+          "ru": "не работать; быть выходным",
+          "example": {
+            "en": "I'm off work today.",
+            "ru": "Сегодня я не работаю."
+          }
+        },
+        {
+          "id": "PRE_OFF006",
+          "en": "go off",
+          "ru": "зазвонить; сработать",
+          "example": {
+            "en": "My alarm went off at six.",
+            "ru": "Мой будильник зазвонил в шесть."
+          }
+        },
+        {
+          "id": "PRE_OFF007",
+          "en": "put off",
+          "ru": "отложить",
+          "example": {
+            "en": "Don't put off your homework.",
+            "ru": "Не откладывай домашнее задание."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L33",
+      "order": 33,
+      "title": {
+        "en": "Past",
+        "ru": "Выражения с «past»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_PAST001",
+          "en": "walk past",
+          "ru": "пройти мимо",
+          "example": {
+            "en": "I walked past the school.",
+            "ru": "Я прошёл мимо школы."
+          }
+        },
+        {
+          "id": "PRE_PAST002",
+          "en": "drive past",
+          "ru": "проехать мимо",
+          "example": {
+            "en": "We drove past the stadium.",
+            "ru": "Мы проехали мимо стадиона."
+          }
+        },
+        {
+          "id": "PRE_PAST003",
+          "en": "half past six",
+          "ru": "половина седьмого",
+          "example": {
+            "en": "The meeting starts at half past six.",
+            "ru": "Встреча начинается в половине седьмого."
+          }
+        },
+        {
+          "id": "PRE_PAST004",
+          "en": "past midnight",
+          "ru": "после полуночи",
+          "example": {
+            "en": "I went to bed past midnight.",
+            "ru": "Я лёг спать после полуночи."
+          }
+        },
+        {
+          "id": "PRE_PAST005",
+          "en": "it's past your bedtime",
+          "ru": "уже пора спать",
+          "example": {
+            "en": "It's past your bedtime.",
+            "ru": "Тебе уже пора спать."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PR-L34",
+      "order": 34,
+      "title": {
+        "en": "Towards",
+        "ru": "Выражения с «towards»"
+      },
+      "phrases": [
+        {
+          "id": "PRE_TOWARDS001",
+          "en": "walk towards me",
+          "ru": "идти ко мне",
+          "example": {
+            "en": "Walk towards me slowly.",
+            "ru": "Медленно иди ко мне."
+          }
+        },
+        {
+          "id": "PRE_TOWARDS002",
+          "en": "move towards the door",
+          "ru": "двигаться к двери",
+          "example": {
+            "en": "Everyone moved towards the door.",
+            "ru": "Все двинулись к двери."
+          }
+        },
+        {
+          "id": "PRE_TOWARDS003",
+          "en": "head towards the station",
+          "ru": "направляться к станции",
+          "example": {
+            "en": "We headed towards the station.",
+            "ru": "Мы направились к станции."
+          }
+        },
+        {
+          "id": "PRE_TOWARDS004",
+          "en": "work towards a goal",
+          "ru": "работать над достижением цели",
+          "example": {
+            "en": "I'm working towards my goal.",
+            "ru": "Я работаю над достижением своей цели."
+          }
+        },
+        {
+          "id": "PRE_TOWARDS005",
+          "en": "be friendly towards someone",
+          "ru": "быть дружелюбным к кому-либо",
+          "example": {
+            "en": "She was friendly towards everyone.",
+            "ru": "Она была дружелюбна со всеми."
+          }
+        }
+      ]
+    }
+  ]
+}

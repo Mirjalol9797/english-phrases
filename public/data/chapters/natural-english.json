@@ -1,0 +1,1212 @@
+{
+  "id": "natural-english",
+  "order": 10,
+  "prefix": "NE",
+  "kind": "phrases",
+  "title": {
+    "en": "Natural English",
+    "ru": "Естественный разговорный английский"
+  },
+  "lessons": [
+    {
+      "id": "NE-L01",
+      "order": 1,
+      "title": {
+        "en": "Natural reactions",
+        "ru": "Естественные реакции"
+      },
+      "phrases": [
+        {
+          "id": "NE001",
+          "en": "No way!",
+          "ru": "Да ладно! / Не может быть!"
+        },
+        {
+          "id": "NE002",
+          "en": "You must be kidding.",
+          "ru": "Ты, должно быть, шутишь."
+        },
+        {
+          "id": "NE003",
+          "en": "That figures.",
+          "ru": "Так и думал(а). / Неудивительно."
+        },
+        {
+          "id": "NE004",
+          "en": "Fair enough.",
+          "ru": "Ладно, справедливо."
+        },
+        {
+          "id": "NE005",
+          "en": "I get it.",
+          "ru": "Понимаю."
+        },
+        {
+          "id": "NE006",
+          "en": "Makes sense.",
+          "ru": "Логично."
+        },
+        {
+          "id": "NE007",
+          "en": "Good point.",
+          "ru": "Хорошее замечание."
+        },
+        {
+          "id": "NE008",
+          "en": "I hear you.",
+          "ru": "Я тебя понимаю."
+        },
+        {
+          "id": "NE009",
+          "en": "Tell me about it.",
+          "ru": "И не говори!"
+        },
+        {
+          "id": "NE010",
+          "en": "You can say that again.",
+          "ru": "Ещё бы! / Полностью согласен(на)."
+        }
+      ]
+    },
+    {
+      "id": "NE-L02",
+      "order": 2,
+      "title": {
+        "en": "Common informal phrases",
+        "ru": "Частые неформальные фразы"
+      },
+      "phrases": [
+        {
+          "id": "NE011",
+          "en": "What's up?",
+          "ru": "Что нового? / Как дела?"
+        },
+        {
+          "id": "NE012",
+          "en": "I'm good.",
+          "ru": "У меня всё хорошо."
+        },
+        {
+          "id": "NE013",
+          "en": "Not much.",
+          "ru": "Ничего особенного."
+        },
+        {
+          "id": "NE014",
+          "en": "No big deal.",
+          "ru": "Ничего страшного."
+        },
+        {
+          "id": "NE015",
+          "en": "My bad.",
+          "ru": "Моя вина."
+        },
+        {
+          "id": "NE016",
+          "en": "I'm in.",
+          "ru": "Я согласен / я участвую."
+        },
+        {
+          "id": "NE017",
+          "en": "I'm out.",
+          "ru": "Я пас."
+        },
+        {
+          "id": "NE018",
+          "en": "Sounds like a plan.",
+          "ru": "Отличный план."
+        },
+        {
+          "id": "NE019",
+          "en": "Works for me.",
+          "ru": "Меня устраивает."
+        },
+        {
+          "id": "NE020",
+          "en": "I'm down for that.",
+          "ru": "Я за / я не против."
+        }
+      ]
+    },
+    {
+      "id": "NE-L03",
+      "order": 3,
+      "title": {
+        "en": "Natural agreement",
+        "ru": "Естественное согласие"
+      },
+      "phrases": [
+        {
+          "id": "NE021",
+          "en": "Absolutely.",
+          "ru": "Определённо."
+        },
+        {
+          "id": "NE022",
+          "en": "For sure.",
+          "ru": "Точно. / Конечно."
+        },
+        {
+          "id": "NE023",
+          "en": "Totally.",
+          "ru": "Полностью согласен(на)."
+        },
+        {
+          "id": "NE024",
+          "en": "You bet.",
+          "ru": "Ещё бы. / Конечно."
+        },
+        {
+          "id": "NE025",
+          "en": "I'm with you on that.",
+          "ru": "В этом я с тобой согласен(на)."
+        },
+        {
+          "id": "NE026",
+          "en": "Couldn't have said it better.",
+          "ru": "Лучше и не скажешь."
+        },
+        {
+          "id": "NE027",
+          "en": "That's exactly it.",
+          "ru": "Именно так."
+        },
+        {
+          "id": "NE028",
+          "en": "I'm all for it.",
+          "ru": "Я полностью за."
+        },
+        {
+          "id": "NE029",
+          "en": "Count me in.",
+          "ru": "Считайте меня участником."
+        },
+        {
+          "id": "NE030",
+          "en": "You've got a point there.",
+          "ru": "В этом ты прав(а)."
+        }
+      ]
+    },
+    {
+      "id": "NE-L04",
+      "order": 4,
+      "title": {
+        "en": "Natural disagreement",
+        "ru": "Естественное несогласие"
+      },
+      "phrases": [
+        {
+          "id": "NE031",
+          "en": "I don't know about that.",
+          "ru": "Не уверен(а) насчёт этого."
+        },
+        {
+          "id": "NE032",
+          "en": "I'm not so sure.",
+          "ru": "Я не так уж уверен(а)."
+        },
+        {
+          "id": "NE033",
+          "en": "Not quite.",
+          "ru": "Не совсем."
+        },
+        {
+          "id": "NE034",
+          "en": "I wouldn't go that far.",
+          "ru": "Я бы не стал(а) так далеко заходить."
+        },
+        {
+          "id": "NE035",
+          "en": "That's not how I see it.",
+          "ru": "Я вижу это иначе."
+        },
+        {
+          "id": "NE036",
+          "en": "I beg to differ.",
+          "ru": "Позволю себе не согласиться."
+        },
+        {
+          "id": "NE037",
+          "en": "Maybe, but...",
+          "ru": "Возможно, но..."
+        },
+        {
+          "id": "NE038",
+          "en": "I get what you're saying, but...",
+          "ru": "Я понимаю, что ты говоришь, но..."
+        },
+        {
+          "id": "NE039",
+          "en": "I'm not buying it.",
+          "ru": "Я в это не верю."
+        },
+        {
+          "id": "NE040",
+          "en": "Let's agree to disagree.",
+          "ru": "Давай останемся каждый при своём мнении."
+        }
+      ]
+    },
+    {
+      "id": "NE-L05",
+      "order": 5,
+      "title": {
+        "en": "Sounding less formal",
+        "ru": "Менее формальная речь"
+      },
+      "phrases": [
+        {
+          "id": "NE041",
+          "en": "A bit",
+          "ru": "Немного."
+        },
+        {
+          "id": "NE042",
+          "en": "Kind of",
+          "ru": "Вроде как; своего рода."
+        },
+        {
+          "id": "NE043",
+          "en": "Sort of",
+          "ru": "В некотором смысле."
+        },
+        {
+          "id": "NE044",
+          "en": "Pretty much",
+          "ru": "В основном; практически."
+        },
+        {
+          "id": "NE045",
+          "en": "More or less",
+          "ru": "Более или менее."
+        },
+        {
+          "id": "NE046",
+          "en": "A bunch of",
+          "ru": "Много; целая куча."
+        },
+        {
+          "id": "NE047",
+          "en": "Loads of",
+          "ru": "Очень много."
+        },
+        {
+          "id": "NE048",
+          "en": "A couple of",
+          "ru": "Пара; несколько."
+        },
+        {
+          "id": "NE049",
+          "en": "Stuff like that",
+          "ru": "Что-то в этом роде."
+        },
+        {
+          "id": "NE050",
+          "en": "And things like that",
+          "ru": "И тому подобное."
+        }
+      ]
+    },
+    {
+      "id": "NE-L06",
+      "order": 6,
+      "title": {
+        "en": "Talking about plans",
+        "ru": "Разговор о планах"
+      },
+      "phrases": [
+        {
+          "id": "NE051",
+          "en": "I'm up for it.",
+          "ru": "Я не против / я за."
+        },
+        {
+          "id": "NE052",
+          "en": "Let's play it by ear.",
+          "ru": "Будем решать по ходу дела."
+        },
+        {
+          "id": "NE053",
+          "en": "I'm not sure yet.",
+          "ru": "Я пока не уверен(а)."
+        },
+        {
+          "id": "NE054",
+          "en": "I'll see how I feel.",
+          "ru": "Посмотрю по самочувствию."
+        },
+        {
+          "id": "NE055",
+          "en": "Let's see what happens.",
+          "ru": "Посмотрим, что будет."
+        },
+        {
+          "id": "NE056",
+          "en": "I'm thinking about it.",
+          "ru": "Я об этом думаю."
+        },
+        {
+          "id": "NE057",
+          "en": "I'm leaning toward staying in.",
+          "ru": "Я склоняюсь к тому, чтобы остаться дома."
+        },
+        {
+          "id": "NE058",
+          "en": "It's still up in the air.",
+          "ru": "Это пока не решено."
+        },
+        {
+          "id": "NE059",
+          "en": "I'll keep you posted.",
+          "ru": "Буду держать тебя в курсе."
+        },
+        {
+          "id": "NE060",
+          "en": "Let's make it happen.",
+          "ru": "Давай сделаем так, чтобы это произошло."
+        }
+      ]
+    },
+    {
+      "id": "NE-L07",
+      "order": 7,
+      "title": {
+        "en": "Reassuring naturally",
+        "ru": "Естественное успокоение"
+      },
+      "phrases": [
+        {
+          "id": "NE061",
+          "en": "You're all good.",
+          "ru": "Всё нормально."
+        },
+        {
+          "id": "NE062",
+          "en": "Don't sweat it.",
+          "ru": "Не переживай."
+        },
+        {
+          "id": "NE063",
+          "en": "It's all good.",
+          "ru": "Всё хорошо."
+        },
+        {
+          "id": "NE064",
+          "en": "No biggie.",
+          "ru": "Ничего страшного."
+        },
+        {
+          "id": "NE065",
+          "en": "It'll work out.",
+          "ru": "Всё наладится."
+        },
+        {
+          "id": "NE066",
+          "en": "We've all been there.",
+          "ru": "Со всеми такое бывало."
+        },
+        {
+          "id": "NE067",
+          "en": "Take it easy.",
+          "ru": "Не переживай; полегче."
+        },
+        {
+          "id": "NE068",
+          "en": "You're doing fine.",
+          "ru": "У тебя всё хорошо получается."
+        },
+        {
+          "id": "NE069",
+          "en": "It's not the end of the world.",
+          "ru": "Это не конец света."
+        },
+        {
+          "id": "NE070",
+          "en": "One thing at a time.",
+          "ru": "По одному делу за раз."
+        }
+      ]
+    },
+    {
+      "id": "NE-L08",
+      "order": 8,
+      "title": {
+        "en": "Everyday emphasis",
+        "ru": "Усиление мысли"
+      },
+      "phrases": [
+        {
+          "id": "NE071",
+          "en": "I literally can't.",
+          "ru": "Я буквально не могу (разг.)."
+        },
+        {
+          "id": "NE072",
+          "en": "I'm so done with this.",
+          "ru": "С меня хватит этого."
+        },
+        {
+          "id": "NE073",
+          "en": "That's a whole different story.",
+          "ru": "Это совсем другая история."
+        },
+        {
+          "id": "NE074",
+          "en": "It's such a pain.",
+          "ru": "Это такая морока."
+        },
+        {
+          "id": "NE075",
+          "en": "I'm really into it.",
+          "ru": "Мне это очень нравится."
+        },
+        {
+          "id": "NE076",
+          "en": "It's super easy.",
+          "ru": "Это очень просто."
+        },
+        {
+          "id": "NE077",
+          "en": "I'm dead tired.",
+          "ru": "Я смертельно устал(а)."
+        },
+        {
+          "id": "NE078",
+          "en": "That was a close call.",
+          "ru": "Чуть не случилась беда."
+        },
+        {
+          "id": "NE079",
+          "en": "It's way too expensive.",
+          "ru": "Это слишком дорого."
+        },
+        {
+          "id": "NE080",
+          "en": "I'm not even joking.",
+          "ru": "Я даже не шучу."
+        }
+      ]
+    },
+    {
+      "id": "NE-L09",
+      "order": 9,
+      "title": {
+        "en": "Softening what you say",
+        "ru": "Смягчение высказываний"
+      },
+      "phrases": [
+        {
+          "id": "NE081",
+          "en": "I guess...",
+          "ru": "Полагаю..."
+        },
+        {
+          "id": "NE082",
+          "en": "I suppose...",
+          "ru": "Думаю... / Полагаю..."
+        },
+        {
+          "id": "NE083",
+          "en": "Maybe it's just me, but...",
+          "ru": "Может, это только мне кажется, но..."
+        },
+        {
+          "id": "NE084",
+          "en": "I could be wrong.",
+          "ru": "Возможно, я ошибаюсь."
+        },
+        {
+          "id": "NE085",
+          "en": "As far as I can tell...",
+          "ru": "Насколько я могу судить..."
+        },
+        {
+          "id": "NE086",
+          "en": "If that makes sense.",
+          "ru": "Если я понятно объяснил(а)."
+        },
+        {
+          "id": "NE087",
+          "en": "I don't mean to be rude.",
+          "ru": "Я не хочу показаться грубым / грубой."
+        },
+        {
+          "id": "NE088",
+          "en": "To be fair...",
+          "ru": "Справедливости ради..."
+        },
+        {
+          "id": "NE089",
+          "en": "I see what you mean, though.",
+          "ru": "Хотя я понимаю, что ты имеешь в виду."
+        },
+        {
+          "id": "NE090",
+          "en": "That's just my take on it.",
+          "ru": "Это просто мой взгляд на ситуацию."
+        }
+      ]
+    },
+    {
+      "id": "NE-L10",
+      "order": 10,
+      "title": {
+        "en": "Telling stories",
+        "ru": "Рассказ историй"
+      },
+      "phrases": [
+        {
+          "id": "NE091",
+          "en": "So, guess what happened.",
+          "ru": "Так вот, угадай, что случилось."
+        },
+        {
+          "id": "NE092",
+          "en": "Long story short...",
+          "ru": "Короче говоря..."
+        },
+        {
+          "id": "NE093",
+          "en": "You won't believe this.",
+          "ru": "Ты в это не поверишь."
+        },
+        {
+          "id": "NE094",
+          "en": "Here's the funny part.",
+          "ru": "А вот тут самое смешное."
+        },
+        {
+          "id": "NE095",
+          "en": "Out of nowhere...",
+          "ru": "Совершенно неожиданно..."
+        },
+        {
+          "id": "NE096",
+          "en": "Before I knew it...",
+          "ru": "Не успел(а) я опомниться, как..."
+        },
+        {
+          "id": "NE097",
+          "en": "Next thing I knew...",
+          "ru": "И вдруг оказалось, что..."
+        },
+        {
+          "id": "NE098",
+          "en": "It turned out that...",
+          "ru": "Оказалось, что..."
+        },
+        {
+          "id": "NE099",
+          "en": "The best part was...",
+          "ru": "Самое лучшее было то, что..."
+        },
+        {
+          "id": "NE100",
+          "en": "That's how it all started.",
+          "ru": "Вот так всё и началось."
+        }
+      ]
+    },
+    {
+      "id": "NE-L11",
+      "order": 11,
+      "title": {
+        "en": "Everyday idiomatic phrases",
+        "ru": "Идиоматические фразы"
+      },
+      "phrases": [
+        {
+          "id": "NE101",
+          "en": "It's up to you.",
+          "ru": "Решать тебе."
+        },
+        {
+          "id": "NE102",
+          "en": "Give it a shot.",
+          "ru": "Попробуй."
+        },
+        {
+          "id": "NE103",
+          "en": "Hang in there.",
+          "ru": "Держись."
+        },
+        {
+          "id": "NE104",
+          "en": "Fingers crossed.",
+          "ru": "Будем надеяться; держу кулачки."
+        },
+        {
+          "id": "NE105",
+          "en": "I'm all ears.",
+          "ru": "Я весь внимание."
+        },
+        {
+          "id": "NE106",
+          "en": "It's not my cup of tea.",
+          "ru": "Это не в моём вкусе."
+        },
+        {
+          "id": "NE107",
+          "en": "Better late than never.",
+          "ru": "Лучше поздно, чем никогда."
+        },
+        {
+          "id": "NE108",
+          "en": "So far, so good.",
+          "ru": "Пока всё хорошо."
+        },
+        {
+          "id": "NE109",
+          "en": "The sooner, the better.",
+          "ru": "Чем скорее, тем лучше."
+        },
+        {
+          "id": "NE110",
+          "en": "That's the last straw.",
+          "ru": "Это последняя капля."
+        }
+      ]
+    },
+    {
+      "id": "NE-L12",
+      "order": 12,
+      "title": {
+        "en": "Responding to news",
+        "ru": "Реакция на новости"
+      },
+      "phrases": [
+        {
+          "id": "NE111",
+          "en": "That's awesome!",
+          "ru": "Это потрясающе!"
+        },
+        {
+          "id": "NE112",
+          "en": "That's rough.",
+          "ru": "Непросто тебе пришлось."
+        },
+        {
+          "id": "NE113",
+          "en": "What a bummer.",
+          "ru": "Как обидно."
+        },
+        {
+          "id": "NE114",
+          "en": "I'm happy for you.",
+          "ru": "Я рад(а) за тебя."
+        },
+        {
+          "id": "NE115",
+          "en": "You deserve it.",
+          "ru": "Ты это заслужил(а)."
+        },
+        {
+          "id": "NE116",
+          "en": "That's a relief.",
+          "ru": "Какое облегчение."
+        },
+        {
+          "id": "NE117",
+          "en": "I didn't see that coming.",
+          "ru": "Я этого не ожидал(а)."
+        },
+        {
+          "id": "NE118",
+          "en": "Good for you!",
+          "ru": "Рад(а) за тебя!"
+        },
+        {
+          "id": "NE119",
+          "en": "That's unfortunate.",
+          "ru": "Как неудачно."
+        },
+        {
+          "id": "NE120",
+          "en": "I'm sorry to hear that.",
+          "ru": "Мне жаль это слышать."
+        }
+      ]
+    },
+    {
+      "id": "NE-L13",
+      "order": 13,
+      "title": {
+        "en": "Casual invitations",
+        "ru": "Неформальные приглашения"
+      },
+      "phrases": [
+        {
+          "id": "NE121",
+          "en": "Wanna grab a bite?",
+          "ru": "Хочешь перекусить?"
+        },
+        {
+          "id": "NE122",
+          "en": "Fancy a coffee?",
+          "ru": "Хочешь кофе?"
+        },
+        {
+          "id": "NE123",
+          "en": "Do you wanna come along?",
+          "ru": "Хочешь пойти с нами?"
+        },
+        {
+          "id": "NE124",
+          "en": "I'm game.",
+          "ru": "Я за."
+        },
+        {
+          "id": "NE125",
+          "en": "I'm up for anything.",
+          "ru": "Я не против чего угодно."
+        },
+        {
+          "id": "NE126",
+          "en": "Let's hang out.",
+          "ru": "Давай проведём время вместе."
+        },
+        {
+          "id": "NE127",
+          "en": "Come on over.",
+          "ru": "Заходи."
+        },
+        {
+          "id": "NE128",
+          "en": "Feel free to join us.",
+          "ru": "Присоединяйся, если хочешь."
+        },
+        {
+          "id": "NE129",
+          "en": "I'm gonna head out.",
+          "ru": "Я собираюсь уходить."
+        },
+        {
+          "id": "NE130",
+          "en": "Catch you later.",
+          "ru": "Увидимся позже."
+        }
+      ]
+    },
+    {
+      "id": "NE-L14",
+      "order": 14,
+      "title": {
+        "en": "Casual time expressions",
+        "ru": "Разговорные выражения времени"
+      },
+      "phrases": [
+        {
+          "id": "NE131",
+          "en": "In a bit",
+          "ru": "Скоро; через некоторое время."
+        },
+        {
+          "id": "NE132",
+          "en": "Right away",
+          "ru": "Сразу же."
+        },
+        {
+          "id": "NE133",
+          "en": "Anytime soon",
+          "ru": "В ближайшее время."
+        },
+        {
+          "id": "NE134",
+          "en": "Once in a while",
+          "ru": "Время от времени."
+        },
+        {
+          "id": "NE135",
+          "en": "Every now and then",
+          "ru": "Время от времени."
+        },
+        {
+          "id": "NE136",
+          "en": "For ages",
+          "ru": "Очень давно; целую вечность."
+        },
+        {
+          "id": "NE137",
+          "en": "At the last minute",
+          "ru": "В последнюю минуту."
+        },
+        {
+          "id": "NE138",
+          "en": "From time to time",
+          "ru": "Время от времени."
+        },
+        {
+          "id": "NE139",
+          "en": "Before long",
+          "ru": "Вскоре."
+        },
+        {
+          "id": "NE140",
+          "en": "For the time being",
+          "ru": "Пока что."
+        }
+      ]
+    },
+    {
+      "id": "NE-L15",
+      "order": 15,
+      "title": {
+        "en": "Casual ways to describe people",
+        "ru": "Описание людей в разговоре"
+      },
+      "phrases": [
+        {
+          "id": "NE141",
+          "en": "He's easygoing.",
+          "ru": "Он лёгкий в общении."
+        },
+        {
+          "id": "NE142",
+          "en": "She's down-to-earth.",
+          "ru": "Она простая и практичная."
+        },
+        {
+          "id": "NE143",
+          "en": "He's a bit of a handful.",
+          "ru": "С ним бывает непросто."
+        },
+        {
+          "id": "NE144",
+          "en": "She's good company.",
+          "ru": "С ней приятно проводить время."
+        },
+        {
+          "id": "NE145",
+          "en": "He's such a character.",
+          "ru": "Он очень своеобразный человек."
+        },
+        {
+          "id": "NE146",
+          "en": "She's got a great vibe.",
+          "ru": "От неё исходит отличная энергия."
+        },
+        {
+          "id": "NE147",
+          "en": "He's pretty laid-back.",
+          "ru": "Он довольно спокойный."
+        },
+        {
+          "id": "NE148",
+          "en": "She's full of energy.",
+          "ru": "Она полна энергии."
+        },
+        {
+          "id": "NE149",
+          "en": "He's not much of a talker.",
+          "ru": "Он не очень разговорчивый."
+        },
+        {
+          "id": "NE150",
+          "en": "They're on the same wavelength.",
+          "ru": "Они на одной волне."
+        }
+      ]
+    },
+    {
+      "id": "NE-L16",
+      "order": 16,
+      "title": {
+        "en": "Everyday complaints",
+        "ru": "Повседневные жалобы"
+      },
+      "phrases": [
+        {
+          "id": "NE151",
+          "en": "What a hassle.",
+          "ru": "Какая морока."
+        },
+        {
+          "id": "NE152",
+          "en": "That's annoying.",
+          "ru": "Это раздражает."
+        },
+        {
+          "id": "NE153",
+          "en": "I'm fed up with this.",
+          "ru": "Мне это надоело."
+        },
+        {
+          "id": "NE154",
+          "en": "It drives me crazy.",
+          "ru": "Это сводит меня с ума."
+        },
+        {
+          "id": "NE155",
+          "en": "What a mess.",
+          "ru": "Какой беспорядок."
+        },
+        {
+          "id": "NE156",
+          "en": "This is taking forever.",
+          "ru": "Это длится целую вечность."
+        },
+        {
+          "id": "NE157",
+          "en": "I can't be bothered.",
+          "ru": "Мне не хочется этим заниматься."
+        },
+        {
+          "id": "NE158",
+          "en": "That's such a pain.",
+          "ru": "Это такая головная боль."
+        },
+        {
+          "id": "NE159",
+          "en": "Things aren't going as planned.",
+          "ru": "Всё идёт не по плану."
+        },
+        {
+          "id": "NE160",
+          "en": "Could be worse.",
+          "ru": "Могло быть и хуже."
+        }
+      ]
+    },
+    {
+      "id": "NE-L17",
+      "order": 17,
+      "title": {
+        "en": "Casual apologies",
+        "ru": "Неформальные извинения"
+      },
+      "phrases": [
+        {
+          "id": "NE161",
+          "en": "Oops, my bad.",
+          "ru": "Ой, моя вина."
+        },
+        {
+          "id": "NE162",
+          "en": "Sorry about that.",
+          "ru": "Извини за это."
+        },
+        {
+          "id": "NE163",
+          "en": "I didn't mean it.",
+          "ru": "Я не это имел(а) в виду."
+        },
+        {
+          "id": "NE164",
+          "en": "I messed up.",
+          "ru": "Я накосячил(а)."
+        },
+        {
+          "id": "NE165",
+          "en": "That's on me.",
+          "ru": "Это моя ответственность / моя вина."
+        },
+        {
+          "id": "NE166",
+          "en": "I totally forgot.",
+          "ru": "Я совсем забыл(а)."
+        },
+        {
+          "id": "NE167",
+          "en": "Sorry, I got caught up.",
+          "ru": "Извини, я увлёкся / задержался."
+        },
+        {
+          "id": "NE168",
+          "en": "I should've told you.",
+          "ru": "Мне следовало тебе сказать."
+        },
+        {
+          "id": "NE169",
+          "en": "I owe you an apology.",
+          "ru": "Я должен / должна перед тобой извиниться."
+        },
+        {
+          "id": "NE170",
+          "en": "We're good, right?",
+          "ru": "Между нами всё нормально?"
+        }
+      ]
+    },
+    {
+      "id": "NE-L18",
+      "order": 18,
+      "title": {
+        "en": "Casual requests",
+        "ru": "Неформальные просьбы"
+      },
+      "phrases": [
+        {
+          "id": "NE171",
+          "en": "Can you give me a sec?",
+          "ru": "Дашь мне секундочку?"
+        },
+        {
+          "id": "NE172",
+          "en": "Mind helping me out?",
+          "ru": "Не поможешь мне?"
+        },
+        {
+          "id": "NE173",
+          "en": "Can you do me a quick favour?",
+          "ru": "Можешь оказать мне небольшую услугу?"
+        },
+        {
+          "id": "NE174",
+          "en": "Could you pass me that?",
+          "ru": "Передашь мне это?"
+        },
+        {
+          "id": "NE175",
+          "en": "Give me a heads-up.",
+          "ru": "Предупреди меня заранее."
+        },
+        {
+          "id": "NE176",
+          "en": "Let me know.",
+          "ru": "Дай мне знать."
+        },
+        {
+          "id": "NE177",
+          "en": "Keep an eye on this.",
+          "ru": "Присмотри за этим."
+        },
+        {
+          "id": "NE178",
+          "en": "Can you save me a spot?",
+          "ru": "Можешь занять мне место?"
+        },
+        {
+          "id": "NE179",
+          "en": "Can I borrow this for a sec?",
+          "ru": "Можно я ненадолго это возьму?"
+        },
+        {
+          "id": "NE180",
+          "en": "Give me a minute.",
+          "ru": "Дай мне минуту."
+        }
+      ]
+    },
+    {
+      "id": "NE-L19",
+      "order": 19,
+      "title": {
+        "en": "Natural conversation closers",
+        "ru": "Естественное завершение разговора"
+      },
+      "phrases": [
+        {
+          "id": "NE181",
+          "en": "Anyway, I should get going.",
+          "ru": "Ладно, мне пора идти."
+        },
+        {
+          "id": "NE182",
+          "en": "I'll let you get back to it.",
+          "ru": "Не буду тебя отвлекать."
+        },
+        {
+          "id": "NE183",
+          "en": "Good catching up.",
+          "ru": "Рад(а), что удалось поболтать."
+        },
+        {
+          "id": "NE184",
+          "en": "Let's do this again sometime.",
+          "ru": "Давай как-нибудь повторим."
+        },
+        {
+          "id": "NE185",
+          "en": "I'll see you around.",
+          "ru": "Ещё увидимся."
+        },
+        {
+          "id": "NE186",
+          "en": "Take care of yourself.",
+          "ru": "Береги себя."
+        },
+        {
+          "id": "NE187",
+          "en": "Text me when you get home.",
+          "ru": "Напиши, когда доберёшься домой."
+        },
+        {
+          "id": "NE188",
+          "en": "Give me a call sometime.",
+          "ru": "Как-нибудь позвони мне."
+        },
+        {
+          "id": "NE189",
+          "en": "Have a good one.",
+          "ru": "Хорошего дня / всего хорошего."
+        },
+        {
+          "id": "NE190",
+          "en": "Later!",
+          "ru": "Пока! / До встречи!"
+        }
+      ]
+    },
+    {
+      "id": "NE-L20",
+      "order": 20,
+      "title": {
+        "en": "Common natural expressions",
+        "ru": "Частые естественные выражения"
+      },
+      "phrases": [
+        {
+          "id": "NE191",
+          "en": "It is what it is.",
+          "ru": "Что есть, то есть."
+        },
+        {
+          "id": "NE192",
+          "en": "You never know.",
+          "ru": "Кто знает."
+        },
+        {
+          "id": "NE193",
+          "en": "That's the point.",
+          "ru": "В этом и смысл."
+        },
+        {
+          "id": "NE194",
+          "en": "Long story.",
+          "ru": "Долгая история."
+        },
+        {
+          "id": "NE195",
+          "en": "I'm just saying.",
+          "ru": "Я просто говорю."
+        },
+        {
+          "id": "NE196",
+          "en": "Don't get me wrong.",
+          "ru": "Не пойми меня неправильно."
+        },
+        {
+          "id": "NE197",
+          "en": "I know, right?",
+          "ru": "Вот именно!"
+        },
+        {
+          "id": "NE198",
+          "en": "Here we go again.",
+          "ru": "Опять начинается."
+        },
+        {
+          "id": "NE199",
+          "en": "It happens.",
+          "ru": "Бывает."
+        },
+        {
+          "id": "NE200",
+          "en": "Let's call it a day.",
+          "ru": "На сегодня закончим."
+        }
+      ]
+    }
+  ]
+}

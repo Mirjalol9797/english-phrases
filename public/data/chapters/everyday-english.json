@@ -1,0 +1,1212 @@
+{
+  "id": "everyday-english",
+  "order": 1,
+  "prefix": "EE",
+  "kind": "phrases",
+  "title": {
+    "en": "Everyday English",
+    "ru": "Повседневное общение"
+  },
+  "lessons": [
+    {
+      "id": "EE-L01",
+      "order": 1,
+      "title": {
+        "en": "Greetings",
+        "ru": "Приветствия"
+      },
+      "phrases": [
+        {
+          "id": "EE001",
+          "en": "Hi!",
+          "ru": "Привет!"
+        },
+        {
+          "id": "EE002",
+          "en": "Hello!",
+          "ru": "Здравствуйте! / Привет!"
+        },
+        {
+          "id": "EE003",
+          "en": "Hey!",
+          "ru": "Привет!"
+        },
+        {
+          "id": "EE004",
+          "en": "Good morning!",
+          "ru": "Доброе утро!"
+        },
+        {
+          "id": "EE005",
+          "en": "Good afternoon!",
+          "ru": "Добрый день!"
+        },
+        {
+          "id": "EE006",
+          "en": "Good evening!",
+          "ru": "Добрый вечер!"
+        },
+        {
+          "id": "EE007",
+          "en": "How are you?",
+          "ru": "Как дела?"
+        },
+        {
+          "id": "EE008",
+          "en": "How's it going?",
+          "ru": "Как дела? / Как оно?"
+        },
+        {
+          "id": "EE009",
+          "en": "How have you been?",
+          "ru": "Как ты поживал(а)?"
+        },
+        {
+          "id": "EE010",
+          "en": "It's nice to see you.",
+          "ru": "Рад(а) тебя видеть."
+        }
+      ]
+    },
+    {
+      "id": "EE-L02",
+      "order": 2,
+      "title": {
+        "en": "Saying goodbye",
+        "ru": "Прощания"
+      },
+      "phrases": [
+        {
+          "id": "EE011",
+          "en": "Goodbye!",
+          "ru": "До свидания!"
+        },
+        {
+          "id": "EE012",
+          "en": "Bye!",
+          "ru": "Пока!"
+        },
+        {
+          "id": "EE013",
+          "en": "See you later.",
+          "ru": "Увидимся позже."
+        },
+        {
+          "id": "EE014",
+          "en": "See you soon.",
+          "ru": "До скорой встречи."
+        },
+        {
+          "id": "EE015",
+          "en": "See you tomorrow.",
+          "ru": "Увидимся завтра."
+        },
+        {
+          "id": "EE016",
+          "en": "Take care.",
+          "ru": "Береги себя."
+        },
+        {
+          "id": "EE017",
+          "en": "Have a nice day!",
+          "ru": "Хорошего дня!"
+        },
+        {
+          "id": "EE018",
+          "en": "Have a good evening!",
+          "ru": "Хорошего вечера!"
+        },
+        {
+          "id": "EE019",
+          "en": "Talk to you later.",
+          "ru": "Поговорим позже."
+        },
+        {
+          "id": "EE020",
+          "en": "It was nice seeing you.",
+          "ru": "Было приятно тебя увидеть."
+        }
+      ]
+    },
+    {
+      "id": "EE-L03",
+      "order": 3,
+      "title": {
+        "en": "Asking how someone is",
+        "ru": "Как дела"
+      },
+      "phrases": [
+        {
+          "id": "EE021",
+          "en": "How are things?",
+          "ru": "Как дела?"
+        },
+        {
+          "id": "EE022",
+          "en": "How's your day going?",
+          "ru": "Как проходит твой день?"
+        },
+        {
+          "id": "EE023",
+          "en": "How are you doing?",
+          "ru": "Как ты? / Как дела?"
+        },
+        {
+          "id": "EE024",
+          "en": "Everything okay?",
+          "ru": "Всё в порядке?"
+        },
+        {
+          "id": "EE025",
+          "en": "Is everything all right?",
+          "ru": "Всё хорошо?"
+        },
+        {
+          "id": "EE026",
+          "en": "What's new?",
+          "ru": "Что нового?"
+        },
+        {
+          "id": "EE027",
+          "en": "Anything new?",
+          "ru": "Есть что-нибудь новенькое?"
+        },
+        {
+          "id": "EE028",
+          "en": "I'm good, thanks.",
+          "ru": "У меня всё хорошо, спасибо."
+        },
+        {
+          "id": "EE029",
+          "en": "Pretty good, thanks.",
+          "ru": "Довольно хорошо, спасибо."
+        },
+        {
+          "id": "EE030",
+          "en": "Not bad.",
+          "ru": "Неплохо."
+        }
+      ]
+    },
+    {
+      "id": "EE-L04",
+      "order": 4,
+      "title": {
+        "en": "Introducing yourself",
+        "ru": "Знакомство"
+      },
+      "phrases": [
+        {
+          "id": "EE031",
+          "en": "What's your name?",
+          "ru": "Как тебя зовут?"
+        },
+        {
+          "id": "EE032",
+          "en": "My name is ...",
+          "ru": "Меня зовут ..."
+        },
+        {
+          "id": "EE033",
+          "en": "You can call me ...",
+          "ru": "Можешь называть меня ..."
+        },
+        {
+          "id": "EE034",
+          "en": "Nice to meet you.",
+          "ru": "Приятно познакомиться."
+        },
+        {
+          "id": "EE035",
+          "en": "Nice to meet you, too.",
+          "ru": "Мне тоже приятно познакомиться."
+        },
+        {
+          "id": "EE036",
+          "en": "Where are you from?",
+          "ru": "Откуда ты?"
+        },
+        {
+          "id": "EE037",
+          "en": "I'm from Uzbekistan.",
+          "ru": "Я из Узбекистана."
+        },
+        {
+          "id": "EE038",
+          "en": "Where do you live?",
+          "ru": "Где ты живёшь?"
+        },
+        {
+          "id": "EE039",
+          "en": "I live in Tashkent.",
+          "ru": "Я живу в Ташкенте."
+        },
+        {
+          "id": "EE040",
+          "en": "What do you do?",
+          "ru": "Кем ты работаешь? / Чем занимаешься?"
+        }
+      ]
+    },
+    {
+      "id": "EE-L05",
+      "order": 5,
+      "title": {
+        "en": "Everyday activities",
+        "ru": "Повседневные дела"
+      },
+      "phrases": [
+        {
+          "id": "EE041",
+          "en": "What are you doing?",
+          "ru": "Что ты делаешь?"
+        },
+        {
+          "id": "EE042",
+          "en": "What are you up to?",
+          "ru": "Чем занимаешься?"
+        },
+        {
+          "id": "EE043",
+          "en": "I'm getting ready.",
+          "ru": "Я собираюсь / готовлюсь."
+        },
+        {
+          "id": "EE044",
+          "en": "I'm on my way.",
+          "ru": "Я уже в пути."
+        },
+        {
+          "id": "EE045",
+          "en": "I'm just relaxing.",
+          "ru": "Я просто отдыхаю."
+        },
+        {
+          "id": "EE046",
+          "en": "I'm having lunch.",
+          "ru": "Я обедаю."
+        },
+        {
+          "id": "EE047",
+          "en": "I'm working right now.",
+          "ru": "Я сейчас работаю."
+        },
+        {
+          "id": "EE048",
+          "en": "I'm going home.",
+          "ru": "Я иду / еду домой."
+        },
+        {
+          "id": "EE049",
+          "en": "I'm a little busy.",
+          "ru": "Я немного занят(а)."
+        },
+        {
+          "id": "EE050",
+          "en": "I'm free right now.",
+          "ru": "Я сейчас свободен / свободна."
+        }
+      ]
+    },
+    {
+      "id": "EE-L06",
+      "order": 6,
+      "title": {
+        "en": "Making plans",
+        "ru": "Договариваемся о встрече"
+      },
+      "phrases": [
+        {
+          "id": "EE051",
+          "en": "Are you free today?",
+          "ru": "Ты сегодня свободен / свободна?"
+        },
+        {
+          "id": "EE052",
+          "en": "Are you doing anything tonight?",
+          "ru": "Ты чем-нибудь занят(а) сегодня вечером?"
+        },
+        {
+          "id": "EE053",
+          "en": "Do you want to hang out?",
+          "ru": "Хочешь провести время вместе?"
+        },
+        {
+          "id": "EE054",
+          "en": "Let's meet up.",
+          "ru": "Давай встретимся."
+        },
+        {
+          "id": "EE055",
+          "en": "Let's go for a walk.",
+          "ru": "Давай прогуляемся."
+        },
+        {
+          "id": "EE056",
+          "en": "What time works for you?",
+          "ru": "Какое время тебе подходит?"
+        },
+        {
+          "id": "EE057",
+          "en": "Where shall we meet?",
+          "ru": "Где встретимся?"
+        },
+        {
+          "id": "EE058",
+          "en": "That sounds good.",
+          "ru": "Звучит хорошо."
+        },
+        {
+          "id": "EE059",
+          "en": "I'm not sure yet.",
+          "ru": "Я пока не уверен(а)."
+        },
+        {
+          "id": "EE060",
+          "en": "I'll let you know.",
+          "ru": "Я дам тебе знать."
+        }
+      ]
+    },
+    {
+      "id": "EE-L07",
+      "order": 7,
+      "title": {
+        "en": "Invitations and responses",
+        "ru": "Приглашения и ответы"
+      },
+      "phrases": [
+        {
+          "id": "EE061",
+          "en": "Would you like to join us?",
+          "ru": "Хочешь присоединиться к нам?"
+        },
+        {
+          "id": "EE062",
+          "en": "Do you want to come with me?",
+          "ru": "Хочешь пойти со мной?"
+        },
+        {
+          "id": "EE063",
+          "en": "Sure, why not?",
+          "ru": "Конечно, почему бы и нет?"
+        },
+        {
+          "id": "EE064",
+          "en": "I'd love to.",
+          "ru": "С удовольствием."
+        },
+        {
+          "id": "EE065",
+          "en": "That sounds like fun.",
+          "ru": "Звучит весело."
+        },
+        {
+          "id": "EE066",
+          "en": "Sorry, I can't make it.",
+          "ru": "Извини, я не смогу прийти."
+        },
+        {
+          "id": "EE067",
+          "en": "Maybe next time.",
+          "ru": "Может быть, в следующий раз."
+        },
+        {
+          "id": "EE068",
+          "en": "Thanks for inviting me.",
+          "ru": "Спасибо за приглашение."
+        },
+        {
+          "id": "EE069",
+          "en": "Can I bring a friend?",
+          "ru": "Можно я приведу друга / подругу?"
+        },
+        {
+          "id": "EE070",
+          "en": "What should I bring?",
+          "ru": "Что мне принести?"
+        }
+      ]
+    },
+    {
+      "id": "EE-L08",
+      "order": 8,
+      "title": {
+        "en": "Expressing thanks",
+        "ru": "Благодарность"
+      },
+      "phrases": [
+        {
+          "id": "EE071",
+          "en": "Thank you.",
+          "ru": "Спасибо."
+        },
+        {
+          "id": "EE072",
+          "en": "Thanks a lot.",
+          "ru": "Большое спасибо."
+        },
+        {
+          "id": "EE073",
+          "en": "Thank you so much.",
+          "ru": "Огромное спасибо."
+        },
+        {
+          "id": "EE074",
+          "en": "I really appreciate it.",
+          "ru": "Я очень это ценю."
+        },
+        {
+          "id": "EE075",
+          "en": "That's very kind of you.",
+          "ru": "Это очень мило с твоей стороны."
+        },
+        {
+          "id": "EE076",
+          "en": "You're welcome.",
+          "ru": "Пожалуйста. / Не за что."
+        },
+        {
+          "id": "EE077",
+          "en": "No problem.",
+          "ru": "Без проблем."
+        },
+        {
+          "id": "EE078",
+          "en": "Anytime.",
+          "ru": "Всегда пожалуйста."
+        },
+        {
+          "id": "EE079",
+          "en": "Don't mention it.",
+          "ru": "Не стоит благодарности."
+        },
+        {
+          "id": "EE080",
+          "en": "I'm glad I could help.",
+          "ru": "Рад(а), что смог(ла) помочь."
+        }
+      ]
+    },
+    {
+      "id": "EE-L09",
+      "order": 9,
+      "title": {
+        "en": "Apologies",
+        "ru": "Извинения"
+      },
+      "phrases": [
+        {
+          "id": "EE081",
+          "en": "I'm sorry.",
+          "ru": "Мне жаль. / Извини(те)."
+        },
+        {
+          "id": "EE082",
+          "en": "Sorry I'm late.",
+          "ru": "Извини(те), я опоздал(а)."
+        },
+        {
+          "id": "EE083",
+          "en": "I'm so sorry.",
+          "ru": "Мне очень жаль."
+        },
+        {
+          "id": "EE084",
+          "en": "Sorry about that.",
+          "ru": "Извини(те) за это."
+        },
+        {
+          "id": "EE085",
+          "en": "My mistake.",
+          "ru": "Моя ошибка."
+        },
+        {
+          "id": "EE086",
+          "en": "It was an accident.",
+          "ru": "Это вышло случайно."
+        },
+        {
+          "id": "EE087",
+          "en": "I didn't mean to.",
+          "ru": "Я не хотел(а) этого."
+        },
+        {
+          "id": "EE088",
+          "en": "No worries.",
+          "ru": "Ничего страшного."
+        },
+        {
+          "id": "EE089",
+          "en": "That's okay.",
+          "ru": "Всё нормально."
+        },
+        {
+          "id": "EE090",
+          "en": "It happens.",
+          "ru": "Бывает."
+        }
+      ]
+    },
+    {
+      "id": "EE-L10",
+      "order": 10,
+      "title": {
+        "en": "Understanding and clarification",
+        "ru": "Понимание и уточнение"
+      },
+      "phrases": [
+        {
+          "id": "EE091",
+          "en": "I see.",
+          "ru": "Понятно."
+        },
+        {
+          "id": "EE092",
+          "en": "I understand.",
+          "ru": "Я понимаю."
+        },
+        {
+          "id": "EE093",
+          "en": "I don't understand.",
+          "ru": "Я не понимаю."
+        },
+        {
+          "id": "EE094",
+          "en": "What do you mean?",
+          "ru": "Что ты имеешь в виду?"
+        },
+        {
+          "id": "EE095",
+          "en": "Could you explain that?",
+          "ru": "Не мог(ли) бы ты это объяснить?"
+        },
+        {
+          "id": "EE096",
+          "en": "Could you say that again?",
+          "ru": "Не мог(ли) бы ты повторить?"
+        },
+        {
+          "id": "EE097",
+          "en": "Could you speak more slowly?",
+          "ru": "Не мог(ли) бы ты говорить медленнее?"
+        },
+        {
+          "id": "EE098",
+          "en": "I didn't catch that.",
+          "ru": "Я не расслышал(а)."
+        },
+        {
+          "id": "EE099",
+          "en": "What was that?",
+          "ru": "Что ты сказал(а)?"
+        },
+        {
+          "id": "EE100",
+          "en": "Now I get it.",
+          "ru": "Теперь я понял(а)."
+        }
+      ]
+    },
+    {
+      "id": "EE-L11",
+      "order": 11,
+      "title": {
+        "en": "Asking for help",
+        "ru": "Просьбы о помощи"
+      },
+      "phrases": [
+        {
+          "id": "EE101",
+          "en": "Can you help me?",
+          "ru": "Можешь мне помочь?"
+        },
+        {
+          "id": "EE102",
+          "en": "Could you help me, please?",
+          "ru": "Не могли бы вы мне помочь?"
+        },
+        {
+          "id": "EE103",
+          "en": "Can you give me a hand?",
+          "ru": "Можешь мне помочь?"
+        },
+        {
+          "id": "EE104",
+          "en": "Could you do me a favor?",
+          "ru": "Не мог(ли) бы ты оказать мне услугу?"
+        },
+        {
+          "id": "EE105",
+          "en": "Can you show me?",
+          "ru": "Можешь мне показать?"
+        },
+        {
+          "id": "EE106",
+          "en": "Can you wait a minute?",
+          "ru": "Можешь подождать минуту?"
+        },
+        {
+          "id": "EE107",
+          "en": "Please give me a moment.",
+          "ru": "Пожалуйста, дай(те) мне минутку."
+        },
+        {
+          "id": "EE108",
+          "en": "Could you repeat that, please?",
+          "ru": "Не могли бы вы повторить?"
+        },
+        {
+          "id": "EE109",
+          "en": "Can you write it down?",
+          "ru": "Можешь это записать?"
+        },
+        {
+          "id": "EE110",
+          "en": "Thanks for your help.",
+          "ru": "Спасибо за помощь."
+        }
+      ]
+    },
+    {
+      "id": "EE-L12",
+      "order": 12,
+      "title": {
+        "en": "Opinions and reactions",
+        "ru": "Мнение и реакция"
+      },
+      "phrases": [
+        {
+          "id": "EE111",
+          "en": "I think so.",
+          "ru": "Думаю, да."
+        },
+        {
+          "id": "EE112",
+          "en": "I don't think so.",
+          "ru": "Думаю, нет."
+        },
+        {
+          "id": "EE113",
+          "en": "I agree.",
+          "ru": "Я согласен / согласна."
+        },
+        {
+          "id": "EE114",
+          "en": "I don't agree.",
+          "ru": "Я не согласен / согласна."
+        },
+        {
+          "id": "EE115",
+          "en": "You're right.",
+          "ru": "Ты прав(а)."
+        },
+        {
+          "id": "EE116",
+          "en": "That's true.",
+          "ru": "Это правда."
+        },
+        {
+          "id": "EE117",
+          "en": "That makes sense.",
+          "ru": "В этом есть смысл. / Теперь понятно."
+        },
+        {
+          "id": "EE118",
+          "en": "Really?",
+          "ru": "Правда?"
+        },
+        {
+          "id": "EE119",
+          "en": "Are you serious?",
+          "ru": "Ты серьёзно?"
+        },
+        {
+          "id": "EE120",
+          "en": "I don't know about that.",
+          "ru": "Не уверен(а) насчёт этого."
+        }
+      ]
+    },
+    {
+      "id": "EE-L13",
+      "order": 13,
+      "title": {
+        "en": "Preferences and choices",
+        "ru": "Предпочтения и выбор"
+      },
+      "phrases": [
+        {
+          "id": "EE121",
+          "en": "I like it.",
+          "ru": "Мне это нравится."
+        },
+        {
+          "id": "EE122",
+          "en": "I love it.",
+          "ru": "Мне это очень нравится."
+        },
+        {
+          "id": "EE123",
+          "en": "I don't like it.",
+          "ru": "Мне это не нравится."
+        },
+        {
+          "id": "EE124",
+          "en": "It's not my thing.",
+          "ru": "Это не моё."
+        },
+        {
+          "id": "EE125",
+          "en": "I prefer this one.",
+          "ru": "Я предпочитаю этот вариант."
+        },
+        {
+          "id": "EE126",
+          "en": "Either is fine.",
+          "ru": "Подойдёт любой вариант."
+        },
+        {
+          "id": "EE127",
+          "en": "I don't mind.",
+          "ru": "Я не против. / Мне не принципиально."
+        },
+        {
+          "id": "EE128",
+          "en": "It's up to you.",
+          "ru": "Решать тебе."
+        },
+        {
+          "id": "EE129",
+          "en": "You choose.",
+          "ru": "Выбирай ты."
+        },
+        {
+          "id": "EE130",
+          "en": "I'd rather stay home.",
+          "ru": "Я бы предпочёл / предпочла остаться дома."
+        }
+      ]
+    },
+    {
+      "id": "EE-L14",
+      "order": 14,
+      "title": {
+        "en": "Feelings and condition",
+        "ru": "Самочувствие и эмоции"
+      },
+      "phrases": [
+        {
+          "id": "EE131",
+          "en": "I'm happy.",
+          "ru": "Я счастлив(а)."
+        },
+        {
+          "id": "EE132",
+          "en": "I'm tired.",
+          "ru": "Я устал(а)."
+        },
+        {
+          "id": "EE133",
+          "en": "I'm exhausted.",
+          "ru": "Я совершенно без сил."
+        },
+        {
+          "id": "EE134",
+          "en": "I'm excited.",
+          "ru": "Я очень рад(а) / взволнован(а)."
+        },
+        {
+          "id": "EE135",
+          "en": "I'm worried.",
+          "ru": "Я волнуюсь."
+        },
+        {
+          "id": "EE136",
+          "en": "I'm nervous.",
+          "ru": "Я нервничаю."
+        },
+        {
+          "id": "EE137",
+          "en": "I'm bored.",
+          "ru": "Мне скучно."
+        },
+        {
+          "id": "EE138",
+          "en": "I'm hungry.",
+          "ru": "Я голоден / голодна."
+        },
+        {
+          "id": "EE139",
+          "en": "I'm thirsty.",
+          "ru": "Я хочу пить."
+        },
+        {
+          "id": "EE140",
+          "en": "I feel much better.",
+          "ru": "Я чувствую себя намного лучше."
+        }
+      ]
+    },
+    {
+      "id": "EE-L15",
+      "order": 15,
+      "title": {
+        "en": "Time and being late",
+        "ru": "Время и опоздания"
+      },
+      "phrases": [
+        {
+          "id": "EE141",
+          "en": "What time is it?",
+          "ru": "Который час?"
+        },
+        {
+          "id": "EE142",
+          "en": "It's getting late.",
+          "ru": "Уже становится поздно."
+        },
+        {
+          "id": "EE143",
+          "en": "I'm running late.",
+          "ru": "Я опаздываю."
+        },
+        {
+          "id": "EE144",
+          "en": "I'll be there soon.",
+          "ru": "Я скоро буду там."
+        },
+        {
+          "id": "EE145",
+          "en": "Give me five minutes.",
+          "ru": "Дай мне пять минут."
+        },
+        {
+          "id": "EE146",
+          "en": "I'm almost there.",
+          "ru": "Я почти на месте."
+        },
+        {
+          "id": "EE147",
+          "en": "I have to go.",
+          "ru": "Мне пора идти."
+        },
+        {
+          "id": "EE148",
+          "en": "I don't have much time.",
+          "ru": "У меня мало времени."
+        },
+        {
+          "id": "EE149",
+          "en": "Let's not be late.",
+          "ru": "Давай не будем опаздывать."
+        },
+        {
+          "id": "EE150",
+          "en": "Take your time.",
+          "ru": "Не торопись."
+        }
+      ]
+    },
+    {
+      "id": "EE-L16",
+      "order": 16,
+      "title": {
+        "en": "At home and daily life",
+        "ru": "Дом и быт"
+      },
+      "phrases": [
+        {
+          "id": "EE151",
+          "en": "I'm home.",
+          "ru": "Я дома."
+        },
+        {
+          "id": "EE152",
+          "en": "Make yourself at home.",
+          "ru": "Чувствуй себя как дома."
+        },
+        {
+          "id": "EE153",
+          "en": "What's for dinner?",
+          "ru": "Что на ужин?"
+        },
+        {
+          "id": "EE154",
+          "en": "I'm making some tea.",
+          "ru": "Я готовлю чай."
+        },
+        {
+          "id": "EE155",
+          "en": "Could you open the window?",
+          "ru": "Не мог(ла) бы ты открыть окно?"
+        },
+        {
+          "id": "EE156",
+          "en": "Please turn on the light.",
+          "ru": "Пожалуйста, включи свет."
+        },
+        {
+          "id": "EE157",
+          "en": "Can you turn it off?",
+          "ru": "Можешь это выключить?"
+        },
+        {
+          "id": "EE158",
+          "en": "I'll be right back.",
+          "ru": "Я сейчас вернусь."
+        },
+        {
+          "id": "EE159",
+          "en": "Where did I put my keys?",
+          "ru": "Куда я положил(а) ключи?"
+        },
+        {
+          "id": "EE160",
+          "en": "I'm going to bed.",
+          "ru": "Я иду спать."
+        }
+      ]
+    },
+    {
+      "id": "EE-L17",
+      "order": 17,
+      "title": {
+        "en": "Food and going out",
+        "ru": "Еда и выход куда-нибудь"
+      },
+      "phrases": [
+        {
+          "id": "EE161",
+          "en": "Are you hungry?",
+          "ru": "Ты голоден / голодна?"
+        },
+        {
+          "id": "EE162",
+          "en": "Let's get something to eat.",
+          "ru": "Давай что-нибудь поедим."
+        },
+        {
+          "id": "EE163",
+          "en": "What do you feel like eating?",
+          "ru": "Что тебе хочется поесть?"
+        },
+        {
+          "id": "EE164",
+          "en": "That looks delicious.",
+          "ru": "Выглядит очень вкусно."
+        },
+        {
+          "id": "EE165",
+          "en": "Can I try some?",
+          "ru": "Можно мне попробовать?"
+        },
+        {
+          "id": "EE166",
+          "en": "I'm full.",
+          "ru": "Я сыт(а)."
+        },
+        {
+          "id": "EE167",
+          "en": "Let's get a coffee.",
+          "ru": "Давай выпьем кофе."
+        },
+        {
+          "id": "EE168",
+          "en": "Shall we eat out?",
+          "ru": "Может, поедим где-нибудь вне дома?"
+        },
+        {
+          "id": "EE169",
+          "en": "The food was great.",
+          "ru": "Еда была отличной."
+        },
+        {
+          "id": "EE170",
+          "en": "Can I have the bill, please?",
+          "ru": "Можно счёт, пожалуйста?"
+        }
+      ]
+    },
+    {
+      "id": "EE-L18",
+      "order": 18,
+      "title": {
+        "en": "Problems and unexpected situations",
+        "ru": "Проблемы и неожиданности"
+      },
+      "phrases": [
+        {
+          "id": "EE171",
+          "en": "What's wrong?",
+          "ru": "Что случилось?"
+        },
+        {
+          "id": "EE172",
+          "en": "What's the matter?",
+          "ru": "В чём дело?"
+        },
+        {
+          "id": "EE173",
+          "en": "I have a problem.",
+          "ru": "У меня проблема."
+        },
+        {
+          "id": "EE174",
+          "en": "Something came up.",
+          "ru": "Возникли непредвиденные обстоятельства."
+        },
+        {
+          "id": "EE175",
+          "en": "I forgot.",
+          "ru": "Я забыл(а)."
+        },
+        {
+          "id": "EE176",
+          "en": "I lost my phone.",
+          "ru": "Я потерял(а) телефон."
+        },
+        {
+          "id": "EE177",
+          "en": "It doesn't work.",
+          "ru": "Это не работает."
+        },
+        {
+          "id": "EE178",
+          "en": "That's strange.",
+          "ru": "Это странно."
+        },
+        {
+          "id": "EE179",
+          "en": "Don't worry about it.",
+          "ru": "Не переживай из-за этого."
+        },
+        {
+          "id": "EE180",
+          "en": "We'll figure it out.",
+          "ru": "Мы разберёмся."
+        }
+      ]
+    },
+    {
+      "id": "EE-L19",
+      "order": 19,
+      "title": {
+        "en": "Ending a conversation",
+        "ru": "Завершение разговора"
+      },
+      "phrases": [
+        {
+          "id": "EE181",
+          "en": "Anyway, I should go.",
+          "ru": "Ладно, мне пора идти."
+        },
+        {
+          "id": "EE182",
+          "en": "I have to get going.",
+          "ru": "Мне пора отправляться."
+        },
+        {
+          "id": "EE183",
+          "en": "It was great talking to you.",
+          "ru": "Было приятно с тобой поговорить."
+        },
+        {
+          "id": "EE184",
+          "en": "Let's keep in touch.",
+          "ru": "Давай оставаться на связи."
+        },
+        {
+          "id": "EE185",
+          "en": "Send me a message.",
+          "ru": "Напиши мне сообщение."
+        },
+        {
+          "id": "EE186",
+          "en": "Text me later.",
+          "ru": "Напиши мне позже."
+        },
+        {
+          "id": "EE187",
+          "en": "Let me know how it goes.",
+          "ru": "Расскажи, как всё пройдёт."
+        },
+        {
+          "id": "EE188",
+          "en": "Have fun!",
+          "ru": "Хорошо проведи время!"
+        },
+        {
+          "id": "EE189",
+          "en": "Enjoy your day!",
+          "ru": "Хорошего тебе дня!"
+        },
+        {
+          "id": "EE190",
+          "en": "See you around.",
+          "ru": "Ещё увидимся."
+        }
+      ]
+    },
+    {
+      "id": "EE-L20",
+      "order": 20,
+      "title": {
+        "en": "Common everyday responses",
+        "ru": "Частые ответы в разговоре"
+      },
+      "phrases": [
+        {
+          "id": "EE191",
+          "en": "Of course.",
+          "ru": "Конечно."
+        },
+        {
+          "id": "EE192",
+          "en": "Sure.",
+          "ru": "Конечно. / Без проблем."
+        },
+        {
+          "id": "EE193",
+          "en": "Why not?",
+          "ru": "Почему бы и нет?"
+        },
+        {
+          "id": "EE194",
+          "en": "Maybe.",
+          "ru": "Может быть."
+        },
+        {
+          "id": "EE195",
+          "en": "Probably.",
+          "ru": "Вероятно."
+        },
+        {
+          "id": "EE196",
+          "en": "It depends.",
+          "ru": "Это зависит от обстоятельств."
+        },
+        {
+          "id": "EE197",
+          "en": "I'm not sure.",
+          "ru": "Я не уверен(а)."
+        },
+        {
+          "id": "EE198",
+          "en": "Let me think.",
+          "ru": "Дай подумать."
+        },
+        {
+          "id": "EE199",
+          "en": "Sounds good!",
+          "ru": "Звучит отлично!"
+        },
+        {
+          "id": "EE200",
+          "en": "That's a good idea.",
+          "ru": "Это хорошая идея."
+        }
+      ]
+    }
+  ]
+}

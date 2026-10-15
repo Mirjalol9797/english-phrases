@@ -1,0 +1,3182 @@
+{
+  "id": "core-verbs",
+  "order": 11,
+  "prefix": "CV",
+  "kind": "expressions",
+  "title": {
+    "en": "English Core Verbs",
+    "ru": "Основные глаголы"
+  },
+  "lessons": [
+    {
+      "id": "CV-L01",
+      "order": 1,
+      "title": {
+        "en": "Get",
+        "ru": "Выражения с «get»"
+      },
+      "phrases": [
+        {
+          "id": "GET001",
+          "en": "get up",
+          "ru": "вставать",
+          "example": {
+            "en": "I get up at seven every morning.",
+            "ru": "Я встаю в семь часов каждое утро."
+          }
+        },
+        {
+          "id": "GET002",
+          "en": "get ready",
+          "ru": "готовиться; собираться",
+          "example": {
+            "en": "I need to get ready for work.",
+            "ru": "Мне нужно собраться на работу."
+          }
+        },
+        {
+          "id": "GET003",
+          "en": "get dressed",
+          "ru": "одеваться",
+          "example": {
+            "en": "The children are getting dressed.",
+            "ru": "Дети одеваются."
+          }
+        },
+        {
+          "id": "GET004",
+          "en": "get home",
+          "ru": "добираться домой",
+          "example": {
+            "en": "What time do you get home?",
+            "ru": "Во сколько ты добираешься домой?"
+          }
+        },
+        {
+          "id": "GET005",
+          "en": "get back",
+          "ru": "возвращаться",
+          "example": {
+            "en": "I'll get back at six.",
+            "ru": "Я вернусь в шесть."
+          }
+        },
+        {
+          "id": "GET006",
+          "en": "get in",
+          "ru": "входить; садиться в машину",
+          "example": {
+            "en": "Get in the car, please.",
+            "ru": "Садись в машину, пожалуйста."
+          }
+        },
+        {
+          "id": "GET007",
+          "en": "get out",
+          "ru": "выходить",
+          "example": {
+            "en": "We got out of the taxi.",
+            "ru": "Мы вышли из такси."
+          }
+        },
+        {
+          "id": "GET008",
+          "en": "get on",
+          "ru": "садиться в автобус или поезд",
+          "example": {
+            "en": "I get on the bus near my house.",
+            "ru": "Я сажусь на автобус возле дома."
+          }
+        },
+        {
+          "id": "GET009",
+          "en": "get off",
+          "ru": "выходить из автобуса или поезда",
+          "example": {
+            "en": "We get off at the next stop.",
+            "ru": "Мы выходим на следующей остановке."
+          }
+        },
+        {
+          "id": "GET010",
+          "en": "get a job",
+          "ru": "получить работу",
+          "example": {
+            "en": "She wants to get a job in Tashkent.",
+            "ru": "Она хочет найти работу в Ташкенте."
+          }
+        },
+        {
+          "id": "GET011",
+          "en": "get a message",
+          "ru": "получить сообщение",
+          "example": {
+            "en": "I got your message yesterday.",
+            "ru": "Я получил твоё сообщение вчера."
+          }
+        },
+        {
+          "id": "GET012",
+          "en": "get better",
+          "ru": "становиться лучше; поправляться",
+          "example": {
+            "en": "I hope you get better soon.",
+            "ru": "Надеюсь, ты скоро поправишься."
+          }
+        },
+        {
+          "id": "GET013",
+          "en": "get tired",
+          "ru": "уставать",
+          "example": {
+            "en": "I get tired after work.",
+            "ru": "Я устаю после работы."
+          }
+        },
+        {
+          "id": "GET014",
+          "en": "get angry",
+          "ru": "злиться",
+          "example": {
+            "en": "Don't get angry with me.",
+            "ru": "Не злись на меня."
+          }
+        },
+        {
+          "id": "GET015",
+          "en": "get lost",
+          "ru": "заблудиться",
+          "example": {
+            "en": "We got lost in the city.",
+            "ru": "Мы заблудились в городе."
+          }
+        },
+        {
+          "id": "GET016",
+          "en": "get married",
+          "ru": "жениться; выходить замуж",
+          "example": {
+            "en": "They want to get married next year.",
+            "ru": "Они хотят пожениться в следующем году."
+          }
+        },
+        {
+          "id": "GET017",
+          "en": "get along with someone",
+          "ru": "ладить с кем-либо",
+          "example": {
+            "en": "I get along well with my colleagues.",
+            "ru": "Я хорошо лажу с коллегами."
+          }
+        },
+        {
+          "id": "GET018",
+          "en": "get a chance",
+          "ru": "получить возможность",
+          "example": {
+            "en": "I hope I get a chance to speak to her.",
+            "ru": "Надеюсь, у меня будет возможность поговорить с ней."
+          }
+        },
+        {
+          "id": "GET019",
+          "en": "get to work",
+          "ru": "добираться до работы",
+          "example": {
+            "en": "How do you get to work?",
+            "ru": "Как ты добираешься до работы?"
+          }
+        },
+        {
+          "id": "GET020",
+          "en": "get used to something",
+          "ru": "привыкнуть к чему-либо",
+          "example": {
+            "en": "I'm getting used to my new job.",
+            "ru": "Я привыкаю к новой работе."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L02",
+      "order": 2,
+      "title": {
+        "en": "Take",
+        "ru": "Выражения с «take»"
+      },
+      "phrases": [
+        {
+          "id": "TAKE001",
+          "en": "take a shower",
+          "ru": "принимать душ",
+          "example": {
+            "en": "I take a shower every morning.",
+            "ru": "Я принимаю душ каждое утро."
+          }
+        },
+        {
+          "id": "TAKE002",
+          "en": "take a break",
+          "ru": "делать перерыв",
+          "example": {
+            "en": "Let's take a short break.",
+            "ru": "Давай сделаем небольшой перерыв."
+          }
+        },
+        {
+          "id": "TAKE003",
+          "en": "take a seat",
+          "ru": "садиться; присаживаться",
+          "example": {
+            "en": "Please take a seat.",
+            "ru": "Пожалуйста, присаживайтесь."
+          }
+        },
+        {
+          "id": "TAKE004",
+          "en": "take a photo",
+          "ru": "делать фотографию",
+          "example": {
+            "en": "Can you take a photo of us?",
+            "ru": "Можешь сфотографировать нас?"
+          }
+        },
+        {
+          "id": "TAKE005",
+          "en": "take a taxi",
+          "ru": "ехать на такси",
+          "example": {
+            "en": "Let's take a taxi to the station.",
+            "ru": "Давай поедем на такси до станции."
+          }
+        },
+        {
+          "id": "TAKE006",
+          "en": "take medicine",
+          "ru": "принимать лекарство",
+          "example": {
+            "en": "You should take this medicine twice a day.",
+            "ru": "Тебе следует принимать это лекарство два раза в день."
+          }
+        },
+        {
+          "id": "TAKE007",
+          "en": "take your time",
+          "ru": "не торопиться",
+          "example": {
+            "en": "Take your time. We aren't in a hurry.",
+            "ru": "Не торопись. Мы не спешим."
+          }
+        },
+        {
+          "id": "TAKE008",
+          "en": "take care",
+          "ru": "береги себя; заботься",
+          "example": {
+            "en": "Take care and see you soon.",
+            "ru": "Береги себя, до скорой встречи."
+          }
+        },
+        {
+          "id": "TAKE009",
+          "en": "take care of someone",
+          "ru": "заботиться о ком-либо",
+          "example": {
+            "en": "She takes care of her younger brother.",
+            "ru": "Она заботится о младшем брате."
+          }
+        },
+        {
+          "id": "TAKE010",
+          "en": "take part in",
+          "ru": "принимать участие в",
+          "example": {
+            "en": "I want to take part in the competition.",
+            "ru": "Я хочу принять участие в соревновании."
+          }
+        },
+        {
+          "id": "TAKE011",
+          "en": "take a look",
+          "ru": "взглянуть",
+          "example": {
+            "en": "Can you take a look at this?",
+            "ru": "Можешь взглянуть на это?"
+          }
+        },
+        {
+          "id": "TAKE012",
+          "en": "take notes",
+          "ru": "делать записи",
+          "example": {
+            "en": "I take notes during lessons.",
+            "ru": "Я делаю записи во время уроков."
+          }
+        },
+        {
+          "id": "TAKE013",
+          "en": "take an exam",
+          "ru": "сдавать экзамен",
+          "example": {
+            "en": "We take an English exam tomorrow.",
+            "ru": "Завтра мы сдаём экзамен по английскому."
+          }
+        },
+        {
+          "id": "TAKE014",
+          "en": "take a day off",
+          "ru": "взять выходной",
+          "example": {
+            "en": "I'm going to take a day off on Friday.",
+            "ru": "Я собираюсь взять выходной в пятницу."
+          }
+        },
+        {
+          "id": "TAKE015",
+          "en": "take place",
+          "ru": "происходить; проходить",
+          "example": {
+            "en": "The meeting takes place at noon.",
+            "ru": "Встреча проходит в полдень."
+          }
+        },
+        {
+          "id": "TAKE016",
+          "en": "take out",
+          "ru": "вынимать; выносить",
+          "example": {
+            "en": "Take your phone out of your bag.",
+            "ru": "Достань телефон из сумки."
+          }
+        },
+        {
+          "id": "TAKE017",
+          "en": "take off",
+          "ru": "снимать; взлетать",
+          "example": {
+            "en": "Please take off your shoes.",
+            "ru": "Пожалуйста, сними обувь."
+          }
+        },
+        {
+          "id": "TAKE018",
+          "en": "take away",
+          "ru": "брать с собой; еда навынос",
+          "example": {
+            "en": "Can I get this to take away?",
+            "ru": "Можно взять это с собой?"
+          }
+        },
+        {
+          "id": "TAKE019",
+          "en": "take responsibility",
+          "ru": "брать ответственность",
+          "example": {
+            "en": "He needs to take responsibility for his actions.",
+            "ru": "Ему нужно взять ответственность за свои поступки."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L03",
+      "order": 3,
+      "title": {
+        "en": "Have",
+        "ru": "Выражения с «have»"
+      },
+      "phrases": [
+        {
+          "id": "HAVE001",
+          "en": "have breakfast",
+          "ru": "завтракать",
+          "example": {
+            "en": "I have breakfast at eight.",
+            "ru": "Я завтракаю в восемь."
+          }
+        },
+        {
+          "id": "HAVE002",
+          "en": "have lunch",
+          "ru": "обедать",
+          "example": {
+            "en": "We usually have lunch together.",
+            "ru": "Обычно мы обедаем вместе."
+          }
+        },
+        {
+          "id": "HAVE003",
+          "en": "have dinner",
+          "ru": "ужинать",
+          "example": {
+            "en": "Let's have dinner at home.",
+            "ru": "Давай поужинаем дома."
+          }
+        },
+        {
+          "id": "HAVE004",
+          "en": "have a shower",
+          "ru": "принимать душ",
+          "example": {
+            "en": "I have a shower before bed.",
+            "ru": "Я принимаю душ перед сном."
+          }
+        },
+        {
+          "id": "HAVE005",
+          "en": "have a rest",
+          "ru": "отдыхать",
+          "example": {
+            "en": "You look tired. Have a rest.",
+            "ru": "Ты выглядишь уставшим. Отдохни."
+          }
+        },
+        {
+          "id": "HAVE006",
+          "en": "have a good time",
+          "ru": "хорошо проводить время",
+          "example": {
+            "en": "We had a good time at the party.",
+            "ru": "Мы хорошо провели время на вечеринке."
+          }
+        },
+        {
+          "id": "HAVE007",
+          "en": "have fun",
+          "ru": "веселиться",
+          "example": {
+            "en": "Have fun on your trip!",
+            "ru": "Хорошо проведи время в поездке!"
+          }
+        },
+        {
+          "id": "HAVE008",
+          "en": "have a problem",
+          "ru": "иметь проблему",
+          "example": {
+            "en": "I have a problem with my computer.",
+            "ru": "У меня проблема с компьютером."
+          }
+        },
+        {
+          "id": "HAVE009",
+          "en": "have a question",
+          "ru": "иметь вопрос",
+          "example": {
+            "en": "Can I ask you a question?",
+            "ru": "Можно задать тебе вопрос?"
+          }
+        },
+        {
+          "id": "HAVE010",
+          "en": "have an idea",
+          "ru": "иметь идею",
+          "example": {
+            "en": "I have an idea.",
+            "ru": "У меня есть идея."
+          }
+        },
+        {
+          "id": "HAVE011",
+          "en": "have a look",
+          "ru": "посмотреть",
+          "example": {
+            "en": "Have a look at this picture.",
+            "ru": "Посмотри на эту картинку."
+          }
+        },
+        {
+          "id": "HAVE012",
+          "en": "have a meeting",
+          "ru": "проводить встречу",
+          "example": {
+            "en": "I have a meeting at ten.",
+            "ru": "У меня встреча в десять."
+          }
+        },
+        {
+          "id": "HAVE013",
+          "en": "have a cold",
+          "ru": "быть простуженным",
+          "example": {
+            "en": "I have a cold, so I'm staying home.",
+            "ru": "Я простудился, поэтому остаюсь дома."
+          }
+        },
+        {
+          "id": "HAVE014",
+          "en": "have a headache",
+          "ru": "испытывать головную боль",
+          "example": {
+            "en": "I have a headache.",
+            "ru": "У меня болит голова."
+          }
+        },
+        {
+          "id": "HAVE015",
+          "en": "have time",
+          "ru": "иметь время",
+          "example": {
+            "en": "Do you have time to talk?",
+            "ru": "У тебя есть время поговорить?"
+          }
+        },
+        {
+          "id": "HAVE016",
+          "en": "have to",
+          "ru": "быть должным; нужно",
+          "example": {
+            "en": "I have to leave now.",
+            "ru": "Мне нужно сейчас уходить."
+          }
+        },
+        {
+          "id": "HAVE017",
+          "en": "have a chance",
+          "ru": "иметь шанс",
+          "example": {
+            "en": "We still have a chance to win.",
+            "ru": "У нас всё ещё есть шанс победить."
+          }
+        },
+        {
+          "id": "HAVE018",
+          "en": "have a good day",
+          "ru": "хорошего дня",
+          "example": {
+            "en": "Have a good day at work!",
+            "ru": "Хорошего дня на работе!"
+          }
+        },
+        {
+          "id": "HAVE019",
+          "en": "have trouble",
+          "ru": "испытывать трудности",
+          "example": {
+            "en": "I have trouble understanding fast English.",
+            "ru": "Мне трудно понимать быструю английскую речь."
+          }
+        },
+        {
+          "id": "HAVE020",
+          "en": "have something in common",
+          "ru": "иметь что-то общее",
+          "example": {
+            "en": "We have a lot in common.",
+            "ru": "У нас много общего."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L04",
+      "order": 4,
+      "title": {
+        "en": "Make",
+        "ru": "Выражения с «make»"
+      },
+      "phrases": [
+        {
+          "id": "MAKE001",
+          "en": "make a mistake",
+          "ru": "совершить ошибку",
+          "example": {
+            "en": "I made a mistake in my homework.",
+            "ru": "Я допустил ошибку в домашнем задании."
+          }
+        },
+        {
+          "id": "MAKE002",
+          "en": "make a decision",
+          "ru": "принять решение",
+          "example": {
+            "en": "We need to make a decision today.",
+            "ru": "Нам нужно принять решение сегодня."
+          }
+        },
+        {
+          "id": "MAKE003",
+          "en": "make a plan",
+          "ru": "составить план",
+          "example": {
+            "en": "Let's make a plan for the weekend.",
+            "ru": "Давай составим план на выходные."
+          }
+        },
+        {
+          "id": "MAKE004",
+          "en": "make money",
+          "ru": "зарабатывать деньги",
+          "example": {
+            "en": "He wants to make more money.",
+            "ru": "Он хочет зарабатывать больше денег."
+          }
+        },
+        {
+          "id": "MAKE005",
+          "en": "make friends",
+          "ru": "заводить друзей",
+          "example": {
+            "en": "It's easy to make friends here.",
+            "ru": "Здесь легко заводить друзей."
+          }
+        },
+        {
+          "id": "MAKE006",
+          "en": "make a phone call",
+          "ru": "сделать телефонный звонок",
+          "example": {
+            "en": "I need to make a phone call.",
+            "ru": "Мне нужно позвонить."
+          }
+        },
+        {
+          "id": "MAKE007",
+          "en": "make breakfast",
+          "ru": "приготовить завтрак",
+          "example": {
+            "en": "I'll make breakfast for everyone.",
+            "ru": "Я приготовлю завтрак для всех."
+          }
+        },
+        {
+          "id": "MAKE008",
+          "en": "make sure",
+          "ru": "убедиться",
+          "example": {
+            "en": "Make sure the door is locked.",
+            "ru": "Убедись, что дверь заперта."
+          }
+        },
+        {
+          "id": "MAKE009",
+          "en": "make sense",
+          "ru": "иметь смысл; быть понятным",
+          "example": {
+            "en": "This explanation doesn't make sense.",
+            "ru": "Это объяснение не имеет смысла."
+          }
+        },
+        {
+          "id": "MAKE010",
+          "en": "make a difference",
+          "ru": "иметь значение",
+          "example": {
+            "en": "Small changes can make a difference.",
+            "ru": "Небольшие изменения могут многое изменить."
+          }
+        },
+        {
+          "id": "MAKE011",
+          "en": "make an effort",
+          "ru": "приложить усилия",
+          "example": {
+            "en": "You need to make an effort.",
+            "ru": "Тебе нужно приложить усилия."
+          }
+        },
+        {
+          "id": "MAKE012",
+          "en": "make progress",
+          "ru": "делать успехи",
+          "example": {
+            "en": "You're making progress in English.",
+            "ru": "Ты делаешь успехи в английском."
+          }
+        },
+        {
+          "id": "MAKE013",
+          "en": "make a list",
+          "ru": "составить список",
+          "example": {
+            "en": "I made a list of things to buy.",
+            "ru": "Я составил список покупок."
+          }
+        },
+        {
+          "id": "MAKE014",
+          "en": "make a promise",
+          "ru": "дать обещание",
+          "example": {
+            "en": "Don't make a promise you can't keep.",
+            "ru": "Не давай обещаний, которые не сможешь выполнить."
+          }
+        },
+        {
+          "id": "MAKE015",
+          "en": "make someone happy",
+          "ru": "делать кого-либо счастливым",
+          "example": {
+            "en": "Your message made me happy.",
+            "ru": "Твоё сообщение обрадовало меня."
+          }
+        },
+        {
+          "id": "MAKE016",
+          "en": "make it",
+          "ru": "успеть; прийти; справиться",
+          "example": {
+            "en": "Sorry, I can't make it tonight.",
+            "ru": "Извини, сегодня вечером я не смогу прийти."
+          }
+        },
+        {
+          "id": "MAKE017",
+          "en": "make up your mind",
+          "ru": "решить; определиться",
+          "example": {
+            "en": "You need to make up your mind.",
+            "ru": "Тебе нужно определиться."
+          }
+        },
+        {
+          "id": "MAKE018",
+          "en": "make the bed",
+          "ru": "заправить кровать",
+          "example": {
+            "en": "I make the bed every morning.",
+            "ru": "Я заправляю кровать каждое утро."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L05",
+      "order": 5,
+      "title": {
+        "en": "Do",
+        "ru": "Выражения с «do»"
+      },
+      "phrases": [
+        {
+          "id": "DO001",
+          "en": "do homework",
+          "ru": "делать домашнее задание",
+          "example": {
+            "en": "I do my homework after dinner.",
+            "ru": "Я делаю домашнее задание после ужина."
+          }
+        },
+        {
+          "id": "DO002",
+          "en": "do housework",
+          "ru": "заниматься домашними делами",
+          "example": {
+            "en": "We do housework on Saturdays.",
+            "ru": "Мы занимаемся домашними делами по субботам."
+          }
+        },
+        {
+          "id": "DO003",
+          "en": "do the dishes",
+          "ru": "мыть посуду",
+          "example": {
+            "en": "I'll do the dishes after dinner.",
+            "ru": "Я помою посуду после ужина."
+          }
+        },
+        {
+          "id": "DO004",
+          "en": "do the laundry",
+          "ru": "стирать одежду",
+          "example": {
+            "en": "I do the laundry twice a week.",
+            "ru": "Я стираю два раза в неделю."
+          }
+        },
+        {
+          "id": "DO005",
+          "en": "do your best",
+          "ru": "стараться изо всех сил",
+          "example": {
+            "en": "Just do your best.",
+            "ru": "Просто постарайся изо всех сил."
+          }
+        },
+        {
+          "id": "DO006",
+          "en": "do exercise",
+          "ru": "делать упражнения",
+          "example": {
+            "en": "I do exercise every morning.",
+            "ru": "Я делаю упражнения каждое утро."
+          }
+        },
+        {
+          "id": "DO007",
+          "en": "do business",
+          "ru": "вести бизнес",
+          "example": {
+            "en": "They do business with local companies.",
+            "ru": "Они ведут дела с местными компаниями."
+          }
+        },
+        {
+          "id": "DO008",
+          "en": "do a great job",
+          "ru": "отлично справиться",
+          "example": {
+            "en": "You did a great job.",
+            "ru": "Ты отлично справился."
+          }
+        },
+        {
+          "id": "DO009",
+          "en": "do research",
+          "ru": "проводить исследование",
+          "example": {
+            "en": "We're doing research for our project.",
+            "ru": "Мы проводим исследование для нашего проекта."
+          }
+        },
+        {
+          "id": "DO010",
+          "en": "do a course",
+          "ru": "проходить курс",
+          "example": {
+            "en": "I'm doing an English course online.",
+            "ru": "Я прохожу онлайн-курс английского."
+          }
+        },
+        {
+          "id": "DO011",
+          "en": "do someone a favour",
+          "ru": "оказать услугу",
+          "example": {
+            "en": "Could you do me a favour?",
+            "ru": "Не мог бы ты оказать мне услугу?"
+          }
+        },
+        {
+          "id": "DO012",
+          "en": "do well",
+          "ru": "хорошо справляться",
+          "example": {
+            "en": "She's doing well at school.",
+            "ru": "Она хорошо учится."
+          }
+        },
+        {
+          "id": "DO013",
+          "en": "do badly",
+          "ru": "плохо справиться",
+          "example": {
+            "en": "I did badly on the test.",
+            "ru": "Я плохо написал тест."
+          }
+        },
+        {
+          "id": "DO014",
+          "en": "do something",
+          "ru": "делать что-либо",
+          "example": {
+            "en": "What are you doing tonight?",
+            "ru": "Что ты делаешь сегодня вечером?"
+          }
+        },
+        {
+          "id": "DO015",
+          "en": "do nothing",
+          "ru": "ничего не делать",
+          "example": {
+            "en": "I want to do nothing this weekend.",
+            "ru": "Я хочу ничего не делать в эти выходные."
+          }
+        },
+        {
+          "id": "DO016",
+          "en": "do the shopping",
+          "ru": "ходить за покупками",
+          "example": {
+            "en": "I do the shopping on Fridays.",
+            "ru": "Я хожу за покупками по пятницам."
+          }
+        },
+        {
+          "id": "DO017",
+          "en": "do the cleaning",
+          "ru": "заниматься уборкой",
+          "example": {
+            "en": "We need to do the cleaning today.",
+            "ru": "Нам нужно сегодня убраться."
+          }
+        },
+        {
+          "id": "DO018",
+          "en": "do damage",
+          "ru": "наносить ущерб",
+          "example": {
+            "en": "The storm did a lot of damage.",
+            "ru": "Шторм нанёс большой ущерб."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L06",
+      "order": 6,
+      "title": {
+        "en": "Go",
+        "ru": "Выражения с «go»"
+      },
+      "phrases": [
+        {
+          "id": "GO001",
+          "en": "go home",
+          "ru": "идти домой",
+          "example": {
+            "en": "I go home at six.",
+            "ru": "Я иду домой в шесть."
+          }
+        },
+        {
+          "id": "GO002",
+          "en": "go to work",
+          "ru": "идти на работу",
+          "example": {
+            "en": "I go to work by bus.",
+            "ru": "Я езжу на работу на автобусе."
+          }
+        },
+        {
+          "id": "GO003",
+          "en": "go to school",
+          "ru": "ходить в школу",
+          "example": {
+            "en": "My son goes to school nearby.",
+            "ru": "Мой сын ходит в школу неподалёку."
+          }
+        },
+        {
+          "id": "GO004",
+          "en": "go shopping",
+          "ru": "ходить за покупками",
+          "example": {
+            "en": "Let's go shopping after lunch.",
+            "ru": "Давай сходим за покупками после обеда."
+          }
+        },
+        {
+          "id": "GO005",
+          "en": "go out",
+          "ru": "выходить куда-либо; гулять",
+          "example": {
+            "en": "Do you want to go out tonight?",
+            "ru": "Хочешь куда-нибудь сходить сегодня вечером?"
+          }
+        },
+        {
+          "id": "GO006",
+          "en": "go for a walk",
+          "ru": "пойти погулять",
+          "example": {
+            "en": "Let's go for a walk.",
+            "ru": "Давай пойдём прогуляемся."
+          }
+        },
+        {
+          "id": "GO007",
+          "en": "go by bus",
+          "ru": "ехать на автобусе",
+          "example": {
+            "en": "We go by bus when it rains.",
+            "ru": "Когда идёт дождь, мы ездим на автобусе."
+          }
+        },
+        {
+          "id": "GO008",
+          "en": "go on holiday",
+          "ru": "ехать в отпуск",
+          "example": {
+            "en": "We're going on holiday in July.",
+            "ru": "Мы едем в отпуск в июле."
+          }
+        },
+        {
+          "id": "GO009",
+          "en": "go to bed",
+          "ru": "ложиться спать",
+          "example": {
+            "en": "I usually go to bed at eleven.",
+            "ru": "Обычно я ложусь спать в одиннадцать."
+          }
+        },
+        {
+          "id": "GO010",
+          "en": "go to sleep",
+          "ru": "засыпать",
+          "example": {
+            "en": "The baby went to sleep quickly.",
+            "ru": "Ребёнок быстро уснул."
+          }
+        },
+        {
+          "id": "GO011",
+          "en": "go wrong",
+          "ru": "идти не так; ломаться",
+          "example": {
+            "en": "Something went wrong with my laptop.",
+            "ru": "Что-то случилось с моим ноутбуком."
+          }
+        },
+        {
+          "id": "GO012",
+          "en": "go well",
+          "ru": "проходить хорошо",
+          "example": {
+            "en": "I hope everything goes well.",
+            "ru": "Надеюсь, всё пройдёт хорошо."
+          }
+        },
+        {
+          "id": "GO013",
+          "en": "go ahead",
+          "ru": "продолжать; начинать",
+          "example": {
+            "en": "Go ahead. I'm listening.",
+            "ru": "Продолжай. Я слушаю."
+          }
+        },
+        {
+          "id": "GO014",
+          "en": "go back",
+          "ru": "возвращаться",
+          "example": {
+            "en": "I need to go back to the office.",
+            "ru": "Мне нужно вернуться в офис."
+          }
+        },
+        {
+          "id": "GO015",
+          "en": "go away",
+          "ru": "уходить; уезжать",
+          "example": {
+            "en": "Please go away and leave me alone.",
+            "ru": "Пожалуйста, уйди и оставь меня в покое."
+          }
+        },
+        {
+          "id": "GO016",
+          "en": "go on",
+          "ru": "продолжаться",
+          "example": {
+            "en": "The meeting went on for two hours.",
+            "ru": "Встреча продолжалась два часа."
+          }
+        },
+        {
+          "id": "GO017",
+          "en": "go online",
+          "ru": "выходить в интернет",
+          "example": {
+            "en": "I go online every evening.",
+            "ru": "Я выхожу в интернет каждый вечер."
+          }
+        },
+        {
+          "id": "GO018",
+          "en": "go through",
+          "ru": "переживать; проходить через",
+          "example": {
+            "en": "She's going through a difficult time.",
+            "ru": "Она переживает трудный период."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L07",
+      "order": 7,
+      "title": {
+        "en": "Come",
+        "ru": "Выражения с «come»"
+      },
+      "phrases": [
+        {
+          "id": "COME001",
+          "en": "come here",
+          "ru": "подойти сюда",
+          "example": {
+            "en": "Can you come here for a minute?",
+            "ru": "Можешь подойти сюда на минуту?"
+          }
+        },
+        {
+          "id": "COME002",
+          "en": "come back",
+          "ru": "вернуться",
+          "example": {
+            "en": "Please come back soon.",
+            "ru": "Пожалуйста, возвращайся скорее."
+          }
+        },
+        {
+          "id": "COME003",
+          "en": "come in",
+          "ru": "войти",
+          "example": {
+            "en": "Come in and sit down.",
+            "ru": "Входи и садись."
+          }
+        },
+        {
+          "id": "COME004",
+          "en": "come out",
+          "ru": "выходить; появляться",
+          "example": {
+            "en": "The new phone comes out next month.",
+            "ru": "Новый телефон выйдет в следующем месяце."
+          }
+        },
+        {
+          "id": "COME005",
+          "en": "come over",
+          "ru": "зайти в гости",
+          "example": {
+            "en": "Do you want to come over tonight?",
+            "ru": "Хочешь зайти сегодня вечером?"
+          }
+        },
+        {
+          "id": "COME006",
+          "en": "come along",
+          "ru": "присоединиться",
+          "example": {
+            "en": "You can come along with us.",
+            "ru": "Можешь пойти с нами."
+          }
+        },
+        {
+          "id": "COME007",
+          "en": "come from",
+          "ru": "быть родом из",
+          "example": {
+            "en": "Where do you come from?",
+            "ru": "Откуда ты родом?"
+          }
+        },
+        {
+          "id": "COME008",
+          "en": "come first",
+          "ru": "быть на первом месте",
+          "example": {
+            "en": "Family comes first for me.",
+            "ru": "Для меня семья на первом месте."
+          }
+        },
+        {
+          "id": "COME009",
+          "en": "come true",
+          "ru": "сбываться",
+          "example": {
+            "en": "I hope your dream comes true.",
+            "ru": "Надеюсь, твоя мечта сбудется."
+          }
+        },
+        {
+          "id": "COME010",
+          "en": "come to an end",
+          "ru": "заканчиваться",
+          "example": {
+            "en": "The meeting came to an end at five.",
+            "ru": "Встреча закончилась в пять."
+          }
+        },
+        {
+          "id": "COME011",
+          "en": "come up",
+          "ru": "возникнуть",
+          "example": {
+            "en": "Something urgent has come up.",
+            "ru": "Возникло что-то срочное."
+          }
+        },
+        {
+          "id": "COME012",
+          "en": "come up with an idea",
+          "ru": "придумать идею",
+          "example": {
+            "en": "She came up with a great idea.",
+            "ru": "Она придумала отличную идею."
+          }
+        },
+        {
+          "id": "COME013",
+          "en": "come early",
+          "ru": "приходить рано",
+          "example": {
+            "en": "Try to come early tomorrow.",
+            "ru": "Постарайся прийти завтра пораньше."
+          }
+        },
+        {
+          "id": "COME014",
+          "en": "come with me",
+          "ru": "пойти со мной",
+          "example": {
+            "en": "Come with me, please.",
+            "ru": "Пойдём со мной, пожалуйста."
+          }
+        },
+        {
+          "id": "COME015",
+          "en": "come on",
+          "ru": "давай; ну же",
+          "example": {
+            "en": "Come on, we're going to be late!",
+            "ru": "Давай, мы опоздаем!"
+          }
+        },
+        {
+          "id": "COME016",
+          "en": "come in handy",
+          "ru": "пригодиться",
+          "example": {
+            "en": "This tool may come in handy.",
+            "ru": "Этот инструмент может пригодиться."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L08",
+      "order": 8,
+      "title": {
+        "en": "Give",
+        "ru": "Выражения с «give»"
+      },
+      "phrases": [
+        {
+          "id": "GIVE001",
+          "en": "give me a hand",
+          "ru": "помочь мне",
+          "example": {
+            "en": "Can you give me a hand with this box?",
+            "ru": "Можешь помочь мне с этой коробкой?"
+          }
+        },
+        {
+          "id": "GIVE002",
+          "en": "give someone a call",
+          "ru": "позвонить кому-либо",
+          "example": {
+            "en": "Give me a call when you arrive.",
+            "ru": "Позвони мне, когда приедешь."
+          }
+        },
+        {
+          "id": "GIVE003",
+          "en": "give advice",
+          "ru": "давать совет",
+          "example": {
+            "en": "My father always gives good advice.",
+            "ru": "Мой отец всегда даёт хорошие советы."
+          }
+        },
+        {
+          "id": "GIVE004",
+          "en": "give an answer",
+          "ru": "дать ответ",
+          "example": {
+            "en": "Please give me an answer today.",
+            "ru": "Пожалуйста, дай мне ответ сегодня."
+          }
+        },
+        {
+          "id": "GIVE005",
+          "en": "give permission",
+          "ru": "дать разрешение",
+          "example": {
+            "en": "They gave us permission to leave early.",
+            "ru": "Они разрешили нам уйти пораньше."
+          }
+        },
+        {
+          "id": "GIVE006",
+          "en": "give someone a chance",
+          "ru": "дать кому-либо шанс",
+          "example": {
+            "en": "Please give me another chance.",
+            "ru": "Пожалуйста, дай мне ещё один шанс."
+          }
+        },
+        {
+          "id": "GIVE007",
+          "en": "give a reason",
+          "ru": "назвать причину",
+          "example": {
+            "en": "Can you give me a reason?",
+            "ru": "Можешь назвать причину?"
+          }
+        },
+        {
+          "id": "GIVE008",
+          "en": "give a presentation",
+          "ru": "провести презентацию",
+          "example": {
+            "en": "I have to give a presentation tomorrow.",
+            "ru": "Завтра мне нужно провести презентацию."
+          }
+        },
+        {
+          "id": "GIVE009",
+          "en": "give a gift",
+          "ru": "подарить подарок",
+          "example": {
+            "en": "I want to give her a gift.",
+            "ru": "Я хочу подарить ей подарок."
+          }
+        },
+        {
+          "id": "GIVE010",
+          "en": "give up",
+          "ru": "сдаваться; бросать",
+          "example": {
+            "en": "Don't give up on your dream.",
+            "ru": "Не отказывайся от своей мечты."
+          }
+        },
+        {
+          "id": "GIVE011",
+          "en": "give back",
+          "ru": "возвращать",
+          "example": {
+            "en": "Please give back my book.",
+            "ru": "Пожалуйста, верни мою книгу."
+          }
+        },
+        {
+          "id": "GIVE012",
+          "en": "give away",
+          "ru": "отдавать даром",
+          "example": {
+            "en": "They gave away old clothes.",
+            "ru": "Они отдали старую одежду."
+          }
+        },
+        {
+          "id": "GIVE013",
+          "en": "give it a try",
+          "ru": "попробовать",
+          "example": {
+            "en": "I've never tried it, but I'll give it a try.",
+            "ru": "Я никогда этого не пробовал, но попробую."
+          }
+        },
+        {
+          "id": "GIVE014",
+          "en": "give someone a lift",
+          "ru": "подвезти кого-либо",
+          "example": {
+            "en": "Can you give me a lift to the station?",
+            "ru": "Можешь подвезти меня до станции?"
+          }
+        },
+        {
+          "id": "GIVE015",
+          "en": "give someone a hug",
+          "ru": "обнять кого-либо",
+          "example": {
+            "en": "She gave her mother a hug.",
+            "ru": "Она обняла маму."
+          }
+        },
+        {
+          "id": "GIVE016",
+          "en": "give an example",
+          "ru": "привести пример",
+          "example": {
+            "en": "Can you give me an example?",
+            "ru": "Можешь привести мне пример?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L09",
+      "order": 9,
+      "title": {
+        "en": "Keep",
+        "ru": "Выражения с «keep»"
+      },
+      "phrases": [
+        {
+          "id": "KEEP001",
+          "en": "keep going",
+          "ru": "продолжать",
+          "example": {
+            "en": "Keep going. You're doing well.",
+            "ru": "Продолжай. У тебя хорошо получается."
+          }
+        },
+        {
+          "id": "KEEP002",
+          "en": "keep in touch",
+          "ru": "поддерживать связь",
+          "example": {
+            "en": "Let's keep in touch.",
+            "ru": "Давай поддерживать связь."
+          }
+        },
+        {
+          "id": "KEEP003",
+          "en": "keep a secret",
+          "ru": "хранить секрет",
+          "example": {
+            "en": "Can you keep a secret?",
+            "ru": "Ты умеешь хранить секреты?"
+          }
+        },
+        {
+          "id": "KEEP004",
+          "en": "keep calm",
+          "ru": "сохранять спокойствие",
+          "example": {
+            "en": "Try to keep calm.",
+            "ru": "Постарайся сохранять спокойствие."
+          }
+        },
+        {
+          "id": "KEEP005",
+          "en": "keep in mind",
+          "ru": "иметь в виду",
+          "example": {
+            "en": "Keep in mind that the shop closes at six.",
+            "ru": "Имей в виду, что магазин закрывается в шесть."
+          }
+        },
+        {
+          "id": "KEEP006",
+          "en": "keep a promise",
+          "ru": "держать обещание",
+          "example": {
+            "en": "He always keeps his promises.",
+            "ru": "Он всегда держит свои обещания."
+          }
+        },
+        {
+          "id": "KEEP007",
+          "en": "keep fit",
+          "ru": "поддерживать форму",
+          "example": {
+            "en": "She walks every day to keep fit.",
+            "ru": "Она гуляет каждый день, чтобы поддерживать форму."
+          }
+        },
+        {
+          "id": "KEEP008",
+          "en": "keep safe",
+          "ru": "беречь себя; быть в безопасности",
+          "example": {
+            "en": "Keep safe on your trip.",
+            "ru": "Береги себя в поездке."
+          }
+        },
+        {
+          "id": "KEEP009",
+          "en": "keep trying",
+          "ru": "продолжать пытаться",
+          "example": {
+            "en": "Keep trying and you'll improve.",
+            "ru": "Продолжай стараться, и ты станешь лучше."
+          }
+        },
+        {
+          "id": "KEEP010",
+          "en": "keep the change",
+          "ru": "сдачи не надо",
+          "example": {
+            "en": "Keep the change.",
+            "ru": "Сдачи не надо."
+          }
+        },
+        {
+          "id": "KEEP011",
+          "en": "keep away from",
+          "ru": "держаться подальше от",
+          "example": {
+            "en": "Keep away from the fire.",
+            "ru": "Держись подальше от огня."
+          }
+        },
+        {
+          "id": "KEEP012",
+          "en": "keep up with",
+          "ru": "не отставать от",
+          "example": {
+            "en": "I can't keep up with him.",
+            "ru": "Я не могу за ним угнаться."
+          }
+        },
+        {
+          "id": "KEEP013",
+          "en": "keep on doing something",
+          "ru": "продолжать что-либо делать",
+          "example": {
+            "en": "He kept on talking.",
+            "ru": "Он продолжал говорить."
+          }
+        },
+        {
+          "id": "KEEP014",
+          "en": "keep an eye on",
+          "ru": "присматривать за",
+          "example": {
+            "en": "Can you keep an eye on my bag?",
+            "ru": "Можешь присмотреть за моей сумкой?"
+          }
+        },
+        {
+          "id": "KEEP015",
+          "en": "keep your word",
+          "ru": "держать слово",
+          "example": {
+            "en": "You should keep your word.",
+            "ru": "Ты должен держать своё слово."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L10",
+      "order": 10,
+      "title": {
+        "en": "Put",
+        "ru": "Выражения с «put»"
+      },
+      "phrases": [
+        {
+          "id": "PUT001",
+          "en": "put on",
+          "ru": "надевать",
+          "example": {
+            "en": "Put on your jacket. It's cold.",
+            "ru": "Надень куртку. Холодно."
+          }
+        },
+        {
+          "id": "PUT002",
+          "en": "put away",
+          "ru": "убирать на место",
+          "example": {
+            "en": "Please put your toys away.",
+            "ru": "Пожалуйста, убери свои игрушки."
+          }
+        },
+        {
+          "id": "PUT003",
+          "en": "put down",
+          "ru": "класть; опускать",
+          "example": {
+            "en": "Put the bag down here.",
+            "ru": "Поставь сумку здесь."
+          }
+        },
+        {
+          "id": "PUT004",
+          "en": "put off",
+          "ru": "откладывать",
+          "example": {
+            "en": "Don't put off your homework.",
+            "ru": "Не откладывай домашнее задание."
+          }
+        },
+        {
+          "id": "PUT005",
+          "en": "put out",
+          "ru": "тушить; гасить",
+          "example": {
+            "en": "Please put out the candle.",
+            "ru": "Пожалуйста, потуши свечу."
+          }
+        },
+        {
+          "id": "PUT006",
+          "en": "put back",
+          "ru": "возвращать на место",
+          "example": {
+            "en": "Put the book back on the shelf.",
+            "ru": "Поставь книгу обратно на полку."
+          }
+        },
+        {
+          "id": "PUT007",
+          "en": "put together",
+          "ru": "собирать; составлять",
+          "example": {
+            "en": "I need to put this table together.",
+            "ru": "Мне нужно собрать этот стол."
+          }
+        },
+        {
+          "id": "PUT008",
+          "en": "put pressure on",
+          "ru": "оказывать давление",
+          "example": {
+            "en": "Don't put pressure on yourself.",
+            "ru": "Не дави на себя."
+          }
+        },
+        {
+          "id": "PUT009",
+          "en": "put on weight",
+          "ru": "набирать вес",
+          "example": {
+            "en": "He put on weight last year.",
+            "ru": "В прошлом году он набрал вес."
+          }
+        },
+        {
+          "id": "PUT010",
+          "en": "put into practice",
+          "ru": "применять на практике",
+          "example": {
+            "en": "It's time to put the plan into practice.",
+            "ru": "Пора применить план на практике."
+          }
+        },
+        {
+          "id": "PUT011",
+          "en": "put up with",
+          "ru": "терпеть",
+          "example": {
+            "en": "I can't put up with this noise.",
+            "ru": "Я не могу терпеть этот шум."
+          }
+        },
+        {
+          "id": "PUT012",
+          "en": "put your phone away",
+          "ru": "убрать телефон",
+          "example": {
+            "en": "Please put your phone away during class.",
+            "ru": "Пожалуйста, убери телефон во время урока."
+          }
+        },
+        {
+          "id": "PUT013",
+          "en": "put it simply",
+          "ru": "проще говоря",
+          "example": {
+            "en": "Put simply, we need more time.",
+            "ru": "Проще говоря, нам нужно больше времени."
+          }
+        },
+        {
+          "id": "PUT014",
+          "en": "put in",
+          "ru": "вставлять; вкладывать",
+          "example": {
+            "en": "Put your key in the lock.",
+            "ru": "Вставь ключ в замок."
+          }
+        },
+        {
+          "id": "PUT015",
+          "en": "put things right",
+          "ru": "исправить ситуацию",
+          "example": {
+            "en": "I'll do my best to put things right.",
+            "ru": "Я сделаю всё возможное, чтобы исправить ситуацию."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L11",
+      "order": 11,
+      "title": {
+        "en": "Turn",
+        "ru": "Выражения с «turn»"
+      },
+      "phrases": [
+        {
+          "id": "TURN001",
+          "en": "turn on",
+          "ru": "включать",
+          "example": {
+            "en": "Can you turn on the light?",
+            "ru": "Можешь включить свет?"
+          }
+        },
+        {
+          "id": "TURN002",
+          "en": "turn off",
+          "ru": "выключать",
+          "example": {
+            "en": "Please turn off the TV.",
+            "ru": "Пожалуйста, выключи телевизор."
+          }
+        },
+        {
+          "id": "TURN003",
+          "en": "turn up",
+          "ru": "увеличивать громкость",
+          "example": {
+            "en": "Turn up the volume, please.",
+            "ru": "Увеличь громкость, пожалуйста."
+          }
+        },
+        {
+          "id": "TURN004",
+          "en": "turn down",
+          "ru": "уменьшать громкость; отклонять",
+          "example": {
+            "en": "Could you turn down the music?",
+            "ru": "Можешь сделать музыку потише?"
+          }
+        },
+        {
+          "id": "TURN005",
+          "en": "turn left",
+          "ru": "повернуть налево",
+          "example": {
+            "en": "Turn left at the traffic lights.",
+            "ru": "Поверни налево на светофоре."
+          }
+        },
+        {
+          "id": "TURN006",
+          "en": "turn right",
+          "ru": "повернуть направо",
+          "example": {
+            "en": "Turn right at the next street.",
+            "ru": "Поверни направо на следующей улице."
+          }
+        },
+        {
+          "id": "TURN007",
+          "en": "turn around",
+          "ru": "обернуться; развернуться",
+          "example": {
+            "en": "Turn around and look at me.",
+            "ru": "Обернись и посмотри на меня."
+          }
+        },
+        {
+          "id": "TURN008",
+          "en": "turn back",
+          "ru": "вернуться назад",
+          "example": {
+            "en": "We had to turn back because of the rain.",
+            "ru": "Нам пришлось вернуться из-за дождя."
+          }
+        },
+        {
+          "id": "TURN009",
+          "en": "turn into",
+          "ru": "превращаться в",
+          "example": {
+            "en": "The water turned into ice.",
+            "ru": "Вода превратилась в лёд."
+          }
+        },
+        {
+          "id": "TURN010",
+          "en": "turn out",
+          "ru": "оказаться",
+          "example": {
+            "en": "The film turned out to be great.",
+            "ru": "Оказалось, что фильм отличный."
+          }
+        },
+        {
+          "id": "TURN011",
+          "en": "turn down an offer",
+          "ru": "отклонить предложение",
+          "example": {
+            "en": "She turned down the job offer.",
+            "ru": "Она отклонила предложение о работе."
+          }
+        },
+        {
+          "id": "TURN012",
+          "en": "turn 18",
+          "ru": "исполниться 18 лет",
+          "example": {
+            "en": "My brother turns 18 this year.",
+            "ru": "Моему брату в этом году исполняется 18 лет."
+          }
+        },
+        {
+          "id": "TURN013",
+          "en": "turn red",
+          "ru": "покраснеть",
+          "example": {
+            "en": "He turned red with embarrassment.",
+            "ru": "Он покраснел от смущения."
+          }
+        },
+        {
+          "id": "TURN014",
+          "en": "turn cold",
+          "ru": "стать холодным",
+          "example": {
+            "en": "It's turning cold outside.",
+            "ru": "На улице становится холодно."
+          }
+        },
+        {
+          "id": "TURN015",
+          "en": "take turns",
+          "ru": "делать по очереди",
+          "example": {
+            "en": "We take turns cooking dinner.",
+            "ru": "Мы готовим ужин по очереди."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L12",
+      "order": 12,
+      "title": {
+        "en": "Look",
+        "ru": "Выражения с «look»"
+      },
+      "phrases": [
+        {
+          "id": "LOOK001",
+          "en": "look at",
+          "ru": "смотреть на",
+          "example": {
+            "en": "Look at this photo.",
+            "ru": "Посмотри на эту фотографию."
+          }
+        },
+        {
+          "id": "LOOK002",
+          "en": "look for",
+          "ru": "искать",
+          "example": {
+            "en": "I'm looking for my keys.",
+            "ru": "Я ищу свои ключи."
+          }
+        },
+        {
+          "id": "LOOK003",
+          "en": "look after",
+          "ru": "заботиться о",
+          "example": {
+            "en": "Can you look after my cat?",
+            "ru": "Можешь присмотреть за моей кошкой?"
+          }
+        },
+        {
+          "id": "LOOK004",
+          "en": "look like",
+          "ru": "быть похожим; выглядеть как",
+          "example": {
+            "en": "You look like your father.",
+            "ru": "Ты похож на своего отца."
+          }
+        },
+        {
+          "id": "LOOK005",
+          "en": "look tired",
+          "ru": "выглядеть уставшим",
+          "example": {
+            "en": "You look tired today.",
+            "ru": "Ты сегодня выглядишь уставшим."
+          }
+        },
+        {
+          "id": "LOOK006",
+          "en": "look good",
+          "ru": "хорошо выглядеть",
+          "example": {
+            "en": "That shirt looks good on you.",
+            "ru": "Эта рубашка тебе идёт."
+          }
+        },
+        {
+          "id": "LOOK007",
+          "en": "look forward to",
+          "ru": "с нетерпением ждать",
+          "example": {
+            "en": "I'm looking forward to the weekend.",
+            "ru": "Я с нетерпением жду выходных."
+          }
+        },
+        {
+          "id": "LOOK008",
+          "en": "look out",
+          "ru": "осторожно!",
+          "example": {
+            "en": "Look out! There's a car coming.",
+            "ru": "Осторожно! Едет машина."
+          }
+        },
+        {
+          "id": "LOOK009",
+          "en": "look up",
+          "ru": "искать информацию",
+          "example": {
+            "en": "I'll look up the word in a dictionary.",
+            "ru": "Я найду это слово в словаре."
+          }
+        },
+        {
+          "id": "LOOK010",
+          "en": "look around",
+          "ru": "осмотреться",
+          "example": {
+            "en": "Let's look around the city.",
+            "ru": "Давай осмотрим город."
+          }
+        },
+        {
+          "id": "LOOK011",
+          "en": "look into",
+          "ru": "изучить; расследовать",
+          "example": {
+            "en": "I'll look into the problem.",
+            "ru": "Я изучу эту проблему."
+          }
+        },
+        {
+          "id": "LOOK012",
+          "en": "look through",
+          "ru": "просматривать",
+          "example": {
+            "en": "I looked through the documents.",
+            "ru": "Я просмотрел документы."
+          }
+        },
+        {
+          "id": "LOOK013",
+          "en": "look back",
+          "ru": "вспоминать прошлое",
+          "example": {
+            "en": "I look back on those days with a smile.",
+            "ru": "Я вспоминаю те дни с улыбкой."
+          }
+        },
+        {
+          "id": "LOOK014",
+          "en": "look away",
+          "ru": "отвести взгляд",
+          "example": {
+            "en": "He looked away and said nothing.",
+            "ru": "Он отвёл взгляд и ничего не сказал."
+          }
+        },
+        {
+          "id": "LOOK015",
+          "en": "look up to someone",
+          "ru": "уважать; брать пример",
+          "example": {
+            "en": "I look up to my older sister.",
+            "ru": "Я равняюсь на старшую сестру."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L13",
+      "order": 13,
+      "title": {
+        "en": "Bring",
+        "ru": "Выражения с «bring»"
+      },
+      "phrases": [
+        {
+          "id": "BRING001",
+          "en": "bring it here",
+          "ru": "принести сюда",
+          "example": {
+            "en": "Can you bring it here, please?",
+            "ru": "Можешь принести это сюда, пожалуйста?"
+          }
+        },
+        {
+          "id": "BRING002",
+          "en": "bring back",
+          "ru": "вернуть; принести обратно",
+          "example": {
+            "en": "Please bring back my book tomorrow.",
+            "ru": "Пожалуйста, верни мою книгу завтра."
+          }
+        },
+        {
+          "id": "BRING003",
+          "en": "bring along",
+          "ru": "взять с собой",
+          "example": {
+            "en": "You can bring along a friend.",
+            "ru": "Можешь взять с собой друга."
+          }
+        },
+        {
+          "id": "BRING004",
+          "en": "bring someone with you",
+          "ru": "привести кого-либо с собой",
+          "example": {
+            "en": "Bring your brother with you.",
+            "ru": "Возьми с собой брата."
+          }
+        },
+        {
+          "id": "BRING005",
+          "en": "bring food",
+          "ru": "принести еду",
+          "example": {
+            "en": "Should I bring some food?",
+            "ru": "Мне принести немного еды?"
+          }
+        },
+        {
+          "id": "BRING006",
+          "en": "bring your passport",
+          "ru": "взять паспорт с собой",
+          "example": {
+            "en": "Please bring your passport to the appointment.",
+            "ru": "Пожалуйста, возьми паспорт на встречу."
+          }
+        },
+        {
+          "id": "BRING007",
+          "en": "bring good news",
+          "ru": "принести хорошие новости",
+          "example": {
+            "en": "I hope you bring good news.",
+            "ru": "Надеюсь, ты принесёшь хорошие новости."
+          }
+        },
+        {
+          "id": "BRING008",
+          "en": "bring joy",
+          "ru": "приносить радость",
+          "example": {
+            "en": "Music brings me joy.",
+            "ru": "Музыка приносит мне радость."
+          }
+        },
+        {
+          "id": "BRING009",
+          "en": "bring up a topic",
+          "ru": "поднять тему",
+          "example": {
+            "en": "She brought up an interesting topic.",
+            "ru": "Она подняла интересную тему."
+          }
+        },
+        {
+          "id": "BRING010",
+          "en": "bring up a child",
+          "ru": "воспитывать ребёнка",
+          "example": {
+            "en": "They brought up three children.",
+            "ru": "Они воспитали троих детей."
+          }
+        },
+        {
+          "id": "BRING011",
+          "en": "bring about change",
+          "ru": "привести к изменениям",
+          "example": {
+            "en": "The new plan brought about change.",
+            "ru": "Новый план привёл к изменениям."
+          }
+        },
+        {
+          "id": "BRING012",
+          "en": "bring it on",
+          "ru": "давай; я готов к вызову",
+          "example": {
+            "en": "I'm ready for the test. Bring it on!",
+            "ru": "Я готов к тесту. Давай!"
+          }
+        },
+        {
+          "id": "BRING013",
+          "en": "bring together",
+          "ru": "объединять",
+          "example": {
+            "en": "Sport can bring people together.",
+            "ru": "Спорт может объединять людей."
+          }
+        },
+        {
+          "id": "BRING014",
+          "en": "bring to an end",
+          "ru": "положить конец",
+          "example": {
+            "en": "We need to bring this argument to an end.",
+            "ru": "Нам нужно прекратить этот спор."
+          }
+        },
+        {
+          "id": "BRING015",
+          "en": "bring someone home",
+          "ru": "привезти кого-либо домой",
+          "example": {
+            "en": "I'll bring you home after the party.",
+            "ru": "Я отвезу тебя домой после вечеринки."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L14",
+      "order": 14,
+      "title": {
+        "en": "Break",
+        "ru": "Выражения с «break»"
+      },
+      "phrases": [
+        {
+          "id": "BREAK001",
+          "en": "break down",
+          "ru": "сломаться",
+          "example": {
+            "en": "My car broke down on the way to work.",
+            "ru": "Моя машина сломалась по дороге на работу."
+          }
+        },
+        {
+          "id": "BREAK002",
+          "en": "break up",
+          "ru": "расстаться",
+          "example": {
+            "en": "They broke up last month.",
+            "ru": "Они расстались в прошлом месяце."
+          }
+        },
+        {
+          "id": "BREAK003",
+          "en": "break a promise",
+          "ru": "нарушить обещание",
+          "example": {
+            "en": "I don't want to break my promise.",
+            "ru": "Я не хочу нарушать своё обещание."
+          }
+        },
+        {
+          "id": "BREAK004",
+          "en": "break the law",
+          "ru": "нарушать закон",
+          "example": {
+            "en": "You mustn't break the law.",
+            "ru": "Нельзя нарушать закон."
+          }
+        },
+        {
+          "id": "BREAK005",
+          "en": "break the rules",
+          "ru": "нарушать правила",
+          "example": {
+            "en": "He broke the rules again.",
+            "ru": "Он снова нарушил правила."
+          }
+        },
+        {
+          "id": "BREAK006",
+          "en": "break a record",
+          "ru": "побить рекорд",
+          "example": {
+            "en": "She broke the world record.",
+            "ru": "Она побила мировой рекорд."
+          }
+        },
+        {
+          "id": "BREAK007",
+          "en": "break a habit",
+          "ru": "избавиться от привычки",
+          "example": {
+            "en": "It's hard to break a bad habit.",
+            "ru": "Трудно избавиться от плохой привычки."
+          }
+        },
+        {
+          "id": "BREAK008",
+          "en": "break the news",
+          "ru": "сообщить новость",
+          "example": {
+            "en": "Who will break the news to him?",
+            "ru": "Кто сообщит ему эту новость?"
+          }
+        },
+        {
+          "id": "BREAK009",
+          "en": "break the ice",
+          "ru": "разрядить обстановку",
+          "example": {
+            "en": "He told a joke to break the ice.",
+            "ru": "Он пошутил, чтобы разрядить обстановку."
+          }
+        },
+        {
+          "id": "BREAK010",
+          "en": "break a window",
+          "ru": "разбить окно",
+          "example": {
+            "en": "The ball broke the window.",
+            "ru": "Мяч разбил окно."
+          }
+        },
+        {
+          "id": "BREAK011",
+          "en": "break out",
+          "ru": "вспыхнуть; начаться внезапно",
+          "example": {
+            "en": "A fire broke out in the kitchen.",
+            "ru": "На кухне вспыхнул пожар."
+          }
+        },
+        {
+          "id": "BREAK012",
+          "en": "break into",
+          "ru": "вломиться; проникнуть",
+          "example": {
+            "en": "Someone broke into the house.",
+            "ru": "Кто-то проник в дом."
+          }
+        },
+        {
+          "id": "BREAK013",
+          "en": "break free",
+          "ru": "освободиться",
+          "example": {
+            "en": "The dog broke free from its leash.",
+            "ru": "Собака вырвалась с поводка."
+          }
+        },
+        {
+          "id": "BREAK014",
+          "en": "break even",
+          "ru": "выйти в ноль",
+          "example": {
+            "en": "The business finally broke even.",
+            "ru": "В итоге бизнес вышел в ноль."
+          }
+        },
+        {
+          "id": "BREAK015",
+          "en": "break someone's heart",
+          "ru": "разбить кому-либо сердце",
+          "example": {
+            "en": "He broke her heart.",
+            "ru": "Он разбил ей сердце."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L15",
+      "order": 15,
+      "title": {
+        "en": "Run",
+        "ru": "Выражения с «run»"
+      },
+      "phrases": [
+        {
+          "id": "RUN001",
+          "en": "run fast",
+          "ru": "быстро бегать",
+          "example": {
+            "en": "He can run very fast.",
+            "ru": "Он умеет очень быстро бегать."
+          }
+        },
+        {
+          "id": "RUN002",
+          "en": "run away",
+          "ru": "убегать",
+          "example": {
+            "en": "The dog ran away.",
+            "ru": "Собака убежала."
+          }
+        },
+        {
+          "id": "RUN003",
+          "en": "run out of",
+          "ru": "закончиться; остаться без",
+          "example": {
+            "en": "We've run out of milk.",
+            "ru": "У нас закончилось молоко."
+          }
+        },
+        {
+          "id": "RUN004",
+          "en": "run late",
+          "ru": "опаздывать",
+          "example": {
+            "en": "I'm running late. I'll be there soon.",
+            "ru": "Я опаздываю. Скоро буду."
+          }
+        },
+        {
+          "id": "RUN005",
+          "en": "run a business",
+          "ru": "управлять бизнесом",
+          "example": {
+            "en": "She runs a small business.",
+            "ru": "Она управляет небольшим бизнесом."
+          }
+        },
+        {
+          "id": "RUN006",
+          "en": "run a test",
+          "ru": "провести тест",
+          "example": {
+            "en": "We need to run a test first.",
+            "ru": "Сначала нам нужно провести тест."
+          }
+        },
+        {
+          "id": "RUN007",
+          "en": "run a program",
+          "ru": "запустить программу",
+          "example": {
+            "en": "I can't run this program on my laptop.",
+            "ru": "Я не могу запустить эту программу на ноутбуке."
+          }
+        },
+        {
+          "id": "RUN008",
+          "en": "run smoothly",
+          "ru": "работать без сбоев",
+          "example": {
+            "en": "The system is running smoothly.",
+            "ru": "Система работает без сбоев."
+          }
+        },
+        {
+          "id": "RUN009",
+          "en": "run into someone",
+          "ru": "случайно встретить кого-либо",
+          "example": {
+            "en": "I ran into an old friend yesterday.",
+            "ru": "Вчера я случайно встретил старого друга."
+          }
+        },
+        {
+          "id": "RUN010",
+          "en": "run into trouble",
+          "ru": "столкнуться с проблемами",
+          "example": {
+            "en": "We ran into trouble on the way.",
+            "ru": "По дороге у нас возникли проблемы."
+          }
+        },
+        {
+          "id": "RUN011",
+          "en": "run out",
+          "ru": "заканчиваться",
+          "example": {
+            "en": "Our time is running out.",
+            "ru": "Наше время заканчивается."
+          }
+        },
+        {
+          "id": "RUN012",
+          "en": "run an errand",
+          "ru": "сходить по делу",
+          "example": {
+            "en": "I need to run an errand after lunch.",
+            "ru": "Мне нужно сходить по одному делу после обеда."
+          }
+        },
+        {
+          "id": "RUN013",
+          "en": "run a meeting",
+          "ru": "проводить встречу",
+          "example": {
+            "en": "She will run the meeting today.",
+            "ru": "Сегодня она будет проводить встречу."
+          }
+        },
+        {
+          "id": "RUN014",
+          "en": "run on batteries",
+          "ru": "работать от батареек",
+          "example": {
+            "en": "This remote runs on batteries.",
+            "ru": "Этот пульт работает от батареек."
+          }
+        },
+        {
+          "id": "RUN015",
+          "en": "run through",
+          "ru": "быстро повторить; пройтись по",
+          "example": {
+            "en": "Let's run through the plan once more.",
+            "ru": "Давай ещё раз быстро пройдёмся по плану."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L16",
+      "order": 16,
+      "title": {
+        "en": "Set",
+        "ru": "Выражения с «set»"
+      },
+      "phrases": [
+        {
+          "id": "SET001",
+          "en": "set an alarm",
+          "ru": "поставить будильник",
+          "example": {
+            "en": "I set an alarm for six thirty.",
+            "ru": "Я поставил будильник на половину седьмого."
+          }
+        },
+        {
+          "id": "SET002",
+          "en": "set a goal",
+          "ru": "поставить цель",
+          "example": {
+            "en": "Set a small goal for this week.",
+            "ru": "Поставь небольшую цель на эту неделю."
+          }
+        },
+        {
+          "id": "SET003",
+          "en": "set a date",
+          "ru": "назначить дату",
+          "example": {
+            "en": "Let's set a date for the meeting.",
+            "ru": "Давай назначим дату встречи."
+          }
+        },
+        {
+          "id": "SET004",
+          "en": "set a time",
+          "ru": "назначить время",
+          "example": {
+            "en": "We need to set a time to meet.",
+            "ru": "Нам нужно назначить время встречи."
+          }
+        },
+        {
+          "id": "SET005",
+          "en": "set a limit",
+          "ru": "установить ограничение",
+          "example": {
+            "en": "You should set a limit on screen time.",
+            "ru": "Тебе следует ограничить время перед экраном."
+          }
+        },
+        {
+          "id": "SET006",
+          "en": "set up",
+          "ru": "настроить; организовать",
+          "example": {
+            "en": "Can you help me set up my new phone?",
+            "ru": "Можешь помочь мне настроить новый телефон?"
+          }
+        },
+        {
+          "id": "SET007",
+          "en": "set off",
+          "ru": "отправиться в путь",
+          "example": {
+            "en": "We set off early in the morning.",
+            "ru": "Мы отправились в путь рано утром."
+          }
+        },
+        {
+          "id": "SET008",
+          "en": "set an example",
+          "ru": "подавать пример",
+          "example": {
+            "en": "Parents should set a good example.",
+            "ru": "Родители должны подавать хороший пример."
+          }
+        },
+        {
+          "id": "SET009",
+          "en": "set the table",
+          "ru": "накрыть на стол",
+          "example": {
+            "en": "Please set the table for dinner.",
+            "ru": "Пожалуйста, накрой на стол к ужину."
+          }
+        },
+        {
+          "id": "SET010",
+          "en": "set a record",
+          "ru": "установить рекорд",
+          "example": {
+            "en": "The athlete set a new record.",
+            "ru": "Спортсмен установил новый рекорд."
+          }
+        },
+        {
+          "id": "SET011",
+          "en": "set aside money",
+          "ru": "откладывать деньги",
+          "example": {
+            "en": "I set aside some money every month.",
+            "ru": "Я откладываю немного денег каждый месяц."
+          }
+        },
+        {
+          "id": "SET012",
+          "en": "set free",
+          "ru": "освободить",
+          "example": {
+            "en": "The animal was set free.",
+            "ru": "Животное выпустили на свободу."
+          }
+        },
+        {
+          "id": "SET013",
+          "en": "set a reminder",
+          "ru": "установить напоминание",
+          "example": {
+            "en": "I'll set a reminder on my phone.",
+            "ru": "Я установлю напоминание на телефоне."
+          }
+        },
+        {
+          "id": "SET014",
+          "en": "set your mind on",
+          "ru": "твёрдо решить",
+          "example": {
+            "en": "She set her mind on becoming a doctor.",
+            "ru": "Она твёрдо решила стать врачом."
+          }
+        },
+        {
+          "id": "SET015",
+          "en": "all set",
+          "ru": "всё готово",
+          "example": {
+            "en": "Are we all set to leave?",
+            "ru": "Мы уже готовы уходить?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L17",
+      "order": 17,
+      "title": {
+        "en": "Pick",
+        "ru": "Выражения с «pick»"
+      },
+      "phrases": [
+        {
+          "id": "PICK001",
+          "en": "pick up",
+          "ru": "поднять; забрать; подобрать",
+          "example": {
+            "en": "I'll pick you up at seven.",
+            "ru": "Я заеду за тобой в семь."
+          }
+        },
+        {
+          "id": "PICK002",
+          "en": "pick someone up",
+          "ru": "забрать кого-либо",
+          "example": {
+            "en": "Can you pick me up from the station?",
+            "ru": "Можешь забрать меня со станции?"
+          }
+        },
+        {
+          "id": "PICK003",
+          "en": "pick up the phone",
+          "ru": "взять трубку",
+          "example": {
+            "en": "Why didn't you pick up the phone?",
+            "ru": "Почему ты не взял трубку?"
+          }
+        },
+        {
+          "id": "PICK004",
+          "en": "pick a number",
+          "ru": "выбрать число",
+          "example": {
+            "en": "Pick a number between one and ten.",
+            "ru": "Выбери число от одного до десяти."
+          }
+        },
+        {
+          "id": "PICK005",
+          "en": "pick a name",
+          "ru": "выбрать название или имя",
+          "example": {
+            "en": "We need to pick a name for the project.",
+            "ru": "Нам нужно выбрать название для проекта."
+          }
+        },
+        {
+          "id": "PICK006",
+          "en": "pick the best one",
+          "ru": "выбрать лучший вариант",
+          "example": {
+            "en": "Pick the best one for your needs.",
+            "ru": "Выбери лучший вариант для своих нужд."
+          }
+        },
+        {
+          "id": "PICK007",
+          "en": "pick flowers",
+          "ru": "собирать цветы",
+          "example": {
+            "en": "Don't pick flowers in the park.",
+            "ru": "Не срывай цветы в парке."
+          }
+        },
+        {
+          "id": "PICK008",
+          "en": "pick fruit",
+          "ru": "собирать фрукты",
+          "example": {
+            "en": "They pick fruit in summer.",
+            "ru": "Летом они собирают фрукты."
+          }
+        },
+        {
+          "id": "PICK009",
+          "en": "pick up a language",
+          "ru": "освоить язык",
+          "example": {
+            "en": "He picked up English while travelling.",
+            "ru": "Он освоил английский во время путешествий."
+          }
+        },
+        {
+          "id": "PICK010",
+          "en": "pick up a skill",
+          "ru": "освоить навык",
+          "example": {
+            "en": "You can pick up useful skills online.",
+            "ru": "Ты можешь освоить полезные навыки онлайн."
+          }
+        },
+        {
+          "id": "PICK011",
+          "en": "pick on someone",
+          "ru": "дразнить; задирать",
+          "example": {
+            "en": "Stop picking on your little brother.",
+            "ru": "Перестань задирать младшего брата."
+          }
+        },
+        {
+          "id": "PICK012",
+          "en": "pick out",
+          "ru": "выбрать",
+          "example": {
+            "en": "She picked out a blue dress.",
+            "ru": "Она выбрала синее платье."
+          }
+        },
+        {
+          "id": "PICK013",
+          "en": "pick a fight",
+          "ru": "затевать ссору",
+          "example": {
+            "en": "He's always trying to pick a fight.",
+            "ru": "Он постоянно пытается затеять ссору."
+          }
+        },
+        {
+          "id": "PICK014",
+          "en": "pick up speed",
+          "ru": "набирать скорость",
+          "example": {
+            "en": "The car picked up speed.",
+            "ru": "Машина набрала скорость."
+          }
+        },
+        {
+          "id": "PICK015",
+          "en": "pick a side",
+          "ru": "выбрать сторону",
+          "example": {
+            "en": "You don't have to pick a side.",
+            "ru": "Тебе не обязательно выбирать сторону."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L18",
+      "order": 18,
+      "title": {
+        "en": "Find",
+        "ru": "Выражения с «find»"
+      },
+      "phrases": [
+        {
+          "id": "FIND001",
+          "en": "find out",
+          "ru": "выяснить; узнать",
+          "example": {
+            "en": "I'll find out what happened.",
+            "ru": "Я выясню, что произошло."
+          }
+        },
+        {
+          "id": "FIND002",
+          "en": "find a job",
+          "ru": "найти работу",
+          "example": {
+            "en": "He's trying to find a job.",
+            "ru": "Он пытается найти работу."
+          }
+        },
+        {
+          "id": "FIND003",
+          "en": "find a solution",
+          "ru": "найти решение",
+          "example": {
+            "en": "We need to find a solution.",
+            "ru": "Нам нужно найти решение."
+          }
+        },
+        {
+          "id": "FIND004",
+          "en": "find the answer",
+          "ru": "найти ответ",
+          "example": {
+            "en": "Can you find the answer?",
+            "ru": "Можешь найти ответ?"
+          }
+        },
+        {
+          "id": "FIND005",
+          "en": "find time",
+          "ru": "найти время",
+          "example": {
+            "en": "I can't find time to exercise.",
+            "ru": "Я не могу найти время для упражнений."
+          }
+        },
+        {
+          "id": "FIND006",
+          "en": "find a way",
+          "ru": "найти способ",
+          "example": {
+            "en": "We'll find a way to help you.",
+            "ru": "Мы найдём способ тебе помочь."
+          }
+        },
+        {
+          "id": "FIND007",
+          "en": "find a place",
+          "ru": "найти место",
+          "example": {
+            "en": "Let's find a place to sit.",
+            "ru": "Давай найдём место, где можно сесть."
+          }
+        },
+        {
+          "id": "FIND008",
+          "en": "find something difficult",
+          "ru": "считать что-либо трудным",
+          "example": {
+            "en": "I find English pronunciation difficult.",
+            "ru": "Мне трудно даётся английское произношение."
+          }
+        },
+        {
+          "id": "FIND009",
+          "en": "find something interesting",
+          "ru": "считать что-либо интересным",
+          "example": {
+            "en": "I find this topic interesting.",
+            "ru": "Я считаю эту тему интересной."
+          }
+        },
+        {
+          "id": "FIND010",
+          "en": "find your way",
+          "ru": "найти дорогу",
+          "example": {
+            "en": "We found our way back to the hotel.",
+            "ru": "Мы нашли дорогу обратно в отель."
+          }
+        },
+        {
+          "id": "FIND011",
+          "en": "find a mistake",
+          "ru": "найти ошибку",
+          "example": {
+            "en": "Can you find the mistake in this sentence?",
+            "ru": "Можешь найти ошибку в этом предложении?"
+          }
+        },
+        {
+          "id": "FIND012",
+          "en": "find a seat",
+          "ru": "найти место",
+          "example": {
+            "en": "We found a seat near the window.",
+            "ru": "Мы нашли место возле окна."
+          }
+        },
+        {
+          "id": "FIND013",
+          "en": "find a replacement",
+          "ru": "найти замену",
+          "example": {
+            "en": "We need to find a replacement.",
+            "ru": "Нам нужно найти замену."
+          }
+        },
+        {
+          "id": "FIND014",
+          "en": "find out about",
+          "ru": "узнать о",
+          "example": {
+            "en": "I want to find out about the course.",
+            "ru": "Я хочу узнать об этом курсе."
+          }
+        },
+        {
+          "id": "FIND015",
+          "en": "find out the truth",
+          "ru": "узнать правду",
+          "example": {
+            "en": "She wanted to find out the truth.",
+            "ru": "Она хотела узнать правду."
+          }
+        },
+        {
+          "id": "FIND016",
+          "en": "find it hard to",
+          "ru": "считать трудным что-либо делать",
+          "example": {
+            "en": "I find it hard to wake up early.",
+            "ru": "Мне трудно рано просыпаться."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L19",
+      "order": 19,
+      "title": {
+        "en": "Work",
+        "ru": "Выражения с «work»"
+      },
+      "phrases": [
+        {
+          "id": "WORK001",
+          "en": "work from home",
+          "ru": "работать из дома",
+          "example": {
+            "en": "I work from home on Fridays.",
+            "ru": "По пятницам я работаю из дома."
+          }
+        },
+        {
+          "id": "WORK002",
+          "en": "work hard",
+          "ru": "усердно работать",
+          "example": {
+            "en": "If you work hard, you can improve.",
+            "ru": "Если будешь усердно работать, сможешь улучшить результат."
+          }
+        },
+        {
+          "id": "WORK003",
+          "en": "work late",
+          "ru": "работать допоздна",
+          "example": {
+            "en": "I have to work late tonight.",
+            "ru": "Сегодня мне придётся работать допоздна."
+          }
+        },
+        {
+          "id": "WORK004",
+          "en": "work overtime",
+          "ru": "работать сверхурочно",
+          "example": {
+            "en": "He sometimes works overtime.",
+            "ru": "Он иногда работает сверхурочно."
+          }
+        },
+        {
+          "id": "WORK005",
+          "en": "work well",
+          "ru": "хорошо работать; функционировать",
+          "example": {
+            "en": "This app works well on my phone.",
+            "ru": "Это приложение хорошо работает на моём телефоне."
+          }
+        },
+        {
+          "id": "WORK006",
+          "en": "work out",
+          "ru": "получаться; решаться",
+          "example": {
+            "en": "I hope everything works out.",
+            "ru": "Надеюсь, всё получится."
+          }
+        },
+        {
+          "id": "WORK007",
+          "en": "work on something",
+          "ru": "работать над чем-либо",
+          "example": {
+            "en": "I'm working on a new project.",
+            "ru": "Я работаю над новым проектом."
+          }
+        },
+        {
+          "id": "WORK008",
+          "en": "work for a company",
+          "ru": "работать в компании",
+          "example": {
+            "en": "She works for an international company.",
+            "ru": "Она работает в международной компании."
+          }
+        },
+        {
+          "id": "WORK009",
+          "en": "work as a teacher",
+          "ru": "работать учителем",
+          "example": {
+            "en": "He works as a teacher.",
+            "ru": "Он работает учителем."
+          }
+        },
+        {
+          "id": "WORK010",
+          "en": "work together",
+          "ru": "работать вместе",
+          "example": {
+            "en": "We work together every day.",
+            "ru": "Мы работаем вместе каждый день."
+          }
+        },
+        {
+          "id": "WORK011",
+          "en": "work out a problem",
+          "ru": "решить проблему",
+          "example": {
+            "en": "Let's work out this problem together.",
+            "ru": "Давай решим эту проблему вместе."
+          }
+        },
+        {
+          "id": "WORK012",
+          "en": "work your way up",
+          "ru": "продвигаться по карьерной лестнице",
+          "example": {
+            "en": "He worked his way up to manager.",
+            "ru": "Он вырос до должности менеджера."
+          }
+        },
+        {
+          "id": "WORK013",
+          "en": "work around a problem",
+          "ru": "найти обходное решение",
+          "example": {
+            "en": "We found a way to work around the problem.",
+            "ru": "Мы нашли способ обойти эту проблему."
+          }
+        },
+        {
+          "id": "WORK014",
+          "en": "work out at the gym",
+          "ru": "тренироваться в спортзале",
+          "example": {
+            "en": "I work out at the gym three times a week.",
+            "ru": "Я тренируюсь в спортзале три раза в неделю."
+          }
+        },
+        {
+          "id": "WORK015",
+          "en": "work for me",
+          "ru": "мне подходит",
+          "example": {
+            "en": "Does three o'clock work for you?",
+            "ru": "Тебе подходит три часа?"
+          }
+        },
+        {
+          "id": "WORK016",
+          "en": "work like a charm",
+          "ru": "работать отлично",
+          "example": {
+            "en": "Restarting the computer worked like a charm.",
+            "ru": "Перезагрузка компьютера отлично помогла."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CV-L20",
+      "order": 20,
+      "title": {
+        "en": "Call",
+        "ru": "Выражения с «call»"
+      },
+      "phrases": [
+        {
+          "id": "CALL001",
+          "en": "call me",
+          "ru": "позвони мне",
+          "example": {
+            "en": "Call me when you get home.",
+            "ru": "Позвони мне, когда доберёшься домой."
+          }
+        },
+        {
+          "id": "CALL002",
+          "en": "call back",
+          "ru": "перезвонить",
+          "example": {
+            "en": "I'll call you back in ten minutes.",
+            "ru": "Я перезвоню тебе через десять минут."
+          }
+        },
+        {
+          "id": "CALL003",
+          "en": "call someone up",
+          "ru": "позвонить кому-либо",
+          "example": {
+            "en": "I called him up last night.",
+            "ru": "Я позвонил ему вчера вечером."
+          }
+        },
+        {
+          "id": "CALL004",
+          "en": "call for help",
+          "ru": "позвать на помощь",
+          "example": {
+            "en": "Someone called for help.",
+            "ru": "Кто-то позвал на помощь."
+          }
+        },
+        {
+          "id": "CALL005",
+          "en": "call a taxi",
+          "ru": "вызвать такси",
+          "example": {
+            "en": "Can you call a taxi for us?",
+            "ru": "Можешь вызвать нам такси?"
+          }
+        },
+        {
+          "id": "CALL006",
+          "en": "call an ambulance",
+          "ru": "вызвать скорую помощь",
+          "example": {
+            "en": "Call an ambulance immediately.",
+            "ru": "Немедленно вызовите скорую помощь."
+          }
+        },
+        {
+          "id": "CALL007",
+          "en": "call the police",
+          "ru": "вызвать полицию",
+          "example": {
+            "en": "You should call the police.",
+            "ru": "Тебе следует вызвать полицию."
+          }
+        },
+        {
+          "id": "CALL008",
+          "en": "call a meeting",
+          "ru": "созвать собрание",
+          "example": {
+            "en": "The manager called a meeting.",
+            "ru": "Менеджер созвал собрание."
+          }
+        },
+        {
+          "id": "CALL009",
+          "en": "call it a day",
+          "ru": "закончить работу на сегодня",
+          "example": {
+            "en": "Let's call it a day.",
+            "ru": "Давай на сегодня закончим."
+          }
+        },
+        {
+          "id": "CALL010",
+          "en": "call in sick",
+          "ru": "сообщить, что заболел и не придёшь",
+          "example": {
+            "en": "I had to call in sick yesterday.",
+            "ru": "Вчера мне пришлось сообщить, что я заболел и не приду."
+          }
+        },
+        {
+          "id": "CALL011",
+          "en": "call off",
+          "ru": "отменить",
+          "example": {
+            "en": "They called off the match because of rain.",
+            "ru": "Они отменили матч из-за дождя."
+          }
+        },
+        {
+          "id": "CALL012",
+          "en": "call on someone",
+          "ru": "обратиться к кому-либо; вызвать отвечать",
+          "example": {
+            "en": "The teacher called on me to answer.",
+            "ru": "Учитель вызвал меня отвечать."
+          }
+        },
+        {
+          "id": "CALL013",
+          "en": "call out",
+          "ru": "громко позвать; выкрикнуть",
+          "example": {
+            "en": "She called out my name.",
+            "ru": "Она громко назвала моё имя."
+          }
+        },
+        {
+          "id": "CALL014",
+          "en": "call someone by name",
+          "ru": "называть кого-либо по имени",
+          "example": {
+            "en": "Please call me by my first name.",
+            "ru": "Пожалуйста, называй меня по имени."
+          }
+        },
+        {
+          "id": "CALL015",
+          "en": "call a number",
+          "ru": "набрать номер",
+          "example": {
+            "en": "Call this number if you need help.",
+            "ru": "Позвони по этому номеру, если нужна помощь."
+          }
+        },
+        {
+          "id": "CALL016",
+          "en": "call someone names",
+          "ru": "обзывать кого-либо",
+          "example": {
+            "en": "It's not nice to call people names.",
+            "ru": "Нехорошо обзывать людей."
+          }
+        },
+        {
+          "id": "CALL017",
+          "en": "call it quits",
+          "ru": "закончить; прекратить попытки",
+          "example": {
+            "en": "We've done enough for today. Let's call it quits.",
+            "ru": "На сегодня достаточно. Давай закончим."
+          }
+        },
+        {
+          "id": "CALL018",
+          "en": "give someone a call",
+          "ru": "позвонить кому-либо",
+          "example": {
+            "en": "I'll give you a call tomorrow.",
+            "ru": "Я позвоню тебе завтра."
+          }
+        }
+      ]
+    }
+  ]
+}

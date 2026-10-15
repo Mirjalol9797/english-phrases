@@ -1,0 +1,1212 @@
+{
+  "id": "opinions-feelings",
+  "order": 5,
+  "prefix": "OF",
+  "kind": "phrases",
+  "title": {
+    "en": "Opinions & Feelings",
+    "ru": "Мнения и чувства"
+  },
+  "lessons": [
+    {
+      "id": "OF-L01",
+      "order": 1,
+      "title": {
+        "en": "Giving an opinion",
+        "ru": "Выражение мнения"
+      },
+      "phrases": [
+        {
+          "id": "OF001",
+          "en": "I think...",
+          "ru": "Я думаю..."
+        },
+        {
+          "id": "OF002",
+          "en": "In my opinion...",
+          "ru": "По моему мнению..."
+        },
+        {
+          "id": "OF003",
+          "en": "Personally, I believe...",
+          "ru": "Лично я считаю..."
+        },
+        {
+          "id": "OF004",
+          "en": "As far as I'm concerned...",
+          "ru": "Что касается меня..."
+        },
+        {
+          "id": "OF005",
+          "en": "The way I see it...",
+          "ru": "На мой взгляд..."
+        },
+        {
+          "id": "OF006",
+          "en": "If you ask me...",
+          "ru": "Если спросишь меня..."
+        },
+        {
+          "id": "OF007",
+          "en": "From my point of view...",
+          "ru": "С моей точки зрения..."
+        },
+        {
+          "id": "OF008",
+          "en": "I tend to think that...",
+          "ru": "Я склонен / склонна думать, что..."
+        },
+        {
+          "id": "OF009",
+          "en": "My feeling is that...",
+          "ru": "У меня такое ощущение, что..."
+        },
+        {
+          "id": "OF010",
+          "en": "I'd say that...",
+          "ru": "Я бы сказал(а), что..."
+        }
+      ]
+    },
+    {
+      "id": "OF-L02",
+      "order": 2,
+      "title": {
+        "en": "Agreeing with opinions",
+        "ru": "Согласие с мнением"
+      },
+      "phrases": [
+        {
+          "id": "OF011",
+          "en": "I completely agree.",
+          "ru": "Я полностью согласен / согласна."
+        },
+        {
+          "id": "OF012",
+          "en": "That's exactly how I feel.",
+          "ru": "Я чувствую точно так же."
+        },
+        {
+          "id": "OF013",
+          "en": "You've put it perfectly.",
+          "ru": "Ты прекрасно это выразил(а)."
+        },
+        {
+          "id": "OF014",
+          "en": "I couldn't agree more.",
+          "ru": "Полностью согласен / согласна."
+        },
+        {
+          "id": "OF015",
+          "en": "I feel the same way.",
+          "ru": "Я чувствую то же самое."
+        },
+        {
+          "id": "OF016",
+          "en": "That's a very good point.",
+          "ru": "Это очень хорошее замечание."
+        },
+        {
+          "id": "OF017",
+          "en": "I was thinking the same thing.",
+          "ru": "Я думал(а) о том же."
+        },
+        {
+          "id": "OF018",
+          "en": "You've got that right.",
+          "ru": "Ты совершенно прав(а)."
+        },
+        {
+          "id": "OF019",
+          "en": "I'm on the same page.",
+          "ru": "Я придерживаюсь того же мнения."
+        },
+        {
+          "id": "OF020",
+          "en": "I see it the same way.",
+          "ru": "Я вижу это так же."
+        }
+      ]
+    },
+    {
+      "id": "OF-L03",
+      "order": 3,
+      "title": {
+        "en": "Disagreeing politely",
+        "ru": "Вежливое несогласие"
+      },
+      "phrases": [
+        {
+          "id": "OF021",
+          "en": "I see your point, but...",
+          "ru": "Я понимаю твою точку зрения, но..."
+        },
+        {
+          "id": "OF022",
+          "en": "I'm not sure I see it that way.",
+          "ru": "Не уверен(а), что вижу это так же."
+        },
+        {
+          "id": "OF023",
+          "en": "I have a slightly different view.",
+          "ru": "У меня немного другое мнение."
+        },
+        {
+          "id": "OF024",
+          "en": "I respectfully disagree.",
+          "ru": "Позволю себе не согласиться."
+        },
+        {
+          "id": "OF025",
+          "en": "That may be true, but...",
+          "ru": "Возможно, это правда, но..."
+        },
+        {
+          "id": "OF026",
+          "en": "I understand where you're coming from.",
+          "ru": "Я понимаю, почему ты так считаешь."
+        },
+        {
+          "id": "OF027",
+          "en": "I'm afraid I have to disagree.",
+          "ru": "Боюсь, мне придётся не согласиться."
+        },
+        {
+          "id": "OF028",
+          "en": "I wouldn't put it that way.",
+          "ru": "Я бы не стал(а) так это формулировать."
+        },
+        {
+          "id": "OF029",
+          "en": "There may be another way to look at it.",
+          "ru": "Возможно, на это можно посмотреть иначе."
+        },
+        {
+          "id": "OF030",
+          "en": "Let's look at both sides.",
+          "ru": "Давайте рассмотрим обе стороны."
+        }
+      ]
+    },
+    {
+      "id": "OF-L04",
+      "order": 4,
+      "title": {
+        "en": "Happiness and excitement",
+        "ru": "Счастье и радость"
+      },
+      "phrases": [
+        {
+          "id": "OF031",
+          "en": "I'm really happy about it.",
+          "ru": "Я очень этому рад(а)."
+        },
+        {
+          "id": "OF032",
+          "en": "I'm over the moon.",
+          "ru": "Я на седьмом небе от счастья."
+        },
+        {
+          "id": "OF033",
+          "en": "That made my day.",
+          "ru": "Это сделало мой день."
+        },
+        {
+          "id": "OF034",
+          "en": "I'm so excited!",
+          "ru": "Я так рад(а)!"
+        },
+        {
+          "id": "OF035",
+          "en": "I couldn't be happier.",
+          "ru": "Я не могу быть счастливее."
+        },
+        {
+          "id": "OF036",
+          "en": "I'm thrilled about the news.",
+          "ru": "Я в восторге от этой новости."
+        },
+        {
+          "id": "OF037",
+          "en": "What a wonderful surprise!",
+          "ru": "Какой чудесный сюрприз!"
+        },
+        {
+          "id": "OF038",
+          "en": "I'm glad it worked out.",
+          "ru": "Я рад(а), что всё получилось."
+        },
+        {
+          "id": "OF039",
+          "en": "I'm pleased with the result.",
+          "ru": "Я доволен / довольна результатом."
+        },
+        {
+          "id": "OF040",
+          "en": "This is exactly what I hoped for.",
+          "ru": "Это именно то, на что я надеялся / надеялась."
+        }
+      ]
+    },
+    {
+      "id": "OF-L05",
+      "order": 5,
+      "title": {
+        "en": "Sadness and disappointment",
+        "ru": "Грусть и разочарование"
+      },
+      "phrases": [
+        {
+          "id": "OF041",
+          "en": "I'm feeling a bit down.",
+          "ru": "Я немного подавлен(а)."
+        },
+        {
+          "id": "OF042",
+          "en": "That's disappointing.",
+          "ru": "Это разочаровывает."
+        },
+        {
+          "id": "OF043",
+          "en": "I was hoping for something else.",
+          "ru": "Я надеялся / надеялась на другое."
+        },
+        {
+          "id": "OF044",
+          "en": "I'm really upset about it.",
+          "ru": "Я очень расстроен(а) из-за этого."
+        },
+        {
+          "id": "OF045",
+          "en": "It's hard to accept.",
+          "ru": "Это трудно принять."
+        },
+        {
+          "id": "OF046",
+          "en": "I wish things were different.",
+          "ru": "Жаль, что всё не иначе."
+        },
+        {
+          "id": "OF047",
+          "en": "That didn't go as I expected.",
+          "ru": "Всё прошло не так, как я ожидал(а)."
+        },
+        {
+          "id": "OF048",
+          "en": "I feel let down.",
+          "ru": "Я чувствую себя обманутым / обманутой."
+        },
+        {
+          "id": "OF049",
+          "en": "It's a shame it didn't work out.",
+          "ru": "Жаль, что не получилось."
+        },
+        {
+          "id": "OF050",
+          "en": "I need some time to process this.",
+          "ru": "Мне нужно время, чтобы это осмыслить."
+        }
+      ]
+    },
+    {
+      "id": "OF-L06",
+      "order": 6,
+      "title": {
+        "en": "Worry and stress",
+        "ru": "Тревога и стресс"
+      },
+      "phrases": [
+        {
+          "id": "OF051",
+          "en": "I'm a little worried.",
+          "ru": "Я немного волнуюсь."
+        },
+        {
+          "id": "OF052",
+          "en": "This is stressing me out.",
+          "ru": "Это вызывает у меня стресс."
+        },
+        {
+          "id": "OF053",
+          "en": "I have a lot on my mind.",
+          "ru": "У меня много мыслей и забот."
+        },
+        {
+          "id": "OF054",
+          "en": "I'm feeling overwhelmed.",
+          "ru": "Я чувствую себя перегруженным / перегруженной."
+        },
+        {
+          "id": "OF055",
+          "en": "I'm not sure what to do.",
+          "ru": "Я не знаю, что делать."
+        },
+        {
+          "id": "OF056",
+          "en": "I'm worried about the outcome.",
+          "ru": "Я беспокоюсь об исходе."
+        },
+        {
+          "id": "OF057",
+          "en": "I need to clear my head.",
+          "ru": "Мне нужно проветрить голову."
+        },
+        {
+          "id": "OF058",
+          "en": "It's been a stressful week.",
+          "ru": "Это была напряжённая неделя."
+        },
+        {
+          "id": "OF059",
+          "en": "I'm trying not to overthink it.",
+          "ru": "Я стараюсь не накручивать себя."
+        },
+        {
+          "id": "OF060",
+          "en": "I hope everything goes smoothly.",
+          "ru": "Надеюсь, всё пройдёт гладко."
+        }
+      ]
+    },
+    {
+      "id": "OF-L07",
+      "order": 7,
+      "title": {
+        "en": "Confidence and motivation",
+        "ru": "Уверенность и мотивация"
+      },
+      "phrases": [
+        {
+          "id": "OF061",
+          "en": "I believe in myself.",
+          "ru": "Я верю в себя."
+        },
+        {
+          "id": "OF062",
+          "en": "I'm ready to give it a try.",
+          "ru": "Я готов(а) попробовать."
+        },
+        {
+          "id": "OF063",
+          "en": "I feel confident about this.",
+          "ru": "Я уверен(а) в этом."
+        },
+        {
+          "id": "OF064",
+          "en": "I'm determined to succeed.",
+          "ru": "Я полон / полна решимости добиться успеха."
+        },
+        {
+          "id": "OF065",
+          "en": "I'm making progress.",
+          "ru": "Я продвигаюсь вперёд."
+        },
+        {
+          "id": "OF066",
+          "en": "I won't give up easily.",
+          "ru": "Я не сдамся так легко."
+        },
+        {
+          "id": "OF067",
+          "en": "I'm proud of how far I've come.",
+          "ru": "Я горжусь тем, как далеко продвинулся / продвинулась."
+        },
+        {
+          "id": "OF068",
+          "en": "I know I can improve.",
+          "ru": "Я знаю, что могу стать лучше."
+        },
+        {
+          "id": "OF069",
+          "en": "I'm willing to learn.",
+          "ru": "Я готов(а) учиться."
+        },
+        {
+          "id": "OF070",
+          "en": "Every step counts.",
+          "ru": "Каждый шаг важен."
+        }
+      ]
+    },
+    {
+      "id": "OF-L08",
+      "order": 8,
+      "title": {
+        "en": "Likes and preferences",
+        "ru": "Нравится и предпочтения"
+      },
+      "phrases": [
+        {
+          "id": "OF071",
+          "en": "I'm really fond of it.",
+          "ru": "Мне это очень нравится."
+        },
+        {
+          "id": "OF072",
+          "en": "It's one of my favourites.",
+          "ru": "Это одно из моих любимых."
+        },
+        {
+          "id": "OF073",
+          "en": "I'm not particularly keen on it.",
+          "ru": "Я не особо этим увлекаюсь."
+        },
+        {
+          "id": "OF074",
+          "en": "I'd much rather do something else.",
+          "ru": "Я бы гораздо больше предпочёл / предпочла заняться чем-то другим."
+        },
+        {
+          "id": "OF075",
+          "en": "It really appeals to me.",
+          "ru": "Это мне очень нравится."
+        },
+        {
+          "id": "OF076",
+          "en": "I'm quite interested in that.",
+          "ru": "Мне это довольно интересно."
+        },
+        {
+          "id": "OF077",
+          "en": "It's not really my style.",
+          "ru": "Это не совсем мой стиль."
+        },
+        {
+          "id": "OF078",
+          "en": "I have a soft spot for it.",
+          "ru": "У меня к этому особая любовь."
+        },
+        {
+          "id": "OF079",
+          "en": "I can see the appeal.",
+          "ru": "Я понимаю, чем это привлекает."
+        },
+        {
+          "id": "OF080",
+          "en": "I prefer quality over quantity.",
+          "ru": "Я предпочитаю качество количеству."
+        }
+      ]
+    },
+    {
+      "id": "OF-L09",
+      "order": 9,
+      "title": {
+        "en": "Surprise and confusion",
+        "ru": "Удивление и растерянность"
+      },
+      "phrases": [
+        {
+          "id": "OF081",
+          "en": "I didn't expect that at all.",
+          "ru": "Я совсем этого не ожидал(а)."
+        },
+        {
+          "id": "OF082",
+          "en": "That caught me off guard.",
+          "ru": "Это застало меня врасплох."
+        },
+        {
+          "id": "OF083",
+          "en": "I'm honestly surprised.",
+          "ru": "Честно говоря, я удивлён(а)."
+        },
+        {
+          "id": "OF084",
+          "en": "I'm a bit confused.",
+          "ru": "Я немного растерян(а)."
+        },
+        {
+          "id": "OF085",
+          "en": "I don't know what to make of it.",
+          "ru": "Я не знаю, как к этому относиться."
+        },
+        {
+          "id": "OF086",
+          "en": "That came out of nowhere.",
+          "ru": "Это произошло совершенно неожиданно."
+        },
+        {
+          "id": "OF087",
+          "en": "I'm trying to make sense of it.",
+          "ru": "Я пытаюсь в этом разобраться."
+        },
+        {
+          "id": "OF088",
+          "en": "I never saw that coming.",
+          "ru": "Я никогда бы этого не ожидал(а)."
+        },
+        {
+          "id": "OF089",
+          "en": "That's hard to believe.",
+          "ru": "В это трудно поверить."
+        },
+        {
+          "id": "OF090",
+          "en": "I'm not sure what to think.",
+          "ru": "Я не знаю, что и думать."
+        }
+      ]
+    },
+    {
+      "id": "OF-L10",
+      "order": 10,
+      "title": {
+        "en": "Sympathy and empathy",
+        "ru": "Сочувствие и сопереживание"
+      },
+      "phrases": [
+        {
+          "id": "OF091",
+          "en": "I'm sorry you're going through this.",
+          "ru": "Мне жаль, что тебе приходится через это проходить."
+        },
+        {
+          "id": "OF092",
+          "en": "That sounds really difficult.",
+          "ru": "Звучит действительно непросто."
+        },
+        {
+          "id": "OF093",
+          "en": "I can understand why you feel that way.",
+          "ru": "Я понимаю, почему ты так себя чувствуешь."
+        },
+        {
+          "id": "OF094",
+          "en": "You have every right to feel that way.",
+          "ru": "Ты вполне вправе так себя чувствовать."
+        },
+        {
+          "id": "OF095",
+          "en": "I'm here if you need to talk.",
+          "ru": "Я рядом, если тебе нужно поговорить."
+        },
+        {
+          "id": "OF096",
+          "en": "That must have been upsetting.",
+          "ru": "Это, должно быть, тебя расстроило."
+        },
+        {
+          "id": "OF097",
+          "en": "I can imagine how hard that is.",
+          "ru": "Могу представить, как это тяжело."
+        },
+        {
+          "id": "OF098",
+          "en": "You don't have to handle it alone.",
+          "ru": "Тебе не нужно справляться с этим в одиночку."
+        },
+        {
+          "id": "OF099",
+          "en": "I hope things get easier soon.",
+          "ru": "Надеюсь, скоро станет легче."
+        },
+        {
+          "id": "OF100",
+          "en": "I'm thinking of you.",
+          "ru": "Я думаю о тебе."
+        }
+      ]
+    },
+    {
+      "id": "OF-L11",
+      "order": 11,
+      "title": {
+        "en": "Frustration and anger",
+        "ru": "Раздражение и злость"
+      },
+      "phrases": [
+        {
+          "id": "OF101",
+          "en": "I'm getting frustrated.",
+          "ru": "Я начинаю раздражаться."
+        },
+        {
+          "id": "OF102",
+          "en": "This is really annoying.",
+          "ru": "Это действительно раздражает."
+        },
+        {
+          "id": "OF103",
+          "en": "I've had enough of this.",
+          "ru": "С меня хватит."
+        },
+        {
+          "id": "OF104",
+          "en": "I'm upset about what happened.",
+          "ru": "Я расстроен(а) из-за произошедшего."
+        },
+        {
+          "id": "OF105",
+          "en": "That wasn't fair.",
+          "ru": "Это было несправедливо."
+        },
+        {
+          "id": "OF106",
+          "en": "I need a moment to cool off.",
+          "ru": "Мне нужно немного времени, чтобы остыть."
+        },
+        {
+          "id": "OF107",
+          "en": "I don't appreciate being treated like that.",
+          "ru": "Мне не нравится, когда со мной так обращаются."
+        },
+        {
+          "id": "OF108",
+          "en": "This is not what we agreed on.",
+          "ru": "Мы договаривались не об этом."
+        },
+        {
+          "id": "OF109",
+          "en": "I'm trying to stay calm.",
+          "ru": "Я стараюсь сохранять спокойствие."
+        },
+        {
+          "id": "OF110",
+          "en": "Let's talk when we've both calmed down.",
+          "ru": "Давай поговорим, когда оба успокоимся."
+        }
+      ]
+    },
+    {
+      "id": "OF-L12",
+      "order": 12,
+      "title": {
+        "en": "Relief and gratitude",
+        "ru": "Облегчение и благодарность"
+      },
+      "phrases": [
+        {
+          "id": "OF111",
+          "en": "What a relief!",
+          "ru": "Какое облегчение!"
+        },
+        {
+          "id": "OF112",
+          "en": "I'm so glad that's over.",
+          "ru": "Я так рад(а), что это закончилось."
+        },
+        {
+          "id": "OF113",
+          "en": "I can finally relax.",
+          "ru": "Наконец-то я могу расслабиться."
+        },
+        {
+          "id": "OF114",
+          "en": "That takes a weight off my shoulders.",
+          "ru": "С души будто камень упал."
+        },
+        {
+          "id": "OF115",
+          "en": "I'm grateful for your support.",
+          "ru": "Я благодарен / благодарна за твою поддержку."
+        },
+        {
+          "id": "OF116",
+          "en": "I really appreciate what you did.",
+          "ru": "Я очень ценю то, что ты сделал(а)."
+        },
+        {
+          "id": "OF117",
+          "en": "I don't know what I'd do without you.",
+          "ru": "Не знаю, что бы я делал(а) без тебя."
+        },
+        {
+          "id": "OF118",
+          "en": "That means a lot to me.",
+          "ru": "Это очень много для меня значит."
+        },
+        {
+          "id": "OF119",
+          "en": "I'm thankful things worked out.",
+          "ru": "Я благодарен / благодарна, что всё получилось."
+        },
+        {
+          "id": "OF120",
+          "en": "I feel much more at ease now.",
+          "ru": "Теперь я чувствую себя гораздо спокойнее."
+        }
+      ]
+    },
+    {
+      "id": "OF-L13",
+      "order": 13,
+      "title": {
+        "en": "Hope and uncertainty",
+        "ru": "Надежда и неопределённость"
+      },
+      "phrases": [
+        {
+          "id": "OF121",
+          "en": "I'm hopeful about the future.",
+          "ru": "Я с надеждой смотрю в будущее."
+        },
+        {
+          "id": "OF122",
+          "en": "Hopefully, it'll work out.",
+          "ru": "Надеюсь, всё получится."
+        },
+        {
+          "id": "OF123",
+          "en": "I have a good feeling about this.",
+          "ru": "У меня хорошее предчувствие насчёт этого."
+        },
+        {
+          "id": "OF124",
+          "en": "Only time will tell.",
+          "ru": "Только время покажет."
+        },
+        {
+          "id": "OF125",
+          "en": "I'm keeping my fingers crossed.",
+          "ru": "Надеюсь на лучшее."
+        },
+        {
+          "id": "OF126",
+          "en": "I'm not sure how it'll turn out.",
+          "ru": "Я не уверен(а), чем всё закончится."
+        },
+        {
+          "id": "OF127",
+          "en": "Let's hope for the best.",
+          "ru": "Будем надеяться на лучшее."
+        },
+        {
+          "id": "OF128",
+          "en": "I'm trying to stay positive.",
+          "ru": "Я стараюсь сохранять позитивный настрой."
+        },
+        {
+          "id": "OF129",
+          "en": "Anything is possible.",
+          "ru": "Всё возможно."
+        },
+        {
+          "id": "OF130",
+          "en": "We'll see what happens.",
+          "ru": "Посмотрим, что будет."
+        }
+      ]
+    },
+    {
+      "id": "OF-L14",
+      "order": 14,
+      "title": {
+        "en": "Regret and reflection",
+        "ru": "Сожаление и размышления"
+      },
+      "phrases": [
+        {
+          "id": "OF131",
+          "en": "I wish I'd done things differently.",
+          "ru": "Жаль, что я поступил(а) иначе не тогда."
+        },
+        {
+          "id": "OF132",
+          "en": "I regret saying that.",
+          "ru": "Я жалею, что сказал(а) это."
+        },
+        {
+          "id": "OF133",
+          "en": "Looking back, I understand now.",
+          "ru": "Оглядываясь назад, теперь я понимаю."
+        },
+        {
+          "id": "OF134",
+          "en": "I learned my lesson.",
+          "ru": "Я извлёк / извлекла урок."
+        },
+        {
+          "id": "OF135",
+          "en": "I should have thought it through.",
+          "ru": "Мне следовало всё обдумать."
+        },
+        {
+          "id": "OF136",
+          "en": "I don't want to make the same mistake.",
+          "ru": "Я не хочу повторять ту же ошибку."
+        },
+        {
+          "id": "OF137",
+          "en": "There's no point dwelling on it.",
+          "ru": "Нет смысла зацикливаться на этом."
+        },
+        {
+          "id": "OF138",
+          "en": "I could have handled it better.",
+          "ru": "Я мог(ла) бы справиться с этим лучше."
+        },
+        {
+          "id": "OF139",
+          "en": "I need to forgive myself.",
+          "ru": "Мне нужно простить себя."
+        },
+        {
+          "id": "OF140",
+          "en": "At least I know better now.",
+          "ru": "По крайней мере, теперь я знаю лучше."
+        }
+      ]
+    },
+    {
+      "id": "OF-L15",
+      "order": 15,
+      "title": {
+        "en": "Boundaries and needs",
+        "ru": "Личные границы и потребности"
+      },
+      "phrases": [
+        {
+          "id": "OF141",
+          "en": "I need some time to myself.",
+          "ru": "Мне нужно немного побыть одному / одной."
+        },
+        {
+          "id": "OF142",
+          "en": "I'm not comfortable with that.",
+          "ru": "Мне это некомфортно."
+        },
+        {
+          "id": "OF143",
+          "en": "I'd rather not talk about it.",
+          "ru": "Я бы предпочёл / предпочла не говорить об этом."
+        },
+        {
+          "id": "OF144",
+          "en": "I need a little space.",
+          "ru": "Мне нужно немного личного пространства."
+        },
+        {
+          "id": "OF145",
+          "en": "Please respect my decision.",
+          "ru": "Пожалуйста, уважай моё решение."
+        },
+        {
+          "id": "OF146",
+          "en": "I'm not ready to discuss this.",
+          "ru": "Я пока не готов(а) это обсуждать."
+        },
+        {
+          "id": "OF147",
+          "en": "I need to focus on myself.",
+          "ru": "Мне нужно сосредоточиться на себе."
+        },
+        {
+          "id": "OF148",
+          "en": "That doesn't work for me.",
+          "ru": "Меня это не устраивает."
+        },
+        {
+          "id": "OF149",
+          "en": "I'd appreciate some honesty.",
+          "ru": "Я был(а) бы признателен / признательна за честность."
+        },
+        {
+          "id": "OF150",
+          "en": "I want to be clear about how I feel.",
+          "ru": "Я хочу ясно объяснить, что чувствую."
+        }
+      ]
+    },
+    {
+      "id": "OF-L16",
+      "order": 16,
+      "title": {
+        "en": "Describing mood",
+        "ru": "Описание настроения"
+      },
+      "phrases": [
+        {
+          "id": "OF151",
+          "en": "I'm in a great mood.",
+          "ru": "У меня отличное настроение."
+        },
+        {
+          "id": "OF152",
+          "en": "I'm not feeling myself today.",
+          "ru": "Сегодня я сам(а) не свой / не своя."
+        },
+        {
+          "id": "OF153",
+          "en": "I'm feeling a bit off.",
+          "ru": "Я чувствую себя немного не в своей тарелке."
+        },
+        {
+          "id": "OF154",
+          "en": "I'm in two minds about it.",
+          "ru": "Я сомневаюсь, как поступить."
+        },
+        {
+          "id": "OF155",
+          "en": "I'm feeling optimistic.",
+          "ru": "Я настроен(а) оптимистично."
+        },
+        {
+          "id": "OF156",
+          "en": "I'm in a reflective mood.",
+          "ru": "Я настроен(а) на размышления."
+        },
+        {
+          "id": "OF157",
+          "en": "I'm feeling restless.",
+          "ru": "Мне не сидится на месте."
+        },
+        {
+          "id": "OF158",
+          "en": "I'm in a better place now.",
+          "ru": "Сейчас моё состояние намного лучше."
+        },
+        {
+          "id": "OF159",
+          "en": "I'm emotionally drained.",
+          "ru": "Я эмоционально истощён(а)."
+        },
+        {
+          "id": "OF160",
+          "en": "I'm feeling recharged.",
+          "ru": "Я чувствую, что восстановил(а) силы."
+        }
+      ]
+    },
+    {
+      "id": "OF-L17",
+      "order": 17,
+      "title": {
+        "en": "Judging situations",
+        "ru": "Оценка ситуаций"
+      },
+      "phrases": [
+        {
+          "id": "OF161",
+          "en": "That seems reasonable.",
+          "ru": "Это кажется разумным."
+        },
+        {
+          "id": "OF162",
+          "en": "I find that hard to accept.",
+          "ru": "Мне трудно это принять."
+        },
+        {
+          "id": "OF163",
+          "en": "It doesn't feel right to me.",
+          "ru": "Мне кажется, это неправильно."
+        },
+        {
+          "id": "OF164",
+          "en": "That's a fair assessment.",
+          "ru": "Это справедливая оценка."
+        },
+        {
+          "id": "OF165",
+          "en": "I think it's worth the risk.",
+          "ru": "Думаю, риск того стоит."
+        },
+        {
+          "id": "OF166",
+          "en": "I'm not convinced it's necessary.",
+          "ru": "Я не уверен(а), что это необходимо."
+        },
+        {
+          "id": "OF167",
+          "en": "That sounds promising.",
+          "ru": "Это звучит многообещающе."
+        },
+        {
+          "id": "OF168",
+          "en": "I see a few potential problems.",
+          "ru": "Я вижу несколько возможных проблем."
+        },
+        {
+          "id": "OF169",
+          "en": "It could go either way.",
+          "ru": "Всё может сложиться по-разному."
+        },
+        {
+          "id": "OF170",
+          "en": "Overall, I'm satisfied with it.",
+          "ru": "В целом я этим доволен / довольна."
+        }
+      ]
+    },
+    {
+      "id": "OF-L18",
+      "order": 18,
+      "title": {
+        "en": "Encouraging others",
+        "ru": "Поддержка других"
+      },
+      "phrases": [
+        {
+          "id": "OF171",
+          "en": "I know you've got this.",
+          "ru": "Я знаю, что у тебя всё получится."
+        },
+        {
+          "id": "OF172",
+          "en": "You should give yourself credit.",
+          "ru": "Тебе стоит отдать себе должное."
+        },
+        {
+          "id": "OF173",
+          "en": "You've come a long way.",
+          "ru": "Ты далеко продвинулся / продвинулась."
+        },
+        {
+          "id": "OF174",
+          "en": "Don't be too hard on yourself.",
+          "ru": "Не будь слишком строг(а) к себе."
+        },
+        {
+          "id": "OF175",
+          "en": "It's okay to make mistakes.",
+          "ru": "Ошибаться — это нормально."
+        },
+        {
+          "id": "OF176",
+          "en": "I'm proud of your effort.",
+          "ru": "Я горжусь твоими усилиями."
+        },
+        {
+          "id": "OF177",
+          "en": "You deserve a chance.",
+          "ru": "Ты заслуживаешь шанса."
+        },
+        {
+          "id": "OF178",
+          "en": "Keep believing in yourself.",
+          "ru": "Продолжай верить в себя."
+        },
+        {
+          "id": "OF179",
+          "en": "You're doing better than you think.",
+          "ru": "У тебя получается лучше, чем ты думаешь."
+        },
+        {
+          "id": "OF180",
+          "en": "I'm cheering you on.",
+          "ru": "Я болею за тебя."
+        }
+      ]
+    },
+    {
+      "id": "OF-L19",
+      "order": 19,
+      "title": {
+        "en": "Personal values",
+        "ru": "Личные ценности"
+      },
+      "phrases": [
+        {
+          "id": "OF181",
+          "en": "Honesty matters to me.",
+          "ru": "Честность для меня важна."
+        },
+        {
+          "id": "OF182",
+          "en": "I value your opinion.",
+          "ru": "Я ценю твоё мнение."
+        },
+        {
+          "id": "OF183",
+          "en": "I'd rather be honest.",
+          "ru": "Я предпочитаю быть честным / честной."
+        },
+        {
+          "id": "OF184",
+          "en": "Trust takes time to build.",
+          "ru": "Доверие требует времени."
+        },
+        {
+          "id": "OF185",
+          "en": "I believe in treating people fairly.",
+          "ru": "Я верю, что с людьми нужно обращаться справедливо."
+        },
+        {
+          "id": "OF186",
+          "en": "Family comes first for me.",
+          "ru": "Для меня семья на первом месте."
+        },
+        {
+          "id": "OF187",
+          "en": "I try to keep an open mind.",
+          "ru": "Я стараюсь быть открытым / открытой к разным мнениям."
+        },
+        {
+          "id": "OF188",
+          "en": "I stand by my decision.",
+          "ru": "Я придерживаюсь своего решения."
+        },
+        {
+          "id": "OF189",
+          "en": "It's important to me to keep my word.",
+          "ru": "Для меня важно держать слово."
+        },
+        {
+          "id": "OF190",
+          "en": "I respect people who are genuine.",
+          "ru": "Я уважаю искренних людей."
+        }
+      ]
+    },
+    {
+      "id": "OF-L20",
+      "order": 20,
+      "title": {
+        "en": "Mixed feelings",
+        "ru": "Смешанные чувства"
+      },
+      "phrases": [
+        {
+          "id": "OF191",
+          "en": "I have mixed feelings about it.",
+          "ru": "У меня неоднозначные чувства по этому поводу."
+        },
+        {
+          "id": "OF192",
+          "en": "Part of me is excited, but part of me is nervous.",
+          "ru": "Одна часть меня радуется, а другая волнуется."
+        },
+        {
+          "id": "OF193",
+          "en": "I'm happy, but also a little sad.",
+          "ru": "Я рад(а), но немного грустно."
+        },
+        {
+          "id": "OF194",
+          "en": "I don't know whether to laugh or cry.",
+          "ru": "Не знаю, смеяться или плакать."
+        },
+        {
+          "id": "OF195",
+          "en": "It's bittersweet.",
+          "ru": "Это одновременно радостно и грустно."
+        },
+        {
+          "id": "OF196",
+          "en": "I'm torn between two choices.",
+          "ru": "Я разрываюсь между двумя вариантами."
+        },
+        {
+          "id": "OF197",
+          "en": "I'm excited and scared at the same time.",
+          "ru": "Я одновременно рад(а) и боюсь."
+        },
+        {
+          "id": "OF198",
+          "en": "It's hard to explain how I feel.",
+          "ru": "Трудно объяснить, что я чувствую."
+        },
+        {
+          "id": "OF199",
+          "en": "I feel relieved but exhausted.",
+          "ru": "Я чувствую облегчение, но при этом истощён(а)."
+        },
+        {
+          "id": "OF200",
+          "en": "I'm still trying to sort out my feelings.",
+          "ru": "Я всё ещё пытаюсь разобраться в своих чувствах."
+        }
+      ]
+    }
+  ]
+}

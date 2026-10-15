@@ -1,0 +1,81 @@
+{
+  "plannedChapters": 12,
+  "chapters": [
+    {
+      "file": "everyday_english_200_phrases.docx",
+      "id": "everyday-english",
+      "order": 1
+    },
+    {
+      "file": "useful_expressions_200_phrases.docx",
+      "id": "useful-expressions",
+      "order": 2,
+      "title": {
+        "en": "Useful Expressions",
+        "ru": "Полезные выражения"
+      }
+    },
+    {
+      "file": "small_talk_200_phrases.docx",
+      "id": "small-talk",
+      "order": 3
+    },
+    {
+      "file": "questions_requests_200_phrases.docx",
+      "id": "questions-requests",
+      "order": 4
+    },
+    {
+      "file": "opinions_feelings_200_phrases.docx",
+      "id": "opinions-feelings",
+      "order": 5
+    },
+    {
+      "file": "phone_messaging_200_phrases.docx",
+      "id": "phone-messaging",
+      "order": 6
+    },
+    {
+      "file": "travel_english_200_phrases.docx",
+      "id": "travel-english",
+      "order": 7
+    },
+    {
+      "file": "work_english_200_phrases.docx",
+      "id": "work-english",
+      "order": 8
+    },
+    {
+      "file": "phrasal_verbs_200_phrases.docx",
+      "id": "phrasal-verbs",
+      "order": 9
+    },
+    {
+      "file": "natural_english_200_phrases.docx",
+      "id": "natural-english",
+      "order": 10
+    },
+    {
+      "file": "core_verbs_expressions.docx",
+      "id": "core-verbs",
+      "order": 11,
+      "format": "categories",
+      "prefix": "CV",
+      "title": {
+        "en": "English Core Verbs",
+        "ru": "Основные глаголы"
+      }
+    },
+    {
+      "file": "prepositions_expressions.docx",
+      "id": "prepositions",
+      "order": 12,
+      "format": "categories",
+      "prefix": "PR",
+      "title": {
+        "en": "English Prepositions",
+        "ru": "Предлоги"
+      }
+    }
+  ]
+}

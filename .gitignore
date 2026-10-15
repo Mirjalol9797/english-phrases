@@ -1,0 +1,12 @@
+node_modules
+# Проект собирается yarn, чужой lock-файл только создаёт расхождения
+package-lock.json
+dist
+*.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.log
+# Временные файлы Word, пока документ открыт
+content/source/~$*

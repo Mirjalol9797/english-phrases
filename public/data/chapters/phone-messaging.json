@@ -1,0 +1,1212 @@
+{
+  "id": "phone-messaging",
+  "order": 6,
+  "prefix": "PM",
+  "kind": "phrases",
+  "title": {
+    "en": "Phone & Messaging",
+    "ru": "Звонки и переписка"
+  },
+  "lessons": [
+    {
+      "id": "PM-L01",
+      "order": 1,
+      "title": {
+        "en": "Starting a call",
+        "ru": "Начало звонка"
+      },
+      "phrases": [
+        {
+          "id": "PM001",
+          "en": "Hi, it's me.",
+          "ru": "Привет, это я."
+        },
+        {
+          "id": "PM002",
+          "en": "Is now a good time to talk?",
+          "ru": "Сейчас удобно говорить?"
+        },
+        {
+          "id": "PM003",
+          "en": "Can you talk for a minute?",
+          "ru": "Можешь поговорить минутку?"
+        },
+        {
+          "id": "PM004",
+          "en": "Am I calling at a bad time?",
+          "ru": "Я не вовремя звоню?"
+        },
+        {
+          "id": "PM005",
+          "en": "I just wanted to check in.",
+          "ru": "Я просто хотел(а) узнать, как ты."
+        },
+        {
+          "id": "PM006",
+          "en": "I thought I'd give you a call.",
+          "ru": "Я подумал(а), что позвоню тебе."
+        },
+        {
+          "id": "PM007",
+          "en": "Can you hear me okay?",
+          "ru": "Ты меня нормально слышишь?"
+        },
+        {
+          "id": "PM008",
+          "en": "Sorry, I missed your call.",
+          "ru": "Извини, я пропустил(а) твой звонок."
+        },
+        {
+          "id": "PM009",
+          "en": "Thanks for calling me back.",
+          "ru": "Спасибо, что перезвонил(а)."
+        },
+        {
+          "id": "PM010",
+          "en": "What's up?",
+          "ru": "Что случилось? / Как дела?"
+        }
+      ]
+    },
+    {
+      "id": "PM-L02",
+      "order": 2,
+      "title": {
+        "en": "Making and answering calls",
+        "ru": "Звонки"
+      },
+      "phrases": [
+        {
+          "id": "PM011",
+          "en": "Could I speak to Alex, please?",
+          "ru": "Можно поговорить с Алексом, пожалуйста?"
+        },
+        {
+          "id": "PM012",
+          "en": "Who's calling, please?",
+          "ru": "Кто звонит, пожалуйста?"
+        },
+        {
+          "id": "PM013",
+          "en": "Please hold for a moment.",
+          "ru": "Пожалуйста, подождите минутку."
+        },
+        {
+          "id": "PM014",
+          "en": "I'll put you through.",
+          "ru": "Я соединю вас."
+        },
+        {
+          "id": "PM015",
+          "en": "Could you call back later?",
+          "ru": "Не могли бы вы перезвонить позже?"
+        },
+        {
+          "id": "PM016",
+          "en": "The line is busy.",
+          "ru": "Линия занята."
+        },
+        {
+          "id": "PM017",
+          "en": "I think we got disconnected.",
+          "ru": "Кажется, связь прервалась."
+        },
+        {
+          "id": "PM018",
+          "en": "I'll call you right back.",
+          "ru": "Я сейчас же перезвоню."
+        },
+        {
+          "id": "PM019",
+          "en": "Can I leave a message?",
+          "ru": "Могу я оставить сообщение?"
+        },
+        {
+          "id": "PM020",
+          "en": "Could you ask them to call me?",
+          "ru": "Не могли бы вы попросить их мне позвонить?"
+        }
+      ]
+    },
+    {
+      "id": "PM-L03",
+      "order": 3,
+      "title": {
+        "en": "Poor connection",
+        "ru": "Плохая связь"
+      },
+      "phrases": [
+        {
+          "id": "PM021",
+          "en": "You're breaking up.",
+          "ru": "Тебя плохо слышно, связь прерывается."
+        },
+        {
+          "id": "PM022",
+          "en": "I can barely hear you.",
+          "ru": "Я едва тебя слышу."
+        },
+        {
+          "id": "PM023",
+          "en": "The signal is weak.",
+          "ru": "Слабый сигнал."
+        },
+        {
+          "id": "PM024",
+          "en": "Could you move somewhere quieter?",
+          "ru": "Можешь перейти в более тихое место?"
+        },
+        {
+          "id": "PM025",
+          "en": "There's a lot of background noise.",
+          "ru": "Много фонового шума."
+        },
+        {
+          "id": "PM026",
+          "en": "Your voice keeps cutting out.",
+          "ru": "Твой голос постоянно пропадает."
+        },
+        {
+          "id": "PM027",
+          "en": "Let me call you back from another phone.",
+          "ru": "Позволь перезвонить с другого телефона."
+        },
+        {
+          "id": "PM028",
+          "en": "I think the connection is unstable.",
+          "ru": "Кажется, соединение нестабильное."
+        },
+        {
+          "id": "PM029",
+          "en": "Can you hear me now?",
+          "ru": "Теперь ты меня слышишь?"
+        },
+        {
+          "id": "PM030",
+          "en": "Let's switch to a video call.",
+          "ru": "Давай перейдём на видеозвонок."
+        }
+      ]
+    },
+    {
+      "id": "PM-L04",
+      "order": 4,
+      "title": {
+        "en": "Leaving messages",
+        "ru": "Оставление сообщений"
+      },
+      "phrases": [
+        {
+          "id": "PM031",
+          "en": "Please leave a message after the beep.",
+          "ru": "Оставьте сообщение после сигнала."
+        },
+        {
+          "id": "PM032",
+          "en": "I just called to let you know...",
+          "ru": "Я просто позвонил(а), чтобы сообщить..."
+        },
+        {
+          "id": "PM033",
+          "en": "Could you pass on a message?",
+          "ru": "Не могли бы вы передать сообщение?"
+        },
+        {
+          "id": "PM034",
+          "en": "Please tell them I called.",
+          "ru": "Пожалуйста, скажите им, что я звонил(а)."
+        },
+        {
+          "id": "PM035",
+          "en": "I'll try again later.",
+          "ru": "Я попробую ещё раз позже."
+        },
+        {
+          "id": "PM036",
+          "en": "I couldn't reach you.",
+          "ru": "Я не смог(ла) до тебя дозвониться."
+        },
+        {
+          "id": "PM037",
+          "en": "I left you a voicemail.",
+          "ru": "Я оставил(а) тебе голосовое сообщение."
+        },
+        {
+          "id": "PM038",
+          "en": "Did you get my message?",
+          "ru": "Ты получил(а) моё сообщение?"
+        },
+        {
+          "id": "PM039",
+          "en": "Please call me when you can.",
+          "ru": "Позвони мне, когда сможешь."
+        },
+        {
+          "id": "PM040",
+          "en": "It's nothing urgent.",
+          "ru": "Это не срочно."
+        }
+      ]
+    },
+    {
+      "id": "PM-L05",
+      "order": 5,
+      "title": {
+        "en": "Text messages",
+        "ru": "Текстовые сообщения"
+      },
+      "phrases": [
+        {
+          "id": "PM041",
+          "en": "I'll text you the details.",
+          "ru": "Я напишу тебе подробности."
+        },
+        {
+          "id": "PM042",
+          "en": "Did you see my text?",
+          "ru": "Ты видел(а) моё сообщение?"
+        },
+        {
+          "id": "PM043",
+          "en": "Sorry, I just saw this.",
+          "ru": "Извини, я только сейчас это увидел(а)."
+        },
+        {
+          "id": "PM044",
+          "en": "I'll reply in a minute.",
+          "ru": "Я отвечу через минуту."
+        },
+        {
+          "id": "PM045",
+          "en": "Can you send that again?",
+          "ru": "Можешь отправить это ещё раз?"
+        },
+        {
+          "id": "PM046",
+          "en": "I sent it by mistake.",
+          "ru": "Я отправил(а) это по ошибке."
+        },
+        {
+          "id": "PM047",
+          "en": "Please check your messages.",
+          "ru": "Пожалуйста, проверь сообщения."
+        },
+        {
+          "id": "PM048",
+          "en": "I'll message you later.",
+          "ru": "Я напишу тебе позже."
+        },
+        {
+          "id": "PM049",
+          "en": "I haven't heard back from them.",
+          "ru": "Они мне пока не ответили."
+        },
+        {
+          "id": "PM050",
+          "en": "Thanks for the heads-up.",
+          "ru": "Спасибо, что предупредил(а)."
+        }
+      ]
+    },
+    {
+      "id": "PM-L06",
+      "order": 6,
+      "title": {
+        "en": "Making plans by phone",
+        "ru": "Договорённости по телефону"
+      },
+      "phrases": [
+        {
+          "id": "PM051",
+          "en": "Are we still on for tonight?",
+          "ru": "Наши планы на сегодняшний вечер в силе?"
+        },
+        {
+          "id": "PM052",
+          "en": "What time should I call you?",
+          "ru": "Во сколько мне тебе позвонить?"
+        },
+        {
+          "id": "PM053",
+          "en": "I'll send you the address.",
+          "ru": "Я отправлю тебе адрес."
+        },
+        {
+          "id": "PM054",
+          "en": "Can you share your location?",
+          "ru": "Можешь поделиться геолокацией?"
+        },
+        {
+          "id": "PM055",
+          "en": "Let's confirm the details by text.",
+          "ru": "Давай подтвердим детали сообщением."
+        },
+        {
+          "id": "PM056",
+          "en": "I'll let you know when I'm leaving.",
+          "ru": "Я сообщу тебе, когда выйду."
+        },
+        {
+          "id": "PM057",
+          "en": "I'm running a little late.",
+          "ru": "Я немного опаздываю."
+        },
+        {
+          "id": "PM058",
+          "en": "I'll be there in ten minutes.",
+          "ru": "Я буду там через десять минут."
+        },
+        {
+          "id": "PM059",
+          "en": "Something came up; can we reschedule?",
+          "ru": "Возникли обстоятельства; можем перенести?"
+        },
+        {
+          "id": "PM060",
+          "en": "Call me when you're on your way.",
+          "ru": "Позвони мне, когда будешь в пути."
+        }
+      ]
+    },
+    {
+      "id": "PM-L07",
+      "order": 7,
+      "title": {
+        "en": "Video calls",
+        "ru": "Видеозвонки"
+      },
+      "phrases": [
+        {
+          "id": "PM061",
+          "en": "Can you turn your camera on?",
+          "ru": "Можешь включить камеру?"
+        },
+        {
+          "id": "PM062",
+          "en": "Your camera is frozen.",
+          "ru": "Твоё изображение зависло."
+        },
+        {
+          "id": "PM063",
+          "en": "You're on mute.",
+          "ru": "У тебя выключен микрофон."
+        },
+        {
+          "id": "PM064",
+          "en": "I can't see your screen.",
+          "ru": "Я не вижу твой экран."
+        },
+        {
+          "id": "PM065",
+          "en": "Could you share the link?",
+          "ru": "Можешь поделиться ссылкой?"
+        },
+        {
+          "id": "PM066",
+          "en": "I'll join in a moment.",
+          "ru": "Я подключусь через минуту."
+        },
+        {
+          "id": "PM067",
+          "en": "Let's turn off our cameras to save bandwidth.",
+          "ru": "Давайте выключим камеры, чтобы снизить нагрузку на интернет."
+        },
+        {
+          "id": "PM068",
+          "en": "The video is lagging.",
+          "ru": "Видео тормозит."
+        },
+        {
+          "id": "PM069",
+          "en": "Can you hear the audio?",
+          "ru": "Ты слышишь звук?"
+        },
+        {
+          "id": "PM070",
+          "en": "I'll reconnect to the meeting.",
+          "ru": "Я переподключусь к встрече."
+        }
+      ]
+    },
+    {
+      "id": "PM-L08",
+      "order": 8,
+      "title": {
+        "en": "Phone settings and battery",
+        "ru": "Настройки телефона и батарея"
+      },
+      "phrases": [
+        {
+          "id": "PM071",
+          "en": "My phone is about to die.",
+          "ru": "У меня сейчас разрядится телефон."
+        },
+        {
+          "id": "PM072",
+          "en": "Do you have a charger?",
+          "ru": "У тебя есть зарядное устройство?"
+        },
+        {
+          "id": "PM073",
+          "en": "I need to put my phone on silent.",
+          "ru": "Мне нужно поставить телефон на беззвучный режим."
+        },
+        {
+          "id": "PM074",
+          "en": "My phone won't turn on.",
+          "ru": "Мой телефон не включается."
+        },
+        {
+          "id": "PM075",
+          "en": "I can't unlock my phone.",
+          "ru": "Я не могу разблокировать телефон."
+        },
+        {
+          "id": "PM076",
+          "en": "The app keeps crashing.",
+          "ru": "Приложение постоянно вылетает."
+        },
+        {
+          "id": "PM077",
+          "en": "I need to update my phone.",
+          "ru": "Мне нужно обновить телефон."
+        },
+        {
+          "id": "PM078",
+          "en": "Could you connect me to the Wi-Fi?",
+          "ru": "Можешь подключить меня к Wi-Fi?"
+        },
+        {
+          "id": "PM079",
+          "en": "I forgot my passcode.",
+          "ru": "Я забыл(а) код доступа."
+        },
+        {
+          "id": "PM080",
+          "en": "My storage is full.",
+          "ru": "У меня заполнена память."
+        }
+      ]
+    },
+    {
+      "id": "PM-L09",
+      "order": 9,
+      "title": {
+        "en": "Work calls",
+        "ru": "Рабочие звонки"
+      },
+      "phrases": [
+        {
+          "id": "PM081",
+          "en": "I'm calling about the meeting.",
+          "ru": "Я звоню по поводу встречи."
+        },
+        {
+          "id": "PM082",
+          "en": "Could we discuss this over the phone?",
+          "ru": "Можем обсудить это по телефону?"
+        },
+        {
+          "id": "PM083",
+          "en": "I'll send the documents after our call.",
+          "ru": "Я отправлю документы после звонка."
+        },
+        {
+          "id": "PM084",
+          "en": "Let me check and call you back.",
+          "ru": "Позволь проверить и перезвонить."
+        },
+        {
+          "id": "PM085",
+          "en": "Could you repeat the last point?",
+          "ru": "Не могли бы вы повторить последний пункт?"
+        },
+        {
+          "id": "PM086",
+          "en": "I'll put that in an email.",
+          "ru": "Я напишу об этом в электронном письме."
+        },
+        {
+          "id": "PM087",
+          "en": "Thanks for taking my call.",
+          "ru": "Спасибо, что ответили на звонок."
+        },
+        {
+          "id": "PM088",
+          "en": "I have another call coming in.",
+          "ru": "Мне поступает другой звонок."
+        },
+        {
+          "id": "PM089",
+          "en": "Can we keep this brief?",
+          "ru": "Можем говорить кратко?"
+        },
+        {
+          "id": "PM090",
+          "en": "I'll follow up by email.",
+          "ru": "Я продолжу общение по электронной почте."
+        }
+      ]
+    },
+    {
+      "id": "PM-L10",
+      "order": 10,
+      "title": {
+        "en": "Polite messaging",
+        "ru": "Вежливая переписка"
+      },
+      "phrases": [
+        {
+          "id": "PM091",
+          "en": "Sorry to message you so late.",
+          "ru": "Извини, что пишу так поздно."
+        },
+        {
+          "id": "PM092",
+          "en": "When you have a moment, could you reply?",
+          "ru": "Когда будет минутка, можешь ответить?"
+        },
+        {
+          "id": "PM093",
+          "en": "No rush to reply.",
+          "ru": "Не торопись с ответом."
+        },
+        {
+          "id": "PM094",
+          "en": "Thanks for getting back to me.",
+          "ru": "Спасибо, что ответил(а)."
+        },
+        {
+          "id": "PM095",
+          "en": "I appreciate the quick response.",
+          "ru": "Благодарю за быстрый ответ."
+        },
+        {
+          "id": "PM096",
+          "en": "Just checking whether you saw this.",
+          "ru": "Просто уточняю, видел(а) ли ты это."
+        },
+        {
+          "id": "PM097",
+          "en": "Please let me know when you can.",
+          "ru": "Пожалуйста, дай знать, когда сможешь."
+        },
+        {
+          "id": "PM098",
+          "en": "Sorry for the multiple messages.",
+          "ru": "Извини за несколько сообщений подряд."
+        },
+        {
+          "id": "PM099",
+          "en": "I hope I'm not disturbing you.",
+          "ru": "Надеюсь, я тебя не отвлекаю."
+        },
+        {
+          "id": "PM100",
+          "en": "Thanks for your time.",
+          "ru": "Спасибо за твоё время."
+        }
+      ]
+    },
+    {
+      "id": "PM-L11",
+      "order": 11,
+      "title": {
+        "en": "Group chats",
+        "ru": "Групповые чаты"
+      },
+      "phrases": [
+        {
+          "id": "PM101",
+          "en": "I'll add you to the group.",
+          "ru": "Я добавлю тебя в группу."
+        },
+        {
+          "id": "PM102",
+          "en": "Please check the pinned message.",
+          "ru": "Пожалуйста, проверь закреплённое сообщение."
+        },
+        {
+          "id": "PM103",
+          "en": "I'll share it with the group.",
+          "ru": "Я поделюсь этим с группой."
+        },
+        {
+          "id": "PM104",
+          "en": "Can everyone see this?",
+          "ru": "Все это видят?"
+        },
+        {
+          "id": "PM105",
+          "en": "Let's keep the chat on topic.",
+          "ru": "Давайте придерживаться темы в чате."
+        },
+        {
+          "id": "PM106",
+          "en": "I'll send the files here.",
+          "ru": "Я отправлю файлы сюда."
+        },
+        {
+          "id": "PM107",
+          "en": "Please don't forget to reply.",
+          "ru": "Пожалуйста, не забудьте ответить."
+        },
+        {
+          "id": "PM108",
+          "en": "I'll mute this chat for a while.",
+          "ru": "Я ненадолго отключу уведомления этого чата."
+        },
+        {
+          "id": "PM109",
+          "en": "Who can help with this?",
+          "ru": "Кто может с этим помочь?"
+        },
+        {
+          "id": "PM110",
+          "en": "Thanks, everyone, for the updates.",
+          "ru": "Спасибо всем за обновления."
+        }
+      ]
+    },
+    {
+      "id": "PM-L12",
+      "order": 12,
+      "title": {
+        "en": "Sharing photos and files",
+        "ru": "Отправка фото и файлов"
+      },
+      "phrases": [
+        {
+          "id": "PM111",
+          "en": "I'll send you the photo.",
+          "ru": "Я отправлю тебе фотографию."
+        },
+        {
+          "id": "PM112",
+          "en": "The file is too large to send.",
+          "ru": "Файл слишком большой для отправки."
+        },
+        {
+          "id": "PM113",
+          "en": "Can you open the attachment?",
+          "ru": "Можешь открыть вложение?"
+        },
+        {
+          "id": "PM114",
+          "en": "I'll upload it to the shared folder.",
+          "ru": "Я загружу это в общую папку."
+        },
+        {
+          "id": "PM115",
+          "en": "Here's the link.",
+          "ru": "Вот ссылка."
+        },
+        {
+          "id": "PM116",
+          "en": "Let me know if it doesn't open.",
+          "ru": "Дай знать, если не открывается."
+        },
+        {
+          "id": "PM117",
+          "en": "I sent the wrong file.",
+          "ru": "Я отправил(а) не тот файл."
+        },
+        {
+          "id": "PM118",
+          "en": "Could you send it in PDF format?",
+          "ru": "Можешь отправить это в формате PDF?"
+        },
+        {
+          "id": "PM119",
+          "en": "The download is taking a while.",
+          "ru": "Загрузка занимает некоторое время."
+        },
+        {
+          "id": "PM120",
+          "en": "I've shared access with you.",
+          "ru": "Я предоставил(а) тебе доступ."
+        }
+      ]
+    },
+    {
+      "id": "PM-L13",
+      "order": 13,
+      "title": {
+        "en": "Confirming information",
+        "ru": "Подтверждение информации"
+      },
+      "phrases": [
+        {
+          "id": "PM121",
+          "en": "Can you confirm the time?",
+          "ru": "Можешь подтвердить время?"
+        },
+        {
+          "id": "PM122",
+          "en": "Just to make sure, we're meeting at six.",
+          "ru": "Чтобы уточнить, мы встречаемся в шесть."
+        },
+        {
+          "id": "PM123",
+          "en": "Did I get the address right?",
+          "ru": "Я правильно записал(а) адрес?"
+        },
+        {
+          "id": "PM124",
+          "en": "I'll repeat that back to you.",
+          "ru": "Я повторю это для проверки."
+        },
+        {
+          "id": "PM125",
+          "en": "Could you spell your name?",
+          "ru": "Можете произнести ваше имя по буквам?"
+        },
+        {
+          "id": "PM126",
+          "en": "Let me read that message again.",
+          "ru": "Позволь перечитать сообщение."
+        },
+        {
+          "id": "PM127",
+          "en": "I got your details.",
+          "ru": "Я получил(а) твои данные."
+        },
+        {
+          "id": "PM128",
+          "en": "Thanks for confirming.",
+          "ru": "Спасибо за подтверждение."
+        },
+        {
+          "id": "PM129",
+          "en": "I'll double-check and let you know.",
+          "ru": "Я перепроверю и сообщу тебе."
+        },
+        {
+          "id": "PM130",
+          "en": "Everything is confirmed.",
+          "ru": "Всё подтверждено."
+        }
+      ]
+    },
+    {
+      "id": "PM-L14",
+      "order": 14,
+      "title": {
+        "en": "Missed calls and callbacks",
+        "ru": "Пропущенные звонки"
+      },
+      "phrases": [
+        {
+          "id": "PM131",
+          "en": "I saw your missed call.",
+          "ru": "Я увидел(а) твой пропущенный звонок."
+        },
+        {
+          "id": "PM132",
+          "en": "Sorry I couldn't answer.",
+          "ru": "Извини, я не смог(ла) ответить."
+        },
+        {
+          "id": "PM133",
+          "en": "I was in a meeting.",
+          "ru": "Я был(а) на встрече."
+        },
+        {
+          "id": "PM134",
+          "en": "I tried calling you earlier.",
+          "ru": "Я пытался / пыталась позвонить тебе раньше."
+        },
+        {
+          "id": "PM135",
+          "en": "When would be a good time to call?",
+          "ru": "Когда лучше позвонить?"
+        },
+        {
+          "id": "PM136",
+          "en": "I'll call as soon as I'm free.",
+          "ru": "Я позвоню, как только освобожусь."
+        },
+        {
+          "id": "PM137",
+          "en": "I couldn't get through.",
+          "ru": "Я не смог(ла) дозвониться."
+        },
+        {
+          "id": "PM138",
+          "en": "Please try me again in an hour.",
+          "ru": "Попробуй позвонить мне снова через час."
+        },
+        {
+          "id": "PM139",
+          "en": "I was away from my phone.",
+          "ru": "Меня не было рядом с телефоном."
+        },
+        {
+          "id": "PM140",
+          "en": "Thanks for calling back.",
+          "ru": "Спасибо, что перезвонил(а)."
+        }
+      ]
+    },
+    {
+      "id": "PM-L15",
+      "order": 15,
+      "title": {
+        "en": "Ending a call",
+        "ru": "Завершение звонка"
+      },
+      "phrases": [
+        {
+          "id": "PM141",
+          "en": "I won't keep you any longer.",
+          "ru": "Не буду больше тебя задерживать."
+        },
+        {
+          "id": "PM142",
+          "en": "I should let you go.",
+          "ru": "Не буду тебя больше задерживать."
+        },
+        {
+          "id": "PM143",
+          "en": "Thanks for the call.",
+          "ru": "Спасибо за звонок."
+        },
+        {
+          "id": "PM144",
+          "en": "It was good talking to you.",
+          "ru": "Было приятно поговорить с тобой."
+        },
+        {
+          "id": "PM145",
+          "en": "I'll talk to you soon.",
+          "ru": "Скоро поговорим."
+        },
+        {
+          "id": "PM146",
+          "en": "Speak to you later.",
+          "ru": "Поговорим позже."
+        },
+        {
+          "id": "PM147",
+          "en": "I'll be in touch.",
+          "ru": "Я буду на связи."
+        },
+        {
+          "id": "PM148",
+          "en": "Take care and talk soon.",
+          "ru": "Береги себя, скоро поговорим."
+        },
+        {
+          "id": "PM149",
+          "en": "I'll send you a message after this.",
+          "ru": "Я напишу тебе после этого."
+        },
+        {
+          "id": "PM150",
+          "en": "Bye for now.",
+          "ru": "Пока."
+        }
+      ]
+    },
+    {
+      "id": "PM-L16",
+      "order": 16,
+      "title": {
+        "en": "Online status and availability",
+        "ru": "Статус и доступность"
+      },
+      "phrases": [
+        {
+          "id": "PM151",
+          "en": "Are you online?",
+          "ru": "Ты в сети?"
+        },
+        {
+          "id": "PM152",
+          "en": "I was away from my phone.",
+          "ru": "Меня не было у телефона."
+        },
+        {
+          "id": "PM153",
+          "en": "I'll be offline for a while.",
+          "ru": "Меня некоторое время не будет в сети."
+        },
+        {
+          "id": "PM154",
+          "en": "I just came online.",
+          "ru": "Я только что появился / появилась в сети."
+        },
+        {
+          "id": "PM155",
+          "en": "Sorry, I didn't see the notification.",
+          "ru": "Извини, я не увидел(а) уведомление."
+        },
+        {
+          "id": "PM156",
+          "en": "My notifications are turned off.",
+          "ru": "У меня отключены уведомления."
+        },
+        {
+          "id": "PM157",
+          "en": "I'll check when I'm back online.",
+          "ru": "Я проверю, когда снова буду в сети."
+        },
+        {
+          "id": "PM158",
+          "en": "I may not reply right away.",
+          "ru": "Я могу ответить не сразу."
+        },
+        {
+          "id": "PM159",
+          "en": "I'm available now.",
+          "ru": "Я сейчас на связи."
+        },
+        {
+          "id": "PM160",
+          "en": "Message me whenever you need.",
+          "ru": "Пиши мне, когда понадобится."
+        }
+      ]
+    },
+    {
+      "id": "PM-L17",
+      "order": 17,
+      "title": {
+        "en": "Privacy and mistakes",
+        "ru": "Конфиденциальность и ошибки"
+      },
+      "phrases": [
+        {
+          "id": "PM161",
+          "en": "I sent that to the wrong person.",
+          "ru": "Я отправил(а) это не тому человеку."
+        },
+        {
+          "id": "PM162",
+          "en": "Please delete my last message.",
+          "ru": "Пожалуйста, удали моё последнее сообщение."
+        },
+        {
+          "id": "PM163",
+          "en": "I didn't mean to send that.",
+          "ru": "Я не хотел(а) это отправлять."
+        },
+        {
+          "id": "PM164",
+          "en": "Was that message meant for me?",
+          "ru": "Это сообщение было адресовано мне?"
+        },
+        {
+          "id": "PM165",
+          "en": "Please don't share this message.",
+          "ru": "Пожалуйста, не пересылай это сообщение."
+        },
+        {
+          "id": "PM166",
+          "en": "I accidentally deleted the chat.",
+          "ru": "Я случайно удалил(а) чат."
+        },
+        {
+          "id": "PM167",
+          "en": "Can you resend the attachment?",
+          "ru": "Можешь отправить вложение повторно?"
+        },
+        {
+          "id": "PM168",
+          "en": "I can't find our conversation.",
+          "ru": "Я не могу найти нашу переписку."
+        },
+        {
+          "id": "PM169",
+          "en": "I'll back up my contacts.",
+          "ru": "Я сделаю резервную копию контактов."
+        },
+        {
+          "id": "PM170",
+          "en": "Let's discuss this privately.",
+          "ru": "Давай обсудим это лично."
+        }
+      ]
+    },
+    {
+      "id": "PM-L18",
+      "order": 18,
+      "title": {
+        "en": "Customer support by phone",
+        "ru": "Поддержка по телефону"
+      },
+      "phrases": [
+        {
+          "id": "PM171",
+          "en": "I'm calling about an issue with my account.",
+          "ru": "Я звоню по поводу проблемы с аккаунтом."
+        },
+        {
+          "id": "PM172",
+          "en": "Could you verify my details?",
+          "ru": "Не могли бы вы проверить мои данные?"
+        },
+        {
+          "id": "PM173",
+          "en": "Could you explain the next steps?",
+          "ru": "Можете объяснить следующие шаги?"
+        },
+        {
+          "id": "PM174",
+          "en": "How long will this take to resolve?",
+          "ru": "Сколько времени займёт решение проблемы?"
+        },
+        {
+          "id": "PM175",
+          "en": "Could I speak to a supervisor?",
+          "ru": "Могу я поговорить с руководителем?"
+        },
+        {
+          "id": "PM176",
+          "en": "Please give me a reference number.",
+          "ru": "Пожалуйста, дайте мне номер обращения."
+        },
+        {
+          "id": "PM177",
+          "en": "I'd like to report a problem.",
+          "ru": "Я хотел(а) бы сообщить о проблеме."
+        },
+        {
+          "id": "PM178",
+          "en": "Thank you for looking into this.",
+          "ru": "Спасибо, что разбираетесь с этим."
+        },
+        {
+          "id": "PM179",
+          "en": "Could you send confirmation by email?",
+          "ru": "Можете отправить подтверждение по электронной почте?"
+        },
+        {
+          "id": "PM180",
+          "en": "I'll wait for your update.",
+          "ru": "Я буду ждать вашего сообщения."
+        }
+      ]
+    },
+    {
+      "id": "PM-L19",
+      "order": 19,
+      "title": {
+        "en": "Social messaging",
+        "ru": "Сообщения друзьям"
+      },
+      "phrases": [
+        {
+          "id": "PM181",
+          "en": "Are you around?",
+          "ru": "Ты поблизости? / Ты свободен(на)?"
+        },
+        {
+          "id": "PM182",
+          "en": "Fancy meeting up later?",
+          "ru": "Хочешь встретиться позже?"
+        },
+        {
+          "id": "PM183",
+          "en": "I'm on my way now.",
+          "ru": "Я уже в пути."
+        },
+        {
+          "id": "PM184",
+          "en": "Save me a seat.",
+          "ru": "Займи мне место."
+        },
+        {
+          "id": "PM185",
+          "en": "I'm running a few minutes late.",
+          "ru": "Я опоздаю на несколько минут."
+        },
+        {
+          "id": "PM186",
+          "en": "Send me a photo when you get there.",
+          "ru": "Отправь фото, когда доберёшься."
+        },
+        {
+          "id": "PM187",
+          "en": "That was fun yesterday.",
+          "ru": "Вчера было весело."
+        },
+        {
+          "id": "PM188",
+          "en": "Thanks for the invite!",
+          "ru": "Спасибо за приглашение!"
+        },
+        {
+          "id": "PM189",
+          "en": "Let me know when you're home.",
+          "ru": "Дай знать, когда будешь дома."
+        },
+        {
+          "id": "PM190",
+          "en": "We should do this again soon.",
+          "ru": "Нам стоит скоро повторить."
+        }
+      ]
+    },
+    {
+      "id": "PM-L20",
+      "order": 20,
+      "title": {
+        "en": "Common messaging abbreviations and phrases",
+        "ru": "Частые фразы в переписке"
+      },
+      "phrases": [
+        {
+          "id": "PM191",
+          "en": "FYI — for your information.",
+          "ru": "К сведению."
+        },
+        {
+          "id": "PM192",
+          "en": "ASAP — as soon as possible.",
+          "ru": "Как можно скорее."
+        },
+        {
+          "id": "PM193",
+          "en": "BTW — by the way.",
+          "ru": "Кстати."
+        },
+        {
+          "id": "PM194",
+          "en": "No worries.",
+          "ru": "Не переживай; ничего страшного."
+        },
+        {
+          "id": "PM195",
+          "en": "Sounds good to me.",
+          "ru": "Меня это устраивает."
+        },
+        {
+          "id": "PM196",
+          "en": "Got it.",
+          "ru": "Понял(а)."
+        },
+        {
+          "id": "PM197",
+          "en": "Will do.",
+          "ru": "Сделаю."
+        },
+        {
+          "id": "PM198",
+          "en": "Talk soon.",
+          "ru": "Скоро поговорим."
+        },
+        {
+          "id": "PM199",
+          "en": "Thanks in advance.",
+          "ru": "Заранее спасибо."
+        },
+        {
+          "id": "PM200",
+          "en": "Let me know.",
+          "ru": "Дай мне знать."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1212 @@
+{
+  "id": "work-english",
+  "order": 8,
+  "prefix": "WE",
+  "kind": "phrases",
+  "title": {
+    "en": "Work English",
+    "ru": "Английский для работы"
+  },
+  "lessons": [
+    {
+      "id": "WE-L01",
+      "order": 1,
+      "title": {
+        "en": "Starting the workday",
+        "ru": "Начало рабочего дня"
+      },
+      "phrases": [
+        {
+          "id": "WE001",
+          "en": "Good morning, everyone.",
+          "ru": "Доброе утро, всем."
+        },
+        {
+          "id": "WE002",
+          "en": "Let's get started.",
+          "ru": "Давайте начнём."
+        },
+        {
+          "id": "WE003",
+          "en": "What's on the agenda today?",
+          "ru": "Что у нас сегодня в повестке?"
+        },
+        {
+          "id": "WE004",
+          "en": "I have a quick question.",
+          "ru": "У меня небольшой вопрос."
+        },
+        {
+          "id": "WE005",
+          "en": "Let me check my schedule.",
+          "ru": "Позвольте проверить моё расписание."
+        },
+        {
+          "id": "WE006",
+          "en": "I'll be at my desk.",
+          "ru": "Я буду на рабочем месте."
+        },
+        {
+          "id": "WE007",
+          "en": "I'm logging in now.",
+          "ru": "Я сейчас вхожу в систему."
+        },
+        {
+          "id": "WE008",
+          "en": "Have you seen the latest update?",
+          "ru": "Вы видели последнее обновление?"
+        },
+        {
+          "id": "WE009",
+          "en": "Let's go over today's tasks.",
+          "ru": "Давайте пройдёмся по сегодняшним задачам."
+        },
+        {
+          "id": "WE010",
+          "en": "I'll get started on that.",
+          "ru": "Я начну этим заниматься."
+        }
+      ]
+    },
+    {
+      "id": "WE-L02",
+      "order": 2,
+      "title": {
+        "en": "Tasks and priorities",
+        "ru": "Задачи и приоритеты"
+      },
+      "phrases": [
+        {
+          "id": "WE011",
+          "en": "What's the priority?",
+          "ru": "Что в приоритете?"
+        },
+        {
+          "id": "WE012",
+          "en": "This is my top priority.",
+          "ru": "Это моя главная задача."
+        },
+        {
+          "id": "WE013",
+          "en": "I'll handle this first.",
+          "ru": "Сначала я займусь этим."
+        },
+        {
+          "id": "WE014",
+          "en": "Can this wait until tomorrow?",
+          "ru": "Это может подождать до завтра?"
+        },
+        {
+          "id": "WE015",
+          "en": "I have a few things to finish.",
+          "ru": "Мне нужно закончить несколько дел."
+        },
+        {
+          "id": "WE016",
+          "en": "Let's break this into smaller tasks.",
+          "ru": "Давайте разделим это на небольшие задачи."
+        },
+        {
+          "id": "WE017",
+          "en": "I'm working on it.",
+          "ru": "Я над этим работаю."
+        },
+        {
+          "id": "WE018",
+          "en": "I've finished the first part.",
+          "ru": "Я закончил(а) первую часть."
+        },
+        {
+          "id": "WE019",
+          "en": "What's the deadline?",
+          "ru": "Какой крайний срок?"
+        },
+        {
+          "id": "WE020",
+          "en": "I'll keep you updated.",
+          "ru": "Я буду держать вас в курсе."
+        }
+      ]
+    },
+    {
+      "id": "WE-L03",
+      "order": 3,
+      "title": {
+        "en": "Meetings",
+        "ru": "Совещания"
+      },
+      "phrases": [
+        {
+          "id": "WE021",
+          "en": "When is the meeting?",
+          "ru": "Когда совещание?"
+        },
+        {
+          "id": "WE022",
+          "en": "Could we schedule a meeting?",
+          "ru": "Можем назначить встречу?"
+        },
+        {
+          "id": "WE023",
+          "en": "I'll send a calendar invite.",
+          "ru": "Я отправлю приглашение в календаре."
+        },
+        {
+          "id": "WE024",
+          "en": "Can everyone hear me?",
+          "ru": "Все меня слышат?"
+        },
+        {
+          "id": "WE025",
+          "en": "Let's get down to business.",
+          "ru": "Давайте перейдём к делу."
+        },
+        {
+          "id": "WE026",
+          "en": "Could you share your screen?",
+          "ru": "Не могли бы вы показать экран?"
+        },
+        {
+          "id": "WE027",
+          "en": "Let's come back to that later.",
+          "ru": "Давайте вернёмся к этому позже."
+        },
+        {
+          "id": "WE028",
+          "en": "Does anyone have any questions?",
+          "ru": "У кого-нибудь есть вопросы?"
+        },
+        {
+          "id": "WE029",
+          "en": "Let's wrap up the meeting.",
+          "ru": "Давайте завершать совещание."
+        },
+        {
+          "id": "WE030",
+          "en": "I'll send the meeting notes.",
+          "ru": "Я отправлю заметки по итогам встречи."
+        }
+      ]
+    },
+    {
+      "id": "WE-L04",
+      "order": 4,
+      "title": {
+        "en": "Deadlines and timing",
+        "ru": "Сроки и время"
+      },
+      "phrases": [
+        {
+          "id": "WE031",
+          "en": "We're on schedule.",
+          "ru": "Мы идём по графику."
+        },
+        {
+          "id": "WE032",
+          "en": "We're running behind schedule.",
+          "ru": "Мы отстаём от графика."
+        },
+        {
+          "id": "WE033",
+          "en": "I can finish it by Friday.",
+          "ru": "Я могу закончить к пятнице."
+        },
+        {
+          "id": "WE034",
+          "en": "The deadline is approaching.",
+          "ru": "Приближается крайний срок."
+        },
+        {
+          "id": "WE035",
+          "en": "Could we extend the deadline?",
+          "ru": "Можно продлить срок?"
+        },
+        {
+          "id": "WE036",
+          "en": "I'll need a little more time.",
+          "ru": "Мне понадобится немного больше времени."
+        },
+        {
+          "id": "WE037",
+          "en": "This should only take a few minutes.",
+          "ru": "Это должно занять всего несколько минут."
+        },
+        {
+          "id": "WE038",
+          "en": "I'll have it ready by noon.",
+          "ru": "Я подготовлю это к полудню."
+        },
+        {
+          "id": "WE039",
+          "en": "We're ahead of schedule.",
+          "ru": "Мы опережаем график."
+        },
+        {
+          "id": "WE040",
+          "en": "Let's agree on a realistic timeline.",
+          "ru": "Давайте согласуем реалистичные сроки."
+        }
+      ]
+    },
+    {
+      "id": "WE-L05",
+      "order": 5,
+      "title": {
+        "en": "Asking colleagues for help",
+        "ru": "Помощь коллег"
+      },
+      "phrases": [
+        {
+          "id": "WE041",
+          "en": "Could you give me a hand with this?",
+          "ru": "Не могли бы вы помочь мне с этим?"
+        },
+        {
+          "id": "WE042",
+          "en": "Do you have a minute?",
+          "ru": "У вас есть минутка?"
+        },
+        {
+          "id": "WE043",
+          "en": "Could you take a look at this?",
+          "ru": "Не могли бы вы взглянуть на это?"
+        },
+        {
+          "id": "WE044",
+          "en": "Can you walk me through it?",
+          "ru": "Можете объяснить мне это по шагам?"
+        },
+        {
+          "id": "WE045",
+          "en": "I'm stuck on this part.",
+          "ru": "Я застрял(а) на этой части."
+        },
+        {
+          "id": "WE046",
+          "en": "Could you point me in the right direction?",
+          "ru": "Можете подсказать, в каком направлении двигаться?"
+        },
+        {
+          "id": "WE047",
+          "en": "Thanks for jumping in.",
+          "ru": "Спасибо, что подключились."
+        },
+        {
+          "id": "WE048",
+          "en": "I'll return the favor.",
+          "ru": "Я отплачу тем же / помогу вам в ответ."
+        },
+        {
+          "id": "WE049",
+          "en": "Could you double-check this?",
+          "ru": "Не могли бы вы перепроверить это?"
+        },
+        {
+          "id": "WE050",
+          "en": "I appreciate your help.",
+          "ru": "Я ценю вашу помощь."
+        }
+      ]
+    },
+    {
+      "id": "WE-L06",
+      "order": 6,
+      "title": {
+        "en": "Giving updates",
+        "ru": "Отчёты о ходе работы"
+      },
+      "phrases": [
+        {
+          "id": "WE051",
+          "en": "Here's a quick update.",
+          "ru": "Кратко расскажу, что нового."
+        },
+        {
+          "id": "WE052",
+          "en": "So far, everything is going well.",
+          "ru": "Пока всё идёт хорошо."
+        },
+        {
+          "id": "WE053",
+          "en": "I've made good progress.",
+          "ru": "Я хорошо продвинулся / продвинулась."
+        },
+        {
+          "id": "WE054",
+          "en": "We're still waiting for feedback.",
+          "ru": "Мы всё ещё ждём обратную связь."
+        },
+        {
+          "id": "WE055",
+          "en": "The task is almost complete.",
+          "ru": "Задача почти завершена."
+        },
+        {
+          "id": "WE056",
+          "en": "I've run into a small issue.",
+          "ru": "Я столкнулся / столкнулась с небольшой проблемой."
+        },
+        {
+          "id": "WE057",
+          "en": "I'll share the results shortly.",
+          "ru": "Скоро поделюсь результатами."
+        },
+        {
+          "id": "WE058",
+          "en": "Nothing has changed since yesterday.",
+          "ru": "Со вчерашнего дня ничего не изменилось."
+        },
+        {
+          "id": "WE059",
+          "en": "We're waiting for approval.",
+          "ru": "Мы ждём согласования."
+        },
+        {
+          "id": "WE060",
+          "en": "I'll send a full update this afternoon.",
+          "ru": "Я отправлю полный отчёт сегодня после обеда."
+        }
+      ]
+    },
+    {
+      "id": "WE-L07",
+      "order": 7,
+      "title": {
+        "en": "Email and written communication",
+        "ru": "Электронная переписка"
+      },
+      "phrases": [
+        {
+          "id": "WE061",
+          "en": "I'm following up on my previous email.",
+          "ru": "Пишу в продолжение предыдущего письма."
+        },
+        {
+          "id": "WE062",
+          "en": "Please find the file attached.",
+          "ru": "Пожалуйста, найдите файл во вложении."
+        },
+        {
+          "id": "WE063",
+          "en": "I've copied you on the email.",
+          "ru": "Я добавил(а) вас в копию письма."
+        },
+        {
+          "id": "WE064",
+          "en": "Could you confirm receipt?",
+          "ru": "Не могли бы вы подтвердить получение?"
+        },
+        {
+          "id": "WE065",
+          "en": "Thanks for getting back to me.",
+          "ru": "Спасибо, что ответили."
+        },
+        {
+          "id": "WE066",
+          "en": "I'll get back to you soon.",
+          "ru": "Я скоро вам отвечу."
+        },
+        {
+          "id": "WE067",
+          "en": "Please let me know if you have questions.",
+          "ru": "Пожалуйста, сообщите, если возникнут вопросы."
+        },
+        {
+          "id": "WE068",
+          "en": "I've included the details below.",
+          "ru": "Я указал(а) подробности ниже."
+        },
+        {
+          "id": "WE069",
+          "en": "Sorry for the late reply.",
+          "ru": "Извините за поздний ответ."
+        },
+        {
+          "id": "WE070",
+          "en": "Looking forward to hearing from you.",
+          "ru": "Буду ждать вашего ответа."
+        }
+      ]
+    },
+    {
+      "id": "WE-L08",
+      "order": 8,
+      "title": {
+        "en": "Problems and blockers",
+        "ru": "Проблемы и препятствия"
+      },
+      "phrases": [
+        {
+          "id": "WE071",
+          "en": "We've run into a problem.",
+          "ru": "Мы столкнулись с проблемой."
+        },
+        {
+          "id": "WE072",
+          "en": "I'm trying to figure out what went wrong.",
+          "ru": "Я пытаюсь выяснить, что пошло не так."
+        },
+        {
+          "id": "WE073",
+          "en": "This isn't working as expected.",
+          "ru": "Это работает не так, как ожидалось."
+        },
+        {
+          "id": "WE074",
+          "en": "We're blocked by a dependency.",
+          "ru": "Нас блокирует зависимость от другой задачи."
+        },
+        {
+          "id": "WE075",
+          "en": "I'll investigate the issue.",
+          "ru": "Я изучу проблему."
+        },
+        {
+          "id": "WE076",
+          "en": "Do we have a backup plan?",
+          "ru": "У нас есть запасной план?"
+        },
+        {
+          "id": "WE077",
+          "en": "Let's look for another solution.",
+          "ru": "Давайте найдём другое решение."
+        },
+        {
+          "id": "WE078",
+          "en": "The issue has been resolved.",
+          "ru": "Проблема решена."
+        },
+        {
+          "id": "WE079",
+          "en": "I'll let the team know.",
+          "ru": "Я сообщу команде."
+        },
+        {
+          "id": "WE080",
+          "en": "We need to prevent this from happening again.",
+          "ru": "Нужно предотвратить повторение этой ситуации."
+        }
+      ]
+    },
+    {
+      "id": "WE-L09",
+      "order": 9,
+      "title": {
+        "en": "Feedback",
+        "ru": "Обратная связь"
+      },
+      "phrases": [
+        {
+          "id": "WE081",
+          "en": "Could you give me some feedback?",
+          "ru": "Можете дать мне обратную связь?"
+        },
+        {
+          "id": "WE082",
+          "en": "Thanks for the feedback.",
+          "ru": "Спасибо за обратную связь."
+        },
+        {
+          "id": "WE083",
+          "en": "That's a helpful suggestion.",
+          "ru": "Это полезное предложение."
+        },
+        {
+          "id": "WE084",
+          "en": "I'll take that into account.",
+          "ru": "Я это учту."
+        },
+        {
+          "id": "WE085",
+          "en": "Could you be a little more specific?",
+          "ru": "Можете уточнить?"
+        },
+        {
+          "id": "WE086",
+          "en": "I see room for improvement.",
+          "ru": "Я вижу возможности для улучшения."
+        },
+        {
+          "id": "WE087",
+          "en": "You've done a great job.",
+          "ru": "Вы отлично справились."
+        },
+        {
+          "id": "WE088",
+          "en": "One thing we could improve is...",
+          "ru": "Одна вещь, которую можно улучшить, — это..."
+        },
+        {
+          "id": "WE089",
+          "en": "Let me clarify my point.",
+          "ru": "Позвольте пояснить мою мысль."
+        },
+        {
+          "id": "WE090",
+          "en": "I'm open to constructive criticism.",
+          "ru": "Я открыт(а) к конструктивной критике."
+        }
+      ]
+    },
+    {
+      "id": "WE-L10",
+      "order": 10,
+      "title": {
+        "en": "Teamwork",
+        "ru": "Командная работа"
+      },
+      "phrases": [
+        {
+          "id": "WE091",
+          "en": "Let's work together on this.",
+          "ru": "Давайте работать над этим вместе."
+        },
+        {
+          "id": "WE092",
+          "en": "Who is responsible for this task?",
+          "ru": "Кто отвечает за эту задачу?"
+        },
+        {
+          "id": "WE093",
+          "en": "I'll take ownership of this.",
+          "ru": "Я возьму на себя ответственность за это."
+        },
+        {
+          "id": "WE094",
+          "en": "Let's divide up the work.",
+          "ru": "Давайте распределим работу."
+        },
+        {
+          "id": "WE095",
+          "en": "We need to be on the same page.",
+          "ru": "Нам нужно одинаково понимать ситуацию."
+        },
+        {
+          "id": "WE096",
+          "en": "I'll coordinate with the team.",
+          "ru": "Я скоординирую действия с командой."
+        },
+        {
+          "id": "WE097",
+          "en": "Thanks for your contribution.",
+          "ru": "Спасибо за ваш вклад."
+        },
+        {
+          "id": "WE098",
+          "en": "Let's support each other.",
+          "ru": "Давайте поддерживать друг друга."
+        },
+        {
+          "id": "WE099",
+          "en": "I'll cover this while you're away.",
+          "ru": "Я подменю вас, пока вас не будет."
+        },
+        {
+          "id": "WE100",
+          "en": "We make a good team.",
+          "ru": "Мы хорошая команда."
+        }
+      ]
+    },
+    {
+      "id": "WE-L11",
+      "order": 11,
+      "title": {
+        "en": "Presentations",
+        "ru": "Презентации"
+      },
+      "phrases": [
+        {
+          "id": "WE101",
+          "en": "I'd like to walk you through the results.",
+          "ru": "Я хотел(а) бы показать вам результаты."
+        },
+        {
+          "id": "WE102",
+          "en": "Let me start with the main point.",
+          "ru": "Позвольте начать с главного."
+        },
+        {
+          "id": "WE103",
+          "en": "As you can see on this slide...",
+          "ru": "Как вы видите на этом слайде..."
+        },
+        {
+          "id": "WE104",
+          "en": "This chart shows the trend.",
+          "ru": "Эта диаграмма показывает тенденцию."
+        },
+        {
+          "id": "WE105",
+          "en": "I'll keep this brief.",
+          "ru": "Я буду краток / кратка."
+        },
+        {
+          "id": "WE106",
+          "en": "Let me give you some background.",
+          "ru": "Позвольте дать немного контекста."
+        },
+        {
+          "id": "WE107",
+          "en": "The key takeaway is...",
+          "ru": "Главный вывод заключается в том, что..."
+        },
+        {
+          "id": "WE108",
+          "en": "I'm happy to answer questions.",
+          "ru": "Я готов(а) ответить на вопросы."
+        },
+        {
+          "id": "WE109",
+          "en": "Could you move to the next slide?",
+          "ru": "Не могли бы вы перейти к следующему слайду?"
+        },
+        {
+          "id": "WE110",
+          "en": "Thank you for your attention.",
+          "ru": "Спасибо за внимание."
+        }
+      ]
+    },
+    {
+      "id": "WE-L12",
+      "order": 12,
+      "title": {
+        "en": "Talking to a manager",
+        "ru": "Общение с руководителем"
+      },
+      "phrases": [
+        {
+          "id": "WE111",
+          "en": "Could I speak with you briefly?",
+          "ru": "Могу я ненадолго с вами поговорить?"
+        },
+        {
+          "id": "WE112",
+          "en": "I'd like to discuss my workload.",
+          "ru": "Я хотел(а) бы обсудить свою нагрузку."
+        },
+        {
+          "id": "WE113",
+          "en": "Could you clarify your expectations?",
+          "ru": "Не могли бы вы уточнить ваши ожидания?"
+        },
+        {
+          "id": "WE114",
+          "en": "What would you like me to focus on?",
+          "ru": "На чём вы хотели бы, чтобы я сосредоточился / сосредоточилась?"
+        },
+        {
+          "id": "WE115",
+          "en": "I wanted to raise a concern.",
+          "ru": "Я хотел(а) бы обратить внимание на одну проблему."
+        },
+        {
+          "id": "WE116",
+          "en": "I'd appreciate your guidance.",
+          "ru": "Я был(а) бы признателен / признательна за ваши рекомендации."
+        },
+        {
+          "id": "WE117",
+          "en": "Can we discuss my progress?",
+          "ru": "Можем обсудить мой прогресс?"
+        },
+        {
+          "id": "WE118",
+          "en": "I'll make the changes you suggested.",
+          "ru": "Я внесу предложенные вами изменения."
+        },
+        {
+          "id": "WE119",
+          "en": "Thanks for taking the time to meet.",
+          "ru": "Спасибо, что нашли время на встречу."
+        },
+        {
+          "id": "WE120",
+          "en": "I'll follow up on our discussion.",
+          "ru": "Я вернусь к вопросам, которые мы обсудили."
+        }
+      ]
+    },
+    {
+      "id": "WE-L13",
+      "order": 13,
+      "title": {
+        "en": "Clients and customers",
+        "ru": "Клиенты и заказчики"
+      },
+      "phrases": [
+        {
+          "id": "WE121",
+          "en": "How can I help you today?",
+          "ru": "Чем я могу вам сегодня помочь?"
+        },
+        {
+          "id": "WE122",
+          "en": "Thanks for reaching out.",
+          "ru": "Спасибо, что связались с нами."
+        },
+        {
+          "id": "WE123",
+          "en": "Let me look into that for you.",
+          "ru": "Позвольте мне разобраться в этом для вас."
+        },
+        {
+          "id": "WE124",
+          "en": "I'll check with the relevant team.",
+          "ru": "Я уточню у соответствующей команды."
+        },
+        {
+          "id": "WE125",
+          "en": "We appreciate your patience.",
+          "ru": "Благодарим за ваше терпение."
+        },
+        {
+          "id": "WE126",
+          "en": "Could you provide a few more details?",
+          "ru": "Не могли бы вы предоставить ещё несколько подробностей?"
+        },
+        {
+          "id": "WE127",
+          "en": "I'll keep you informed of any changes.",
+          "ru": "Я буду сообщать вам об изменениях."
+        },
+        {
+          "id": "WE128",
+          "en": "We understand your concern.",
+          "ru": "Мы понимаем ваше беспокойство."
+        },
+        {
+          "id": "WE129",
+          "en": "Thank you for bringing this to our attention.",
+          "ru": "Спасибо, что обратили на это наше внимание."
+        },
+        {
+          "id": "WE130",
+          "en": "Please don't hesitate to contact us.",
+          "ru": "Пожалуйста, обращайтесь к нам без колебаний."
+        }
+      ]
+    },
+    {
+      "id": "WE-L14",
+      "order": 14,
+      "title": {
+        "en": "Negotiation and agreement",
+        "ru": "Переговоры и договорённости"
+      },
+      "phrases": [
+        {
+          "id": "WE131",
+          "en": "Let's see if we can find a compromise.",
+          "ru": "Давайте попробуем найти компромисс."
+        },
+        {
+          "id": "WE132",
+          "en": "Would that work for you?",
+          "ru": "Вас это устроит?"
+        },
+        {
+          "id": "WE133",
+          "en": "Let's clarify the terms.",
+          "ru": "Давайте уточним условия."
+        },
+        {
+          "id": "WE134",
+          "en": "I think we can agree on that.",
+          "ru": "Думаю, мы можем с этим согласиться."
+        },
+        {
+          "id": "WE135",
+          "en": "Could you be flexible on the price?",
+          "ru": "Вы можете уступить в цене?"
+        },
+        {
+          "id": "WE136",
+          "en": "That's outside our budget.",
+          "ru": "Это выходит за рамки нашего бюджета."
+        },
+        {
+          "id": "WE137",
+          "en": "Let's revisit this proposal.",
+          "ru": "Давайте вернёмся к этому предложению."
+        },
+        {
+          "id": "WE138",
+          "en": "We have a deal.",
+          "ru": "Договорились."
+        },
+        {
+          "id": "WE139",
+          "en": "I'd like to propose an alternative.",
+          "ru": "Я хотел(а) бы предложить альтернативу."
+        },
+        {
+          "id": "WE140",
+          "en": "Let's put the agreement in writing.",
+          "ru": "Давайте зафиксируем договорённость письменно."
+        }
+      ]
+    },
+    {
+      "id": "WE-L15",
+      "order": 15,
+      "title": {
+        "en": "Remote work",
+        "ru": "Удалённая работа"
+      },
+      "phrases": [
+        {
+          "id": "WE141",
+          "en": "I'm working remotely today.",
+          "ru": "Сегодня я работаю удалённо."
+        },
+        {
+          "id": "WE142",
+          "en": "My internet connection is unstable.",
+          "ru": "У меня нестабильное интернет-соединение."
+        },
+        {
+          "id": "WE143",
+          "en": "You're on mute.",
+          "ru": "У вас выключен микрофон."
+        },
+        {
+          "id": "WE144",
+          "en": "I can't hear you clearly.",
+          "ru": "Я плохо вас слышу."
+        },
+        {
+          "id": "WE145",
+          "en": "My camera isn't working.",
+          "ru": "Моя камера не работает."
+        },
+        {
+          "id": "WE146",
+          "en": "I'll reconnect to the call.",
+          "ru": "Я повторно подключусь к звонку."
+        },
+        {
+          "id": "WE147",
+          "en": "Can you see my screen?",
+          "ru": "Вы видите мой экран?"
+        },
+        {
+          "id": "WE148",
+          "en": "I'll be offline for an hour.",
+          "ru": "Меня не будет на связи час."
+        },
+        {
+          "id": "WE149",
+          "en": "Let's use the chat for updates.",
+          "ru": "Давайте обмениваться новостями в чате."
+        },
+        {
+          "id": "WE150",
+          "en": "I'll join the call in a minute.",
+          "ru": "Я подключусь к звонку через минуту."
+        }
+      ]
+    },
+    {
+      "id": "WE-L16",
+      "order": 16,
+      "title": {
+        "en": "Reports and documents",
+        "ru": "Отчёты и документы"
+      },
+      "phrases": [
+        {
+          "id": "WE151",
+          "en": "Could you review this document?",
+          "ru": "Не могли бы вы проверить этот документ?"
+        },
+        {
+          "id": "WE152",
+          "en": "I've attached the latest version.",
+          "ru": "Я прикрепил(а) последнюю версию."
+        },
+        {
+          "id": "WE153",
+          "en": "Please use the updated file.",
+          "ru": "Пожалуйста, используйте обновлённый файл."
+        },
+        {
+          "id": "WE154",
+          "en": "The figures need to be verified.",
+          "ru": "Цифры нужно проверить."
+        },
+        {
+          "id": "WE155",
+          "en": "I'll prepare a summary.",
+          "ru": "Я подготовлю краткое резюме."
+        },
+        {
+          "id": "WE156",
+          "en": "Could you add your comments?",
+          "ru": "Не могли бы вы добавить комментарии?"
+        },
+        {
+          "id": "WE157",
+          "en": "The report is ready for review.",
+          "ru": "Отчёт готов к проверке."
+        },
+        {
+          "id": "WE158",
+          "en": "I've corrected the mistakes.",
+          "ru": "Я исправил(а) ошибки."
+        },
+        {
+          "id": "WE159",
+          "en": "Let's make sure the data is accurate.",
+          "ru": "Давайте убедимся, что данные точны."
+        },
+        {
+          "id": "WE160",
+          "en": "I'll share the final draft.",
+          "ru": "Я отправлю окончательный черновик."
+        }
+      ]
+    },
+    {
+      "id": "WE-L17",
+      "order": 17,
+      "title": {
+        "en": "Learning and training",
+        "ru": "Обучение и развитие"
+      },
+      "phrases": [
+        {
+          "id": "WE161",
+          "en": "I'm still learning how this works.",
+          "ru": "Я всё ещё изучаю, как это работает."
+        },
+        {
+          "id": "WE162",
+          "en": "Could you show me the process?",
+          "ru": "Не могли бы вы показать мне процесс?"
+        },
+        {
+          "id": "WE163",
+          "en": "Is there any documentation?",
+          "ru": "Есть ли документация?"
+        },
+        {
+          "id": "WE164",
+          "en": "Where can I find the guidelines?",
+          "ru": "Где я могу найти инструкции?"
+        },
+        {
+          "id": "WE165",
+          "en": "I'll look into it and get back to you.",
+          "ru": "Я изучу вопрос и вернусь с ответом."
+        },
+        {
+          "id": "WE166",
+          "en": "Thanks for explaining that.",
+          "ru": "Спасибо за объяснение."
+        },
+        {
+          "id": "WE167",
+          "en": "I'd like to develop this skill.",
+          "ru": "Я хотел(а) бы развить этот навык."
+        },
+        {
+          "id": "WE168",
+          "en": "Could you recommend a resource?",
+          "ru": "Можете порекомендовать ресурс?"
+        },
+        {
+          "id": "WE169",
+          "en": "I'll practice and try again.",
+          "ru": "Я потренируюсь и попробую снова."
+        },
+        {
+          "id": "WE170",
+          "en": "I learned a lot from this project.",
+          "ru": "Я многому научился / научилась на этом проекте."
+        }
+      ]
+    },
+    {
+      "id": "WE-L18",
+      "order": 18,
+      "title": {
+        "en": "Scheduling and availability",
+        "ru": "Расписание и доступность"
+      },
+      "phrases": [
+        {
+          "id": "WE171",
+          "en": "Are you available this afternoon?",
+          "ru": "Вы свободны сегодня после обеда?"
+        },
+        {
+          "id": "WE172",
+          "en": "My calendar is full today.",
+          "ru": "Сегодня у меня всё расписание занято."
+        },
+        {
+          "id": "WE173",
+          "en": "Could we move the meeting to Monday?",
+          "ru": "Можем перенести встречу на понедельник?"
+        },
+        {
+          "id": "WE174",
+          "en": "I'm available after 2 p.m.",
+          "ru": "Я свободен / свободна после двух часов дня."
+        },
+        {
+          "id": "WE175",
+          "en": "That time doesn't work for me.",
+          "ru": "Это время мне не подходит."
+        },
+        {
+          "id": "WE176",
+          "en": "I'll send you some available slots.",
+          "ru": "Я отправлю вам несколько свободных временных интервалов."
+        },
+        {
+          "id": "WE177",
+          "en": "Let's find a time that works for everyone.",
+          "ru": "Давайте найдём время, удобное для всех."
+        },
+        {
+          "id": "WE178",
+          "en": "I have a conflict at that time.",
+          "ru": "В это время у меня другое мероприятие."
+        },
+        {
+          "id": "WE179",
+          "en": "Can we make it a shorter meeting?",
+          "ru": "Можем сделать встречу короче?"
+        },
+        {
+          "id": "WE180",
+          "en": "I'll update the calendar.",
+          "ru": "Я обновлю календарь."
+        }
+      ]
+    },
+    {
+      "id": "WE-L19",
+      "order": 19,
+      "title": {
+        "en": "Professional courtesy",
+        "ru": "Профессиональная вежливость"
+      },
+      "phrases": [
+        {
+          "id": "WE181",
+          "en": "Thank you for your time.",
+          "ru": "Спасибо за ваше время."
+        },
+        {
+          "id": "WE182",
+          "en": "I appreciate your quick response.",
+          "ru": "Благодарю за быстрый ответ."
+        },
+        {
+          "id": "WE183",
+          "en": "Sorry for the inconvenience.",
+          "ru": "Извините за неудобства."
+        },
+        {
+          "id": "WE184",
+          "en": "Thanks for your understanding.",
+          "ru": "Спасибо за понимание."
+        },
+        {
+          "id": "WE185",
+          "en": "It was a pleasure working with you.",
+          "ru": "Было приятно с вами работать."
+        },
+        {
+          "id": "WE186",
+          "en": "Please let me know what you think.",
+          "ru": "Пожалуйста, сообщите, что вы думаете."
+        },
+        {
+          "id": "WE187",
+          "en": "I hope this helps.",
+          "ru": "Надеюсь, это поможет."
+        },
+        {
+          "id": "WE188",
+          "en": "Thank you for the opportunity.",
+          "ru": "Спасибо за предоставленную возможность."
+        },
+        {
+          "id": "WE189",
+          "en": "I look forward to working with you.",
+          "ru": "Буду рад(а) сотрудничеству."
+        },
+        {
+          "id": "WE190",
+          "en": "Have a productive day.",
+          "ru": "Желаю продуктивного дня."
+        }
+      ]
+    },
+    {
+      "id": "WE-L20",
+      "order": 20,
+      "title": {
+        "en": "Wrapping up and next steps",
+        "ru": "Завершение и следующие шаги"
+      },
+      "phrases": [
+        {
+          "id": "WE191",
+          "en": "What's the next step?",
+          "ru": "Какой следующий шаг?"
+        },
+        {
+          "id": "WE192",
+          "en": "Let's agree on the action items.",
+          "ru": "Давайте согласуем дальнейшие действия."
+        },
+        {
+          "id": "WE193",
+          "en": "I'll take care of the follow-up.",
+          "ru": "Я займусь дальнейшими действиями."
+        },
+        {
+          "id": "WE194",
+          "en": "I'll send a recap after the meeting.",
+          "ru": "Я отправлю краткие итоги после встречи."
+        },
+        {
+          "id": "WE195",
+          "en": "We're all set.",
+          "ru": "Всё готово."
+        },
+        {
+          "id": "WE196",
+          "en": "That covers everything from my side.",
+          "ru": "С моей стороны это всё."
+        },
+        {
+          "id": "WE197",
+          "en": "Is there anything else we need to discuss?",
+          "ru": "Нужно ли нам обсудить что-нибудь ещё?"
+        },
+        {
+          "id": "WE198",
+          "en": "Let's touch base next week.",
+          "ru": "Давайте свяжемся на следующей неделе."
+        },
+        {
+          "id": "WE199",
+          "en": "I'll keep this moving.",
+          "ru": "Я буду продвигать это дальше."
+        },
+        {
+          "id": "WE200",
+          "en": "Thanks, everyone. That's all for today.",
+          "ru": "Спасибо всем. На сегодня всё."
+        }
+      ]
+    }
+  ]
+}

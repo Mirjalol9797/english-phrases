@@ -1,0 +1,72 @@
+<script setup lang="ts">
+import { useContentStore } from '@/stores/content'
+import { useAsyncData } from '@/composables/useAsyncData'
+import { useDocumentTitle } from '@/composables/useDocumentTitle'
+import StatusMessage from '@/components/StatusMessage.vue'
+import PhraseItem from '@/components/PhraseItem.vue'
+import AppIcon from '@/components/AppIcon.vue'
+import { plural, PHRASE_FORMS } from '@/utils/plural'
+
+const props = defineProps<{ lessonId: string }>()
+const content = useContentStore()
+
+const { data: ctx, loading, error, notFound, reload } = useAsyncData(
+  () => props.lessonId,
+  () => content.loadLesson(props.lessonId),
+)
+
+useDocumentTitle(() => ctx.value?.lesson.title.ru)
+</script>
+
+<template>
+  <RouterLink v-if="ctx" :to="`/chapters/${ctx.chapter.id}`" class="link-back">
+    <AppIcon name="chevron-left" :size="18" />
+    <span lang="en">{{ ctx.chapter.title.en }}</span>
+  </RouterLink>
+  <RouterLink v-else to="/chapters" class="link-back">
+    <AppIcon name="chevron-left" :size="18" />
+    Все главы
+  </RouterLink>
+
+  <StatusMessage v-if="loading || error" :loading="loading" :error="error" :not-found="notFound" @retry="reload" />
+
+  <article v-else-if="ctx">
+    <header class="mt-4">
+      <p class="text-sm text-muted">Урок {{ ctx.lesson.order }} из {{ ctx.chapter.lessons.length }}</p>
+      <h1 lang="en" class="mt-1 font-serif text-[2rem] leading-tight font-semibold">
+        <span class="marker">{{ ctx.lesson.title.en }}</span>
+      </h1>
+      <p class="mt-1 text-lg text-muted">{{ ctx.lesson.title.ru }}</p>
+    </header>
+
+    <div class="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
+      <RouterLink :to="`/lessons/${ctx.lesson.id}/practice`" class="btn-primary">Начать урок</RouterLink>
+      <p class="text-sm text-muted">
+        {{ plural(ctx.lesson.phrases.length, PHRASE_FORMS) }}: карточки и упражнения.
+      </p>
+    </div>
+
+    <ol class="mt-6 divide-y divide-line border-y border-line">
+      <PhraseItem v-for="phrase in ctx.lesson.phrases" :key="phrase.id" :phrase="phrase" />
+    </ol>
+
+    <nav aria-label="Соседние уроки" class="mt-6 grid gap-3 sm:grid-cols-2">
+      <RouterLink
+        v-if="ctx.previous"
+        :to="`/lessons/${ctx.previous.id}`"
+        class="rounded-xl border border-line px-4 py-3 hover:border-muted"
+      >
+        <span class="block text-sm text-muted">Предыдущий урок</span>
+        <span lang="en" class="block font-serif text-lg">{{ ctx.previous.title.en }}</span>
+      </RouterLink>
+      <RouterLink
+        v-if="ctx.next"
+        :to="`/lessons/${ctx.next.id}`"
+        class="rounded-xl border border-line px-4 py-3 text-right hover:border-muted sm:col-start-2"
+      >
+        <span class="block text-sm text-muted">Следующий урок</span>
+        <span lang="en" class="block font-serif text-lg">{{ ctx.next.title.en }}</span>
+      </RouterLink>
+    </nav>
+  </article>
+</template>

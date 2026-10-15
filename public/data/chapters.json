@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "plannedChapters": 12,
+  "totalPhrases": 2566,
+  "chapters": [
+    {
+      "id": "everyday-english",
+      "order": 1,
+      "prefix": "EE",
+      "kind": "phrases",
+      "title": {
+        "en": "Everyday English",
+        "ru": "Повседневное общение"
+      },
+      "file": "chapters/everyday-english.json",
+      "lessonCount": 20,
+      "phraseCount": 200
+    },
+    {
+      "id": "useful-expressions",
+      "order": 2,
+      "prefix": "UE",
+      "kind": "phrases",
+      "title": {
+        "en": "Useful Expressions",
+        "ru": "Полезные выражения"
+      },
+      "file": "chapters/useful-expressions.json",
+      "lessonCount": 20,
+      "phraseCount": 200
+    },
+    {
+      "id": "small-talk",
+      "order": 3,
+      "prefix": "ST",
+      "kind": "phrases",
+      "title": {
+        "en": "Small Talk",
+        "ru": "Непринуждённое общение"
+      },
+      "file": "chapters/small-talk.json",
+      "lessonCount": 20,
+      "phraseCount": 200
+    },
+    {
+      "id": "questions-requests",
+      "order": 4,
+      "prefix": "QR",
+      "kind": "phrases",
+      "title": {
+        "en": "Questions & Requests",
+        "ru": "Вопросы и просьбы"
+      },
+      "file": "chapters/questions-requests.json",
+      "lessonCount": 20,
+      "phraseCount": 200
+    },
+    {
+      "id": "opinions-feelings",
+      "order": 5,
+      "prefix": "OF",
+      "kind": "phrases",
+      "title": {
+        "en": "Opinions & Feelings",
+        "ru": "Мнения и чувства"
+      },
+      "file": "chapters/opinions-feelings.json",
+      "lessonCount": 20,
+      "phraseCount": 200
+    },
+    {
+      "id": "phone-messaging",
+      "order": 6,
+      "prefix": "PM",
+      "kind": "phrases",
+      "title": {
+        "en": "Phone & Messaging",
+        "ru": "Звонки и переписка"
+      },
+      "file": "chapters/phone-messaging.json",
+      "lessonCount": 20,
+      "phraseCount": 200
+    },
+    {
+      "id": "travel-english",
+      "order": 7,
+      "prefix": "TE",
+      "kind": "phrases",
+      "title": {
+        "en": "Travel English",
+        "ru": "Английский для путешествий"
+      },
+      "file": "chapters/travel-english.json",
+      "lessonCount": 20,
+      "phraseCount": 200
+    },
+    {
+      "id": "work-english",
+      "order": 8,
+      "prefix": "WE",
+      "kind": "phrases",
+      "title": {
+        "en": "Work English",
+        "ru": "Английский для работы"
+      },
+      "file": "chapters/work-english.json",
+      "lessonCount": 20,
+      "phraseCount": 200
+    },
+    {
+      "id": "phrasal-verbs",
+      "order": 9,
+      "prefix": "PV",
+      "kind": "phrases",
+      "title": {
+        "en": "Phrasal Verbs",
+        "ru": "Фразовые глаголы"
+      },
+      "file": "chapters/phrasal-verbs.json",
+      "lessonCount": 20,
+      "phraseCount": 200
+    },
+    {
+      "id": "natural-english",
+      "order": 10,
+      "prefix": "NE",
+      "kind": "phrases",
+      "title": {
+        "en": "Natural English",
+        "ru": "Естественный разговорный английский"
+      },
+      "file": "chapters/natural-english.json",
+      "lessonCount": 20,
+      "phraseCount": 200
+    },
+    {
+      "id": "core-verbs",
+      "order": 11,
+      "prefix": "CV",
+      "kind": "expressions",
+      "title": {
+        "en": "English Core Verbs",
+        "ru": "Основные глаголы"
+      },
+      "file": "chapters/core-verbs.json",
+      "lessonCount": 20,
+      "phraseCount": 330
+    },
+    {
+      "id": "prepositions",
+      "order": 12,
+      "prefix": "PR",
+      "kind": "expressions",
+      "title": {
+        "en": "English Prepositions",
+        "ru": "Предлоги"
+      },
+      "file": "chapters/prepositions.json",
+      "lessonCount": 34,
+      "phraseCount": 236
+    }
+  ]
+}

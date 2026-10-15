@@ -1,0 +1,1212 @@
+{
+  "id": "small-talk",
+  "order": 3,
+  "prefix": "ST",
+  "kind": "phrases",
+  "title": {
+    "en": "Small Talk",
+    "ru": "Непринуждённое общение"
+  },
+  "lessons": [
+    {
+      "id": "ST-L01",
+      "order": 1,
+      "title": {
+        "en": "Starting a conversation",
+        "ru": "Начало разговора"
+      },
+      "phrases": [
+        {
+          "id": "ST001",
+          "en": "Hi, how's your day going?",
+          "ru": "Привет, как проходит твой день?"
+        },
+        {
+          "id": "ST002",
+          "en": "Have we met before?",
+          "ru": "Мы раньше встречались?"
+        },
+        {
+          "id": "ST003",
+          "en": "I don't think we've been introduced.",
+          "ru": "Кажется, нас ещё не представили друг другу."
+        },
+        {
+          "id": "ST004",
+          "en": "Mind if I join you?",
+          "ru": "Не возражаешь, если я присоединюсь?"
+        },
+        {
+          "id": "ST005",
+          "en": "Is this seat taken?",
+          "ru": "Это место занято?"
+        },
+        {
+          "id": "ST006",
+          "en": "How do you know everyone here?",
+          "ru": "Откуда ты всех здесь знаешь?"
+        },
+        {
+          "id": "ST007",
+          "en": "It's quite busy here today.",
+          "ru": "Сегодня здесь довольно людно."
+        },
+        {
+          "id": "ST008",
+          "en": "What brings you here?",
+          "ru": "Что привело тебя сюда?"
+        },
+        {
+          "id": "ST009",
+          "en": "Have you been here long?",
+          "ru": "Ты давно здесь?"
+        },
+        {
+          "id": "ST010",
+          "en": "It's nice to finally meet you.",
+          "ru": "Приятно наконец познакомиться."
+        }
+      ]
+    },
+    {
+      "id": "ST-L02",
+      "order": 2,
+      "title": {
+        "en": "Talking about the day",
+        "ru": "Разговор о дне"
+      },
+      "phrases": [
+        {
+          "id": "ST011",
+          "en": "How's your day been?",
+          "ru": "Как прошёл твой день?"
+        },
+        {
+          "id": "ST012",
+          "en": "It's been a busy day.",
+          "ru": "День был насыщенным."
+        },
+        {
+          "id": "ST013",
+          "en": "I've had a pretty good day.",
+          "ru": "День прошёл довольно хорошо."
+        },
+        {
+          "id": "ST014",
+          "en": "Anything interesting happen today?",
+          "ru": "Сегодня произошло что-нибудь интересное?"
+        },
+        {
+          "id": "ST015",
+          "en": "It's been one of those days.",
+          "ru": "Сегодня был один из тех непростых дней."
+        },
+        {
+          "id": "ST016",
+          "en": "I'm looking forward to the weekend.",
+          "ru": "Я жду не дождусь выходных."
+        },
+        {
+          "id": "ST017",
+          "en": "Today went by so quickly.",
+          "ru": "Сегодняшний день пролетел так быстро."
+        },
+        {
+          "id": "ST018",
+          "en": "I could use a little break.",
+          "ru": "Мне бы не помешал небольшой перерыв."
+        },
+        {
+          "id": "ST019",
+          "en": "It's finally time to relax.",
+          "ru": "Наконец-то можно отдохнуть."
+        },
+        {
+          "id": "ST020",
+          "en": "How's your week going so far?",
+          "ru": "Как проходит твоя неделя?"
+        }
+      ]
+    },
+    {
+      "id": "ST-L03",
+      "order": 3,
+      "title": {
+        "en": "Work and study small talk",
+        "ru": "Работа и учёба"
+      },
+      "phrases": [
+        {
+          "id": "ST021",
+          "en": "How's work going?",
+          "ru": "Как дела на работе?"
+        },
+        {
+          "id": "ST022",
+          "en": "What are you working on these days?",
+          "ru": "Над чем ты сейчас работаешь?"
+        },
+        {
+          "id": "ST023",
+          "en": "How long have you been doing that?",
+          "ru": "Как давно ты этим занимаешься?"
+        },
+        {
+          "id": "ST024",
+          "en": "Do you enjoy what you do?",
+          "ru": "Тебе нравится то, чем ты занимаешься?"
+        },
+        {
+          "id": "ST025",
+          "en": "How's your course going?",
+          "ru": "Как проходит твой курс?"
+        },
+        {
+          "id": "ST026",
+          "en": "Have you been busy lately?",
+          "ru": "Ты в последнее время занят(а)?"
+        },
+        {
+          "id": "ST027",
+          "en": "What's the best part of your job?",
+          "ru": "Что тебе больше всего нравится в работе?"
+        },
+        {
+          "id": "ST028",
+          "en": "I'm learning something new at the moment.",
+          "ru": "Сейчас я изучаю кое-что новое."
+        },
+        {
+          "id": "ST029",
+          "en": "That sounds like an interesting job.",
+          "ru": "Звучит как интересная работа."
+        },
+        {
+          "id": "ST030",
+          "en": "I hope work isn't too stressful.",
+          "ru": "Надеюсь, работа не слишком утомительная."
+        }
+      ]
+    },
+    {
+      "id": "ST-L04",
+      "order": 4,
+      "title": {
+        "en": "Hobbies and free time",
+        "ru": "Хобби и свободное время"
+      },
+      "phrases": [
+        {
+          "id": "ST031",
+          "en": "What do you do for fun?",
+          "ru": "Чем ты занимаешься для удовольствия?"
+        },
+        {
+          "id": "ST032",
+          "en": "What do you like doing in your free time?",
+          "ru": "Что ты любишь делать в свободное время?"
+        },
+        {
+          "id": "ST033",
+          "en": "Have you picked up any new hobbies?",
+          "ru": "У тебя появились новые увлечения?"
+        },
+        {
+          "id": "ST034",
+          "en": "I'm really into music.",
+          "ru": "Я очень увлекаюсь музыкой."
+        },
+        {
+          "id": "ST035",
+          "en": "Do you play any sports?",
+          "ru": "Ты занимаешься каким-нибудь спортом?"
+        },
+        {
+          "id": "ST036",
+          "en": "I like trying new things.",
+          "ru": "Мне нравится пробовать новое."
+        },
+        {
+          "id": "ST037",
+          "en": "What kind of books do you read?",
+          "ru": "Какие книги ты читаешь?"
+        },
+        {
+          "id": "ST038",
+          "en": "Have you seen any good films lately?",
+          "ru": "Ты недавно смотрел(а) хорошие фильмы?"
+        },
+        {
+          "id": "ST039",
+          "en": "I spend a lot of time outdoors.",
+          "ru": "Я много времени провожу на свежем воздухе."
+        },
+        {
+          "id": "ST040",
+          "en": "That sounds like a fun hobby.",
+          "ru": "Звучит как интересное увлечение."
+        }
+      ]
+    },
+    {
+      "id": "ST-L05",
+      "order": 5,
+      "title": {
+        "en": "Weekend plans",
+        "ru": "Планы на выходные"
+      },
+      "phrases": [
+        {
+          "id": "ST041",
+          "en": "Any plans for the weekend?",
+          "ru": "Есть планы на выходные?"
+        },
+        {
+          "id": "ST042",
+          "en": "I'm keeping it low-key this weekend.",
+          "ru": "В эти выходные я планирую спокойно отдохнуть."
+        },
+        {
+          "id": "ST043",
+          "en": "I'm meeting some friends.",
+          "ru": "Я встречаюсь с друзьями."
+        },
+        {
+          "id": "ST044",
+          "en": "We're thinking of going out.",
+          "ru": "Мы думаем куда-нибудь сходить."
+        },
+        {
+          "id": "ST045",
+          "en": "Do you want to do something together?",
+          "ru": "Хочешь что-нибудь сделать вместе?"
+        },
+        {
+          "id": "ST046",
+          "en": "I haven't made any plans yet.",
+          "ru": "Я ещё ничего не запланировал(а)."
+        },
+        {
+          "id": "ST047",
+          "en": "Hopefully, the weather will be nice.",
+          "ru": "Надеюсь, погода будет хорошей."
+        },
+        {
+          "id": "ST048",
+          "en": "I'm planning to catch up on sleep.",
+          "ru": "Планирую отоспаться."
+        },
+        {
+          "id": "ST049",
+          "en": "That sounds like a good way to spend the weekend.",
+          "ru": "Звучит как хороший способ провести выходные."
+        },
+        {
+          "id": "ST050",
+          "en": "Enjoy your weekend!",
+          "ru": "Хороших выходных!"
+        }
+      ]
+    },
+    {
+      "id": "ST-L06",
+      "order": 6,
+      "title": {
+        "en": "Food and drinks",
+        "ru": "Еда и напитки"
+      },
+      "phrases": [
+        {
+          "id": "ST051",
+          "en": "Have you tried this place before?",
+          "ru": "Ты раньше бывал(а) в этом месте?"
+        },
+        {
+          "id": "ST052",
+          "en": "What's your go-to coffee order?",
+          "ru": "Какой кофе ты обычно заказываешь?"
+        },
+        {
+          "id": "ST053",
+          "en": "Do you have a favourite restaurant?",
+          "ru": "У тебя есть любимый ресторан?"
+        },
+        {
+          "id": "ST054",
+          "en": "I'm always up for good food.",
+          "ru": "Я всегда не против вкусно поесть."
+        },
+        {
+          "id": "ST055",
+          "en": "That smells amazing.",
+          "ru": "Пахнет потрясающе."
+        },
+        {
+          "id": "ST056",
+          "en": "What would you recommend here?",
+          "ru": "Что бы ты здесь посоветовал(а)?"
+        },
+        {
+          "id": "ST057",
+          "en": "I'm trying to eat a bit healthier.",
+          "ru": "Я стараюсь питаться немного полезнее."
+        },
+        {
+          "id": "ST058",
+          "en": "Do you prefer tea or coffee?",
+          "ru": "Ты предпочитаешь чай или кофе?"
+        },
+        {
+          "id": "ST059",
+          "en": "We should try that place sometime.",
+          "ru": "Нам стоит как-нибудь попробовать то место."
+        },
+        {
+          "id": "ST060",
+          "en": "This is exactly what I needed.",
+          "ru": "Это именно то, что мне было нужно."
+        }
+      ]
+    },
+    {
+      "id": "ST-L07",
+      "order": 7,
+      "title": {
+        "en": "Travel and places",
+        "ru": "Путешествия и места"
+      },
+      "phrases": [
+        {
+          "id": "ST061",
+          "en": "Have you travelled anywhere recently?",
+          "ru": "Ты недавно куда-нибудь ездил(а)?"
+        },
+        {
+          "id": "ST062",
+          "en": "What's your favourite place you've visited?",
+          "ru": "Какое место из посещённых тебе понравилось больше всего?"
+        },
+        {
+          "id": "ST063",
+          "en": "I'd love to visit that place.",
+          "ru": "Я бы с удовольствием посетил(а) это место."
+        },
+        {
+          "id": "ST064",
+          "en": "Do you travel often?",
+          "ru": "Ты часто путешествуешь?"
+        },
+        {
+          "id": "ST065",
+          "en": "What's it like living here?",
+          "ru": "Каково это — жить здесь?"
+        },
+        {
+          "id": "ST066",
+          "en": "Is there much to do around here?",
+          "ru": "Здесь есть чем заняться?"
+        },
+        {
+          "id": "ST067",
+          "en": "I still have so many places to see.",
+          "ru": "Мне ещё столько мест нужно увидеть."
+        },
+        {
+          "id": "ST068",
+          "en": "I prefer travelling in the off-season.",
+          "ru": "Я предпочитаю путешествовать не в сезон."
+        },
+        {
+          "id": "ST069",
+          "en": "What's the best trip you've ever taken?",
+          "ru": "Какая поездка была лучшей в твоей жизни?"
+        },
+        {
+          "id": "ST070",
+          "en": "I'd recommend it to anyone.",
+          "ru": "Я бы порекомендовал(а) это всем."
+        }
+      ]
+    },
+    {
+      "id": "ST-L08",
+      "order": 8,
+      "title": {
+        "en": "Weather",
+        "ru": "Погода"
+      },
+      "phrases": [
+        {
+          "id": "ST071",
+          "en": "Lovely weather we're having.",
+          "ru": "Какая прекрасная у нас погода."
+        },
+        {
+          "id": "ST072",
+          "en": "It's a bit chilly today.",
+          "ru": "Сегодня немного прохладно."
+        },
+        {
+          "id": "ST073",
+          "en": "It's warmer than I expected.",
+          "ru": "Теплее, чем я ожидал(а)."
+        },
+        {
+          "id": "ST074",
+          "en": "Looks like it's going to rain.",
+          "ru": "Похоже, будет дождь."
+        },
+        {
+          "id": "ST075",
+          "en": "I hope it clears up soon.",
+          "ru": "Надеюсь, скоро прояснится."
+        },
+        {
+          "id": "ST076",
+          "en": "The weather has been all over the place.",
+          "ru": "Погода в последнее время постоянно меняется."
+        },
+        {
+          "id": "ST077",
+          "en": "It's perfect weather for a walk.",
+          "ru": "Идеальная погода для прогулки."
+        },
+        {
+          "id": "ST078",
+          "en": "I can't believe how hot it is.",
+          "ru": "Не могу поверить, как жарко."
+        },
+        {
+          "id": "ST079",
+          "en": "At least it's not too windy.",
+          "ru": "По крайней мере, не слишком ветрено."
+        },
+        {
+          "id": "ST080",
+          "en": "I love this time of year.",
+          "ru": "Я люблю это время года."
+        }
+      ]
+    },
+    {
+      "id": "ST-L09",
+      "order": 9,
+      "title": {
+        "en": "Family and friends",
+        "ru": "Семья и друзья"
+      },
+      "phrases": [
+        {
+          "id": "ST081",
+          "en": "How's your family doing?",
+          "ru": "Как поживает твоя семья?"
+        },
+        {
+          "id": "ST082",
+          "en": "Do you have any brothers or sisters?",
+          "ru": "У тебя есть братья или сёстры?"
+        },
+        {
+          "id": "ST083",
+          "en": "Are you close to your family?",
+          "ru": "Ты близок / близка со своей семьёй?"
+        },
+        {
+          "id": "ST084",
+          "en": "How did you two meet?",
+          "ru": "Как вы познакомились?"
+        },
+        {
+          "id": "ST085",
+          "en": "We go way back.",
+          "ru": "Мы знакомы очень давно."
+        },
+        {
+          "id": "ST086",
+          "en": "I haven't seen them in ages.",
+          "ru": "Я их целую вечность не видел(а)."
+        },
+        {
+          "id": "ST087",
+          "en": "We try to get together regularly.",
+          "ru": "Мы стараемся регулярно встречаться."
+        },
+        {
+          "id": "ST088",
+          "en": "Your friend seems really nice.",
+          "ru": "Твой друг кажется очень приятным человеком."
+        },
+        {
+          "id": "ST089",
+          "en": "Please say hello to your family for me.",
+          "ru": "Передавай привет своей семье."
+        },
+        {
+          "id": "ST090",
+          "en": "It's always good to catch up with old friends.",
+          "ru": "Всегда приятно повидаться со старыми друзьями."
+        }
+      ]
+    },
+    {
+      "id": "ST-L10",
+      "order": 10,
+      "title": {
+        "en": "Entertainment and culture",
+        "ru": "Развлечения и культура"
+      },
+      "phrases": [
+        {
+          "id": "ST091",
+          "en": "Have you watched anything good lately?",
+          "ru": "Ты недавно смотрел(а) что-нибудь интересное?"
+        },
+        {
+          "id": "ST092",
+          "en": "What kind of music are you into?",
+          "ru": "Какую музыку ты любишь?"
+        },
+        {
+          "id": "ST093",
+          "en": "Have you heard of this band?",
+          "ru": "Ты слышал(а) об этой группе?"
+        },
+        {
+          "id": "ST094",
+          "en": "I've been listening to them a lot.",
+          "ru": "Я много их слушаю в последнее время."
+        },
+        {
+          "id": "ST095",
+          "en": "That show is really popular right now.",
+          "ru": "Это шоу сейчас очень популярно."
+        },
+        {
+          "id": "ST096",
+          "en": "I'm thinking of going to a concert.",
+          "ru": "Думаю сходить на концерт."
+        },
+        {
+          "id": "ST097",
+          "en": "Do you prefer films or series?",
+          "ru": "Ты предпочитаешь фильмы или сериалы?"
+        },
+        {
+          "id": "ST098",
+          "en": "The ending caught me by surprise.",
+          "ru": "Концовка меня удивила."
+        },
+        {
+          "id": "ST099",
+          "en": "I couldn't stop watching.",
+          "ru": "Я не мог(ла) оторваться от просмотра."
+        },
+        {
+          "id": "ST100",
+          "en": "We should check it out sometime.",
+          "ru": "Нам стоит как-нибудь это посмотреть / посетить."
+        }
+      ]
+    },
+    {
+      "id": "ST-L11",
+      "order": 11,
+      "title": {
+        "en": "Compliments",
+        "ru": "Комплименты"
+      },
+      "phrases": [
+        {
+          "id": "ST101",
+          "en": "I like your style.",
+          "ru": "Мне нравится твой стиль."
+        },
+        {
+          "id": "ST102",
+          "en": "That's a great jacket.",
+          "ru": "Отличная куртка."
+        },
+        {
+          "id": "ST103",
+          "en": "You have a great sense of humour.",
+          "ru": "У тебя отличное чувство юмора."
+        },
+        {
+          "id": "ST104",
+          "en": "You always know what to say.",
+          "ru": "Ты всегда знаешь, что сказать."
+        },
+        {
+          "id": "ST105",
+          "en": "You make this look easy.",
+          "ru": "У тебя это выглядит легко."
+        },
+        {
+          "id": "ST106",
+          "en": "That's a really good idea.",
+          "ru": "Это действительно хорошая идея."
+        },
+        {
+          "id": "ST107",
+          "en": "You have great taste in music.",
+          "ru": "У тебя отличный музыкальный вкус."
+        },
+        {
+          "id": "ST108",
+          "en": "It's always fun talking to you.",
+          "ru": "С тобой всегда интересно разговаривать."
+        },
+        {
+          "id": "ST109",
+          "en": "You look well-rested.",
+          "ru": "Ты выглядишь отдохнувшим / отдохнувшей."
+        },
+        {
+          "id": "ST110",
+          "en": "I love your positive attitude.",
+          "ru": "Мне нравится твой позитивный настрой."
+        }
+      ]
+    },
+    {
+      "id": "ST-L12",
+      "order": 12,
+      "title": {
+        "en": "Keeping a conversation going",
+        "ru": "Поддержание разговора"
+      },
+      "phrases": [
+        {
+          "id": "ST111",
+          "en": "How about you?",
+          "ru": "А ты?"
+        },
+        {
+          "id": "ST112",
+          "en": "What happened next?",
+          "ru": "Что было дальше?"
+        },
+        {
+          "id": "ST113",
+          "en": "Tell me more about that.",
+          "ru": "Расскажи мне об этом подробнее."
+        },
+        {
+          "id": "ST114",
+          "en": "Really? How come?",
+          "ru": "Правда? Почему так?"
+        },
+        {
+          "id": "ST115",
+          "en": "What was that like?",
+          "ru": "Каково это было?"
+        },
+        {
+          "id": "ST116",
+          "en": "And how did you feel about it?",
+          "ru": "И что ты по этому поводу почувствовал(а)?"
+        },
+        {
+          "id": "ST117",
+          "en": "That reminds me of something.",
+          "ru": "Это напоминает мне кое-что."
+        },
+        {
+          "id": "ST118",
+          "en": "I know exactly what you mean.",
+          "ru": "Я прекрасно понимаю, что ты имеешь в виду."
+        },
+        {
+          "id": "ST119",
+          "en": "No kidding!",
+          "ru": "Вот это да! / Не шутишь!"
+        },
+        {
+          "id": "ST120",
+          "en": "So, what happened in the end?",
+          "ru": "Так чем всё закончилось?"
+        }
+      ]
+    },
+    {
+      "id": "ST-L13",
+      "order": 13,
+      "title": {
+        "en": "Talking about the past",
+        "ru": "Разговор о прошлом"
+      },
+      "phrases": [
+        {
+          "id": "ST121",
+          "en": "What were you like as a child?",
+          "ru": "Каким / какой ты был(а) в детстве?"
+        },
+        {
+          "id": "ST122",
+          "en": "I used to do that all the time.",
+          "ru": "Раньше я постоянно так делал(а)."
+        },
+        {
+          "id": "ST123",
+          "en": "I haven't thought about that in years.",
+          "ru": "Я не вспоминал(а) об этом много лет."
+        },
+        {
+          "id": "ST124",
+          "en": "That brings back memories.",
+          "ru": "Это навевает воспоминания."
+        },
+        {
+          "id": "ST125",
+          "en": "Those were the days.",
+          "ru": "Были времена."
+        },
+        {
+          "id": "ST126",
+          "en": "I remember it like it was yesterday.",
+          "ru": "Я помню это как будто вчера."
+        },
+        {
+          "id": "ST127",
+          "en": "We had so much fun back then.",
+          "ru": "Тогда мы так весело проводили время."
+        },
+        {
+          "id": "ST128",
+          "en": "How has it changed since then?",
+          "ru": "Как это изменилось с тех пор?"
+        },
+        {
+          "id": "ST129",
+          "en": "I learned a lot from that experience.",
+          "ru": "Я многому научился / научилась благодаря этому опыту."
+        },
+        {
+          "id": "ST130",
+          "en": "I'd love to do that again someday.",
+          "ru": "Я бы хотел(а) когда-нибудь повторить это."
+        }
+      ]
+    },
+    {
+      "id": "ST-L14",
+      "order": 14,
+      "title": {
+        "en": "Future hopes",
+        "ru": "Надежды на будущее"
+      },
+      "phrases": [
+        {
+          "id": "ST131",
+          "en": "What are you looking forward to?",
+          "ru": "Чего ты ждёшь с нетерпением?"
+        },
+        {
+          "id": "ST132",
+          "en": "I hope to travel more next year.",
+          "ru": "Надеюсь больше путешествовать в следующем году."
+        },
+        {
+          "id": "ST133",
+          "en": "I'd like to learn another language.",
+          "ru": "Я хотел(а) бы выучить ещё один язык."
+        },
+        {
+          "id": "ST134",
+          "en": "Let's see what the future brings.",
+          "ru": "Посмотрим, что принесёт будущее."
+        },
+        {
+          "id": "ST135",
+          "en": "I have a few things planned.",
+          "ru": "У меня запланировано несколько дел."
+        },
+        {
+          "id": "ST136",
+          "en": "I'm excited about what's next.",
+          "ru": "Я с интересом жду того, что будет дальше."
+        },
+        {
+          "id": "ST137",
+          "en": "One day, I'd love to...",
+          "ru": "Однажды я бы хотел(а)..."
+        },
+        {
+          "id": "ST138",
+          "en": "I'm working toward that goal.",
+          "ru": "Я двигаюсь к этой цели."
+        },
+        {
+          "id": "ST139",
+          "en": "Hopefully, things will work out.",
+          "ru": "Надеюсь, всё сложится удачно."
+        },
+        {
+          "id": "ST140",
+          "en": "That gives me something to look forward to.",
+          "ru": "Теперь мне есть чего ждать."
+        }
+      ]
+    },
+    {
+      "id": "ST-L15",
+      "order": 15,
+      "title": {
+        "en": "Social events",
+        "ru": "Общественные мероприятия"
+      },
+      "phrases": [
+        {
+          "id": "ST141",
+          "en": "How do you know the host?",
+          "ru": "Откуда ты знаешь хозяина / организатора?"
+        },
+        {
+          "id": "ST142",
+          "en": "Have you tried the snacks?",
+          "ru": "Ты пробовал(а) закуски?"
+        },
+        {
+          "id": "ST143",
+          "en": "It's a great turnout.",
+          "ru": "Пришло много людей."
+        },
+        {
+          "id": "ST144",
+          "en": "The place looks amazing.",
+          "ru": "Место выглядит потрясающе."
+        },
+        {
+          "id": "ST145",
+          "en": "Are you enjoying yourself?",
+          "ru": "Тебе нравится проводить здесь время?"
+        },
+        {
+          "id": "ST146",
+          "en": "Would you like something to drink?",
+          "ru": "Хочешь что-нибудь выпить?"
+        },
+        {
+          "id": "ST147",
+          "en": "I should mingle a bit.",
+          "ru": "Мне стоит немного пообщаться с другими."
+        },
+        {
+          "id": "ST148",
+          "en": "Thanks for having me.",
+          "ru": "Спасибо, что пригласили."
+        },
+        {
+          "id": "ST149",
+          "en": "I don't want to keep you.",
+          "ru": "Не хочу задерживать тебя."
+        },
+        {
+          "id": "ST150",
+          "en": "Let's catch up again soon.",
+          "ru": "Давай скоро снова встретимся и поболтаем."
+        }
+      ]
+    },
+    {
+      "id": "ST-L16",
+      "order": 16,
+      "title": {
+        "en": "Light humour",
+        "ru": "Лёгкий юмор"
+      },
+      "phrases": [
+        {
+          "id": "ST151",
+          "en": "You must be joking.",
+          "ru": "Ты, должно быть, шутишь."
+        },
+        {
+          "id": "ST152",
+          "en": "Well, that was unexpected.",
+          "ru": "Ну, этого я не ожидал(а)."
+        },
+        {
+          "id": "ST153",
+          "en": "At least we can laugh about it now.",
+          "ru": "По крайней мере, теперь мы можем над этим посмеяться."
+        },
+        {
+          "id": "ST154",
+          "en": "I'm not even surprised.",
+          "ru": "Я даже не удивлён(а)."
+        },
+        {
+          "id": "ST155",
+          "en": "That's one way to put it.",
+          "ru": "Можно и так сказать."
+        },
+        {
+          "id": "ST156",
+          "en": "You read my mind.",
+          "ru": "Ты читаешь мои мысли."
+        },
+        {
+          "id": "ST157",
+          "en": "Great minds think alike.",
+          "ru": "У великих умов мысли сходятся."
+        },
+        {
+          "id": "ST158",
+          "en": "I walked right into that one.",
+          "ru": "Сам(а) напросился / напросилась."
+        },
+        {
+          "id": "ST159",
+          "en": "I'll take that as a compliment.",
+          "ru": "Буду считать это комплиментом."
+        },
+        {
+          "id": "ST160",
+          "en": "Well, that's awkward.",
+          "ru": "Ну, неловко получилось."
+        }
+      ]
+    },
+    {
+      "id": "ST-L17",
+      "order": 17,
+      "title": {
+        "en": "Meeting new people",
+        "ru": "Знакомство с новыми людьми"
+      },
+      "phrases": [
+        {
+          "id": "ST161",
+          "en": "What do you like to be called?",
+          "ru": "Как к тебе лучше обращаться?"
+        },
+        {
+          "id": "ST162",
+          "en": "What brought you to this event?",
+          "ru": "Что привело тебя на это мероприятие?"
+        },
+        {
+          "id": "ST163",
+          "en": "Are you from around here?",
+          "ru": "Ты местный / местная?"
+        },
+        {
+          "id": "ST164",
+          "en": "What line of work are you in?",
+          "ru": "В какой сфере ты работаешь?"
+        },
+        {
+          "id": "ST165",
+          "en": "How do you spend most of your time?",
+          "ru": "Чем ты обычно занимаешься?"
+        },
+        {
+          "id": "ST166",
+          "en": "It's been great getting to know you.",
+          "ru": "Было здорово познакомиться с тобой поближе."
+        },
+        {
+          "id": "ST167",
+          "en": "Do you use social media much?",
+          "ru": "Ты часто пользуешься соцсетями?"
+        },
+        {
+          "id": "ST168",
+          "en": "Would you like to stay in touch?",
+          "ru": "Хочешь оставаться на связи?"
+        },
+        {
+          "id": "ST169",
+          "en": "I think we'd get along well.",
+          "ru": "Думаю, мы бы хорошо поладили."
+        },
+        {
+          "id": "ST170",
+          "en": "I hope we run into each other again.",
+          "ru": "Надеюсь, мы ещё встретимся."
+        }
+      ]
+    },
+    {
+      "id": "ST-L18",
+      "order": 18,
+      "title": {
+        "en": "Responding naturally",
+        "ru": "Естественные реакции"
+      },
+      "phrases": [
+        {
+          "id": "ST171",
+          "en": "Oh, I see.",
+          "ru": "А, понятно."
+        },
+        {
+          "id": "ST172",
+          "en": "That makes sense.",
+          "ru": "В этом есть смысл."
+        },
+        {
+          "id": "ST173",
+          "en": "Fair enough.",
+          "ru": "Ладно, справедливо."
+        },
+        {
+          "id": "ST174",
+          "en": "Good for you!",
+          "ru": "Рад(а) за тебя!"
+        },
+        {
+          "id": "ST175",
+          "en": "Lucky you!",
+          "ru": "Повезло тебе!"
+        },
+        {
+          "id": "ST176",
+          "en": "That's a shame.",
+          "ru": "Как жаль."
+        },
+        {
+          "id": "ST177",
+          "en": "What a coincidence!",
+          "ru": "Какое совпадение!"
+        },
+        {
+          "id": "ST178",
+          "en": "I can imagine.",
+          "ru": "Могу себе представить."
+        },
+        {
+          "id": "ST179",
+          "en": "I know the feeling.",
+          "ru": "Знакомое чувство."
+        },
+        {
+          "id": "ST180",
+          "en": "You never know.",
+          "ru": "Кто знает."
+        }
+      ]
+    },
+    {
+      "id": "ST-L19",
+      "order": 19,
+      "title": {
+        "en": "Ending small talk",
+        "ru": "Завершение беседы"
+      },
+      "phrases": [
+        {
+          "id": "ST181",
+          "en": "I should let you get back to it.",
+          "ru": "Не буду тебя больше отвлекать."
+        },
+        {
+          "id": "ST182",
+          "en": "It was nice chatting with you.",
+          "ru": "Было приятно поболтать с тобой."
+        },
+        {
+          "id": "ST183",
+          "en": "I need to catch up with someone.",
+          "ru": "Мне нужно поговорить ещё с одним человеком."
+        },
+        {
+          "id": "ST184",
+          "en": "Let's talk again soon.",
+          "ru": "Давай скоро снова поговорим."
+        },
+        {
+          "id": "ST185",
+          "en": "I won't keep you any longer.",
+          "ru": "Не буду больше тебя задерживать."
+        },
+        {
+          "id": "ST186",
+          "en": "Enjoy the rest of your evening.",
+          "ru": "Приятного продолжения вечера."
+        },
+        {
+          "id": "ST187",
+          "en": "I'll see you around.",
+          "ru": "Ещё увидимся."
+        },
+        {
+          "id": "ST188",
+          "en": "Let's grab coffee sometime.",
+          "ru": "Давай как-нибудь выпьем кофе."
+        },
+        {
+          "id": "ST189",
+          "en": "Give me a shout sometime.",
+          "ru": "Как-нибудь напиши или позвони мне."
+        },
+        {
+          "id": "ST190",
+          "en": "Take it easy.",
+          "ru": "Не перенапрягайся / береги себя."
+        }
+      ]
+    },
+    {
+      "id": "ST-L20",
+      "order": 20,
+      "title": {
+        "en": "Everyday small-talk questions",
+        "ru": "Частые вопросы"
+      },
+      "phrases": [
+        {
+          "id": "ST191",
+          "en": "What's been keeping you busy?",
+          "ru": "Чем ты был(а) занят(а) в последнее время?"
+        },
+        {
+          "id": "ST192",
+          "en": "Have you got anything planned for tomorrow?",
+          "ru": "У тебя есть планы на завтра?"
+        },
+        {
+          "id": "ST193",
+          "en": "What's your favourite way to relax?",
+          "ru": "Как ты больше всего любишь отдыхать?"
+        },
+        {
+          "id": "ST194",
+          "en": "Have you always lived here?",
+          "ru": "Ты всегда здесь жил(а)?"
+        },
+        {
+          "id": "ST195",
+          "en": "What's something you're looking forward to?",
+          "ru": "Чего ты ждёшь с нетерпением?"
+        },
+        {
+          "id": "ST196",
+          "en": "What's the best thing about your week?",
+          "ru": "Что было лучшим на этой неделе?"
+        },
+        {
+          "id": "ST197",
+          "en": "Have you discovered anything interesting lately?",
+          "ru": "Ты недавно открыл(а) для себя что-нибудь интересное?"
+        },
+        {
+          "id": "ST198",
+          "en": "What's your usual weekend like?",
+          "ru": "Как обычно проходят твои выходные?"
+        },
+        {
+          "id": "ST199",
+          "en": "What would you do if you had a free day?",
+          "ru": "Что бы ты сделал(а), если бы у тебя был свободный день?"
+        },
+        {
+          "id": "ST200",
+          "en": "Anything else exciting going on?",
+          "ru": "Происходит ещё что-нибудь интересное?"
+        }
+      ]
+    }
+  ]
+}
