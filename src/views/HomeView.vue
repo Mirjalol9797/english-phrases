@@ -55,11 +55,11 @@ const DAY_FORMS: [string, string, string] = ['день', 'дня', 'дней']
 
     <section v-if="data.nextLesson && featured" class="pb-10">
       <p class="text-muted">Первая фраза урока «{{ data.nextLesson.title.ru }}»</p>
-      <p lang="en" class="mt-4 font-serif text-[clamp(2.25rem,9vw,3.25rem)] leading-[1.15] font-semibold">
+      <p lang="en" class="mt-4 font-serif text-[clamp(1.875rem,9vw,3.25rem)] leading-[1.15] font-semibold">
         <span class="marker">{{ featured.en }}</span>
       </p>
       <p class="mt-3 text-lg text-muted">{{ featured.ru }}</p>
-      <div class="mt-6">
+      <div class="mt-5 sm:mt-6">
         <RouterLink :to="`/lessons/${data.nextLesson.id}`" class="btn-primary">
           Открыть урок {{ data.nextLesson.order }}
         </RouterLink>
@@ -67,7 +67,7 @@ const DAY_FORMS: [string, string, string] = ['день', 'дня', 'дней']
     </section>
 
     <section v-else class="pb-10">
-      <h1 class="text-2xl font-semibold">Глав пока нет</h1>
+      <h1 class="text-xl sm:text-2xl font-semibold">Глав пока нет</h1>
       <p class="mt-3 max-w-prose text-muted">
         Положите Word-файлы с фразами в папку content/source и выполните
         <code class="font-mono text-sm text-ink">yarn data:build</code>.
@@ -83,7 +83,7 @@ const DAY_FORMS: [string, string, string] = ['день', 'дня', 'дней']
       </div>
       <ul class="mt-2 divide-y divide-line">
         <li v-for="chapter in data.index.chapters" :key="chapter.id">
-          <RouterLink :to="`/chapters/${chapter.id}`" class="group flex items-baseline gap-4 py-4">
+          <RouterLink :to="`/chapters/${chapter.id}`" class="group flex items-baseline gap-4 py-3 sm:py-4">
             <span class="w-6 shrink-0 font-serif text-lg text-muted tabular-nums">{{ chapter.order }}</span>
             <span class="min-w-0 flex-1">
               <span lang="en" class="block font-serif text-lg leading-snug group-hover:underline">

@@ -90,7 +90,7 @@ function onFinish(sessionResults: StepResult[]) {
     />
 
     <section v-else>
-      <h1 class="text-2xl font-semibold">Повторение</h1>
+      <h1 class="text-xl sm:text-2xl font-semibold">Повторение</h1>
 
       <!-- Итог только что законченного захода. -->
       <p v-if="results" class="mt-3">
@@ -102,7 +102,7 @@ function onFinish(sessionResults: StepResult[]) {
           Здесь появятся фразы, которые пора освежить. Система сама решает когда: чем увереннее
           отвечаете, тем реже спрашивает — от следующего дня до трёх недель.
         </p>
-        <RouterLink to="/chapters" class="btn-primary mt-6">Начать первый урок</RouterLink>
+        <RouterLink to="/chapters" class="btn-primary mt-5 sm:mt-6">Начать первый урок</RouterLink>
       </template>
 
       <template v-else-if="due.length === 0">
@@ -110,7 +110,7 @@ function onFinish(sessionResults: StepResult[]) {
         <p v-if="progress.nextDueDay" class="mt-1 text-muted">
           Следующее повторение — {{ formatDay(progress.nextDueDay) }}.
         </p>
-        <div class="mt-6 flex flex-wrap gap-3">
+        <div class="mt-5 sm:mt-6 flex flex-wrap gap-3">
           <RouterLink to="/chapters" class="btn-quiet">Учить новое</RouterLink>
         </div>
       </template>
@@ -121,9 +121,9 @@ function onFinish(sessionResults: StepResult[]) {
           <template v-if="due.length > BATCH_SIZE">За один заход — {{ BATCH_SIZE }}.</template>
         </p>
 
-        <button type="button" class="btn-primary mt-6" @click="startReview">Начать повторение</button>
+        <button type="button" class="btn-primary mt-5 sm:mt-6" @click="startReview">Начать повторение</button>
 
-        <ol class="mt-8 divide-y divide-line border-y border-line">
+        <ol class="mt-6 sm:mt-8 divide-y divide-line border-y border-line">
           <li v-for="phrase in due.slice(0, BATCH_SIZE)" :key="phrase.id" class="flex items-baseline gap-3 py-3">
             <span class="w-10 shrink-0 text-xs text-muted tabular-nums">
               {{ progress.boxOf(phrase.id) }} / {{ LAST_BOX }}

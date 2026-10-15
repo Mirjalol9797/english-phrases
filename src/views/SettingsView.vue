@@ -73,9 +73,9 @@ function reset() {
 
 <template>
   <section>
-    <h1 class="text-2xl font-semibold">Настройки</h1>
+    <h1 class="text-xl sm:text-2xl font-semibold">Настройки</h1>
 
-    <h2 class="mt-6 text-lg font-semibold">Тема</h2>
+    <h2 class="mt-5 sm:mt-6 text-lg font-semibold">Тема</h2>
     <div role="radiogroup" aria-label="Тема оформления" class="mt-3 flex flex-wrap gap-2">
       <label
         v-for="option in THEME_OPTIONS"
@@ -96,7 +96,7 @@ function reset() {
 
     <!-- Раздела нет, если в системе не нашлось ни одного английского голоса. -->
     <template v-if="speech.supported.value">
-      <h2 class="mt-8 text-lg font-semibold">Озвучка</h2>
+      <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Озвучка</h2>
 
       <label class="mt-3 block text-sm text-muted" for="voice">Голос</label>
       <select id="voice" v-model="settings.voiceName" class="field mt-1 max-w-sm">
@@ -106,7 +106,7 @@ function reset() {
         </option>
       </select>
 
-      <label class="mt-5 block text-sm text-muted" for="rate">
+      <label class="mt-4 sm:mt-5 block text-sm text-muted" for="rate">
         Скорость речи — {{ settings.speechRate.toFixed(1) }}
       </label>
       <input
@@ -131,13 +131,13 @@ function reset() {
         <p lang="en" class="font-serif text-sm text-muted">{{ SAMPLE }}</p>
       </div>
 
-      <label class="mt-5 flex max-w-sm cursor-pointer items-center gap-3">
+      <label class="mt-4 sm:mt-5 flex max-w-sm cursor-pointer items-center gap-3">
         <input v-model="settings.speechEnabled" type="checkbox" class="h-4 w-4 accent-marker" />
         <span class="text-sm">Проговаривать фразу на карточке сама</span>
       </label>
     </template>
 
-    <h2 class="mt-8 text-lg font-semibold">Занятие</h2>
+    <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Занятие</h2>
     <p class="mt-1 text-sm text-muted">Сколько записей брать за раз. Длинный урок разобьётся на части.</p>
     <div role="radiogroup" aria-label="Размер занятия" class="mt-3 flex flex-wrap gap-2">
       <label
@@ -155,7 +155,7 @@ function reset() {
       </label>
     </div>
 
-    <p class="mt-5 text-sm text-muted">Сколько новых фраз брать в день</p>
+    <p class="mt-4 sm:mt-5 text-sm text-muted">Сколько новых фраз брать в день</p>
     <div role="radiogroup" aria-label="Новых фраз в день" class="mt-2 flex flex-wrap gap-2">
       <label
         v-for="option in DAILY_NEW_OPTIONS"
@@ -176,7 +176,7 @@ function reset() {
       пройденное можно сколько угодно.
     </p>
 
-    <h2 class="mt-8 text-lg font-semibold">Прогресс</h2>
+    <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Прогресс</h2>
     <p class="mt-3 text-muted">
       <template v-if="progress.startedCount === 0">Занятий ещё не было.</template>
       <template v-else>
@@ -188,7 +188,7 @@ function reset() {
       поэтому держите резервную копию.
     </p>
 
-    <div class="mt-5 flex flex-wrap gap-3">
+    <div class="mt-4 sm:mt-5 flex flex-wrap gap-3">
       <button type="button" class="btn-quiet" :disabled="progress.startedCount === 0" @click="save">
         Сохранить копию
       </button>
@@ -196,7 +196,7 @@ function reset() {
       <input ref="fileInput" type="file" accept="application/json,.json" class="sr-only" @change="load" />
     </div>
 
-    <div class="mt-5">
+    <div class="mt-4 sm:mt-5">
       <button
         v-if="!confirmingReset"
         type="button"
@@ -217,7 +217,7 @@ function reset() {
       {{ message.text }}
     </p>
 
-    <p class="mt-8 border-t border-line pt-5">
+    <p class="mt-6 sm:mt-8 border-t border-line pt-5">
       <RouterLink to="/stats" class="text-accent underline underline-offset-4">Статистика</RouterLink>
     </p>
   </section>

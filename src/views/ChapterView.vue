@@ -55,19 +55,19 @@ useDocumentTitle(() => chapter.value?.title.en)
 
   <section v-else-if="chapter">
     <header class="mt-4">
-      <h1 lang="en" class="font-serif text-[2rem] leading-tight font-semibold">{{ chapter.title.en }}</h1>
+      <h1 lang="en" class="font-serif text-2xl sm:text-[2rem] leading-tight font-semibold">{{ chapter.title.en }}</h1>
       <p class="mt-1 text-lg text-muted">{{ chapter.title.ru }}</p>
       <p class="mt-3 text-sm text-muted">
         {{ plural(chapter.lessons.length, LESSON_FORMS) }}, {{ plural(phraseCount, itemForms(chapter.kind)) }}
       </p>
     </header>
 
-    <ol class="mt-5 divide-y divide-line border-y border-line">
+    <ol class="mt-4 sm:mt-5 divide-y divide-line border-y border-line">
       <li v-for="lesson in chapter.lessons" :key="lesson.id">
-        <RouterLink :to="`/lessons/${lesson.id}`" class="group flex items-center gap-4 py-4">
+        <RouterLink :to="`/lessons/${lesson.id}`" class="group flex items-center gap-4 py-3 sm:py-4">
           <span class="w-7 shrink-0 text-right font-serif text-lg text-muted tabular-nums">{{ lesson.order }}</span>
           <span class="min-w-0 flex-1">
-            <span lang="en" class="block font-serif text-lg leading-snug group-hover:underline">
+            <span lang="en" class="block font-serif text-base leading-snug group-hover:underline sm:text-lg">
               {{ lesson.title.en }}
             </span>
             <span class="block text-sm text-muted">{{ lesson.title.ru }}</span>

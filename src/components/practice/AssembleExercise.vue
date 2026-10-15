@@ -46,11 +46,11 @@ function check() {
 <template>
   <div>
     <p class="text-sm text-muted">Соберите фразу</p>
-    <p class="mt-3 text-[clamp(1.25rem,4vw,1.5rem)] leading-snug">{{ step.phrase.ru }}</p>
+    <p class="mt-3 text-[clamp(1.125rem,4vw,1.5rem)] leading-snug">{{ step.phrase.ru }}</p>
 
     <!-- Собранная фраза. Пустая строка держит высоту, чтобы кнопки не прыгали. -->
     <div
-      class="mt-5 flex min-h-14 flex-wrap items-center gap-2 rounded-xl border border-dashed p-2"
+      class="mt-4 sm:mt-5 flex min-h-14 flex-wrap items-center gap-2 rounded-xl border border-dashed p-2"
       :class="checked ? (correct ? 'border-ok' : 'border-bad') : 'border-line'"
     >
       <button
@@ -81,10 +81,10 @@ function check() {
       </li>
     </ul>
 
-    <button v-if="!checked" type="button" class="btn-primary mt-6" :disabled="picked.length === 0" @click="check">
+    <button v-if="!checked" type="button" class="btn-primary mt-5 sm:mt-6" :disabled="picked.length === 0" @click="check">
       Проверить
     </button>
-    <p v-else-if="!correct" class="mt-5">
+    <p v-else-if="!correct" class="mt-4 sm:mt-5">
       <span class="text-sm text-muted">Правильно:</span>
       <span lang="en" class="mt-1 block font-serif text-lg">{{ step.phrase.en }}</span>
     </p>

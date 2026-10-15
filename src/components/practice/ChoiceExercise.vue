@@ -49,7 +49,7 @@ function stateClass(option: string) {
     <div class="mt-3 flex items-start gap-3">
       <p
         :lang="askingTranslation ? 'en' : undefined"
-        class="flex-1 text-[clamp(1.5rem,5vw,2rem)] leading-tight"
+        class="flex-1 text-[clamp(1.25rem,5vw,2rem)] leading-tight"
         :class="askingTranslation ? 'font-serif font-semibold' : ''"
       >
         {{ askingTranslation ? step.phrase.en : step.phrase.ru }}
@@ -62,7 +62,7 @@ function stateClass(option: string) {
       />
     </div>
 
-    <ul class="mt-5 grid gap-2">
+    <ul class="mt-4 sm:mt-5 grid gap-2">
       <li v-for="(option, index) in step.options" :key="option">
         <button
           type="button"

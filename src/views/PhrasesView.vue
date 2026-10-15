@@ -116,7 +116,7 @@ watch(
 
 <template>
   <section>
-    <h1 class="text-2xl font-semibold">Словарь</h1>
+    <h1 class="text-xl sm:text-2xl font-semibold">Словарь</h1>
 
     <div class="relative mt-4">
       <AppIcon name="search" :size="20" class="pointer-events-none absolute top-1/2 left-4 -translate-y-1/2 text-muted" />
@@ -187,7 +187,7 @@ watch(
         Попробуйте другое слово или уберите фильтр по главе — поиск идёт и по английскому тексту, и по переводу.
       </p>
 
-      <div v-if="results.length > shown.length" class="mt-5">
+      <div v-if="results.length > shown.length" class="mt-4 sm:mt-5">
         <button type="button" class="btn-quiet" @click="visible += PAGE_SIZE">
           Показать ещё {{ Math.min(PAGE_SIZE, results.length - shown.length) }}
         </button>

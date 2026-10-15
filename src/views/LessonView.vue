@@ -62,13 +62,13 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
   <article v-else-if="ctx">
     <header class="mt-4">
       <p class="text-sm text-muted">Урок {{ ctx.lesson.order }} из {{ ctx.chapter.lessons.length }}</p>
-      <h1 lang="en" class="mt-1 font-serif text-[2rem] leading-tight font-semibold">
+      <h1 lang="en" class="mt-1 font-serif text-2xl sm:text-[2rem] leading-tight font-semibold">
         <span class="marker">{{ ctx.lesson.title.en }}</span>
       </h1>
       <p class="mt-1 text-lg text-muted">{{ ctx.lesson.title.ru }}</p>
     </header>
 
-    <div class="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
+    <div class="mt-4 sm:mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
       <RouterLink v-if="!blockedByLimit" :to="practiceLink(nextPart)" class="btn-primary">
         {{ split ? `Часть ${nextPart + 1} из ${parts.length}` : 'Начать урок' }}
       </RouterLink>
@@ -111,11 +111,11 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
       </li>
     </ul>
 
-    <ol class="mt-6 divide-y divide-line border-y border-line">
+    <ol class="mt-5 sm:mt-6 divide-y divide-line border-y border-line">
       <PhraseItem v-for="phrase in ctx.lesson.phrases" :key="phrase.id" :phrase="phrase" />
     </ol>
 
-    <nav aria-label="Соседние уроки" class="mt-6 grid gap-3 sm:grid-cols-2">
+    <nav aria-label="Соседние уроки" class="mt-5 sm:mt-6 grid gap-3 sm:grid-cols-2">
       <RouterLink
         v-if="ctx.previous"
         :to="`/lessons/${ctx.previous.id}`"

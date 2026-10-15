@@ -7,7 +7,7 @@ import UpdateBanner from '@/components/UpdateBanner.vue'
 <template>
   <div class="flex min-h-dvh flex-col">
     <header class="app-header">
-      <div class="mx-auto flex max-w-3xl items-center justify-between gap-6 px-5 py-3">
+      <div class="mx-auto flex max-w-3xl items-center justify-between gap-6 px-5 py-2.5 sm:py-3">
         <RouterLink to="/" class="shrink-0 font-serif text-lg font-semibold whitespace-nowrap">English Phrases</RouterLink>
         <div class="flex items-center gap-2">
           <AppNav variant="top" class="hidden md:block" />

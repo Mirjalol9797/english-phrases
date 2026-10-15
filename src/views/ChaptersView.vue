@@ -44,18 +44,18 @@ const emptySlots = computed(() => {
   <StatusMessage v-if="loading || error" :loading="loading" :error="error" @retry="reload" />
 
   <section v-else-if="index">
-    <h1 class="text-2xl font-semibold">Главы</h1>
+    <h1 class="text-xl sm:text-2xl font-semibold">Главы</h1>
     <p class="mt-2 max-w-prose text-muted">
       Добавлено {{ index.chapters.length }} из {{ index.plannedChapters }}, всего {{ total }}.
       Каждая глава разбита на уроки, в уроке от пяти до двадцати записей.
     </p>
 
-    <ol class="mt-5 divide-y divide-line border-y border-line">
+    <ol class="mt-4 sm:mt-5 divide-y divide-line border-y border-line">
       <li v-for="chapter in index.chapters" :key="chapter.id">
-        <RouterLink :to="`/chapters/${chapter.id}`" class="group flex items-center gap-4 py-4">
-          <span class="w-7 shrink-0 text-right font-serif text-2xl text-muted tabular-nums">{{ chapter.order }}</span>
+        <RouterLink :to="`/chapters/${chapter.id}`" class="group flex items-center gap-4 py-3 sm:py-4">
+          <span class="w-7 shrink-0 text-right font-serif text-xl sm:text-2xl text-muted tabular-nums">{{ chapter.order }}</span>
           <span class="min-w-0 flex-1">
-            <span lang="en" class="block font-serif text-xl leading-snug group-hover:underline">
+            <span lang="en" class="block font-serif text-lg leading-snug group-hover:underline sm:text-xl">
               {{ chapter.title.en }}
             </span>
             <span class="block text-muted">{{ chapter.title.ru }}</span>
@@ -70,8 +70,8 @@ const emptySlots = computed(() => {
           <AppIcon name="chevron-right" class="shrink-0 text-muted" />
         </RouterLink>
       </li>
-      <li v-for="number in emptySlots" :key="`empty-${number}`" class="flex items-center gap-4 py-4 text-muted">
-        <span class="w-7 shrink-0 text-right font-serif text-2xl tabular-nums opacity-60">{{ number }}</span>
+      <li v-for="number in emptySlots" :key="`empty-${number}`" class="flex items-center gap-4 py-3 sm:py-4 text-muted">
+        <span class="w-7 shrink-0 text-right font-serif text-xl sm:text-2xl tabular-nums opacity-60">{{ number }}</span>
         <span>Пока не добавлена</span>
       </li>
     </ol>

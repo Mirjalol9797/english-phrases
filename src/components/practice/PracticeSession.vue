@@ -208,7 +208,7 @@ const keyboardHint = computed(() => {
       <TypingExercise v-else-if="typingStep" :key="`typing-${index}`" :step="typingStep" @answer="onAnswer" />
     </div>
 
-    <div class="mt-8 flex flex-wrap items-center gap-x-4 gap-y-2">
+    <div class="mt-6 sm:mt-8 flex flex-wrap items-center gap-x-4 gap-y-2">
       <button type="button" class="btn-primary" :disabled="!canGoNext" @click="next">
         {{ isLast ? 'Завершить' : 'Дальше' }}
       </button>

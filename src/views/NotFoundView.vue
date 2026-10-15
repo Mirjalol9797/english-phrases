@@ -6,8 +6,8 @@ useDocumentTitle(() => 'Страница не найдена')
 
 <template>
   <section class="py-10">
-    <h1 class="text-2xl font-semibold">Такой страницы нет</h1>
+    <h1 class="text-xl sm:text-2xl font-semibold">Такой страницы нет</h1>
     <p class="mt-3 text-muted">Проверьте адрес или вернитесь на главную.</p>
-    <RouterLink to="/" class="btn-quiet mt-5">На главную</RouterLink>
+    <RouterLink to="/" class="btn-quiet mt-4 sm:mt-5">На главную</RouterLink>
   </section>
 </template>

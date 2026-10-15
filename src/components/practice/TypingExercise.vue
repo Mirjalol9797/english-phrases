@@ -30,9 +30,9 @@ function check() {
 <template>
   <div>
     <p class="text-sm text-muted">Напишите по-английски</p>
-    <p class="mt-3 text-[clamp(1.25rem,4vw,1.5rem)] leading-snug">{{ step.phrase.ru }}</p>
+    <p class="mt-3 text-[clamp(1.125rem,4vw,1.5rem)] leading-snug">{{ step.phrase.ru }}</p>
 
-    <form class="mt-5" @submit.prevent="check">
+    <form class="mt-4 sm:mt-5" @submit.prevent="check">
       <input
         ref="field"
         v-model="value"
@@ -49,12 +49,12 @@ function check() {
       <button v-if="!checked" type="submit" class="btn-primary mt-4" :disabled="!value.trim()">Проверить</button>
     </form>
 
-    <p v-if="checked && !correct" class="mt-5">
+    <p v-if="checked && !correct" class="mt-4 sm:mt-5">
       <span class="text-sm text-muted">Правильно:</span>
       <span lang="en" class="mt-1 block font-serif text-lg">{{ expected }}</span>
     </p>
     <!-- Регистр, апостроф и точка в конце ошибкой не считаются, но написание покажем как в главе. -->
-    <p v-else-if="checked && value.trim() !== step.phrase.en" class="mt-5 text-sm text-muted">
+    <p v-else-if="checked && value.trim() !== step.phrase.en" class="mt-4 sm:mt-5 text-sm text-muted">
       В главе записано так: <span lang="en" class="font-serif">{{ step.phrase.en }}</span>
     </p>
   </div>

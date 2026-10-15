@@ -23,7 +23,7 @@ watch(
 <template>
   <div>
     <div class="flex items-start gap-3">
-      <p lang="en" class="flex-1 font-serif text-[clamp(1.75rem,6vw,2.5rem)] leading-tight font-semibold">
+      <p lang="en" class="flex-1 font-serif text-[clamp(1.5rem,6vw,2.5rem)] leading-tight font-semibold">
         <span class="marker">{{ phrase.en }}</span>
       </p>
       <SpeakButton :text="phrase.en" :speak="speak" :supported="speechSupported" />

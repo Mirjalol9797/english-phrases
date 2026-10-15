@@ -122,11 +122,11 @@ useDocumentTitle(() => (ctx.value ? `Урок: ${ctx.value.lesson.title.ru}` : '
       @finish="onFinish"
     />
 
-    <div v-else class="mt-6">
+    <div v-else class="mt-5 sm:mt-6">
       <p class="text-sm text-muted">
         {{ split ? `Часть ${partIndex + 1} из ${parts.length} пройдена` : 'Урок пройден' }}
       </p>
-      <h1 class="mt-2 text-[clamp(1.75rem,6vw,2.5rem)] leading-tight font-semibold">
+      <h1 class="mt-2 text-[clamp(1.5rem,6vw,2.5rem)] leading-tight font-semibold">
         <span class="marker">{{ correctCount }} из {{ results?.length ?? 0 }}</span>
       </h1>
       <p class="mt-3 text-muted">
@@ -140,14 +140,14 @@ useDocumentTitle(() => (ctx.value ? `Урок: ${ctx.value.lesson.title.ru}` : '
         Следующее повторение — {{ formatDay(nextReview) }}.
       </p>
 
-      <ol v-if="mistakenPhrases.length" class="mt-5 divide-y divide-line border-y border-line">
+      <ol v-if="mistakenPhrases.length" class="mt-4 sm:mt-5 divide-y divide-line border-y border-line">
         <li v-for="phrase in mistakenPhrases" :key="phrase.id" class="py-3">
           <p lang="en" class="font-serif text-lg leading-snug">{{ phrase.en }}</p>
           <p class="mt-0.5 text-sm text-muted">{{ phrase.ru }}</p>
         </li>
       </ol>
 
-      <div class="mt-6 flex flex-wrap gap-3">
+      <div class="mt-5 sm:mt-6 flex flex-wrap gap-3">
         <button
           v-if="wrongAnswers.length"
           type="button"

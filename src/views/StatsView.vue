@@ -70,37 +70,37 @@ const chapters = computed(() =>
 
 <template>
   <section>
-    <h1 class="text-2xl font-semibold">Статистика</h1>
+    <h1 class="text-xl sm:text-2xl font-semibold">Статистика</h1>
 
     <template v-if="progress.startedCount === 0">
       <p class="mt-3 max-w-prose text-muted">
         Пока пусто. Пройдите первый урок — здесь появятся серия дней, календарь занятий и то,
         насколько прочно сидит каждая фраза.
       </p>
-      <RouterLink to="/chapters" class="btn-primary mt-6">Выбрать главу</RouterLink>
+      <RouterLink to="/chapters" class="btn-primary mt-5 sm:mt-6">Выбрать главу</RouterLink>
     </template>
 
     <template v-else>
       <!-- Сводка -->
-      <dl class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <dl class="mt-4 sm:mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
         <div class="rounded-xl border border-line px-4 py-3">
           <dt class="text-sm text-muted">Серия</dt>
-          <dd class="mt-1 text-2xl font-semibold tabular-nums">{{ progress.streak }}</dd>
+          <dd class="mt-1 text-xl sm:text-2xl font-semibold tabular-nums">{{ progress.streak }}</dd>
           <dd class="text-xs text-muted">лучшая — {{ progress.bestStreak }}</dd>
         </div>
         <div class="rounded-xl border border-line px-4 py-3">
           <dt class="text-sm text-muted">Выучено</dt>
-          <dd class="mt-1 text-2xl font-semibold tabular-nums">{{ progress.learnedCount }}</dd>
+          <dd class="mt-1 text-xl sm:text-2xl font-semibold tabular-nums">{{ progress.learnedCount }}</dd>
           <dd class="text-xs text-muted">из {{ progress.startedCount }} начатых</dd>
         </div>
         <div class="rounded-xl border border-line px-4 py-3">
           <dt class="text-sm text-muted">Дней занятий</dt>
-          <dd class="mt-1 text-2xl font-semibold tabular-nums">{{ progress.activeDays }}</dd>
+          <dd class="mt-1 text-xl sm:text-2xl font-semibold tabular-nums">{{ progress.activeDays }}</dd>
           <dd class="text-xs text-muted">{{ plural(progress.totalAnswers, ANSWER_FORMS) }}</dd>
         </div>
         <div class="rounded-xl border border-line px-4 py-3">
           <dt class="text-sm text-muted">Сегодня</dt>
-          <dd class="mt-1 text-2xl font-semibold tabular-nums">{{ progress.answersToday }}</dd>
+          <dd class="mt-1 text-xl sm:text-2xl font-semibold tabular-nums">{{ progress.answersToday }}</dd>
           <dd class="text-xs text-muted">
             <RouterLink to="/review" class="underline underline-offset-2">к повторению {{ progress.dueIds().length }}</RouterLink>
           </dd>
@@ -108,7 +108,7 @@ const chapters = computed(() =>
       </dl>
 
       <!-- Календарь занятий -->
-      <h2 class="mt-8 text-lg font-semibold">Занятия</h2>
+      <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Занятия</h2>
       <p class="mt-1 text-sm text-muted">Последние {{ WEEKS }} недель. Чем ярче, тем больше ответов в тот день.</p>
       <div class="mt-3 overflow-x-auto">
         <div class="flex gap-1">
@@ -126,7 +126,7 @@ const chapters = computed(() =>
       </div>
 
       <!-- Насколько прочно сидят фразы -->
-      <h2 class="mt-8 text-lg font-semibold">Прочность</h2>
+      <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Прочность</h2>
       <p class="mt-1 text-sm text-muted">
         Чем выше коробка, тем реже фраза возвращается. Из пятой она уже не спрашивается чаще раза в три недели.
       </p>
@@ -152,7 +152,7 @@ const chapters = computed(() =>
       <!-- Главы -->
       <StatusMessage v-if="loading || error" :loading="loading" :error="error" @retry="reload" />
       <template v-else-if="chapters.length">
-        <h2 class="mt-8 text-lg font-semibold">Главы</h2>
+        <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Главы</h2>
         <ol class="mt-3 divide-y divide-line border-y border-line">
           <li v-for="chapter in chapters" :key="chapter.id" class="py-3">
             <div class="flex items-baseline justify-between gap-4">
@@ -173,7 +173,7 @@ const chapters = computed(() =>
         </ol>
       </template>
 
-      <p v-if="progress.nextDueDay" class="mt-8 text-sm text-muted">
+      <p v-if="progress.nextDueDay" class="mt-6 sm:mt-8 text-sm text-muted">
         Ближайшее повторение — {{ formatDay(progress.nextDueDay) }}.
       </p>
     </template>
