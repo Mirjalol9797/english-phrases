@@ -1,0 +1,46 @@
+name: Проверки
+
+# Публикация проверяет то же самое, но только при попадании в main — то есть
+# поломку видно уже после слияния. Этот набор идёт на ветках и пулл-реквестах,
+# чтобы ловить её до того.
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Новый толчок в ту же ветку отменяет предыдущую проверку: её результат уже не нужен.
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    name: Тесты и сборка
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # vitest требует Node 22.12 и новее, см. engines в package.json
+          node-version: 22
+          cache: yarn
+
+      - name: Установка зависимостей
+        run: yarn install --frozen-lockfile
+
+      - name: Тесты
+        run: yarn test
+
+      - name: Проверка данных глав
+        run: yarn data:validate
+
+      - name: Сборка и проверка типов
+        run: yarn build
+
+      - name: Проверка офлайн-кэша
+        run: yarn pwa:check
