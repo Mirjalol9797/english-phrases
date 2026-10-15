@@ -35,7 +35,7 @@ beforeEach(() => {
 describe('parseProgress', () => {
   const valid = {
     version: 1,
-    phrases: { EE001: { chapter: 'everyday-english', box: 2, due: '2026-10-17', seen: 1, wrong: 0, updated: '2026-10-15' } },
+    phrases: { EE001: { chapter: 'everyday-english', box: 2, due: '2026-10-17', seen: 1, misses: 0, wrong: 0, updated: '2026-10-15' } },
     days: { '2026-10-15': 37 },
   }
 
@@ -96,13 +96,45 @@ describe('commitSession', () => {
     expect(progress.boxOf('EE001')).toBe(3)
   })
 
-  it('роняет в первую коробку за ошибку', () => {
+  it('первая ошибка опускает на коробку, а не в начало', () => {
     const progress = useProgressStore()
     for (let i = 0; i < 4; i++) progress.commitSession([outcome('EE001', true)])
     expect(progress.boxOf('EE001')).toBe(4)
+
+    progress.commitSession([outcome('EE001', false)])
+    expect(progress.boxOf('EE001')).toBe(3)
+    expect(progress.get('EE001')!.wrong).toBe(1)
+    expect(progress.get('EE001')!.misses).toBe(1)
+  })
+
+  it('вторая ошибка подряд роняет в первую коробку', () => {
+    const progress = useProgressStore()
+    for (let i = 0; i < 4; i++) progress.commitSession([outcome('EE001', true)])
+    progress.commitSession([outcome('EE001', false)])
     progress.commitSession([outcome('EE001', false)])
     expect(progress.boxOf('EE001')).toBe(1)
-    expect(progress.get('EE001')!.wrong).toBe(1)
+    expect(progress.get('EE001')!.misses).toBe(2)
+  })
+
+  it('верный ответ обнуляет счёт ошибок подряд', () => {
+    const progress = useProgressStore()
+    for (let i = 0; i < 4; i++) progress.commitSession([outcome('EE001', true)])
+    progress.commitSession([outcome('EE001', false)]) // 4 -> 3
+    progress.commitSession([outcome('EE001', true)]) // 3 -> 4, счёт сброшен
+    expect(progress.get('EE001')!.misses).toBe(0)
+
+    // Значит следующая одиночная ошибка снова только на шаг назад.
+    progress.commitSession([outcome('EE001', false)])
+    expect(progress.boxOf('EE001')).toBe(3)
+  })
+
+  it('в старых копиях счёта ошибок нет — начинаем с нуля', () => {
+    const data = parseProgress({
+      version: 1,
+      phrases: { EE001: { chapter: 'c', box: 4, due: '2026-10-17', seen: 4, wrong: 1, updated: '2026-10-15' } },
+      days: {},
+    })
+    expect(data!.phrases.EE001!.misses).toBe(0)
   })
 
   it('копит ответы дня и не теряет прежние', () => {
@@ -143,9 +175,9 @@ describe('dueIds', () => {
     progress.data = {
       version: 1,
       phrases: {
-        EE001: { chapter: 'c', firstSeen: '2026-10-15', box: 2, due: '2026-10-14', seen: 1, wrong: 0, updated: '2026-10-13' },
-        EE002: { chapter: 'c', firstSeen: '2026-10-15', box: 2, due: '2026-10-10', seen: 1, wrong: 0, updated: '2026-10-09' },
-        EE003: { chapter: 'c', firstSeen: '2026-10-15', box: 2, due: '2026-10-12', seen: 1, wrong: 0, updated: '2026-10-11' },
+        EE001: { chapter: 'c', firstSeen: '2026-10-15', box: 2, due: '2026-10-14', seen: 1, misses: 0, wrong: 0, updated: '2026-10-13' },
+        EE002: { chapter: 'c', firstSeen: '2026-10-15', box: 2, due: '2026-10-10', seen: 1, misses: 0, wrong: 0, updated: '2026-10-09' },
+        EE003: { chapter: 'c', firstSeen: '2026-10-15', box: 2, due: '2026-10-12', seen: 1, misses: 0, wrong: 0, updated: '2026-10-11' },
       },
       days: {},
     }
@@ -169,6 +201,7 @@ describe('трудные фразы', () => {
             due: r.due ?? '2026-10-20',
             seen: r.seen,
             wrong: r.wrong,
+            misses: 0,
             updated: '2026-10-15',
           },
         ]),
@@ -285,7 +318,7 @@ describe('дневной предел новых фраз', () => {
     progress.data = {
       version: 1,
       phrases: {
-        старая: { chapter: 'c', firstSeen: '2026-10-01', box: 2, due: '2026-10-17', seen: 1, wrong: 0, updated: '2026-10-01' },
+        старая: { chapter: 'c', firstSeen: '2026-10-01', box: 2, due: '2026-10-17', seen: 1, misses: 0, wrong: 0, updated: '2026-10-01' },
       },
       days: {},
     }
@@ -298,7 +331,7 @@ describe('дневной предел новых фраз', () => {
     // Иначе при первом же обновлении весь прежний прогресс засчитался бы за сегодня.
     const data = parseProgress({
       version: 1,
-      phrases: { EE001: { chapter: 'c', box: 2, due: '2026-10-17', seen: 1, wrong: 0, updated: '2026-10-15' } },
+      phrases: { EE001: { chapter: 'c', box: 2, due: '2026-10-17', seen: 1, misses: 0, wrong: 0, updated: '2026-10-15' } },
       days: {},
     })
     expect(data!.phrases.EE001!.firstSeen).toBe('')
@@ -320,9 +353,9 @@ describe('счётчики', () => {
     progress.data = {
       version: 1,
       phrases: {
-        a: { chapter: 'c', firstSeen: '2026-10-15', box: 1, due: '2026-10-16', seen: 1, wrong: 0, updated: '2026-10-15' },
-        b: { chapter: 'c', firstSeen: '2026-10-15', box: 1, due: '2026-10-16', seen: 1, wrong: 0, updated: '2026-10-15' },
-        c: { chapter: 'c', firstSeen: '2026-10-15', box: LAST_BOX, due: '2026-11-05', seen: 5, wrong: 0, updated: '2026-10-15' },
+        a: { chapter: 'c', firstSeen: '2026-10-15', box: 1, due: '2026-10-16', seen: 1, misses: 0, wrong: 0, updated: '2026-10-15' },
+        b: { chapter: 'c', firstSeen: '2026-10-15', box: 1, due: '2026-10-16', seen: 1, misses: 0, wrong: 0, updated: '2026-10-15' },
+        c: { chapter: 'c', firstSeen: '2026-10-15', box: LAST_BOX, due: '2026-11-05', seen: 5, misses: 0, wrong: 0, updated: '2026-10-15' },
       },
       days: {},
     }
@@ -336,9 +369,9 @@ describe('счётчики', () => {
     progress.data = {
       version: 1,
       phrases: {
-        a: { chapter: 'everyday-english', firstSeen: '2026-10-15', box: LAST_BOX, due: '2026-11-05', seen: 5, wrong: 0, updated: '2026-10-15' },
-        b: { chapter: 'everyday-english', firstSeen: '2026-10-15', box: 2, due: '2026-10-17', seen: 1, wrong: 0, updated: '2026-10-15' },
-        c: { chapter: '', firstSeen: '2026-10-15', box: 2, due: '2026-10-17', seen: 1, wrong: 0, updated: '2026-10-15' },
+        a: { chapter: 'everyday-english', firstSeen: '2026-10-15', box: LAST_BOX, due: '2026-11-05', seen: 5, misses: 0, wrong: 0, updated: '2026-10-15' },
+        b: { chapter: 'everyday-english', firstSeen: '2026-10-15', box: 2, due: '2026-10-17', seen: 1, misses: 0, wrong: 0, updated: '2026-10-15' },
+        c: { chapter: '', firstSeen: '2026-10-15', box: 2, due: '2026-10-17', seen: 1, misses: 0, wrong: 0, updated: '2026-10-15' },
       },
       days: {},
     }

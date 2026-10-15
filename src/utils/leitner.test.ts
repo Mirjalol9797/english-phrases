@@ -15,10 +15,23 @@ describe('nextBox', () => {
     expect(nextBox(LAST_BOX, true)).toBe(LAST_BOX)
   })
 
-  it('роняет в первую коробку с любой высоты', () => {
-    for (let box = 0; box <= LAST_BOX; box++) {
-      expect(nextBox(box, false)).toBe(FIRST_BOX)
+  it('первая ошибка — шаг назад, а не в начало', () => {
+    // Описка после трёх недель не должна стирать всё выученное.
+    expect(nextBox(LAST_BOX, false, 0)).toBe(LAST_BOX - 1)
+    expect(nextBox(3, false, 0)).toBe(2)
+    expect(nextBox(2, false, 0)).toBe(1)
+  })
+
+  it('вторая ошибка подряд роняет в первую коробку', () => {
+    for (let box = FIRST_BOX; box <= LAST_BOX; box++) {
+      expect(nextBox(box, false, 1)).toBe(FIRST_BOX)
+      expect(nextBox(box, false, 5)).toBe(FIRST_BOX)
     }
+  })
+
+  it('ниже первой коробки не опускается', () => {
+    expect(nextBox(FIRST_BOX, false, 0)).toBe(FIRST_BOX)
+    expect(nextBox(0, false, 0)).toBe(FIRST_BOX)
   })
 })
 
@@ -46,9 +59,13 @@ describe('dueAfter', () => {
     expect(dueAfter('2026-10-15', 5)).toBe('2026-11-05')
   })
 
-  it('ошибка возвращает фразу на завтра, а не на три недели', () => {
-    const afterMistake = dueAfter('2026-10-15', nextBox(5, false))
-    expect(afterMistake).toBe('2026-10-16')
+  it('после первой ошибки срок короче, но не завтра', () => {
+    // Коробка 5 -> 4, это десять дней вместо трёх недель.
+    expect(dueAfter('2026-10-15', nextBox(5, false, 0))).toBe('2026-10-25')
+  })
+
+  it('после второй ошибки подряд фраза возвращается завтра', () => {
+    expect(dueAfter('2026-10-15', nextBox(5, false, 1))).toBe('2026-10-16')
   })
 })
 

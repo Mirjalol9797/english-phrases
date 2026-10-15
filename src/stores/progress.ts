@@ -24,6 +24,8 @@ export interface PhraseProgress {
   /** Сколько занятий прошла и в скольких были ошибки. */
   seen: number
   wrong: number
+  /** Сколько занятий подряд провалена. Вторая ошибка подряд роняет в первую коробку. */
+  misses: number
   updated: DayKey
 }
 
@@ -74,6 +76,8 @@ export function parseProgress(raw: unknown): ProgressData | null {
           due: value.due,
           seen: Math.max(0, Math.round(value.seen)),
           wrong: Math.max(0, Math.round(value.wrong)),
+          // В старых копиях поля нет: начинаем счёт заново, а не выдумываем задним числом.
+          misses: typeof value.misses === 'number' ? Math.max(0, Math.round(value.misses)) : 0,
           updated: isDayKey(value.updated) ? value.updated : value.due,
         }
       }
@@ -141,7 +145,8 @@ export const useProgressStore = defineStore('progress', () => {
 
     for (const outcome of outcomes) {
       const previous = phrases[outcome.phraseId]
-      const box = nextBox(previous?.box ?? 0, outcome.correct)
+      const misses = outcome.correct ? 0 : (previous?.misses ?? 0) + 1
+      const box = nextBox(previous?.box ?? 0, outcome.correct, previous?.misses ?? 0)
       phrases[outcome.phraseId] = {
         chapter: outcome.chapterId,
         // Фраза новая, только если записи о ней ещё не было.
@@ -151,6 +156,7 @@ export const useProgressStore = defineStore('progress', () => {
         due: dueAfter(day, box),
         seen: (previous?.seen ?? 0) + 1,
         wrong: (previous?.wrong ?? 0) + (outcome.correct ? 0 : 1),
+        misses,
         updated: day,
       }
       answers += outcome.answers
