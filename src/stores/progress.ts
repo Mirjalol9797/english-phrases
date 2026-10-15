@@ -168,13 +168,46 @@ export const useProgressStore = defineStore('progress', () => {
     return kept
   }
 
-  /** ID фраз, которым подошёл срок. Порядок — от самых просроченных. */
+  /**
+   * Насколько фраза даётся тяжело. Считаем по числу ошибок, а доля ошибок
+   * идёт вторым признаком: у фразы, которую видели один раз и ошиблись,
+   * доля стопроцентная, но доказательств этому мало.
+   */
+  function hardnessOf(entry: PhraseProgress): number {
+    return entry.wrong + (entry.seen > 0 ? entry.wrong / entry.seen : 0)
+  }
+
+  /**
+   * ID фраз, которым подошёл срок. Сначала самые просроченные, среди
+   * однодневок — те, на которых чаще ошибались.
+   */
   function dueIds(on: DayKey = today()): string[] {
     return Object.entries(data.value.phrases)
       .filter(([, progress]) => progress.due <= on)
-      .sort((a, b) => (a[1].due < b[1].due ? -1 : a[1].due > b[1].due ? 1 : a[1].box - b[1].box))
+      .sort((a, b) => {
+        if (a[1].due !== b[1].due) return a[1].due < b[1].due ? -1 : 1
+        const hardness = hardnessOf(b[1]) - hardnessOf(a[1])
+        return hardness !== 0 ? hardness : a[1].box - b[1].box
+      })
       .map(([id]) => id)
   }
+
+  /**
+   * ID фраз, на которых ошибались чаще всего. Срок не смотрим:
+   * такие стоит освежить, даже если система ещё не просит.
+   */
+  function hardestIds(limit = 20): string[] {
+    return Object.entries(data.value.phrases)
+      .filter(([, progress]) => progress.wrong > 0)
+      .sort((a, b) => hardnessOf(b[1]) - hardnessOf(a[1]) || a[1].box - b[1].box)
+      .slice(0, limit)
+      .map(([id]) => id)
+  }
+
+  /** Сколько фраз вообще даётся тяжело. */
+  const hardCount = computed(
+    () => Object.values(data.value.phrases).filter((entry) => entry.wrong > 0).length,
+  )
 
   /** Ближайший день, когда появится что повторять. */
   const nextDueDay = computed<DayKey | null>(() => {
@@ -303,6 +336,8 @@ export const useProgressStore = defineStore('progress', () => {
     boxOf,
     commitSession,
     dueIds,
+    hardestIds,
+    hardCount,
     nextDueDay,
     startedCount,
     newToday,

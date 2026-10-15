@@ -153,6 +153,70 @@ describe('dueIds', () => {
   })
 })
 
+describe('трудные фразы', () => {
+  /** Коротко собрать прогресс с нужными числами ошибок. */
+  function withCounts(rows: Record<string, { seen: number; wrong: number; box?: number; due?: string }>) {
+    const progress = useProgressStore()
+    progress.data = {
+      version: 1,
+      phrases: Object.fromEntries(
+        Object.entries(rows).map(([id, r]) => [
+          id,
+          {
+            chapter: 'c',
+            firstSeen: '2026-10-01',
+            box: r.box ?? 2,
+            due: r.due ?? '2026-10-20',
+            seen: r.seen,
+            wrong: r.wrong,
+            updated: '2026-10-15',
+          },
+        ]),
+      ),
+      days: {},
+    }
+    return progress
+  }
+
+  it('считает только те, где были ошибки', () => {
+    const progress = withCounts({ a: { seen: 3, wrong: 2 }, b: { seen: 3, wrong: 0 }, c: { seen: 1, wrong: 1 } })
+    expect(progress.hardCount).toBe(2)
+    expect(progress.hardestIds()).toEqual(['a', 'c'])
+  })
+
+  it('вперёд ставит ту, где ошибок больше', () => {
+    const progress = withCounts({ редкая: { seen: 10, wrong: 1 }, частая: { seen: 10, wrong: 5 } })
+    expect(progress.hardestIds()).toEqual(['частая', 'редкая'])
+  })
+
+  it('при равном числе ошибок вперёд идёт та, где доля выше', () => {
+    // Две ошибки из трёх занятий тяжелее, чем две из десяти.
+    const progress = withCounts({ изДесяти: { seen: 10, wrong: 2 }, изТрёх: { seen: 3, wrong: 2 } })
+    expect(progress.hardestIds()).toEqual(['изТрёх', 'изДесяти'])
+  })
+
+  it('отдаёт не больше запрошенного', () => {
+    const progress = withCounts({ a: { seen: 2, wrong: 1 }, b: { seen: 2, wrong: 1 }, c: { seen: 2, wrong: 1 } })
+    expect(progress.hardestIds(2)).toHaveLength(2)
+  })
+
+  it('без ошибок список пуст', () => {
+    const progress = withCounts({ a: { seen: 5, wrong: 0 } })
+    expect(progress.hardestIds()).toEqual([])
+    expect(progress.hardCount).toBe(0)
+  })
+
+  it('среди однодневок к повторению вперёд идут трудные', () => {
+    const progress = withCounts({
+      лёгкая: { seen: 5, wrong: 0, due: '2026-10-10' },
+      трудная: { seen: 5, wrong: 3, due: '2026-10-10' },
+      просроченная: { seen: 5, wrong: 0, due: '2026-10-05' },
+    })
+    // Самая просроченная всё равно первая: срок важнее.
+    expect(progress.dueIds('2026-10-15')).toEqual(['просроченная', 'трудная', 'лёгкая'])
+  })
+})
+
 describe('серия дней', () => {
   it('считает дни подряд, упираясь в пропуск', () => {
     const progress = useProgressStore()

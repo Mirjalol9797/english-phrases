@@ -82,7 +82,7 @@ const chapters = computed(() =>
 
     <template v-else>
       <!-- Сводка -->
-      <dl class="mt-4 sm:mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <dl class="mt-4 sm:mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
         <div class="rounded-xl border border-line px-4 py-3">
           <dt class="text-sm text-muted">Серия</dt>
           <dd class="mt-1 text-xl sm:text-2xl font-semibold tabular-nums">{{ progress.streak }}</dd>
@@ -97,6 +97,16 @@ const chapters = computed(() =>
           <dt class="text-sm text-muted">Дней занятий</dt>
           <dd class="mt-1 text-xl sm:text-2xl font-semibold tabular-nums">{{ progress.activeDays }}</dd>
           <dd class="text-xs text-muted">{{ plural(progress.totalAnswers, ANSWER_FORMS) }}</dd>
+        </div>
+        <div class="rounded-xl border border-line px-4 py-3">
+          <dt class="text-sm text-muted">Трудных</dt>
+          <dd class="mt-1 text-xl sm:text-2xl font-semibold tabular-nums">{{ progress.hardCount }}</dd>
+          <dd class="text-xs text-muted">
+            <RouterLink v-if="progress.hardCount" to="/review" class="underline underline-offset-2">
+              повторить
+            </RouterLink>
+            <template v-else>ошибок не было</template>
+          </dd>
         </div>
         <div class="rounded-xl border border-line px-4 py-3">
           <dt class="text-sm text-muted">Сегодня</dt>

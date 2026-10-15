@@ -48,14 +48,21 @@ const due = computed(() =>
     .filter((phrase): phrase is Phrase => Boolean(phrase)),
 )
 
+/** Фразы, на которых чаще всего ошибались. Срок здесь не важен. */
+const hard = computed(() =>
+  progress
+    .hardestIds(BATCH_SIZE)
+    .map((id) => byId.value.get(id)?.phrase)
+    .filter((phrase): phrase is Phrase => Boolean(phrase)),
+)
+
 const steps = shallowRef<PracticeStep[]>([])
 const results = ref<StepResult[] | null>(null)
 const running = ref(false)
 
 const correctCount = computed(() => results.value?.filter((r) => r.correct).length ?? 0)
 
-function startReview() {
-  const batch = due.value.slice(0, BATCH_SIZE)
+function start(batch: Phrase[]) {
   if (batch.length === 0) return
   results.value = null
   steps.value = buildReview(batch, (phrase) => progress.boxOf(phrase.id), {
@@ -64,6 +71,9 @@ function startReview() {
   })
   running.value = true
 }
+
+const startReview = () => start(due.value.slice(0, BATCH_SIZE))
+const startHard = () => start(hard.value)
 
 /** Запись идёт по ходу занятия, по одной фразе — см. PracticeSession. */
 function onPhraseDone(phraseResults: StepResult[]) {
@@ -111,6 +121,9 @@ function onFinish(sessionResults: StepResult[]) {
           Следующее повторение — {{ formatDay(progress.nextDueDay) }}.
         </p>
         <div class="mt-5 sm:mt-6 flex flex-wrap gap-3">
+          <button v-if="hard.length" type="button" class="btn-primary" @click="startHard">
+            Повторить трудные
+          </button>
           <RouterLink to="/chapters" class="btn-quiet">Учить новое</RouterLink>
         </div>
       </template>
@@ -121,7 +134,10 @@ function onFinish(sessionResults: StepResult[]) {
           <template v-if="due.length > BATCH_SIZE">За один заход — {{ BATCH_SIZE }}.</template>
         </p>
 
-        <button type="button" class="btn-primary mt-5 sm:mt-6" @click="startReview">Начать повторение</button>
+        <div class="mt-5 sm:mt-6 flex flex-wrap gap-3">
+          <button type="button" class="btn-primary" @click="startReview">Начать повторение</button>
+          <button v-if="hard.length" type="button" class="btn-quiet" @click="startHard">Сначала трудные</button>
+        </div>
 
         <ol class="mt-6 sm:mt-8 divide-y divide-line border-y border-line">
           <li v-for="phrase in due.slice(0, BATCH_SIZE)" :key="phrase.id" class="flex items-baseline gap-3 py-3">
@@ -135,6 +151,26 @@ function onFinish(sessionResults: StepResult[]) {
           </li>
         </ol>
         <p class="mt-3 text-sm text-muted">Слева — коробка: чем выше, тем реже фраза будет возвращаться.</p>
+      </template>
+
+      <!-- Где чаще всего спотыкаемся. Эти данные копились всё время, но нигде не показывались. -->
+      <template v-if="progress.startedCount > 0 && hard.length">
+        <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Трудные фразы</h2>
+        <p class="mt-1 text-sm text-muted">
+          Здесь ошибались чаще всего — {{ plural(progress.hardCount, PHRASE_FORMS) }} за всё время.
+        </p>
+        <ol class="mt-3 divide-y divide-line border-y border-line">
+          <li v-for="phrase in hard" :key="phrase.id" class="flex items-baseline gap-3 py-3">
+            <span class="w-14 shrink-0 text-xs text-bad tabular-nums">
+              {{ progress.get(phrase.id)?.wrong }} из {{ progress.get(phrase.id)?.seen }}
+            </span>
+            <span class="min-w-0 flex-1">
+              <span lang="en" class="block font-serif text-base leading-snug sm:text-lg">{{ phrase.en }}</span>
+              <span class="block text-sm text-muted">{{ phrase.ru }}</span>
+            </span>
+          </li>
+        </ol>
+        <p class="mt-3 text-sm text-muted">Слева — на скольких занятиях из пройденных была ошибка.</p>
       </template>
     </section>
   </template>
