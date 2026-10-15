@@ -15,7 +15,8 @@ const CHECK_EVERY = 60 * 60 * 1000
 const { needRefresh, offlineReady, updateServiceWorker } = useRegisterSW({
   onRegisteredSW(_url, registration) {
     if (!registration) return
-    setInterval(() => void registration.update(), CHECK_EVERY)
+    // Без сети проверка падает — это нормально, приложение и так работает офлайн.
+    setInterval(() => void registration.update().catch(() => {}), CHECK_EVERY)
   },
 })
 
