@@ -81,6 +81,7 @@ Word-файл кладётся в `content/source`, глава описывае�
 | `english-phrases:theme` | светлая, тёмная или как в системе |
 | `english-phrases:speech` | включена ли автоозвучка карточек |
 | `english-phrases:session-size` | сколько записей брать за одно занятие |
+| `english-phrases:daily-new` | предел новых фраз в день |
 | `english-phrases:voice` | выбранный голос озвучки |
 | `english-phrases:rate` | скорость речи |
 

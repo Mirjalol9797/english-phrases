@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
+import { useSettingsStore } from '@/stores/settings'
 import { useAsyncData } from '@/composables/useAsyncData'
 import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
@@ -9,6 +10,7 @@ import { plural, itemForms, PHRASE_FORMS } from '@/utils/plural'
 
 const content = useContentStore()
 const progress = useProgressStore()
+const settings = useSettingsStore()
 useDocumentTitle(() => null)
 
 const { data, loading, error, reload } = useAsyncData(
@@ -43,6 +45,9 @@ const DAY_FORMS: [string, string, string] = ['день', 'дня', 'дней']
         Серия <span class="font-medium">{{ plural(progress.streak, DAY_FORMS) }}</span>
       </span>
       <span class="text-muted">Выучено {{ progress.learnedCount }} из {{ progress.startedCount }}</span>
+      <span v-if="settings.dailyNewLimit > 0" class="text-muted">
+        Новых сегодня {{ progress.newToday }} из {{ settings.dailyNewLimit }}
+      </span>
       <RouterLink v-if="dueCount" to="/review" class="text-accent underline underline-offset-4">
         Повторить {{ plural(dueCount, PHRASE_FORMS) }}
       </RouterLink>

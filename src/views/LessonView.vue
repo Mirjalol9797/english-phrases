@@ -23,6 +23,14 @@ const { data: ctx, loading, error, notFound, reload } = useAsyncData(
 
 const started = (phrase: { id: string }) => progress.boxOf(phrase.id) > 0
 
+/** Сколько новых фраз в части, которую собираемся проходить. */
+const newInPart = computed(() => (parts.value[nextPart.value] ?? []).filter((p) => progress.isNew(p.id)).length)
+
+const newLeft = computed(() => progress.newLeftToday(settings.dailyNewLimit))
+
+/** Предел не трогает повторение пройденного — только новые записи. */
+const blockedByLimit = computed(() => newInPart.value > 0 && newLeft.value <= 0)
+
 /** Урок, разбитый на части по размеру занятия из настроек. */
 const parts = computed(() => splitIntoParts(ctx.value?.lesson.phrases ?? [], settings.sessionSize))
 
@@ -61,13 +69,28 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
     </header>
 
     <div class="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
-      <RouterLink :to="practiceLink(nextPart)" class="btn-primary">
+      <RouterLink v-if="!blockedByLimit" :to="practiceLink(nextPart)" class="btn-primary">
         {{ split ? `Часть ${nextPart + 1} из ${parts.length}` : 'Начать урок' }}
       </RouterLink>
+      <button v-else type="button" class="btn-primary" disabled>
+        {{ split ? `Часть ${nextPart + 1} из ${parts.length}` : 'Начать урок' }}
+      </button>
       <p class="text-sm text-muted">
         {{ plural(parts[nextPart]?.length ?? 0, PHRASE_FORMS) }}: карточки и четыре этапа.
       </p>
     </div>
+
+    <!-- Дневной предел новых фраз. Пройденное повторять можно всегда. -->
+    <p v-if="blockedByLimit" class="mt-3 max-w-prose text-sm text-muted">
+      На сегодня новых фраз хватит — взяли {{ progress.newToday }} из {{ settings.dailyNewLimit }}.
+      Так материал успевает улечься.
+      <RouterLink to="/review" class="text-accent underline underline-offset-4">Повторить пройденное</RouterLink>
+      или изменить предел в
+      <RouterLink to="/settings" class="text-accent underline underline-offset-4">настройках</RouterLink>.
+    </p>
+    <p v-else-if="newInPart > 0 && settings.dailyNewLimit > 0" class="mt-3 text-sm text-muted">
+      Новых сегодня: {{ progress.newToday }} из {{ settings.dailyNewLimit }}.
+    </p>
 
     <!-- Выбор части. Нужен, только если урок длиннее размера занятия. -->
     <ul v-if="split" class="mt-4 flex flex-wrap gap-2">

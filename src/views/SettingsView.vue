@@ -6,6 +6,7 @@ import {
   RATE_MIN,
   RATE_MAX,
   RATE_STEP,
+  DAILY_NEW_OPTIONS,
   type ThemeChoice,
 } from '@/stores/settings'
 import { useProgressStore } from '@/stores/progress'
@@ -153,6 +154,27 @@ function reset() {
         {{ option.label }}
       </label>
     </div>
+
+    <p class="mt-5 text-sm text-muted">Сколько новых фраз брать в день</p>
+    <div role="radiogroup" aria-label="Новых фраз в день" class="mt-2 flex flex-wrap gap-2">
+      <label
+        v-for="option in DAILY_NEW_OPTIONS"
+        :key="option.value"
+        class="theme-option cursor-pointer rounded-full border px-4 py-2.5 text-sm font-medium"
+        :class="
+          settings.dailyNewLimit === option.value
+            ? 'border-transparent bg-marker text-on-marker'
+            : 'border-line text-muted hover:text-ink'
+        "
+      >
+        <input v-model="settings.dailyNewLimit" type="radio" name="daily-new" :value="option.value" class="sr-only" />
+        {{ option.label }}
+      </label>
+    </div>
+    <p class="mt-2 text-sm text-muted">
+      Сегодня взято {{ progress.newToday }}. Предел касается только новых записей — повторять
+      пройденное можно сколько угодно.
+    </p>
 
     <h2 class="mt-8 text-lg font-semibold">Прогресс</h2>
     <p class="mt-3 text-muted">

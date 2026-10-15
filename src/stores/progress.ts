@@ -16,6 +16,11 @@ export interface PhraseProgress {
   box: number
   /** День, с которого фразу пора повторить. */
   due: DayKey
+  /**
+   * День, когда фраза впервые попала в обучение. Нужен дневному пределу
+   * новых фраз. У записей из старых копий его нет — там пустая строка.
+   */
+  firstSeen: DayKey
   /** Сколько занятий прошла и в скольких были ошибки. */
   seen: number
   wrong: number
@@ -64,6 +69,7 @@ export function parseProgress(raw: unknown): ProgressData | null {
       if (isProgress(value)) {
         data.phrases[id] = {
           chapter: typeof value.chapter === 'string' ? value.chapter : '',
+          firstSeen: isDayKey(value.firstSeen) ? value.firstSeen : '',
           box: value.box,
           due: value.due,
           seen: Math.max(0, Math.round(value.seen)),
@@ -138,6 +144,9 @@ export const useProgressStore = defineStore('progress', () => {
       const box = nextBox(previous?.box ?? 0, outcome.correct)
       phrases[outcome.phraseId] = {
         chapter: outcome.chapterId,
+        // Фраза новая, только если записи о ней ещё не было.
+        // У старой записи без дня так и оставляем пусто: задним числом не выдумываем.
+        firstSeen: previous ? previous.firstSeen : day,
         box,
         due: dueAfter(day, box),
         seen: (previous?.seen ?? 0) + 1,
@@ -174,6 +183,23 @@ export const useProgressStore = defineStore('progress', () => {
   })
 
   const startedCount = computed(() => Object.keys(data.value.phrases).length)
+
+  /** Сколько новых фраз взяли сегодня — по этому числу работает дневной предел. */
+  const newToday = computed(() => {
+    const day = today()
+    return Object.values(data.value.phrases).filter((entry) => entry.firstSeen === day).length
+  })
+
+  /** Сколько новых фраз ещё можно взять. Предел 0 — без ограничения. */
+  function newLeftToday(limit: number): number {
+    if (limit <= 0) return Number.POSITIVE_INFINITY
+    return Math.max(0, limit - newToday.value)
+  }
+
+  /** Новая ли фраза: записи о ней ещё нет. */
+  function isNew(phraseId: string): boolean {
+    return !data.value.phrases[phraseId]
+  }
 
   /** Сколько фраз начато и выучено в каждой главе. */
   const countsByChapter = computed(() => {
@@ -279,6 +305,9 @@ export const useProgressStore = defineStore('progress', () => {
     dueIds,
     nextDueDay,
     startedCount,
+    newToday,
+    newLeftToday,
+    isNew,
     learnedCount,
     countsByChapter,
     streak,

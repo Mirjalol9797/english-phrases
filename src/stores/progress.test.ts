@@ -143,9 +143,9 @@ describe('dueIds', () => {
     progress.data = {
       version: 1,
       phrases: {
-        EE001: { chapter: 'c', box: 2, due: '2026-10-14', seen: 1, wrong: 0, updated: '2026-10-13' },
-        EE002: { chapter: 'c', box: 2, due: '2026-10-10', seen: 1, wrong: 0, updated: '2026-10-09' },
-        EE003: { chapter: 'c', box: 2, due: '2026-10-12', seen: 1, wrong: 0, updated: '2026-10-11' },
+        EE001: { chapter: 'c', firstSeen: '2026-10-15', box: 2, due: '2026-10-14', seen: 1, wrong: 0, updated: '2026-10-13' },
+        EE002: { chapter: 'c', firstSeen: '2026-10-15', box: 2, due: '2026-10-10', seen: 1, wrong: 0, updated: '2026-10-09' },
+        EE003: { chapter: 'c', firstSeen: '2026-10-15', box: 2, due: '2026-10-12', seen: 1, wrong: 0, updated: '2026-10-11' },
       },
       days: {},
     }
@@ -198,15 +198,67 @@ describe('серия дней', () => {
   })
 })
 
+describe('дневной предел новых фраз', () => {
+  it('новой считается фраза, которой ещё не было', () => {
+    const progress = useProgressStore()
+    expect(progress.isNew('EE001')).toBe(true)
+    progress.commitSession([outcome('EE001', true)])
+    expect(progress.isNew('EE001')).toBe(false)
+  })
+
+  it('считает только взятые сегодня', () => {
+    const progress = useProgressStore()
+    progress.commitSession([outcome('EE001', true), outcome('EE002', true)])
+    expect(progress.newToday).toBe(2)
+
+    // Повторное занятие по тем же фразам новых не добавляет.
+    progress.commitSession([outcome('EE001', true)])
+    expect(progress.newToday).toBe(2)
+  })
+
+  it('не считает новыми фразы из прошлых дней', () => {
+    const progress = useProgressStore()
+    progress.data = {
+      version: 1,
+      phrases: {
+        старая: { chapter: 'c', firstSeen: '2026-10-01', box: 2, due: '2026-10-17', seen: 1, wrong: 0, updated: '2026-10-01' },
+      },
+      days: {},
+    }
+    vi.setSystemTime(new Date(2026, 9, 15))
+    expect(progress.newToday).toBe(0)
+    vi.useRealTimers()
+  })
+
+  it('записи из старых копий без дня новыми не становятся', () => {
+    // Иначе при первом же обновлении весь прежний прогресс засчитался бы за сегодня.
+    const data = parseProgress({
+      version: 1,
+      phrases: { EE001: { chapter: 'c', box: 2, due: '2026-10-17', seen: 1, wrong: 0, updated: '2026-10-15' } },
+      days: {},
+    })
+    expect(data!.phrases.EE001!.firstSeen).toBe('')
+  })
+
+  it('остаток считается от предела, ноль — без ограничения', () => {
+    const progress = useProgressStore()
+    progress.commitSession([outcome('EE001', true), outcome('EE002', true)])
+    expect(progress.newLeftToday(10)).toBe(8)
+    expect(progress.newLeftToday(2)).toBe(0)
+    expect(progress.newLeftToday(1)).toBe(0)
+    expect(progress.newLeftToday(0)).toBe(Number.POSITIVE_INFINITY)
+  })
+})
+
 describe('счётчики', () => {
   it('раскладывает фразы по коробкам', () => {
     const progress = useProgressStore()
     progress.data = {
       version: 1,
       phrases: {
-        a: { chapter: 'c', box: 1, due: '2026-10-16', seen: 1, wrong: 0, updated: '2026-10-15' },
-        b: { chapter: 'c', box: 1, due: '2026-10-16', seen: 1, wrong: 0, updated: '2026-10-15' },
-        c: { chapter: 'c', box: LAST_BOX, due: '2026-11-05', seen: 5, wrong: 0, updated: '2026-10-15' },
+        a: { chapter: 'c', firstSeen: '2026-10-15', box: 1, due: '2026-10-16', seen: 1, wrong: 0, updated: '2026-10-15' },
+        b: { chapter: 'c', firstSeen: '2026-10-15', box: 1, due: '2026-10-16', seen: 1, wrong: 0, updated: '2026-10-15' },
+        c: { chapter: 'c', firstSeen: '2026-10-15', box: LAST_BOX, due: '2026-11-05', seen: 5, wrong: 0, updated: '2026-10-15' },
       },
       days: {},
     }
@@ -220,9 +272,9 @@ describe('счётчики', () => {
     progress.data = {
       version: 1,
       phrases: {
-        a: { chapter: 'everyday-english', box: LAST_BOX, due: '2026-11-05', seen: 5, wrong: 0, updated: '2026-10-15' },
-        b: { chapter: 'everyday-english', box: 2, due: '2026-10-17', seen: 1, wrong: 0, updated: '2026-10-15' },
-        c: { chapter: '', box: 2, due: '2026-10-17', seen: 1, wrong: 0, updated: '2026-10-15' },
+        a: { chapter: 'everyday-english', firstSeen: '2026-10-15', box: LAST_BOX, due: '2026-11-05', seen: 5, wrong: 0, updated: '2026-10-15' },
+        b: { chapter: 'everyday-english', firstSeen: '2026-10-15', box: 2, due: '2026-10-17', seen: 1, wrong: 0, updated: '2026-10-15' },
+        c: { chapter: '', firstSeen: '2026-10-15', box: 2, due: '2026-10-17', seen: 1, wrong: 0, updated: '2026-10-15' },
       },
       days: {},
     }

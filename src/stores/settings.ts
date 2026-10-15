@@ -16,12 +16,27 @@ const SPEECH_KEY = 'english-phrases:speech'
 const VOICE_KEY = 'english-phrases:voice'
 const RATE_KEY = 'english-phrases:rate'
 const SESSION_SIZE_KEY = 'english-phrases:session-size'
+const DAILY_NEW_KEY = 'english-phrases:daily-new'
 
 /** Скорость речи. Медленнее единицы учебные фразы заметно проще разобрать на слух. */
 export const RATE_MIN = 0.6
 export const RATE_MAX = 1.2
 export const RATE_STEP = 0.1
 export const DEFAULT_RATE = 0.9
+
+/** Сколько новых фраз брать в день. 0 — без ограничения. */
+export const DAILY_NEW_OPTIONS: { value: number; label: string }[] = [
+  { value: 10, label: '10' },
+  { value: 20, label: '20' },
+  { value: 30, label: '30' },
+  { value: 0, label: 'Без ограничения' },
+]
+
+export const DEFAULT_DAILY_NEW = 20
+
+function isDailyNew(value: unknown): value is number {
+  return typeof value === 'number' && DAILY_NEW_OPTIONS.some((option) => option.value === value)
+}
 
 function isThemeChoice(value: unknown): value is ThemeChoice {
   return value === 'system' || value === 'light' || value === 'dark'
@@ -73,6 +88,18 @@ function readStoredSessionSize(): number {
     return isSessionSize(saved) ? saved : DEFAULT_SESSION_SIZE
   } catch {
     return DEFAULT_SESSION_SIZE
+  }
+}
+
+function readStoredDailyNew(): number {
+  try {
+    const raw = localStorage.getItem(DAILY_NEW_KEY)
+    // Как и с размером занятия: ноль здесь осмысленный, Number(null) его подделывает.
+    if (raw === null) return DEFAULT_DAILY_NEW
+    const saved = Number(raw)
+    return isDailyNew(saved) ? saved : DEFAULT_DAILY_NEW
+  } catch {
+    return DEFAULT_DAILY_NEW
   }
 }
 
@@ -161,6 +188,16 @@ export const useSettingsStore = defineStore('settings', () => {
     }
   })
 
+  const dailyNewLimit = ref(readStoredDailyNew())
+
+  watch(dailyNewLimit, (limit) => {
+    try {
+      localStorage.setItem(DAILY_NEW_KEY, String(limit))
+    } catch {
+      // Не запомнили выбор — приложение всё равно работает.
+    }
+  })
+
   function setTheme(value: ThemeChoice) {
     theme.value = value
   }
@@ -170,5 +207,5 @@ export const useSettingsStore = defineStore('settings', () => {
     theme.value = resolvedTheme.value === 'dark' ? 'light' : 'dark'
   }
 
-  return { theme, resolvedTheme, speechEnabled, voiceName, speechRate, sessionSize, setTheme, toggleTheme }
+  return { theme, resolvedTheme, speechEnabled, voiceName, speechRate, sessionSize, dailyNewLimit, setTheme, toggleTheme }
 })

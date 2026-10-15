@@ -69,6 +69,21 @@ describe('размер занятия', () => {
   })
 })
 
+describe('дневной предел новых фраз', () => {
+  it('без сохранённого значения берёт значение по умолчанию', async () => {
+    expect((await loadStore()).dailyNewLimit).toBe(20)
+  })
+
+  it('читает сохранённый предел, включая «без ограничения»', async () => {
+    expect((await loadStore({ 'english-phrases:daily-new': '10' })).dailyNewLimit).toBe(10)
+    expect((await loadStore({ 'english-phrases:daily-new': '0' })).dailyNewLimit).toBe(0)
+  })
+
+  it('не берёт значение не из списка', async () => {
+    expect((await loadStore({ 'english-phrases:daily-new': '13' })).dailyNewLimit).toBe(20)
+  })
+})
+
 describe('тема', () => {
   it('по умолчанию следует за системой', async () => {
     expect((await loadStore()).theme).toBe('system')
