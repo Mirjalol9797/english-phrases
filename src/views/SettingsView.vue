@@ -7,6 +7,7 @@ import {
   RATE_MAX,
   RATE_STEP,
   DAILY_NEW_OPTIONS,
+  STAGE_OPTIONS,
   type ThemeChoice,
 } from '@/stores/settings'
 import { useProgressStore } from '@/stores/progress'
@@ -31,6 +32,12 @@ const hint = computed(() =>
 )
 
 const speech = useSpeech()
+
+/** На слух не ответить без английского голоса или с выключенным звуком. */
+const listeningPossible = computed(() => speech.supported.value && settings.speechEnabled)
+
+/** Последний включённый этап выключить нельзя — об этом стоит сказать прямо. */
+const onlyStageLeft = computed(() => settings.enabledStages.length === 1)
 
 /** Пример для кнопки проверки: короткая фраза с характерным ритмом. */
 const SAMPLE = 'How are you doing today?'
@@ -154,6 +161,32 @@ function reset() {
         {{ option.label }}
       </label>
     </div>
+
+    <p class="mt-4 sm:mt-5 text-sm text-muted">Какие этапы проходить</p>
+    <ul class="mt-2 grid gap-2">
+      <li v-for="option in STAGE_OPTIONS" :key="option.value">
+        <label
+          class="theme-option flex cursor-pointer items-center gap-3 rounded-xl border px-4 py-2.5 text-sm"
+          :class="settings.isStageEnabled(option.value) ? 'border-muted' : 'border-line text-muted'"
+        >
+          <input
+            type="checkbox"
+            class="h-4 w-4 accent-marker"
+            :checked="settings.isStageEnabled(option.value)"
+            :disabled="onlyStageLeft && settings.isStageEnabled(option.value)"
+            @change="settings.toggleStage(option.value)"
+          />
+          <span class="flex-1">{{ option.label }}</span>
+          <span v-if="option.value === 'listen' && !listeningPossible" class="text-xs text-muted">
+            нужен английский голос
+          </span>
+        </label>
+      </li>
+    </ul>
+    <p class="mt-2 text-sm text-muted">
+      <template v-if="onlyStageLeft">Последний этап выключить нельзя — в уроке будет нечего делать.</template>
+      <template v-else>Выключенные этапы не появятся ни в уроке, ни в повторении.</template>
+    </p>
 
     <p class="mt-4 sm:mt-5 text-sm text-muted">Сколько новых фраз брать в день</p>
     <div role="radiogroup" aria-label="Новых фраз в день" class="mt-2 flex flex-wrap gap-2">

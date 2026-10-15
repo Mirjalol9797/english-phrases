@@ -1,6 +1,8 @@
 import { defineStore } from 'pinia'
 import { computed, ref, watch } from 'vue'
 import { DEFAULT_SESSION_SIZE, isSessionSize } from '@/utils/parts'
+import { EXERCISE_ORDER, EXERCISE_TITLES } from '@/utils/practice'
+import type { ExerciseKind } from '@/types/practice'
 
 export type ThemeChoice = 'system' | 'light' | 'dark'
 
@@ -17,6 +19,7 @@ const VOICE_KEY = 'english-phrases:voice'
 const RATE_KEY = 'english-phrases:rate'
 const SESSION_SIZE_KEY = 'english-phrases:session-size'
 const DAILY_NEW_KEY = 'english-phrases:daily-new'
+const STAGES_KEY = 'english-phrases:stages'
 
 /** Скорость речи. Медленнее единицы учебные фразы заметно проще разобрать на слух. */
 export const RATE_MIN = 0.6
@@ -100,6 +103,26 @@ function readStoredDailyNew(): number {
     return isDailyNew(saved) ? saved : DEFAULT_DAILY_NEW
   } catch {
     return DEFAULT_DAILY_NEW
+  }
+}
+
+/** Этапы занятия с подписями — в том порядке, в каком идут в уроке. */
+export const STAGE_OPTIONS: { value: ExerciseKind; label: string }[] = EXERCISE_ORDER.map((kind) => ({
+  value: kind,
+  label: EXERCISE_TITLES[kind],
+}))
+
+function readStoredStages(): ExerciseKind[] {
+  try {
+    const raw = localStorage.getItem(STAGES_KEY)
+    if (raw === null) return [...EXERCISE_ORDER]
+    const saved = raw.split(',').filter((kind): kind is ExerciseKind =>
+      EXERCISE_ORDER.includes(kind as ExerciseKind),
+    )
+    // Пустой список означал бы урок, в котором нечего делать.
+    return saved.length > 0 ? saved : [...EXERCISE_ORDER]
+  } catch {
+    return [...EXERCISE_ORDER]
   }
 }
 
@@ -198,6 +221,33 @@ export const useSettingsStore = defineStore('settings', () => {
     }
   })
 
+  /** Какие этапы проходим в занятии. Выключенные не появляются ни в уроке, ни в повторении. */
+  const enabledStages = ref<ExerciseKind[]>(readStoredStages())
+
+  watch(enabledStages, (stages) => {
+    try {
+      localStorage.setItem(STAGES_KEY, stages.join(','))
+    } catch {
+      // Не запомнили выбор — приложение всё равно работает.
+    }
+  })
+
+  function isStageEnabled(kind: ExerciseKind): boolean {
+    return enabledStages.value.includes(kind)
+  }
+
+  /** Последний включённый этап выключить нельзя: иначе в уроке нечего делать. */
+  function toggleStage(kind: ExerciseKind) {
+    if (isStageEnabled(kind)) {
+      if (enabledStages.value.length <= 1) return
+      enabledStages.value = enabledStages.value.filter((item) => item !== kind)
+    } else {
+      enabledStages.value = EXERCISE_ORDER.filter(
+        (item) => item === kind || enabledStages.value.includes(item),
+      )
+    }
+  }
+
   function setTheme(value: ThemeChoice) {
     theme.value = value
   }
@@ -207,5 +257,5 @@ export const useSettingsStore = defineStore('settings', () => {
     theme.value = resolvedTheme.value === 'dark' ? 'light' : 'dark'
   }
 
-  return { theme, resolvedTheme, speechEnabled, voiceName, speechRate, sessionSize, dailyNewLimit, setTheme, toggleTheme }
+  return { theme, resolvedTheme, speechEnabled, voiceName, speechRate, sessionSize, dailyNewLimit, enabledStages, isStageEnabled, toggleStage, setTheme, toggleTheme }
 })

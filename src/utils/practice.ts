@@ -110,10 +110,16 @@ interface BuildOptions {
   /** Остальные фразы главы: добираются, когда в уроке вариантов не хватило. */
   far: Phrase[]
   /**
-   * Можно ли давать задания на слух. Без английского голоса в системе
-   * или с выключенным звуком отвечать на них нечем.
+   * Какие этапы разрешены. Пользователь выключает ненужные в настройках,
+   * а «На слух» отпадает сам, если английского голоса нет или звук выключен.
    */
-  listening?: boolean
+  stages?: ExerciseKind[]
+}
+
+/** Разрешённые этапы в их обычном порядке. Пустой список означает «все». */
+function allowedStages(stages: ExerciseKind[] | undefined): ExerciseKind[] {
+  if (!stages || stages.length === 0) return [...EXERCISE_ORDER]
+  return EXERCISE_ORDER.filter((kind) => stages.includes(kind))
 }
 
 /**
@@ -124,11 +130,10 @@ export function buildPractice(
   phrases: Phrase[],
   options: BuildOptions & { withCards?: boolean },
 ): PracticeStep[] {
-  const { near, far, withCards = true, listening = false } = options
+  const { near, far, withCards = true } = options
   const steps: PracticeStep[] = withCards ? phrases.map((phrase) => ({ kind: 'card', phrase })) : []
 
-  for (const kind of EXERCISE_ORDER) {
-    if (kind === 'listen' && !listening) continue
+  for (const kind of allowedStages(options.stages)) {
     for (const phrase of shuffle(phrases)) {
       const step = buildStep(phrase, kind, near, far)
       if (step) steps.push(step)
@@ -147,17 +152,23 @@ export function buildReview(
   boxOf: (phrase: Phrase) => number,
   options: BuildOptions,
 ): PracticeStep[] {
-  const { near, far, listening = false } = options
+  const { near, far } = options
+  const allowed = allowedStages(options.stages)
   const steps: PracticeStep[] = []
 
   for (const phrase of phrases) {
-    const box = boxOf(phrase)
-    let wanted: ExerciseKind =
-      box >= 5 ? 'typing' : box >= 4 ? 'assemble' : box >= 3 ? 'choice-en' : box >= 2 ? 'listen' : 'choice-ru'
-    // Без звука на слух не ответить.
-    if (wanted === 'listen' && !listening) wanted = 'choice-ru'
-    // Сборка невозможна для однословных фраз — тогда спрашиваем выбором.
-    steps.push(buildStep(phrase, wanted, near, far) ?? buildStep(phrase, 'choice-en', near, far)!)
+    // Коробка выбирает способ проверки: чем дольше фраза держится в памяти,
+    // тем сложнее её вспомнить. Если этапов осталось меньше, шкала короче.
+    const index = Math.min(Math.max(boxOf(phrase), 1), allowed.length) - 1
+
+    // Сборка невозможна для однословных фраз. Тогда берём соседний этап —
+    // сначала на ступень легче, потом сложнее: он ближе по трудности,
+    // чем откат к самому началу шкалы.
+    let step = buildStep(phrase, allowed[index]!, near, far)
+    for (let i = index - 1; !step && i >= 0; i--) step = buildStep(phrase, allowed[i]!, near, far)
+    for (let i = index + 1; !step && i < allowed.length; i++) step = buildStep(phrase, allowed[i]!, near, far)
+
+    steps.push(step ?? buildStep(phrase, 'choice-ru', near, far)!)
   }
   return steps
 }
@@ -170,12 +181,11 @@ export function buildRepeat(
   mistakes: { phrase: Phrase; kind: ExerciseKind }[],
   options: BuildOptions,
 ): PracticeStep[] {
-  const { near, far, listening = false } = options
+  const { near, far } = options
   const seen = new Set<string>()
   const steps: PracticeStep[] = []
 
-  for (const kind of EXERCISE_ORDER) {
-    if (kind === 'listen' && !listening) continue
+  for (const kind of allowedStages(options.stages)) {
     for (const mistake of mistakes) {
       if (mistake.kind !== kind) continue
       const key = `${mistake.phrase.id}:${kind}`

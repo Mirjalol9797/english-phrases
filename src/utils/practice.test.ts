@@ -31,7 +31,8 @@ const otherChapter: Phrase[] = [
 ]
 
 const pools = { near: lesson, far: [...lesson, ...otherChapter] }
-const withSound = { ...pools, listening: true }
+const withSound = { ...pools, stages: [...EXERCISE_ORDER] }
+const withoutSound = { ...pools, stages: EXERCISE_ORDER.filter((k) => k !== 'listen') }
 
 const isChoice = (step: PracticeStep): step is ChoiceStep =>
   step.kind === 'choice-ru' || step.kind === 'choice-en'
@@ -52,7 +53,7 @@ describe('shuffle', () => {
 
 describe('buildPractice', () => {
   it('начинает карточками по всем фразам урока', () => {
-    const steps = buildPractice(lesson, { ...pools, withCards: true })
+    const steps = buildPractice(lesson, { ...withoutSound, withCards: true })
     const cards = steps.filter((s) => s.kind === 'card')
     expect(cards).toHaveLength(lesson.length)
     expect(steps.slice(0, lesson.length).every((s) => s.kind === 'card')).toBe(true)
@@ -60,13 +61,13 @@ describe('buildPractice', () => {
   })
 
   it('для повтора карточки не нужны', () => {
-    const steps = buildPractice(lesson, { ...pools, withCards: false })
+    const steps = buildPractice(lesson, { ...withoutSound, withCards: false })
     expect(steps.some((s) => s.kind === 'card')).toBe(false)
   })
 
   it('держит этапы строго по порядку', () => {
     times(20, () => {
-      const kinds = buildPractice(lesson, { ...pools, withCards: false }).map((s) => s.kind)
+      const kinds = buildPractice(lesson, { ...withoutSound, withCards: false }).map((s) => s.kind)
       const firstSeen = EXERCISE_ORDER.filter((kind) => kinds.includes(kind)).map((kind) =>
         kinds.indexOf(kind),
       )
@@ -78,7 +79,7 @@ describe('buildPractice', () => {
   })
 
   it('проводит каждую фразу через все доступные ей этапы', () => {
-    const steps = buildPractice(lesson, { ...pools, withCards: false })
+    const steps = buildPractice(lesson, { ...withoutSound, withCards: false })
     for (const phrase of lesson) {
       const kinds = steps.filter((s) => s.phrase.id === phrase.id).map((s) => s.kind)
       const expected: ExerciseKind[] =
@@ -91,7 +92,7 @@ describe('buildPractice', () => {
   })
 
   it('не отправляет однословную фразу на сборку: её не из чего собрать', () => {
-    const steps = buildPractice(lesson, { ...pools, withCards: false })
+    const steps = buildPractice(lesson, { ...withoutSound, withCards: false })
     const assembled = steps.filter((s) => s.kind === 'assemble').map((s) => s.phrase.en)
     expect(assembled).not.toContain('Hi!')
     expect(assembled).not.toContain('Hey!')
@@ -102,7 +103,7 @@ describe('buildPractice', () => {
 describe('упражнение с выбором', () => {
   it('показывает ровно один верный вариант', () => {
     times(50, () => {
-      const steps = buildPractice(lesson, { ...pools, withCards: false }).filter(isChoice)
+      const steps = buildPractice(lesson, { ...withoutSound, withCards: false }).filter(isChoice)
       for (const step of steps) {
         const correct = step.options.filter((o) => normalizeAnswer(o) === normalizeAnswer(step.answer))
         expect(correct).toHaveLength(1)
@@ -113,7 +114,7 @@ describe('упражнение с выбором', () => {
   it('не предлагает как неверный вариант фразу с тем же вопросом', () => {
     // Hi! и Hey! оба переводятся «Привет!»: Hey! в вариантах к «Привет!» тоже верен.
     times(50, () => {
-      const steps = buildPractice(lesson, { ...pools, withCards: false })
+      const steps = buildPractice(lesson, { ...withoutSound, withCards: false })
         .filter(isChoice)
         .filter((s) => s.kind === 'choice-en')
       for (const step of steps) {
@@ -128,7 +129,7 @@ describe('упражнение с выбором', () => {
 
   it('не повторяет варианты и включает правильный', () => {
     times(30, () => {
-      for (const step of buildPractice(lesson, { ...pools, withCards: false }).filter(isChoice)) {
+      for (const step of buildPractice(lesson, { ...withoutSound, withCards: false }).filter(isChoice)) {
         expect(new Set(step.options.map(normalizeAnswer)).size).toBe(step.options.length)
         expect(step.options).toContain(step.answer)
         expect(step.options.length).toBeGreaterThan(1)
@@ -140,7 +141,7 @@ describe('упражнение с выбором', () => {
   it('добирает варианты из главы, когда в уроке их не хватает', () => {
     const tiny = [lesson[0]!, lesson[2]!]
     times(20, () => {
-      const steps = buildPractice(tiny, { near: tiny, far: pools.far, withCards: false }).filter(isChoice)
+      const steps = buildPractice(tiny, { near: tiny, far: pools.far, stages: withoutSound.stages, withCards: false }).filter(isChoice)
       expect(steps.every((s) => s.options.length === 4)).toBe(true)
     })
   })
@@ -149,7 +150,7 @@ describe('упражнение с выбором', () => {
 describe('сборка из слов', () => {
   it('даёт ровно слова фразы и не в исходном порядке', () => {
     times(50, () => {
-      const steps = buildPractice(lesson, { ...pools, withCards: false }).filter(
+      const steps = buildPractice(lesson, { ...withoutSound, withCards: false }).filter(
         (s): s is AssembleStep => s.kind === 'assemble',
       )
       expect(steps.length).toBeGreaterThan(0)
@@ -164,7 +165,7 @@ describe('сборка из слов', () => {
 
 describe('набор с клавиатуры', () => {
   it('принимает любую фразу урока с тем же переводом', () => {
-    const steps = buildPractice(lesson, { ...pools, withCards: false }).filter(
+    const steps = buildPractice(lesson, { ...withoutSound, withCards: false }).filter(
       (s): s is TypingStep => s.kind === 'typing',
     )
     const forHi = steps.find((s) => s.phrase.id === 'EE001')!
@@ -208,7 +209,7 @@ describe('buildReview', () => {
     const phrase = lesson[4]! // многословная, годится для сборки
     const kindFor = (box: number) => buildReview([phrase], () => box, pools)[0]!.kind
     expect(kindFor(1)).toBe('choice-ru')
-    expect(kindFor(2)).toBe('choice-ru')
+    expect(kindFor(2)).toBe('listen')
     expect(kindFor(3)).toBe('choice-en')
     expect(kindFor(4)).toBe('assemble')
     expect(kindFor(5)).toBe('typing')
@@ -220,15 +221,17 @@ describe('buildReview', () => {
     expect(steps.map((s) => s.phrase.id).sort()).toEqual(lesson.map((p) => p.id).sort())
   })
 
-  it('подменяет сборку выбором, если фраза из одного слова', () => {
+  it('подменяет сборку соседним этапом, если фраза из одного слова', () => {
+    // Коробка 4 — это сборка. Ближайший этап полегче — выбор фразы,
+    // а не откат к самому лёгкому способу в начале шкалы.
     const steps = buildReview([lesson[0]!], () => 4, pools)
     expect(steps[0]!.kind).toBe('choice-en')
   })
 })
 
 describe('задания на слух', () => {
-  it('без звука их нет вовсе', () => {
-    const kinds = buildPractice(lesson, { ...pools, withCards: false }).map((s) => s.kind)
+  it('выключенного этапа нет вовсе', () => {
+    const kinds = buildPractice(lesson, { ...withoutSound, withCards: false }).map((s) => s.kind)
     expect(kinds).not.toContain('listen')
   })
 
@@ -258,16 +261,63 @@ describe('задания на слух', () => {
 
   it('в повторении достаётся второй коробке', () => {
     const phrase = lesson[4]!
-    const kindFor = (box: number, listening: boolean) =>
-      buildReview([phrase], () => box, { ...pools, listening })[0]!.kind
-    expect(kindFor(2, true)).toBe('listen')
-    // Без звука вместо него обычный выбор перевода.
-    expect(kindFor(2, false)).toBe('choice-ru')
+    const kindFor = (box: number, stages: ExerciseKind[]) =>
+      buildReview([phrase], () => box, { ...pools, stages })[0]!.kind
+    expect(kindFor(2, [...EXERCISE_ORDER])).toBe('listen')
+    // Без этого этапа шкала становится короче, и вторая коробка берёт следующий способ.
+    expect(kindFor(2, withoutSound.stages)).toBe('choice-en')
   })
 
   it('в повторе ошибок без звука не переспрашивается', () => {
     const mistakes = [{ phrase: lesson[0]!, kind: 'listen' as const }]
-    expect(buildRepeat(mistakes, pools)).toHaveLength(0)
-    expect(buildRepeat(mistakes, { ...pools, listening: true })).toHaveLength(1)
+    expect(buildRepeat(mistakes, withoutSound)).toHaveLength(0)
+    expect(buildRepeat(mistakes, withSound)).toHaveLength(1)
+  })
+})
+
+describe('выбор этапов', () => {
+  it('в занятии остаются только выбранные', () => {
+    const stages: ExerciseKind[] = ['choice-ru', 'typing']
+    const kinds = new Set(buildPractice(lesson, { ...pools, stages, withCards: false }).map((s) => s.kind))
+    expect([...kinds].sort()).toEqual(['choice-ru', 'typing'])
+  })
+
+  it('порядок этапов сохраняется, какие бы ни выбрали', () => {
+    const kinds = buildPractice(lesson, {
+      ...pools,
+      stages: ['typing', 'choice-ru'],
+      withCards: false,
+    }).map((s) => s.kind)
+    expect(kinds.indexOf('choice-ru')).toBeLessThan(kinds.indexOf('typing'))
+  })
+
+  it('пустой список понимается как «все этапы»', () => {
+    const kinds = new Set(buildPractice(lesson, { ...pools, stages: [], withCards: false }).map((s) => s.kind))
+    expect(kinds.size).toBeGreaterThan(1)
+  })
+
+  it('в повторении коробка выбирает из оставшихся этапов', () => {
+    const phrase = lesson[4]!
+    const stages: ExerciseKind[] = ['choice-ru', 'typing']
+    const kindFor = (box: number) => buildReview([phrase], () => box, { ...pools, stages })[0]!.kind
+    expect(kindFor(1)).toBe('choice-ru')
+    expect(kindFor(2)).toBe('typing')
+    // Выше последнего этапа шкала не растёт.
+    expect(kindFor(5)).toBe('typing')
+  })
+
+  it('повтор ошибок не переспрашивает выключенный этап', () => {
+    const mistakes = [
+      { phrase: lesson[3]!, kind: 'typing' as const },
+      { phrase: lesson[3]!, kind: 'choice-ru' as const },
+    ]
+    const steps = buildRepeat(mistakes, { ...pools, stages: ['choice-ru'] })
+    expect(steps.map((s) => s.kind)).toEqual(['choice-ru'])
+  })
+
+  it('однословную фразу не отправляет на сборку, даже если это единственный этап', () => {
+    const steps = buildReview([lesson[0]!], () => 1, { ...pools, stages: ['assemble'] })
+    expect(steps).toHaveLength(1)
+    expect(steps[0]!.kind).not.toBe('assemble')
   })
 })

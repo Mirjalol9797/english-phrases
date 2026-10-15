@@ -84,6 +84,38 @@ describe('дневной предел новых фраз', () => {
   })
 })
 
+describe('выбор этапов', () => {
+  it('по умолчанию включены все пять', async () => {
+    const settings = await loadStore()
+    expect(settings.enabledStages).toEqual(['choice-ru', 'listen', 'choice-en', 'assemble', 'typing'])
+  })
+
+  it('читает сохранённый выбор', async () => {
+    const settings = await loadStore({ 'english-phrases:stages': 'choice-ru,typing' })
+    expect(settings.enabledStages).toEqual(['choice-ru', 'typing'])
+    expect(settings.isStageEnabled('typing')).toBe(true)
+    expect(settings.isStageEnabled('assemble')).toBe(false)
+  })
+
+  it('отбрасывает незнакомые названия, пустой список заменяет полным', async () => {
+    expect((await loadStore({ 'english-phrases:stages': 'typing,выдумка' })).enabledStages).toEqual(['typing'])
+    expect((await loadStore({ 'english-phrases:stages': 'ерунда' })).enabledStages).toHaveLength(5)
+    expect((await loadStore({ 'english-phrases:stages': '' })).enabledStages).toHaveLength(5)
+  })
+
+  it('включённый обратно этап встаёт на своё место в порядке', async () => {
+    const settings = await loadStore({ 'english-phrases:stages': 'typing' })
+    settings.toggleStage('choice-ru')
+    expect(settings.enabledStages).toEqual(['choice-ru', 'typing'])
+  })
+
+  it('последний включённый этап выключить нельзя', async () => {
+    const settings = await loadStore({ 'english-phrases:stages': 'typing' })
+    settings.toggleStage('typing')
+    expect(settings.enabledStages).toEqual(['typing'])
+  })
+})
+
 describe('тема', () => {
   it('по умолчанию следует за системой', async () => {
     expect((await loadStore()).theme).toBe('system')

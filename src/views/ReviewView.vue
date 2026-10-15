@@ -24,8 +24,15 @@ const progress = useProgressStore()
 const settings = useSettingsStore()
 const { supported: speechSupported } = useSpeech()
 
-/** Задания на слух нужны, только если есть голос и звук не выключен. */
-const listening = computed(() => speechSupported.value && settings.speechEnabled)
+/**
+ * Этапы повторения: выбранные в настройках, но «На слух» отпадает,
+ * если английского голоса нет или звук выключен — отвечать нечем.
+ */
+const stages = computed(() =>
+  settings.enabledStages.filter(
+    (kind) => kind !== 'listen' || (speechSupported.value && settings.speechEnabled),
+  ),
+)
 
 useDocumentTitle(() => 'Повторение')
 
@@ -75,7 +82,7 @@ function start(batch: Phrase[]) {
   steps.value = buildReview(batch, (phrase) => progress.boxOf(phrase.id), {
     near: batch,
     far: allPhrases.value,
-    listening: listening.value,
+    stages: stages.value,
   })
   running.value = true
 }

@@ -25,8 +25,15 @@ const settings = useSettingsStore()
 const route = useRoute()
 const { supported: speechSupported } = useSpeech()
 
-/** Задания на слух нужны, только если есть голос и звук не выключен. */
-const listening = computed(() => speechSupported.value && settings.speechEnabled)
+/**
+ * Этапы занятия: выбранные в настройках, но «На слух» отпадает,
+ * если английского голоса нет или звук выключен — отвечать нечем.
+ */
+const stages = computed(() =>
+  settings.enabledStages.filter(
+    (kind) => kind !== 'listen' || (speechSupported.value && settings.speechEnabled),
+  ),
+)
 
 const REPEAT_FORMS: [string, string, string] = ['фразу', 'фразы', 'фраз']
 
@@ -77,7 +84,7 @@ function pools() {
   return {
     near: current.lesson.phrases,
     far: current.chapter.lessons.flatMap((lesson) => lesson.phrases),
-    listening: listening.value,
+    stages: stages.value,
   }
 }
 
