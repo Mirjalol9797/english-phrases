@@ -52,10 +52,18 @@ export const useContentStore = defineStore('content', () => {
     return request
   }
 
-  /** Все главы сразу — нужно словарю, который ищет по всему контенту. */
+  /** Все главы сразу — нужно словарю, который ищет по всему содержимому. */
   async function loadAllChapters(): Promise<Chapter[]> {
     const { chapters: summaries } = await loadIndex()
     return Promise.all(summaries.map((summary) => loadChapter(summary.id)))
+  }
+
+  /**
+   * Только названные главы. Повторению незачем тянуть все 12: оно работает
+   * с двумя десятками фраз, и в каких они главах — уже записано в прогрессе.
+   */
+  async function loadChapters(ids: string[]): Promise<Chapter[]> {
+    return Promise.all([...new Set(ids)].map((id) => loadChapter(id)))
   }
 
   /** ID урока вида EE-L01: префикс указывает на главу. */
@@ -78,5 +86,5 @@ export const useContentStore = defineStore('content', () => {
     }
   }
 
-  return { index, chapters, loadIndex, loadChapter, loadAllChapters, loadLesson }
+  return { index, chapters, loadIndex, loadChapter, loadAllChapters, loadChapters, loadLesson }
 })

@@ -36,9 +36,24 @@ const stages = computed(() =>
 
 useDocumentTitle(() => 'Повторение')
 
+/**
+ * Грузим только те главы, фразы которых сегодня понадобятся: к повторению
+ * и трудные. Их обычно одна-две, а не двенадцать. В какой главе фраза —
+ * записано в самом прогрессе, содержимое для этого открывать не нужно.
+ */
 const { data: chapters, loading, error, reload } = useAsyncData(
   () => 'review',
-  () => content.loadAllChapters(),
+  () => {
+    const needed = new Set<string>()
+    let unknown = false
+    for (const id of [...progress.dueIds(), ...progress.hardestIds(BATCH_SIZE)]) {
+      const chapter = progress.get(id)?.chapter
+      if (chapter) needed.add(chapter)
+      // Записи из старых копий своей главы не знают — тогда придётся открыть всё.
+      else unknown = true
+    }
+    return unknown ? content.loadAllChapters() : content.loadChapters([...needed])
+  },
 )
 
 /** Все фразы по ID — нужно, чтобы по прогрессу найти саму фразу и её главу. */
