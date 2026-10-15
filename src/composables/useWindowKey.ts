@@ -17,9 +17,13 @@ export function useWindowKey(handler: (event: KeyboardEvent) => void) {
 
 /** Печатают ответ — значит, клавиша предназначена полю, а не нам. */
 export function isTypingTarget(target: EventTarget | null): boolean {
-  const element = target as HTMLElement | null
+  // Целью может быть и window, у которого этих свойств нет вовсе,
+  // поэтому результат приводим к логическому явно.
+  const element = target as Partial<HTMLElement> | null
   if (!element) return false
-  return element.tagName === 'INPUT' || element.tagName === 'TEXTAREA' || element.isContentEditable
+  return Boolean(
+    element.tagName === 'INPUT' || element.tagName === 'TEXTAREA' || element.isContentEditable,
+  )
 }
 
 /**

@@ -53,7 +53,8 @@ export default defineConfig({
     },
   },
   test: {
-    // Проверяется чистая логика: экраны и браузерное окружение не нужны.
+    // Логике браузер не нужен, поэтому по умолчанию node — он быстрее.
+    // Тесты на компоненты просят happy-dom сами, строкой @vitest-environment.
     environment: 'node',
     include: ['src/**/*.test.ts', 'scripts/**/*.test.mjs'],
   },
