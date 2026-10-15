@@ -1,4 +1,4 @@
-import type { StepResult } from '@/types/practice'
+import type { PracticeStep, StepResult } from '@/types/practice'
 import type { SessionOutcome } from '@/stores/progress'
 
 /**
@@ -26,4 +26,22 @@ export function toOutcomes(results: StepResult[], chapterOf: (phraseId: string) 
   }
 
   return [...byPhrase.values()]
+}
+
+/**
+ * Прошла ли фраза все свои упражнения в этом занятии к указанному шагу.
+ *
+ * Этапы идут подряд по всему набору: сначала выбор перевода для всех фраз,
+ * потом выбор фразы и так далее. Поэтому фраза заканчивает свой путь только
+ * в последнем этапе — и записывать её раньше нечестно, итог ещё не сложился.
+ * Карточки не в счёт: ответа в них нет.
+ */
+export function isPhraseDone(steps: PracticeStep[], index: number): boolean {
+  const current = steps[index]
+  if (!current || current.kind === 'card') return false
+  for (let i = index + 1; i < steps.length; i++) {
+    const step = steps[i]!
+    if (step.kind !== 'card' && step.phrase.id === current.phrase.id) return false
+  }
+  return true
 }

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useSettingsStore } from '@/stores/settings'
 import { useSpeech } from '@/composables/useSpeech'
 import AppIcon from '@/components/AppIcon.vue'
@@ -8,6 +8,7 @@ import ChoiceExercise from './ChoiceExercise.vue'
 import AssembleExercise from './AssembleExercise.vue'
 import TypingExercise from './TypingExercise.vue'
 import { EXERCISE_ORDER, EXERCISE_TITLES } from '@/utils/practice'
+import { isPhraseDone } from '@/utils/session'
 import type { ExerciseKind, PracticeStep, StepResult } from '@/types/practice'
 
 /**
@@ -23,7 +24,11 @@ const props = defineProps<{
   cardLabel?: string
 }>()
 
-const emit = defineEmits<{ finish: [results: StepResult[]] }>()
+const emit = defineEmits<{
+  /** Фраза прошла все свои упражнения — её результат можно записывать. */
+  phraseDone: [results: StepResult[]]
+  finish: [results: StepResult[]]
+}>()
 
 const settings = useSettingsStore()
 const { supported: speechSupported, speak, stop: stopSpeech } = useSpeech()
@@ -32,16 +37,45 @@ const index = ref(0)
 const answered = ref(false)
 const results = ref<StepResult[]>([])
 
+/** Что уже отдано наверх: нельзя записать одну фразу дважды. */
+let saved = new Set<string>()
+
+function savePhrase(phraseId: string) {
+  if (saved.has(phraseId)) return
+  const own = results.value.filter((r) => r.phrase.id === phraseId)
+  if (own.length === 0) return
+  saved.add(phraseId)
+  emit('phraseDone', own)
+}
+
+/**
+ * Записать всё, что успели ответить. Нужно при выходе на середине:
+ * этапы идут подряд по всем фразам, поэтому к середине занятия
+ * ни одна фраза ещё не закончена, и иначе работа пропала бы целиком.
+ */
+function saveUnfinished() {
+  for (const id of new Set(results.value.map((r) => r.phrase.id))) savePhrase(id)
+}
+
 // Новый набор шагов (повтор ошибок, следующий урок) начинается с начала.
 watch(
   () => props.steps,
   () => {
+    saveUnfinished()
     index.value = 0
     answered.value = false
     results.value = []
+    saved = new Set()
     stopSpeech()
   },
 )
+
+// Уход с экрана и закрытие вкладки — тоже выход с середины.
+onMounted(() => window.addEventListener('pagehide', saveUnfinished))
+onBeforeUnmount(() => {
+  window.removeEventListener('pagehide', saveUnfinished)
+  saveUnfinished()
+})
 
 const step = computed<PracticeStep | null>(() => props.steps[index.value] ?? null)
 
@@ -75,6 +109,8 @@ function onAnswer(correct: boolean) {
   if (!current || current.kind === 'card' || answered.value) return
   answered.value = true
   results.value.push({ phrase: current.phrase, kind: current.kind as ExerciseKind, correct })
+
+  if (isPhraseDone(props.steps, index.value)) savePhrase(current.phrase.id)
 }
 
 function next() {

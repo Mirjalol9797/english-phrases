@@ -97,9 +97,14 @@ watch([ctx, partIndex, () => settings.sessionSize], () => {
   if (ctx.value) startCurrentPart()
 })
 
+/** Запись идёт по ходу занятия, по одной фразе — см. PracticeSession. */
+function onPhraseDone(phraseResults: StepResult[]) {
+  if (!ctx.value) return
+  progress.commitSession(toOutcomes(phraseResults, () => ctx.value!.chapter.id))
+}
+
 function onFinish(sessionResults: StepResult[]) {
   results.value = sessionResults
-  progress.commitSession(toOutcomes(sessionResults, () => ctx.value!.chapter.id))
 }
 
 useDocumentTitle(() => (ctx.value ? `Урок: ${ctx.value.lesson.title.ru}` : 'Урок'))
@@ -113,6 +118,7 @@ useDocumentTitle(() => (ctx.value ? `Урок: ${ctx.value.lesson.title.ru}` : '
       v-if="!finished"
       :steps="steps"
       :exit-to="`/lessons/${ctx.lesson.id}`"
+      @phrase-done="onPhraseDone"
       @finish="onFinish"
     />
 

@@ -65,10 +65,14 @@ function startReview() {
   running.value = true
 }
 
+/** Запись идёт по ходу занятия, по одной фразе — см. PracticeSession. */
+function onPhraseDone(phraseResults: StepResult[]) {
+  progress.commitSession(toOutcomes(phraseResults, (id) => byId.value.get(id)?.chapterId ?? ''))
+}
+
 function onFinish(sessionResults: StepResult[]) {
   results.value = sessionResults
   running.value = false
-  progress.commitSession(toOutcomes(sessionResults, (id) => byId.value.get(id)?.chapterId ?? ''))
 }
 </script>
 
@@ -76,7 +80,14 @@ function onFinish(sessionResults: StepResult[]) {
   <StatusMessage v-if="loading || error" :loading="loading" :error="error" @retry="reload" />
 
   <template v-else-if="chapters">
-    <PracticeSession v-if="running" :steps="steps" exit-to="/review" card-label="Повторение" @finish="onFinish" />
+    <PracticeSession
+      v-if="running"
+      :steps="steps"
+      exit-to="/review"
+      card-label="Повторение"
+      @phrase-done="onPhraseDone"
+      @finish="onFinish"
+    />
 
     <section v-else>
       <h1 class="text-2xl font-semibold">Повторение</h1>
