@@ -13,6 +13,7 @@ import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import { useSpeech } from '@/composables/useSpeech'
 import AppIcon, { type IconName } from '@/components/AppIcon.vue'
 import { plural, PHRASE_FORMS } from '@/utils/plural'
+import { SESSION_SIZE_OPTIONS } from '@/utils/parts'
 import { today } from '@/utils/date'
 
 useDocumentTitle(() => 'Настройки')
@@ -134,6 +135,24 @@ function reset() {
         <span class="text-sm">Проговаривать фразу на карточке сама</span>
       </label>
     </template>
+
+    <h2 class="mt-8 text-lg font-semibold">Занятие</h2>
+    <p class="mt-1 text-sm text-muted">Сколько записей брать за раз. Длинный урок разобьётся на части.</p>
+    <div role="radiogroup" aria-label="Размер занятия" class="mt-3 flex flex-wrap gap-2">
+      <label
+        v-for="option in SESSION_SIZE_OPTIONS"
+        :key="option.value"
+        class="theme-option cursor-pointer rounded-full border px-4 py-2.5 text-sm font-medium"
+        :class="
+          settings.sessionSize === option.value
+            ? 'border-transparent bg-marker text-on-marker'
+            : 'border-line text-muted hover:text-ink'
+        "
+      >
+        <input v-model="settings.sessionSize" type="radio" name="session-size" :value="option.value" class="sr-only" />
+        {{ option.label }}
+      </label>
+    </div>
 
     <h2 class="mt-8 text-lg font-semibold">Прогресс</h2>
     <p class="mt-3 text-muted">

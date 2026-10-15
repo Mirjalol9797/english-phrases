@@ -1,19 +1,40 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { useContentStore } from '@/stores/content'
+import { useProgressStore } from '@/stores/progress'
+import { useSettingsStore } from '@/stores/settings'
 import { useAsyncData } from '@/composables/useAsyncData'
 import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import PhraseItem from '@/components/PhraseItem.vue'
 import AppIcon from '@/components/AppIcon.vue'
 import { plural, PHRASE_FORMS } from '@/utils/plural'
+import { isPartStarted, nextPartIndex, splitIntoParts } from '@/utils/parts'
 
 const props = defineProps<{ lessonId: string }>()
 const content = useContentStore()
+const progress = useProgressStore()
+const settings = useSettingsStore()
 
 const { data: ctx, loading, error, notFound, reload } = useAsyncData(
   () => props.lessonId,
   () => content.loadLesson(props.lessonId),
 )
+
+const started = (phrase: { id: string }) => progress.boxOf(phrase.id) > 0
+
+/** Урок, разбитый на части по размеру занятия из настроек. */
+const parts = computed(() => splitIntoParts(ctx.value?.lesson.phrases ?? [], settings.sessionSize))
+
+const split = computed(() => parts.value.length > 1)
+
+/** Часть, с которой продолжать: первая, где остались нетронутые записи. */
+const nextPart = computed(() => nextPartIndex(parts.value, started))
+
+function practiceLink(index: number) {
+  const base = `/lessons/${props.lessonId}/practice`
+  return split.value ? `${base}?part=${index + 1}` : base
+}
 
 useDocumentTitle(() => ctx.value?.lesson.title.ru)
 </script>
@@ -40,11 +61,32 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
     </header>
 
     <div class="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
-      <RouterLink :to="`/lessons/${ctx.lesson.id}/practice`" class="btn-primary">Начать урок</RouterLink>
+      <RouterLink :to="practiceLink(nextPart)" class="btn-primary">
+        {{ split ? `Часть ${nextPart + 1} из ${parts.length}` : 'Начать урок' }}
+      </RouterLink>
       <p class="text-sm text-muted">
-        {{ plural(ctx.lesson.phrases.length, PHRASE_FORMS) }}: карточки и упражнения.
+        {{ plural(parts[nextPart]?.length ?? 0, PHRASE_FORMS) }}: карточки и четыре этапа.
       </p>
     </div>
+
+    <!-- Выбор части. Нужен, только если урок длиннее размера занятия. -->
+    <ul v-if="split" class="mt-4 flex flex-wrap gap-2">
+      <li v-for="(part, index) in parts" :key="index">
+        <RouterLink
+          :to="practiceLink(index)"
+          class="flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm"
+          :class="
+            index === nextPart
+              ? 'border-transparent bg-marker text-on-marker'
+              : 'border-line text-muted hover:text-ink'
+          "
+        >
+          Часть {{ index + 1 }}
+          <span class="tabular-nums opacity-70">{{ part.length }}</span>
+          <AppIcon v-if="isPartStarted(part, started)" name="check" :size="15" class="text-ok" />
+        </RouterLink>
+      </li>
+    </ul>
 
     <ol class="mt-6 divide-y divide-line border-y border-line">
       <PhraseItem v-for="phrase in ctx.lesson.phrases" :key="phrase.id" :phrase="phrase" />

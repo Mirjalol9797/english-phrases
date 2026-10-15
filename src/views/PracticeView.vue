@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { computed, ref, shallowRef, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
+import { useSettingsStore } from '@/stores/settings'
 import { useAsyncData } from '@/composables/useAsyncData'
 import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
@@ -10,6 +12,7 @@ import { buildPractice, buildRepeat } from '@/utils/practice'
 import { toOutcomes } from '@/utils/session'
 import { plural } from '@/utils/plural'
 import { formatDay } from '@/utils/date'
+import { splitIntoParts } from '@/utils/parts'
 import type { Phrase } from '@/types/content'
 import type { ExerciseKind, PracticeStep, StepResult } from '@/types/practice'
 
@@ -17,6 +20,8 @@ const props = defineProps<{ lessonId: string }>()
 
 const content = useContentStore()
 const progress = useProgressStore()
+const settings = useSettingsStore()
+const route = useRoute()
 
 const REPEAT_FORMS: [string, string, string] = ['фразу', 'фразы', 'фраз']
 
@@ -27,6 +32,21 @@ const { data: ctx, loading, error, notFound, reload } = useAsyncData(
 
 const steps = shallowRef<PracticeStep[]>([])
 const results = ref<StepResult[] | null>(null)
+
+/** Урок, разбитый на части по размеру занятия из настроек. */
+const parts = computed(() => splitIntoParts(ctx.value?.lesson.phrases ?? [], settings.sessionSize))
+
+/** Какую часть проходим. Номер в адресе человеческий, с единицы. */
+const partIndex = computed(() => {
+  const asked = Number(route.query.part)
+  if (!Number.isInteger(asked) || asked < 1 || asked > parts.value.length) return 0
+  return asked - 1
+})
+
+const sessionPhrases = computed(() => parts.value[partIndex.value] ?? [])
+
+const split = computed(() => parts.value.length > 1)
+const hasNextPart = computed(() => partIndex.value < parts.value.length - 1)
 
 const finished = computed(() => results.value !== null)
 const correctCount = computed(() => results.value?.filter((r) => r.correct).length ?? 0)
@@ -61,14 +81,20 @@ function startLesson(phrases: Phrase[]) {
   steps.value = buildPractice(phrases, { ...pools(), withCards: true })
 }
 
+/** Перезапуск текущей части: нужен и при смене урока, и при переходе между частями. */
+function startCurrentPart() {
+  startLesson(sessionPhrases.value)
+}
+
 function repeatMistakes(mistakes: { phrase: Phrase; kind: ExerciseKind }[]) {
   if (!ctx.value) return
   results.value = null
   steps.value = buildRepeat(mistakes, pools())
 }
 
-watch(ctx, (value) => {
-  if (value) startLesson(value.lesson.phrases)
+// Смена урока, номера части в адресе или размера занятия начинает заново.
+watch([ctx, partIndex, () => settings.sessionSize], () => {
+  if (ctx.value) startCurrentPart()
 })
 
 function onFinish(sessionResults: StepResult[]) {
@@ -91,7 +117,9 @@ useDocumentTitle(() => (ctx.value ? `Урок: ${ctx.value.lesson.title.ru}` : '
     />
 
     <div v-else class="mt-6">
-      <p class="text-sm text-muted">Урок пройден</p>
+      <p class="text-sm text-muted">
+        {{ split ? `Часть ${partIndex + 1} из ${parts.length} пройдена` : 'Урок пройден' }}
+      </p>
       <h1 class="mt-2 text-[clamp(1.75rem,6vw,2.5rem)] leading-tight font-semibold">
         <span class="marker">{{ correctCount }} из {{ results?.length ?? 0 }}</span>
       </h1>
@@ -122,10 +150,20 @@ useDocumentTitle(() => (ctx.value ? `Урок: ${ctx.value.lesson.title.ru}` : '
         >
           Повторить ошибки
         </button>
-        <button type="button" class="btn-quiet" @click="startLesson(ctx.lesson.phrases)">Пройти заново</button>
-        <RouterLink v-if="ctx.next" :to="`/lessons/${ctx.next.id}/practice`" class="btn-quiet">
+        <RouterLink
+          v-if="hasNextPart"
+          :to="`/lessons/${ctx.lesson.id}/practice?part=${partIndex + 2}`"
+          class="btn-quiet"
+        >
+          Следующая часть
+        </RouterLink>
+        <button type="button" class="btn-quiet" @click="startCurrentPart">
+          {{ split ? 'Пройти часть заново' : 'Пройти заново' }}
+        </button>
+        <RouterLink v-if="!hasNextPart && ctx.next" :to="`/lessons/${ctx.next.id}/practice`" class="btn-quiet">
           Следующий урок
         </RouterLink>
+        <RouterLink :to="`/lessons/${ctx.lesson.id}`" class="btn-quiet">К уроку</RouterLink>
         <RouterLink :to="`/chapters/${ctx.chapter.id}`" class="btn-quiet">К главе</RouterLink>
       </div>
     </div>

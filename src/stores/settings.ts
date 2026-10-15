@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 import { computed, ref, watch } from 'vue'
+import { DEFAULT_SESSION_SIZE, isSessionSize } from '@/utils/parts'
 
 export type ThemeChoice = 'system' | 'light' | 'dark'
 
@@ -14,6 +15,7 @@ const STORAGE_KEY = 'english-phrases:theme'
 const SPEECH_KEY = 'english-phrases:speech'
 const VOICE_KEY = 'english-phrases:voice'
 const RATE_KEY = 'english-phrases:rate'
+const SESSION_SIZE_KEY = 'english-phrases:session-size'
 
 /** Скорость речи. Медленнее единицы учебные фразы заметно проще разобрать на слух. */
 export const RATE_MIN = 0.6
@@ -58,6 +60,19 @@ function readStoredRate(): number {
     return saved >= RATE_MIN && saved <= RATE_MAX ? saved : DEFAULT_RATE
   } catch {
     return DEFAULT_RATE
+  }
+}
+
+/** Сколько записей берём в одно занятие. 0 — весь урок целиком. */
+function readStoredSessionSize(): number {
+  try {
+    const raw = localStorage.getItem(SESSION_SIZE_KEY)
+    // Пустое хранилище нельзя гнать через Number: он даст 0, а это «весь урок».
+    if (raw === null) return DEFAULT_SESSION_SIZE
+    const saved = Number(raw)
+    return isSessionSize(saved) ? saved : DEFAULT_SESSION_SIZE
+  } catch {
+    return DEFAULT_SESSION_SIZE
   }
 }
 
@@ -136,6 +151,16 @@ export const useSettingsStore = defineStore('settings', () => {
     }
   })
 
+  const sessionSize = ref(readStoredSessionSize())
+
+  watch(sessionSize, (size) => {
+    try {
+      localStorage.setItem(SESSION_SIZE_KEY, String(size))
+    } catch {
+      // Не запомнили выбор — приложение всё равно работает.
+    }
+  })
+
   function setTheme(value: ThemeChoice) {
     theme.value = value
   }
@@ -145,5 +170,5 @@ export const useSettingsStore = defineStore('settings', () => {
     theme.value = resolvedTheme.value === 'dark' ? 'light' : 'dark'
   }
 
-  return { theme, resolvedTheme, speechEnabled, voiceName, speechRate, setTheme, toggleTheme }
+  return { theme, resolvedTheme, speechEnabled, voiceName, speechRate, sessionSize, setTheme, toggleTheme }
 })
