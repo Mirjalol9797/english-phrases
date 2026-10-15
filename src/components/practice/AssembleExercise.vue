@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
+import { isTypingTarget, useWindowKey } from '@/composables/useWindowKey'
 import type { AssembleStep } from '@/types/practice'
 import { isSameAnswer } from '@/utils/answer'
 
@@ -22,6 +23,18 @@ function remove(position: number) {
   if (checked.value) return
   picked.value.splice(position, 1)
 }
+
+useWindowKey((event) => {
+  if (checked.value || isTypingTarget(event.target)) return
+  if (event.key === 'Enter' && picked.value.length > 0) {
+    event.preventDefault()
+    check()
+  } else if (event.key === 'Backspace' && picked.value.length > 0) {
+    // Убираем последнее собранное слово — как при наборе текста.
+    event.preventDefault()
+    picked.value.pop()
+  }
+})
 
 function check() {
   if (checked.value || picked.value.length === 0) return

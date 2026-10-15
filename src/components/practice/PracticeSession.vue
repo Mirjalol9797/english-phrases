@@ -9,6 +9,7 @@ import AssembleExercise from './AssembleExercise.vue'
 import TypingExercise from './TypingExercise.vue'
 import { EXERCISE_ORDER, EXERCISE_TITLES } from '@/utils/practice'
 import { isPhraseDone } from '@/utils/session'
+import { isTypingTarget, useHasKeyboard, useWindowKey } from '@/composables/useWindowKey'
 import type { ExerciseKind, PracticeStep, StepResult } from '@/types/practice'
 
 /**
@@ -128,6 +129,29 @@ const canGoNext = computed(() => step.value?.kind === 'card' || answered.value)
 const isLast = computed(() => index.value === props.steps.length - 1)
 
 const autoSpeak = computed(() => settings.speechEnabled && speechSupported.value)
+
+const hasKeyboard = useHasKeyboard()
+
+/**
+ * Enter листает дальше. В поле ввода его не перехватываем: там он сначала
+ * проверяет ответ, а до нас событие дойдёт уже следующим нажатием.
+ */
+useWindowKey((event) => {
+  if (event.key !== 'Enter' || !canGoNext.value) return
+  if (isTypingTarget(event.target) && !answered.value) return
+  event.preventDefault()
+  next()
+})
+
+/** Что напомнить про клавиши на текущем шаге. */
+const keyboardHint = computed(() => {
+  if (!hasKeyboard.value) return null
+  if (answered.value || step.value?.kind === 'card') return 'Enter — дальше'
+  if (choiceStep.value) return 'Цифры — ответ, Enter — дальше'
+  if (assembleStep.value) return 'Enter — проверить, Backspace — убрать слово'
+  if (typingStep.value) return 'Enter — проверить'
+  return null
+})
 </script>
 
 <template>
@@ -184,11 +208,12 @@ const autoSpeak = computed(() => settings.speechEnabled && speechSupported.value
       <TypingExercise v-else-if="typingStep" :key="`typing-${index}`" :step="typingStep" @answer="onAnswer" />
     </div>
 
-    <div class="mt-8 flex items-center gap-4">
+    <div class="mt-8 flex flex-wrap items-center gap-x-4 gap-y-2">
       <button type="button" class="btn-primary" :disabled="!canGoNext" @click="next">
         {{ isLast ? 'Завершить' : 'Дальше' }}
       </button>
       <p v-if="!canGoNext" class="text-sm text-muted">Ответьте, чтобы продолжить.</p>
+      <p v-if="keyboardHint" class="text-xs text-muted">{{ keyboardHint }}</p>
     </div>
   </div>
 </template>

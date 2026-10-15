@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { isTypingTarget, useWindowKey } from '@/composables/useWindowKey'
 import type { ChoiceStep } from '@/types/practice'
 import { isSameAnswer } from '@/utils/answer'
 import SpeakButton from './SpeakButton.vue'
@@ -22,6 +23,15 @@ function choose(option: string) {
   chosen.value = option
   emit('answer', isSameAnswer(option, props.step.answer))
 }
+
+// Цифра выбирает вариант по порядку: 1 — первый, 2 — второй и так далее.
+useWindowKey((event) => {
+  if (chosen.value !== null || isTypingTarget(event.target)) return
+  const position = Number(event.key)
+  if (!Number.isInteger(position) || position < 1 || position > props.step.options.length) return
+  event.preventDefault()
+  choose(props.step.options[position - 1]!)
+})
 
 function stateClass(option: string) {
   if (chosen.value === null) return ''
@@ -53,14 +63,15 @@ function stateClass(option: string) {
     </div>
 
     <ul class="mt-5 grid gap-2">
-      <li v-for="option in step.options" :key="option">
+      <li v-for="(option, index) in step.options" :key="option">
         <button
           type="button"
-          class="option"
+          class="option flex items-baseline gap-3"
           :class="stateClass(option)"
           :disabled="chosen !== null"
           @click="choose(option)"
         >
+          <span class="w-4 shrink-0 text-sm text-muted tabular-nums" aria-hidden="true">{{ index + 1 }}</span>
           <span :lang="askingTranslation ? undefined : 'en'" :class="askingTranslation ? '' : 'font-serif'">
             {{ option }}
           </span>

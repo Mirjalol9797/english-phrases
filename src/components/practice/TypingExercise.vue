@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, ref, useTemplateRef, onMounted } from 'vue'
 import type { TypingStep } from '@/types/practice'
 import { isSameAnswer } from '@/utils/answer'
 
@@ -8,6 +8,10 @@ const emit = defineEmits<{ answer: [correct: boolean] }>()
 
 const value = ref('')
 const checked = ref(false)
+
+// Поле получает фокус сразу: иначе на компьютере приходится тянуться к мыши.
+const field = useTemplateRef<HTMLInputElement>('field')
+onMounted(() => field.value?.focus())
 
 // Верным считаем любую фразу урока с этим же переводом: по «Привет!» одинаково
 // подходят и Hi!, и Hey!.
@@ -30,6 +34,7 @@ function check() {
 
     <form class="mt-5" @submit.prevent="check">
       <input
+        ref="field"
         v-model="value"
         type="text"
         lang="en"
