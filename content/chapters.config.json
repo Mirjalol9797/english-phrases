@@ -112,6 +112,18 @@
         "en": "Oxford 3000 · B1",
         "ru": "Самые нужные слова, уровень B1"
       }
+    },
+    {
+      "file": "oxford_3000_b2.pdf",
+      "id": "oxford-b2",
+      "order": 16,
+      "format": "words",
+      "prefix": "OXD",
+      "group": "Oxford 3000",
+      "title": {
+        "en": "Oxford 3000 · B2",
+        "ru": "Самые нужные слова, уровень B2"
+      }
     }
   ]
 }
