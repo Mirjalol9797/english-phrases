@@ -8,7 +8,7 @@ import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import PhraseItem from '@/components/PhraseItem.vue'
 import AppIcon from '@/components/AppIcon.vue'
-import { plural, PHRASE_FORMS } from '@/utils/plural'
+import { plural, itemForms } from '@/utils/plural'
 import { isPartStarted, nextPartIndex, splitIntoParts } from '@/utils/parts'
 
 const props = defineProps<{ lessonId: string }>()
@@ -76,7 +76,7 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
         {{ split ? `Часть ${nextPart + 1} из ${parts.length}` : 'Начать урок' }}
       </button>
       <p class="text-sm text-muted">
-        {{ plural(parts[nextPart]?.length ?? 0, PHRASE_FORMS) }}: карточки и четыре этапа.
+        {{ plural(parts[nextPart]?.length ?? 0, itemForms(ctx.chapter.kind)) }}: карточки и четыре этапа.
       </p>
     </div>
 

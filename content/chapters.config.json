@@ -1,5 +1,5 @@
 {
-  "plannedChapters": 12,
+  "plannedChapters": 16,
   "chapters": [
     {
       "file": "everyday_english_200_phrases.docx",
@@ -75,6 +75,18 @@
       "title": {
         "en": "English Prepositions",
         "ru": "Предлоги"
+      }
+    },
+    {
+      "file": "oxford_3000_a1.pdf",
+      "id": "oxford-a1",
+      "order": 13,
+      "format": "words",
+      "prefix": "OXA",
+      "group": "Oxford 3000",
+      "title": {
+        "en": "Oxford 3000 · A1",
+        "ru": "Самые нужные слова, уровень A1"
       }
     }
   ]

@@ -8,7 +8,7 @@ import StatusMessage from '@/components/StatusMessage.vue'
 import PhraseItem from '@/components/PhraseItem.vue'
 import AppIcon from '@/components/AppIcon.vue'
 import { normalizeSearch } from '@/utils/search'
-import { plural, PHRASE_FORMS } from '@/utils/plural'
+import { plural, MATCH_FORMS } from '@/utils/plural'
 import type { Phrase } from '@/types/content'
 
 /** Фраза вместе с главой и уроком и заранее нормализованным текстом для поиска. */
@@ -165,7 +165,7 @@ watch(
       </ul>
 
       <p class="mt-4 text-sm text-muted" role="status" aria-live="polite">
-        {{ results.length ? `Найдено ${plural(results.length, PHRASE_FORMS)}` : 'Ничего не нашлось' }}
+        {{ results.length ? `Найдено ${plural(results.length, MATCH_FORMS)}` : 'Ничего не нашлось' }}
       </p>
 
       <ol v-if="shown.length" class="mt-2 divide-y divide-line border-y border-line">

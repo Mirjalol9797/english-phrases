@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "plannedChapters": 12,
-  "totalPhrases": 2566,
+  "plannedChapters": 16,
+  "totalPhrases": 3466,
   "chapters": [
     {
       "id": "everyday-english",
@@ -158,6 +158,20 @@
       "file": "chapters/prepositions.json",
       "lessonCount": 34,
       "phraseCount": 236
+    },
+    {
+      "id": "oxford-a1",
+      "order": 13,
+      "prefix": "OXA",
+      "kind": "words",
+      "group": "Oxford 3000",
+      "title": {
+        "en": "Oxford 3000 · A1",
+        "ru": "Самые нужные слова, уровень A1"
+      },
+      "file": "chapters/oxford-a1.json",
+      "lessonCount": 90,
+      "phraseCount": 900
     }
   ]
 }

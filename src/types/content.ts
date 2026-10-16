@@ -8,16 +8,25 @@ export interface Phrase {
   id: string
   en: string
   ru: string
-  /** Пример употребления. Есть у выражений, у обычных фраз его нет. */
+  /** Пример употребления. Есть у выражений и слов, у обычных фраз его нет. */
   example?: LocalizedText
+  /** Часть речи: «n.», «v.», «prep., adv.». Есть только у слов. */
+  pos?: string
+  /**
+   * Что ещё принимать на этапе письма, кроме en. Нужно словарным статьям
+   * вида «a, an»: по переводу «неопределённый артикль» угадать, что ждут
+   * оба артикля через запятую, невозможно.
+   */
+  accept?: string[]
 }
 
 /**
  * Чем наполнена глава.
  * phrases — готовые фразы, 20 уроков по 10.
  * expressions — выражения вокруг одного глагола, в уроке их столько, сколько набралось.
+ * words — словарный уровень Oxford 3000: слово с частью речи и примером, уроки по 10.
  */
-export type ChapterKind = 'phrases' | 'expressions'
+export type ChapterKind = 'phrases' | 'expressions' | 'words'
 
 /** Урок — тема из 10 фраз. ID вида EE-L01. */
 export interface Lesson {
@@ -33,6 +42,8 @@ export interface Chapter {
   order: number
   prefix: string
   kind: ChapterKind
+  /** Раздел на главной, если глава входит в набор: например «Oxford 3000». */
+  group?: string
   title: LocalizedText
   lessons: Lesson[]
 }
@@ -43,6 +54,7 @@ export interface ChapterSummary {
   order: number
   prefix: string
   kind: ChapterKind
+  group?: string
   title: LocalizedText
   file: string
   lessonCount: number

@@ -99,8 +99,15 @@ function buildStep(phrase: Phrase, kind: ExerciseKind, near: Phrase[], far: Phra
 
   // У одного перевода может быть несколько английских фраз: по вопросу «Привет!»
   // нельзя угадать, ждут Hi! или Hey!, поэтому принимаем любую из них.
+  // Плюс варианты, записанные у самой фразы: «a» и «an» для статьи «a, an».
   const prompt = normalizeAnswer(phrase.ru)
-  const accept = [...new Set([phrase.en, ...near.filter((p) => normalizeAnswer(p.ru) === prompt).map(toEn)])]
+  const accept = [
+    ...new Set([
+      phrase.en,
+      ...(phrase.accept ?? []),
+      ...near.filter((p) => normalizeAnswer(p.ru) === prompt).map(toEn),
+    ]),
+  ]
   return { kind: 'typing', phrase, accept }
 }
 

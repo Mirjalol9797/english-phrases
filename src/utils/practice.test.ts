@@ -234,6 +234,31 @@ describe('buildReview', () => {
   })
 })
 
+describe('свои варианты ответа у фразы', () => {
+  // Словарная статья «a, an»: по переводу не угадать, что ждут оба артикля.
+  const article: Phrase = { id: 'OXA331', en: 'a, an', ru: 'неопределённый артикль', accept: ['a', 'an'] }
+
+  function typingFor(phrase: Phrase) {
+    const steps = buildPractice([phrase, ...lesson], { ...pools, stages: ['typing'], withCards: false })
+    return steps.find((step) => step.phrase.id === phrase.id)
+  }
+
+  it('принимает и запись целиком, и каждую часть', () => {
+    const step = typingFor(article)
+    expect(step?.kind).toBe('typing')
+    if (step?.kind !== 'typing') return
+    expect(step.accept).toContain('a, an')
+    expect(step.accept).toContain('a')
+    expect(step.accept).toContain('an')
+  })
+
+  it('у фразы без своих вариантов принимается только она сама', () => {
+    const step = typingFor(lesson[2]!)
+    if (step?.kind !== 'typing') return
+    expect(step.accept).toEqual([lesson[2]!.en])
+  })
+})
+
 describe('задания на слух', () => {
   it('выключенного этапа нет вовсе', () => {
     const kinds = buildPractice(lesson, { ...withoutSound, withCards: false }).map((s) => s.kind)

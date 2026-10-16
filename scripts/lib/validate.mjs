@@ -44,9 +44,11 @@ export function validateChapters(chapters, { plannedChapters }) {
     const where = `Глава «${chapter.title?.en ?? chapter.id}»`
     // Глава с выражениями собрана из категорий источника, поэтому правила к ней мягче.
     const isExpressions = chapter.kind === 'expressions'
+    // В словарной главе уроков столько, сколько набралось слов: 900 слов — 90 уроков.
+    const isWords = chapter.kind === 'words'
 
-    if (chapter.kind !== 'phrases' && chapter.kind !== 'expressions') {
-      errors.push(`${where}: неизвестный вид главы «${chapter.kind}», ожидается phrases или expressions.`)
+    if (!['phrases', 'expressions', 'words'].includes(chapter.kind)) {
+      errors.push(`${where}: неизвестный вид главы «${chapter.kind}», ожидается phrases, expressions или words.`)
     }
 
     if (seenChapterIds.has(chapter.id)) errors.push(`${where}: id «${chapter.id}» повторяется.`)
@@ -62,7 +64,7 @@ export function validateChapters(chapters, { plannedChapters }) {
 
     if (!chapter.title?.en || !chapter.title?.ru) errors.push(`${where}: нет названия на английском или русском.`)
 
-    if (chapter.lessons.length !== LESSONS_PER_CHAPTER) {
+    if (chapter.lessons.length !== LESSONS_PER_CHAPTER && !isWords) {
       const message = `${where}: уроков ${chapter.lessons.length}, ожидается ${LESSONS_PER_CHAPTER}.`
       if (isExpressions) warnings.push(message)
       else errors.push(message)
@@ -88,7 +90,11 @@ export function validateChapters(chapters, { plannedChapters }) {
           warnings.push(`${lessonWhere}: всего ${lesson.phrases.length} — подозрительно мало, ожидается хотя бы ${MIN_PHRASES_PER_LESSON}.`)
         }
       } else if (lesson.phrases.length !== PHRASES_PER_LESSON) {
-        errors.push(`${lessonWhere}: фраз ${lesson.phrases.length}, ожидается ${PHRASES_PER_LESSON}.`)
+        // В словарной главе последним уроком идёт остаток: слов может не хватить до десяти.
+        const isLast = lessonIndex === chapter.lessons.length - 1
+        const message = `${lessonWhere}: ${isWords ? 'слов' : 'фраз'} ${lesson.phrases.length}, ожидается ${PHRASES_PER_LESSON}.`
+        if (isWords && isLast) warnings.push(message)
+        else errors.push(message)
       }
 
       // В главе с выражениями нумерация своя в каждом уроке: GET001…, TAKE001…
@@ -123,8 +129,11 @@ export function validateChapters(chapters, { plannedChapters }) {
         if (phrase.example && (!phrase.example.en || !phrase.example.ru)) {
           errors.push(`${lessonWhere}: у ${phrase.id} пример есть только на одном языке.`)
         }
-        if (isExpressions && !phrase.example) {
+        if ((isExpressions || isWords) && !phrase.example) {
           warnings.push(`${lessonWhere}: у ${phrase.id} нет примера употребления.`)
+        }
+        if (isWords && !phrase.pos) {
+          warnings.push(`${lessonWhere}: у ${phrase.id} не указана часть речи.`)
         }
 
         const ruKey = phrase.ru.toLowerCase()

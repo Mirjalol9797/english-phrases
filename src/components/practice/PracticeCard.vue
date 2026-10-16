@@ -29,7 +29,10 @@ watch(
       <SpeakButton :text="phrase.en" :speak="speak" :supported="speechSupported" />
     </div>
 
-    <p class="mt-4 text-lg">{{ phrase.ru }}</p>
+    <!-- Часть речи есть только у слов: «n.», «prep., adv.». Перенос строки между
+         переводом и ею дал бы лишний пробел, поэтому теги стоят вплотную. -->
+    <p class="mt-4 text-lg">{{ phrase.ru
+      }}<span v-if="phrase.pos" lang="en" class="font-serif text-sm text-muted">&nbsp;{{ phrase.pos }}</span></p>
 
     <p v-if="phrase.example" class="mt-4 border-l-2 border-line pl-3 text-sm text-muted">
       <span lang="en" class="block font-serif">{{ phrase.example.en }}</span>

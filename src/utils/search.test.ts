@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { highlight, normalizeSearch } from './search'
-import { plural, itemForms, PHRASE_FORMS, LESSON_FORMS, EXPRESSION_FORMS } from './plural'
+import { plural, itemForms, PHRASE_FORMS, LESSON_FORMS, EXPRESSION_FORMS, WORD_FORMS } from './plural'
 
 describe('normalizeSearch', () => {
   it('не различает регистр', () => {
@@ -80,6 +80,9 @@ describe('plural', () => {
   it('выбирает слово по виду главы', () => {
     expect(itemForms('phrases')).toBe(PHRASE_FORMS)
     expect(itemForms('expressions')).toBe(EXPRESSION_FORMS)
+    expect(itemForms('words')).toBe(WORD_FORMS)
     expect(plural(330, itemForms('expressions'))).toBe('330 выражений')
+    expect(plural(900, itemForms('words'))).toBe('900 слов')
+    expect(plural(1, itemForms('words'))).toBe('1 слово')
   })
 })

@@ -7,6 +7,7 @@ import { useAsyncData } from '@/composables/useAsyncData'
 import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import { plural, itemForms, PHRASE_FORMS } from '@/utils/plural'
+import type { ChapterSummary } from '@/types/content'
 
 const content = useContentStore()
 const progress = useProgressStore()
@@ -27,6 +28,21 @@ const { data, loading, error, reload } = useAsyncData(
     return { index, nextLesson }
   },
 )
+
+/**
+ * Главы по разделам: сначала те, что сами по себе, потом наборы вроде Oxford 3000.
+ * Порядок разделов — порядок первой главы в каждом, чтобы он задавался конфигом.
+ */
+const sections = computed(() => {
+  const chapters = data.value?.index.chapters ?? []
+  const groups = new Map<string, ChapterSummary[]>()
+  for (const chapter of chapters) {
+    const key = chapter.group ?? ''
+    if (!groups.has(key)) groups.set(key, [])
+    groups.get(key)!.push(chapter)
+  }
+  return [...groups].map(([title, items]) => ({ title: title || 'Главы', items }))
+})
 
 const featured = computed(() => data.value?.nextLesson?.phrases.find((p) => !progress.isStarted(p.id)) ?? data.value?.nextLesson?.phrases[0] ?? null)
 
@@ -74,15 +90,20 @@ const DAY_FORMS: [string, string, string] = ['день', 'дня', 'дней']
       </p>
     </section>
 
-    <section v-if="data.index.chapters.length" class="border-t border-line pt-6">
+    <section
+      v-for="(section, sectionIndex) in sections"
+      :key="section.title"
+      class="border-t border-line pt-6"
+      :class="sectionIndex > 0 && 'mt-6 sm:mt-8'"
+    >
       <div class="flex items-baseline justify-between gap-4">
-        <h2 class="text-lg font-semibold">Главы</h2>
-        <p class="text-sm text-muted">
+        <h2 class="text-lg font-semibold">{{ section.title }}</h2>
+        <p v-if="sectionIndex === 0" class="text-sm text-muted">
           Добавлено {{ data.index.chapters.length }} из {{ data.index.plannedChapters }}
         </p>
       </div>
       <ul class="mt-2 divide-y divide-line">
-        <li v-for="chapter in data.index.chapters" :key="chapter.id">
+        <li v-for="chapter in section.items" :key="chapter.id">
           <RouterLink :to="`/chapters/${chapter.id}`" class="group flex items-baseline gap-4 py-3 sm:py-4">
             <span class="w-6 shrink-0 font-serif text-lg text-muted tabular-nums">{{ chapter.order }}</span>
             <span class="min-w-0 flex-1">

@@ -1,13 +1,15 @@
-// Конвертирует Word-файлы глав из content/source в JSON для приложения.
+// Собирает JSON для приложения из источников в content/source.
 //
 //   yarn data:build
 //
-// Каждый .docx — одна глава. Поддерживаются два формата источника:
-//   lessons    (по умолчанию) — заголовки «N. English — Русский» задают уроки,
+// Каждый файл — одна глава. Поддерживаются три формата источника:
+//   lessons    (по умолчанию, .docx) — заголовки «N. English — Русский» задают уроки,
 //               таблица под заголовком содержит фразы (ID | English phrase | Перевод);
-//   categories — одна таблица на весь документ
+//   categories (.docx) — одна таблица на весь документ
 //               (id | category | phrase_en | phrase_ru | example_en | example_ru),
-//               каждая категория становится отдельным уроком.
+//               каждая категория становится отдельным уроком;
+//   words      (.pdf) — словарный уровень Oxford 3000: таблица
+//               «☐ | слово | часть речи | перевод | пример», уроки собираются сами.
 // Порядок, id и формат глав задаются в content/chapters.config.json.
 
 import { readFile, writeFile, readdir, mkdir, rm } from 'node:fs/promises'
@@ -16,7 +18,8 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import mammoth from 'mammoth'
 import { parse } from 'node-html-parser'
-import { PHRASE_ID, prefixOf, validateChapters, printReport } from './lib/validate.mjs'
+import { PHRASE_ID, PHRASES_PER_LESSON, prefixOf, validateChapters, printReport } from './lib/validate.mjs'
+import { parseWordsPdf, buildWordLessons } from './lib/words-pdf.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const sourceDir = path.join(root, 'content', 'source')
@@ -173,12 +176,68 @@ async function parseCategoriesDocx(filePath) {
   return { titleEn, titleRu, lessons, problems }
 }
 
+/**
+ * Заголовок словарной статьи: что показываем и что принимаем на этапе письма.
+ *
+ * В источнике у статьи бывает пояснение в скобках («match (contest/correspond)») —
+ * ввести такое невозможно, и смысл всё равно различают русские переводы, поэтому
+ * скобки снимаем. Перечисление через запятую («a, an») оставляем как есть,
+ * но принимаем и каждую часть отдельно: по переводу не угадать, что ждут обе.
+ */
+function headword(word) {
+  const en = cleanEnglish(word.replace(/\s*\([^)]*\)/g, ''))
+  const parts = en.split(',').map((part) => part.trim()).filter(Boolean)
+  const accept = parts.length > 1 && parts.every((part) => !part.includes(' ')) ? parts : []
+  return accept.length ? { en, accept } : { en }
+}
+
+/**
+ * Формат words: словарный уровень Oxford 3000.
+ *
+ * Слова не разложены по темам, поэтому уроки собираются сами — перемешиванием,
+ * см. buildWordLessons. Название главы берётся из конфига: в самом PDF оно
+ * только в колонтитуле, а туда полагаться не стоит.
+ */
+async function parseWordsChapter(filePath, entry) {
+  const problems = []
+  const { words, problems: parseProblems } = await parseWordsPdf(filePath, { fixes: entry.fixes ?? {} })
+  problems.push(...parseProblems)
+
+  if (!entry.title?.en || !entry.title?.ru) {
+    problems.push('для формата words нужно указать title в chapters.config.json.')
+  }
+
+  const perLesson = entry.wordsPerLesson ?? PHRASES_PER_LESSON
+  const lessons = buildWordLessons(words, { perLesson }).map((group, index) => {
+    const from = index * perLesson + 1
+    const to = from + group.length - 1
+    // Английской строкой — первые слова урока: по ним урок узнаёшь, когда возвращаешься.
+    // Нумерация идёт русской строкой, иначе обе строки говорили бы одно и то же.
+    const preview = group.slice(0, 3).map((word) => word.word).join(' · ')
+    return {
+      order: index + 1,
+      title: { en: preview, ru: `Слова ${from}–${to}` },
+      phrases: group.map((word, i) => ({
+        id: `${entry.prefix}${String(from + i).padStart(3, '0')}`,
+        ...headword(word.word),
+        ru: word.ru,
+        pos: word.pos,
+        example: { en: cleanEnglish(word.example.en), ru: word.example.ru },
+      })),
+    }
+  })
+
+  return { titleEn: '', titleRu: '', lessons, problems }
+}
+
 async function main() {
   const config = JSON.parse(await readFile(configPath, 'utf8'))
   const plannedChapters = config.plannedChapters ?? 10
 
   // Word создаёт временные файлы «~$имя.docx», пока документ открыт, их пропускаем.
-  const sourceFiles = (await readdir(sourceDir)).filter((f) => f.endsWith('.docx') && !f.startsWith('~$'))
+  const sourceFiles = (await readdir(sourceDir)).filter(
+    (f) => (f.endsWith('.docx') || f.endsWith('.pdf')) && !f.startsWith('~$'),
+  )
 
   const entries = [...config.chapters]
   for (const file of sourceFiles) {
@@ -200,32 +259,41 @@ async function main() {
     }
 
     const format = entry.format ?? 'lessons'
-    if (format !== 'lessons' && format !== 'categories') {
-      fatal.push(`${entry.file}: неизвестный format «${format}», ожидается lessons или categories.`)
+    if (format !== 'lessons' && format !== 'categories' && format !== 'words') {
+      fatal.push(`${entry.file}: неизвестный format «${format}», ожидается lessons, categories или words.`)
       continue
     }
 
     console.log(`→ ${entry.file}`)
-    const parsed = format === 'categories' ? await parseCategoriesDocx(filePath) : await parseChapterDocx(filePath)
+    const parsed =
+      format === 'words'
+        ? await parseWordsChapter(filePath, entry)
+        : format === 'categories'
+          ? await parseCategoriesDocx(filePath)
+          : await parseChapterDocx(filePath)
     fatal.push(...parsed.problems.map((p) => `${entry.file}: ${p}`))
 
-    // В формате categories у каждого урока своя нумерация, общий префикс главы задаёт конфиг.
-    const prefix = format === 'categories' ? entry.prefix : parsed.prefix
+    // В форматах categories и words нумерация задаётся не источником, а конфигом.
+    const prefix = format === 'lessons' ? parsed.prefix : entry.prefix
     if (!prefix) {
-      fatal.push(`${entry.file}: для формата categories нужно указать prefix в chapters.config.json.`)
+      fatal.push(`${entry.file}: для формата ${format} нужно указать prefix в chapters.config.json.`)
       continue
     }
 
     const titleEn = entry.title?.en ?? parsed.titleEn
     const titleRu = entry.title?.ru ?? parsed.titleRu
-    const id = entry.id ?? slugify(titleEn || entry.file.replace(/\.docx$/, ''))
+    const id = entry.id ?? slugify(titleEn || entry.file.replace(/\.(docx|pdf)$/, ''))
     const order = entry.order ?? nextOrder++
+
+    const kind = format === 'words' ? 'words' : format === 'categories' ? 'expressions' : 'phrases'
 
     chapters.push({
       id,
       order,
       prefix,
-      kind: format === 'categories' ? 'expressions' : 'phrases',
+      kind,
+      // Группа собирает несколько глав в раздел на главной — например уровни Oxford 3000.
+      ...(entry.group ? { group: entry.group } : {}),
       title: { en: titleEn, ru: titleRu },
       lessons: parsed.lessons.map((lesson) => ({
         id: `${prefix}-L${String(lesson.order).padStart(2, '0')}`,
@@ -266,6 +334,7 @@ async function main() {
       order: c.order,
       prefix: c.prefix,
       kind: c.kind,
+      ...(c.group ? { group: c.group } : {}),
       title: c.title,
       file: `chapters/${c.id}.json`,
       lessonCount: c.lessons.length,
