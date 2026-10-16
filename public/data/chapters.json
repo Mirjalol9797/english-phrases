@@ -1,7 +1,7 @@
 {
   "version": 1,
   "plannedChapters": 16,
-  "totalPhrases": 4338,
+  "totalPhrases": 5147,
   "chapters": [
     {
       "id": "everyday-english",
@@ -186,6 +186,20 @@
       "file": "chapters/oxford-a2.json",
       "lessonCount": 88,
       "phraseCount": 872
+    },
+    {
+      "id": "oxford-b1",
+      "order": 15,
+      "prefix": "OXC",
+      "kind": "words",
+      "group": "Oxford 3000",
+      "title": {
+        "en": "Oxford 3000 · B1",
+        "ru": "Самые нужные слова, уровень B1"
+      },
+      "file": "chapters/oxford-b1.json",
+      "lessonCount": 81,
+      "phraseCount": 809
     }
   ]
 }

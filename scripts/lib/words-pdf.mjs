@@ -157,20 +157,80 @@ function splitWordAndPos(text) {
   }
 }
 
+/**
+ * Склейка узкой колонки — слова или перевода.
+ *
+ * Длинное слово в такую колонку не влезает и рвётся посреди себя:
+ * «достопримечательность» разорвана на «достопримечательнос» и «ть»,
+ * «recommendation» — на «recommendatio» и «n». Отличить такой разрыв от
+ * обычного переноса по пробелу нельзя ни по ширине строки (перенос по пробелу
+ * тоже доходит до края), ни по виду кусков: «ice cream» и «per cent» — honest
+ * два слова, а «according to» вдобавок склеилось бы в правдоподобное слово.
+ *
+ * Зато это же слово целиком стоит в примере — он и служит арбитром.
+ * Склеиваем, только если склеенное сходится со словом из примера почти
+ * по всей длине: случайное слипание двух разных слов так совпасть не может.
+ */
+export function joinCell(parts, { sample: sampleText, letters }) {
+  const sample = sampleText
+    .toLowerCase()
+    .split(new RegExp(`[^${letters}-]+`))
+    .filter((token) => token.length >= 10)
+
+  const confirmed = (raw) => {
+    const glued = raw.toLowerCase()
+    if (glued.length < 10) return false
+    return sample.some((token) => {
+      // Длина должна почти совпасть: иначе подтвердилось бы любое слипание,
+      // у которого первая половина сама по себе есть в примере.
+      if (Math.abs(token.length - glued.length) > 3) return false
+      // Сверяем только основу: в примере слово стоит в другом падеже.
+      const stem = Math.max(10, Math.min(token.length, glued.length) - 3)
+      return token.slice(0, stem) === glued.slice(0, stem)
+    })
+  }
+
+  let text = ''
+  for (const part of parts) {
+    const piece = part.trim()
+    if (!piece) continue
+    if (!text) {
+      text = piece
+      continue
+    }
+    const tail = text.split(' ').pop() ?? ''
+    const head = piece.split(' ')[0] ?? ''
+    const letter = new RegExp(`^[${letters}]`)
+    const wrapped =
+      new RegExp(`[${letters}]$`).test(tail) && letter.test(head) && confirmed(tail + head)
+    // Пометки вроде «match (contest/» + «correspond)» тоже идут вплотную.
+    const continuation = /^[.,)]/.test(piece) || /[/\-(]$/.test(text)
+    text += wrapped || continuation ? piece : ` ${piece}`
+  }
+  return clean(text)
+}
+
+export const CYRILLIC_LETTERS = 'а-яёА-ЯЁ'
+export const LATIN_LETTERS = 'a-zA-Z'
+
 /** Одно слово из строки таблицы. */
 function parseRow(row) {
-  // Часть речи иногда попадает в колонку слова (и наоборот) — склеиваем и делим заново.
-  const head = clean(`${joinFragments(row.word)} ${joinFragments(row.pos, { tight: true })}`)
-  const { word, pos } = splitWordAndPos(head)
+  // Пример склеиваем первым: он арбитр для колонок слова и перевода.
+  const exampleEn = joinFragments(row.example.filter((line) => !isRussian(line)))
+  const exampleRu = joinFragments(row.example.filter(isRussian))
 
+  // Часть речи иногда попадает в колонку слова (и наоборот) — склеиваем и делим заново.
+  const head = clean(
+    `${joinCell(row.word, { sample: exampleEn, letters: LATIN_LETTERS })} ${joinFragments(row.pos, { tight: true })}`,
+  )
+  const { word, pos } = splitWordAndPos(head)
   const entry = {
     word,
     pos,
-    ru: joinFragments(row.ru),
-    example: {
-      en: joinFragments(row.example.filter((line) => !isRussian(line))),
-      ru: joinFragments(row.example.filter(isRussian)),
-    },
+    ru: joinCell(row.ru, { sample: exampleRu, letters: CYRILLIC_LETTERS }),
+    // Колонка примера вдвое шире, в неё помещается любое русское слово,
+    // поэтому разрывов внутри слова там не бывает — склеиваем по пробелу.
+    example: { en: exampleEn, ru: exampleRu },
   }
 
   const missing = []

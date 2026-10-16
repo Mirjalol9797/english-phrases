@@ -262,7 +262,9 @@ async function main() {
       continue
     }
 
-    const format = entry.format ?? 'lessons'
+    // PDF бывает только со словами, и без prefix с title его не собрать.
+    // Без этой проверки он ушёл бы в разбор Word и упал с ошибкой про zip.
+    const format = entry.format ?? (entry.file.endsWith('.pdf') ? 'words' : 'lessons')
     if (format !== 'lessons' && format !== 'categories' && format !== 'words') {
       fatal.push(`${entry.file}: неизвестный format «${format}», ожидается lessons, categories или words.`)
       continue

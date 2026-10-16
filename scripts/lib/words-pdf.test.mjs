@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { buildWordLessons } from './words-pdf.mjs'
+import { buildWordLessons, joinCell, CYRILLIC_LETTERS, LATIN_LETTERS } from './words-pdf.mjs'
 
 /**
  * Словарь из n слов: часть речи идёт по кругу, а начала у слов разные —
@@ -95,5 +95,51 @@ describe('buildWordLessons', () => {
     const lessons = buildWordLessons(words(3))
     expect(lessons).toHaveLength(1)
     expect(lessons[0]).toHaveLength(3)
+  })
+})
+
+describe('joinCell — склейка разорванной ячейки', () => {
+  const ru = (parts, sample) => joinCell(parts, { sample, letters: CYRILLIC_LETTERS })
+  const en = (parts, sample) => joinCell(parts, { sample, letters: LATIN_LETTERS })
+
+  it('склеивает слово, разорванное посреди себя', () => {
+    // Колонка узкая, «достопримечательность» в неё не влезла.
+    expect(ru(['достопримечательнос', 'ть; привлекательность'], 'Регистан — главная достопримечательность.')).toBe(
+      'достопримечательность; привлекательность',
+    )
+  })
+
+  it('узнаёт слово из примера в другом падеже', () => {
+    expect(ru(['зрение; вид; достопри', 'мечательность'], 'Мы осмотрели достопримечательности города.')).toBe(
+      'зрение; вид; достопримечательность',
+    )
+  })
+
+  it('не склеивает два настоящих слова, даже длинных', () => {
+    expect(ru(['неопределённый', 'артикль'], 'У меня есть кошка и старая собака.')).toBe('неопределённый артикль')
+    expect(ru(['испытывающий', 'жажду'], 'Я хочу пить.')).toBe('испытывающий жажду')
+  })
+
+  it('не верит примеру, если в нём только начало слипшегося', () => {
+    // Иначе «испытывающий жажду» слиплось бы из-за слова «испытываю» в примере.
+    expect(ru(['испытывающий', 'жажду'], 'Я испытываю сильную жажду.')).toBe('испытывающий жажду')
+  })
+
+  it('работает и с английским словом', () => {
+    expect(en(['recommendatio', 'n'], 'I bought it on your recommendation.')).toBe('recommendation')
+  })
+
+  it('не склеивает составные статьи', () => {
+    expect(en(['ice', 'cream'], 'I like ice cream.')).toBe('ice cream')
+    // «accordingto» выглядит правдоподобным словом, но в примере его нет.
+    expect(en(['according', 'to'], 'According to the forecast, it will rain.')).toBe('according to')
+  })
+
+  it('пометки в скобках идут вплотную', () => {
+    expect(en(['match (contest/', 'correspond)'], 'Match the words.')).toBe('match (contest/correspond)')
+  })
+
+  it('без примера ничего не склеивает', () => {
+    expect(ru(['достопримечательнос', 'ть'], '')).toBe('достопримечательнос ть')
   })
 })
