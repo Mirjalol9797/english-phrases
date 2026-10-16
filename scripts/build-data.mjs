@@ -208,9 +208,13 @@ async function parseWordsChapter(filePath, entry) {
   }
 
   const perLesson = entry.wordsPerLesson ?? PHRASES_PER_LESSON
+  // Нумерация сквозная по главе, и считать её от номера урока нельзя:
+  // размер уроков выровнен и у части из них слов на одно меньше.
+  let next = 1
   const lessons = buildWordLessons(words, { perLesson }).map((group, index) => {
-    const from = index * perLesson + 1
+    const from = next
     const to = from + group.length - 1
+    next = to + 1
     // Английской строкой — первые слова урока: по ним урок узнаёшь, когда возвращаешься.
     // Нумерация идёт русской строкой, иначе обе строки говорили бы одно и то же.
     const preview = group.slice(0, 3).map((word) => word.word).join(' · ')

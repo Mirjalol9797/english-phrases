@@ -293,9 +293,17 @@ export function buildWordLessons(words, { perLesson = 10, seed = 20261016 } = {}
     sequence.push(queues[bestIndex][taken[bestIndex]++])
   }
 
+  // Уроков столько, сколько нужно на все слова, а размер выравнивается:
+  // при 872 словах иначе последним уроком осталось бы два слова.
   const lessons = []
-  for (let i = 0; i < sequence.length; i += perLesson) {
-    lessons.push(sequence.slice(i, i + perLesson))
+  const count = Math.ceil(sequence.length / perLesson)
+  const base = count ? Math.floor(sequence.length / count) : 0
+  const bigger = count ? sequence.length % count : 0
+  let at = 0
+  for (let i = 0; i < count; i++) {
+    const size = base + (i < bigger ? 1 : 0)
+    lessons.push(sequence.slice(at, at + size))
+    at += size
   }
 
   // Разводим похожие слова: меняем местами со словом из другого урока.

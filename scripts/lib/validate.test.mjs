@@ -51,6 +51,35 @@ function expressionsChapter(overrides = {}) {
   }
 }
 
+/** Словарная глава: уроков столько, сколько набралось слов, размеры выровнены. */
+function wordsChapter(sizes = [10, 10, 9], overrides = {}) {
+  let n = 0
+  return {
+    id: 'oxford-a1',
+    order: 3,
+    prefix: 'OXA',
+    kind: 'words',
+    group: 'Oxford 3000',
+    title: { en: 'Oxford 3000 · A1', ru: 'Самые нужные слова, уровень A1' },
+    lessons: sizes.map((size, l) => ({
+      id: `OXA-L${String(l + 1).padStart(2, '0')}`,
+      order: l + 1,
+      title: { en: `word ${l}`, ru: `Слова урока ${l + 1}` },
+      phrases: Array.from({ length: size }, () => {
+        n += 1
+        return {
+          id: `OXA${String(n).padStart(3, '0')}`,
+          en: `word ${n}`,
+          ru: `слово ${n}`,
+          pos: 'n.',
+          example: { en: `A word ${n}.`, ru: `Слово ${n}.` },
+        }
+      }),
+    })),
+    ...overrides,
+  }
+}
+
 const check = (chapters, planned = 11) => validateChapters(chapters, { plannedChapters: planned })
 
 describe('глава с фразами', () => {
@@ -164,6 +193,44 @@ describe('глава с выражениями', () => {
     const chapter = expressionsChapter()
     chapter.lessons[1].phrases = []
     expect(check([chapter]).errors.join(' ')).toContain('нет ни одной фразы')
+  })
+})
+
+describe('словарная глава', () => {
+  it('принимает любое число уроков: их задаёт число слов', () => {
+    // 900 слов — это 90 уроков, а не 20, как в главе с фразами.
+    const chapter = wordsChapter(Array.from({ length: 90 }, () => 10))
+    expect(check([chapter]).errors).toEqual([])
+  })
+
+  it('разрешает урокам отличаться на одно слово', () => {
+    // Остаток размазан по урокам: при 872 словах выходит 80 по десять и 8 по девять.
+    expect(check([wordsChapter([10, 10, 9, 9])]).errors).toEqual([])
+  })
+
+  it('ловит урок, который сильно меньше остальных', () => {
+    const errors = check([wordsChapter([10, 10, 4])]).errors
+    expect(errors.some((e) => e.includes('уроки разного размера'))).toBe(true)
+  })
+
+  it('ловит урок больше десяти слов', () => {
+    const errors = check([wordsChapter([11, 11, 11])]).errors
+    expect(errors.some((e) => e.includes('больше 10'))).toBe(true)
+  })
+
+  it('просит часть речи и пример у каждого слова', () => {
+    const chapter = wordsChapter()
+    delete chapter.lessons[0].phrases[0].pos
+    delete chapter.lessons[0].phrases[1].example
+    const { errors, warnings } = check([chapter])
+    expect(errors).toEqual([])
+    expect(warnings.some((w) => w.includes('часть речи'))).toBe(true)
+    expect(warnings.some((w) => w.includes('примера'))).toBe(true)
+  })
+
+  it('не знает такого вида главы — это ошибка', () => {
+    const errors = check([wordsChapter([10], { kind: 'выдумка' })]).errors
+    expect(errors.some((e) => e.includes('неизвестный вид главы'))).toBe(true)
   })
 })
 

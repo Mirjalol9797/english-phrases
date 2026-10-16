@@ -88,6 +88,18 @@
         "en": "Oxford 3000 · A1",
         "ru": "Самые нужные слова, уровень A1"
       }
+    },
+    {
+      "file": "oxford_3000_a2.pdf",
+      "id": "oxford-a2",
+      "order": 14,
+      "format": "words",
+      "prefix": "OXB",
+      "group": "Oxford 3000",
+      "title": {
+        "en": "Oxford 3000 · A2",
+        "ru": "Самые нужные слова, уровень A2"
+      }
     }
   ]
 }

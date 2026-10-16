@@ -19,12 +19,20 @@ const flat = (lessons) => lessons.flat()
 
 describe('buildWordLessons', () => {
   it('режет на уроки по десять и не теряет слов', () => {
-    const lessons = buildWordLessons(words(95))
-    expect(lessons).toHaveLength(10)
-    expect(lessons.slice(0, 9).every((lesson) => lesson.length === 10)).toBe(true)
-    // Последним уроком идёт остаток.
-    expect(lessons.at(-1)).toHaveLength(5)
-    expect(flat(lessons)).toHaveLength(95)
+    const lessons = buildWordLessons(words(90))
+    expect(lessons).toHaveLength(9)
+    expect(lessons.every((lesson) => lesson.length === 10)).toBe(true)
+    expect(flat(lessons)).toHaveLength(90)
+  })
+
+  it('остаток размазывает по урокам, а не оставляет огрызок в конце', () => {
+    // 872 слова — это 88 уроков. Последним не должно остаться два слова.
+    const lessons = buildWordLessons(words(872))
+    expect(lessons).toHaveLength(88)
+    expect(flat(lessons)).toHaveLength(872)
+    const sizes = [...new Set(lessons.map((lesson) => lesson.length))].sort((a, b) => a - b)
+    expect(sizes).toEqual([9, 10])
+    expect(Math.min(...lessons.map((lesson) => lesson.length))).toBe(9)
   })
 
   it('не теряет и не повторяет ни одного слова', () => {

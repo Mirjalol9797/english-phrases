@@ -70,6 +70,21 @@ export function validateChapters(chapters, { plannedChapters }) {
       else errors.push(message)
     }
 
+    // Словарная глава режется на уроки сама, и остаток размазывается по ним:
+    // при 872 словах выходит 88 уроков по 9–10 слов. Разница больше одного слова
+    // означает, что раскладка сломалась.
+    if (isWords && chapter.lessons.length > 1) {
+      const sizes = chapter.lessons.map((lesson) => lesson.phrases.length)
+      const smallest = Math.min(...sizes)
+      const largest = Math.max(...sizes)
+      if (largest - smallest > 1) {
+        errors.push(`${where}: уроки разного размера — от ${smallest} до ${largest} слов, ожидается разница не больше одного.`)
+      }
+      if (largest > PHRASES_PER_LESSON) {
+        errors.push(`${where}: в уроке ${largest} слов, это больше ${PHRASES_PER_LESSON}.`)
+      }
+    }
+
     const ruIndex = new Map()
     const seenLessonPrefixes = new Map() // префикс урока -> номер урока
     let expectedNumber = 1
@@ -89,12 +104,8 @@ export function validateChapters(chapters, { plannedChapters }) {
         if (lesson.phrases.length < MIN_PHRASES_PER_LESSON) {
           warnings.push(`${lessonWhere}: всего ${lesson.phrases.length} — подозрительно мало, ожидается хотя бы ${MIN_PHRASES_PER_LESSON}.`)
         }
-      } else if (lesson.phrases.length !== PHRASES_PER_LESSON) {
-        // В словарной главе последним уроком идёт остаток: слов может не хватить до десяти.
-        const isLast = lessonIndex === chapter.lessons.length - 1
-        const message = `${lessonWhere}: ${isWords ? 'слов' : 'фраз'} ${lesson.phrases.length}, ожидается ${PHRASES_PER_LESSON}.`
-        if (isWords && isLast) warnings.push(message)
-        else errors.push(message)
+      } else if (!isWords && lesson.phrases.length !== PHRASES_PER_LESSON) {
+        errors.push(`${lessonWhere}: фраз ${lesson.phrases.length}, ожидается ${PHRASES_PER_LESSON}.`)
       }
 
       // В главе с выражениями нумерация своя в каждом уроке: GET001…, TAKE001…
