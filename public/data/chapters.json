@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "plannedChapters": 16,
-  "totalPhrases": 5874,
+  "plannedChapters": 17,
+  "totalPhrases": 6104,
   "chapters": [
     {
       "id": "everyday-english",
@@ -160,8 +160,21 @@
       "phraseCount": 236
     },
     {
-      "id": "oxford-a1",
+      "id": "irregular-verbs",
       "order": 13,
+      "prefix": "IRV",
+      "kind": "verbs",
+      "title": {
+        "en": "Irregular Verbs",
+        "ru": "Неправильные глаголы"
+      },
+      "file": "chapters/irregular-verbs.json",
+      "lessonCount": 29,
+      "phraseCount": 230
+    },
+    {
+      "id": "oxford-a1",
+      "order": 14,
       "prefix": "OXA",
       "kind": "words",
       "group": "Oxford 3000",
@@ -175,7 +188,7 @@
     },
     {
       "id": "oxford-a2",
-      "order": 14,
+      "order": 15,
       "prefix": "OXB",
       "kind": "words",
       "group": "Oxford 3000",
@@ -189,7 +202,7 @@
     },
     {
       "id": "oxford-b1",
-      "order": 15,
+      "order": 16,
       "prefix": "OXC",
       "kind": "words",
       "group": "Oxford 3000",
@@ -203,7 +216,7 @@
     },
     {
       "id": "oxford-b2",
-      "order": 16,
+      "order": 17,
       "prefix": "OXD",
       "kind": "words",
       "group": "Oxford 3000",

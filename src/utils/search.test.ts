@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { highlight, normalizeSearch } from './search'
+import { highlight, normalizeSearch, englishSearchText } from './search'
 import { plural, itemForms, PHRASE_FORMS, LESSON_FORMS, EXPRESSION_FORMS, WORD_FORMS } from './plural'
 
 describe('normalizeSearch', () => {
@@ -84,5 +84,24 @@ describe('plural', () => {
     expect(plural(330, itemForms('expressions'))).toBe('330 выражений')
     expect(plural(900, itemForms('words'))).toBe('900 слов')
     expect(plural(1, itemForms('words'))).toBe('1 слово')
+  })
+})
+
+describe('englishSearchText', () => {
+  it('у обычной фразы это она сама', () => {
+    expect(englishSearchText({ en: 'How are you?' })).toBe('How are you?')
+  })
+
+  it('у неправильного глагола — все три формы', () => {
+    // «went» в тексте встречают чаще, чем «go», и искать будут именно его.
+    const text = englishSearchText({ en: 'go', forms: { v2: 'went', v3: 'gone' } })
+    expect(normalizeSearch(text)).toContain('went')
+    expect(normalizeSearch(text)).toContain('gone')
+    expect(normalizeSearch(text)).toContain('go')
+  })
+
+  it('варианты через слэш тоже попадают в поиск', () => {
+    const text = normalizeSearch(englishSearchText({ en: 'get', forms: { v2: 'got', v3: 'got/gotten' } }))
+    expect(text).toContain('gotten')
   })
 })

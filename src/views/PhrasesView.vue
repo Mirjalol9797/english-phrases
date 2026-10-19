@@ -7,7 +7,7 @@ import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import PhraseItem from '@/components/PhraseItem.vue'
 import AppIcon from '@/components/AppIcon.vue'
-import { normalizeSearch } from '@/utils/search'
+import { englishSearchText, normalizeSearch } from '@/utils/search'
 import { plural, MATCH_FORMS } from '@/utils/plural'
 import type { Phrase } from '@/types/content'
 
@@ -53,7 +53,7 @@ const entries = computed<SearchEntry[]>(() => {
           chapterTitle: chapter.title.en,
           lessonId: lesson.id,
           lessonTitle: lesson.title.ru,
-          en: normalizeSearch(phrase.en),
+          en: normalizeSearch(englishSearchText(phrase)),
           ru: normalizeSearch(phrase.ru),
         })
       }

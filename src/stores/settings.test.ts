@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { createPinia, setActivePinia } from 'pinia'
 import { DEFAULT_SESSION_SIZE } from '@/utils/parts'
+import { EXERCISE_ORDER } from '@/utils/practice'
 
 /** Хранилище в памяти: настоящего localStorage в node нет. */
 function fakeStorage(initial: Record<string, string> = {}) {
@@ -85,9 +86,9 @@ describe('дневной предел новых фраз', () => {
 })
 
 describe('выбор этапов', () => {
-  it('по умолчанию включены все пять', async () => {
+  it('по умолчанию включены все этапы', async () => {
     const settings = await loadStore()
-    expect(settings.enabledStages).toEqual(['choice-ru', 'listen', 'choice-en', 'assemble', 'typing'])
+    expect(settings.enabledStages).toEqual([...EXERCISE_ORDER])
   })
 
   it('читает сохранённый выбор', async () => {
@@ -99,8 +100,9 @@ describe('выбор этапов', () => {
 
   it('отбрасывает незнакомые названия, пустой список заменяет полным', async () => {
     expect((await loadStore({ 'english-phrases:stages': 'typing,выдумка' })).enabledStages).toEqual(['typing'])
-    expect((await loadStore({ 'english-phrases:stages': 'ерунда' })).enabledStages).toHaveLength(5)
-    expect((await loadStore({ 'english-phrases:stages': '' })).enabledStages).toHaveLength(5)
+    const all = EXERCISE_ORDER.length
+    expect((await loadStore({ 'english-phrases:stages': 'ерунда' })).enabledStages).toHaveLength(all)
+    expect((await loadStore({ 'english-phrases:stages': '' })).enabledStages).toHaveLength(all)
   })
 
   it('включённый обратно этап встаёт на своё место в порядке', async () => {

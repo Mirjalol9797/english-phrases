@@ -234,6 +234,46 @@ describe('buildReview', () => {
   })
 })
 
+describe('формы неправильного глагола', () => {
+  const verb: Phrase = { id: 'IRV001', en: 'go', ru: 'идти', forms: { v2: 'went', v3: 'gone' } }
+  const variants: Phrase = { id: 'IRV002', en: 'get', ru: 'получать', forms: { v2: 'got', v3: 'got/gotten' } }
+
+  function formsFor(phrase: Phrase) {
+    const steps = buildPractice([phrase, ...lesson], { ...pools, stages: ['forms'], withCards: false })
+    return steps.find((step) => step.phrase.id === phrase.id)
+  }
+
+  it('спрашивает вторую и третью формы', () => {
+    const step = formsFor(verb)
+    expect(step?.kind).toBe('forms')
+    if (step?.kind !== 'forms') return
+    expect(step.accept.v2).toEqual(['went'])
+    expect(step.accept.v3).toEqual(['gone'])
+  })
+
+  it('принимает и запись со слэшем, и каждый вариант', () => {
+    // По вопросу не угадать, ждут ли оба варианта: got и gotten одинаково верны.
+    const step = formsFor(variants)
+    if (step?.kind !== 'forms') return
+    expect(step.accept.v3).toEqual(['got/gotten', 'got', 'gotten'])
+  })
+
+  it('у фразы без форм этап пропускается', () => {
+    // Этап есть в списке для всех глав, но у фраз и слов форм нет.
+    const steps = buildPractice(lesson, { ...pools, stages: ['forms'], withCards: false })
+    expect(steps).toEqual([])
+  })
+
+  it('в повторении этап достаётся только глаголу', () => {
+    // Шестой уровень — это формы. Фраза вместо них получает соседний этап.
+    const [verbStep] = buildReview([verb], () => 5, pools)
+    expect(verbStep?.kind).toBe('forms')
+
+    const [phraseStep] = buildReview([lesson[4]!], () => 5, pools)
+    expect(phraseStep?.kind).toBe('typing')
+  })
+})
+
 describe('свои варианты ответа у фразы', () => {
   // Словарная статья «a, an»: по переводу не угадать, что ждут оба артикля.
   const article: Phrase = { id: 'OXA331', en: 'a, an', ru: 'неопределённый артикль', accept: ['a', 'an'] }

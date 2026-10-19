@@ -9,7 +9,9 @@
 //               (id | category | phrase_en | phrase_ru | example_en | example_ru),
 //               каждая категория становится отдельным уроком;
 //   words      (.pdf) — словарный уровень Oxford 3000: таблица
-//               «☐ | слово | часть речи | перевод | пример», уроки собираются сами.
+//               «☐ | слово | часть речи | перевод | пример», уроки собираются сами;
+//   verbs      (.docx) — неправильные глаголы: заголовки «Этап N — …» и таблицы
+//               «№ | V1 | V2 | V3 | Перевод», уроки идут по этапам.
 // Порядок, id и формат глав задаются в content/chapters.config.json.
 
 import { readFile, writeFile, readdir, mkdir, rm } from 'node:fs/promises'
@@ -20,6 +22,7 @@ import mammoth from 'mammoth'
 import { parse } from 'node-html-parser'
 import { PHRASE_ID, PHRASES_PER_LESSON, prefixOf, validateChapters, printReport } from './lib/validate.mjs'
 import { parseWordsPdf, buildWordLessons } from './lib/words-pdf.mjs'
+import { parseVerbsDocx, splitStage } from './lib/verbs-docx.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const sourceDir = path.join(root, 'content', 'source')
@@ -192,6 +195,53 @@ function headword(word) {
 }
 
 /**
+ * Формат verbs: неправильные глаголы по этапам.
+ *
+ * Порядок источника сохраняется: в нём глаголы идут по убыванию полезности,
+ * и перемешивать их, как слова в словаре, нельзя. Этап режется на уроки,
+ * и номер этапа остаётся в названии урока — по нему видно, где ты.
+ */
+async function parseVerbsChapter(filePath, entry) {
+  const { stages, problems } = await parseVerbsDocx(filePath)
+
+  if (!entry.title?.en || !entry.title?.ru) {
+    problems.push('для формата verbs нужно указать title в chapters.config.json.')
+  }
+
+  const perLesson = entry.wordsPerLesson ?? PHRASES_PER_LESSON
+  // Нумерация ID сквозная по главе: уроки разного размера, считать от номера нельзя.
+  let next = 1
+  const lessons = []
+
+  for (const stage of stages) {
+    // Номер глагола показываем внутри этапа: «Этап 3 · глаголы 1–9» понятнее,
+    // чем сквозной номер по всей главе.
+    let inStage = 1
+    for (const group of splitStage(stage.verbs, perLesson)) {
+      const from = inStage
+      const to = from + group.length - 1
+      inStage = to + 1
+      lessons.push({
+        order: lessons.length + 1,
+        // Английской строкой — сами глаголы: по ним урок узнаёшь, когда возвращаешься.
+        title: {
+          en: group.slice(0, 3).map((verb) => verb.v1).join(' · '),
+          ru: `Этап ${stage.number} · глаголы ${from}–${to}`,
+        },
+        phrases: group.map((verb) => ({
+          id: `${entry.prefix}${String(next++).padStart(3, '0')}`,
+          en: cleanEnglish(verb.v1),
+          ru: verb.ru,
+          forms: { v2: cleanEnglish(verb.v2), v3: cleanEnglish(verb.v3) },
+        })),
+      })
+    }
+  }
+
+  return { titleEn: '', titleRu: '', lessons, problems }
+}
+
+/**
  * Формат words: словарный уровень Oxford 3000.
  *
  * Слова не разложены по темам, поэтому уроки собираются сами — перемешиванием,
@@ -265,8 +315,8 @@ async function main() {
     // PDF бывает только со словами, и без prefix с title его не собрать.
     // Без этой проверки он ушёл бы в разбор Word и упал с ошибкой про zip.
     const format = entry.format ?? (entry.file.endsWith('.pdf') ? 'words' : 'lessons')
-    if (format !== 'lessons' && format !== 'categories' && format !== 'words') {
-      fatal.push(`${entry.file}: неизвестный format «${format}», ожидается lessons, categories или words.`)
+    if (!['lessons', 'categories', 'words', 'verbs'].includes(format)) {
+      fatal.push(`${entry.file}: неизвестный format «${format}», ожидается lessons, categories, words или verbs.`)
       continue
     }
 
@@ -274,9 +324,11 @@ async function main() {
     const parsed =
       format === 'words'
         ? await parseWordsChapter(filePath, entry)
-        : format === 'categories'
-          ? await parseCategoriesDocx(filePath)
-          : await parseChapterDocx(filePath)
+        : format === 'verbs'
+          ? await parseVerbsChapter(filePath, entry)
+          : format === 'categories'
+            ? await parseCategoriesDocx(filePath)
+            : await parseChapterDocx(filePath)
     fatal.push(...parsed.problems.map((p) => `${entry.file}: ${p}`))
 
     // В форматах categories и words нумерация задаётся не источником, а конфигом.
@@ -291,7 +343,8 @@ async function main() {
     const id = entry.id ?? slugify(titleEn || entry.file.replace(/\.(docx|pdf)$/, ''))
     const order = entry.order ?? nextOrder++
 
-    const kind = format === 'words' ? 'words' : format === 'categories' ? 'expressions' : 'phrases'
+    const KINDS = { words: 'words', verbs: 'verbs', categories: 'expressions', lessons: 'phrases' }
+    const kind = KINDS[format]
 
     chapters.push({
       id,

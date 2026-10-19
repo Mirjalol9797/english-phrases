@@ -29,6 +29,11 @@ watch(
       <SpeakButton :text="phrase.en" :speak="speak" :supported="speechSupported" />
     </div>
 
+    <!-- Три формы неправильного глагола: их и надо запомнить, перевод здесь вторичен. -->
+    <p v-if="phrase.forms" lang="en" class="mt-3 font-serif text-xl">
+      {{ phrase.forms.v2 }} — {{ phrase.forms.v3 }}
+    </p>
+
     <!-- Часть речи есть только у слов: «n.», «prep., adv.». Перенос строки между
          переводом и ею дал бы лишний пробел, поэтому теги стоят вплотную. -->
     <p class="mt-4 text-lg">{{ phrase.ru

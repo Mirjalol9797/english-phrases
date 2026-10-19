@@ -19,6 +19,11 @@ defineProps<{
       <span v-if="phrase.pos" lang="en" class="font-serif opacity-75">&nbsp;{{ phrase.pos }}</span>
     </p>
 
+    <!-- У неправильного глагола вторая и третья формы важнее примера. -->
+    <p v-if="phrase.forms" lang="en" class="mt-0.5 font-serif text-[0.9375rem] leading-snug text-muted sm:text-base">
+      {{ phrase.forms.v2 }} — {{ phrase.forms.v3 }}
+    </p>
+
     <!-- Пример употребления есть у выражений, у обычных фраз его нет. -->
     <p v-if="phrase.example" class="mt-1.5 border-l-2 border-line pl-3 text-sm leading-snug text-muted sm:mt-2">
       <span lang="en" class="block font-serif">{{ phrase.example.en }}</span>

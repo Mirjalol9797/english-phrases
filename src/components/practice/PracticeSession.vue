@@ -8,6 +8,7 @@ import ChoiceExercise from './ChoiceExercise.vue'
 import AssembleExercise from './AssembleExercise.vue'
 import TypingExercise from './TypingExercise.vue'
 import ListenExercise from './ListenExercise.vue'
+import FormsExercise from './FormsExercise.vue'
 import { EXERCISE_ORDER, EXERCISE_TITLES } from '@/utils/practice'
 import { isPhraseDone } from '@/utils/session'
 import { isTypingTarget, useHasKeyboard, useWindowKey } from '@/composables/useWindowKey'
@@ -88,6 +89,7 @@ const choiceStep = computed(() =>
 const listenStep = computed(() => (step.value?.kind === 'listen' ? step.value : null))
 const assembleStep = computed(() => (step.value?.kind === 'assemble' ? step.value : null))
 const typingStep = computed(() => (step.value?.kind === 'typing' ? step.value : null))
+const formsStep = computed(() => (step.value?.kind === 'forms' ? step.value : null))
 
 const progress = computed(() =>
   props.steps.length ? Math.round((Math.min(index.value, props.steps.length) / props.steps.length) * 100) : 0,
@@ -217,6 +219,7 @@ const keyboardHint = computed(() => {
       />
       <AssembleExercise v-else-if="assembleStep" :key="`assemble-${index}`" :step="assembleStep" @answer="onAnswer" />
       <TypingExercise v-else-if="typingStep" :key="`typing-${index}`" :step="typingStep" @answer="onAnswer" />
+      <FormsExercise v-else-if="formsStep" :key="`forms-${index}`" :step="formsStep" @answer="onAnswer" />
     </div>
 
     <div class="mt-6 sm:mt-8 flex flex-wrap items-center gap-x-4 gap-y-2">

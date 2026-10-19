@@ -19,12 +19,17 @@ export const EXPRESSION_FORMS: [string, string, string] = ['выражение',
 
 export const WORD_FORMS: [string, string, string] = ['слово', 'слова', 'слов']
 
+export const VERB_FORMS: [string, string, string] = ['глагол', 'глагола', 'глаголов']
+
+export const STAGE_FORMS: [string, string, string] = ['этап', 'этапа', 'этапов']
+
 /** Для словаря: там вперемешку фразы, выражения и слова, общее слово им — «совпадение». */
 export const MATCH_FORMS: [string, string, string] = ['совпадение', 'совпадения', 'совпадений']
 
-/** «200 фраз», «330 выражений» или «900 слов» — смотря чем наполнена глава. */
+/** «200 фраз», «330 выражений», «900 слов» или «230 глаголов» — смотря чем наполнена глава. */
 export function itemForms(kind: ChapterKind): [string, string, string] {
   if (kind === 'expressions') return EXPRESSION_FORMS
   if (kind === 'words') return WORD_FORMS
+  if (kind === 'verbs') return VERB_FORMS
   return PHRASE_FORMS
 }

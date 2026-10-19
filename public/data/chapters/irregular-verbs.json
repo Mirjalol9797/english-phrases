@@ -1,0 +1,2372 @@
+{
+  "id": "irregular-verbs",
+  "order": 13,
+  "prefix": "IRV",
+  "kind": "verbs",
+  "title": {
+    "en": "Irregular Verbs",
+    "ru": "Неправильные глаголы"
+  },
+  "lessons": [
+    {
+      "id": "IRV-L01",
+      "order": 1,
+      "title": {
+        "en": "be · have · do",
+        "ru": "Этап 1 · глаголы 1–10"
+      },
+      "phrases": [
+        {
+          "id": "IRV001",
+          "en": "be",
+          "ru": "быть; находиться",
+          "forms": {
+            "v2": "was/were",
+            "v3": "been"
+          }
+        },
+        {
+          "id": "IRV002",
+          "en": "have",
+          "ru": "иметь",
+          "forms": {
+            "v2": "had",
+            "v3": "had"
+          }
+        },
+        {
+          "id": "IRV003",
+          "en": "do",
+          "ru": "делать",
+          "forms": {
+            "v2": "did",
+            "v3": "done"
+          }
+        },
+        {
+          "id": "IRV004",
+          "en": "go",
+          "ru": "идти; ехать",
+          "forms": {
+            "v2": "went",
+            "v3": "gone"
+          }
+        },
+        {
+          "id": "IRV005",
+          "en": "get",
+          "ru": "получать; становиться",
+          "forms": {
+            "v2": "got",
+            "v3": "got/gotten"
+          }
+        },
+        {
+          "id": "IRV006",
+          "en": "make",
+          "ru": "делать; создавать",
+          "forms": {
+            "v2": "made",
+            "v3": "made"
+          }
+        },
+        {
+          "id": "IRV007",
+          "en": "take",
+          "ru": "брать",
+          "forms": {
+            "v2": "took",
+            "v3": "taken"
+          }
+        },
+        {
+          "id": "IRV008",
+          "en": "come",
+          "ru": "приходить; приезжать",
+          "forms": {
+            "v2": "came",
+            "v3": "come"
+          }
+        },
+        {
+          "id": "IRV009",
+          "en": "see",
+          "ru": "видеть",
+          "forms": {
+            "v2": "saw",
+            "v3": "seen"
+          }
+        },
+        {
+          "id": "IRV010",
+          "en": "know",
+          "ru": "знать",
+          "forms": {
+            "v2": "knew",
+            "v3": "known"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L02",
+      "order": 2,
+      "title": {
+        "en": "think · say · give",
+        "ru": "Этап 1 · глаголы 11–20"
+      },
+      "phrases": [
+        {
+          "id": "IRV011",
+          "en": "think",
+          "ru": "думать",
+          "forms": {
+            "v2": "thought",
+            "v3": "thought"
+          }
+        },
+        {
+          "id": "IRV012",
+          "en": "say",
+          "ru": "говорить; сказать",
+          "forms": {
+            "v2": "said",
+            "v3": "said"
+          }
+        },
+        {
+          "id": "IRV013",
+          "en": "give",
+          "ru": "давать",
+          "forms": {
+            "v2": "gave",
+            "v3": "given"
+          }
+        },
+        {
+          "id": "IRV014",
+          "en": "find",
+          "ru": "находить",
+          "forms": {
+            "v2": "found",
+            "v3": "found"
+          }
+        },
+        {
+          "id": "IRV015",
+          "en": "tell",
+          "ru": "рассказывать; говорить",
+          "forms": {
+            "v2": "told",
+            "v3": "told"
+          }
+        },
+        {
+          "id": "IRV016",
+          "en": "feel",
+          "ru": "чувствовать",
+          "forms": {
+            "v2": "felt",
+            "v3": "felt"
+          }
+        },
+        {
+          "id": "IRV017",
+          "en": "leave",
+          "ru": "уходить; оставлять",
+          "forms": {
+            "v2": "left",
+            "v3": "left"
+          }
+        },
+        {
+          "id": "IRV018",
+          "en": "put",
+          "ru": "класть; ставить",
+          "forms": {
+            "v2": "put",
+            "v3": "put"
+          }
+        },
+        {
+          "id": "IRV019",
+          "en": "bring",
+          "ru": "приносить; привозить",
+          "forms": {
+            "v2": "brought",
+            "v3": "brought"
+          }
+        },
+        {
+          "id": "IRV020",
+          "en": "begin",
+          "ru": "начинать(ся)",
+          "forms": {
+            "v2": "began",
+            "v3": "begun"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L03",
+      "order": 3,
+      "title": {
+        "en": "keep · hold · write",
+        "ru": "Этап 1 · глаголы 21–30"
+      },
+      "phrases": [
+        {
+          "id": "IRV021",
+          "en": "keep",
+          "ru": "держать; хранить",
+          "forms": {
+            "v2": "kept",
+            "v3": "kept"
+          }
+        },
+        {
+          "id": "IRV022",
+          "en": "hold",
+          "ru": "держать",
+          "forms": {
+            "v2": "held",
+            "v3": "held"
+          }
+        },
+        {
+          "id": "IRV023",
+          "en": "write",
+          "ru": "писать",
+          "forms": {
+            "v2": "wrote",
+            "v3": "written"
+          }
+        },
+        {
+          "id": "IRV024",
+          "en": "speak",
+          "ru": "говорить",
+          "forms": {
+            "v2": "spoke",
+            "v3": "spoken"
+          }
+        },
+        {
+          "id": "IRV025",
+          "en": "read",
+          "ru": "читать",
+          "forms": {
+            "v2": "read",
+            "v3": "read"
+          }
+        },
+        {
+          "id": "IRV026",
+          "en": "eat",
+          "ru": "есть",
+          "forms": {
+            "v2": "ate",
+            "v3": "eaten"
+          }
+        },
+        {
+          "id": "IRV027",
+          "en": "drink",
+          "ru": "пить",
+          "forms": {
+            "v2": "drank",
+            "v3": "drunk"
+          }
+        },
+        {
+          "id": "IRV028",
+          "en": "buy",
+          "ru": "покупать",
+          "forms": {
+            "v2": "bought",
+            "v3": "bought"
+          }
+        },
+        {
+          "id": "IRV029",
+          "en": "pay",
+          "ru": "платить",
+          "forms": {
+            "v2": "paid",
+            "v3": "paid"
+          }
+        },
+        {
+          "id": "IRV030",
+          "en": "meet",
+          "ru": "встречать(ся)",
+          "forms": {
+            "v2": "met",
+            "v3": "met"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L04",
+      "order": 4,
+      "title": {
+        "en": "hear · run · sit",
+        "ru": "Этап 2 · глаголы 1–10"
+      },
+      "phrases": [
+        {
+          "id": "IRV031",
+          "en": "hear",
+          "ru": "слышать",
+          "forms": {
+            "v2": "heard",
+            "v3": "heard"
+          }
+        },
+        {
+          "id": "IRV032",
+          "en": "run",
+          "ru": "бежать",
+          "forms": {
+            "v2": "ran",
+            "v3": "run"
+          }
+        },
+        {
+          "id": "IRV033",
+          "en": "sit",
+          "ru": "сидеть",
+          "forms": {
+            "v2": "sat",
+            "v3": "sat"
+          }
+        },
+        {
+          "id": "IRV034",
+          "en": "stand",
+          "ru": "стоять",
+          "forms": {
+            "v2": "stood",
+            "v3": "stood"
+          }
+        },
+        {
+          "id": "IRV035",
+          "en": "sleep",
+          "ru": "спать",
+          "forms": {
+            "v2": "slept",
+            "v3": "slept"
+          }
+        },
+        {
+          "id": "IRV036",
+          "en": "send",
+          "ru": "отправлять",
+          "forms": {
+            "v2": "sent",
+            "v3": "sent"
+          }
+        },
+        {
+          "id": "IRV037",
+          "en": "spend",
+          "ru": "тратить; проводить время",
+          "forms": {
+            "v2": "spent",
+            "v3": "spent"
+          }
+        },
+        {
+          "id": "IRV038",
+          "en": "win",
+          "ru": "побеждать; выигрывать",
+          "forms": {
+            "v2": "won",
+            "v3": "won"
+          }
+        },
+        {
+          "id": "IRV039",
+          "en": "lose",
+          "ru": "терять; проигрывать",
+          "forms": {
+            "v2": "lost",
+            "v3": "lost"
+          }
+        },
+        {
+          "id": "IRV040",
+          "en": "fall",
+          "ru": "падать",
+          "forms": {
+            "v2": "fell",
+            "v3": "fallen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L05",
+      "order": 5,
+      "title": {
+        "en": "forget · understand · build",
+        "ru": "Этап 2 · глаголы 11–20"
+      },
+      "phrases": [
+        {
+          "id": "IRV041",
+          "en": "forget",
+          "ru": "забывать",
+          "forms": {
+            "v2": "forgot",
+            "v3": "forgotten"
+          }
+        },
+        {
+          "id": "IRV042",
+          "en": "understand",
+          "ru": "понимать",
+          "forms": {
+            "v2": "understood",
+            "v3": "understood"
+          }
+        },
+        {
+          "id": "IRV043",
+          "en": "build",
+          "ru": "строить",
+          "forms": {
+            "v2": "built",
+            "v3": "built"
+          }
+        },
+        {
+          "id": "IRV044",
+          "en": "break",
+          "ru": "ломать; разбивать",
+          "forms": {
+            "v2": "broke",
+            "v3": "broken"
+          }
+        },
+        {
+          "id": "IRV045",
+          "en": "choose",
+          "ru": "выбирать",
+          "forms": {
+            "v2": "chose",
+            "v3": "chosen"
+          }
+        },
+        {
+          "id": "IRV046",
+          "en": "drive",
+          "ru": "водить; ехать на машине",
+          "forms": {
+            "v2": "drove",
+            "v3": "driven"
+          }
+        },
+        {
+          "id": "IRV047",
+          "en": "wear",
+          "ru": "носить (одежду)",
+          "forms": {
+            "v2": "wore",
+            "v3": "worn"
+          }
+        },
+        {
+          "id": "IRV048",
+          "en": "teach",
+          "ru": "учить; преподавать",
+          "forms": {
+            "v2": "taught",
+            "v3": "taught"
+          }
+        },
+        {
+          "id": "IRV049",
+          "en": "learn",
+          "ru": "учить; узнавать",
+          "forms": {
+            "v2": "learnt/learned",
+            "v3": "learnt/learned"
+          }
+        },
+        {
+          "id": "IRV050",
+          "en": "become",
+          "ru": "становиться",
+          "forms": {
+            "v2": "became",
+            "v3": "become"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L06",
+      "order": 6,
+      "title": {
+        "en": "show · catch · cut",
+        "ru": "Этап 3 · глаголы 1–9"
+      },
+      "phrases": [
+        {
+          "id": "IRV051",
+          "en": "show",
+          "ru": "показывать",
+          "forms": {
+            "v2": "showed",
+            "v3": "shown/showed"
+          }
+        },
+        {
+          "id": "IRV052",
+          "en": "catch",
+          "ru": "ловить; поймать",
+          "forms": {
+            "v2": "caught",
+            "v3": "caught"
+          }
+        },
+        {
+          "id": "IRV053",
+          "en": "cut",
+          "ru": "резать",
+          "forms": {
+            "v2": "cut",
+            "v3": "cut"
+          }
+        },
+        {
+          "id": "IRV054",
+          "en": "cost",
+          "ru": "стоить",
+          "forms": {
+            "v2": "cost",
+            "v3": "cost"
+          }
+        },
+        {
+          "id": "IRV055",
+          "en": "draw",
+          "ru": "рисовать; тянуть",
+          "forms": {
+            "v2": "drew",
+            "v3": "drawn"
+          }
+        },
+        {
+          "id": "IRV056",
+          "en": "fight",
+          "ru": "драться; бороться",
+          "forms": {
+            "v2": "fought",
+            "v3": "fought"
+          }
+        },
+        {
+          "id": "IRV057",
+          "en": "fly",
+          "ru": "летать",
+          "forms": {
+            "v2": "flew",
+            "v3": "flown"
+          }
+        },
+        {
+          "id": "IRV058",
+          "en": "grow",
+          "ru": "расти; выращивать",
+          "forms": {
+            "v2": "grew",
+            "v3": "grown"
+          }
+        },
+        {
+          "id": "IRV059",
+          "en": "let",
+          "ru": "позволять",
+          "forms": {
+            "v2": "let",
+            "v3": "let"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L07",
+      "order": 7,
+      "title": {
+        "en": "lie · mean · ride",
+        "ru": "Этап 3 · глаголы 10–17"
+      },
+      "phrases": [
+        {
+          "id": "IRV060",
+          "en": "lie",
+          "ru": "лежать",
+          "forms": {
+            "v2": "lay",
+            "v3": "lain"
+          }
+        },
+        {
+          "id": "IRV061",
+          "en": "mean",
+          "ru": "значить; иметь в виду",
+          "forms": {
+            "v2": "meant",
+            "v3": "meant"
+          }
+        },
+        {
+          "id": "IRV062",
+          "en": "ride",
+          "ru": "ездить верхом; кататься",
+          "forms": {
+            "v2": "rode",
+            "v3": "ridden"
+          }
+        },
+        {
+          "id": "IRV063",
+          "en": "ring",
+          "ru": "звонить",
+          "forms": {
+            "v2": "rang",
+            "v3": "rung"
+          }
+        },
+        {
+          "id": "IRV064",
+          "en": "rise",
+          "ru": "подниматься",
+          "forms": {
+            "v2": "rose",
+            "v3": "risen"
+          }
+        },
+        {
+          "id": "IRV065",
+          "en": "sell",
+          "ru": "продавать",
+          "forms": {
+            "v2": "sold",
+            "v3": "sold"
+          }
+        },
+        {
+          "id": "IRV066",
+          "en": "shake",
+          "ru": "трясти",
+          "forms": {
+            "v2": "shook",
+            "v3": "shaken"
+          }
+        },
+        {
+          "id": "IRV067",
+          "en": "shoot",
+          "ru": "стрелять",
+          "forms": {
+            "v2": "shot",
+            "v3": "shot"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L08",
+      "order": 8,
+      "title": {
+        "en": "shut · sing · sink",
+        "ru": "Этап 3 · глаголы 18–25"
+      },
+      "phrases": [
+        {
+          "id": "IRV068",
+          "en": "shut",
+          "ru": "закрывать",
+          "forms": {
+            "v2": "shut",
+            "v3": "shut"
+          }
+        },
+        {
+          "id": "IRV069",
+          "en": "sing",
+          "ru": "петь",
+          "forms": {
+            "v2": "sang",
+            "v3": "sung"
+          }
+        },
+        {
+          "id": "IRV070",
+          "en": "sink",
+          "ru": "тонуть; погружаться",
+          "forms": {
+            "v2": "sank/sunk",
+            "v3": "sunk"
+          }
+        },
+        {
+          "id": "IRV071",
+          "en": "slide",
+          "ru": "скользить",
+          "forms": {
+            "v2": "slid",
+            "v3": "slid"
+          }
+        },
+        {
+          "id": "IRV072",
+          "en": "smell",
+          "ru": "пахнуть; нюхать",
+          "forms": {
+            "v2": "smelt/smelled",
+            "v3": "smelt/smelled"
+          }
+        },
+        {
+          "id": "IRV073",
+          "en": "swim",
+          "ru": "плавать",
+          "forms": {
+            "v2": "swam",
+            "v3": "swum"
+          }
+        },
+        {
+          "id": "IRV074",
+          "en": "swing",
+          "ru": "качать(ся); размахивать",
+          "forms": {
+            "v2": "swung",
+            "v3": "swung"
+          }
+        },
+        {
+          "id": "IRV075",
+          "en": "throw",
+          "ru": "бросать",
+          "forms": {
+            "v2": "threw",
+            "v3": "thrown"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L09",
+      "order": 9,
+      "title": {
+        "en": "wake · feed · freeze",
+        "ru": "Этап 4 · глаголы 1–9"
+      },
+      "phrases": [
+        {
+          "id": "IRV076",
+          "en": "wake",
+          "ru": "просыпаться; будить",
+          "forms": {
+            "v2": "woke/waked",
+            "v3": "woken/waked"
+          }
+        },
+        {
+          "id": "IRV077",
+          "en": "feed",
+          "ru": "кормить",
+          "forms": {
+            "v2": "fed",
+            "v3": "fed"
+          }
+        },
+        {
+          "id": "IRV078",
+          "en": "freeze",
+          "ru": "замерзать; замораживать",
+          "forms": {
+            "v2": "froze",
+            "v3": "frozen"
+          }
+        },
+        {
+          "id": "IRV079",
+          "en": "hide",
+          "ru": "прятать(ся)",
+          "forms": {
+            "v2": "hid",
+            "v3": "hidden"
+          }
+        },
+        {
+          "id": "IRV080",
+          "en": "lead",
+          "ru": "вести; руководить",
+          "forms": {
+            "v2": "led",
+            "v3": "led"
+          }
+        },
+        {
+          "id": "IRV081",
+          "en": "lend",
+          "ru": "одалживать кому-либо",
+          "forms": {
+            "v2": "lent",
+            "v3": "lent"
+          }
+        },
+        {
+          "id": "IRV082",
+          "en": "light",
+          "ru": "зажигать; освещать",
+          "forms": {
+            "v2": "lit/lighted",
+            "v3": "lit/lighted"
+          }
+        },
+        {
+          "id": "IRV083",
+          "en": "prove",
+          "ru": "доказывать",
+          "forms": {
+            "v2": "proved",
+            "v3": "proved/proven"
+          }
+        },
+        {
+          "id": "IRV084",
+          "en": "quit",
+          "ru": "бросать; прекращать",
+          "forms": {
+            "v2": "quit/quitted",
+            "v3": "quit/quitted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L10",
+      "order": 10,
+      "title": {
+        "en": "set · stick · tear",
+        "ru": "Этап 4 · глаголы 10–17"
+      },
+      "phrases": [
+        {
+          "id": "IRV085",
+          "en": "set",
+          "ru": "устанавливать; ставить",
+          "forms": {
+            "v2": "set",
+            "v3": "set"
+          }
+        },
+        {
+          "id": "IRV086",
+          "en": "stick",
+          "ru": "приклеивать; застревать",
+          "forms": {
+            "v2": "stuck",
+            "v3": "stuck"
+          }
+        },
+        {
+          "id": "IRV087",
+          "en": "tear",
+          "ru": "рвать",
+          "forms": {
+            "v2": "tore",
+            "v3": "torn"
+          }
+        },
+        {
+          "id": "IRV088",
+          "en": "bite",
+          "ru": "кусать",
+          "forms": {
+            "v2": "bit",
+            "v3": "bitten"
+          }
+        },
+        {
+          "id": "IRV089",
+          "en": "blow",
+          "ru": "дуть",
+          "forms": {
+            "v2": "blew",
+            "v3": "blown"
+          }
+        },
+        {
+          "id": "IRV090",
+          "en": "burn",
+          "ru": "гореть; обжигать",
+          "forms": {
+            "v2": "burnt/burned",
+            "v3": "burnt/burned"
+          }
+        },
+        {
+          "id": "IRV091",
+          "en": "deal",
+          "ru": "иметь дело; раздавать",
+          "forms": {
+            "v2": "dealt",
+            "v3": "dealt"
+          }
+        },
+        {
+          "id": "IRV092",
+          "en": "dream",
+          "ru": "мечтать; видеть сны",
+          "forms": {
+            "v2": "dreamt/dreamed",
+            "v3": "dreamt/dreamed"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L11",
+      "order": 11,
+      "title": {
+        "en": "forgive · hurt · steal",
+        "ru": "Этап 4 · глаголы 18–25"
+      },
+      "phrases": [
+        {
+          "id": "IRV093",
+          "en": "forgive",
+          "ru": "прощать",
+          "forms": {
+            "v2": "forgave",
+            "v3": "forgiven"
+          }
+        },
+        {
+          "id": "IRV094",
+          "en": "hurt",
+          "ru": "причинять боль; болеть",
+          "forms": {
+            "v2": "hurt",
+            "v3": "hurt"
+          }
+        },
+        {
+          "id": "IRV095",
+          "en": "steal",
+          "ru": "красть",
+          "forms": {
+            "v2": "stole",
+            "v3": "stolen"
+          }
+        },
+        {
+          "id": "IRV096",
+          "en": "sweep",
+          "ru": "подметать",
+          "forms": {
+            "v2": "swept",
+            "v3": "swept"
+          }
+        },
+        {
+          "id": "IRV097",
+          "en": "hang",
+          "ru": "вешать; висеть; казнить через повешение",
+          "forms": {
+            "v2": "hung/hanged",
+            "v3": "hung/hanged"
+          }
+        },
+        {
+          "id": "IRV098",
+          "en": "lay",
+          "ru": "класть; укладывать",
+          "forms": {
+            "v2": "laid",
+            "v3": "laid"
+          }
+        },
+        {
+          "id": "IRV099",
+          "en": "seek",
+          "ru": "искать",
+          "forms": {
+            "v2": "sought",
+            "v3": "sought"
+          }
+        },
+        {
+          "id": "IRV100",
+          "en": "spread",
+          "ru": "распространять; намазывать",
+          "forms": {
+            "v2": "spread",
+            "v3": "spread"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L12",
+      "order": 12,
+      "title": {
+        "en": "arise · awake · bear",
+        "ru": "Этап 5 · глаголы 1–8"
+      },
+      "phrases": [
+        {
+          "id": "IRV101",
+          "en": "arise",
+          "ru": "возникать; подниматься",
+          "forms": {
+            "v2": "arose",
+            "v3": "arisen"
+          }
+        },
+        {
+          "id": "IRV102",
+          "en": "awake",
+          "ru": "просыпаться; будить",
+          "forms": {
+            "v2": "awoke",
+            "v3": "awoken"
+          }
+        },
+        {
+          "id": "IRV103",
+          "en": "bear",
+          "ru": "нести; выносить; рождать",
+          "forms": {
+            "v2": "bore",
+            "v3": "borne/born"
+          }
+        },
+        {
+          "id": "IRV104",
+          "en": "beat",
+          "ru": "бить; побеждать",
+          "forms": {
+            "v2": "beat",
+            "v3": "beaten"
+          }
+        },
+        {
+          "id": "IRV105",
+          "en": "bend",
+          "ru": "сгибать(ся)",
+          "forms": {
+            "v2": "bent",
+            "v3": "bent"
+          }
+        },
+        {
+          "id": "IRV106",
+          "en": "bind",
+          "ru": "связывать; переплетать",
+          "forms": {
+            "v2": "bound",
+            "v3": "bound"
+          }
+        },
+        {
+          "id": "IRV107",
+          "en": "breed",
+          "ru": "разводить; выращивать",
+          "forms": {
+            "v2": "bred",
+            "v3": "bred"
+          }
+        },
+        {
+          "id": "IRV108",
+          "en": "burst",
+          "ru": "лопаться; взрываться",
+          "forms": {
+            "v2": "burst",
+            "v3": "burst"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L13",
+      "order": 13,
+      "title": {
+        "en": "cast · cling · creep",
+        "ru": "Этап 5 · глаголы 9–15"
+      },
+      "phrases": [
+        {
+          "id": "IRV109",
+          "en": "cast",
+          "ru": "бросать; распределять роли",
+          "forms": {
+            "v2": "cast",
+            "v3": "cast"
+          }
+        },
+        {
+          "id": "IRV110",
+          "en": "cling",
+          "ru": "цепляться; прилипать",
+          "forms": {
+            "v2": "clung",
+            "v3": "clung"
+          }
+        },
+        {
+          "id": "IRV111",
+          "en": "creep",
+          "ru": "ползти; красться",
+          "forms": {
+            "v2": "crept",
+            "v3": "crept"
+          }
+        },
+        {
+          "id": "IRV112",
+          "en": "dig",
+          "ru": "копать",
+          "forms": {
+            "v2": "dug",
+            "v3": "dug"
+          }
+        },
+        {
+          "id": "IRV113",
+          "en": "dive",
+          "ru": "нырять",
+          "forms": {
+            "v2": "dived/dove",
+            "v3": "dived"
+          }
+        },
+        {
+          "id": "IRV114",
+          "en": "flee",
+          "ru": "убегать; спасаться бегством",
+          "forms": {
+            "v2": "fled",
+            "v3": "fled"
+          }
+        },
+        {
+          "id": "IRV115",
+          "en": "fling",
+          "ru": "швырять",
+          "forms": {
+            "v2": "flung",
+            "v3": "flung"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L14",
+      "order": 14,
+      "title": {
+        "en": "forbid · forecast · foresee",
+        "ru": "Этап 5 · глаголы 16–22"
+      },
+      "phrases": [
+        {
+          "id": "IRV116",
+          "en": "forbid",
+          "ru": "запрещать",
+          "forms": {
+            "v2": "forbade",
+            "v3": "forbidden"
+          }
+        },
+        {
+          "id": "IRV117",
+          "en": "forecast",
+          "ru": "прогнозировать",
+          "forms": {
+            "v2": "forecast/forecasted",
+            "v3": "forecast/forecasted"
+          }
+        },
+        {
+          "id": "IRV118",
+          "en": "foresee",
+          "ru": "предвидеть",
+          "forms": {
+            "v2": "foresaw",
+            "v3": "foreseen"
+          }
+        },
+        {
+          "id": "IRV119",
+          "en": "foretell",
+          "ru": "предсказывать",
+          "forms": {
+            "v2": "foretold",
+            "v3": "foretold"
+          }
+        },
+        {
+          "id": "IRV120",
+          "en": "forsake",
+          "ru": "покидать; оставлять",
+          "forms": {
+            "v2": "forsook",
+            "v3": "forsaken"
+          }
+        },
+        {
+          "id": "IRV121",
+          "en": "grind",
+          "ru": "молоть; измельчать",
+          "forms": {
+            "v2": "ground",
+            "v3": "ground"
+          }
+        },
+        {
+          "id": "IRV122",
+          "en": "kneel",
+          "ru": "становиться на колени",
+          "forms": {
+            "v2": "knelt/kneeled",
+            "v3": "knelt/kneeled"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L15",
+      "order": 15,
+      "title": {
+        "en": "knit · lean · leap",
+        "ru": "Этап 6 · глаголы 1–8"
+      },
+      "phrases": [
+        {
+          "id": "IRV123",
+          "en": "knit",
+          "ru": "вязать",
+          "forms": {
+            "v2": "knit/knitted",
+            "v3": "knit/knitted"
+          }
+        },
+        {
+          "id": "IRV124",
+          "en": "lean",
+          "ru": "наклоняться; опираться",
+          "forms": {
+            "v2": "leant/leaned",
+            "v3": "leant/leaned"
+          }
+        },
+        {
+          "id": "IRV125",
+          "en": "leap",
+          "ru": "прыгать",
+          "forms": {
+            "v2": "leapt/leaped",
+            "v3": "leapt/leaped"
+          }
+        },
+        {
+          "id": "IRV126",
+          "en": "overcome",
+          "ru": "преодолевать",
+          "forms": {
+            "v2": "overcame",
+            "v3": "overcome"
+          }
+        },
+        {
+          "id": "IRV127",
+          "en": "overdo",
+          "ru": "делать чрезмерно",
+          "forms": {
+            "v2": "overdid",
+            "v3": "overdone"
+          }
+        },
+        {
+          "id": "IRV128",
+          "en": "overeat",
+          "ru": "переедать",
+          "forms": {
+            "v2": "overate",
+            "v3": "overeaten"
+          }
+        },
+        {
+          "id": "IRV129",
+          "en": "overhear",
+          "ru": "случайно услышать",
+          "forms": {
+            "v2": "overheard",
+            "v3": "overheard"
+          }
+        },
+        {
+          "id": "IRV130",
+          "en": "overpay",
+          "ru": "переплачивать",
+          "forms": {
+            "v2": "overpaid",
+            "v3": "overpaid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L16",
+      "order": 16,
+      "title": {
+        "en": "oversleep · overtake · overthrow",
+        "ru": "Этап 6 · глаголы 9–15"
+      },
+      "phrases": [
+        {
+          "id": "IRV131",
+          "en": "oversleep",
+          "ru": "проспать",
+          "forms": {
+            "v2": "overslept",
+            "v3": "overslept"
+          }
+        },
+        {
+          "id": "IRV132",
+          "en": "overtake",
+          "ru": "обгонять; настигать",
+          "forms": {
+            "v2": "overtook",
+            "v3": "overtaken"
+          }
+        },
+        {
+          "id": "IRV133",
+          "en": "overthrow",
+          "ru": "свергать",
+          "forms": {
+            "v2": "overthrew",
+            "v3": "overthrown"
+          }
+        },
+        {
+          "id": "IRV134",
+          "en": "rebuild",
+          "ru": "перестраивать",
+          "forms": {
+            "v2": "rebuilt",
+            "v3": "rebuilt"
+          }
+        },
+        {
+          "id": "IRV135",
+          "en": "redo",
+          "ru": "переделывать",
+          "forms": {
+            "v2": "redid",
+            "v3": "redone"
+          }
+        },
+        {
+          "id": "IRV136",
+          "en": "remake",
+          "ru": "переделывать; переснимать",
+          "forms": {
+            "v2": "remade",
+            "v3": "remade"
+          }
+        },
+        {
+          "id": "IRV137",
+          "en": "repay",
+          "ru": "возмещать; возвращать деньги",
+          "forms": {
+            "v2": "repaid",
+            "v3": "repaid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L17",
+      "order": 17,
+      "title": {
+        "en": "reread · reset · retake",
+        "ru": "Этап 6 · глаголы 16–22"
+      },
+      "phrases": [
+        {
+          "id": "IRV138",
+          "en": "reread",
+          "ru": "перечитывать",
+          "forms": {
+            "v2": "reread",
+            "v3": "reread"
+          }
+        },
+        {
+          "id": "IRV139",
+          "en": "reset",
+          "ru": "сбрасывать; устанавливать заново",
+          "forms": {
+            "v2": "reset",
+            "v3": "reset"
+          }
+        },
+        {
+          "id": "IRV140",
+          "en": "retake",
+          "ru": "пересдавать; брать снова",
+          "forms": {
+            "v2": "retook",
+            "v3": "retaken"
+          }
+        },
+        {
+          "id": "IRV141",
+          "en": "rewrite",
+          "ru": "переписывать",
+          "forms": {
+            "v2": "rewrote",
+            "v3": "rewritten"
+          }
+        },
+        {
+          "id": "IRV142",
+          "en": "mislead",
+          "ru": "вводить в заблуждение",
+          "forms": {
+            "v2": "misled",
+            "v3": "misled"
+          }
+        },
+        {
+          "id": "IRV143",
+          "en": "misunderstand",
+          "ru": "неправильно понимать",
+          "forms": {
+            "v2": "misunderstood",
+            "v3": "misunderstood"
+          }
+        },
+        {
+          "id": "IRV144",
+          "en": "input",
+          "ru": "вводить данные",
+          "forms": {
+            "v2": "input/inputted",
+            "v3": "input/inputted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L18",
+      "order": 18,
+      "title": {
+        "en": "broadcast · unfreeze · uphold",
+        "ru": "Этап 7 · глаголы 1–8"
+      },
+      "phrases": [
+        {
+          "id": "IRV145",
+          "en": "broadcast",
+          "ru": "транслировать",
+          "forms": {
+            "v2": "broadcast/broadcasted",
+            "v3": "broadcast/broadcasted"
+          }
+        },
+        {
+          "id": "IRV146",
+          "en": "unfreeze",
+          "ru": "размораживать",
+          "forms": {
+            "v2": "unfroze",
+            "v3": "unfrozen"
+          }
+        },
+        {
+          "id": "IRV147",
+          "en": "uphold",
+          "ru": "поддерживать; отстаивать",
+          "forms": {
+            "v2": "upheld",
+            "v3": "upheld"
+          }
+        },
+        {
+          "id": "IRV148",
+          "en": "upset",
+          "ru": "расстраивать; опрокидывать",
+          "forms": {
+            "v2": "upset",
+            "v3": "upset"
+          }
+        },
+        {
+          "id": "IRV149",
+          "en": "undo",
+          "ru": "отменять; развязывать",
+          "forms": {
+            "v2": "undid",
+            "v3": "undone"
+          }
+        },
+        {
+          "id": "IRV150",
+          "en": "undertake",
+          "ru": "предпринимать; брать на себя",
+          "forms": {
+            "v2": "undertook",
+            "v3": "undertaken"
+          }
+        },
+        {
+          "id": "IRV151",
+          "en": "undergo",
+          "ru": "проходить через; подвергаться",
+          "forms": {
+            "v2": "underwent",
+            "v3": "undergone"
+          }
+        },
+        {
+          "id": "IRV152",
+          "en": "withdraw",
+          "ru": "забирать; отзывать",
+          "forms": {
+            "v2": "withdrew",
+            "v3": "withdrawn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L19",
+      "order": 19,
+      "title": {
+        "en": "withhold · withstand · speed",
+        "ru": "Этап 7 · глаголы 9–15"
+      },
+      "phrases": [
+        {
+          "id": "IRV153",
+          "en": "withhold",
+          "ru": "удерживать; не предоставлять",
+          "forms": {
+            "v2": "withheld",
+            "v3": "withheld"
+          }
+        },
+        {
+          "id": "IRV154",
+          "en": "withstand",
+          "ru": "выдерживать; противостоять",
+          "forms": {
+            "v2": "withstood",
+            "v3": "withstood"
+          }
+        },
+        {
+          "id": "IRV155",
+          "en": "speed",
+          "ru": "ускоряться; мчаться",
+          "forms": {
+            "v2": "sped/speeded",
+            "v3": "sped/speeded"
+          }
+        },
+        {
+          "id": "IRV156",
+          "en": "spell",
+          "ru": "писать/произносить по буквам",
+          "forms": {
+            "v2": "spelt/spelled",
+            "v3": "spelt/spelled"
+          }
+        },
+        {
+          "id": "IRV157",
+          "en": "spill",
+          "ru": "проливать; рассыпать",
+          "forms": {
+            "v2": "spilt/spilled",
+            "v3": "spilt/spilled"
+          }
+        },
+        {
+          "id": "IRV158",
+          "en": "split",
+          "ru": "разделять; раскалывать",
+          "forms": {
+            "v2": "split",
+            "v3": "split"
+          }
+        },
+        {
+          "id": "IRV159",
+          "en": "spring",
+          "ru": "прыгать; возникать",
+          "forms": {
+            "v2": "sprang/sprung",
+            "v3": "sprung"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L20",
+      "order": 20,
+      "title": {
+        "en": "strike · strive · thrive",
+        "ru": "Этап 7 · глаголы 16–22"
+      },
+      "phrases": [
+        {
+          "id": "IRV160",
+          "en": "strike",
+          "ru": "ударять; бастовать",
+          "forms": {
+            "v2": "struck",
+            "v3": "struck/stricken"
+          }
+        },
+        {
+          "id": "IRV161",
+          "en": "strive",
+          "ru": "стремиться",
+          "forms": {
+            "v2": "strove/strived",
+            "v3": "striven/strived"
+          }
+        },
+        {
+          "id": "IRV162",
+          "en": "thrive",
+          "ru": "процветать",
+          "forms": {
+            "v2": "throve/thrived",
+            "v3": "thriven/thrived"
+          }
+        },
+        {
+          "id": "IRV163",
+          "en": "thrust",
+          "ru": "толкать; проталкивать",
+          "forms": {
+            "v2": "thrust",
+            "v3": "thrust"
+          }
+        },
+        {
+          "id": "IRV164",
+          "en": "tread",
+          "ru": "ступать; топтать",
+          "forms": {
+            "v2": "trod",
+            "v3": "trodden/trod"
+          }
+        },
+        {
+          "id": "IRV165",
+          "en": "wind",
+          "ru": "наматывать; заводить механизм",
+          "forms": {
+            "v2": "wound",
+            "v3": "wound"
+          }
+        },
+        {
+          "id": "IRV166",
+          "en": "shine",
+          "ru": "светить; сиять; полировать",
+          "forms": {
+            "v2": "shone/shined",
+            "v3": "shone/shined"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L21",
+      "order": 21,
+      "title": {
+        "en": "shrink · spit · sling",
+        "ru": "Этап 8 · глаголы 1–8"
+      },
+      "phrases": [
+        {
+          "id": "IRV167",
+          "en": "shrink",
+          "ru": "сжиматься; уменьшаться",
+          "forms": {
+            "v2": "shrank/shrunk",
+            "v3": "shrunk/shrunken"
+          }
+        },
+        {
+          "id": "IRV168",
+          "en": "spit",
+          "ru": "плевать",
+          "forms": {
+            "v2": "spat/spit",
+            "v3": "spat/spit"
+          }
+        },
+        {
+          "id": "IRV169",
+          "en": "sling",
+          "ru": "швырять; подвешивать",
+          "forms": {
+            "v2": "slung",
+            "v3": "slung"
+          }
+        },
+        {
+          "id": "IRV170",
+          "en": "slink",
+          "ru": "красться",
+          "forms": {
+            "v2": "slunk",
+            "v3": "slunk"
+          }
+        },
+        {
+          "id": "IRV171",
+          "en": "slit",
+          "ru": "разрезать вдоль",
+          "forms": {
+            "v2": "slit",
+            "v3": "slit"
+          }
+        },
+        {
+          "id": "IRV172",
+          "en": "sting",
+          "ru": "жалить",
+          "forms": {
+            "v2": "stung",
+            "v3": "stung"
+          }
+        },
+        {
+          "id": "IRV173",
+          "en": "stink",
+          "ru": "вонять",
+          "forms": {
+            "v2": "stank/stunk",
+            "v3": "stunk"
+          }
+        },
+        {
+          "id": "IRV174",
+          "en": "stride",
+          "ru": "шагать широко",
+          "forms": {
+            "v2": "strode",
+            "v3": "stridden"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L22",
+      "order": 22,
+      "title": {
+        "en": "string · swell · weave",
+        "ru": "Этап 8 · глаголы 9–15"
+      },
+      "phrases": [
+        {
+          "id": "IRV175",
+          "en": "string",
+          "ru": "нанизывать; натягивать струну",
+          "forms": {
+            "v2": "strung",
+            "v3": "strung"
+          }
+        },
+        {
+          "id": "IRV176",
+          "en": "swell",
+          "ru": "опухать; набухать",
+          "forms": {
+            "v2": "swelled",
+            "v3": "swollen/swelled"
+          }
+        },
+        {
+          "id": "IRV177",
+          "en": "weave",
+          "ru": "ткать; переплетать",
+          "forms": {
+            "v2": "wove/weaved",
+            "v3": "woven/weaved"
+          }
+        },
+        {
+          "id": "IRV178",
+          "en": "weep",
+          "ru": "плакать",
+          "forms": {
+            "v2": "wept",
+            "v3": "wept"
+          }
+        },
+        {
+          "id": "IRV179",
+          "en": "wet",
+          "ru": "мочить; смачивать",
+          "forms": {
+            "v2": "wet/wetted",
+            "v3": "wet/wetted"
+          }
+        },
+        {
+          "id": "IRV180",
+          "en": "wring",
+          "ru": "выкручивать; выжимать",
+          "forms": {
+            "v2": "wrung",
+            "v3": "wrung"
+          }
+        },
+        {
+          "id": "IRV181",
+          "en": "abide",
+          "ru": "соблюдать; терпеть",
+          "forms": {
+            "v2": "abode/abided",
+            "v3": "abode/abided"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L23",
+      "order": 23,
+      "title": {
+        "en": "befall · beget · behold",
+        "ru": "Этап 8 · глаголы 16–22"
+      },
+      "phrases": [
+        {
+          "id": "IRV182",
+          "en": "befall",
+          "ru": "случаться; постигать",
+          "forms": {
+            "v2": "befell",
+            "v3": "befallen"
+          }
+        },
+        {
+          "id": "IRV183",
+          "en": "beget",
+          "ru": "порождать",
+          "forms": {
+            "v2": "begot",
+            "v3": "begotten"
+          }
+        },
+        {
+          "id": "IRV184",
+          "en": "behold",
+          "ru": "созерцать; видеть",
+          "forms": {
+            "v2": "beheld",
+            "v3": "beheld"
+          }
+        },
+        {
+          "id": "IRV185",
+          "en": "bereave",
+          "ru": "лишать близкого; оставлять без",
+          "forms": {
+            "v2": "bereaved/bereft",
+            "v3": "bereaved/bereft"
+          }
+        },
+        {
+          "id": "IRV186",
+          "en": "beseech",
+          "ru": "умолять",
+          "forms": {
+            "v2": "besought/beseeched",
+            "v3": "besought/beseeched"
+          }
+        },
+        {
+          "id": "IRV187",
+          "en": "beset",
+          "ru": "осаждать; окружать трудностями",
+          "forms": {
+            "v2": "beset",
+            "v3": "beset"
+          }
+        },
+        {
+          "id": "IRV188",
+          "en": "bet",
+          "ru": "держать пари",
+          "forms": {
+            "v2": "bet/betted",
+            "v3": "bet/betted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L24",
+      "order": 24,
+      "title": {
+        "en": "bid · bleed · browbeat",
+        "ru": "Этап 9 · глаголы 1–7"
+      },
+      "phrases": [
+        {
+          "id": "IRV189",
+          "en": "bid",
+          "ru": "предлагать цену; велеть",
+          "forms": {
+            "v2": "bid/bade",
+            "v3": "bid/bidden"
+          }
+        },
+        {
+          "id": "IRV190",
+          "en": "bleed",
+          "ru": "кровоточить",
+          "forms": {
+            "v2": "bled",
+            "v3": "bled"
+          }
+        },
+        {
+          "id": "IRV191",
+          "en": "browbeat",
+          "ru": "запугивать; подавлять",
+          "forms": {
+            "v2": "browbeat",
+            "v3": "browbeaten"
+          }
+        },
+        {
+          "id": "IRV192",
+          "en": "bust",
+          "ru": "ломать; разорять",
+          "forms": {
+            "v2": "bust/busted",
+            "v3": "bust/busted"
+          }
+        },
+        {
+          "id": "IRV193",
+          "en": "chide",
+          "ru": "бранить",
+          "forms": {
+            "v2": "chid/chided",
+            "v3": "chid/chidden/chided"
+          }
+        },
+        {
+          "id": "IRV194",
+          "en": "clothe",
+          "ru": "одевать",
+          "forms": {
+            "v2": "clothed/clad",
+            "v3": "clothed/clad"
+          }
+        },
+        {
+          "id": "IRV195",
+          "en": "dwell",
+          "ru": "жить; обитать",
+          "forms": {
+            "v2": "dwelt/dwelled",
+            "v3": "dwelt/dwelled"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L25",
+      "order": 25,
+      "title": {
+        "en": "fit · gild · gird",
+        "ru": "Этап 9 · глаголы 8–14"
+      },
+      "phrases": [
+        {
+          "id": "IRV196",
+          "en": "fit",
+          "ru": "подходить по размеру",
+          "forms": {
+            "v2": "fit/fitted",
+            "v3": "fit/fitted"
+          }
+        },
+        {
+          "id": "IRV197",
+          "en": "gild",
+          "ru": "позолотить",
+          "forms": {
+            "v2": "gilt/gilded",
+            "v3": "gilt/gilded"
+          }
+        },
+        {
+          "id": "IRV198",
+          "en": "gird",
+          "ru": "опоясывать",
+          "forms": {
+            "v2": "girded/girt",
+            "v3": "girded/girt"
+          }
+        },
+        {
+          "id": "IRV199",
+          "en": "hew",
+          "ru": "рубить; тесать",
+          "forms": {
+            "v2": "hewed",
+            "v3": "hewn/hewed"
+          }
+        },
+        {
+          "id": "IRV200",
+          "en": "hit",
+          "ru": "ударять",
+          "forms": {
+            "v2": "hit",
+            "v3": "hit"
+          }
+        },
+        {
+          "id": "IRV201",
+          "en": "inlay",
+          "ru": "инкрустировать",
+          "forms": {
+            "v2": "inlaid",
+            "v3": "inlaid"
+          }
+        },
+        {
+          "id": "IRV202",
+          "en": "interweave",
+          "ru": "переплетать",
+          "forms": {
+            "v2": "interwove/interweaved",
+            "v3": "interwoven/interweaved"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L26",
+      "order": 26,
+      "title": {
+        "en": "mistake · mow · overdraw",
+        "ru": "Этап 9 · глаголы 15–21"
+      },
+      "phrases": [
+        {
+          "id": "IRV203",
+          "en": "mistake",
+          "ru": "ошибочно принимать; путать",
+          "forms": {
+            "v2": "mistook",
+            "v3": "mistaken"
+          }
+        },
+        {
+          "id": "IRV204",
+          "en": "mow",
+          "ru": "косить",
+          "forms": {
+            "v2": "mowed",
+            "v3": "mown/mowed"
+          }
+        },
+        {
+          "id": "IRV205",
+          "en": "overdraw",
+          "ru": "снимать со счёта больше остатка",
+          "forms": {
+            "v2": "overdrew",
+            "v3": "overdrawn"
+          }
+        },
+        {
+          "id": "IRV206",
+          "en": "overlay",
+          "ru": "покрывать сверху",
+          "forms": {
+            "v2": "overlaid",
+            "v3": "overlaid"
+          }
+        },
+        {
+          "id": "IRV207",
+          "en": "override",
+          "ru": "отменять; иметь преимущество над",
+          "forms": {
+            "v2": "overrode",
+            "v3": "overridden"
+          }
+        },
+        {
+          "id": "IRV208",
+          "en": "overrun",
+          "ru": "переполнять; захватывать",
+          "forms": {
+            "v2": "overran",
+            "v3": "overrun"
+          }
+        },
+        {
+          "id": "IRV209",
+          "en": "oversee",
+          "ru": "надзирать; руководить",
+          "forms": {
+            "v2": "oversaw",
+            "v3": "overseen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L27",
+      "order": 27,
+      "title": {
+        "en": "overshoot · plead · rend",
+        "ru": "Этап 10 · глаголы 1–7"
+      },
+      "phrases": [
+        {
+          "id": "IRV210",
+          "en": "overshoot",
+          "ru": "промахнуться; перелететь",
+          "forms": {
+            "v2": "overshot",
+            "v3": "overshot"
+          }
+        },
+        {
+          "id": "IRV211",
+          "en": "plead",
+          "ru": "умолять; заявлять в суде",
+          "forms": {
+            "v2": "pleaded/pled",
+            "v3": "pleaded/pled"
+          }
+        },
+        {
+          "id": "IRV212",
+          "en": "rend",
+          "ru": "раздирать",
+          "forms": {
+            "v2": "rent",
+            "v3": "rent"
+          }
+        },
+        {
+          "id": "IRV213",
+          "en": "rid",
+          "ru": "избавлять",
+          "forms": {
+            "v2": "rid/ridded",
+            "v3": "rid/ridded"
+          }
+        },
+        {
+          "id": "IRV214",
+          "en": "rive",
+          "ru": "раскалывать",
+          "forms": {
+            "v2": "rived",
+            "v3": "riven/rived"
+          }
+        },
+        {
+          "id": "IRV215",
+          "en": "saw",
+          "ru": "пилить",
+          "forms": {
+            "v2": "sawed",
+            "v3": "sawn/sawed"
+          }
+        },
+        {
+          "id": "IRV216",
+          "en": "sew",
+          "ru": "шить",
+          "forms": {
+            "v2": "sewed",
+            "v3": "sewn/sewed"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L28",
+      "order": 28,
+      "title": {
+        "en": "shave · shear · shed",
+        "ru": "Этап 10 · глаголы 8–14"
+      },
+      "phrases": [
+        {
+          "id": "IRV217",
+          "en": "shave",
+          "ru": "брить(ся)",
+          "forms": {
+            "v2": "shaved",
+            "v3": "shaved/shaven"
+          }
+        },
+        {
+          "id": "IRV218",
+          "en": "shear",
+          "ru": "стричь; срезать",
+          "forms": {
+            "v2": "sheared",
+            "v3": "shorn/sheared"
+          }
+        },
+        {
+          "id": "IRV219",
+          "en": "shed",
+          "ru": "сбрасывать; проливать",
+          "forms": {
+            "v2": "shed",
+            "v3": "shed"
+          }
+        },
+        {
+          "id": "IRV220",
+          "en": "shoe",
+          "ru": "подковывать; обувать",
+          "forms": {
+            "v2": "shod/shoed",
+            "v3": "shod/shoed"
+          }
+        },
+        {
+          "id": "IRV221",
+          "en": "shrive",
+          "ru": "отпускать грехи",
+          "forms": {
+            "v2": "shrove/shrived",
+            "v3": "shriven/shrived"
+          }
+        },
+        {
+          "id": "IRV222",
+          "en": "slay",
+          "ru": "убивать",
+          "forms": {
+            "v2": "slew",
+            "v3": "slain"
+          }
+        },
+        {
+          "id": "IRV223",
+          "en": "smite",
+          "ru": "поражать; сильно ударять",
+          "forms": {
+            "v2": "smote",
+            "v3": "smitten"
+          }
+        }
+      ]
+    },
+    {
+      "id": "IRV-L29",
+      "order": 29,
+      "title": {
+        "en": "sow · spin · spoil",
+        "ru": "Этап 10 · глаголы 15–21"
+      },
+      "phrases": [
+        {
+          "id": "IRV224",
+          "en": "sow",
+          "ru": "сеять",
+          "forms": {
+            "v2": "sowed",
+            "v3": "sown/sowed"
+          }
+        },
+        {
+          "id": "IRV225",
+          "en": "spin",
+          "ru": "крутить; прясть",
+          "forms": {
+            "v2": "spun",
+            "v3": "spun"
+          }
+        },
+        {
+          "id": "IRV226",
+          "en": "spoil",
+          "ru": "портить",
+          "forms": {
+            "v2": "spoilt/spoiled",
+            "v3": "spoilt/spoiled"
+          }
+        },
+        {
+          "id": "IRV227",
+          "en": "swear",
+          "ru": "клясться; ругаться",
+          "forms": {
+            "v2": "swore",
+            "v3": "sworn"
+          }
+        },
+        {
+          "id": "IRV228",
+          "en": "underlie",
+          "ru": "лежать в основе",
+          "forms": {
+            "v2": "underlay",
+            "v3": "underlain"
+          }
+        },
+        {
+          "id": "IRV229",
+          "en": "waylay",
+          "ru": "подстерегать",
+          "forms": {
+            "v2": "waylaid",
+            "v3": "waylaid"
+          }
+        },
+        {
+          "id": "IRV230",
+          "en": "wed",
+          "ru": "жениться; выходить замуж",
+          "forms": {
+            "v2": "wed/wedded",
+            "v3": "wed/wedded"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -46,9 +46,11 @@ export function validateChapters(chapters, { plannedChapters }) {
     const isExpressions = chapter.kind === 'expressions'
     // В словарной главе уроков столько, сколько набралось слов: 900 слов — 90 уроков.
     const isWords = chapter.kind === 'words'
+    // В главе с глаголами уроки идут по этапам источника, и размер задаёт этап.
+    const isVerbs = chapter.kind === 'verbs'
 
-    if (!['phrases', 'expressions', 'words'].includes(chapter.kind)) {
-      errors.push(`${where}: неизвестный вид главы «${chapter.kind}», ожидается phrases, expressions или words.`)
+    if (!['phrases', 'expressions', 'words', 'verbs'].includes(chapter.kind)) {
+      errors.push(`${where}: неизвестный вид главы «${chapter.kind}», ожидается phrases, expressions, words или verbs.`)
     }
 
     if (seenChapterIds.has(chapter.id)) errors.push(`${where}: id «${chapter.id}» повторяется.`)
@@ -64,7 +66,7 @@ export function validateChapters(chapters, { plannedChapters }) {
 
     if (!chapter.title?.en || !chapter.title?.ru) errors.push(`${where}: нет названия на английском или русском.`)
 
-    if (chapter.lessons.length !== LESSONS_PER_CHAPTER && !isWords) {
+    if (chapter.lessons.length !== LESSONS_PER_CHAPTER && !isWords && !isVerbs) {
       const message = `${where}: уроков ${chapter.lessons.length}, ожидается ${LESSONS_PER_CHAPTER}.`
       if (isExpressions) warnings.push(message)
       else errors.push(message)
@@ -104,6 +106,13 @@ export function validateChapters(chapters, { plannedChapters }) {
         if (lesson.phrases.length < MIN_PHRASES_PER_LESSON) {
           warnings.push(`${lessonWhere}: всего ${lesson.phrases.length} — подозрительно мало, ожидается хотя бы ${MIN_PHRASES_PER_LESSON}.`)
         }
+      } else if (isVerbs) {
+        // Этап режется на равные уроки, но сам этап бывает любого размера.
+        if (lesson.phrases.length > PHRASES_PER_LESSON) {
+          errors.push(`${lessonWhere}: глаголов ${lesson.phrases.length}, это больше ${PHRASES_PER_LESSON}.`)
+        } else if (lesson.phrases.length < MIN_PHRASES_PER_LESSON) {
+          warnings.push(`${lessonWhere}: всего ${lesson.phrases.length} — подозрительно мало.`)
+        }
       } else if (!isWords && lesson.phrases.length !== PHRASES_PER_LESSON) {
         errors.push(`${lessonWhere}: фраз ${lesson.phrases.length}, ожидается ${PHRASES_PER_LESSON}.`)
       }
@@ -142,6 +151,9 @@ export function validateChapters(chapters, { plannedChapters }) {
         }
         if ((isExpressions || isWords) && !phrase.example) {
           warnings.push(`${lessonWhere}: у ${phrase.id} нет примера употребления.`)
+        }
+        if (isVerbs && (!phrase.forms?.v2 || !phrase.forms?.v3)) {
+          errors.push(`${lessonWhere}: у ${phrase.id} нет второй или третьей формы.`)
         }
         if (isWords && !phrase.pos) {
           warnings.push(`${lessonWhere}: у ${phrase.id} не указана часть речи.`)

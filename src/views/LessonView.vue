@@ -8,8 +8,10 @@ import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import PhraseItem from '@/components/PhraseItem.vue'
 import AppIcon from '@/components/AppIcon.vue'
-import { plural, itemForms } from '@/utils/plural'
+import { plural, itemForms, STAGE_FORMS } from '@/utils/plural'
 import { isPartStarted, nextPartIndex, splitIntoParts } from '@/utils/parts'
+import { availableStages } from '@/utils/practice'
+import { useSpeech } from '@/composables/useSpeech'
 
 const props = defineProps<{ lessonId: string }>()
 const content = useContentStore()
@@ -30,6 +32,17 @@ const newLeft = computed(() => progress.newLeftToday(settings.dailyNewLimit))
 
 /** Предел не трогает повторение пройденного — только новые записи. */
 const blockedByLimit = computed(() => newInPart.value > 0 && newLeft.value <= 0)
+
+// Сколько этапов достанется уроку: у глаголов есть этап с формами, зато нечего
+// собирать из одного слова, а «на слух» отпадает без голоса. Отбор тот же,
+// что и в самом занятии, иначе обещание на этой странице разошлось бы с делом.
+const { supported: speechSupported } = useSpeech()
+const stageCount = computed(() => {
+  const stages = settings.enabledStages.filter(
+    (kind) => kind !== 'listen' || (speechSupported.value && settings.speechEnabled),
+  )
+  return availableStages(parts.value[nextPart.value] ?? [], stages).length
+})
 
 /** Урок, разбитый на части по размеру занятия из настроек. */
 const parts = computed(() => splitIntoParts(ctx.value?.lesson.phrases ?? [], settings.sessionSize))
@@ -76,7 +89,8 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
         {{ split ? `Часть ${nextPart + 1} из ${parts.length}` : 'Начать урок' }}
       </button>
       <p class="text-sm text-muted">
-        {{ plural(parts[nextPart]?.length ?? 0, itemForms(ctx.chapter.kind)) }}: карточки и четыре этапа.
+        {{ plural(parts[nextPart]?.length ?? 0, itemForms(ctx.chapter.kind)) }}:
+        карточки и {{ plural(stageCount, STAGE_FORMS) }}.
       </p>
     </div>
 

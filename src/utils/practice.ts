@@ -13,7 +13,14 @@ const MIN_WORDS_TO_ASSEMBLE = 2
  * вспомнить фразу, собрать её из слов, написать самому. Каждая фраза урока
  * проходит все этапы, поэтому порядок здесь — это порядок этапов занятия.
  */
-export const EXERCISE_ORDER: ExerciseKind[] = ['choice-ru', 'listen', 'choice-en', 'assemble', 'typing']
+export const EXERCISE_ORDER: ExerciseKind[] = [
+  'choice-ru',
+  'listen',
+  'choice-en',
+  'assemble',
+  'typing',
+  'forms',
+]
 
 export const EXERCISE_TITLES: Record<ExerciseKind, string> = {
   'choice-ru': 'Выбор перевода',
@@ -21,6 +28,13 @@ export const EXERCISE_TITLES: Record<ExerciseKind, string> = {
   'choice-en': 'Выбор фразы',
   assemble: 'Сборка из слов',
   typing: 'Письмо',
+  forms: 'Формы глагола',
+}
+
+/** Варианты формы: «got/gotten» принимаем целиком и по отдельности. */
+function formVariants(form: string): string[] {
+  const parts = form.split('/').map((part) => part.trim()).filter(Boolean)
+  return parts.length > 1 ? [form, ...parts] : [form]
 }
 
 export function shuffle<T>(items: readonly T[]): T[] {
@@ -88,6 +102,16 @@ function buildStep(phrase: Phrase, kind: ExerciseKind, near: Phrase[], far: Phra
     }
   }
 
+  // Формы есть только у неправильных глаголов: для всех остальных этап невозможен.
+  if (kind === 'forms') {
+    if (!phrase.forms) return null
+    return {
+      kind,
+      phrase,
+      accept: { v2: formVariants(phrase.forms.v2), v3: formVariants(phrase.forms.v3) },
+    }
+  }
+
   if (kind === 'assemble') {
     const original = words(phrase.en)
     if (original.length < MIN_WORDS_TO_ASSEMBLE) return null
@@ -130,7 +154,18 @@ function allowedStages(stages: ExerciseKind[] | undefined): ExerciseKind[] {
 }
 
 /**
- * Занятие: карточки со всеми фразами, затем четыре этапа тестирования.
+ * Какие этапы достанутся этому уроку. Этап отпадает, если он невозможен
+ * для всех фраз урока: из одного слова нечего собирать, а форм нет ни у чего,
+ * кроме неправильных глаголов.
+ */
+export function availableStages(phrases: Phrase[], stages?: ExerciseKind[]): ExerciseKind[] {
+  return allowedStages(stages).filter((kind) =>
+    phrases.some((phrase) => buildStep(phrase, kind, [], []) !== null),
+  )
+}
+
+/**
+ * Занятие: карточки со всеми фразами, затем этапы тестирования.
  * Внутри этапа фразы идут вперемешку, сами этапы — всегда по порядку.
  */
 export function buildPractice(

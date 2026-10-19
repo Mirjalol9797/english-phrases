@@ -1,5 +1,5 @@
 {
-  "plannedChapters": 16,
+  "plannedChapters": 17,
   "chapters": [
     {
       "file": "everyday_english_200_phrases.docx",
@@ -78,9 +78,20 @@
       }
     },
     {
+      "file": "irregular_verbs.docx",
+      "id": "irregular-verbs",
+      "order": 13,
+      "format": "verbs",
+      "prefix": "IRV",
+      "title": {
+        "en": "Irregular Verbs",
+        "ru": "Неправильные глаголы"
+      }
+    },
+    {
       "file": "oxford_3000_a1.pdf",
       "id": "oxford-a1",
-      "order": 13,
+      "order": 14,
       "format": "words",
       "prefix": "OXA",
       "group": "Oxford 3000",
@@ -92,7 +103,7 @@
     {
       "file": "oxford_3000_a2.pdf",
       "id": "oxford-a2",
-      "order": 14,
+      "order": 15,
       "format": "words",
       "prefix": "OXB",
       "group": "Oxford 3000",
@@ -104,7 +115,7 @@
     {
       "file": "oxford_3000_b1.pdf",
       "id": "oxford-b1",
-      "order": 15,
+      "order": 16,
       "format": "words",
       "prefix": "OXC",
       "group": "Oxford 3000",
@@ -116,7 +127,7 @@
     {
       "file": "oxford_3000_b2.pdf",
       "id": "oxford-b2",
-      "order": 16,
+      "order": 17,
       "format": "words",
       "prefix": "OXD",
       "group": "Oxford 3000",

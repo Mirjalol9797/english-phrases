@@ -1,3 +1,5 @@
+import type { Phrase } from '@/types/content'
+
 /**
  * Поиск по фразам. Текст сравнивается в нижнем регистре, а разные апострофы
  * (’ ‘ ʼ ` ´) приводятся к обычному ', иначе «I’m» не найдётся по запросу «I'm».
@@ -6,6 +8,15 @@ const APOSTROPHES = /[’‘‛ʼ`´]/g
 
 export function normalizeSearch(text: string): string {
   return text.replace(APOSTROPHES, "'").toLowerCase()
+}
+
+/**
+ * Английская часть записи для поиска. У неправильного глагола это все три формы:
+ * «went» встречают в тексте чаще, чем «go», и искать будут именно его.
+ */
+export function englishSearchText(phrase: Pick<Phrase, 'en' | 'forms'>): string {
+  if (!phrase.forms) return phrase.en
+  return `${phrase.en} ${phrase.forms.v2} ${phrase.forms.v3}`
 }
 
 export interface TextPart {

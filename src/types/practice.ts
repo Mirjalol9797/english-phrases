@@ -1,7 +1,7 @@
 import type { Phrase } from './content'
 
 /** Типы упражнений. Карточка — не упражнение, в ней нечего проверять. */
-export type ExerciseKind = 'choice-ru' | 'listen' | 'choice-en' | 'assemble' | 'typing'
+export type ExerciseKind = 'choice-ru' | 'listen' | 'choice-en' | 'assemble' | 'typing' | 'forms'
 
 /** Знакомство с фразой: английский текст, озвучка, перевод по нажатию. */
 export interface CardStep {
@@ -44,7 +44,18 @@ export interface TypingStep {
   accept: string[]
 }
 
-export type PracticeStep = CardStep | ChoiceStep | ListenStep | AssembleStep | TypingStep
+/**
+ * Написать вторую и третью формы неправильного глагола.
+ * Бывает только у глаголов — у остальных фраз форм нет, и этап пропускается.
+ */
+export interface FormsStep {
+  kind: 'forms'
+  phrase: Phrase
+  /** Что принимать за верный ответ: запись целиком и каждый вариант через слэш. */
+  accept: { v2: string[]; v3: string[] }
+}
+
+export type PracticeStep = CardStep | ChoiceStep | ListenStep | AssembleStep | TypingStep | FormsStep
 
 export interface StepResult {
   phrase: Phrase
