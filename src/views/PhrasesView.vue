@@ -5,6 +5,8 @@ import { useContentStore } from '@/stores/content'
 import { useAsyncData } from '@/composables/useAsyncData'
 import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
+import ChapterFilter from '@/components/ChapterFilter.vue'
+import { chapterFilters } from '@/utils/filters'
 import PhraseItem from '@/components/PhraseItem.vue'
 import AppIcon from '@/components/AppIcon.vue'
 import { englishSearchText, normalizeSearch } from '@/utils/search'
@@ -75,16 +77,13 @@ const results = computed(() =>
 
 const shown = computed(() => results.value.slice(0, visible.value))
 
-const filters = computed(() => {
-  const counts = new Map<string, number>()
-  for (const entry of matched.value) counts.set(entry.chapterId, (counts.get(entry.chapterId) ?? 0) + 1)
-  const list = (chapters.value ?? []).map((chapter) => ({
-    id: chapter.id,
-    title: chapter.title.en,
-    count: counts.get(chapter.id) ?? 0,
-  }))
-  return [{ id: '', title: 'Все главы', count: matched.value.length }, ...list]
-})
+// В словаре показываем все главы, даже пустые: по ним видно, где искать нечего.
+const filters = computed(() =>
+  chapterFilters(
+    matched.value,
+    (chapters.value ?? []).map((chapter) => ({ id: chapter.id, title: chapter.title.en })),
+  ),
+)
 
 // Глава из адреса может быть удалена или переименована — тогда фильтр снимаем.
 watch(chapters, (loaded) => {
@@ -145,24 +144,7 @@ watch(
     <StatusMessage v-if="loading || error" :loading="loading" :error="error" @retry="reload" />
 
     <template v-else-if="chapters">
-      <ul v-if="filters.length > 2" class="mt-4 flex flex-wrap gap-2">
-        <li v-for="filter in filters" :key="filter.id">
-          <button
-            type="button"
-            class="flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm"
-            :class="
-              chapterId === filter.id
-                ? 'border-transparent bg-marker text-on-marker'
-                : 'border-line text-muted hover:text-ink'
-            "
-            :aria-pressed="chapterId === filter.id"
-            @click="chapterId = filter.id"
-          >
-            <span :lang="filter.id ? 'en' : undefined" :class="filter.id ? 'font-serif' : ''">{{ filter.title }}</span>
-            <span class="tabular-nums opacity-70">{{ filter.count }}</span>
-          </button>
-        </li>
-      </ul>
+      <ChapterFilter v-model="chapterId" :options="filters" label="Глава" class="mt-4" />
 
       <p class="mt-4 text-sm text-muted" role="status" aria-live="polite">
         {{ results.length ? `Найдено ${plural(results.length, MATCH_FORMS)}` : 'Ничего не нашлось' }}

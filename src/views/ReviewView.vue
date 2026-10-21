@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, shallowRef } from 'vue'
+import { computed, ref, shallowRef, watch } from 'vue'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
 import { useSettingsStore } from '@/stores/settings'
@@ -7,10 +7,12 @@ import { useSpeech } from '@/composables/useSpeech'
 import { useAsyncData } from '@/composables/useAsyncData'
 import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
+import ChapterFilter from '@/components/ChapterFilter.vue'
+import { byLoad, chapterFilters } from '@/utils/filters'
 import PracticeSession from '@/components/practice/PracticeSession.vue'
 import { buildReview } from '@/utils/practice'
 import { toOutcomes } from '@/utils/session'
-import { plural, PHRASE_FORMS } from '@/utils/plural'
+import { plural, itemForms, ENTRY_FORMS } from '@/utils/plural'
 import { formatDay, today } from '@/utils/date'
 import { plural as pluralOf } from '@/utils/plural'
 import type { Phrase } from '@/types/content'
@@ -71,21 +73,75 @@ const byId = computed(() => {
 
 const allPhrases = computed(() => [...byId.value.values()].map((entry) => entry.phrase))
 
-/** Фразы, которым подошёл срок. Удалённые из данных ID просто пропускаем. */
-const due = computed(() =>
-  progress
-    .dueIds(today())
-    .map((id) => byId.value.get(id)?.phrase)
-    .filter((phrase): phrase is Phrase => Boolean(phrase)),
+/**
+ * Выбранная глава. К повторению приходит всё вперемешку — фразы, слова Oxford
+ * и глаголы, — а это разные занятия. Чип ограничивает заход одной главой.
+ * Пустая строка — все главы.
+ */
+const chapterId = ref('')
+
+/** Записи с их главой: ID, которых уже нет в данных, просто пропускаем. */
+function resolve(ids: string[]) {
+  return ids
+    .map((id) => byId.value.get(id))
+    .filter((entry): entry is { phrase: Phrase; chapterId: string } => Boolean(entry))
+}
+
+function inChapter<T extends { chapterId: string }>(entries: T[]): T[] {
+  return chapterId.value ? entries.filter((entry) => entry.chapterId === chapterId.value) : entries
+}
+
+/** Всё, чему подошёл срок, без учёта выбранной главы — по нему считаются числа на чипсах. */
+const dueAll = computed(() => resolve(progress.dueIds(today())))
+
+const dueEntries = computed(() => inChapter(dueAll.value))
+const due = computed(() => dueEntries.value.map((entry) => entry.phrase))
+
+/**
+ * Записи, на которых чаще всего ошибались. Срок здесь не важен.
+ *
+ * Без выбранной главы берём ровно столько, сколько грузилось глав, — иначе
+ * записи незагруженных глав отсеялись бы и список молча съехал бы вниз
+ * по трудности. Внутри одной главы можно брать с запасом: сама она загружена,
+ * а её трудные могут и не попасть в общую двадцатку.
+ */
+const hardEntries = computed(() => {
+  if (!chapterId.value) return resolve(progress.hardestIds(BATCH_SIZE))
+  return inChapter(resolve(progress.hardestIds(BATCH_SIZE * 10))).slice(0, BATCH_SIZE)
+})
+const hard = computed(() => hardEntries.value.map((entry) => entry.phrase))
+
+/** Названия глав — для чипсов и для подписи под записью. */
+const titleOf = computed(() => {
+  const map = new Map<string, string>()
+  for (const chapter of chapters.value ?? []) map.set(chapter.id, chapter.title.en)
+  return map
+})
+
+/**
+ * Как называть то, что повторяем. В одной главе это фразы, слова или глаголы,
+ * а во всех сразу — вперемешку, и общее слово им «запись».
+ */
+const entryForms = computed(() => {
+  const chapter = (chapters.value ?? []).find((c) => c.id === chapterId.value)
+  return chapter ? itemForms(chapter.kind) : ENTRY_FORMS
+})
+
+/** Главы, в которых сегодня есть что повторять. Пустые в список не попадают. */
+const filters = computed(() =>
+  byLoad(
+    chapterFilters(
+      dueAll.value,
+      (chapters.value ?? []).map((chapter) => ({ id: chapter.id, title: chapter.title.en })),
+    ),
+  ),
 )
 
-/** Фразы, на которых чаще всего ошибались. Срок здесь не важен. */
-const hard = computed(() =>
-  progress
-    .hardestIds(BATCH_SIZE)
-    .map((id) => byId.value.get(id)?.phrase)
-    .filter((phrase): phrase is Phrase => Boolean(phrase)),
-)
+// Глава могла исчезнуть из очереди, пока шло занятие: тогда фильтр снимаем,
+// иначе экран выглядел бы пустым без видимой причины.
+watch(dueAll, (entries) => {
+  if (chapterId.value && !entries.some((entry) => entry.chapterId === chapterId.value)) chapterId.value = ''
+})
 
 const steps = shallowRef<PracticeStep[]>([])
 const results = ref<StepResult[] | null>(null)
@@ -161,8 +217,12 @@ function onFinish(sessionResults: StepResult[]) {
       </template>
 
       <template v-else>
-        <p class="mt-3 text-muted">
-          Пора повторить {{ plural(due.length, PHRASE_FORMS) }}.
+        <!-- К повторению приходит всё вперемешку: фразы, слова и глаголы.
+             Чип сужает заход до одной главы — это разные занятия. -->
+        <ChapterFilter v-model="chapterId" :options="filters" label="Глава для повторения" class="mt-4" />
+
+        <p class="mt-4 text-muted">
+          Пора повторить {{ plural(due.length, entryForms) }}.
           <template v-if="due.length > BATCH_SIZE">За один заход — {{ BATCH_SIZE }}.</template>
         </p>
 
@@ -172,13 +232,21 @@ function onFinish(sessionResults: StepResult[]) {
         </div>
 
         <ol class="mt-6 sm:mt-8 divide-y divide-line border-y border-line">
-          <li v-for="phrase in due.slice(0, BATCH_SIZE)" :key="phrase.id" class="flex items-baseline gap-3 py-2 sm:py-3">
+          <li
+            v-for="entry in dueEntries.slice(0, BATCH_SIZE)"
+            :key="entry.phrase.id"
+            class="flex items-baseline gap-3 py-2 sm:py-3"
+          >
             <span class="w-16 shrink-0 text-xs text-muted tabular-nums">
-              {{ pluralOf(progress.get(phrase.id)?.interval ?? 0, DAY_FORMS) }}
+              {{ pluralOf(progress.get(entry.phrase.id)?.interval ?? 0, DAY_FORMS) }}
             </span>
             <span class="min-w-0 flex-1">
-              <span lang="en" class="block font-serif text-lg leading-snug">{{ phrase.en }}</span>
-              <span class="block text-sm leading-snug text-muted">{{ phrase.ru }}</span>
+              <span lang="en" class="block font-serif text-lg leading-snug">{{ entry.phrase.en }}</span>
+              <span class="block text-sm leading-snug text-muted">{{ entry.phrase.ru }}</span>
+              <!-- Когда главу не выбирали, по записи не видно, откуда она. -->
+              <span v-if="!chapterId" lang="en" class="mt-0.5 block font-serif text-xs text-muted">
+                {{ titleOf.get(entry.chapterId) }}
+              </span>
             </span>
           </li>
         </ol>
@@ -189,18 +257,22 @@ function onFinish(sessionResults: StepResult[]) {
 
       <!-- Где чаще всего спотыкаемся. Эти данные копились всё время, но нигде не показывались. -->
       <template v-if="progress.startedCount > 0 && hard.length">
-        <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Трудные фразы</h2>
-        <p class="mt-1 text-sm text-muted">
-          Здесь ошибались чаще всего — {{ plural(progress.hardCount, PHRASE_FORMS) }} за всё время.
+        <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Трудные</h2>
+        <p v-if="chapterId" class="mt-1 text-sm text-muted">Здесь ошибались чаще всего в этой главе.</p>
+        <p v-else class="mt-1 text-sm text-muted">
+          Здесь ошибались чаще всего — {{ plural(progress.hardCount, ENTRY_FORMS) }} за всё время.
         </p>
         <ol class="mt-3 divide-y divide-line border-y border-line">
-          <li v-for="phrase in hard" :key="phrase.id" class="flex items-baseline gap-3 py-2 sm:py-3">
+          <li v-for="entry in hardEntries" :key="entry.phrase.id" class="flex items-baseline gap-3 py-2 sm:py-3">
             <span class="w-14 shrink-0 text-xs text-bad tabular-nums">
-              {{ progress.get(phrase.id)?.wrong }} из {{ progress.get(phrase.id)?.seen }}
+              {{ progress.get(entry.phrase.id)?.wrong }} из {{ progress.get(entry.phrase.id)?.seen }}
             </span>
             <span class="min-w-0 flex-1">
-              <span lang="en" class="block font-serif text-base leading-snug sm:text-lg">{{ phrase.en }}</span>
-              <span class="block text-sm leading-snug text-muted">{{ phrase.ru }}</span>
+              <span lang="en" class="block font-serif text-base leading-snug sm:text-lg">{{ entry.phrase.en }}</span>
+              <span class="block text-sm leading-snug text-muted">{{ entry.phrase.ru }}</span>
+              <span v-if="!chapterId" lang="en" class="mt-0.5 block font-serif text-xs text-muted">
+                {{ titleOf.get(entry.chapterId) }}
+              </span>
             </span>
           </li>
         </ol>

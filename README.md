@@ -180,6 +180,7 @@ yarn test
 | Сбор занятия, подбор вариантов, повтор ошибок | `src/utils/practice.test.ts` |
 | Итог занятия по фразе | `src/utils/session.test.ts` |
 | Поиск, подсветка, склонение | `src/utils/search.test.ts` |
+| Деление по главам в словаре и повторении | `src/utils/filters.test.ts` |
 | Прогресс, серия дней, копия и импорт | `src/stores/progress.test.ts` |
 | Проверка данных глав | `scripts/lib/validate.test.mjs` |
 | Раскладка слов по урокам | `scripts/lib/words-pdf.test.mjs` |

@@ -23,6 +23,9 @@ export const VERB_FORMS: [string, string, string] = ['глагол', 'глаго
 
 export const STAGE_FORMS: [string, string, string] = ['этап', 'этапа', 'этапов']
 
+/** Для повторения: туда попадают и фразы, и слова, и глаголы разом. */
+export const ENTRY_FORMS: [string, string, string] = ['запись', 'записи', 'записей']
+
 /** Для словаря: там вперемешку фразы, выражения и слова, общее слово им — «совпадение». */
 export const MATCH_FORMS: [string, string, string] = ['совпадение', 'совпадения', 'совпадений']
 
