@@ -105,8 +105,10 @@ const due = computed(() => dueEntries.value.map((entry) => entry.phrase))
  * по трудности. Внутри одной главы можно брать с запасом: сама она загружена,
  * а её трудные могут и не попасть в общую двадцатку.
  */
+const hardAll = computed(() => resolve(progress.hardestIds(BATCH_SIZE)))
+
 const hardEntries = computed(() => {
-  if (!chapterId.value) return resolve(progress.hardestIds(BATCH_SIZE))
+  if (!chapterId.value) return hardAll.value
   return inChapter(resolve(progress.hardestIds(BATCH_SIZE * 10))).slice(0, BATCH_SIZE)
 })
 const hard = computed(() => hardEntries.value.map((entry) => entry.phrase))
@@ -127,19 +129,26 @@ const entryForms = computed(() => {
   return chapter ? itemForms(chapter.kind) : ENTRY_FORMS
 })
 
-/** Главы, в которых сегодня есть что повторять. Пустые в список не попадают. */
+/**
+ * Чем занят экран: обычно срочным, а когда срок пуст — трудными. Чипсы считают
+ * именно это, иначе в день без повторений они показывали бы нули, а «Повторить
+ * трудные» шло бы вперемешку по всем главам.
+ */
+const subject = computed(() => (dueAll.value.length ? dueAll.value : hardAll.value))
+
+/** Главы, в которых сегодня есть чем заняться. Пустые в список не попадают. */
 const filters = computed(() =>
   byLoad(
     chapterFilters(
-      dueAll.value,
+      subject.value,
       (chapters.value ?? []).map((chapter) => ({ id: chapter.id, title: chapter.title.en })),
     ),
   ),
 )
 
-// Глава могла исчезнуть из очереди, пока шло занятие: тогда фильтр снимаем,
-// иначе экран выглядел бы пустым без видимой причины.
-watch(dueAll, (entries) => {
+// Глава могла кончиться, пока шло занятие: тогда фильтр снимаем, иначе экран
+// выглядел бы пустым без видимой причины.
+watch(subject, (entries) => {
   if (chapterId.value && !entries.some((entry) => entry.chapterId === chapterId.value)) chapterId.value = ''
 })
 
@@ -203,60 +212,63 @@ function onFinish(sessionResults: StepResult[]) {
         <RouterLink to="/chapters" class="btn-primary mt-5 sm:mt-6">Начать первый урок</RouterLink>
       </template>
 
-      <template v-else-if="due.length === 0">
-        <p class="mt-3 text-muted">Сегодня повторять нечего.</p>
-        <p v-if="progress.nextDueDay" class="mt-1 text-muted">
-          Следующее повторение — {{ formatDay(progress.nextDueDay) }}.
-        </p>
-        <div class="mt-5 sm:mt-6 flex flex-wrap gap-3">
-          <button v-if="hard.length" type="button" class="btn-primary" @click="startHard">
-            Повторить трудные
-          </button>
-          <RouterLink to="/chapters" class="btn-quiet">Учить новое</RouterLink>
-        </div>
-      </template>
-
       <template v-else>
         <!-- К повторению приходит всё вперемешку: фразы, слова и глаголы.
-             Чип сужает заход до одной главы — это разные занятия. -->
+             Чип сужает заход до одной главы — это разные занятия. В день без
+             срочного он так же делит трудные. -->
         <ChapterFilter v-model="chapterId" :options="filters" label="Глава для повторения" class="mt-4" />
 
-        <p class="mt-4 text-muted">
-          Пора повторить {{ plural(due.length, entryForms) }}.
-          <template v-if="due.length > BATCH_SIZE">За один заход — {{ BATCH_SIZE }}.</template>
-        </p>
+        <template v-if="due.length === 0">
+          <p class="mt-4 text-muted">Сегодня повторять нечего.</p>
+          <p v-if="progress.nextDueDay" class="mt-1 text-muted">
+            Следующее повторение — {{ formatDay(progress.nextDueDay) }}.
+          </p>
+          <div class="mt-5 sm:mt-6 flex flex-wrap gap-3">
+            <button v-if="hard.length" type="button" class="btn-primary" @click="startHard">
+              Повторить трудные
+            </button>
+            <RouterLink to="/chapters" class="btn-quiet">Учить новое</RouterLink>
+          </div>
+        </template>
 
-        <div class="mt-5 sm:mt-6 flex flex-wrap gap-3">
-          <button type="button" class="btn-primary" @click="startReview">Начать повторение</button>
-          <button v-if="hard.length" type="button" class="btn-quiet" @click="startHard">Сначала трудные</button>
-        </div>
+        <template v-else>
+          <p class="mt-4 text-muted">
+            Пора повторить {{ plural(due.length, entryForms) }}.
+            <template v-if="due.length > BATCH_SIZE">За один заход — {{ BATCH_SIZE }}.</template>
+          </p>
 
-        <ol class="mt-6 sm:mt-8 divide-y divide-line border-y border-line">
-          <li
-            v-for="entry in dueEntries.slice(0, BATCH_SIZE)"
-            :key="entry.phrase.id"
-            class="flex items-baseline gap-3 py-2 sm:py-3"
-          >
-            <span class="w-16 shrink-0 text-xs text-muted tabular-nums">
-              {{ pluralOf(progress.get(entry.phrase.id)?.interval ?? 0, DAY_FORMS) }}
-            </span>
-            <span class="min-w-0 flex-1">
-              <span lang="en" class="block font-serif text-lg leading-snug">{{ entry.phrase.en }}</span>
-              <span class="block text-sm leading-snug text-muted">{{ entry.phrase.ru }}</span>
-              <!-- Когда главу не выбирали, по записи не видно, откуда она. -->
-              <span v-if="!chapterId" lang="en" class="mt-0.5 block font-serif text-xs text-muted">
-                {{ titleOf.get(entry.chapterId) }}
+          <div class="mt-5 sm:mt-6 flex flex-wrap gap-3">
+            <button type="button" class="btn-primary" @click="startReview">Начать повторение</button>
+            <button v-if="hard.length" type="button" class="btn-quiet" @click="startHard">Сначала трудные</button>
+          </div>
+
+          <ol class="mt-6 sm:mt-8 divide-y divide-line border-y border-line">
+            <li
+              v-for="entry in dueEntries.slice(0, BATCH_SIZE)"
+              :key="entry.phrase.id"
+              class="flex items-baseline gap-3 py-2 sm:py-3"
+            >
+              <span class="w-16 shrink-0 text-xs text-muted tabular-nums">
+                {{ pluralOf(progress.get(entry.phrase.id)?.interval ?? 0, DAY_FORMS) }}
               </span>
-            </span>
-          </li>
-        </ol>
-        <p class="mt-3 text-sm text-muted">
-          Слева — нынешний перерыв: через столько дней фраза вернётся, если ответить верно.
-        </p>
+              <span class="min-w-0 flex-1">
+                <span lang="en" class="block font-serif text-lg leading-snug">{{ entry.phrase.en }}</span>
+                <span class="block text-sm leading-snug text-muted">{{ entry.phrase.ru }}</span>
+                <!-- Когда главу не выбирали, по записи не видно, откуда она. -->
+                <span v-if="!chapterId" lang="en" class="mt-0.5 block font-serif text-xs text-muted">
+                  {{ titleOf.get(entry.chapterId) }}
+                </span>
+              </span>
+            </li>
+          </ol>
+          <p class="mt-3 text-sm text-muted">
+            Слева — нынешний перерыв: через столько дней фраза вернётся, если ответить верно.
+          </p>
+        </template>
       </template>
 
       <!-- Где чаще всего спотыкаемся. Эти данные копились всё время, но нигде не показывались. -->
-      <template v-if="progress.startedCount > 0 && hard.length">
+      <template v-if="hardEntries.length">
         <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Трудные</h2>
         <p v-if="chapterId" class="mt-1 text-sm text-muted">Здесь ошибались чаще всего в этой главе.</p>
         <p v-else class="mt-1 text-sm text-muted">
