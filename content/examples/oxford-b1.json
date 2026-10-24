@@ -1,0 +1,5669 @@
+{
+  "chapter": "oxford-b1",
+  "note": "Второй пример к каждому слову — ступенью выше того, что в PDF: время посложнее, придаточное или устойчивое сочетание. Ключ — слово, часть речи и перевод ровно как в источнике.",
+  "entries": [
+    {
+      "word": "absolutely",
+      "pos": "adv.",
+      "sense": "абсолютно, совершенно",
+      "en": "There is absolutely no evidence that any of this was planned.",
+      "ru": "Нет совершенно никаких доказательств, что всё это планировалось."
+    },
+    {
+      "word": "academic",
+      "pos": "adj.",
+      "sense": "учебный, академический",
+      "en": "The question is academic now that the building has been sold.",
+      "ru": "Теперь, когда здание продано, вопрос чисто теоретический."
+    },
+    {
+      "word": "access",
+      "pos": "n., v.",
+      "sense": "доступ; получать доступ",
+      "en": "Only three people had access to the file, and all three deny it.",
+      "ru": "Доступ к файлу был у троих, и все трое отрицают."
+    },
+    {
+      "word": "accommodation",
+      "pos": "n.",
+      "sense": "жильё",
+      "en": "Accommodation in the city has become impossible for anyone on a normal wage.",
+      "ru": "Жильё в городе стало недоступным для любого с обычной зарплатой."
+    },
+    {
+      "word": "account",
+      "pos": "n.",
+      "sense": "счёт; аккаунт",
+      "en": "By his own account, he'd never read the document at all.",
+      "ru": "По его собственным словам, документ он вообще не читал."
+    },
+    {
+      "word": "achievement",
+      "pos": "n.",
+      "sense": "достижение",
+      "en": "Finishing at all was an achievement, given how it started.",
+      "ru": "Закончить это вообще было достижением, учитывая, как всё начиналось."
+    },
+    {
+      "word": "act",
+      "pos": "n.",
+      "sense": "поступок; акт (пьесы)",
+      "en": "It was an act of quiet decency that nobody saw.",
+      "ru": "Это был тихий порядочный поступок, которого никто не увидел."
+    },
+    {
+      "word": "ad",
+      "pos": "n.",
+      "sense": "реклама, объявление (разг.)",
+      "en": "The ad promised something the product has never been able to do.",
+      "ru": "Реклама обещала то, чего товар никогда не умел."
+    },
+    {
+      "word": "addition",
+      "pos": "n.",
+      "sense": "добавление (in addition — кроме того)",
+      "en": "In addition to the cost, there's the time nobody has accounted for.",
+      "ru": "Кроме расходов, есть ещё время, которое никто не посчитал."
+    },
+    {
+      "word": "admire",
+      "pos": "v.",
+      "sense": "восхищаться",
+      "en": "I admire her for saying it when everyone else stayed quiet.",
+      "ru": "Я восхищаюсь ею за то, что она сказала это, когда все молчали."
+    },
+    {
+      "word": "admit",
+      "pos": "v.",
+      "sense": "признавать",
+      "en": "It took them two years to admit what was obvious from the first week.",
+      "ru": "Им понадобилось два года, чтобы признать очевидное с первой недели."
+    },
+    {
+      "word": "advanced",
+      "pos": "adj.",
+      "sense": "продвинутый",
+      "en": "The disease was already advanced by the time it was diagnosed.",
+      "ru": "К моменту постановки диагноза болезнь была уже запущена."
+    },
+    {
+      "word": "advise",
+      "pos": "v.",
+      "sense": "советовать",
+      "en": "We'd advise against signing anything until the figures are confirmed.",
+      "ru": "Мы бы не советовали ничего подписывать, пока цифры не подтвердят."
+    },
+    {
+      "word": "afford",
+      "pos": "v.",
+      "sense": "позволить себе (по деньгам)",
+      "en": "We can't afford to get this wrong a second time.",
+      "ru": "Мы не можем позволить себе ошибиться здесь во второй раз."
+    },
+    {
+      "word": "age",
+      "pos": "v.",
+      "sense": "стареть",
+      "en": "The report has aged badly; almost none of it still holds.",
+      "ru": "Отчёт плохо состарился: почти ничего из него уже не верно."
+    },
+    {
+      "word": "aged",
+      "pos": "adj.",
+      "sense": "в возрасте",
+      "en": "The scheme is open to anyone aged sixteen and over.",
+      "ru": "Программа открыта для всех в возрасте от шестнадцати лет."
+    },
+    {
+      "word": "agent",
+      "pos": "n.",
+      "sense": "агент",
+      "en": "The agent took a commission from both sides, which nobody knew.",
+      "ru": "Агент взял комиссию с обеих сторон, о чём никто не знал."
+    },
+    {
+      "word": "agreement",
+      "pos": "n.",
+      "sense": "соглашение, согласие",
+      "en": "The agreement was reached in an afternoon and unravelled over a year.",
+      "ru": "Соглашение достигли за один вечер, а разваливалось оно год."
+    },
+    {
+      "word": "ahead",
+      "pos": "adv.",
+      "sense": "впереди, вперёд",
+      "en": "They were two years ahead of everyone else and ran out of money.",
+      "ru": "Они опережали всех на два года и остались без денег."
+    },
+    {
+      "word": "aim",
+      "pos": "v., n.",
+      "sense": "цель; стремиться",
+      "en": "The scheme aims to help people who in practice can't apply.",
+      "ru": "Программа призвана помочь тем, кто на практике не может подать заявку."
+    },
+    {
+      "word": "alarm",
+      "pos": "n.",
+      "sense": "будильник; сигнализация",
+      "en": "The alarm had been going off for an hour before anyone checked.",
+      "ru": "Сигнализация выла час, прежде чем кто-то пошёл проверить."
+    },
+    {
+      "word": "album",
+      "pos": "n.",
+      "sense": "альбом",
+      "en": "The album sold nothing for a decade and then became a classic.",
+      "ru": "Альбом десять лет не продавался, а потом стал классикой."
+    },
+    {
+      "word": "alcohol",
+      "pos": "n.",
+      "sense": "алкоголь",
+      "en": "He'd given up alcohol entirely after a conversation with his doctor.",
+      "ru": "Он совсем отказался от алкоголя после разговора с врачом."
+    },
+    {
+      "word": "alcoholic",
+      "pos": "adj.",
+      "sense": "алкогольный",
+      "en": "They serve no alcoholic drinks, which halved the trouble on Fridays.",
+      "ru": "Алкогольных напитков там нет, и по пятницам проблем стало вдвое меньше."
+    },
+    {
+      "word": "alternative",
+      "pos": "adj.",
+      "sense": "альтернативный",
+      "en": "The alternative route adds twenty kilometres and saves an hour.",
+      "ru": "Альтернативный маршрут длиннее на двадцать километров и экономит час."
+    },
+    {
+      "word": "amazed",
+      "pos": "adj.",
+      "sense": "изумлённый",
+      "en": "I was amazed that anyone had kept records going back that far.",
+      "ru": "Я был изумлён, что кто-то хранил записи такой давности."
+    },
+    {
+      "word": "ambition",
+      "pos": "n.",
+      "sense": "амбиция, стремление",
+      "en": "His ambition had been obvious to everyone except himself.",
+      "ru": "Его стремление было очевидно всем, кроме него самого."
+    },
+    {
+      "word": "ambitious",
+      "pos": "adj.",
+      "sense": "амбициозный, целеустремлённый",
+      "en": "The plan was ambitious to the point of being impossible.",
+      "ru": "План был амбициозным до невозможности."
+    },
+    {
+      "word": "analyse",
+      "pos": "v.",
+      "sense": "анализировать",
+      "en": "The data had been collected for years and never properly analysed.",
+      "ru": "Данные собирали годами и толком не анализировали."
+    },
+    {
+      "word": "analysis",
+      "pos": "n.",
+      "sense": "анализ",
+      "en": "The analysis says one thing; the summary at the front says another.",
+      "ru": "Анализ говорит одно, а краткое изложение в начале — другое."
+    },
+    {
+      "word": "announce",
+      "pos": "v.",
+      "sense": "объявлять",
+      "en": "The closure was announced on the last working day before the holidays.",
+      "ru": "О закрытии объявили в последний рабочий день перед праздниками."
+    },
+    {
+      "word": "announcement",
+      "pos": "n.",
+      "sense": "объявление",
+      "en": "The announcement raised more questions than it was meant to settle.",
+      "ru": "Объявление породило больше вопросов, чем должно было снять."
+    },
+    {
+      "word": "annoy",
+      "pos": "v.",
+      "sense": "раздражать",
+      "en": "What annoys me is not the mistake but the pretence that it didn't happen.",
+      "ru": "Меня раздражает не ошибка, а вид, будто её не было."
+    },
+    {
+      "word": "annoyed",
+      "pos": "adj.",
+      "sense": "раздражённый",
+      "en": "She was annoyed enough to put it in writing, which was unusual.",
+      "ru": "Она была раздражена настолько, что изложила это письменно, что было необычно."
+    },
+    {
+      "word": "annoying",
+      "pos": "adj.",
+      "sense": "раздражающий",
+      "en": "The most annoying part is that they were right.",
+      "ru": "Больше всего раздражает то, что они оказались правы."
+    },
+    {
+      "word": "apart",
+      "pos": "adv.",
+      "sense": "отдельно, порознь",
+      "en": "The two parts of the company had been drifting apart for years.",
+      "ru": "Две части компании годами расходились всё дальше."
+    },
+    {
+      "word": "apologize",
+      "pos": "v.",
+      "sense": "извиняться",
+      "en": "They apologized for the delay without ever explaining it.",
+      "ru": "Они извинились за задержку, так её и не объяснив."
+    },
+    {
+      "word": "application",
+      "pos": "n.",
+      "sense": "заявление; приложение",
+      "en": "The application was rejected on a technicality nobody had mentioned.",
+      "ru": "Заявку отклонили по формальности, о которой никто не предупреждал."
+    },
+    {
+      "word": "appointment",
+      "pos": "n.",
+      "sense": "встреча (по записи), приём",
+      "en": "The appointment was moved three times and finally cancelled.",
+      "ru": "Приём переносили трижды и в итоге отменили."
+    },
+    {
+      "word": "appreciate",
+      "pos": "v.",
+      "sense": "ценить, быть признательным",
+      "en": "I'd appreciate it if you told me before, not afterwards.",
+      "ru": "Я был бы признателен, если бы вы сказали заранее, а не потом."
+    },
+    {
+      "word": "approximately",
+      "pos": "adv.",
+      "sense": "приблизительно",
+      "en": "It affects approximately one person in four, which is not a small number.",
+      "ru": "Это касается примерно одного человека из четырёх, а это немало."
+    },
+    {
+      "word": "arrest",
+      "pos": "v., n.",
+      "sense": "арестовывать; арест",
+      "en": "He was arrested, questioned and released within the same day.",
+      "ru": "Его арестовали, допросили и отпустили в тот же день."
+    },
+    {
+      "word": "arrival",
+      "pos": "n.",
+      "sense": "прибытие",
+      "en": "Her arrival changed the mood of the department within a week.",
+      "ru": "Её приход изменил настроение в отделе за неделю."
+    },
+    {
+      "word": "assignment",
+      "pos": "n.",
+      "sense": "задание",
+      "en": "The assignment was due on Monday and he started it on Sunday night.",
+      "ru": "Задание надо было сдать в понедельник, а он сел за него в воскресенье ночью."
+    },
+    {
+      "word": "assist",
+      "pos": "v.",
+      "sense": "помогать",
+      "en": "Two colleagues assisted her without being asked and without telling anyone.",
+      "ru": "Двое коллег помогли ей, не дожидаясь просьбы и никому не сказав."
+    },
+    {
+      "word": "atmosphere",
+      "pos": "n.",
+      "sense": "атмосфера",
+      "en": "The atmosphere in the room changed the moment he walked in.",
+      "ru": "Атмосфера в комнате изменилась, едва он вошёл."
+    },
+    {
+      "word": "attach",
+      "pos": "v.",
+      "sense": "прикреплять",
+      "en": "He'd attached the wrong file and nobody noticed for a week.",
+      "ru": "Он прикрепил не тот файл, и неделю этого никто не заметил."
+    },
+    {
+      "word": "attitude",
+      "pos": "n.",
+      "sense": "отношение",
+      "en": "Her attitude to the work mattered more than any of her qualifications.",
+      "ru": "Её отношение к делу значило больше, чем все её дипломы."
+    },
+    {
+      "word": "attract",
+      "pos": "v.",
+      "sense": "привлекать",
+      "en": "The scheme attracted exactly the people it was designed to exclude.",
+      "ru": "Программа привлекла ровно тех, кого должна была отсечь."
+    },
+    {
+      "word": "attraction",
+      "pos": "n.",
+      "sense": "достопримечательность; привлекательность",
+      "en": "The main attraction is free and the guides never mention it.",
+      "ru": "Главная достопримечательность бесплатна, и гиды о ней не говорят."
+    },
+    {
+      "word": "authority",
+      "pos": "n.",
+      "sense": "власть, полномочия; орган власти",
+      "en": "He had the responsibility without any of the authority to act.",
+      "ru": "На нём была ответственность без всяких полномочий действовать."
+    },
+    {
+      "word": "average",
+      "pos": "v.",
+      "sense": "составлять в среднем",
+      "en": "Replies average about three weeks, which they describe as prompt.",
+      "ru": "Ответы в среднем идут три недели, что они называют оперативностью."
+    },
+    {
+      "word": "award",
+      "pos": "v.",
+      "sense": "присуждать (награду)",
+      "en": "The contract was awarded to a company formed a month earlier.",
+      "ru": "Контракт присудили компании, созданной месяцем раньше."
+    },
+    {
+      "word": "aware",
+      "pos": "adj.",
+      "sense": "осведомлённый (be aware of)",
+      "en": "Management were aware of the problem long before it became public.",
+      "ru": "Руководство знало о проблеме задолго до того, как о ней стало известно."
+    },
+    {
+      "word": "backwards",
+      "pos": "adv.",
+      "sense": "назад, задом наперёд",
+      "en": "The whole process seems to run backwards: you pay before you know the price.",
+      "ru": "Весь процесс словно идёт задом наперёд: платишь, не зная цены."
+    },
+    {
+      "word": "bake",
+      "pos": "v.",
+      "sense": "печь",
+      "en": "The bread is baked at four in the morning and gone by nine.",
+      "ru": "Хлеб пекут в четыре утра, и к девяти его уже нет."
+    },
+    {
+      "word": "balance",
+      "pos": "n., v.",
+      "sense": "баланс, равновесие; балансировать",
+      "en": "The balance between the two has shifted and nobody decided it should.",
+      "ru": "Равновесие между ними сместилось, и никто этого не решал."
+    },
+    {
+      "word": "ban",
+      "pos": "v., n.",
+      "sense": "запрещать; запрет",
+      "en": "The ban was introduced quickly and lifted even more quickly.",
+      "ru": "Запрет ввели быстро и отменили ещё быстрее."
+    },
+    {
+      "word": "bank (river)",
+      "pos": "n.",
+      "sense": "берег (реки)",
+      "en": "The bank had been washed away by the spring floods.",
+      "ru": "Берег размыло весенним половодьем."
+    },
+    {
+      "word": "base",
+      "pos": "n., v.",
+      "sense": "основа, база; основывать",
+      "en": "The decision was based on figures that turned out to be two years old.",
+      "ru": "Решение основывалось на цифрах, которым, как выяснилось, было два года."
+    },
+    {
+      "word": "basic",
+      "pos": "adj.",
+      "sense": "базовый, основной",
+      "en": "Even the most basic checks hadn't been carried out.",
+      "ru": "Не были проведены даже самые базовые проверки."
+    },
+    {
+      "word": "basis",
+      "pos": "n.",
+      "sense": "основа",
+      "en": "We've been working on the basis that the funding is secure.",
+      "ru": "Мы работали, исходя из того, что финансирование обеспечено."
+    },
+    {
+      "word": "battery",
+      "pos": "n.",
+      "sense": "батарейка, аккумулятор",
+      "en": "The battery in the alarm had been flat for months.",
+      "ru": "Батарейка в сигнализации села много месяцев назад."
+    },
+    {
+      "word": "battle",
+      "pos": "n.",
+      "sense": "битва, борьба",
+      "en": "It was a long battle with an institution that never answers letters.",
+      "ru": "Это была долгая борьба с учреждением, которое не отвечает на письма."
+    },
+    {
+      "word": "beauty",
+      "pos": "n.",
+      "sense": "красота",
+      "en": "The beauty of the system is that it needs almost no maintenance.",
+      "ru": "Прелесть системы в том, что ей почти не нужно обслуживание."
+    },
+    {
+      "word": "bee",
+      "pos": "n.",
+      "sense": "пчела",
+      "en": "The number of bees here has fallen by a third in ten years.",
+      "ru": "Пчёл здесь за десять лет стало на треть меньше."
+    },
+    {
+      "word": "belief",
+      "pos": "n.",
+      "sense": "вера, убеждение",
+      "en": "It is beyond belief that nobody checked the address.",
+      "ru": "Трудно поверить, что никто не проверил адрес."
+    },
+    {
+      "word": "bell",
+      "pos": "n.",
+      "sense": "колокол; звонок",
+      "en": "The bell had rung at the same hour for two hundred years.",
+      "ru": "Колокол звонил в один и тот же час двести лет."
+    },
+    {
+      "word": "bend",
+      "pos": "v., n.",
+      "sense": "сгибать(ся); поворот",
+      "en": "The rules bend for some people and never for others.",
+      "ru": "Правила для одних гнутся, а для других — никогда."
+    },
+    {
+      "word": "benefit",
+      "pos": "v.",
+      "sense": "получать пользу",
+      "en": "The people who benefit most are the ones who complain least.",
+      "ru": "Больше всего пользы получают те, кто меньше всего жалуется."
+    },
+    {
+      "word": "better",
+      "pos": "n.",
+      "sense": "лучшее (get the better of)",
+      "en": "Curiosity got the better of her and she opened the file.",
+      "ru": "Любопытство взяло верх, и она открыла файл."
+    },
+    {
+      "word": "bite",
+      "pos": "v., n.",
+      "sense": "кусать; укус",
+      "en": "The dog had never bitten anyone before that afternoon.",
+      "ru": "До того дня собака никого не кусала."
+    },
+    {
+      "word": "block",
+      "pos": "n., v.",
+      "sense": "блок; квартал; блокировать",
+      "en": "A fallen tree blocked the only road out of the village.",
+      "ru": "Упавшее дерево перекрыло единственную дорогу из деревни."
+    },
+    {
+      "word": "board",
+      "pos": "v.",
+      "sense": "садиться (на самолёт, поезд)",
+      "en": "We'd boarded and sat on the runway for two hours.",
+      "ru": "Мы сели в самолёт и два часа простояли на полосе."
+    },
+    {
+      "word": "bomb",
+      "pos": "n., v.",
+      "sense": "бомба; бомбить",
+      "en": "The bomb had been there since the war and nobody had known.",
+      "ru": "Бомба пролежала там с войны, и никто о ней не знал."
+    },
+    {
+      "word": "border",
+      "pos": "n.",
+      "sense": "граница",
+      "en": "The border had been closed for three days without explanation.",
+      "ru": "Границу закрыли на три дня без объяснений."
+    },
+    {
+      "word": "bother",
+      "pos": "v.",
+      "sense": "беспокоить",
+      "en": "What bothers me is how quickly everyone agreed.",
+      "ru": "Меня беспокоит, как быстро все согласились."
+    },
+    {
+      "word": "branch",
+      "pos": "n.",
+      "sense": "ветка; филиал",
+      "en": "The branch closed and the nearest one is forty kilometres away.",
+      "ru": "Филиал закрыли, и ближайший теперь в сорока километрах."
+    },
+    {
+      "word": "brand",
+      "pos": "n., v.",
+      "sense": "бренд, марка",
+      "en": "The brand survived two bankruptcies and three changes of owner.",
+      "ru": "Бренд пережил два банкротства и три смены владельца."
+    },
+    {
+      "word": "brave",
+      "pos": "adj.",
+      "sense": "храбрый",
+      "en": "It was a brave decision that could easily have ended his career.",
+      "ru": "Это было храброе решение, которое легко могло стоить ему карьеры."
+    },
+    {
+      "word": "breath",
+      "pos": "n.",
+      "sense": "дыхание, вдох",
+      "en": "She paused, took a breath, and said what everyone was thinking.",
+      "ru": "Она помолчала, вдохнула и сказала то, о чём думали все."
+    },
+    {
+      "word": "breathe",
+      "pos": "v.",
+      "sense": "дышать",
+      "en": "It was hard to breathe in the room by the end of the meeting.",
+      "ru": "К концу встречи в комнате было трудно дышать."
+    },
+    {
+      "word": "breathing",
+      "pos": "n.",
+      "sense": "дыхание",
+      "en": "His breathing was the only sound in the room.",
+      "ru": "Его дыхание было единственным звуком в комнате."
+    },
+    {
+      "word": "bride",
+      "pos": "n.",
+      "sense": "невеста",
+      "en": "The bride had organised the whole thing herself in six weeks.",
+      "ru": "Невеста организовала всё сама за шесть недель."
+    },
+    {
+      "word": "bubble",
+      "pos": "n.",
+      "sense": "пузырь",
+      "en": "Everyone knew it was a bubble and everyone kept buying.",
+      "ru": "Все знали, что это пузырь, и все продолжали покупать."
+    },
+    {
+      "word": "bury",
+      "pos": "v.",
+      "sense": "хоронить, закапывать",
+      "en": "The finding was buried in an appendix nobody reads.",
+      "ru": "Вывод спрятали в приложении, которое никто не читает."
+    },
+    {
+      "word": "by",
+      "pos": "adv.",
+      "sense": "мимо",
+      "en": "Two years went by before anyone asked about it again.",
+      "ru": "Прошло два года, прежде чем об этом снова спросили."
+    },
+    {
+      "word": "calm",
+      "pos": "adj., v., n.",
+      "sense": "спокойный; успокаивать(ся)",
+      "en": "She stayed completely calm while everyone else lost their heads.",
+      "ru": "Она оставалась совершенно спокойной, пока все остальные теряли голову."
+    },
+    {
+      "word": "campaign",
+      "pos": "n., v.",
+      "sense": "кампания",
+      "en": "The campaign cost more than the thing it was advertising.",
+      "ru": "Кампания стоила больше того, что рекламировала."
+    },
+    {
+      "word": "campus",
+      "pos": "n.",
+      "sense": "кампус, студгородок",
+      "en": "Half the campus had been built in the sixties and never updated.",
+      "ru": "Половину кампуса построили в шестидесятых и с тех пор не обновляли."
+    },
+    {
+      "word": "candidate",
+      "pos": "n.",
+      "sense": "кандидат",
+      "en": "The strongest candidate withdrew the day before the interviews.",
+      "ru": "Сильнейший кандидат снялся за день до собеседований."
+    },
+    {
+      "word": "cap",
+      "pos": "n.",
+      "sense": "кепка; крышка",
+      "en": "He'd worn the same cap every day since his first season.",
+      "ru": "Он носил одну и ту же кепку каждый день с первого своего сезона."
+    },
+    {
+      "word": "captain",
+      "pos": "n.",
+      "sense": "капитан",
+      "en": "The captain took the blame for a decision he hadn't made.",
+      "ru": "Капитан взял на себя вину за решение, которого не принимал."
+    },
+    {
+      "word": "careless",
+      "pos": "adj.",
+      "sense": "небрежный, неосторожный",
+      "en": "One careless sentence in the email caused three weeks of trouble.",
+      "ru": "Одна небрежная фраза в письме стоила трёх недель неприятностей."
+    },
+    {
+      "word": "category",
+      "pos": "n.",
+      "sense": "категория",
+      "en": "The complaint fell into a category that nobody is responsible for.",
+      "ru": "Жалоба попала в категорию, за которую никто не отвечает."
+    },
+    {
+      "word": "ceiling",
+      "pos": "n.",
+      "sense": "потолок",
+      "en": "There's been a ceiling on wages here since well before the crisis.",
+      "ru": "Потолок зарплат здесь существует задолго до кризиса."
+    },
+    {
+      "word": "celebration",
+      "pos": "n.",
+      "sense": "празднование",
+      "en": "The celebration was cancelled and nobody was told why.",
+      "ru": "Празднование отменили, и никому не сказали почему."
+    },
+    {
+      "word": "central",
+      "pos": "adj.",
+      "sense": "центральный",
+      "en": "The central question has still not been answered.",
+      "ru": "На главный вопрос так и не ответили."
+    },
+    {
+      "word": "centre",
+      "pos": "v.",
+      "sense": "ставить в центр",
+      "en": "The whole argument is centred on a figure nobody can verify.",
+      "ru": "Весь спор строится вокруг цифры, которую никто не может проверить."
+    },
+    {
+      "word": "ceremony",
+      "pos": "n.",
+      "sense": "церемония",
+      "en": "The ceremony lasted ten minutes and the preparations took a year.",
+      "ru": "Церемония длилась десять минут, а подготовка заняла год."
+    },
+    {
+      "word": "chain",
+      "pos": "n.",
+      "sense": "цепь; сеть (магазинов)",
+      "en": "The chain opened here and three independent shops closed within a year.",
+      "ru": "Сеть открылась здесь, и за год закрылись три независимых магазина."
+    },
+    {
+      "word": "challenge",
+      "pos": "n.",
+      "sense": "вызов, трудная задача",
+      "en": "The real challenge wasn't technical; it was getting people to agree.",
+      "ru": "Настоящая трудность была не технической, а в том, чтобы люди договорились."
+    },
+    {
+      "word": "champion",
+      "pos": "n.",
+      "sense": "чемпион",
+      "en": "The champion had been written off twice before that season.",
+      "ru": "Будущего чемпиона до того сезона дважды списывали со счетов."
+    },
+    {
+      "word": "channel",
+      "pos": "n.",
+      "sense": "канал",
+      "en": "There's no official channel for raising this kind of concern.",
+      "ru": "Официального канала для таких обращений не существует."
+    },
+    {
+      "word": "chapter",
+      "pos": "n.",
+      "sense": "глава",
+      "en": "The chapter everyone quotes is the one the author later disowned.",
+      "ru": "Глава, которую все цитируют, — та, от которой автор потом отрёкся."
+    },
+    {
+      "word": "charge",
+      "pos": "n., v.",
+      "sense": "плата; заряжать; взимать плату",
+      "en": "They charge for something that used to be included.",
+      "ru": "Они берут плату за то, что раньше входило в стоимость."
+    },
+    {
+      "word": "cheap",
+      "pos": "adv.",
+      "sense": "дёшево",
+      "en": "We got it cheap and have been paying for that ever since.",
+      "ru": "Мы взяли это дёшево и с тех пор за это расплачиваемся."
+    },
+    {
+      "word": "cheat",
+      "pos": "v., n.",
+      "sense": "жульничать, списывать; обманщик",
+      "en": "It's hard to cheat a system that nobody understands.",
+      "ru": "Трудно обмануть систему, которую никто не понимает."
+    },
+    {
+      "word": "cheerful",
+      "pos": "adj.",
+      "sense": "жизнерадостный",
+      "en": "She remained cheerful through a year that would have broken most people.",
+      "ru": "Она оставалась жизнерадостной весь год, который сломал бы большинство."
+    },
+    {
+      "word": "chemical",
+      "pos": "adj., n.",
+      "sense": "химический; химикат",
+      "en": "The chemicals had been stored there since the plant closed.",
+      "ru": "Химикаты хранились там с момента закрытия завода."
+    },
+    {
+      "word": "chest",
+      "pos": "n.",
+      "sense": "грудь, грудная клетка",
+      "en": "He'd had chest pains for a week before he said anything.",
+      "ru": "У него неделю болела грудь, прежде чем он что-то сказал."
+    },
+    {
+      "word": "childhood",
+      "pos": "n.",
+      "sense": "детство",
+      "en": "Her childhood had been spent in three countries and two languages.",
+      "ru": "Её детство прошло в трёх странах и на двух языках."
+    },
+    {
+      "word": "claim",
+      "pos": "v., n.",
+      "sense": "утверждать; заявление, претензия",
+      "en": "They claim the figures were approved, and nobody can find who approved them.",
+      "ru": "Они утверждают, что цифры одобрили, и никто не может найти кто."
+    },
+    {
+      "word": "clause",
+      "pos": "n.",
+      "sense": "придаточное предложение; пункт (договора)",
+      "en": "One clause buried on page nine changed the whole agreement.",
+      "ru": "Один пункт, спрятанный на девятой странице, изменил всё соглашение."
+    },
+    {
+      "word": "clear",
+      "pos": "v.",
+      "sense": "убирать, очищать",
+      "en": "It took a week to clear the site and a year to agree what next.",
+      "ru": "Расчистить площадку заняло неделю, а договориться о дальнейшем — год."
+    },
+    {
+      "word": "click",
+      "pos": "v., n.",
+      "sense": "щёлкать, кликать; щелчок",
+      "en": "Most people click agree without reading a single line.",
+      "ru": "Большинство нажимает «согласен», не прочитав ни строчки."
+    },
+    {
+      "word": "client",
+      "pos": "n.",
+      "sense": "клиент",
+      "en": "The client had been with us for twelve years and left over an email.",
+      "ru": "Клиент был с нами двенадцать лет и ушёл из-за одного письма."
+    },
+    {
+      "word": "climb",
+      "pos": "n.",
+      "sense": "подъём, восхождение",
+      "en": "The climb took longer than the descent, as it always does.",
+      "ru": "Подъём занял больше времени, чем спуск, как всегда и бывает."
+    },
+    {
+      "word": "close",
+      "pos": "adv.",
+      "sense": "близко",
+      "en": "They came close to agreement twice and walked away both times.",
+      "ru": "Дважды они были близки к соглашению и оба раза уходили."
+    },
+    {
+      "word": "cloth",
+      "pos": "n.",
+      "sense": "ткань; тряпка",
+      "en": "The cloth had been woven by hand in a village that no longer exists.",
+      "ru": "Ткань соткали вручную в деревне, которой больше нет."
+    },
+    {
+      "word": "clue",
+      "pos": "n.",
+      "sense": "подсказка, улика",
+      "en": "The only clue was a date written on the back of the photograph.",
+      "ru": "Единственной уликой была дата на обороте фотографии."
+    },
+    {
+      "word": "coach",
+      "pos": "v.",
+      "sense": "тренировать",
+      "en": "He coached the team for free for eleven years.",
+      "ru": "Он тренировал команду бесплатно одиннадцать лет."
+    },
+    {
+      "word": "coal",
+      "pos": "n.",
+      "sense": "уголь",
+      "en": "The town lived on coal for a century and had nothing afterwards.",
+      "ru": "Город век жил углём и остался ни с чем."
+    },
+    {
+      "word": "coin",
+      "pos": "n.",
+      "sense": "монета",
+      "en": "The coins found there were older than the building above them.",
+      "ru": "Найденные там монеты были старше стоявшего над ними здания."
+    },
+    {
+      "word": "collection",
+      "pos": "n.",
+      "sense": "коллекция; сбор",
+      "en": "The collection had been built over fifty years and sold in an afternoon.",
+      "ru": "Коллекцию собирали пятьдесят лет и продали за один вечер."
+    },
+    {
+      "word": "coloured",
+      "pos": "adj.",
+      "sense": "цветной",
+      "en": "The coloured sections of the map show where nobody has surveyed.",
+      "ru": "Цветные участки карты показывают, где никто не проводил съёмку."
+    },
+    {
+      "word": "combine",
+      "pos": "v.",
+      "sense": "сочетать, объединять",
+      "en": "The job combines two roles that used to belong to different people.",
+      "ru": "Работа совмещает две роли, которые раньше занимали разные люди."
+    },
+    {
+      "word": "comment",
+      "pos": "v.",
+      "sense": "комментировать",
+      "en": "They declined to comment, which everyone read as an answer.",
+      "ru": "Они отказались комментировать, и все восприняли это как ответ."
+    },
+    {
+      "word": "commercial",
+      "pos": "adj., n.",
+      "sense": "коммерческий; реклама (на ТВ)",
+      "en": "The commercial pressure was never mentioned in the official reasons.",
+      "ru": "О коммерческом давлении в официальных причинах не было ни слова."
+    },
+    {
+      "word": "commit",
+      "pos": "v.",
+      "sense": "совершать (преступление)",
+      "en": "Nobody has been charged with committing the offence.",
+      "ru": "Никому не предъявили обвинения в совершении этого преступления."
+    },
+    {
+      "word": "communication",
+      "pos": "n.",
+      "sense": "общение, связь",
+      "en": "The failure was one of communication, not of competence.",
+      "ru": "Подвела связь между людьми, а не их умение."
+    },
+    {
+      "word": "comparison",
+      "pos": "n.",
+      "sense": "сравнение",
+      "en": "By comparison with last year, these figures look almost good.",
+      "ru": "По сравнению с прошлым годом эти цифры выглядят почти хорошо."
+    },
+    {
+      "word": "competitor",
+      "pos": "n.",
+      "sense": "конкурент, участник соревнования",
+      "en": "Their main competitor had made the same mistake two years earlier.",
+      "ru": "Их главный конкурент совершил ту же ошибку двумя годами раньше."
+    },
+    {
+      "word": "competitive",
+      "pos": "adj.",
+      "sense": "конкурентный, соревновательный",
+      "en": "The market is competitive in theory and controlled by three firms in practice.",
+      "ru": "Рынок конкурентен в теории и контролируется тремя фирмами на практике."
+    },
+    {
+      "word": "complaint",
+      "pos": "n.",
+      "sense": "жалоба",
+      "en": "The complaint was acknowledged, filed and never looked at again.",
+      "ru": "Жалобу приняли, подшили и больше в неё не заглядывали."
+    },
+    {
+      "word": "complex",
+      "pos": "adj.",
+      "sense": "сложный",
+      "en": "The situation is more complex than either side admits.",
+      "ru": "Положение сложнее, чем признаёт любая из сторон."
+    },
+    {
+      "word": "concentrate",
+      "pos": "v.",
+      "sense": "сосредотачиваться",
+      "en": "It's impossible to concentrate when you're interrupted every ten minutes.",
+      "ru": "Невозможно сосредоточиться, когда тебя перебивают каждые десять минут."
+    },
+    {
+      "word": "conclude",
+      "pos": "v.",
+      "sense": "заключать, делать вывод",
+      "en": "The report concluded exactly what the people who ordered it wanted.",
+      "ru": "Отчёт пришёл ровно к тому выводу, которого хотели заказчики."
+    },
+    {
+      "word": "conclusion",
+      "pos": "n.",
+      "sense": "вывод, заключение",
+      "en": "The conclusion had been written before the evidence was gathered.",
+      "ru": "Вывод написали до того, как собрали доказательства."
+    },
+    {
+      "word": "confident",
+      "pos": "adj.",
+      "sense": "уверенный в себе",
+      "en": "He was confident about figures he hadn't checked himself.",
+      "ru": "Он был уверен в цифрах, которых сам не проверял."
+    },
+    {
+      "word": "confirm",
+      "pos": "v.",
+      "sense": "подтверждать",
+      "en": "Nothing has been confirmed in writing, which makes me nervous.",
+      "ru": "Письменно ничего не подтверждено, и это меня настораживает."
+    },
+    {
+      "word": "confuse",
+      "pos": "v.",
+      "sense": "сбивать с толку, путать",
+      "en": "People constantly confuse the two schemes, and the names don't help.",
+      "ru": "Люди постоянно путают эти две программы, и названия тут не помогают."
+    },
+    {
+      "word": "confused",
+      "pos": "adj.",
+      "sense": "растерянный, запутавшийся",
+      "en": "Everyone left the meeting more confused than they'd come in.",
+      "ru": "Со встречи все ушли более запутанными, чем пришли."
+    },
+    {
+      "word": "connection",
+      "pos": "n.",
+      "sense": "связь, соединение",
+      "en": "The connection between the two events only became clear much later.",
+      "ru": "Связь между этими событиями прояснилась гораздо позже."
+    },
+    {
+      "word": "consequence",
+      "pos": "n.",
+      "sense": "последствие",
+      "en": "Nobody had thought through the consequences of doing nothing.",
+      "ru": "Никто не продумал последствия бездействия."
+    },
+    {
+      "word": "consist",
+      "pos": "v.",
+      "sense": "состоять (consist of)",
+      "en": "The committee consists of people who have never used the service.",
+      "ru": "Комитет состоит из людей, никогда не пользовавшихся этой услугой."
+    },
+    {
+      "word": "consume",
+      "pos": "v.",
+      "sense": "потреблять",
+      "en": "The building consumes more energy than the three around it together.",
+      "ru": "Здание потребляет больше энергии, чем три соседних вместе."
+    },
+    {
+      "word": "consumer",
+      "pos": "n.",
+      "sense": "потребитель",
+      "en": "Consumers were told the change would save them money.",
+      "ru": "Потребителям сказали, что перемена сэкономит им деньги."
+    },
+    {
+      "word": "contact",
+      "pos": "n., v.",
+      "sense": "контакт; связываться",
+      "en": "Nobody had contacted the families before the story appeared.",
+      "ru": "С семьями никто не связался до того, как появилась публикация."
+    },
+    {
+      "word": "container",
+      "pos": "n.",
+      "sense": "контейнер, ёмкость",
+      "en": "The containers had been sitting at the port for five weeks.",
+      "ru": "Контейнеры простояли в порту пять недель."
+    },
+    {
+      "word": "content",
+      "pos": "n.",
+      "sense": "содержание, содержимое",
+      "en": "The content is good; the way it's organised makes it unusable.",
+      "ru": "Содержание хорошее, а то, как оно устроено, делает его бесполезным."
+    },
+    {
+      "word": "continuous",
+      "pos": "adj.",
+      "sense": "непрерывный",
+      "en": "There has been continuous pressure to cut the budget since 2020.",
+      "ru": "С 2020 года идёт непрерывное давление с целью урезать бюджет."
+    },
+    {
+      "word": "contrast",
+      "pos": "n., v.",
+      "sense": "контраст; противопоставлять",
+      "en": "In contrast to what was promised, almost nothing has changed.",
+      "ru": "В отличие от обещанного, почти ничего не изменилось."
+    },
+    {
+      "word": "convenient",
+      "pos": "adj.",
+      "sense": "удобный",
+      "en": "The timing was convenient for everyone except the people affected.",
+      "ru": "Сроки были удобны всем, кроме тех, кого это касалось."
+    },
+    {
+      "word": "convince",
+      "pos": "v.",
+      "sense": "убеждать",
+      "en": "It took her a year to convince them of something obvious.",
+      "ru": "Ей понадобился год, чтобы убедить их в очевидном."
+    },
+    {
+      "word": "cool",
+      "pos": "v.",
+      "sense": "охлаждать(ся)",
+      "en": "Let the whole thing cool before you decide anything.",
+      "ru": "Дай всему остыть, прежде чем что-то решать."
+    },
+    {
+      "word": "costume",
+      "pos": "n.",
+      "sense": "костюм (маскарадный, национальный)",
+      "en": "The costumes had been made by hand for a performance that never happened.",
+      "ru": "Костюмы сшили вручную для спектакля, который так и не состоялся."
+    },
+    {
+      "word": "cottage",
+      "pos": "n.",
+      "sense": "коттедж, загородный домик",
+      "en": "They bought the cottage as a ruin and spent nine years on it.",
+      "ru": "Они купили домик руиной и потратили на него девять лет."
+    },
+    {
+      "word": "cotton",
+      "pos": "n.",
+      "sense": "хлопок",
+      "en": "Cotton needs more water than this region can now provide.",
+      "ru": "Хлопку нужно больше воды, чем этот край теперь может дать."
+    },
+    {
+      "word": "count",
+      "pos": "n.",
+      "sense": "подсчёт",
+      "en": "At the last count, more than two hundred had signed.",
+      "ru": "По последнему подсчёту, подписали больше двухсот человек."
+    },
+    {
+      "word": "countryside",
+      "pos": "n.",
+      "sense": "сельская местность",
+      "en": "The countryside here empties out between September and May.",
+      "ru": "С сентября по май сельская местность здесь пустеет."
+    },
+    {
+      "word": "court",
+      "pos": "n.",
+      "sense": "суд; корт",
+      "en": "The case went to court and took four years to resolve.",
+      "ru": "Дело дошло до суда и решалось четыре года."
+    },
+    {
+      "word": "cover",
+      "pos": "n.",
+      "sense": "обложка; покрытие",
+      "en": "The report's cover was redesigned twice while the content stayed wrong.",
+      "ru": "Обложку отчёта переделывали дважды, а содержание оставалось ошибочным."
+    },
+    {
+      "word": "covered",
+      "pos": "adj.",
+      "sense": "покрытый",
+      "en": "The desk was covered in papers nobody had looked at for months.",
+      "ru": "Стол был завален бумагами, в которые месяцами никто не заглядывал."
+    },
+    {
+      "word": "cream",
+      "pos": "adj.",
+      "sense": "кремовый (цвет)",
+      "en": "The walls had been painted cream, which hid nothing at all.",
+      "ru": "Стены выкрасили в кремовый, и это ничего не скрыло."
+    },
+    {
+      "word": "criminal",
+      "pos": "adj.",
+      "sense": "уголовный, преступный",
+      "en": "No criminal charges were ever brought, although the facts were clear.",
+      "ru": "Уголовных обвинений так и не предъявили, хотя факты были ясны."
+    },
+    {
+      "word": "cruel",
+      "pos": "adj.",
+      "sense": "жестокий",
+      "en": "It would be cruel to let them find out from somebody else.",
+      "ru": "Было бы жестоко дать им узнать об этом от кого-то другого."
+    },
+    {
+      "word": "cultural",
+      "pos": "adj.",
+      "sense": "культурный",
+      "en": "The cultural differences mattered more than the language.",
+      "ru": "Культурные различия значили больше, чем язык."
+    },
+    {
+      "word": "currency",
+      "pos": "n.",
+      "sense": "валюта",
+      "en": "The currency lost a third of its value in a single month.",
+      "ru": "За один месяц валюта потеряла треть стоимости."
+    },
+    {
+      "word": "current",
+      "pos": "adj.",
+      "sense": "текущий, нынешний",
+      "en": "The current rules were written for a situation that no longer exists.",
+      "ru": "Нынешние правила писали для положения, которого больше нет."
+    },
+    {
+      "word": "currently",
+      "pos": "adv.",
+      "sense": "в настоящее время",
+      "en": "We're currently waiting on an answer that was promised in June.",
+      "ru": "Сейчас мы ждём ответа, обещанного в июне."
+    },
+    {
+      "word": "curtain",
+      "pos": "n.",
+      "sense": "штора, занавеска",
+      "en": "The curtains had faded on one side where the sun reached them.",
+      "ru": "Шторы выгорели с той стороны, куда доходило солнце."
+    },
+    {
+      "word": "custom",
+      "pos": "n.",
+      "sense": "обычай",
+      "en": "It's a custom here to refuse twice before accepting.",
+      "ru": "Здесь есть обычай дважды отказаться, прежде чем принять."
+    },
+    {
+      "word": "cut",
+      "pos": "n.",
+      "sense": "порез; сокращение",
+      "en": "The cuts were announced as efficiencies and felt like something else.",
+      "ru": "Сокращения объявили как повышение эффективности, а ощущались они иначе."
+    },
+    {
+      "word": "daily",
+      "pos": "adv.",
+      "sense": "ежедневно",
+      "en": "The figures are updated daily and have been wrong since Tuesday.",
+      "ru": "Цифры обновляют ежедневно, и со вторника они неверны."
+    },
+    {
+      "word": "damage",
+      "pos": "n., v.",
+      "sense": "ущерб; повреждать",
+      "en": "The damage to their reputation outlasted the damage to the building.",
+      "ru": "Ущерб их репутации оказался долговечнее ущерба зданию."
+    },
+    {
+      "word": "deal",
+      "pos": "n.",
+      "sense": "сделка, договорённость",
+      "en": "The deal was signed in a hurry and read carefully only afterwards.",
+      "ru": "Сделку подписали в спешке, а внимательно прочитали лишь потом."
+    },
+    {
+      "word": "decade",
+      "pos": "n.",
+      "sense": "десятилетие",
+      "en": "The problem has been getting worse for the better part of a decade.",
+      "ru": "Проблема усугубляется уже почти десятилетие."
+    },
+    {
+      "word": "decorate",
+      "pos": "v.",
+      "sense": "украшать; делать ремонт",
+      "en": "The flat had been decorated badly by someone in a hurry.",
+      "ru": "Квартиру неудачно отремонтировал кто-то второпях."
+    },
+    {
+      "word": "deep",
+      "pos": "adv.",
+      "sense": "глубоко",
+      "en": "They dug deep enough to find out why the wall kept cracking.",
+      "ru": "Они копнули достаточно глубоко, чтобы понять, почему стена трескается."
+    },
+    {
+      "word": "define",
+      "pos": "v.",
+      "sense": "определять, давать определение",
+      "en": "Nobody had defined what success would look like, so everyone claimed it.",
+      "ru": "Никто не определил, как выглядит успех, и потому его объявили все."
+    },
+    {
+      "word": "definite",
+      "pos": "adj.",
+      "sense": "определённый, точный",
+      "en": "We still haven't had a definite answer, only a series of maybes.",
+      "ru": "Определённого ответа мы так и не получили — только череду «может быть»."
+    },
+    {
+      "word": "definition",
+      "pos": "n.",
+      "sense": "определение",
+      "en": "By any sensible definition, the project has already failed.",
+      "ru": "По любому разумному определению, проект уже провалился."
+    },
+    {
+      "word": "deliver",
+      "pos": "v.",
+      "sense": "доставлять",
+      "en": "They promised a great deal and delivered about a third of it.",
+      "ru": "Они обещали многое и выполнили примерно треть."
+    },
+    {
+      "word": "departure",
+      "pos": "n.",
+      "sense": "отправление, вылет",
+      "en": "His departure was announced in two lines on a Friday evening.",
+      "ru": "О его уходе сообщили двумя строчками в пятницу вечером."
+    },
+    {
+      "word": "despite",
+      "pos": "prep.",
+      "sense": "несмотря на",
+      "en": "Despite everything that was said, nothing was actually changed.",
+      "ru": "Несмотря на все слова, ничего по сути не изменили."
+    },
+    {
+      "word": "destination",
+      "pos": "n.",
+      "sense": "пункт назначения",
+      "en": "Half the passengers had no idea their destination had been changed.",
+      "ru": "Половина пассажиров не знала, что пункт назначения изменили."
+    },
+    {
+      "word": "determine",
+      "pos": "v.",
+      "sense": "определять, устанавливать",
+      "en": "What determines the outcome is usually decided before the meeting.",
+      "ru": "То, что определяет исход, обычно решается до встречи."
+    },
+    {
+      "word": "determined",
+      "pos": "adj.",
+      "sense": "решительный, полный решимости",
+      "en": "She was determined to see it through, whatever it cost her.",
+      "ru": "Она была полна решимости довести это до конца, чего бы ей это ни стоило."
+    },
+    {
+      "word": "development",
+      "pos": "n.",
+      "sense": "развитие",
+      "en": "The development of the area was approved before anyone consulted the residents.",
+      "ru": "Застройку района одобрили до того, как спросили жителей."
+    },
+    {
+      "word": "diagram",
+      "pos": "n.",
+      "sense": "диаграмма, схема",
+      "en": "One diagram explained what three pages of text had failed to.",
+      "ru": "Одна схема объяснила то, с чем не справились три страницы текста."
+    },
+    {
+      "word": "diamond",
+      "pos": "n.",
+      "sense": "алмаз, бриллиант",
+      "en": "The diamonds had been insured for far less than they were worth.",
+      "ru": "Бриллианты застраховали на сумму куда меньше их стоимости."
+    },
+    {
+      "word": "difficulty",
+      "pos": "n.",
+      "sense": "трудность",
+      "en": "The main difficulty is that nobody will say who decides.",
+      "ru": "Главная трудность в том, что никто не говорит, кто принимает решение."
+    },
+    {
+      "word": "direct",
+      "pos": "v., adv.",
+      "sense": "направлять; прямо",
+      "en": "The complaint was directed to a department that had been closed.",
+      "ru": "Жалобу направили в отдел, который уже закрыли."
+    },
+    {
+      "word": "directly",
+      "pos": "adv.",
+      "sense": "прямо, непосредственно",
+      "en": "Nobody had spoken to her directly before the decision was taken.",
+      "ru": "До принятия решения с ней напрямую никто не говорил."
+    },
+    {
+      "word": "dirt",
+      "pos": "n.",
+      "sense": "грязь",
+      "en": "Under the dirt there was a floor nobody had known about.",
+      "ru": "Под грязью оказался пол, о котором никто не подозревал."
+    },
+    {
+      "word": "disadvantage",
+      "pos": "n.",
+      "sense": "недостаток",
+      "en": "The main disadvantage only shows up after about a year.",
+      "ru": "Главный недостаток проявляется примерно через год."
+    },
+    {
+      "word": "disappointed",
+      "pos": "adj.",
+      "sense": "разочарованный",
+      "en": "They were disappointed, though not nearly as surprised as they pretended.",
+      "ru": "Они были разочарованы, хотя удивлены далеко не так, как изображали."
+    },
+    {
+      "word": "disappointing",
+      "pos": "adj.",
+      "sense": "разочаровывающий",
+      "en": "The result was disappointing but entirely predictable.",
+      "ru": "Результат разочаровал, но был совершенно предсказуем."
+    },
+    {
+      "word": "discount",
+      "pos": "n.",
+      "sense": "скидка",
+      "en": "The discount applies only to things nobody wants to buy.",
+      "ru": "Скидка действует только на то, что никто не хочет покупать."
+    },
+    {
+      "word": "dislike",
+      "pos": "v., n.",
+      "sense": "не любить; неприязнь",
+      "en": "He disliked the whole idea and said so at every opportunity.",
+      "ru": "Ему не нравилась вся эта затея, и он говорил об этом при каждом случае."
+    },
+    {
+      "word": "divide",
+      "pos": "v.",
+      "sense": "делить",
+      "en": "The money was divided in a way that satisfied nobody.",
+      "ru": "Деньги поделили так, что это никого не устроило."
+    },
+    {
+      "word": "documentary",
+      "pos": "n.",
+      "sense": "документальный фильм",
+      "en": "The documentary took six years to make and was shown once.",
+      "ru": "Документальный фильм снимали шесть лет и показали один раз."
+    },
+    {
+      "word": "donate",
+      "pos": "v.",
+      "sense": "жертвовать",
+      "en": "They donated the land on condition that it stayed public.",
+      "ru": "Они пожертвовали землю при условии, что она останется общедоступной."
+    },
+    {
+      "word": "double",
+      "pos": "adv.",
+      "sense": "вдвое, в два раза",
+      "en": "The work took double the time and cost rather more than double.",
+      "ru": "Работа заняла вдвое больше времени и обошлась дороже чем вдвое."
+    },
+    {
+      "word": "doubt",
+      "pos": "n., v.",
+      "sense": "сомнение; сомневаться",
+      "en": "There's no doubt about the facts, only about what they mean.",
+      "ru": "Сомнений в фактах нет, есть сомнения в том, что они значат."
+    },
+    {
+      "word": "dressed",
+      "pos": "adj.",
+      "sense": "одетый",
+      "en": "He arrived dressed for a different occasion entirely.",
+      "ru": "Он явился одетым совершенно для другого случая."
+    },
+    {
+      "word": "drop",
+      "pos": "n.",
+      "sense": "капля; падение",
+      "en": "There's been a sharp drop in applications since the fee was introduced.",
+      "ru": "С введением платы число заявок резко упало."
+    },
+    {
+      "word": "drum",
+      "pos": "n.",
+      "sense": "барабан",
+      "en": "He'd played the drums badly for years and loved every minute.",
+      "ru": "Он годами плохо играл на барабанах и обожал каждую минуту."
+    },
+    {
+      "word": "drunk",
+      "pos": "adj.",
+      "sense": "пьяный",
+      "en": "He was too drunk to remember what he'd agreed to.",
+      "ru": "Он был слишком пьян, чтобы помнить, на что согласился."
+    },
+    {
+      "word": "due",
+      "pos": "adj.",
+      "sense": "ожидаемый (по сроку)",
+      "en": "The report was due in March and arrived the following winter.",
+      "ru": "Отчёт ждали в марте, а пришёл он следующей зимой."
+    },
+    {
+      "word": "dust",
+      "pos": "n.",
+      "sense": "пыль",
+      "en": "There was dust on the files, which told us how long they'd sat there.",
+      "ru": "На папках лежала пыль, и по ней было видно, сколько они пролежали."
+    },
+    {
+      "word": "duty",
+      "pos": "n.",
+      "sense": "долг, обязанность",
+      "en": "It wasn't anybody's duty, so it simply never got done.",
+      "ru": "Это не было ничьей обязанностью, потому и не делалось."
+    },
+    {
+      "word": "earthquake",
+      "pos": "n.",
+      "sense": "землетрясение",
+      "en": "The earthquake was small, and the damage was caused by the panic.",
+      "ru": "Землетрясение было слабым, а ущерб нанесла паника."
+    },
+    {
+      "word": "eastern",
+      "pos": "adj.",
+      "sense": "восточный",
+      "en": "The eastern half of the country has had no rain since May.",
+      "ru": "В восточной половине страны с мая не было дождей."
+    },
+    {
+      "word": "economic",
+      "pos": "adj.",
+      "sense": "экономический",
+      "en": "The economic case was weak and the political case was decisive.",
+      "ru": "Экономические доводы были слабыми, а политические — решающими."
+    },
+    {
+      "word": "economy",
+      "pos": "n.",
+      "sense": "экономика",
+      "en": "The whole economy of the valley rests on one crop.",
+      "ru": "Вся экономика долины держится на одной культуре."
+    },
+    {
+      "word": "edge",
+      "pos": "n.",
+      "sense": "край",
+      "en": "The company has been on the edge of collapse twice this decade.",
+      "ru": "За это десятилетие компания дважды была на грани краха."
+    },
+    {
+      "word": "editor",
+      "pos": "n.",
+      "sense": "редактор",
+      "en": "The editor cut the only paragraph that mattered.",
+      "ru": "Редактор вырезал единственный важный абзац."
+    },
+    {
+      "word": "educate",
+      "pos": "v.",
+      "sense": "давать образование, обучать",
+      "en": "It's cheaper to educate people than to repair what ignorance costs.",
+      "ru": "Обучать людей дешевле, чем исправлять то, во что обходится незнание."
+    },
+    {
+      "word": "educated",
+      "pos": "adj.",
+      "sense": "образованный",
+      "en": "It was an educated guess, and it turned out to be right.",
+      "ru": "Это была обоснованная догадка, и она оказалась верной."
+    },
+    {
+      "word": "educational",
+      "pos": "adj.",
+      "sense": "образовательный",
+      "en": "The whole experience was educational in ways nobody intended.",
+      "ru": "Весь этот опыт оказался поучительным так, как никто не задумывал."
+    },
+    {
+      "word": "effective",
+      "pos": "adj.",
+      "sense": "эффективный",
+      "en": "The simplest measure turned out to be the most effective.",
+      "ru": "Самая простая мера оказалась самой действенной."
+    },
+    {
+      "word": "effectively",
+      "pos": "adv.",
+      "sense": "эффективно",
+      "en": "The department has effectively stopped working while it waits for a decision.",
+      "ru": "Отдел фактически перестал работать, ожидая решения."
+    },
+    {
+      "word": "effort",
+      "pos": "n.",
+      "sense": "усилие",
+      "en": "The effort went into looking busy rather than into the work.",
+      "ru": "Усилия ушли на то, чтобы выглядеть занятыми, а не на работу."
+    },
+    {
+      "word": "election",
+      "pos": "n.",
+      "sense": "выборы",
+      "en": "The decision was postponed until after the election, as everyone expected.",
+      "ru": "Решение отложили до после выборов, как все и ожидали."
+    },
+    {
+      "word": "element",
+      "pos": "n.",
+      "sense": "элемент",
+      "en": "There's an element of truth in it, which is what makes it dangerous.",
+      "ru": "В этом есть доля правды, и именно это делает его опасным."
+    },
+    {
+      "word": "embarrassed",
+      "pos": "adj.",
+      "sense": "смущённый",
+      "en": "They were embarrassed enough to fix it quietly the same week.",
+      "ru": "Им было достаточно неловко, чтобы тихо всё исправить на той же неделе."
+    },
+    {
+      "word": "embarrassing",
+      "pos": "adj.",
+      "sense": "неловкий, смущающий",
+      "en": "The most embarrassing part was that it had been pointed out before.",
+      "ru": "Самое неловкое было в том, что на это уже указывали."
+    },
+    {
+      "word": "emergency",
+      "pos": "n.",
+      "sense": "чрезвычайная ситуация",
+      "en": "The emergency procedures had never once been tested.",
+      "ru": "Порядок действий при чрезвычайной ситуации ни разу не проверяли."
+    },
+    {
+      "word": "emotion",
+      "pos": "n.",
+      "sense": "эмоция",
+      "en": "He kept his emotions out of it, which cost him more than it saved.",
+      "ru": "Он держал эмоции в стороне, и это стоило ему больше, чем сберегло."
+    },
+    {
+      "word": "employment",
+      "pos": "n.",
+      "sense": "занятость, работа",
+      "en": "Employment in the region has halved since the plant closed.",
+      "ru": "Занятость в регионе сократилась вдвое с закрытия завода."
+    },
+    {
+      "word": "empty",
+      "pos": "v.",
+      "sense": "опустошать",
+      "en": "The building emptied within a year of the announcement.",
+      "ru": "Здание опустело за год после объявления."
+    },
+    {
+      "word": "encourage",
+      "pos": "v.",
+      "sense": "поощрять, поддерживать",
+      "en": "Nobody had encouraged her, and she did it anyway.",
+      "ru": "Её никто не поддерживал, и она всё равно это сделала."
+    },
+    {
+      "word": "enemy",
+      "pos": "n.",
+      "sense": "враг",
+      "en": "He made an enemy of the only person who could have helped him.",
+      "ru": "Он нажил врага в единственном человеке, который мог бы ему помочь."
+    },
+    {
+      "word": "engaged",
+      "pos": "adj.",
+      "sense": "помолвленный; занятый",
+      "en": "The line had been engaged every time we tried for three days.",
+      "ru": "Линия была занята каждый раз, когда мы звонили, и так три дня."
+    },
+    {
+      "word": "engineering",
+      "pos": "n.",
+      "sense": "инженерное дело",
+      "en": "The engineering was sound; the budgeting was not.",
+      "ru": "С инженерной частью всё было в порядке, а с бюджетом нет."
+    },
+    {
+      "word": "entertain",
+      "pos": "v.",
+      "sense": "развлекать",
+      "en": "The talk was meant to inform and ended up only entertaining.",
+      "ru": "Доклад должен был информировать, а в итоге только развлёк."
+    },
+    {
+      "word": "entertainment",
+      "pos": "n.",
+      "sense": "развлечение",
+      "en": "It was treated as entertainment, which was precisely the problem.",
+      "ru": "Это восприняли как развлечение, в чём и была беда."
+    },
+    {
+      "word": "entrance",
+      "pos": "n.",
+      "sense": "вход",
+      "en": "The main entrance has been locked since before anyone here started.",
+      "ru": "Главный вход заперт ещё с тех времён, когда никого из нынешних тут не было."
+    },
+    {
+      "word": "entry",
+      "pos": "n.",
+      "sense": "вход, въезд; запись",
+      "en": "The last entry in the logbook was dated four months earlier.",
+      "ru": "Последняя запись в журнале была сделана четырьмя месяцами раньше."
+    },
+    {
+      "word": "environmental",
+      "pos": "adj.",
+      "sense": "экологический",
+      "en": "The environmental cost was left out of the calculation entirely.",
+      "ru": "Экологическую цену в расчёт вообще не включили."
+    },
+    {
+      "word": "episode",
+      "pos": "n.",
+      "sense": "эпизод, серия",
+      "en": "The whole episode was quietly left out of the official account.",
+      "ru": "Весь этот эпизод тихо опустили в официальном изложении."
+    },
+    {
+      "word": "equal",
+      "pos": "adj., v.",
+      "sense": "равный; равняться",
+      "en": "Equal pay was promised in 2018 and has still not arrived.",
+      "ru": "Равную оплату обещали в 2018 году, и её до сих пор нет."
+    },
+    {
+      "word": "equally",
+      "pos": "adv.",
+      "sense": "одинаково, в равной степени",
+      "en": "Both explanations are equally plausible and cannot both be true.",
+      "ru": "Оба объяснения одинаково правдоподобны и не могут быть верны одновременно."
+    },
+    {
+      "word": "escape",
+      "pos": "v., n.",
+      "sense": "сбегать; побег",
+      "en": "The detail that escaped everyone was the date on the invoice.",
+      "ru": "Подробность, ускользнувшая ото всех, — дата на счёте."
+    },
+    {
+      "word": "essential",
+      "pos": "adj.",
+      "sense": "необходимый, существенный",
+      "en": "It is essential that somebody writes this down.",
+      "ru": "Необходимо, чтобы кто-нибудь это записал."
+    },
+    {
+      "word": "eventually",
+      "pos": "adv.",
+      "sense": "в конце концов",
+      "en": "Eventually somebody will have to tell them the truth.",
+      "ru": "В конце концов кому-то придётся сказать им правду."
+    },
+    {
+      "word": "examine",
+      "pos": "v.",
+      "sense": "осматривать, изучать",
+      "en": "The contract had never been examined by anyone with legal training.",
+      "ru": "Договор ни разу не изучал человек с юридическим образованием."
+    },
+    {
+      "word": "except",
+      "pos": "conj.",
+      "sense": "кроме того, что; но",
+      "en": "I'd agree, except that we've tried exactly this before.",
+      "ru": "Я бы согласился, но мы ровно это уже пробовали."
+    },
+    {
+      "word": "exchange",
+      "pos": "n., v.",
+      "sense": "обмен; обменивать",
+      "en": "In exchange for the land they got a promise and nothing in writing.",
+      "ru": "В обмен на землю они получили обещание и ничего на бумаге."
+    },
+    {
+      "word": "excitement",
+      "pos": "n.",
+      "sense": "волнение, восторг",
+      "en": "The excitement lasted about a week, and the work lasted three years.",
+      "ru": "Восторга хватило на неделю, а работы было на три года."
+    },
+    {
+      "word": "exhibition",
+      "pos": "n.",
+      "sense": "выставка",
+      "en": "The exhibition was held in a room that nobody could find.",
+      "ru": "Выставку устроили в зале, который никто не мог найти."
+    },
+    {
+      "word": "expand",
+      "pos": "v.",
+      "sense": "расширять(ся)",
+      "en": "They expanded too quickly and spent a decade recovering.",
+      "ru": "Они расширились слишком быстро и десять лет приходили в себя."
+    },
+    {
+      "word": "expected",
+      "pos": "adj.",
+      "sense": "ожидаемый",
+      "en": "The expected objections came, and so did one nobody had foreseen.",
+      "ru": "Ожидаемые возражения прозвучали, а с ними и одно непредвиденное."
+    },
+    {
+      "word": "expedition",
+      "pos": "n.",
+      "sense": "экспедиция",
+      "en": "The expedition returned with less data than it had set out to collect.",
+      "ru": "Экспедиция вернулась с меньшим количеством данных, чем собиралась собрать."
+    },
+    {
+      "word": "experience",
+      "pos": "v.",
+      "sense": "испытывать",
+      "en": "Anyone who has experienced it describes it the same way.",
+      "ru": "Все, кто это испытал, описывают это одинаково."
+    },
+    {
+      "word": "experienced",
+      "pos": "adj.",
+      "sense": "опытный",
+      "en": "The most experienced person in the room was never asked anything.",
+      "ru": "Самого опытного человека в комнате так ни о чём и не спросили."
+    },
+    {
+      "word": "experiment",
+      "pos": "v.",
+      "sense": "экспериментировать",
+      "en": "They experimented for two years before anything worked.",
+      "ru": "Они экспериментировали два года, прежде чем что-то заработало."
+    },
+    {
+      "word": "explode",
+      "pos": "v.",
+      "sense": "взрываться",
+      "en": "The argument exploded over something that had nothing to do with the real issue.",
+      "ru": "Спор взорвался из-за того, что не имело отношения к сути."
+    },
+    {
+      "word": "explore",
+      "pos": "v.",
+      "sense": "исследовать",
+      "en": "We should explore the other option before ruling it out.",
+      "ru": "Стоит изучить другой вариант, прежде чем его отбрасывать."
+    },
+    {
+      "word": "explosion",
+      "pos": "n.",
+      "sense": "взрыв",
+      "en": "There has been an explosion in demand that nobody prepared for.",
+      "ru": "Произошёл взрывной рост спроса, к которому никто не готовился."
+    },
+    {
+      "word": "export",
+      "pos": "n., v.",
+      "sense": "экспорт; экспортировать",
+      "en": "Exports fell for the third year running and nobody mentioned it.",
+      "ru": "Экспорт падал третий год подряд, и об этом никто не говорил."
+    },
+    {
+      "word": "extra",
+      "pos": "n., adv.",
+      "sense": "дополнительно; доп. плата",
+      "en": "They charged extra for the one thing that should have been included.",
+      "ru": "За то единственное, что должно было входить в цену, взяли отдельно."
+    },
+    {
+      "word": "face",
+      "pos": "v.",
+      "sense": "сталкиваться (с проблемой); смотреть в сторону",
+      "en": "We're facing the same problem we faced five years ago.",
+      "ru": "Мы столкнулись с той же проблемой, что и пять лет назад."
+    },
+    {
+      "word": "fairly",
+      "pos": "adv.",
+      "sense": "довольно; справедливо",
+      "en": "It's a fairly common problem that is almost never discussed.",
+      "ru": "Это довольно частая беда, о которой почти никогда не говорят."
+    },
+    {
+      "word": "familiar",
+      "pos": "adj.",
+      "sense": "знакомый",
+      "en": "The pattern will be familiar to anyone who has worked here.",
+      "ru": "Эта картина будет знакома любому, кто здесь работал."
+    },
+    {
+      "word": "fancy",
+      "pos": "v., adj.",
+      "sense": "хотеть (разг.); модный, нарядный",
+      "en": "Do you fancy going over it once more before we send it?",
+      "ru": "Не хочешь пройтись по этому ещё раз, прежде чем отправим?"
+    },
+    {
+      "word": "far",
+      "pos": "adj.",
+      "sense": "дальний",
+      "en": "The far end of the building has been closed off for years.",
+      "ru": "Дальний конец здания отгорожен уже много лет."
+    },
+    {
+      "word": "fascinating",
+      "pos": "adj.",
+      "sense": "увлекательный",
+      "en": "The most fascinating part is what they decided not to publish.",
+      "ru": "Самое интересное — то, что они решили не публиковать."
+    },
+    {
+      "word": "fashionable",
+      "pos": "adj.",
+      "sense": "модный",
+      "en": "The street had been fashionable for about three years in the nineties.",
+      "ru": "Улица была модной года три в девяностых."
+    },
+    {
+      "word": "fasten",
+      "pos": "v.",
+      "sense": "застёгивать, пристёгивать",
+      "en": "He fastened his coat and walked out without another word.",
+      "ru": "Он застегнул пальто и вышел, не сказав больше ни слова."
+    },
+    {
+      "word": "favour",
+      "pos": "n.",
+      "sense": "одолжение, услуга",
+      "en": "She'd done him a favour years ago and never once mentioned it.",
+      "ru": "Она когда-то оказала ему услугу и ни разу об этом не упомянула."
+    },
+    {
+      "word": "fear",
+      "pos": "v.",
+      "sense": "бояться",
+      "en": "They feared losing control far more than they feared being wrong.",
+      "ru": "Потерять контроль они боялись куда больше, чем ошибиться."
+    },
+    {
+      "word": "feature",
+      "pos": "v.",
+      "sense": "показывать, включать",
+      "en": "The report featured every success and none of the costs.",
+      "ru": "В отчёте были все успехи и ни одной статьи расходов."
+    },
+    {
+      "word": "fence",
+      "pos": "n.",
+      "sense": "забор",
+      "en": "The fence had been put up overnight and nobody knew by whom.",
+      "ru": "Забор поставили за ночь, и никто не знал кто."
+    },
+    {
+      "word": "fighting",
+      "pos": "n.",
+      "sense": "бои, драки",
+      "en": "The fighting stopped as suddenly as it had started.",
+      "ru": "Бои прекратились так же внезапно, как начались."
+    },
+    {
+      "word": "file",
+      "pos": "n.",
+      "sense": "файл; папка",
+      "en": "The file had been saved over by somebody working late.",
+      "ru": "Файл перезаписал кто-то, работавший допоздна."
+    },
+    {
+      "word": "financial",
+      "pos": "adj.",
+      "sense": "финансовый",
+      "en": "The financial case was made after the decision had been taken.",
+      "ru": "Финансовое обоснование подготовили уже после принятия решения."
+    },
+    {
+      "word": "fire",
+      "pos": "v.",
+      "sense": "увольнять; стрелять",
+      "en": "He was fired on a Friday and replaced by Monday.",
+      "ru": "Его уволили в пятницу, а к понедельнику заменили."
+    },
+    {
+      "word": "fitness",
+      "pos": "n.",
+      "sense": "физическая форма, фитнес",
+      "en": "His fitness had been built over twenty years and lost in six months.",
+      "ru": "Его форму строили двадцать лет и потеряли за полгода."
+    },
+    {
+      "word": "fixed",
+      "pos": "adj.",
+      "sense": "фиксированный",
+      "en": "The price is fixed, which means it only ever moves upwards.",
+      "ru": "Цена фиксированная, то есть двигается она только вверх."
+    },
+    {
+      "word": "flag",
+      "pos": "n.",
+      "sense": "флаг",
+      "en": "The flag had been flying at half mast since the morning.",
+      "ru": "С самого утра флаг был приспущен."
+    },
+    {
+      "word": "flood",
+      "pos": "n., v.",
+      "sense": "наводнение; затоплять",
+      "en": "The floods came earlier than usual and found nobody ready.",
+      "ru": "Наводнение пришло раньше обычного и не застало никого готовым."
+    },
+    {
+      "word": "flour",
+      "pos": "n.",
+      "sense": "мука",
+      "en": "Add the flour slowly or the whole thing turns to lumps.",
+      "ru": "Муку добавляй постепенно, иначе всё пойдёт комками."
+    },
+    {
+      "word": "flow",
+      "pos": "v., n.",
+      "sense": "течь; поток",
+      "en": "Money flowed in for two years and then stopped overnight.",
+      "ru": "Деньги текли два года, а потом разом прекратились."
+    },
+    {
+      "word": "fold",
+      "pos": "v.",
+      "sense": "складывать",
+      "en": "He folded the letter carefully and put it back in his pocket.",
+      "ru": "Он аккуратно сложил письмо и убрал обратно в карман."
+    },
+    {
+      "word": "folk",
+      "pos": "n., adj.",
+      "sense": "народный; люди",
+      "en": "The folk songs were collected in the thirties and nearly lost twice.",
+      "ru": "Народные песни записали в тридцатых и дважды едва не потеряли."
+    },
+    {
+      "word": "following",
+      "pos": "n.",
+      "sense": "следующее; последователи",
+      "en": "She has built a following of people who trust her completely.",
+      "ru": "Она собрала круг людей, которые ей полностью доверяют."
+    },
+    {
+      "word": "force",
+      "pos": "n., v.",
+      "sense": "сила; заставлять",
+      "en": "Nobody forced them to sign; they simply weren't told the terms.",
+      "ru": "Никто не заставлял их подписывать — им просто не сказали условий."
+    },
+    {
+      "word": "forever",
+      "pos": "adv.",
+      "sense": "навсегда",
+      "en": "Nothing is forever, least of all an arrangement like this.",
+      "ru": "Ничто не вечно, и уж точно не такая договорённость."
+    },
+    {
+      "word": "frame",
+      "pos": "n., v.",
+      "sense": "рамка; обрамлять",
+      "en": "The question had been framed so that only one answer was possible.",
+      "ru": "Вопрос поставили так, что возможен был только один ответ."
+    },
+    {
+      "word": "freeze",
+      "pos": "v.",
+      "sense": "замерзать, замораживать",
+      "en": "Wages have been frozen for three years while prices have not.",
+      "ru": "Зарплаты заморожены три года, а цены — нет."
+    },
+    {
+      "word": "frequently",
+      "pos": "adv.",
+      "sense": "часто",
+      "en": "The same objection is raised frequently and answered never.",
+      "ru": "Одно и то же возражение звучит часто, а ответа на него нет никогда."
+    },
+    {
+      "word": "friendship",
+      "pos": "n.",
+      "sense": "дружба",
+      "en": "Their friendship survived an argument that ended two careers.",
+      "ru": "Их дружба пережила ссору, которая стоила двух карьер."
+    },
+    {
+      "word": "frighten",
+      "pos": "v.",
+      "sense": "пугать",
+      "en": "What frightens me is how normal all this has started to seem.",
+      "ru": "Меня пугает, насколько нормальным всё это стало казаться."
+    },
+    {
+      "word": "frightened",
+      "pos": "adj.",
+      "sense": "испуганный",
+      "en": "People are frightened of saying the obvious thing out loud.",
+      "ru": "Люди боятся сказать очевидное вслух."
+    },
+    {
+      "word": "frightening",
+      "pos": "adj.",
+      "sense": "пугающий",
+      "en": "It's frightening how quickly a good team can fall apart.",
+      "ru": "Пугает, как быстро может развалиться хорошая команда."
+    },
+    {
+      "word": "frozen",
+      "pos": "adj.",
+      "sense": "замороженный, замёрзший",
+      "en": "The pipes had frozen and burst in three different places.",
+      "ru": "Трубы замёрзли и лопнули в трёх местах."
+    },
+    {
+      "word": "fry",
+      "pos": "v.",
+      "sense": "жарить",
+      "en": "Fry the onions until they're soft, not brown.",
+      "ru": "Жарь лук до мягкости, а не до коричневого цвета."
+    },
+    {
+      "word": "fuel",
+      "pos": "n.",
+      "sense": "топливо",
+      "en": "The rumours only added fuel to something already burning.",
+      "ru": "Слухи лишь подлили топлива в то, что уже горело."
+    },
+    {
+      "word": "function",
+      "pos": "n.",
+      "sense": "функция",
+      "en": "The committee has no clear function beyond meeting every month.",
+      "ru": "У комитета нет понятной функции, кроме ежемесячных заседаний."
+    },
+    {
+      "word": "fur",
+      "pos": "n.",
+      "sense": "мех, шерсть",
+      "en": "The fur trade here ended a century ago and left the place poor.",
+      "ru": "Торговля мехом закончилась здесь век назад и оставила край бедным."
+    },
+    {
+      "word": "further",
+      "pos": "adv.",
+      "sense": "дальше",
+      "en": "We can't take this any further without an answer from them.",
+      "ru": "Мы не можем продвинуться дальше без их ответа."
+    },
+    {
+      "word": "garage",
+      "pos": "n.",
+      "sense": "гараж; автосервис",
+      "en": "The garage kept the car for a week and fixed the wrong thing.",
+      "ru": "В автосервисе машину держали неделю и починили не то."
+    },
+    {
+      "word": "gather",
+      "pos": "v.",
+      "sense": "собирать(ся)",
+      "en": "Evidence had been gathering for months before anyone acted on it.",
+      "ru": "Доказательства копились месяцами, прежде чем кто-то на них среагировал."
+    },
+    {
+      "word": "generally",
+      "pos": "adv.",
+      "sense": "в целом, обычно",
+      "en": "Generally the system works, which is why the failures are so surprising.",
+      "ru": "В целом система работает, потому сбои и удивляют."
+    },
+    {
+      "word": "generation",
+      "pos": "n.",
+      "sense": "поколение",
+      "en": "A whole generation left and very few of them came back.",
+      "ru": "Уехало целое поколение, и вернулись из них единицы."
+    },
+    {
+      "word": "generous",
+      "pos": "adj.",
+      "sense": "щедрый",
+      "en": "The offer was generous enough to make us suspicious.",
+      "ru": "Предложение было щедрым настолько, что мы насторожились."
+    },
+    {
+      "word": "gentle",
+      "pos": "adj.",
+      "sense": "мягкий, нежный",
+      "en": "A gentle reminder had no effect; a formal letter worked in a day.",
+      "ru": "Мягкое напоминание не подействовало, а официальное письмо сработало за день."
+    },
+    {
+      "word": "gentleman",
+      "pos": "n.",
+      "sense": "джентльмен",
+      "en": "The gentleman at the next table had been listening to everything.",
+      "ru": "Господин за соседним столиком слушал всё."
+    },
+    {
+      "word": "ghost",
+      "pos": "n.",
+      "sense": "привидение",
+      "en": "The building has a ghost, according to people who've never been inside.",
+      "ru": "В здании водится привидение — по словам тех, кто внутри не был."
+    },
+    {
+      "word": "giant",
+      "pos": "adj., n.",
+      "sense": "гигантский; великан",
+      "en": "A giant of the industry collapsed in under a year.",
+      "ru": "Гигант отрасли рухнул меньше чем за год."
+    },
+    {
+      "word": "glad",
+      "pos": "adj.",
+      "sense": "довольный, радостный",
+      "en": "I'm glad somebody said it, even if it wasn't me.",
+      "ru": "Я рад, что кто-то это сказал, пусть и не я."
+    },
+    {
+      "word": "global",
+      "pos": "adj.",
+      "sense": "глобальный",
+      "en": "It's a global problem being treated as a local inconvenience.",
+      "ru": "Это глобальная проблема, с которой обходятся как с местным неудобством."
+    },
+    {
+      "word": "glove",
+      "pos": "n.",
+      "sense": "перчатка",
+      "en": "He'd lost one glove every winter for as long as anyone could remember.",
+      "ru": "Он терял по одной перчатке каждую зиму, сколько себя помнят."
+    },
+    {
+      "word": "go",
+      "pos": "n.",
+      "sense": "попытка; очередь (разг.)",
+      "en": "Give it another go before you decide it can't be done.",
+      "ru": "Попробуй ещё раз, прежде чем решать, что это невозможно."
+    },
+    {
+      "word": "goods",
+      "pos": "n.",
+      "sense": "товары",
+      "en": "The goods arrived damaged and nobody would accept responsibility.",
+      "ru": "Товар пришёл повреждённым, и ответственность никто брать не хотел."
+    },
+    {
+      "word": "grade",
+      "pos": "n.",
+      "sense": "оценка; класс (амер.)",
+      "en": "His grades had been falling for a term before anyone noticed.",
+      "ru": "Его оценки падали целую четверть, прежде чем это заметили."
+    },
+    {
+      "word": "graduate",
+      "pos": "n., v.",
+      "sense": "выпускник; окончить (вуз)",
+      "en": "She graduated into a job market that had collapsed that spring.",
+      "ru": "Она выпустилась на рынок труда, рухнувший той весной."
+    },
+    {
+      "word": "grain",
+      "pos": "n.",
+      "sense": "зерно",
+      "en": "The grain had been stored badly and half of it was lost.",
+      "ru": "Зерно хранили плохо, и половина пропала."
+    },
+    {
+      "word": "grateful",
+      "pos": "adj.",
+      "sense": "благодарный",
+      "en": "I'm grateful to the one person who told me the truth early.",
+      "ru": "Я благодарен единственному человеку, который рано сказал мне правду."
+    },
+    {
+      "word": "growth",
+      "pos": "n.",
+      "sense": "рост",
+      "en": "The growth was real but entirely dependent on one customer.",
+      "ru": "Рост был настоящим, но целиком зависел от одного клиента."
+    },
+    {
+      "word": "guard",
+      "pos": "n., v.",
+      "sense": "охранник; охранять",
+      "en": "The guard on duty had been told nothing about the visit.",
+      "ru": "Дежурному охраннику о визите ничего не сказали."
+    },
+    {
+      "word": "guilty",
+      "pos": "adj.",
+      "sense": "виноватый",
+      "en": "He felt guilty about something that was genuinely not his fault.",
+      "ru": "Он чувствовал вину за то, в чём действительно не был виноват."
+    },
+    {
+      "word": "hand",
+      "pos": "v.",
+      "sense": "передавать (рукой)",
+      "en": "She handed in her notice the day after the announcement.",
+      "ru": "Она подала заявление на следующий день после объявления."
+    },
+    {
+      "word": "hang",
+      "pos": "v.",
+      "sense": "вешать, висеть",
+      "en": "The question had been hanging over the department all year.",
+      "ru": "Этот вопрос висел над отделом весь год."
+    },
+    {
+      "word": "happiness",
+      "pos": "n.",
+      "sense": "счастье",
+      "en": "Happiness here depends almost entirely on who your manager is.",
+      "ru": "Счастье здесь почти целиком зависит от того, кто твой начальник."
+    },
+    {
+      "word": "hardly",
+      "pos": "adv.",
+      "sense": "едва, почти не",
+      "en": "Hardly anyone reads the terms, which is exactly the point.",
+      "ru": "Условия почти никто не читает, в чём и весь расчёт."
+    },
+    {
+      "word": "hate",
+      "pos": "n.",
+      "sense": "ненависть",
+      "en": "There's no hate in it, just years of quiet disappointment.",
+      "ru": "Ненависти в этом нет, только годы тихого разочарования."
+    },
+    {
+      "word": "head",
+      "pos": "v.",
+      "sense": "направляться",
+      "en": "The whole industry is heading in a direction nobody chose.",
+      "ru": "Вся отрасль движется в сторону, которую никто не выбирал."
+    },
+    {
+      "word": "headline",
+      "pos": "n.",
+      "sense": "заголовок",
+      "en": "The headline said one thing and the article said another.",
+      "ru": "Заголовок говорил одно, а статья — другое."
+    },
+    {
+      "word": "heating",
+      "pos": "n.",
+      "sense": "отопление",
+      "en": "The heating had been off for a week in the middle of January.",
+      "ru": "Отопление не работало неделю в середине января."
+    },
+    {
+      "word": "heavily",
+      "pos": "adv.",
+      "sense": "сильно",
+      "en": "The project relies heavily on one person who is about to retire.",
+      "ru": "Проект сильно зависит от одного человека, который скоро уходит на пенсию."
+    },
+    {
+      "word": "helicopter",
+      "pos": "n.",
+      "sense": "вертолёт",
+      "en": "A helicopter was sent, which cost more than the repair would have.",
+      "ru": "Прислали вертолёт, и это обошлось дороже, чем стоил бы ремонт."
+    },
+    {
+      "word": "highlight",
+      "pos": "v., n.",
+      "sense": "выделять; лучший момент",
+      "en": "The review highlighted a problem that had been reported twice before.",
+      "ru": "Проверка высветила проблему, о которой сообщали уже дважды."
+    },
+    {
+      "word": "highly",
+      "pos": "adv.",
+      "sense": "высоко, очень",
+      "en": "It's highly unlikely that all three failed by coincidence.",
+      "ru": "Крайне маловероятно, что все три отказали по совпадению."
+    },
+    {
+      "word": "hire",
+      "pos": "v.",
+      "sense": "нанимать; брать напрокат",
+      "en": "They hired three consultants to tell them what their staff had said.",
+      "ru": "Они наняли трёх консультантов, чтобы те сказали им сказанное сотрудниками."
+    },
+    {
+      "word": "historic",
+      "pos": "adj.",
+      "sense": "исторический (важный)",
+      "en": "It was called a historic agreement and lasted eighteen months.",
+      "ru": "Это назвали историческим соглашением, и продержалось оно восемнадцать месяцев."
+    },
+    {
+      "word": "historical",
+      "pos": "adj.",
+      "sense": "исторический (о прошлом)",
+      "en": "The historical record is thinner than most people assume.",
+      "ru": "Исторических свидетельств меньше, чем принято думать."
+    },
+    {
+      "word": "honest",
+      "pos": "adj.",
+      "sense": "честный",
+      "en": "An honest answer early would have saved everyone a year.",
+      "ru": "Честный ответ в самом начале сэкономил бы всем год."
+    },
+    {
+      "word": "horrible",
+      "pos": "adj.",
+      "sense": "ужасный",
+      "en": "It was a horrible week, and it taught us more than the good ones.",
+      "ru": "Это была ужасная неделя, и она научила нас большему, чем хорошие."
+    },
+    {
+      "word": "horror",
+      "pos": "n.",
+      "sense": "ужас; ужасы (жанр)",
+      "en": "To his horror, the file had been sent to the entire company.",
+      "ru": "К его ужасу, файл ушёл всей компании."
+    },
+    {
+      "word": "host",
+      "pos": "n.",
+      "sense": "хозяин (вечера); ведущий",
+      "en": "The host had clearly not been told who was coming.",
+      "ru": "Хозяину явно не сказали, кто придёт."
+    },
+    {
+      "word": "hunt",
+      "pos": "v.",
+      "sense": "охотиться",
+      "en": "They'd been hunting for the cause in completely the wrong place.",
+      "ru": "Они искали причину совершенно не там."
+    },
+    {
+      "word": "hurricane",
+      "pos": "n.",
+      "sense": "ураган",
+      "en": "The hurricane season has grown longer over the past twenty years.",
+      "ru": "За последние двадцать лет сезон ураганов стал длиннее."
+    },
+    {
+      "word": "hurry",
+      "pos": "n., v.",
+      "sense": "спешка; спешить",
+      "en": "It was done in a hurry, which is why it has to be done again.",
+      "ru": "Это сделали в спешке, потому и приходится делать заново."
+    },
+    {
+      "word": "identity",
+      "pos": "n.",
+      "sense": "личность; удостоверение личности",
+      "en": "The town has lost the identity it had for three hundred years.",
+      "ru": "Городок потерял облик, который был у него триста лет."
+    },
+    {
+      "word": "ignore",
+      "pos": "v.",
+      "sense": "игнорировать",
+      "en": "The warning was ignored because it came from the wrong person.",
+      "ru": "Предупреждение проигнорировали, потому что оно пришло не от того человека."
+    },
+    {
+      "word": "illegal",
+      "pos": "adj.",
+      "sense": "незаконный",
+      "en": "What they did wasn't illegal, which is perhaps the worst part.",
+      "ru": "То, что они сделали, не было незаконным, и, пожалуй, это худшее."
+    },
+    {
+      "word": "imaginary",
+      "pos": "adj.",
+      "sense": "воображаемый",
+      "en": "The savings turned out to be entirely imaginary.",
+      "ru": "Экономия оказалась целиком воображаемой."
+    },
+    {
+      "word": "immediate",
+      "pos": "adj.",
+      "sense": "немедленный",
+      "en": "The immediate problem is money; the real problem is trust.",
+      "ru": "Непосредственная проблема — деньги, настоящая — доверие."
+    },
+    {
+      "word": "immigrant",
+      "pos": "n.",
+      "sense": "иммигрант",
+      "en": "Half the businesses on this street were started by immigrants.",
+      "ru": "Половину дел на этой улице начали иммигранты."
+    },
+    {
+      "word": "impact",
+      "pos": "n., v.",
+      "sense": "воздействие, влияние; влиять",
+      "en": "The impact was felt most by the people who had least say.",
+      "ru": "Сильнее всего это ударило по тем, у кого было меньше всего права голоса."
+    },
+    {
+      "word": "import",
+      "pos": "n., v.",
+      "sense": "импорт; импортировать",
+      "en": "Everything is imported here, including things that grow locally.",
+      "ru": "Здесь всё привозное, включая то, что растёт на месте."
+    },
+    {
+      "word": "importance",
+      "pos": "n.",
+      "sense": "важность",
+      "en": "Nobody had explained the importance of getting the dates right.",
+      "ru": "Никто не объяснил, насколько важно верно указать даты."
+    },
+    {
+      "word": "impression",
+      "pos": "n.",
+      "sense": "впечатление",
+      "en": "The impression they gave was deliberate and entirely misleading.",
+      "ru": "Впечатление, которое они создали, было намеренным и совершенно обманчивым."
+    },
+    {
+      "word": "impressive",
+      "pos": "adj.",
+      "sense": "впечатляющий",
+      "en": "The figures are impressive until you see what they exclude.",
+      "ru": "Цифры впечатляют, пока не увидишь, что из них исключено."
+    },
+    {
+      "word": "improvement",
+      "pos": "n.",
+      "sense": "улучшение",
+      "en": "There's been a real improvement, though not where it was promised.",
+      "ru": "Улучшение настоящее, хотя и не там, где обещали."
+    },
+    {
+      "word": "incredibly",
+      "pos": "adv.",
+      "sense": "невероятно",
+      "en": "It's incredibly difficult to undo a decision once it's public.",
+      "ru": "Невероятно трудно отменить решение, когда оно уже объявлено."
+    },
+    {
+      "word": "indeed",
+      "pos": "adv.",
+      "sense": "действительно",
+      "en": "It was indeed the cheapest option, and it cost us the most in the end.",
+      "ru": "Это действительно был самый дешёвый вариант, и в итоге он обошёлся дороже всех."
+    },
+    {
+      "word": "indicate",
+      "pos": "v.",
+      "sense": "указывать, показывать",
+      "en": "Everything indicates that the fault was there from the beginning.",
+      "ru": "Всё указывает на то, что неисправность была с самого начала."
+    },
+    {
+      "word": "indirect",
+      "pos": "adj.",
+      "sense": "непрямой, косвенный",
+      "en": "The indirect costs were never counted, and they were the larger ones.",
+      "ru": "Косвенные расходы не считали, а они были больше."
+    },
+    {
+      "word": "indoor",
+      "pos": "adj.",
+      "sense": "крытый, в помещении",
+      "en": "The indoor market has been there since the eighteen hundreds.",
+      "ru": "Крытый рынок стоит там с девятнадцатого века."
+    },
+    {
+      "word": "indoors",
+      "pos": "adv.",
+      "sense": "в помещении",
+      "en": "People here stay indoors from noon until about four.",
+      "ru": "С полудня до четырёх люди здесь сидят в помещении."
+    },
+    {
+      "word": "influence",
+      "pos": "n., v.",
+      "sense": "влияние; влиять",
+      "en": "Her influence on the department outlasted her by a decade.",
+      "ru": "Её влияние на отдел пережило её саму на десять лет."
+    },
+    {
+      "word": "ingredient",
+      "pos": "n.",
+      "sense": "ингредиент",
+      "en": "The most important ingredient is the one you can't buy: time.",
+      "ru": "Самый важный ингредиент тот, что не купишь, — время."
+    },
+    {
+      "word": "injure",
+      "pos": "v.",
+      "sense": "ранить, травмировать",
+      "en": "Three people were injured because a warning sign had fallen down.",
+      "ru": "Трое пострадали из-за того, что упал предупреждающий знак."
+    },
+    {
+      "word": "injured",
+      "pos": "adj.",
+      "sense": "раненый, травмированный",
+      "en": "The injured players were back within a month, too soon.",
+      "ru": "Травмированные игроки вернулись через месяц — слишком рано."
+    },
+    {
+      "word": "innocent",
+      "pos": "adj.",
+      "sense": "невиновный",
+      "en": "He spent four years in prison and was innocent all along.",
+      "ru": "Он провёл четыре года в тюрьме и всё это время был невиновен."
+    },
+    {
+      "word": "intelligence",
+      "pos": "n.",
+      "sense": "интеллект, ум",
+      "en": "Intelligence was never the problem; information was.",
+      "ru": "Ум тут никогда не был проблемой — проблемой была осведомлённость."
+    },
+    {
+      "word": "intend",
+      "pos": "v.",
+      "sense": "намереваться",
+      "en": "They never intended to pay, which became clear only later.",
+      "ru": "Платить они не собирались, и это выяснилось лишь потом."
+    },
+    {
+      "word": "intention",
+      "pos": "n.",
+      "sense": "намерение",
+      "en": "Good intentions don't survive a badly written contract.",
+      "ru": "Благие намерения не переживают плохо написанного договора."
+    },
+    {
+      "word": "invest",
+      "pos": "v.",
+      "sense": "инвестировать, вкладывать",
+      "en": "They invested in the building and not in the people inside it.",
+      "ru": "Они вложились в здание, а не в тех, кто в нём работает."
+    },
+    {
+      "word": "investigate",
+      "pos": "v.",
+      "sense": "расследовать",
+      "en": "Nobody investigated because nobody wanted to know.",
+      "ru": "Никто ничего не расследовал, потому что никто не хотел знать."
+    },
+    {
+      "word": "involved",
+      "pos": "adj.",
+      "sense": "вовлечённый, участвующий",
+      "en": "Everyone involved has a different account of what happened.",
+      "ru": "У каждого участника своя версия случившегося."
+    },
+    {
+      "word": "iron",
+      "pos": "n., v.",
+      "sense": "железо; утюг; гладить",
+      "en": "The gates are solid iron and have outlasted three owners.",
+      "ru": "Ворота из цельного железа и пережили трёх владельцев."
+    },
+    {
+      "word": "issue",
+      "pos": "n.",
+      "sense": "вопрос, проблема",
+      "en": "The issue was raised in March and discussed for the first time in November.",
+      "ru": "Вопрос подняли в марте, а впервые обсудили в ноябре."
+    },
+    {
+      "word": "IT",
+      "pos": "n.",
+      "sense": "ИТ, информационные технологии",
+      "en": "The IT department had warned about this twice in writing.",
+      "ru": "ИТ-отдел дважды письменно об этом предупреждал."
+    },
+    {
+      "word": "journal",
+      "pos": "n.",
+      "sense": "журнал (научный); дневник",
+      "en": "The findings were published in a journal nobody in the field reads.",
+      "ru": "Выводы опубликовали в журнале, которого в этой области никто не читает."
+    },
+    {
+      "word": "judge",
+      "pos": "n., v.",
+      "sense": "судья; судить",
+      "en": "It's too early to judge whether any of it has worked.",
+      "ru": "Судить о том, сработало ли хоть что-то, пока рано."
+    },
+    {
+      "word": "keen",
+      "pos": "adj.",
+      "sense": "увлечённый (keen on)",
+      "en": "He's keen on the idea now that it's no longer his responsibility.",
+      "ru": "Теперь, когда это не его забота, идея ему нравится."
+    },
+    {
+      "word": "key",
+      "pos": "v.",
+      "sense": "вводить (данные)",
+      "en": "Somebody had keyed the figure in wrongly and nobody checked.",
+      "ru": "Кто-то неверно ввёл цифру, и никто не проверил."
+    },
+    {
+      "word": "keyboard",
+      "pos": "n.",
+      "sense": "клавиатура",
+      "en": "The keyboard had been replaced twice and still stuck on one key.",
+      "ru": "Клавиатуру меняли дважды, и одна клавиша всё равно залипала."
+    },
+    {
+      "word": "kick",
+      "pos": "v., n.",
+      "sense": "пинать; удар ногой",
+      "en": "The decision kicked off a row that lasted the rest of the year.",
+      "ru": "Решение положило начало скандалу, который тянулся до конца года."
+    },
+    {
+      "word": "killing",
+      "pos": "n.",
+      "sense": "убийство",
+      "en": "The killing of the project took one email and no explanation.",
+      "ru": "На убийство проекта ушло одно письмо и ни одного объяснения."
+    },
+    {
+      "word": "kind (caring)",
+      "pos": "adj.",
+      "sense": "добрый",
+      "en": "It was a kind thing to do and she never mentioned it afterwards.",
+      "ru": "Это был добрый поступок, о котором она потом не упоминала."
+    },
+    {
+      "word": "kiss",
+      "pos": "v., n.",
+      "sense": "целовать; поцелуй",
+      "en": "They kissed goodbye at the station and didn't meet again for years.",
+      "ru": "Они простились поцелуем на вокзале и не виделись много лет."
+    },
+    {
+      "word": "knock",
+      "pos": "n.",
+      "sense": "стук",
+      "en": "There was a knock at eleven at night, which is never good news.",
+      "ru": "В одиннадцать вечера раздался стук, а это никогда не к добру."
+    },
+    {
+      "word": "label",
+      "pos": "n., v.",
+      "sense": "ярлык, этикетка; маркировать",
+      "en": "Once you've been labelled difficult, nothing you say helps.",
+      "ru": "Стоит получить ярлык «трудного», и уже ничто из сказанного не помогает."
+    },
+    {
+      "word": "laboratory",
+      "pos": "n.",
+      "sense": "лаборатория",
+      "en": "The laboratory results arrived after the patient had recovered.",
+      "ru": "Результаты из лаборатории пришли, когда пациент уже поправился."
+    },
+    {
+      "word": "lack",
+      "pos": "n., v.",
+      "sense": "нехватка; не хватать",
+      "en": "It wasn't a lack of money; it was a lack of anybody deciding.",
+      "ru": "Дело было не в нехватке денег, а в том, что никто не принимал решения."
+    },
+    {
+      "word": "latest",
+      "pos": "adj.",
+      "sense": "последний, новейший",
+      "en": "The latest version removed the one feature that people used.",
+      "ru": "В последней версии убрали ту единственную функцию, которой пользовались."
+    },
+    {
+      "word": "lay",
+      "pos": "v.",
+      "sense": "класть; накрывать (на стол)",
+      "en": "The foundations had been laid before the design was finished.",
+      "ru": "Фундамент заложили до того, как закончили проект."
+    },
+    {
+      "word": "layer",
+      "pos": "n.",
+      "sense": "слой",
+      "en": "There's a layer of management here that does nothing but pass things on.",
+      "ru": "Здесь есть слой руководства, который только передаёт дела дальше."
+    },
+    {
+      "word": "lead",
+      "pos": "n.",
+      "sense": "лидерство, первое место",
+      "en": "They'd held the lead for two years and lost it in six months.",
+      "ru": "Они держали первое место два года и потеряли за полгода."
+    },
+    {
+      "word": "leading",
+      "pos": "adj.",
+      "sense": "ведущий",
+      "en": "The leading argument against it was never actually addressed.",
+      "ru": "Главный довод против него так и не разобрали."
+    },
+    {
+      "word": "leaf",
+      "pos": "n.",
+      "sense": "лист (растения)",
+      "en": "The leaves came down three weeks earlier than usual.",
+      "ru": "Листья опали на три недели раньше обычного."
+    },
+    {
+      "word": "leather",
+      "pos": "n.",
+      "sense": "кожа (материал)",
+      "en": "The leather had cracked where the sun had been hitting it.",
+      "ru": "Кожа потрескалась там, куда било солнце."
+    },
+    {
+      "word": "legal",
+      "pos": "adj.",
+      "sense": "законный, юридический",
+      "en": "The legal position is clear; the practical position is a mess.",
+      "ru": "Юридически всё ясно, а на практике полная неразбериха."
+    },
+    {
+      "word": "leisure",
+      "pos": "n.",
+      "sense": "досуг",
+      "en": "Leisure time has become something you have to schedule.",
+      "ru": "Досуг превратился в то, что приходится планировать."
+    },
+    {
+      "word": "length",
+      "pos": "n.",
+      "sense": "длина",
+      "en": "They went to great lengths to avoid answering the question.",
+      "ru": "Они пошли на многое, лишь бы не отвечать на вопрос."
+    },
+    {
+      "word": "level",
+      "pos": "adj.",
+      "sense": "ровный",
+      "en": "The ground isn't level, which is why the building has moved.",
+      "ru": "Земля неровная, потому здание и повело."
+    },
+    {
+      "word": "lie (tell a lie)",
+      "pos": "v., n.",
+      "sense": "лгать; ложь",
+      "en": "He hadn't lied exactly; he'd simply left out the important part.",
+      "ru": "Он, строго говоря, не солгал — просто опустил важное."
+    },
+    {
+      "word": "like (find sb/sth pleasant)",
+      "pos": "n.",
+      "sense": "предпочтения (likes and dislikes)",
+      "en": "Nobody had asked about their likes and dislikes before deciding.",
+      "ru": "Никто не спросил об их предпочтениях, прежде чем решать."
+    },
+    {
+      "word": "limit",
+      "pos": "n., v.",
+      "sense": "предел, ограничение; ограничивать",
+      "en": "There's a limit to how long people will keep asking politely.",
+      "ru": "Есть предел тому, как долго люди будут продолжать вежливо спрашивать."
+    },
+    {
+      "word": "lip",
+      "pos": "n.",
+      "sense": "губа",
+      "en": "He bit his lip and said nothing, which said plenty.",
+      "ru": "Он прикусил губу и промолчал, и это сказало многое."
+    },
+    {
+      "word": "liquid",
+      "pos": "n., adj.",
+      "sense": "жидкость; жидкий",
+      "en": "The liquid had been leaking for weeks before anyone looked underneath.",
+      "ru": "Жидкость подтекала неделями, прежде чем кто-то заглянул под низ."
+    },
+    {
+      "word": "literature",
+      "pos": "n.",
+      "sense": "литература",
+      "en": "The literature on the subject is large and almost entirely useless.",
+      "ru": "Литературы по этому вопросу много, и она почти вся бесполезна."
+    },
+    {
+      "word": "live",
+      "pos": "adj., adv.",
+      "sense": "прямой (эфир); вживую",
+      "en": "The interview was live, which is why nobody could edit it.",
+      "ru": "Интервью шло в прямом эфире, потому его и нельзя было отредактировать."
+    },
+    {
+      "word": "living",
+      "pos": "adj., n.",
+      "sense": "живой; средства к существованию",
+      "en": "She made a living from something she'd started as a hobby.",
+      "ru": "Она зарабатывала на жизнь тем, что начинала как увлечение."
+    },
+    {
+      "word": "local",
+      "pos": "n.",
+      "sense": "местный житель",
+      "en": "The locals had been saying this for years and nobody listened.",
+      "ru": "Местные говорили об этом годами, и никто не слушал."
+    },
+    {
+      "word": "locate",
+      "pos": "v.",
+      "sense": "находить, определять местоположение",
+      "en": "It took three days to locate a document that was in the next room.",
+      "ru": "Три дня ушло на поиск документа, лежавшего в соседней комнате."
+    },
+    {
+      "word": "located",
+      "pos": "adj.",
+      "sense": "расположенный",
+      "en": "The office is located where none of the staff actually live.",
+      "ru": "Офис расположен там, где никто из сотрудников не живёт."
+    },
+    {
+      "word": "location",
+      "pos": "n.",
+      "sense": "местоположение",
+      "en": "The location was chosen for reasons that were never written down.",
+      "ru": "Место выбрали по причинам, которые нигде не записали."
+    },
+    {
+      "word": "lonely",
+      "pos": "adj.",
+      "sense": "одинокий",
+      "en": "It's a lonely job, whatever the advertisement says about teamwork.",
+      "ru": "Это одинокая работа, что бы ни говорила вакансия о командном духе."
+    },
+    {
+      "word": "loss",
+      "pos": "n.",
+      "sense": "потеря, убыток",
+      "en": "The loss of experienced staff did more damage than the budget cut.",
+      "ru": "Потеря опытных сотрудников нанесла больше вреда, чем урезание бюджета."
+    },
+    {
+      "word": "luxury",
+      "pos": "n.",
+      "sense": "роскошь",
+      "en": "Time to think has become a luxury in this line of work.",
+      "ru": "Время подумать стало роскошью в этой работе."
+    },
+    {
+      "word": "mad",
+      "pos": "adj.",
+      "sense": "сумасшедший; злой",
+      "en": "It sounds mad, and it's the only thing that has ever worked.",
+      "ru": "Звучит безумно, и это единственное, что когда-либо срабатывало."
+    },
+    {
+      "word": "magic",
+      "pos": "n., adj.",
+      "sense": "магия; волшебный",
+      "en": "There's no magic to it; it's just doing the dull part properly.",
+      "ru": "Никакого волшебства: надо просто как следует делать скучную часть."
+    },
+    {
+      "word": "mainly",
+      "pos": "adv.",
+      "sense": "главным образом",
+      "en": "The complaints come mainly from people who were never consulted.",
+      "ru": "Жалобы идут главным образом от тех, кого ни о чём не спрашивали."
+    },
+    {
+      "word": "mall",
+      "pos": "n.",
+      "sense": "торговый центр",
+      "en": "The mall killed the high street and is now half empty itself.",
+      "ru": "Торговый центр убил главную улицу и теперь сам наполовину пуст."
+    },
+    {
+      "word": "management",
+      "pos": "n.",
+      "sense": "управление, руководство",
+      "en": "Management knew, and that is the part people can't forgive.",
+      "ru": "Руководство знало, и именно этого люди простить не могут."
+    },
+    {
+      "word": "market",
+      "pos": "v.",
+      "sense": "продвигать на рынке",
+      "en": "The product was marketed to people who had no use for it.",
+      "ru": "Товар продвигали тем, кому он был не нужен."
+    },
+    {
+      "word": "marketing",
+      "pos": "n.",
+      "sense": "маркетинг",
+      "en": "More was spent on marketing than on making the thing work.",
+      "ru": "На маркетинг потратили больше, чем на то, чтобы вещь работала."
+    },
+    {
+      "word": "marriage",
+      "pos": "n.",
+      "sense": "брак",
+      "en": "The marriage survived two moves and a very bad year.",
+      "ru": "Брак пережил два переезда и очень плохой год."
+    },
+    {
+      "word": "meanwhile",
+      "pos": "adv.",
+      "sense": "тем временем",
+      "en": "Meanwhile, the people who actually do the work heard nothing.",
+      "ru": "Тем временем те, кто действительно делает работу, не услышали ничего."
+    },
+    {
+      "word": "measure",
+      "pos": "v., n.",
+      "sense": "измерять; мера",
+      "en": "What gets measured gets managed, and the wrong thing was measured.",
+      "ru": "Управляют тем, что измеряют, а измеряли не то."
+    },
+    {
+      "word": "medium",
+      "pos": "adj.",
+      "sense": "средний (по размеру)",
+      "en": "It's a medium-sized problem that everyone treats as enormous.",
+      "ru": "Это проблема средних размеров, которую все считают огромной."
+    },
+    {
+      "word": "mental",
+      "pos": "adj.",
+      "sense": "психический, умственный",
+      "en": "The mental cost of that year is still being paid.",
+      "ru": "Душевную цену того года платят до сих пор."
+    },
+    {
+      "word": "mention",
+      "pos": "n.",
+      "sense": "упоминание",
+      "en": "There was no mention of the cost anywhere in the proposal.",
+      "ru": "Нигде в предложении не было ни слова о стоимости."
+    },
+    {
+      "word": "mess",
+      "pos": "n.",
+      "sense": "беспорядок",
+      "en": "Somebody will have to clear up a mess they didn't make.",
+      "ru": "Кому-то придётся разгребать беспорядок, который он не устраивал."
+    },
+    {
+      "word": "mild",
+      "pos": "adj.",
+      "sense": "мягкий (о погоде, вкусе)",
+      "en": "The winter was so mild that nothing went properly dormant.",
+      "ru": "Зима была такой мягкой, что ничто толком не впало в спячку."
+    },
+    {
+      "word": "mine (hole in the ground)",
+      "pos": "n.",
+      "sense": "шахта, рудник",
+      "en": "The mine closed in 1987 and the town has never recovered.",
+      "ru": "Шахта закрылась в 1987-м, и город так и не оправился."
+    },
+    {
+      "word": "mix",
+      "pos": "v., n.",
+      "sense": "смешивать; смесь",
+      "en": "The meeting mixed two subjects and settled neither.",
+      "ru": "На встрече смешали две темы и не решили ни одной."
+    },
+    {
+      "word": "mixture",
+      "pos": "n.",
+      "sense": "смесь",
+      "en": "The response was a mixture of relief and quiet anger.",
+      "ru": "Отклик был смесью облегчения и тихой злости."
+    },
+    {
+      "word": "mood",
+      "pos": "n.",
+      "sense": "настроение",
+      "en": "The mood in the office changed the day the email went round.",
+      "ru": "Настроение в офисе изменилось в день, когда разослали то письмо."
+    },
+    {
+      "word": "move",
+      "pos": "n.",
+      "sense": "ход; шаг, действие",
+      "en": "Selling the building was a move they came to regret.",
+      "ru": "Продажа здания оказалась шагом, о котором они пожалели."
+    },
+    {
+      "word": "mud",
+      "pos": "n.",
+      "sense": "грязь",
+      "en": "The site was so deep in mud that nothing could be moved.",
+      "ru": "Площадка утопала в грязи так, что ничего нельзя было сдвинуть."
+    },
+    {
+      "word": "murder",
+      "pos": "n., v.",
+      "sense": "убийство; убивать",
+      "en": "The murder was never solved, and the file is still open.",
+      "ru": "Убийство так и не раскрыли, и дело до сих пор открыто."
+    },
+    {
+      "word": "muscle",
+      "pos": "n.",
+      "sense": "мышца",
+      "en": "He'd pulled a muscle in the first ten minutes and played on.",
+      "ru": "Он потянул мышцу в первые десять минут и продолжил играть."
+    },
+    {
+      "word": "musical",
+      "pos": "n.",
+      "sense": "мюзикл",
+      "en": "The musical ran for eleven years and then closed in a week.",
+      "ru": "Мюзикл шёл одиннадцать лет, а закрылся за неделю."
+    },
+    {
+      "word": "mystery",
+      "pos": "n.",
+      "sense": "тайна, загадка",
+      "en": "It's a mystery how the decision got approved at all.",
+      "ru": "Загадка, как это решение вообще утвердили."
+    },
+    {
+      "word": "nail",
+      "pos": "n.",
+      "sense": "ноготь; гвоздь",
+      "en": "The whole thing was held together with four nails and hope.",
+      "ru": "Вся конструкция держалась на четырёх гвоздях и надежде."
+    },
+    {
+      "word": "narrative",
+      "pos": "n., adj.",
+      "sense": "повествование; повествовательный",
+      "en": "The official narrative changed three times in a fortnight.",
+      "ru": "Официальная версия менялась трижды за две недели."
+    },
+    {
+      "word": "nation",
+      "pos": "n.",
+      "sense": "нация, страна",
+      "en": "The nation was told one thing while the papers said another.",
+      "ru": "Стране говорили одно, а газеты писали другое."
+    },
+    {
+      "word": "native",
+      "pos": "adj., n.",
+      "sense": "родной; уроженец",
+      "en": "Native speakers are often the worst at explaining their own language.",
+      "ru": "Носители языка часто хуже всех объясняют собственный язык."
+    },
+    {
+      "word": "naturally",
+      "pos": "adv.",
+      "sense": "естественно, конечно",
+      "en": "Naturally, nobody wanted to be the one to tell him.",
+      "ru": "Естественно, никто не хотел оказаться тем, кто ему скажет."
+    },
+    {
+      "word": "necessarily",
+      "pos": "adv.",
+      "sense": "обязательно, непременно",
+      "en": "Expensive doesn't necessarily mean better; it usually means newer.",
+      "ru": "Дорогое не обязательно лучше, обычно оно просто новее."
+    },
+    {
+      "word": "need",
+      "pos": "modal v.",
+      "sense": "нужно (модальный, в отрицаниях)",
+      "en": "You needn't have come all this way just to tell me that.",
+      "ru": "Не стоило ехать в такую даль только ради этого."
+    },
+    {
+      "word": "needle",
+      "pos": "n.",
+      "sense": "игла",
+      "en": "Finding it was a matter of a needle and a very large haystack.",
+      "ru": "Найти это было всё равно что иголку в огромном стоге сена."
+    },
+    {
+      "word": "neighbourhood",
+      "pos": "n.",
+      "sense": "район, окрестности",
+      "en": "The neighbourhood has changed completely since the station opened.",
+      "ru": "Район полностью изменился с открытием станции."
+    },
+    {
+      "word": "neither",
+      "pos": "adv.",
+      "sense": "тоже не",
+      "en": "She didn't understand it, and neither did anyone else in the room.",
+      "ru": "Она этого не поняла, и никто другой в комнате тоже."
+    },
+    {
+      "word": "net",
+      "pos": "n.",
+      "sense": "сеть, сетка",
+      "en": "The safety net turned out to have rather large holes in it.",
+      "ru": "В системе подстраховки оказались довольно большие дыры."
+    },
+    {
+      "word": "next",
+      "pos": "n.",
+      "sense": "следующий (человек)",
+      "en": "Whoever is next will inherit a problem that took years to build.",
+      "ru": "Кто бы ни был следующим, ему достанется проблема, которую строили годами."
+    },
+    {
+      "word": "nor",
+      "pos": "conj./adv.",
+      "sense": "и не, тоже не",
+      "en": "They had neither the time nor the money to do it properly.",
+      "ru": "У них не было ни времени, ни денег, чтобы сделать как следует."
+    },
+    {
+      "word": "normal",
+      "pos": "n.",
+      "sense": "норма",
+      "en": "Rainfall this year has been well below normal.",
+      "ru": "Осадков в этом году заметно ниже нормы."
+    },
+    {
+      "word": "northern",
+      "pos": "adj.",
+      "sense": "северный",
+      "en": "The northern route is longer and open for only four months.",
+      "ru": "Северный маршрут длиннее и открыт лишь четыре месяца."
+    },
+    {
+      "word": "note",
+      "pos": "v.",
+      "sense": "замечать, отмечать",
+      "en": "It's worth noting that nobody has denied any of this.",
+      "ru": "Стоит отметить, что ничего из этого никто не опроверг."
+    },
+    {
+      "word": "now",
+      "pos": "conj.",
+      "sense": "теперь, когда",
+      "en": "Now that the figures are public, the tone has changed completely.",
+      "ru": "Теперь, когда цифры обнародованы, тон полностью изменился."
+    },
+    {
+      "word": "nuclear",
+      "pos": "adj.",
+      "sense": "ядерный",
+      "en": "The nuclear plant was built in six years and has run for forty.",
+      "ru": "Атомную станцию построили за шесть лет, а работает она сорок."
+    },
+    {
+      "word": "obvious",
+      "pos": "adj.",
+      "sense": "очевидный",
+      "en": "The obvious question is why nobody asked the obvious question.",
+      "ru": "Очевидный вопрос — почему никто не задал очевидного вопроса."
+    },
+    {
+      "word": "obviously",
+      "pos": "adv.",
+      "sense": "очевидно",
+      "en": "Obviously somebody knew, or the money wouldn't have moved.",
+      "ru": "Очевидно, кто-то знал, иначе деньги бы не ушли."
+    },
+    {
+      "word": "occasion",
+      "pos": "n.",
+      "sense": "случай, событие",
+      "en": "On more than one occasion they were warned and did nothing.",
+      "ru": "Их не раз предупреждали, и они ничего не делали."
+    },
+    {
+      "word": "occur",
+      "pos": "v.",
+      "sense": "происходить",
+      "en": "It never occurred to anyone to ask the people who use it.",
+      "ru": "Никому и в голову не пришло спросить тех, кто этим пользуется."
+    },
+    {
+      "word": "odd",
+      "pos": "adj.",
+      "sense": "странный; нечётный",
+      "en": "It struck me as odd that the dates didn't match.",
+      "ru": "Мне показалось странным, что даты не совпадают."
+    },
+    {
+      "word": "official",
+      "pos": "adj.",
+      "sense": "официальный",
+      "en": "The official explanation satisfied nobody who knew the details.",
+      "ru": "Официальное объяснение не удовлетворило никого, кто знал подробности."
+    },
+    {
+      "word": "old-fashioned",
+      "pos": "adj.",
+      "sense": "старомодный",
+      "en": "It's an old-fashioned approach, and it works better than the new one.",
+      "ru": "Подход старомодный, и работает он лучше нового."
+    },
+    {
+      "word": "once",
+      "pos": "conj.",
+      "sense": "как только",
+      "en": "Once the deadline passed, everyone suddenly became available.",
+      "ru": "Как только срок прошёл, все вдруг оказались свободны."
+    },
+    {
+      "word": "operation",
+      "pos": "n.",
+      "sense": "операция",
+      "en": "The whole operation was planned in two days and took two years.",
+      "ru": "Всю операцию спланировали за два дня, а заняла она два года."
+    },
+    {
+      "word": "organized",
+      "pos": "adj.",
+      "sense": "организованный",
+      "en": "It was the most organized chaos I have ever seen.",
+      "ru": "Это был самый организованный хаос, какой я видел."
+    },
+    {
+      "word": "organizer",
+      "pos": "n.",
+      "sense": "организатор",
+      "en": "The organizers had thought of everything except the weather.",
+      "ru": "Организаторы продумали всё, кроме погоды."
+    },
+    {
+      "word": "original",
+      "pos": "n.",
+      "sense": "оригинал",
+      "en": "The original had been lost, and all the copies disagree.",
+      "ru": "Оригинал потеряли, и все копии расходятся между собой."
+    },
+    {
+      "word": "originally",
+      "pos": "adv.",
+      "sense": "изначально",
+      "en": "It was originally meant to be temporary and has lasted nine years.",
+      "ru": "Изначально это задумывалось как временное и держится девять лет."
+    },
+    {
+      "word": "ought",
+      "pos": "modal v.",
+      "sense": "следует, должен (ought to)",
+      "en": "Somebody ought to have said something months ago.",
+      "ru": "Кому-то следовало сказать об этом ещё несколько месяцев назад."
+    },
+    {
+      "word": "ours",
+      "pos": "pron.",
+      "sense": "наш (без существительного)",
+      "en": "The mistake was ours, and we said so straight away.",
+      "ru": "Ошибка была наша, и мы сразу об этом сказали."
+    },
+    {
+      "word": "outdoor",
+      "pos": "adj.",
+      "sense": "на открытом воздухе",
+      "en": "The outdoor pool is open for about six weeks a year.",
+      "ru": "Открытый бассейн работает недель шесть в году."
+    },
+    {
+      "word": "outdoors",
+      "pos": "adv.",
+      "sense": "на улице, на открытом воздухе",
+      "en": "They work outdoors in weather that keeps everyone else inside.",
+      "ru": "Они работают на улице в погоду, которая всех остальных держит дома."
+    },
+    {
+      "word": "pack",
+      "pos": "n.",
+      "sense": "пачка, упаковка; рюкзак",
+      "en": "He carried everything he owned in one pack for a year.",
+      "ru": "Целый год он носил всё своё имущество в одном рюкзаке."
+    },
+    {
+      "word": "package",
+      "pos": "n.",
+      "sense": "посылка; пакет услуг",
+      "en": "The package looked good until we read what wasn't in it.",
+      "ru": "Пакет выглядел неплохо, пока мы не прочитали, чего в нём нет."
+    },
+    {
+      "word": "painful",
+      "pos": "adj.",
+      "sense": "болезненный",
+      "en": "It was a painful conversation that should have happened sooner.",
+      "ru": "Это был болезненный разговор, который стоило провести раньше."
+    },
+    {
+      "word": "pale",
+      "pos": "adj.",
+      "sense": "бледный",
+      "en": "She went pale when she saw the figure at the bottom.",
+      "ru": "Она побледнела, увидев цифру внизу."
+    },
+    {
+      "word": "pan",
+      "pos": "n.",
+      "sense": "сковорода; кастрюля",
+      "en": "Use a heavy pan, or everything burns before it cooks.",
+      "ru": "Бери тяжёлую сковороду, иначе всё подгорит раньше, чем приготовится."
+    },
+    {
+      "word": "participate",
+      "pos": "v.",
+      "sense": "участвовать",
+      "en": "Only a fifth of those invited actually participated.",
+      "ru": "Из приглашённых реально поучаствовала лишь пятая часть."
+    },
+    {
+      "word": "particularly",
+      "pos": "adv.",
+      "sense": "особенно",
+      "en": "Nobody was particularly surprised, which is itself worrying.",
+      "ru": "Особенно никто не удивился, и это само по себе тревожно."
+    },
+    {
+      "word": "pass",
+      "pos": "n.",
+      "sense": "пропуск; передача (мяча)",
+      "en": "His pass had expired and nobody would let him in.",
+      "ru": "Его пропуск истёк, и никто не пускал его внутрь."
+    },
+    {
+      "word": "passion",
+      "pos": "n.",
+      "sense": "страсть",
+      "en": "She brought more passion to it than the job strictly required.",
+      "ru": "Она вкладывала в это больше страсти, чем требовала работа."
+    },
+    {
+      "word": "path",
+      "pos": "n.",
+      "sense": "тропинка",
+      "en": "The path they chose was longer and far less risky.",
+      "ru": "Путь, который они выбрали, был длиннее и куда менее рискованным."
+    },
+    {
+      "word": "payment",
+      "pos": "n.",
+      "sense": "оплата, платёж",
+      "en": "The payment was late, as it had been every month that year.",
+      "ru": "Платёж задержали, как и каждый месяц в том году."
+    },
+    {
+      "word": "peaceful",
+      "pos": "adj.",
+      "sense": "мирный, спокойный",
+      "en": "It was a peaceful protest until somebody sent in the vans.",
+      "ru": "Протест был мирным, пока кто-то не пригнал автобусы."
+    },
+    {
+      "word": "percentage",
+      "pos": "n.",
+      "sense": "процент, доля",
+      "en": "A small percentage of cases take up most of the time.",
+      "ru": "Небольшая доля случаев съедает бóльшую часть времени."
+    },
+    {
+      "word": "perfectly",
+      "pos": "adv.",
+      "sense": "идеально, совершенно",
+      "en": "The arrangement worked perfectly for everybody except the customer.",
+      "ru": "Схема прекрасно работала для всех, кроме клиента."
+    },
+    {
+      "word": "performance",
+      "pos": "n.",
+      "sense": "выступление; результативность",
+      "en": "Performance improved as soon as people stopped being measured hourly.",
+      "ru": "Результаты улучшились, едва людей перестали измерять по часам."
+    },
+    {
+      "word": "personally",
+      "pos": "adv.",
+      "sense": "лично",
+      "en": "Personally I'd have waited, but nobody asked me.",
+      "ru": "Лично я бы подождал, но меня не спросили."
+    },
+    {
+      "word": "persuade",
+      "pos": "v.",
+      "sense": "убеждать, уговаривать",
+      "en": "It took three meetings to persuade them of something obvious.",
+      "ru": "Понадобилось три встречи, чтобы убедить их в очевидном."
+    },
+    {
+      "word": "photographer",
+      "pos": "n.",
+      "sense": "фотограф",
+      "en": "The photographer had been there all day and nobody noticed.",
+      "ru": "Фотограф пробыл там весь день, и никто его не заметил."
+    },
+    {
+      "word": "photography",
+      "pos": "n.",
+      "sense": "фотография (искусство)",
+      "en": "Photography changed completely when everyone started carrying a camera.",
+      "ru": "Фотография полностью изменилась, когда камера появилась у каждого."
+    },
+    {
+      "word": "pin",
+      "pos": "n., v.",
+      "sense": "булавка; ПИН-код; прикалывать",
+      "en": "They tried to pin the blame on the one person who had warned them.",
+      "ru": "Они попытались свалить вину на единственного, кто их предупреждал."
+    },
+    {
+      "word": "pipe",
+      "pos": "n.",
+      "sense": "труба",
+      "en": "The pipes had been leaking for months under the floor.",
+      "ru": "Трубы под полом текли месяцами."
+    },
+    {
+      "word": "place",
+      "pos": "v.",
+      "sense": "размещать, ставить",
+      "en": "The order had been placed and then quietly cancelled.",
+      "ru": "Заказ разместили, а потом тихо отменили."
+    },
+    {
+      "word": "planning",
+      "pos": "n.",
+      "sense": "планирование",
+      "en": "No amount of planning survives the first contact with reality.",
+      "ru": "Никакое планирование не переживает первой встречи с реальностью."
+    },
+    {
+      "word": "pleasant",
+      "pos": "adj.",
+      "sense": "приятный",
+      "en": "It was a pleasant surprise to be asked at all.",
+      "ru": "Было приятным сюрпризом, что нас вообще спросили."
+    },
+    {
+      "word": "pleasure",
+      "pos": "n.",
+      "sense": "удовольствие",
+      "en": "It gave him no pleasure at all to be proved right.",
+      "ru": "Ему не доставило никакого удовольствия оказаться правым."
+    },
+    {
+      "word": "plenty",
+      "pos": "pron.",
+      "sense": "множество, достаточно",
+      "en": "There's plenty of blame to go round, and nobody wants any.",
+      "ru": "Вины хватит на всех, и никто её брать не хочет."
+    },
+    {
+      "word": "plot",
+      "pos": "n.",
+      "sense": "сюжет",
+      "en": "The plot made no sense, and the film was wonderful anyway.",
+      "ru": "Сюжет был бессмысленным, и фильм всё равно вышел прекрасным."
+    },
+    {
+      "word": "plus",
+      "pos": "prep.",
+      "sense": "плюс",
+      "en": "The cost is the price plus everything they forgot to mention.",
+      "ru": "Стоимость — это цена плюс всё, о чём они забыли упомянуть."
+    },
+    {
+      "word": "poem",
+      "pos": "n.",
+      "sense": "стихотворение",
+      "en": "The poem was written in an hour and reworked for twenty years.",
+      "ru": "Стихотворение написали за час и переделывали двадцать лет."
+    },
+    {
+      "word": "poet",
+      "pos": "n.",
+      "sense": "поэт",
+      "en": "The poet had worked as a clerk for most of his life.",
+      "ru": "Поэт бóльшую часть жизни проработал конторщиком."
+    },
+    {
+      "word": "poetry",
+      "pos": "n.",
+      "sense": "поэзия",
+      "en": "Poetry sells badly and outlives almost everything that sells well.",
+      "ru": "Поэзия плохо продаётся и переживает почти всё, что продаётся хорошо."
+    },
+    {
+      "word": "point",
+      "pos": "v.",
+      "sense": "указывать",
+      "en": "Everything points to a decision taken long before the meeting.",
+      "ru": "Всё указывает на решение, принятое задолго до встречи."
+    },
+    {
+      "word": "poison",
+      "pos": "n., v.",
+      "sense": "яд; отравлять",
+      "en": "The row poisoned the atmosphere for the rest of the year.",
+      "ru": "Ссора отравила атмосферу до конца года."
+    },
+    {
+      "word": "poisonous",
+      "pos": "adj.",
+      "sense": "ядовитый",
+      "en": "Most of the plants here are harmless and two are poisonous.",
+      "ru": "Бóльшая часть здешних растений безвредна, а два ядовиты."
+    },
+    {
+      "word": "policy",
+      "pos": "n.",
+      "sense": "политика (правила)",
+      "en": "The policy was written for a situation that no longer occurs.",
+      "ru": "Правила писали для случая, которого больше не бывает."
+    },
+    {
+      "word": "political",
+      "pos": "adj.",
+      "sense": "политический",
+      "en": "The decision was political and everyone pretended it was technical.",
+      "ru": "Решение было политическим, а все делали вид, что техническим."
+    },
+    {
+      "word": "politician",
+      "pos": "n.",
+      "sense": "политик",
+      "en": "No politician wants to be the one who announces the cost.",
+      "ru": "Ни один политик не хочет быть тем, кто объявит цену."
+    },
+    {
+      "word": "politics",
+      "pos": "n.",
+      "sense": "политика (сфера)",
+      "en": "Office politics cost the company more than any competitor did.",
+      "ru": "Внутренние интриги обошлись компании дороже любого конкурента."
+    },
+    {
+      "word": "port",
+      "pos": "n.",
+      "sense": "порт",
+      "en": "The port has been expanded twice and is still too small.",
+      "ru": "Порт расширяли дважды, и он всё равно мал."
+    },
+    {
+      "word": "portrait",
+      "pos": "n.",
+      "sense": "портрет",
+      "en": "The portrait hung there for years before anyone asked who it was.",
+      "ru": "Портрет висел там годами, прежде чем кто-то спросил, кто это."
+    },
+    {
+      "word": "possibly",
+      "pos": "adv.",
+      "sense": "возможно",
+      "en": "Could you possibly let us know before the end of the week?",
+      "ru": "Не могли бы вы дать нам знать до конца недели?"
+    },
+    {
+      "word": "pot",
+      "pos": "n.",
+      "sense": "горшок; кастрюля",
+      "en": "The pot had been used by three generations and never replaced.",
+      "ru": "Этой кастрюлей пользовались три поколения и ни разу её не меняли."
+    },
+    {
+      "word": "pour",
+      "pos": "v.",
+      "sense": "наливать; литься",
+      "en": "Complaints poured in for a fortnight and then stopped dead.",
+      "ru": "Жалобы лились две недели, а потом разом прекратились."
+    },
+    {
+      "word": "poverty",
+      "pos": "n.",
+      "sense": "бедность",
+      "en": "Poverty here is hidden rather than absent.",
+      "ru": "Бедность здесь скорее спрятана, чем отсутствует."
+    },
+    {
+      "word": "powder",
+      "pos": "n.",
+      "sense": "порошок",
+      "en": "The powder has to be dissolved completely or it won't work.",
+      "ru": "Порошок надо растворить полностью, иначе он не подействует."
+    },
+    {
+      "word": "powerful",
+      "pos": "adj.",
+      "sense": "мощный, могущественный",
+      "en": "It's a powerful argument, and it was made far too late.",
+      "ru": "Довод мощный, и прозвучал он слишком поздно."
+    },
+    {
+      "word": "practical",
+      "pos": "adj.",
+      "sense": "практичный, практический",
+      "en": "What we need is a practical answer, not a better description of the problem.",
+      "ru": "Нам нужен практический ответ, а не более подробное описание проблемы."
+    },
+    {
+      "word": "pray",
+      "pos": "v.",
+      "sense": "молиться",
+      "en": "People pray here for rain that comes later every year.",
+      "ru": "Здесь молятся о дожде, который приходит всё позже с каждым годом."
+    },
+    {
+      "word": "prayer",
+      "pos": "n.",
+      "sense": "молитва",
+      "en": "The prayer takes four minutes and has not changed in centuries.",
+      "ru": "Молитва длится четыре минуты и не менялась веками."
+    },
+    {
+      "word": "prediction",
+      "pos": "n.",
+      "sense": "предсказание, прогноз",
+      "en": "Every prediction they made turned out to be too cautious.",
+      "ru": "Все их прогнозы оказались слишком осторожными."
+    },
+    {
+      "word": "prepared",
+      "pos": "adj.",
+      "sense": "готовый, подготовленный",
+      "en": "Nobody was prepared for how quickly it would happen.",
+      "ru": "Никто не был готов к тому, насколько быстро это произойдёт."
+    },
+    {
+      "word": "presentation",
+      "pos": "n.",
+      "sense": "презентация",
+      "en": "The presentation was polished and said almost nothing.",
+      "ru": "Презентация была вылизанной и почти ничего не сказала."
+    },
+    {
+      "word": "press",
+      "pos": "n., v.",
+      "sense": "пресса; нажимать",
+      "en": "The press got hold of it before the staff had been told.",
+      "ru": "Пресса узнала об этом раньше, чем сказали сотрудникам."
+    },
+    {
+      "word": "pressure",
+      "pos": "n.",
+      "sense": "давление",
+      "en": "Under pressure, people make the decision that is easiest to defend.",
+      "ru": "Под давлением люди выбирают решение, которое легче всего оправдать."
+    },
+    {
+      "word": "pretend",
+      "pos": "v.",
+      "sense": "притворяться",
+      "en": "We can pretend this is fine, or we can fix it.",
+      "ru": "Можно притворяться, что всё в порядке, а можно это исправить."
+    },
+    {
+      "word": "previous",
+      "pos": "adj.",
+      "sense": "предыдущий",
+      "en": "The previous team had left no documentation at all.",
+      "ru": "Предыдущая команда не оставила вообще никакой документации."
+    },
+    {
+      "word": "previously",
+      "pos": "adv.",
+      "sense": "ранее",
+      "en": "Previously undisclosed figures appeared in the paper on Monday.",
+      "ru": "Ранее не раскрывавшиеся цифры появились в газете в понедельник."
+    },
+    {
+      "word": "priest",
+      "pos": "n.",
+      "sense": "священник",
+      "en": "The priest had known the family for three generations.",
+      "ru": "Священник знал эту семью три поколения."
+    },
+    {
+      "word": "primary",
+      "pos": "adj.",
+      "sense": "начальный; основной",
+      "en": "The primary cause was something nobody had thought to look at.",
+      "ru": "Основной причиной оказалось то, на что никто не подумал посмотреть."
+    },
+    {
+      "word": "prince",
+      "pos": "n.",
+      "sense": "принц",
+      "en": "The prince who ordered it built never paid the builders.",
+      "ru": "Принц, велевший это построить, так и не заплатил строителям."
+    },
+    {
+      "word": "princess",
+      "pos": "n.",
+      "sense": "принцесса",
+      "en": "The princess in the story does rather more than wait.",
+      "ru": "Принцесса в этой истории делает заметно больше, чем ждёт."
+    },
+    {
+      "word": "printing",
+      "pos": "n.",
+      "sense": "печать",
+      "en": "The printing was delayed because somebody changed one word.",
+      "ru": "Печать задержали, потому что кто-то поменял одно слово."
+    },
+    {
+      "word": "prisoner",
+      "pos": "n.",
+      "sense": "заключённый",
+      "en": "The prisoners were moved at night, which nobody explained.",
+      "ru": "Заключённых перевезли ночью, и никто этого не объяснил."
+    },
+    {
+      "word": "private",
+      "pos": "adj.",
+      "sense": "частный, личный",
+      "en": "It was a private conversation that somehow reached the newspapers.",
+      "ru": "Это был частный разговор, который каким-то образом дошёл до газет."
+    },
+    {
+      "word": "producer",
+      "pos": "n.",
+      "sense": "продюсер; производитель",
+      "en": "The producer pulled out two weeks before filming began.",
+      "ru": "Продюсер вышел из проекта за две недели до начала съёмок."
+    },
+    {
+      "word": "production",
+      "pos": "n.",
+      "sense": "производство",
+      "en": "Production stopped for a month and nobody lost their job.",
+      "ru": "Производство встало на месяц, и никто не лишился работы."
+    },
+    {
+      "word": "profession",
+      "pos": "n.",
+      "sense": "профессия",
+      "en": "He left the profession after fifteen years and never looked back.",
+      "ru": "Он ушёл из профессии через пятнадцать лет и ни разу не оглянулся."
+    },
+    {
+      "word": "profit",
+      "pos": "n.",
+      "sense": "прибыль",
+      "en": "The profit came from selling the building, not from the business.",
+      "ru": "Прибыль пришла от продажи здания, а не от дела."
+    },
+    {
+      "word": "program",
+      "pos": "v.",
+      "sense": "программировать",
+      "en": "She'd taught herself to program while working night shifts.",
+      "ru": "Она научилась программировать, работая в ночные смены."
+    },
+    {
+      "word": "promote",
+      "pos": "v.",
+      "sense": "продвигать; повышать (в должности)",
+      "en": "He was promoted away from the job he was actually good at.",
+      "ru": "Его повысили, убрав с работы, в которой он был по-настоящему хорош."
+    },
+    {
+      "word": "proper",
+      "pos": "adj.",
+      "sense": "настоящий, надлежащий",
+      "en": "What's missing is a proper explanation, not another apology.",
+      "ru": "Не хватает внятного объяснения, а не ещё одного извинения."
+    },
+    {
+      "word": "properly",
+      "pos": "adv.",
+      "sense": "как следует, правильно",
+      "en": "Nothing had been tested properly before it went live.",
+      "ru": "Ничего толком не проверили, прежде чем запустить."
+    },
+    {
+      "word": "property",
+      "pos": "n.",
+      "sense": "собственность, имущество",
+      "en": "The property had changed hands four times in six years.",
+      "ru": "За шесть лет собственность сменила владельца четырежды."
+    },
+    {
+      "word": "protest",
+      "pos": "n., v.",
+      "sense": "протест; протестовать",
+      "en": "The protest was small and the response was enormous.",
+      "ru": "Протест был небольшим, а реакция — огромной."
+    },
+    {
+      "word": "proud",
+      "pos": "adj.",
+      "sense": "гордый",
+      "en": "He was too proud to ask for help until it was nearly too late.",
+      "ru": "Он был слишком горд, чтобы просить помощи, пока не стало почти поздно."
+    },
+    {
+      "word": "prove",
+      "pos": "v.",
+      "sense": "доказывать",
+      "en": "It's hard to prove something didn't happen.",
+      "ru": "Трудно доказать, что чего-то не было."
+    },
+    {
+      "word": "pull",
+      "pos": "n.",
+      "sense": "рывок, тяга",
+      "en": "The pull of the old way of doing things is stronger than any policy.",
+      "ru": "Тяга к старому способу делать дела сильнее любых правил."
+    },
+    {
+      "word": "punish",
+      "pos": "v.",
+      "sense": "наказывать",
+      "en": "The people punished were the ones who reported the problem.",
+      "ru": "Наказали тех, кто сообщил о проблеме."
+    },
+    {
+      "word": "punishment",
+      "pos": "n.",
+      "sense": "наказание",
+      "en": "The punishment fell on the people least able to argue.",
+      "ru": "Наказание досталось тем, кто меньше всех мог возразить."
+    },
+    {
+      "word": "push",
+      "pos": "n.",
+      "sense": "толчок",
+      "en": "All it needed was a push from someone with authority.",
+      "ru": "Нужен был лишь толчок от кого-то с полномочиями."
+    },
+    {
+      "word": "qualification",
+      "pos": "n.",
+      "sense": "квалификация, диплом",
+      "en": "The qualification took four years and is now worth very little.",
+      "ru": "Диплом получали четыре года, а стоит он теперь немного."
+    },
+    {
+      "word": "qualified",
+      "pos": "adj.",
+      "sense": "квалифицированный",
+      "en": "There was nobody qualified on site when the decision was made.",
+      "ru": "На месте не было ни одного квалифицированного человека, когда принимали решение."
+    },
+    {
+      "word": "qualify",
+      "pos": "v.",
+      "sense": "получать квалификацию; проходить отбор",
+      "en": "She qualified in a year that produced almost no jobs.",
+      "ru": "Она получила квалификацию в год, когда работы почти не было."
+    },
+    {
+      "word": "queue",
+      "pos": "n., v.",
+      "sense": "очередь; стоять в очереди",
+      "en": "The queue formed at six for a door that opened at nine.",
+      "ru": "Очередь выстроилась к шести у двери, которая открывалась в девять."
+    },
+    {
+      "word": "quit",
+      "pos": "v.",
+      "sense": "бросать, увольняться",
+      "en": "Three people quit in the same week, which told us everything.",
+      "ru": "За одну неделю уволились трое, и это сказало нам всё."
+    },
+    {
+      "word": "quotation",
+      "pos": "n.",
+      "sense": "цитата",
+      "en": "The quotation had been shortened in a way that reversed its meaning.",
+      "ru": "Цитату сократили так, что её смысл перевернулся."
+    },
+    {
+      "word": "quote",
+      "pos": "v., n.",
+      "sense": "цитировать; цитата",
+      "en": "He's quoted everywhere saying something he never actually said.",
+      "ru": "Его везде цитируют с фразой, которую он никогда не говорил."
+    },
+    {
+      "word": "race (people)",
+      "pos": "n.",
+      "sense": "раса",
+      "en": "Questions of race were avoided rather than answered.",
+      "ru": "Вопросы расы обошли, а не разобрали."
+    },
+    {
+      "word": "racing",
+      "pos": "n.",
+      "sense": "гонки",
+      "en": "Racing here stopped after the track was declared unsafe.",
+      "ru": "Гонки здесь прекратились после того, как трассу признали опасной."
+    },
+    {
+      "word": "range",
+      "pos": "n.",
+      "sense": "диапазон, ассортимент",
+      "en": "The estimates cover such a wide range that they're useless.",
+      "ru": "Оценки охватывают такой широкий разброс, что бесполезны."
+    },
+    {
+      "word": "rare",
+      "pos": "adj.",
+      "sense": "редкий",
+      "en": "It's rare to get an honest answer this early.",
+      "ru": "Редко удаётся получить честный ответ так рано."
+    },
+    {
+      "word": "rarely",
+      "pos": "adv.",
+      "sense": "редко",
+      "en": "These problems rarely appear until the system is under load.",
+      "ru": "Такие сбои редко проявляются, пока система не под нагрузкой."
+    },
+    {
+      "word": "reaction",
+      "pos": "n.",
+      "sense": "реакция",
+      "en": "The reaction was out of all proportion to what had happened.",
+      "ru": "Реакция была совершенно несоразмерна случившемуся."
+    },
+    {
+      "word": "reality",
+      "pos": "n.",
+      "sense": "реальность",
+      "en": "In reality nobody has the time the plan assumes they have.",
+      "ru": "В реальности ни у кого нет того времени, которое предполагает план."
+    },
+    {
+      "word": "receipt",
+      "pos": "n.",
+      "sense": "чек, квитанция",
+      "en": "Keep the receipt; without it they won't even talk to you.",
+      "ru": "Сохрани чек: без него с тобой даже разговаривать не станут."
+    },
+    {
+      "word": "recommendation",
+      "pos": "n.",
+      "sense": "рекомендация",
+      "en": "The recommendation was accepted and then quietly never implemented.",
+      "ru": "Рекомендацию приняли и тихо так и не выполнили."
+    },
+    {
+      "word": "reference",
+      "pos": "n.",
+      "sense": "ссылка, упоминание; рекомендация",
+      "en": "There's a reference in the minutes to a decision nobody remembers.",
+      "ru": "В протоколе есть ссылка на решение, которого никто не помнит."
+    },
+    {
+      "word": "reflect",
+      "pos": "v.",
+      "sense": "отражать",
+      "en": "The figures reflect the method of counting more than reality.",
+      "ru": "Цифры отражают скорее способ подсчёта, чем реальность."
+    },
+    {
+      "word": "regularly",
+      "pos": "adv.",
+      "sense": "регулярно",
+      "en": "The same issue is raised regularly and goes nowhere.",
+      "ru": "Одна и та же проблема поднимается регулярно и никуда не движется."
+    },
+    {
+      "word": "reject",
+      "pos": "v.",
+      "sense": "отклонять",
+      "en": "The proposal was rejected without anyone reading it fully.",
+      "ru": "Предложение отклонили, так и не прочитав его целиком."
+    },
+    {
+      "word": "relate",
+      "pos": "v.",
+      "sense": "относиться, быть связанным; понимать",
+      "en": "Anyone who has worked nights will relate to that immediately.",
+      "ru": "Любой, кто работал в ночь, сразу это поймёт."
+    },
+    {
+      "word": "related",
+      "pos": "adj.",
+      "sense": "связанный; родственный",
+      "en": "The two failures turned out to be related after all.",
+      "ru": "Эти два сбоя в итоге оказались связаны."
+    },
+    {
+      "word": "relation",
+      "pos": "n.",
+      "sense": "отношение, связь; родственник",
+      "en": "The price bears no relation to what the thing actually costs.",
+      "ru": "Цена никак не соотносится с тем, сколько эта вещь на самом деле стоит."
+    },
+    {
+      "word": "relative",
+      "pos": "adj., n.",
+      "sense": "родственник; относительный",
+      "en": "It's a relative improvement, which is not the same as a good result.",
+      "ru": "Это относительное улучшение, а не хороший результат."
+    },
+    {
+      "word": "relaxed",
+      "pos": "adj.",
+      "sense": "расслабленный",
+      "en": "The rules are relaxed here until somebody complains.",
+      "ru": "Правила здесь мягкие, пока кто-нибудь не пожалуется."
+    },
+    {
+      "word": "relaxing",
+      "pos": "adj.",
+      "sense": "расслабляющий",
+      "en": "It sounds relaxing and is in fact exhausting.",
+      "ru": "Звучит расслабляюще, а на деле выматывает."
+    },
+    {
+      "word": "release",
+      "pos": "v., n.",
+      "sense": "выпускать; релиз",
+      "en": "The report was released at five on a Friday afternoon.",
+      "ru": "Отчёт выпустили в пять вечера в пятницу."
+    },
+    {
+      "word": "reliable",
+      "pos": "adj.",
+      "sense": "надёжный",
+      "en": "We need a reliable answer, not a confident one.",
+      "ru": "Нам нужен надёжный ответ, а не уверенный."
+    },
+    {
+      "word": "religion",
+      "pos": "n.",
+      "sense": "религия",
+      "en": "Religion here is less about belief than about belonging.",
+      "ru": "Религия здесь не столько о вере, сколько о принадлежности."
+    },
+    {
+      "word": "religious",
+      "pos": "adj.",
+      "sense": "религиозный",
+      "en": "The holiday is religious in origin and entirely secular in practice.",
+      "ru": "Праздник религиозен по происхождению и совершенно светский на практике."
+    },
+    {
+      "word": "remain",
+      "pos": "v.",
+      "sense": "оставаться",
+      "en": "The question remains, and nobody is in a hurry to answer it.",
+      "ru": "Вопрос остаётся, и отвечать на него никто не спешит."
+    },
+    {
+      "word": "remind",
+      "pos": "v.",
+      "sense": "напоминать",
+      "en": "This reminds me of a mistake we made five years ago.",
+      "ru": "Это напоминает мне ошибку, которую мы совершили пять лет назад."
+    },
+    {
+      "word": "remote",
+      "pos": "adj.",
+      "sense": "отдалённый; пульт (remote control)",
+      "en": "The village is remote enough that the post comes twice a week.",
+      "ru": "Деревня настолько отдалённая, что почта приходит дважды в неделю."
+    },
+    {
+      "word": "rent",
+      "pos": "n., v.",
+      "sense": "аренда; арендовать",
+      "en": "The rent has doubled since they signed the lease.",
+      "ru": "С подписания договора аренда выросла вдвое."
+    },
+    {
+      "word": "repair",
+      "pos": "n.",
+      "sense": "ремонт",
+      "en": "The repair cost more than the original purchase.",
+      "ru": "Ремонт обошёлся дороже самой покупки."
+    },
+    {
+      "word": "repeat",
+      "pos": "n.",
+      "sense": "повтор",
+      "en": "It was a repeat of exactly what happened last autumn.",
+      "ru": "Это был повтор ровно того, что случилось прошлой осенью."
+    },
+    {
+      "word": "repeated",
+      "pos": "adj.",
+      "sense": "повторный, неоднократный",
+      "en": "Despite repeated requests, nothing was sent.",
+      "ru": "Несмотря на неоднократные просьбы, ничего не прислали."
+    },
+    {
+      "word": "represent",
+      "pos": "v.",
+      "sense": "представлять (кого-то)",
+      "en": "Nobody in the room represented the people being discussed.",
+      "ru": "Никто в комнате не представлял тех, о ком шла речь."
+    },
+    {
+      "word": "request",
+      "pos": "v.",
+      "sense": "просить",
+      "en": "We requested the figures in March and received them in October.",
+      "ru": "Мы запросили цифры в марте и получили в октябре."
+    },
+    {
+      "word": "require",
+      "pos": "v.",
+      "sense": "требовать",
+      "en": "The job requires patience far more than it requires talent.",
+      "ru": "Работа требует терпения куда больше, чем таланта."
+    },
+    {
+      "word": "reservation",
+      "pos": "n.",
+      "sense": "бронирование",
+      "en": "I have reservations about the plan that nobody wants to hear.",
+      "ru": "У меня есть сомнения насчёт плана, которых никто не хочет слышать."
+    },
+    {
+      "word": "resource",
+      "pos": "n.",
+      "sense": "ресурс",
+      "en": "The scarcest resource here is attention, not money.",
+      "ru": "Самый дефицитный ресурс здесь — внимание, а не деньги."
+    },
+    {
+      "word": "respect",
+      "pos": "n., v.",
+      "sense": "уважение; уважать",
+      "en": "He lost their respect in one meeting and never got it back.",
+      "ru": "Он потерял их уважение за одну встречу и больше не вернул."
+    },
+    {
+      "word": "responsibility",
+      "pos": "n.",
+      "sense": "ответственность",
+      "en": "Responsibility was spread so thin that nobody carried any.",
+      "ru": "Ответственность размазали так тонко, что её не нёс никто."
+    },
+    {
+      "word": "responsible",
+      "pos": "adj.",
+      "sense": "ответственный",
+      "en": "Nobody could say who was responsible, which was convenient.",
+      "ru": "Никто не мог сказать, кто ответственный, и это было удобно."
+    },
+    {
+      "word": "result",
+      "pos": "v.",
+      "sense": "приводить (result in); происходить (result from)",
+      "en": "The delay resulted in costs nobody had budgeted for.",
+      "ru": "Задержка привела к расходам, которых никто не закладывал."
+    },
+    {
+      "word": "retire",
+      "pos": "v.",
+      "sense": "уходить на пенсию",
+      "en": "He retired and came back as a consultant within three months.",
+      "ru": "Он ушёл на пенсию и через три месяца вернулся консультантом."
+    },
+    {
+      "word": "retired",
+      "pos": "adj.",
+      "sense": "на пенсии",
+      "en": "Half the volunteers are retired teachers.",
+      "ru": "Половина волонтёров — учителя на пенсии."
+    },
+    {
+      "word": "revise",
+      "pos": "v.",
+      "sense": "повторять (к экзамену); исправлять",
+      "en": "The figures were revised downwards without any announcement.",
+      "ru": "Цифры пересмотрели в сторону понижения без всякого объявления."
+    },
+    {
+      "word": "ring",
+      "pos": "n.",
+      "sense": "звонок (по телефону)",
+      "en": "Give me a ring once you've seen the final version.",
+      "ru": "Позвони мне, как увидишь окончательный вариант."
+    },
+    {
+      "word": "rise",
+      "pos": "n.",
+      "sense": "рост, повышение",
+      "en": "The rise in costs was predicted by everyone except the planners.",
+      "ru": "Рост расходов предсказывали все, кроме тех, кто планировал."
+    },
+    {
+      "word": "risk",
+      "pos": "n., v.",
+      "sense": "риск; рисковать",
+      "en": "The risk was known, written down and then forgotten.",
+      "ru": "Риск был известен, записан, а потом забыт."
+    },
+    {
+      "word": "robot",
+      "pos": "n.",
+      "sense": "робот",
+      "en": "The robots do the dull part and people still do the hard part.",
+      "ru": "Роботы делают скучную часть, а трудную по-прежнему делают люди."
+    },
+    {
+      "word": "roll",
+      "pos": "v., n.",
+      "sense": "катить(ся); булочка; рулон",
+      "en": "The deadline rolled past without anyone mentioning it.",
+      "ru": "Срок прокатился мимо, и никто о нём не вспомнил."
+    },
+    {
+      "word": "romantic",
+      "pos": "adj.",
+      "sense": "романтичный",
+      "en": "It's a romantic idea that falls apart on contact with a spreadsheet.",
+      "ru": "Это романтичная идея, которая рассыпается при встрече с таблицей."
+    },
+    {
+      "word": "rope",
+      "pos": "n.",
+      "sense": "верёвка",
+      "en": "They'd been given enough rope and used all of it.",
+      "ru": "Им дали достаточно свободы, и они ею воспользовались сполна."
+    },
+    {
+      "word": "rough",
+      "pos": "adj.",
+      "sense": "грубый, шероховатый; приблизительный",
+      "en": "Give me a rough figure now rather than an exact one in a month.",
+      "ru": "Дай приблизительную цифру сейчас, а не точную через месяц."
+    },
+    {
+      "word": "row",
+      "pos": "n.",
+      "sense": "ряд",
+      "en": "The people in the back row could hear nothing at all.",
+      "ru": "Сидящие в заднем ряду не слышали вообще ничего."
+    },
+    {
+      "word": "royal",
+      "pos": "adj.",
+      "sense": "королевский",
+      "en": "The royal visit cost the town more than it brought in.",
+      "ru": "Королевский визит обошёлся городу дороже, чем принёс."
+    },
+    {
+      "word": "rugby",
+      "pos": "n.",
+      "sense": "регби",
+      "en": "He'd played rugby until his shoulder could take no more.",
+      "ru": "Он играл в регби, пока плечо не отказало."
+    },
+    {
+      "word": "rule",
+      "pos": "v.",
+      "sense": "править, управлять",
+      "en": "The family ruled the region for two hundred years.",
+      "ru": "Эта семья правила краем двести лет."
+    },
+    {
+      "word": "safety",
+      "pos": "n.",
+      "sense": "безопасность",
+      "en": "Safety was mentioned in every document and funded in none.",
+      "ru": "О безопасности упомянули в каждом документе и не профинансировали ни в одном."
+    },
+    {
+      "word": "sail",
+      "pos": "n.",
+      "sense": "парус",
+      "en": "The sail had been patched so many times it was mostly patches.",
+      "ru": "Парус латали столько раз, что он состоял в основном из заплат."
+    },
+    {
+      "word": "sailor",
+      "pos": "n.",
+      "sense": "моряк",
+      "en": "The sailors knew the forecast was wrong and went anyway.",
+      "ru": "Моряки знали, что прогноз неверный, и всё равно вышли в море."
+    },
+    {
+      "word": "sample",
+      "pos": "n.",
+      "sense": "образец, проба",
+      "en": "The sample was too small to prove anything at all.",
+      "ru": "Выборка была слишком мала, чтобы хоть что-то доказать."
+    },
+    {
+      "word": "sand",
+      "pos": "n.",
+      "sense": "песок",
+      "en": "The sand here comes from a river three hundred kilometres away.",
+      "ru": "Песок сюда приносит река за триста километров отсюда."
+    },
+    {
+      "word": "scan",
+      "pos": "v.",
+      "sense": "сканировать; просматривать",
+      "en": "He scanned the page and missed the only important line.",
+      "ru": "Он пробежал страницу глазами и пропустил единственную важную строку."
+    },
+    {
+      "word": "scientific",
+      "pos": "adj.",
+      "sense": "научный",
+      "en": "There's nothing scientific about the way the sample was chosen.",
+      "ru": "В том, как выбрали выборку, нет ничего научного."
+    },
+    {
+      "word": "script",
+      "pos": "n.",
+      "sense": "сценарий",
+      "en": "The script had been rewritten by four people and read like it.",
+      "ru": "Сценарий переписывали четверо, и это чувствовалось."
+    },
+    {
+      "word": "sculpture",
+      "pos": "n.",
+      "sense": "скульптура",
+      "en": "The sculpture was hated for a decade and is now on the stamps.",
+      "ru": "Скульптуру десять лет ненавидели, а теперь она на марках."
+    },
+    {
+      "word": "secondary",
+      "pos": "adj.",
+      "sense": "средний (о школе); второстепенный",
+      "en": "The cost was secondary to getting it done at all.",
+      "ru": "Стоимость была второстепенной по сравнению с тем, чтобы это вообще сделать."
+    },
+    {
+      "word": "security",
+      "pos": "n.",
+      "sense": "безопасность; охрана",
+      "en": "Security was tightened after something that should never have happened.",
+      "ru": "Охрану усилили после того, чего вообще не должно было случиться."
+    },
+    {
+      "word": "seed",
+      "pos": "n.",
+      "sense": "семя",
+      "en": "The seeds of the problem were planted long before anyone noticed.",
+      "ru": "Семена этой беды посеяли задолго до того, как её заметили."
+    },
+    {
+      "word": "sensible",
+      "pos": "adj.",
+      "sense": "разумный, благоразумный",
+      "en": "The sensible thing would have been to wait a week.",
+      "ru": "Разумнее всего было бы подождать неделю."
+    },
+    {
+      "word": "separate",
+      "pos": "v.",
+      "sense": "разделять",
+      "en": "It's impossible to separate the cost from the politics here.",
+      "ru": "Здесь невозможно отделить стоимость от политики."
+    },
+    {
+      "word": "seriously",
+      "pos": "adv.",
+      "sense": "серьёзно",
+      "en": "Nobody took the warning seriously until it was far too late.",
+      "ru": "Предупреждение всерьёз не восприняли, пока не стало слишком поздно."
+    },
+    {
+      "word": "servant",
+      "pos": "n.",
+      "sense": "слуга",
+      "en": "The house had been built in an age that assumed servants.",
+      "ru": "Дом строили в эпоху, которая предполагала наличие слуг."
+    },
+    {
+      "word": "set (put)",
+      "pos": "v.",
+      "sense": "ставить, устанавливать; садиться (о солнце)",
+      "en": "They set a deadline that nobody believed from the start.",
+      "ru": "Они назначили срок, в который с самого начала никто не верил."
+    },
+    {
+      "word": "set (group)",
+      "pos": "n.",
+      "sense": "набор, комплект",
+      "en": "A full set of records exists, and no two copies agree.",
+      "ru": "Полный комплект записей существует, и никакие две копии не совпадают."
+    },
+    {
+      "word": "setting",
+      "pos": "n.",
+      "sense": "обстановка, место действия; настройка",
+      "en": "One wrong setting undid six months of careful work.",
+      "ru": "Одна неверная настройка перечеркнула полгода кропотливой работы."
+    },
+    {
+      "word": "sex",
+      "pos": "n.",
+      "sense": "пол; секс",
+      "en": "The form asks for your sex and then never uses the answer.",
+      "ru": "В бланке спрашивают пол и потом никак не используют ответ."
+    },
+    {
+      "word": "sexual",
+      "pos": "adj.",
+      "sense": "сексуальный, половой",
+      "en": "The law against sexual discrimination at work is thirty years old.",
+      "ru": "Закон против дискриминации по полу на работе действует тридцать лет."
+    },
+    {
+      "word": "shake",
+      "pos": "n.",
+      "sense": "встряхивание; коктейль",
+      "en": "The whole department needed a shake, and got a memo instead.",
+      "ru": "Отделу нужна была встряска, а он получил служебную записку."
+    },
+    {
+      "word": "share",
+      "pos": "n.",
+      "sense": "доля; акция",
+      "en": "Everyone did their share except the person who had asked for the work.",
+      "ru": "Свою долю сделали все, кроме того, кто эту работу и попросил."
+    },
+    {
+      "word": "sharp",
+      "pos": "adj.",
+      "sense": "острый",
+      "en": "There's been a sharp fall in applications since the fee went up.",
+      "ru": "С повышением платы число заявок резко упало."
+    },
+    {
+      "word": "shelf",
+      "pos": "n.",
+      "sense": "полка",
+      "en": "The report has been on the shelf since the spring.",
+      "ru": "Отчёт лежит на полке с весны."
+    },
+    {
+      "word": "shell",
+      "pos": "n.",
+      "sense": "ракушка; скорлупа",
+      "en": "Crack the shell gently, or you'll lose half the egg.",
+      "ru": "Разбивай скорлупу осторожно, иначе потеряешь половину яйца."
+    },
+    {
+      "word": "shift",
+      "pos": "n.",
+      "sense": "смена (рабочая)",
+      "en": "There's been a shift in how people here talk about the work.",
+      "ru": "Произошёл сдвиг в том, как здесь говорят об этой работе."
+    },
+    {
+      "word": "shine",
+      "pos": "v.",
+      "sense": "светить, сиять",
+      "en": "She shines at exactly the moments when everyone else freezes.",
+      "ru": "Она блистает ровно в те моменты, когда все остальные цепенеют."
+    },
+    {
+      "word": "shiny",
+      "pos": "adj.",
+      "sense": "блестящий",
+      "en": "They bought the shiny new system and kept the old problems.",
+      "ru": "Они купили блестящую новую систему и сохранили старые проблемы."
+    },
+    {
+      "word": "shoot",
+      "pos": "v.",
+      "sense": "стрелять; снимать (фильм)",
+      "en": "The film was shot in six weeks on almost no money.",
+      "ru": "Фильм сняли за шесть недель почти без денег."
+    },
+    {
+      "word": "shy",
+      "pos": "adj.",
+      "sense": "застенчивый",
+      "en": "He was too shy to speak up and later wished he had.",
+      "ru": "Он был слишком застенчив, чтобы высказаться, и потом жалел."
+    },
+    {
+      "word": "sight",
+      "pos": "n.",
+      "sense": "зрение; вид; достопримечательность",
+      "en": "There's no end in sight, and that's what people find hardest.",
+      "ru": "Конца не видно, и именно это люди переносят тяжелее всего."
+    },
+    {
+      "word": "signal",
+      "pos": "n., v.",
+      "sense": "сигнал; подавать сигнал",
+      "en": "The announcement was read as a signal, which it probably was.",
+      "ru": "Объявление восприняли как сигнал, каким оно, вероятно, и было."
+    },
+    {
+      "word": "silent",
+      "pos": "adj.",
+      "sense": "молчаливый, тихий",
+      "en": "Management stayed silent for three weeks, which said plenty.",
+      "ru": "Руководство молчало три недели, и это сказало многое."
+    },
+    {
+      "word": "silly",
+      "pos": "adj.",
+      "sense": "глупый, дурацкий",
+      "en": "It was a silly mistake with entirely serious consequences.",
+      "ru": "Это была глупая ошибка с совершенно серьёзными последствиями."
+    },
+    {
+      "word": "similarity",
+      "pos": "n.",
+      "sense": "сходство",
+      "en": "The similarity between the two cases is hard to ignore.",
+      "ru": "Сходство между этими двумя случаями трудно не заметить."
+    },
+    {
+      "word": "similarly",
+      "pos": "adv.",
+      "sense": "аналогично, подобным образом",
+      "en": "Similarly, the second department had never been consulted either.",
+      "ru": "Аналогично и со вторым отделом никто не советовался."
+    },
+    {
+      "word": "simply",
+      "pos": "adv.",
+      "sense": "просто",
+      "en": "They simply stopped replying, which is an answer of a kind.",
+      "ru": "Они просто перестали отвечать, и это тоже своего рода ответ."
+    },
+    {
+      "word": "since",
+      "pos": "adv.",
+      "sense": "с тех пор",
+      "en": "He left in 2019 and we haven't heard from him since.",
+      "ru": "Он ушёл в 2019-м, и с тех пор мы о нём не слышали."
+    },
+    {
+      "word": "sink",
+      "pos": "v.",
+      "sense": "тонуть",
+      "en": "It took a while for the news to sink in.",
+      "ru": "Понадобилось время, чтобы новость дошла."
+    },
+    {
+      "word": "slice",
+      "pos": "n., v.",
+      "sense": "ломтик; нарезать ломтиками",
+      "en": "Everyone wants a bigger slice of a budget that isn't growing.",
+      "ru": "Все хотят кусок побольше от бюджета, который не растёт."
+    },
+    {
+      "word": "slightly",
+      "pos": "adv.",
+      "sense": "немного, слегка",
+      "en": "The figures are slightly better and nothing has actually changed.",
+      "ru": "Цифры чуть лучше, а по сути ничего не изменилось."
+    },
+    {
+      "word": "slow",
+      "pos": "v.",
+      "sense": "замедлять(ся)",
+      "en": "Growth has slowed every quarter since the rules came in.",
+      "ru": "С введения правил рост замедлялся каждый квартал."
+    },
+    {
+      "word": "smart",
+      "pos": "adj.",
+      "sense": "умный; элегантный",
+      "en": "It was a smart decision that looked reckless at the time.",
+      "ru": "Это было умное решение, которое тогда выглядело безрассудным."
+    },
+    {
+      "word": "smooth",
+      "pos": "adj.",
+      "sense": "гладкий, ровный",
+      "en": "The handover was anything but smooth.",
+      "ru": "Передача дел прошла далеко не гладко."
+    },
+    {
+      "word": "software",
+      "pos": "n.",
+      "sense": "программное обеспечение",
+      "en": "The software hadn't been updated since the supplier went out of business.",
+      "ru": "Программу не обновляли с тех пор, как поставщик закрылся."
+    },
+    {
+      "word": "soil",
+      "pos": "n.",
+      "sense": "почва",
+      "en": "The soil here takes a century to recover once it's gone.",
+      "ru": "Почва здесь восстанавливается век, если её потерять."
+    },
+    {
+      "word": "solid",
+      "pos": "adj., n.",
+      "sense": "твёрдый; прочный",
+      "en": "There's solid evidence for the first claim and none for the second.",
+      "ru": "Для первого утверждения есть твёрдые доказательства, для второго никаких."
+    },
+    {
+      "word": "sort",
+      "pos": "v.",
+      "sense": "сортировать",
+      "en": "The applications were sorted by date rather than by merit.",
+      "ru": "Заявки отсортировали по дате, а не по достоинствам."
+    },
+    {
+      "word": "southern",
+      "pos": "adj.",
+      "sense": "южный",
+      "en": "The southern border has been closed since the spring.",
+      "ru": "Южная граница закрыта с весны."
+    },
+    {
+      "word": "specifically",
+      "pos": "adv.",
+      "sense": "конкретно, специально",
+      "en": "I specifically asked them not to do that.",
+      "ru": "Я специально просил их этого не делать."
+    },
+    {
+      "word": "spending",
+      "pos": "n.",
+      "sense": "расходы",
+      "en": "Spending went up and the service got worse, which takes some doing.",
+      "ru": "Расходы выросли, а обслуживание ухудшилось — это надо уметь."
+    },
+    {
+      "word": "spicy",
+      "pos": "adj.",
+      "sense": "острый (о еде)",
+      "en": "The food is spicy in a way that creeps up on you.",
+      "ru": "Еда острая так, что подкрадывается незаметно."
+    },
+    {
+      "word": "spirit",
+      "pos": "n.",
+      "sense": "дух",
+      "en": "The letter follows the rules and breaks their spirit entirely.",
+      "ru": "Письмо следует букве правил и полностью нарушает их дух."
+    },
+    {
+      "word": "spoken",
+      "pos": "adj.",
+      "sense": "устный, разговорный",
+      "en": "His spoken English improved faster than his written English ever did.",
+      "ru": "Его устный английский улучшался быстрее, чем письменный."
+    },
+    {
+      "word": "spot",
+      "pos": "n.",
+      "sense": "пятно; место",
+      "en": "They'd found a quiet spot that nobody else seemed to know.",
+      "ru": "Они нашли тихое место, о котором, похоже, больше никто не знал."
+    },
+    {
+      "word": "spread",
+      "pos": "v.",
+      "sense": "распространять(ся); намазывать",
+      "en": "The rumour spread faster than any official statement could.",
+      "ru": "Слух разошёлся быстрее любого официального заявления."
+    },
+    {
+      "word": "spring",
+      "pos": "v.",
+      "sense": "прыгать, вскакивать",
+      "en": "The problem sprang from a decision taken years earlier.",
+      "ru": "Проблема выросла из решения, принятого годами раньше."
+    },
+    {
+      "word": "stadium",
+      "pos": "n.",
+      "sense": "стадион",
+      "en": "The stadium was built for an event that was later moved.",
+      "ru": "Стадион построили ради события, которое потом перенесли."
+    },
+    {
+      "word": "staff",
+      "pos": "n.",
+      "sense": "персонал, сотрудники",
+      "en": "Staff were told after the press release had already gone out.",
+      "ru": "Сотрудникам сказали после того, как пресс-релиз уже разослали."
+    },
+    {
+      "word": "standard",
+      "pos": "n., adj.",
+      "sense": "стандарт; стандартный",
+      "en": "The standard was lowered quietly rather than openly.",
+      "ru": "Планку опустили тихо, а не открыто."
+    },
+    {
+      "word": "state",
+      "pos": "adj., v.",
+      "sense": "государственный; заявлять",
+      "en": "The contract clearly states who is responsible, and still nobody is.",
+      "ru": "В договоре ясно сказано, кто отвечает, и всё равно никто."
+    },
+    {
+      "word": "statistic",
+      "pos": "n.",
+      "sense": "статистика, статистический показатель",
+      "en": "One statistic was quoted everywhere and nobody checked its source.",
+      "ru": "Одну цифру цитировали везде, и никто не проверил её источник."
+    },
+    {
+      "word": "statue",
+      "pos": "n.",
+      "sense": "статуя",
+      "en": "The statue was put up in a hurry and is wrong in two details.",
+      "ru": "Статую поставили в спешке, и в двух деталях она неверна."
+    },
+    {
+      "word": "stick (push into/attach)",
+      "pos": "v.",
+      "sense": "приклеивать; втыкать",
+      "en": "The name stuck, although nobody remembers who first used it.",
+      "ru": "Название прилипло, хотя никто не помнит, кто первым его употребил."
+    },
+    {
+      "word": "stick (piece of wood)",
+      "pos": "n.",
+      "sense": "палка",
+      "en": "He walked with a stick for a year after the accident.",
+      "ru": "После аварии он год ходил с палкой."
+    },
+    {
+      "word": "still",
+      "pos": "adj.",
+      "sense": "неподвижный; без газа (о воде)",
+      "en": "The air was completely still, which is unusual here in March.",
+      "ru": "Воздух был совершенно неподвижен, что здесь в марте необычно."
+    },
+    {
+      "word": "store",
+      "pos": "v.",
+      "sense": "хранить",
+      "en": "The records had been stored in a basement that flooded twice.",
+      "ru": "Записи хранили в подвале, который дважды затапливало."
+    },
+    {
+      "word": "stranger",
+      "pos": "n.",
+      "sense": "незнакомец",
+      "en": "A stranger pointed out the mistake that three experts had missed.",
+      "ru": "Незнакомец указал на ошибку, которую пропустили три эксперта."
+    },
+    {
+      "word": "strength",
+      "pos": "n.",
+      "sense": "сила",
+      "en": "Its strength is also its weakness: nothing ever changes.",
+      "ru": "Его сила — она же и слабость: здесь ничего не меняется."
+    },
+    {
+      "word": "string",
+      "pos": "n.",
+      "sense": "верёвка, нитка; струна",
+      "en": "A string of small failures added up to one large one.",
+      "ru": "Череда мелких сбоев сложилась в один крупный."
+    },
+    {
+      "word": "strongly",
+      "pos": "adv.",
+      "sense": "сильно, решительно",
+      "en": "I'd strongly advise getting this in writing.",
+      "ru": "Я бы настоятельно советовал получить это письменно."
+    },
+    {
+      "word": "studio",
+      "pos": "n.",
+      "sense": "студия",
+      "en": "The studio had been a garage until about ten years ago.",
+      "ru": "Ещё лет десять назад эта студия была гаражом."
+    },
+    {
+      "word": "stuff",
+      "pos": "n.",
+      "sense": "вещи, штуки (разг.)",
+      "en": "There's a lot of stuff in that report that nobody will ever read.",
+      "ru": "В этом отчёте полно всего, что никто никогда не прочтёт."
+    },
+    {
+      "word": "substance",
+      "pos": "n.",
+      "sense": "вещество",
+      "en": "The speech had plenty of style and very little substance.",
+      "ru": "В речи было много стиля и очень мало существа."
+    },
+    {
+      "word": "successfully",
+      "pos": "adv.",
+      "sense": "успешно",
+      "en": "They successfully avoided answering for almost a year.",
+      "ru": "Они успешно уклонялись от ответа почти год."
+    },
+    {
+      "word": "sudden",
+      "pos": "adj.",
+      "sense": "внезапный",
+      "en": "The sudden change of plan caught everyone off guard.",
+      "ru": "Внезапная смена плана застала всех врасплох."
+    },
+    {
+      "word": "suffer",
+      "pos": "v.",
+      "sense": "страдать",
+      "en": "The quality suffered the moment the deadline was brought forward.",
+      "ru": "Качество пострадало, едва срок перенесли вперёд."
+    },
+    {
+      "word": "suit",
+      "pos": "v.",
+      "sense": "подходить, идти (кому-то)",
+      "en": "The arrangement suited everyone who didn't have to live with it.",
+      "ru": "Такое устройство дел устраивало всех, кому не приходилось с ним жить."
+    },
+    {
+      "word": "suitable",
+      "pos": "adj.",
+      "sense": "подходящий",
+      "en": "There was no suitable candidate, so they appointed one anyway.",
+      "ru": "Подходящего кандидата не было, и они всё равно кого-то назначили."
+    },
+    {
+      "word": "summarize",
+      "pos": "v.",
+      "sense": "обобщать, кратко излагать",
+      "en": "If you can't summarize it in a sentence, you don't understand it.",
+      "ru": "Если не можешь изложить это одним предложением, значит, не понимаешь."
+    },
+    {
+      "word": "summary",
+      "pos": "n.",
+      "sense": "краткое изложение",
+      "en": "The summary at the front contradicts the findings at the back.",
+      "ru": "Краткое изложение в начале противоречит выводам в конце."
+    },
+    {
+      "word": "supply",
+      "pos": "n., v.",
+      "sense": "снабжение; поставлять",
+      "en": "The supply has been unreliable since the border closed.",
+      "ru": "Поставки стали ненадёжными с закрытием границы."
+    },
+    {
+      "word": "supporter",
+      "pos": "n.",
+      "sense": "болельщик, сторонник",
+      "en": "Even its supporters admit the scheme has not worked.",
+      "ru": "Даже сторонники признают, что программа не сработала."
+    },
+    {
+      "word": "surely",
+      "pos": "adv.",
+      "sense": "конечно, наверняка",
+      "en": "Surely somebody checked this before it went out?",
+      "ru": "Наверняка кто-то это проверил, прежде чем отправлять?"
+    },
+    {
+      "word": "surface",
+      "pos": "n.",
+      "sense": "поверхность",
+      "en": "On the surface everything is fine, which is rarely a good sign.",
+      "ru": "На поверхности всё хорошо, а это редко добрый знак."
+    },
+    {
+      "word": "survive",
+      "pos": "v.",
+      "sense": "выживать",
+      "en": "The business survived two recessions and failed in a good year.",
+      "ru": "Дело пережило два кризиса и прогорело в хороший год."
+    },
+    {
+      "word": "swim",
+      "pos": "n.",
+      "sense": "заплыв, купание",
+      "en": "A swim before work changed the whole shape of his day.",
+      "ru": "Купание перед работой полностью меняло его день."
+    },
+    {
+      "word": "switch",
+      "pos": "v.",
+      "sense": "переключать",
+      "en": "They switched suppliers and switched back within six months.",
+      "ru": "Они сменили поставщика и через полгода вернулись к прежнему."
+    },
+    {
+      "word": "symptom",
+      "pos": "n.",
+      "sense": "симптом",
+      "en": "The delays are a symptom, not the illness.",
+      "ru": "Задержки — это симптом, а не болезнь."
+    },
+    {
+      "word": "tail",
+      "pos": "n.",
+      "sense": "хвост",
+      "en": "There's a long tail of small problems nobody ever gets to.",
+      "ru": "Есть длинный хвост мелких проблем, до которых никто не доходит."
+    },
+    {
+      "word": "talent",
+      "pos": "n.",
+      "sense": "талант",
+      "en": "Talent leaves quietly, usually long before anyone notices.",
+      "ru": "Таланты уходят тихо, обычно задолго до того, как это замечают."
+    },
+    {
+      "word": "talented",
+      "pos": "adj.",
+      "sense": "талантливый",
+      "en": "The most talented person in the team was also the least heard.",
+      "ru": "Самого талантливого в команде слушали меньше всех."
+    },
+    {
+      "word": "tape",
+      "pos": "n.",
+      "sense": "лента, скотч",
+      "en": "The whole thing was held together with tape for two years.",
+      "ru": "Два года вся конструкция держалась на скотче."
+    },
+    {
+      "word": "tax",
+      "pos": "n., v.",
+      "sense": "налог; облагать налогом",
+      "en": "The tax was introduced as temporary in 2011.",
+      "ru": "Налог ввели как временный в 2011 году."
+    },
+    {
+      "word": "technical",
+      "pos": "adj.",
+      "sense": "технический",
+      "en": "It was described as a technical problem, which it very much wasn't.",
+      "ru": "Это назвали технической проблемой, каковой она совершенно не была."
+    },
+    {
+      "word": "technique",
+      "pos": "n.",
+      "sense": "техника, приём",
+      "en": "The technique takes an hour to learn and years to do well.",
+      "ru": "Приём осваивается за час, а делается хорошо годами."
+    },
+    {
+      "word": "tend",
+      "pos": "v.",
+      "sense": "иметь тенденцию, обычно (делать)",
+      "en": "These things tend to look obvious only in hindsight.",
+      "ru": "Такие вещи обычно кажутся очевидными лишь задним числом."
+    },
+    {
+      "word": "tent",
+      "pos": "n.",
+      "sense": "палатка",
+      "en": "They'd slept in a tent for three weeks and came back cheerful.",
+      "ru": "Они три недели спали в палатке и вернулись бодрыми."
+    },
+    {
+      "word": "that",
+      "pos": "adv.",
+      "sense": "настолько, так",
+      "en": "It isn't that complicated once somebody explains the first part.",
+      "ru": "Это не настолько сложно, когда кто-то объяснит первую часть."
+    },
+    {
+      "word": "theirs",
+      "pos": "pron.",
+      "sense": "их (без существительного)",
+      "en": "The decision was theirs, and so was the responsibility.",
+      "ru": "Решение было их, и ответственность тоже."
+    },
+    {
+      "word": "theme",
+      "pos": "n.",
+      "sense": "тема",
+      "en": "The same theme runs through everything she has written.",
+      "ru": "Одна и та же тема проходит через всё, что она написала."
+    },
+    {
+      "word": "theory",
+      "pos": "n.",
+      "sense": "теория",
+      "en": "In theory anyone can apply; in practice almost nobody does.",
+      "ru": "В теории подать заявку может любой, на практике почти никто не подаёт."
+    },
+    {
+      "word": "therefore",
+      "pos": "adv.",
+      "sense": "поэтому, следовательно",
+      "en": "The data were incomplete and the conclusion is therefore worthless.",
+      "ru": "Данные были неполными, и вывод, следовательно, ничего не стоит."
+    },
+    {
+      "word": "this",
+      "pos": "adv.",
+      "sense": "настолько, так",
+      "en": "I hadn't expected it to be this complicated.",
+      "ru": "Я не ожидал, что всё окажется настолько сложно."
+    },
+    {
+      "word": "though",
+      "pos": "conj., adv.",
+      "sense": "хотя; впрочем",
+      "en": "It worked, though not for the reasons anyone had predicted.",
+      "ru": "Это сработало, хотя и не по тем причинам, которые кто-либо предсказывал."
+    },
+    {
+      "word": "throat",
+      "pos": "n.",
+      "sense": "горло",
+      "en": "He'd had a sore throat for a fortnight and kept talking anyway.",
+      "ru": "У него две недели болело горло, и он всё равно продолжал говорить."
+    },
+    {
+      "word": "throughout",
+      "pos": "prep./adv.",
+      "sense": "на протяжении, повсюду",
+      "en": "The same mistake appears throughout the document.",
+      "ru": "Одна и та же ошибка встречается по всему документу."
+    },
+    {
+      "word": "tight",
+      "pos": "adj.",
+      "sense": "тесный, узкий",
+      "en": "The deadline was tight and became impossible after the change.",
+      "ru": "Срок был жёстким и стал невозможным после изменения."
+    },
+    {
+      "word": "till",
+      "pos": "conj./prep.",
+      "sense": "до (тех пор, пока)",
+      "en": "Nothing will be decided till the new director arrives.",
+      "ru": "Ничего не решат, пока не придёт новый директор."
+    },
+    {
+      "word": "tin",
+      "pos": "n.",
+      "sense": "банка (консервная); олово",
+      "en": "There were tins in the cupboard older than the house move.",
+      "ru": "В шкафу стояли банки старше их переезда."
+    },
+    {
+      "word": "tiny",
+      "pos": "adj.",
+      "sense": "крошечный",
+      "en": "A tiny error in the first step ruined everything after it.",
+      "ru": "Крошечная ошибка на первом шаге испортила всё последующее."
+    },
+    {
+      "word": "tip",
+      "pos": "v.",
+      "sense": "давать чаевые",
+      "en": "Nobody tips here, and the staff are paid accordingly.",
+      "ru": "Чаевых здесь не дают, и персоналу платят соответственно."
+    },
+    {
+      "word": "toe",
+      "pos": "n.",
+      "sense": "палец ноги",
+      "en": "He'd broken a toe and walked on it for a week.",
+      "ru": "Он сломал палец на ноге и неделю на нём ходил."
+    },
+    {
+      "word": "tongue",
+      "pos": "n.",
+      "sense": "язык (орган)",
+      "en": "She bit her tongue rather than say what she was thinking.",
+      "ru": "Она прикусила язык, чтобы не сказать, о чём думала."
+    },
+    {
+      "word": "total",
+      "pos": "adj., n.",
+      "sense": "общий; итог",
+      "en": "The total came to rather more than the sum of the quotes.",
+      "ru": "Итог вышел заметно больше суммы смет."
+    },
+    {
+      "word": "totally",
+      "pos": "adv.",
+      "sense": "полностью, совершенно",
+      "en": "The two accounts are totally incompatible and both are sworn.",
+      "ru": "Две версии совершенно несовместимы, и обе заверены."
+    },
+    {
+      "word": "touch",
+      "pos": "n.",
+      "sense": "прикосновение; связь (keep in touch)",
+      "en": "We'd lost touch for fifteen years and picked up in a minute.",
+      "ru": "Мы не общались пятнадцать лет и продолжили с полуслова."
+    },
+    {
+      "word": "tour",
+      "pos": "v.",
+      "sense": "совершать тур, гастролировать",
+      "en": "The band toured for two years and came home with nothing.",
+      "ru": "Группа гастролировала два года и вернулась ни с чем."
+    },
+    {
+      "word": "trade",
+      "pos": "n., v.",
+      "sense": "торговля; торговать",
+      "en": "Trade between the two regions collapsed after the border closed.",
+      "ru": "Торговля между двумя регионами рухнула после закрытия границы."
+    },
+    {
+      "word": "translate",
+      "pos": "v.",
+      "sense": "переводить",
+      "en": "The document had been translated twice and lost something each time.",
+      "ru": "Документ переводили дважды, и каждый раз что-то терялось."
+    },
+    {
+      "word": "translation",
+      "pos": "n.",
+      "sense": "перевод",
+      "en": "The translation is accurate and completely misses the tone.",
+      "ru": "Перевод точен и полностью упускает тон."
+    },
+    {
+      "word": "transport",
+      "pos": "v.",
+      "sense": "перевозить",
+      "en": "The goods are transported across three borders for no good reason.",
+      "ru": "Товар везут через три границы безо всякой разумной причины."
+    },
+    {
+      "word": "treat",
+      "pos": "v.",
+      "sense": "обращаться; лечить; угощать",
+      "en": "They treat the symptom every year and never the cause.",
+      "ru": "Они каждый год лечат симптом и никогда причину."
+    },
+    {
+      "word": "treatment",
+      "pos": "n.",
+      "sense": "лечение",
+      "en": "The treatment worked, and nobody is entirely sure why.",
+      "ru": "Лечение помогло, и никто до конца не понимает почему."
+    },
+    {
+      "word": "trend",
+      "pos": "n.",
+      "sense": "тенденция, тренд",
+      "en": "The trend has been clear for a decade and acted on never.",
+      "ru": "Тенденция ясна уже десять лет, и мер не принимали ни разу."
+    },
+    {
+      "word": "trick",
+      "pos": "n., v.",
+      "sense": "трюк, уловка; обманывать",
+      "en": "The trick is to ask the question before people have an answer ready.",
+      "ru": "Уловка в том, чтобы задать вопрос, пока у людей нет готового ответа."
+    },
+    {
+      "word": "truth",
+      "pos": "n.",
+      "sense": "правда",
+      "en": "The truth came out eventually, as it usually does, too late.",
+      "ru": "Правда в итоге вышла наружу, как обычно, слишком поздно."
+    },
+    {
+      "word": "tube",
+      "pos": "n.",
+      "sense": "тюбик, трубка; метро (Лондон)",
+      "en": "The tube was half empty, which told us the match had been cancelled.",
+      "ru": "Метро было полупустым, и по этому стало ясно, что матч отменили."
+    },
+    {
+      "word": "type",
+      "pos": "v.",
+      "sense": "печатать (на клавиатуре)",
+      "en": "She types faster than most people think.",
+      "ru": "Она печатает быстрее, чем большинство думает."
+    },
+    {
+      "word": "typically",
+      "pos": "adv.",
+      "sense": "обычно, как правило",
+      "en": "It typically takes three months, and this one took eleven.",
+      "ru": "Обычно на это уходит три месяца, а здесь ушло одиннадцать."
+    },
+    {
+      "word": "tyre",
+      "pos": "n.",
+      "sense": "шина",
+      "en": "The tyres were worn down to nothing and nobody had checked.",
+      "ru": "Шины стёрлись до нуля, и никто их не проверял."
+    },
+    {
+      "word": "ugly",
+      "pos": "adj.",
+      "sense": "уродливый, некрасивый",
+      "en": "The argument turned ugly over something trivial.",
+      "ru": "Спор принял безобразный оборот из-за пустяка."
+    },
+    {
+      "word": "unable",
+      "pos": "adj.",
+      "sense": "неспособный (be unable to)",
+      "en": "They were unable to explain where the money had gone.",
+      "ru": "Они не смогли объяснить, куда делись деньги."
+    },
+    {
+      "word": "uncomfortable",
+      "pos": "adj.",
+      "sense": "неудобный",
+      "en": "It's an uncomfortable truth that everyone here already knows.",
+      "ru": "Это неудобная правда, которую здесь все и так знают."
+    },
+    {
+      "word": "underwear",
+      "pos": "n.",
+      "sense": "нижнее бельё",
+      "en": "He'd packed three books and almost no underwear.",
+      "ru": "Он взял три книги и почти никакого белья."
+    },
+    {
+      "word": "unemployed",
+      "pos": "adj.",
+      "sense": "безработный",
+      "en": "He'd been unemployed for a year and stopped telling people.",
+      "ru": "Он год был безработным и перестал об этом говорить."
+    },
+    {
+      "word": "unemployment",
+      "pos": "n.",
+      "sense": "безработица",
+      "en": "Unemployment here is low and the wages are lower.",
+      "ru": "Безработица здесь низкая, а зарплаты ещё ниже."
+    },
+    {
+      "word": "unfair",
+      "pos": "adj.",
+      "sense": "несправедливый",
+      "en": "It's unfair to blame people for a system they didn't design.",
+      "ru": "Несправедливо винить людей за систему, которую они не придумывали."
+    },
+    {
+      "word": "union",
+      "pos": "n.",
+      "sense": "союз; профсоюз",
+      "en": "The union had warned about this in a letter two years earlier.",
+      "ru": "Профсоюз предупреждал об этом письмом двумя годами раньше."
+    },
+    {
+      "word": "unless",
+      "pos": "conj.",
+      "sense": "если не",
+      "en": "Nothing will change unless somebody loses something.",
+      "ru": "Ничего не изменится, пока кто-нибудь что-нибудь не потеряет."
+    },
+    {
+      "word": "unlike",
+      "pos": "prep.",
+      "sense": "в отличие от",
+      "en": "Unlike the previous plan, this one has actual dates in it.",
+      "ru": "В отличие от прежнего плана, в этом есть настоящие даты."
+    },
+    {
+      "word": "unlikely",
+      "pos": "adj.",
+      "sense": "маловероятный",
+      "en": "It's unlikely but not impossible, which is why we plan for it.",
+      "ru": "Это маловероятно, но не исключено, потому мы к этому и готовимся."
+    },
+    {
+      "word": "unnecessary",
+      "pos": "adj.",
+      "sense": "ненужный",
+      "en": "Half the paperwork is unnecessary and nobody will say which half.",
+      "ru": "Половина бумажной работы не нужна, и никто не скажет какая."
+    },
+    {
+      "word": "unpleasant",
+      "pos": "adj.",
+      "sense": "неприятный",
+      "en": "There's an unpleasant explanation and nobody wants to say it aloud.",
+      "ru": "Есть неприятное объяснение, и произносить его вслух никто не хочет."
+    },
+    {
+      "word": "update",
+      "pos": "v., n.",
+      "sense": "обновлять; обновление",
+      "en": "The site hasn't been updated since the person who built it left.",
+      "ru": "Сайт не обновляли с тех пор, как ушёл тот, кто его сделал."
+    },
+    {
+      "word": "upon",
+      "pos": "prep.",
+      "sense": "на, по (формальное)",
+      "en": "Upon arrival you'll be asked for documents nobody mentioned.",
+      "ru": "По прибытии у вас попросят документы, о которых никто не предупреждал."
+    },
+    {
+      "word": "upset",
+      "pos": "adj., v.",
+      "sense": "расстроенный; расстраивать",
+      "en": "She was upset less by the decision than by the silence afterwards.",
+      "ru": "Её расстроило не столько решение, сколько молчание после."
+    },
+    {
+      "word": "used",
+      "pos": "adj.",
+      "sense": "привыкший (be used to)",
+      "en": "You get used to it, which is both the solution and the problem.",
+      "ru": "К этому привыкаешь, и в этом одновременно решение и беда."
+    },
+    {
+      "word": "used",
+      "pos": "adj.",
+      "sense": "подержанный, б/у",
+      "en": "They bought used equipment and spent the savings on repairs.",
+      "ru": "Они купили подержанное оборудование и потратили сэкономленное на ремонт."
+    },
+    {
+      "word": "valuable",
+      "pos": "adj.",
+      "sense": "ценный",
+      "en": "The most valuable thing he gave us was an honest no.",
+      "ru": "Самое ценное, что он нам дал, — честное «нет»."
+    },
+    {
+      "word": "value",
+      "pos": "n.",
+      "sense": "ценность, стоимость",
+      "en": "The value of the work only became obvious after she'd gone.",
+      "ru": "Ценность её работы стала очевидной только после её ухода."
+    },
+    {
+      "word": "various",
+      "pos": "adj.",
+      "sense": "различный, разный",
+      "en": "Various people have been blamed, and none of them decided anything.",
+      "ru": "Винили разных людей, и никто из них ничего не решал."
+    },
+    {
+      "word": "version",
+      "pos": "n.",
+      "sense": "версия",
+      "en": "There are three versions of events and one set of facts.",
+      "ru": "Есть три версии событий и один набор фактов."
+    },
+    {
+      "word": "victim",
+      "pos": "n.",
+      "sense": "жертва",
+      "en": "The victims were told to apply in writing to the people responsible.",
+      "ru": "Пострадавшим велели письменно обратиться к тем, кто во всём виноват."
+    },
+    {
+      "word": "view",
+      "pos": "v.",
+      "sense": "смотреть, рассматривать",
+      "en": "The proposal should be viewed alongside what was promised last year.",
+      "ru": "Предложение надо рассматривать рядом с тем, что обещали в прошлом году."
+    },
+    {
+      "word": "viewer",
+      "pos": "n.",
+      "sense": "зритель",
+      "en": "Viewers noticed the mistake before the broadcaster did.",
+      "ru": "Зрители заметили ошибку раньше телеканала."
+    },
+    {
+      "word": "violent",
+      "pos": "adj.",
+      "sense": "жестокий, насильственный",
+      "en": "The reaction was violent and entirely out of proportion.",
+      "ru": "Реакция была жёсткой и совершенно несоразмерной."
+    },
+    {
+      "word": "volunteer",
+      "pos": "n., v.",
+      "sense": "волонтёр; вызываться добровольно",
+      "en": "Nobody volunteered, so the work went to whoever was in the room.",
+      "ru": "Никто не вызвался, и работа досталась тем, кто был в комнате."
+    },
+    {
+      "word": "vote",
+      "pos": "n., v.",
+      "sense": "голос; голосовать",
+      "en": "They voted on it twice and got opposite results.",
+      "ru": "Они голосовали дважды и получили противоположные результаты."
+    },
+    {
+      "word": "warm",
+      "pos": "v.",
+      "sense": "греть, согревать",
+      "en": "Opinion has warmed considerably since the first announcement.",
+      "ru": "С первого объявления мнение заметно потеплело."
+    },
+    {
+      "word": "warn",
+      "pos": "v.",
+      "sense": "предупреждать",
+      "en": "Two people had warned them in writing and were ignored.",
+      "ru": "Двое предупреждали их письменно, и обоих проигнорировали."
+    },
+    {
+      "word": "warning",
+      "pos": "n.",
+      "sense": "предупреждение",
+      "en": "The warning signs had been there for a year.",
+      "ru": "Тревожные признаки были на виду целый год."
+    },
+    {
+      "word": "waste",
+      "pos": "n., v., adj.",
+      "sense": "трата; тратить зря; отходы",
+      "en": "It was a waste of a good team on a bad idea.",
+      "ru": "Это была напрасная трата хорошей команды на плохую идею."
+    },
+    {
+      "word": "water",
+      "pos": "v.",
+      "sense": "поливать",
+      "en": "Nobody had watered the plants for a month and two survived.",
+      "ru": "Растения никто не поливал месяц, и два выжили."
+    },
+    {
+      "word": "wave",
+      "pos": "v.",
+      "sense": "махать",
+      "en": "He waved the objection away without answering it.",
+      "ru": "Он отмахнулся от возражения, так и не ответив на него."
+    },
+    {
+      "word": "weapon",
+      "pos": "n.",
+      "sense": "оружие",
+      "en": "Information turned out to be the only weapon they had.",
+      "ru": "Единственным их оружием оказалась информация."
+    },
+    {
+      "word": "weigh",
+      "pos": "v.",
+      "sense": "весить; взвешивать",
+      "en": "You have to weigh the cost against what happens if you do nothing.",
+      "ru": "Надо взвесить расходы против того, что будет, если не делать ничего."
+    },
+    {
+      "word": "western",
+      "pos": "adj.",
+      "sense": "западный",
+      "en": "The western part of the city has been neglected for decades.",
+      "ru": "Западная часть города заброшена десятилетиями."
+    },
+    {
+      "word": "whatever",
+      "pos": "det./pron.",
+      "sense": "что бы ни, что угодно",
+      "en": "Whatever they decide, somebody will say they were warned.",
+      "ru": "Что бы они ни решили, кто-нибудь скажет, что их предупреждали."
+    },
+    {
+      "word": "whenever",
+      "pos": "conj.",
+      "sense": "всякий раз, когда; когда угодно",
+      "en": "Whenever the subject comes up, the meeting runs out of time.",
+      "ru": "Всякий раз, когда поднимают эту тему, встреча заканчивается."
+    },
+    {
+      "word": "whether",
+      "pos": "conj.",
+      "sense": "ли",
+      "en": "The question is whether anyone will act on it.",
+      "ru": "Вопрос в том, предпримет ли кто-нибудь что-нибудь."
+    },
+    {
+      "word": "while",
+      "pos": "n.",
+      "sense": "некоторое время",
+      "en": "It took a while to understand what had actually been agreed.",
+      "ru": "Понадобилось время, чтобы понять, о чём на самом деле договорились."
+    },
+    {
+      "word": "whole",
+      "pos": "n.",
+      "sense": "целое",
+      "en": "The whole of the department found out from a rumour.",
+      "ru": "Весь отдел узнал об этом из слухов."
+    },
+    {
+      "word": "will",
+      "pos": "n.",
+      "sense": "воля; завещание",
+      "en": "There was no shortage of money, only of will.",
+      "ru": "Недостатка в деньгах не было — был недостаток воли."
+    },
+    {
+      "word": "win",
+      "pos": "n.",
+      "sense": "победа",
+      "en": "It was presented as a win and felt like something else entirely.",
+      "ru": "Это подали как победу, а ощущалось совсем иначе."
+    },
+    {
+      "word": "wing",
+      "pos": "n.",
+      "sense": "крыло",
+      "en": "The east wing has been closed since the roof started leaking.",
+      "ru": "Восточное крыло закрыто с тех пор, как потекла крыша."
+    },
+    {
+      "word": "within",
+      "pos": "prep.",
+      "sense": "в пределах, в течение",
+      "en": "They promised a reply within a week and took four months.",
+      "ru": "Они обещали ответ в течение недели и потратили четыре месяца."
+    },
+    {
+      "word": "wonder",
+      "pos": "v., n.",
+      "sense": "интересоваться, задаваться вопросом; чудо",
+      "en": "I often wonder what would have happened if we'd waited.",
+      "ru": "Я часто задаюсь вопросом, что было бы, если бы мы подождали."
+    },
+    {
+      "word": "wool",
+      "pos": "n.",
+      "sense": "шерсть",
+      "en": "The wool comes from sheep that graze above two thousand metres.",
+      "ru": "Шерсть дают овцы, которые пасутся выше двух тысяч метров."
+    },
+    {
+      "word": "worldwide",
+      "pos": "adj., adv.",
+      "sense": "всемирный; по всему миру",
+      "en": "The problem is worldwide and is treated everywhere as local.",
+      "ru": "Проблема всемирная, а везде её считают местной."
+    },
+    {
+      "word": "worry",
+      "pos": "n.",
+      "sense": "беспокойство",
+      "en": "The real worry isn't this year; it's the one after.",
+      "ru": "Настоящее беспокойство вызывает не этот год, а следующий."
+    },
+    {
+      "word": "worse",
+      "pos": "adv.",
+      "sense": "хуже (наречие)",
+      "en": "The second version performed worse than the one it replaced.",
+      "ru": "Вторая версия работала хуже той, что она заменила."
+    },
+    {
+      "word": "worst",
+      "pos": "adv.",
+      "sense": "хуже всего",
+      "en": "The people worst affected were the ones with no way to complain.",
+      "ru": "Хуже всего пришлось тем, у кого не было возможности пожаловаться."
+    },
+    {
+      "word": "worth",
+      "pos": "adj.",
+      "sense": "стоящий (be worth)",
+      "en": "It's worth reading the appendix, where the real news is.",
+      "ru": "Стоит прочитать приложение: настоящие новости там."
+    },
+    {
+      "word": "written",
+      "pos": "adj.",
+      "sense": "письменный",
+      "en": "There was no written record of the agreement at all.",
+      "ru": "Никакой письменной записи соглашения вообще не было."
+    },
+    {
+      "word": "wrong",
+      "pos": "adv.",
+      "sense": "неправильно",
+      "en": "Everything that could go wrong did, and in order.",
+      "ru": "Всё, что могло пойти не так, пошло не так, и по порядку."
+    },
+    {
+      "word": "yard",
+      "pos": "n.",
+      "sense": "двор; ярд",
+      "en": "The yard had been used for storage since the workshop closed.",
+      "ru": "Двор использовали под склад с тех пор, как закрылась мастерская."
+    },
+    {
+      "word": "young",
+      "pos": "n.",
+      "sense": "молодёжь; детёныши",
+      "en": "The young have left, and the schools are closing one by one.",
+      "ru": "Молодёжь уехала, и школы закрываются одна за другой."
+    },
+    {
+      "word": "youth",
+      "pos": "n.",
+      "sense": "юность; молодёжь",
+      "en": "In his youth he'd been certain about everything.",
+      "ru": "В юности он был во всём уверен."
+    }
+  ]
+}
