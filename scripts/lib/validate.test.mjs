@@ -44,7 +44,7 @@ function expressionsChapter(overrides = {}) {
         id: `${prefix}${String(i + 1).padStart(3, '0')}`,
         en: `${prefix.toLowerCase()} ${i + 1}`,
         ru: `${prefix.toLowerCase()} ${i + 1} по-русски`,
-        example: { en: `I ${prefix.toLowerCase()} ${i + 1}.`, ru: `Я ${prefix.toLowerCase()} ${i + 1}.` },
+        examples: [{ en: `I ${prefix.toLowerCase()} ${i + 1}.`, ru: `Я ${prefix.toLowerCase()} ${i + 1}.` }],
       })),
     })),
     ...overrides,
@@ -72,7 +72,7 @@ function wordsChapter(sizes = [10, 10, 9], overrides = {}) {
           en: `word ${n}`,
           ru: `слово ${n}`,
           pos: 'n.',
-          example: { en: `A word ${n}.`, ru: `Слово ${n}.` },
+          examples: [{ en: `A word ${n}.`, ru: `Слово ${n}.` }],
         }
       }),
     })),
@@ -147,13 +147,28 @@ describe('глава с выражениями', () => {
 
   it('ловит пример только на одном языке', () => {
     const chapter = expressionsChapter()
-    chapter.lessons[0].phrases[2].example.ru = ''
+    chapter.lessons[0].phrases[2].examples[0].ru = ''
     expect(check([chapter]).errors.join(' ')).toContain('только на одном языке')
+  })
+
+  it('ловит два одинаковых примера у одной записи', () => {
+    // Второй пример должен быть ступенью выше, а не копией первого.
+    const chapter = wordsChapter()
+    const phrase = chapter.lessons[0].phrases[0]
+    phrase.examples = [...phrase.examples, { ...phrase.examples[0] }]
+    expect(check([chapter]).errors.join(' ')).toContain('два одинаковых примера')
+  })
+
+  it('два разных примера у записи — это норма', () => {
+    const chapter = wordsChapter()
+    const phrase = chapter.lessons[0].phrases[0]
+    phrase.examples = [...phrase.examples, { en: 'Something else entirely.', ru: 'Совсем другое.' }]
+    expect(check([chapter]).errors).toEqual([])
   })
 
   it('предупреждает, если примера нет совсем', () => {
     const chapter = expressionsChapter()
-    delete chapter.lessons[0].phrases[2].example
+    delete chapter.lessons[0].phrases[2].examples
     const report = check([chapter])
     expect(report.errors).toEqual([])
     expect(report.warnings.join(' ')).toContain('нет примера употребления')
@@ -221,7 +236,7 @@ describe('словарная глава', () => {
   it('просит часть речи и пример у каждого слова', () => {
     const chapter = wordsChapter()
     delete chapter.lessons[0].phrases[0].pos
-    delete chapter.lessons[0].phrases[1].example
+    delete chapter.lessons[0].phrases[1].examples
     const { errors, warnings } = check([chapter])
     expect(errors).toEqual([])
     expect(warnings.some((w) => w.includes('часть речи'))).toBe(true)

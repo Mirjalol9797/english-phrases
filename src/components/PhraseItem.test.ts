@@ -12,7 +12,7 @@ const withExample: Phrase = {
   id: 'GET001',
   en: 'get up',
   ru: 'вставать',
-  example: { en: 'I get up at seven.', ru: 'Я встаю в семь.' },
+  examples: [{ en: 'I get up at seven.', ru: 'Я встаю в семь.' }],
 }
 
 function render(props: { phrase: Phrase; query?: string }) {

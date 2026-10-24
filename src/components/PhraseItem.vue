@@ -25,9 +25,13 @@ defineProps<{
     </p>
 
     <!-- Пример употребления есть у выражений, у обычных фраз его нет. -->
-    <p v-if="phrase.example" class="mt-1.5 border-l-2 border-line pl-3 text-sm leading-snug text-muted sm:mt-2">
-      <span lang="en" class="block font-serif">{{ phrase.example.en }}</span>
-      <span class="block">{{ phrase.example.ru }}</span>
+    <p
+      v-for="(example, index) in phrase.examples"
+      :key="index"
+      class="mt-1.5 border-l-2 border-line pl-3 text-sm leading-snug text-muted sm:mt-2"
+    >
+      <span lang="en" class="block font-serif">{{ example.en }}</span>
+      <span class="block">{{ example.ru }}</span>
     </p>
 
     <slot name="meta" />

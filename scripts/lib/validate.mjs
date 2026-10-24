@@ -146,11 +146,23 @@ export function validateChapters(chapters, { plannedChapters }) {
 
         if (!phrase.en) errors.push(`${lessonWhere}: у ${phrase.id} пустая английская фраза.`)
         if (!phrase.ru) errors.push(`${lessonWhere}: у ${phrase.id} пустой перевод.`)
-        if (phrase.example && (!phrase.example.en || !phrase.example.ru)) {
-          errors.push(`${lessonWhere}: у ${phrase.id} пример есть только на одном языке.`)
+        for (const [i, example] of (phrase.examples ?? []).entries()) {
+          if (!example.en || !example.ru) {
+            errors.push(`${lessonWhere}: у ${phrase.id} пример ${i + 1} есть только на одном языке.`)
+          }
         }
-        if ((isExpressions || isWords) && !phrase.example) {
+        if ((isExpressions || isWords) && !phrase.examples?.length) {
           warnings.push(`${lessonWhere}: у ${phrase.id} нет примера употребления.`)
+        }
+        // Второй пример — ступенью выше. Если он дословно повторяет первый,
+        // ступени нет, и слово разбирается дважды одинаково.
+        if (phrase.examples?.length > 1) {
+          const seen = new Set()
+          for (const example of phrase.examples) {
+            const key = normalizeEnglish(example.en)
+            if (seen.has(key)) errors.push(`${lessonWhere}: у ${phrase.id} два одинаковых примера.`)
+            seen.add(key)
+          }
         }
         if (isVerbs && (!phrase.forms?.v2 || !phrase.forms?.v3)) {
           errors.push(`${lessonWhere}: у ${phrase.id} нет второй или третьей формы.`)

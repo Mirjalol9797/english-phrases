@@ -13,6 +13,9 @@
 //   verbs      (.docx) — неправильные глаголы: заголовки «Этап N — …» и таблицы
 //               «№ | V1 | V2 | V3 | Перевод», уроки идут по этапам.
 // Порядок, id и формат глав задаются в content/chapters.config.json.
+//
+// Главам формата words можно дописать примеры посложнее — в content/examples/<id>.json.
+// Они не из PDF, поэтому хранятся отдельно и переживают любую пересборку.
 
 import { readFile, writeFile, readdir, mkdir, rm } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
@@ -27,6 +30,7 @@ import { parseVerbsDocx, splitStage } from './lib/verbs-docx.mjs'
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const sourceDir = path.join(root, 'content', 'source')
 const configPath = path.join(root, 'content', 'chapters.config.json')
+const examplesDir = path.join(root, 'content', 'examples')
 const outDir = path.join(root, 'public', 'data')
 const chaptersOutDir = path.join(outDir, 'chapters')
 
@@ -160,7 +164,7 @@ async function parseCategoriesDocx(filePath) {
     if (!byCategory.has(category)) byCategory.set(category, [])
 
     const phrase = { id, en: cleanEnglish(en), ru }
-    if (exampleEn || exampleRu) phrase.example = { en: cleanEnglish(exampleEn ?? ''), ru: exampleRu ?? '' }
+    if (exampleEn || exampleRu) phrase.examples = [{ en: cleanEnglish(exampleEn ?? ''), ru: exampleRu ?? '' }]
     byCategory.get(category).push(phrase)
   }
 
@@ -242,6 +246,31 @@ async function parseVerbsChapter(filePath, entry) {
 }
 
 /**
+ * Примеры посложнее, дописанные вручную: content/examples/<id>.json.
+ *
+ * Ключ — слово, часть речи и перевод, а не ID: ID зависит от перемешивания
+ * уроков, а слово остаётся собой при любой пересборке. Если слово в источнике
+ * изменится, ключ просто не совпадёт — и это скажет проверка, а не тишина.
+ */
+async function loadExtraExamples(chapterId) {
+  const file = path.join(examplesDir, `${chapterId}.json`)
+  if (!existsSync(file)) return { byKey: new Map(), problems: [] }
+
+  const problems = []
+  const parsed = JSON.parse(await readFile(file, 'utf8'))
+  const byKey = new Map()
+  for (const entry of parsed.entries ?? []) {
+    const key = exampleKey(entry.word, entry.pos, entry.sense)
+    if (byKey.has(key)) problems.push(`content/examples/${chapterId}.json: «${entry.word}» (${entry.pos}) встречается дважды.`)
+    if (!entry.en || !entry.ru) problems.push(`content/examples/${chapterId}.json: у «${entry.word}» пример только на одном языке.`)
+    byKey.set(key, { en: entry.en, ru: entry.ru })
+  }
+  return { byKey, problems }
+}
+
+const exampleKey = (word, pos, sense) => `${word}|${pos ?? ''}|${sense ?? ''}`
+
+/**
  * Формат words: словарный уровень Oxford 3000.
  *
  * Слова не разложены по темам, поэтому уроки собираются сами — перемешиванием,
@@ -252,6 +281,10 @@ async function parseWordsChapter(filePath, entry) {
   const problems = []
   const { words, problems: parseProblems } = await parseWordsPdf(filePath, { fixes: entry.fixes ?? {} })
   problems.push(...parseProblems)
+
+  const { byKey: extra, problems: extraProblems } = await loadExtraExamples(entry.id)
+  problems.push(...extraProblems)
+  const used = new Set()
 
   if (!entry.title?.en || !entry.title?.ru) {
     problems.push('для формата words нужно указать title в chapters.config.json.')
@@ -271,15 +304,34 @@ async function parseWordsChapter(filePath, entry) {
     return {
       order: index + 1,
       title: { en: preview, ru: `Слова ${from}–${to}` },
-      phrases: group.map((word, i) => ({
-        id: `${entry.prefix}${String(from + i).padStart(3, '0')}`,
-        ...headword(word.word),
-        ru: word.ru,
-        pos: word.pos,
-        example: { en: cleanEnglish(word.example.en), ru: word.example.ru },
-      })),
+      phrases: group.map((word, i) => {
+        const key = exampleKey(word.word, word.pos, word.ru)
+        const extraExample = extra.get(key)
+        if (extraExample) used.add(key)
+        return {
+          id: `${entry.prefix}${String(from + i).padStart(3, '0')}`,
+          ...headword(word.word),
+          ru: word.ru,
+          pos: word.pos,
+          examples: [
+            { en: cleanEnglish(word.example.en), ru: word.example.ru },
+            ...(extraExample ? [{ en: cleanEnglish(extraExample.en), ru: extraExample.ru }] : []),
+          ],
+        }
+      }),
     }
   })
+
+  // Запись, которая ни к какому слову не подошла, — это опечатка в ключе,
+  // и примера молча не станет. Лучше сказать сразу.
+  for (const key of extra.keys()) {
+    if (!used.has(key)) problems.push(`content/examples/${entry.id}.json: «${key.split('|')[0]}» не нашлось среди слов главы.`)
+  }
+
+  const withExtra = used.size
+  if (withExtra && withExtra < words.length) {
+    console.log(`    примеров посложнее: ${withExtra} из ${words.length}`)
+  }
 
   return { titleEn: '', titleRu: '', lessons, problems }
 }

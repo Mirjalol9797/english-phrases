@@ -1,0 +1,76 @@
+{
+  "chapter": "oxford-a1",
+  "note": "Второй пример к каждому слову — ступенью выше того, что в PDF: время посложнее, придаточное или устойчивое сочетание. Ключ — слово, часть речи и перевод ровно как в источнике.",
+  "entries": [
+    {
+      "word": "a, an",
+      "pos": "art.",
+      "sense": "неопределённый артикль",
+      "en": "She's looking for a job as an interpreter at an international company.",
+      "ru": "Она ищет работу переводчиком в международной компании."
+    },
+    {
+      "word": "about",
+      "pos": "prep., adv.",
+      "sense": "о, про; около",
+      "en": "We've been talking about moving to another city for about a year now.",
+      "ru": "Мы уже около года обсуждаем переезд в другой город."
+    },
+    {
+      "word": "above",
+      "pos": "prep., adv.",
+      "sense": "над, выше",
+      "en": "The temperature stayed above thirty degrees for the whole week.",
+      "ru": "Всю неделю температура держалась выше тридцати градусов."
+    },
+    {
+      "word": "across",
+      "pos": "prep., adv.",
+      "sense": "через, поперёк",
+      "en": "The company has offices across Europe, from Lisbon to Warsaw.",
+      "ru": "У компании есть офисы по всей Европе, от Лиссабона до Варшавы."
+    },
+    {
+      "word": "action",
+      "pos": "n.",
+      "sense": "действие",
+      "en": "The government has promised to take action against air pollution.",
+      "ru": "Правительство пообещало принять меры против загрязнения воздуха."
+    },
+    {
+      "word": "activity",
+      "pos": "n.",
+      "sense": "занятие, деятельность",
+      "en": "The hotel offers a wide range of activities for children during the holidays.",
+      "ru": "В каникулы отель предлагает детям самые разные занятия."
+    },
+    {
+      "word": "actor",
+      "pos": "n.",
+      "sense": "актёр",
+      "en": "He had been working as a waiter for years before he became a successful actor.",
+      "ru": "Прежде чем стать успешным актёром, он много лет работал официантом."
+    },
+    {
+      "word": "actress",
+      "pos": "n.",
+      "sense": "актриса",
+      "en": "She has become one of the most respected actresses of her generation.",
+      "ru": "Она стала одной из самых уважаемых актрис своего поколения."
+    },
+    {
+      "word": "add",
+      "pos": "v.",
+      "sense": "добавлять",
+      "en": "I'd just like to add that none of this would have been possible without her.",
+      "ru": "Хочу лишь добавить, что ничего этого не случилось бы без неё."
+    },
+    {
+      "word": "address",
+      "pos": "n.",
+      "sense": "адрес",
+      "en": "Could you send me the address of the office so I don't get lost?",
+      "ru": "Пришлёшь мне адрес офиса, чтобы я не заблудился?"
+    }
+  ]
+}
