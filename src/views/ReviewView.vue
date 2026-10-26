@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, shallowRef, watch } from 'vue'
+import { computed, ref, shallowRef, watch, type Ref } from 'vue'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
 import { useSettingsStore } from '@/stores/settings'
@@ -50,7 +50,7 @@ const { data: chapters, loading, error, reload } = useAsyncData(
   () => {
     const needed = new Set<string>()
     let unknown = false
-    for (const id of [...progress.dueIds(), ...progress.hardestIds(BATCH_SIZE)]) {
+    for (const id of [...progress.dueIds(), ...progress.hardIds()]) {
       const chapter = progress.get(id)?.chapter
       if (chapter) needed.add(chapter)
       // Записи из старых копий своей главы не знают — тогда придётся открыть всё.
@@ -74,11 +74,13 @@ const byId = computed(() => {
 const allPhrases = computed(() => [...byId.value.values()].map((entry) => entry.phrase))
 
 /**
- * Выбранная глава. К повторению приходит всё вперемешку — фразы, слова Oxford
- * и глаголы, — а это разные занятия. Чип ограничивает заход одной главой.
- * Пустая строка — все главы.
+ * Выбранные главы — своя у срочного и своя у трудных. Это два разных занятия:
+ * срочное — очередь на сегодня, трудные — список за всё время. Общий фильтр
+ * их связывал: глава, где трудные есть, а срока ни у чего не подошло, в чипсы
+ * не попадала, и разделить трудные было нечем. Пустая строка — все главы.
  */
-const chapterId = ref('')
+const dueChapter = ref('')
+const hardChapter = ref('')
 
 /** Записи с их главой: ID, которых уже нет в данных, просто пропускаем. */
 function resolve(ids: string[]) {
@@ -87,30 +89,24 @@ function resolve(ids: string[]) {
     .filter((entry): entry is { phrase: Phrase; chapterId: string } => Boolean(entry))
 }
 
-function inChapter<T extends { chapterId: string }>(entries: T[]): T[] {
-  return chapterId.value ? entries.filter((entry) => entry.chapterId === chapterId.value) : entries
-}
+const inChapter = <T extends { chapterId: string }>(entries: T[], chapter: string): T[] =>
+  chapter ? entries.filter((entry) => entry.chapterId === chapter) : entries
 
 /** Всё, чему подошёл срок, без учёта выбранной главы — по нему считаются числа на чипсах. */
 const dueAll = computed(() => resolve(progress.dueIds(today())))
 
-const dueEntries = computed(() => inChapter(dueAll.value))
+const dueEntries = computed(() => inChapter(dueAll.value, dueChapter.value))
 const due = computed(() => dueEntries.value.map((entry) => entry.phrase))
 
 /**
- * Записи, на которых чаще всего ошибались. Срок здесь не важен.
- *
- * Без выбранной главы берём ровно столько, сколько грузилось глав, — иначе
- * записи незагруженных глав отсеялись бы и список молча съехал бы вниз
- * по трудности. Внутри одной главы можно брать с запасом: сама она загружена,
- * а её трудные могут и не попасть в общую двадцатку.
+ * Записи, на которых чаще всего ошибались, — все, а не верхняя двадцатка:
+ * по ним считаются числа на чипсах, и внутри главы список должен быть полным.
+ * Срок здесь не важен.
  */
-const hardAll = computed(() => resolve(progress.hardestIds(BATCH_SIZE)))
+const hardAll = computed(() => resolve(progress.hardIds()))
 
-const hardEntries = computed(() => {
-  if (!chapterId.value) return hardAll.value
-  return inChapter(resolve(progress.hardestIds(BATCH_SIZE * 10))).slice(0, BATCH_SIZE)
-})
+const hardInChapter = computed(() => inChapter(hardAll.value, hardChapter.value))
+const hardEntries = computed(() => hardInChapter.value.slice(0, BATCH_SIZE))
 const hard = computed(() => hardEntries.value.map((entry) => entry.phrase))
 
 /** Названия глав — для чипсов и для подписи под записью. */
@@ -124,33 +120,29 @@ const titleOf = computed(() => {
  * Как называть то, что повторяем. В одной главе это фразы, слова или глаголы,
  * а во всех сразу — вперемешку, и общее слово им «запись».
  */
-const entryForms = computed(() => {
-  const chapter = (chapters.value ?? []).find((c) => c.id === chapterId.value)
-  return chapter ? itemForms(chapter.kind) : ENTRY_FORMS
-})
+function formsFor(chapter: string) {
+  const found = (chapters.value ?? []).find((c) => c.id === chapter)
+  return found ? itemForms(found.kind) : ENTRY_FORMS
+}
 
-/**
- * Чем занят экран: обычно срочным, а когда срок пуст — трудными. Чипсы считают
- * именно это, иначе в день без повторений они показывали бы нули, а «Повторить
- * трудные» шло бы вперемешку по всем главам.
- */
-const subject = computed(() => (dueAll.value.length ? dueAll.value : hardAll.value))
+const dueForms = computed(() => formsFor(dueChapter.value))
+const hardForms = computed(() => formsFor(hardChapter.value))
 
-/** Главы, в которых сегодня есть чем заняться. Пустые в список не попадают. */
-const filters = computed(() =>
-  byLoad(
-    chapterFilters(
-      subject.value,
-      (chapters.value ?? []).map((chapter) => ({ id: chapter.id, title: chapter.title.en })),
-    ),
-  ),
+const chapterTitles = computed(() =>
+  (chapters.value ?? []).map((chapter) => ({ id: chapter.id, title: chapter.title.en })),
 )
+
+/** Главы, в которых есть что повторять, и отдельно — в которых есть трудные. */
+const dueFilters = computed(() => byLoad(chapterFilters(dueAll.value, chapterTitles.value)))
+const hardFilters = computed(() => byLoad(chapterFilters(hardAll.value, chapterTitles.value)))
 
 // Глава могла кончиться, пока шло занятие: тогда фильтр снимаем, иначе экран
 // выглядел бы пустым без видимой причины.
-watch(subject, (entries) => {
-  if (chapterId.value && !entries.some((entry) => entry.chapterId === chapterId.value)) chapterId.value = ''
-})
+const dropEmpty = (chapter: Ref<string>, entries: { chapterId: string }[]) => {
+  if (chapter.value && !entries.some((entry) => entry.chapterId === chapter.value)) chapter.value = ''
+}
+watch(dueAll, (entries) => dropEmpty(dueChapter, entries))
+watch(hardAll, (entries) => dropEmpty(hardChapter, entries))
 
 const steps = shallowRef<PracticeStep[]>([])
 const results = ref<StepResult[] | null>(null)
@@ -214,33 +206,24 @@ function onFinish(sessionResults: StepResult[]) {
 
       <template v-else>
         <!-- К повторению приходит всё вперемешку: фразы, слова и глаголы.
-             Чип сужает заход до одной главы — это разные занятия. В день без
-             срочного он так же делит трудные. -->
-        <ChapterFilter v-model="chapterId" :options="filters" label="Глава для повторения" class="mt-4" />
+             Чип сужает заход до одной главы — это разные занятия. -->
+        <ChapterFilter v-model="dueChapter" :options="dueFilters" label="Глава для повторения" class="mt-4" />
 
         <template v-if="due.length === 0">
           <p class="mt-4 text-muted">Сегодня повторять нечего.</p>
           <p v-if="progress.nextDueDay" class="mt-1 text-muted">
             Следующее повторение — {{ formatDay(progress.nextDueDay) }}.
           </p>
-          <div class="mt-5 sm:mt-6 flex flex-wrap gap-3">
-            <button v-if="hard.length" type="button" class="btn-primary" @click="startHard">
-              Повторить трудные
-            </button>
-            <RouterLink to="/chapters" class="btn-quiet">Учить новое</RouterLink>
-          </div>
+          <RouterLink to="/chapters" class="btn-primary mt-5 sm:mt-6">Учить новое</RouterLink>
         </template>
 
         <template v-else>
           <p class="mt-4 text-muted">
-            Пора повторить {{ plural(due.length, entryForms) }}.
+            Пора повторить {{ plural(due.length, dueForms) }}.
             <template v-if="due.length > BATCH_SIZE">За один заход — {{ BATCH_SIZE }}.</template>
           </p>
 
-          <div class="mt-5 sm:mt-6 flex flex-wrap gap-3">
-            <button type="button" class="btn-primary" @click="startReview">Начать повторение</button>
-            <button v-if="hard.length" type="button" class="btn-quiet" @click="startHard">Сначала трудные</button>
-          </div>
+          <button type="button" class="btn-primary mt-5 sm:mt-6" @click="startReview">Начать повторение</button>
 
           <ol class="mt-6 sm:mt-8 divide-y divide-line border-y border-line">
             <li
@@ -255,7 +238,7 @@ function onFinish(sessionResults: StepResult[]) {
                 <span lang="en" class="block font-serif text-lg leading-snug">{{ entry.phrase.en }}</span>
                 <span class="block text-sm leading-snug text-muted">{{ entry.phrase.ru }}</span>
                 <!-- Когда главу не выбирали, по записи не видно, откуда она. -->
-                <span v-if="!chapterId" lang="en" class="mt-0.5 block font-serif text-xs text-muted">
+                <span v-if="!dueChapter" lang="en" class="mt-0.5 block font-serif text-xs text-muted">
                   {{ titleOf.get(entry.chapterId) }}
                 </span>
               </span>
@@ -267,14 +250,24 @@ function onFinish(sessionResults: StepResult[]) {
         </template>
       </template>
 
-      <!-- Где чаще всего спотыкаемся. Эти данные копились всё время, но нигде не показывались. -->
-      <template v-if="hardEntries.length">
-        <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Трудные</h2>
-        <p v-if="chapterId" class="mt-1 text-sm text-muted">Здесь ошибались чаще всего в этой главе.</p>
-        <p v-else class="mt-1 text-sm text-muted">
-          Здесь ошибались чаще всего — {{ plural(progress.hardCount, ENTRY_FORMS) }} за всё время.
+      <!-- Трудные живут своей жизнью: это список за всё время, а не очередь
+           на сегодня. Поэтому у них свой выбор главы и своя кнопка. -->
+      <template v-if="hardAll.length">
+        <h2 class="mt-8 sm:mt-10 text-lg font-semibold">Трудные</h2>
+        <ChapterFilter v-model="hardChapter" :options="hardFilters" label="Глава для трудных" class="mt-3" />
+        <p class="mt-3 text-sm text-muted">
+          <template v-if="hardChapter">
+            Здесь ошибались чаще всего — {{ plural(hardInChapter.length, hardForms) }} в этой главе.
+          </template>
+          <template v-else>
+            Здесь ошибались чаще всего — {{ plural(hardInChapter.length, hardForms) }} за всё время.
+          </template>
+          <template v-if="hardInChapter.length > BATCH_SIZE">
+            Показаны самые трудные {{ BATCH_SIZE }}, заход тоже из них.
+          </template>
         </p>
-        <ol class="mt-3 divide-y divide-line border-y border-line">
+        <button type="button" class="btn-primary mt-4" @click="startHard">Повторить трудные</button>
+        <ol class="mt-5 sm:mt-6 divide-y divide-line border-y border-line">
           <li v-for="entry in hardEntries" :key="entry.phrase.id" class="flex items-baseline gap-3 py-2 sm:py-3">
             <span class="w-14 shrink-0 text-xs text-bad tabular-nums">
               {{ progress.get(entry.phrase.id)?.wrong }} из {{ progress.get(entry.phrase.id)?.seen }}
@@ -282,7 +275,7 @@ function onFinish(sessionResults: StepResult[]) {
             <span class="min-w-0 flex-1">
               <span lang="en" class="block font-serif text-base leading-snug sm:text-lg">{{ entry.phrase.en }}</span>
               <span class="block text-sm leading-snug text-muted">{{ entry.phrase.ru }}</span>
-              <span v-if="!chapterId" lang="en" class="mt-0.5 block font-serif text-xs text-muted">
+              <span v-if="!hardChapter" lang="en" class="mt-0.5 block font-serif text-xs text-muted">
                 {{ titleOf.get(entry.chapterId) }}
               </span>
             </span>

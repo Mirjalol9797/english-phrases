@@ -236,12 +236,16 @@ export const useProgressStore = defineStore('progress', () => {
    * ID фраз, на которых ошибались чаще всего. Срок не смотрим:
    * такие стоит освежить, даже если система ещё не просит.
    */
-  function hardestIds(limit = 20): string[] {
+  /** Все записи с ошибками, от самых трудных к менее трудным. */
+  function hardIds(): string[] {
     return Object.entries(data.value.phrases)
       .filter(([, progress]) => progress.wrong > 0)
       .sort((a, b) => hardnessOf(b[1]) - hardnessOf(a[1]) || a[1].interval - b[1].interval)
-      .slice(0, limit)
       .map(([id]) => id)
+  }
+
+  function hardestIds(limit = 20): string[] {
+    return hardIds().slice(0, limit)
   }
 
   /** Сколько фраз вообще даётся тяжело. */
@@ -393,6 +397,7 @@ export const useProgressStore = defineStore('progress', () => {
     isStarted,
     commitSession,
     dueIds,
+    hardIds,
     hardestIds,
     hardCount,
     nextDueDay,

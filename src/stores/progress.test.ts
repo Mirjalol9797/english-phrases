@@ -269,6 +269,23 @@ describe('трудные фразы', () => {
     expect(progress.hardestIds()).toEqual(['изТрёх', 'изДесяти'])
   })
 
+  it('полный список трудных не обрезается двадцаткой', () => {
+    // Экран повторения считает по нему главы: верхней двадцатки не хватает,
+    // в ней может не быть глав, где трудные есть.
+    const counts = Object.fromEntries(
+      Array.from({ length: 25 }, (_, i) => [`ф${i}`, { seen: 5, wrong: 1 }]),
+    )
+    const progress = withCounts(counts)
+    expect(progress.hardIds()).toHaveLength(25)
+    expect(progress.hardestIds()).toHaveLength(20)
+  })
+
+  it('полный список и верхняя двадцатка идут в одном порядке', () => {
+    const progress = withCounts({ лёгкая: { seen: 10, wrong: 1 }, трудная: { seen: 3, wrong: 3 } })
+    expect(progress.hardIds()).toEqual(['трудная', 'лёгкая'])
+    expect(progress.hardestIds(1)).toEqual(['трудная'])
+  })
+
   it('отдаёт не больше запрошенного', () => {
     const progress = withCounts({ a: { seen: 2, wrong: 1 }, b: { seen: 2, wrong: 1 }, c: { seen: 2, wrong: 1 } })
     expect(progress.hardestIds(2)).toHaveLength(2)
