@@ -105,7 +105,7 @@ const chapters = computed(() =>
             <RouterLink v-if="progress.hardCount" to="/review" class="underline underline-offset-2">
               повторить
             </RouterLink>
-            <template v-else>ошибок не было</template>
+            <template v-else>сейчас чисто</template>
           </dd>
         </div>
         <div class="rounded-xl border border-line px-4 py-3">

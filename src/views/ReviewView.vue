@@ -260,7 +260,7 @@ function onFinish(sessionResults: StepResult[]) {
             Здесь ошибались чаще всего — {{ plural(hardInChapter.length, hardForms) }} в этой главе.
           </template>
           <template v-else>
-            Здесь ошибались чаще всего — {{ plural(hardInChapter.length, hardForms) }} за всё время.
+            Здесь ошибались чаще всего — {{ plural(hardInChapter.length, hardForms) }}.
           </template>
           <template v-if="hardInChapter.length > BATCH_SIZE">
             Показаны самые трудные {{ BATCH_SIZE }}, заход тоже из них.
@@ -281,7 +281,10 @@ function onFinish(sessionResults: StepResult[]) {
             </span>
           </li>
         </ol>
-        <p class="mt-3 text-sm text-muted">Слева — на скольких занятиях из пройденных была ошибка.</p>
+        <p class="mt-3 text-sm text-muted">
+          Слева — на скольких занятиях из пройденных была ошибка. Запись уходит отсюда после
+          двух верных ответов подряд; новая ошибка возвращает её обратно.
+        </p>
       </template>
     </section>
   </template>

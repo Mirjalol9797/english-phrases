@@ -213,6 +213,12 @@ export const useProgressStore = defineStore('progress', () => {
    * идёт вторым признаком: у фразы, которую видели один раз и ошиблись,
    * доля стопроцентная, но доказательств этому мало.
    */
+  /**
+   * Сколько верных ответов подряд снимают пометку «трудная».
+   * Один мог быть угадан, а после двух запись честно вернулась в строй.
+   */
+  const FORGIVE_AFTER = 2
+
   function hardnessOf(entry: PhraseProgress): number {
     return entry.wrong + (entry.seen > 0 ? entry.wrong / entry.seen : 0)
   }
@@ -236,10 +242,20 @@ export const useProgressStore = defineStore('progress', () => {
    * ID фраз, на которых ошибались чаще всего. Срок не смотрим:
    * такие стоит освежить, даже если система ещё не просит.
    */
-  /** Все записи с ошибками, от самых трудных к менее трудным. */
+  /**
+   * Трудная ли запись сейчас.
+   *
+   * Одной ошибки за всё время мало: иначе запись оставалась бы в списке
+   * навсегда, сколько её потом ни повторяй. Пометку снимают два верных ответа
+   * подряд — reps в SM-2 считает именно их и обнуляется на ошибке, так что
+   * одна осечка возвращает запись обратно.
+   */
+  const isHard = (entry: PhraseProgress) => entry.wrong > 0 && entry.reps < FORGIVE_AFTER
+
+  /** Все трудные записи, от самых трудных к менее трудным. */
   function hardIds(): string[] {
     return Object.entries(data.value.phrases)
-      .filter(([, progress]) => progress.wrong > 0)
+      .filter(([, progress]) => isHard(progress))
       .sort((a, b) => hardnessOf(b[1]) - hardnessOf(a[1]) || a[1].interval - b[1].interval)
       .map(([id]) => id)
   }
@@ -248,10 +264,8 @@ export const useProgressStore = defineStore('progress', () => {
     return hardIds().slice(0, limit)
   }
 
-  /** Сколько фраз вообще даётся тяжело. */
-  const hardCount = computed(
-    () => Object.values(data.value.phrases).filter((entry) => entry.wrong > 0).length,
-  )
+  /** Сколько записей даётся тяжело сейчас. */
+  const hardCount = computed(() => Object.values(data.value.phrases).filter(isHard).length)
 
   /** Ближайший день, когда появится что повторять. */
   const nextDueDay = computed<DayKey | null>(() => {

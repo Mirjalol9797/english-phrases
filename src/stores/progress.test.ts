@@ -239,18 +239,51 @@ describe('dueIds', () => {
 })
 
 describe('трудные фразы', () => {
-  /** Коротко собрать прогресс с нужными числами ошибок. */
-  function withCounts(rows: Record<string, { seen: number; wrong: number; interval?: number; due?: string }>) {
+  /**
+   * Коротко собрать прогресс с нужными числами ошибок. По умолчанию reps = 0:
+   * запись только что ошиблась и потому трудная. Где важно иное — reps задаётся.
+   */
+  function withCounts(
+    rows: Record<string, { seen: number; wrong: number; interval?: number; due?: string; reps?: number }>,
+  ) {
     const progress = useProgressStore()
     progress.data = {
       version: 1,
       phrases: Object.fromEntries(
-        Object.entries(rows).map(([id, r]) => [id, row({ ...r, firstSeen: '2026-10-01' })]),
+        Object.entries(rows).map(([id, r]) => [id, row({ reps: 0, ...r, firstSeen: '2026-10-01' })]),
       ),
       days: {},
     }
     return progress
   }
+
+  it('два верных ответа подряд снимают пометку «трудная»', () => {
+    const progress = withCounts({
+      ошиблась: { seen: 5, wrong: 2, reps: 0 },
+      исправляется: { seen: 5, wrong: 2, reps: 1 },
+      исправилась: { seen: 5, wrong: 2, reps: 2 },
+    })
+    expect(progress.hardIds()).toEqual(['ошиблась', 'исправляется'])
+    expect(progress.hardCount).toBe(2)
+  })
+
+  it('одного верного ответа мало: его могли угадать', () => {
+    const progress = withCounts({ a: { seen: 4, wrong: 1, reps: 1 } })
+    expect(progress.hardIds()).toEqual(['a'])
+  })
+
+  it('новая ошибка возвращает запись в трудные', () => {
+    // В SM-2 ошибка обнуляет reps — на этом и держится возврат.
+    const progress = withCounts({ a: { seen: 9, wrong: 3, reps: 4 } })
+    expect(progress.hardIds()).toEqual([])
+    progress.data.phrases.a!.reps = 0
+    expect(progress.hardIds()).toEqual(['a'])
+  })
+
+  it('без единой ошибки запись трудной не станет, сколько ни ошибайся потом', () => {
+    const progress = withCounts({ a: { seen: 10, wrong: 0, reps: 0 } })
+    expect(progress.hardIds()).toEqual([])
+  })
 
   it('считает только те, где были ошибки', () => {
     const progress = withCounts({ a: { seen: 3, wrong: 2 }, b: { seen: 3, wrong: 0 }, c: { seen: 1, wrong: 1 } })
