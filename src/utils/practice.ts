@@ -156,8 +156,13 @@ interface BuildOptions {
   /**
    * На каком языке спрашивать перевод. Сборщик сам про настройки не знает:
    * он чистый, и его тесты обходятся без хранилища.
+   *
+   * Поле обязательное нарочно. Со значением по умолчанию экраны занятия
+   * и повторения однажды просто забыли его передать, и на узбекском все
+   * варианты ответа остались русскими: расчёт был верен, забыли вызвать.
+   * Теперь это ловит компилятор.
    */
-  language?: Language
+  language: Language
 }
 
 /** Разрешённые этапы в их обычном порядке. Пустой список означает «все». */
@@ -186,7 +191,7 @@ export function buildPractice(
   phrases: Phrase[],
   options: BuildOptions & { withCards?: boolean },
 ): PracticeStep[] {
-  const { near, far, withCards = true, language = 'ru' } = options
+  const { near, far, withCards = true, language } = options
   const steps: PracticeStep[] = withCards ? phrases.map((phrase) => ({ kind: 'card', phrase })) : []
 
   for (const kind of allowedStages(options.stages)) {
@@ -209,7 +214,7 @@ export function buildReview(
   levelOf: (phrase: Phrase) => number,
   options: BuildOptions,
 ): PracticeStep[] {
-  const { near, far, language = 'ru' } = options
+  const { near, far, language } = options
   const allowed = allowedStages(options.stages)
   const steps: PracticeStep[] = []
 
@@ -238,7 +243,7 @@ export function buildRepeat(
   mistakes: { phrase: Phrase; kind: ExerciseKind }[],
   options: BuildOptions,
 ): PracticeStep[] {
-  const { near, far, language = 'ru' } = options
+  const { near, far, language } = options
   const seen = new Set<string>()
   const steps: PracticeStep[] = []
 

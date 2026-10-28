@@ -30,7 +30,7 @@ const otherChapter: Phrase[] = [
   { id: 'UE004', en: 'What a relief!', ru: 'Какое облегчение!' },
 ]
 
-const pools = { near: lesson, far: [...lesson, ...otherChapter] }
+const pools = { near: lesson, far: [...lesson, ...otherChapter], language: 'ru' as const }
 const withSound = { ...pools, stages: [...EXERCISE_ORDER] }
 const withoutSound = { ...pools, stages: EXERCISE_ORDER.filter((k) => k !== 'listen') }
 
@@ -141,7 +141,7 @@ describe('упражнение с выбором', () => {
   it('добирает варианты из главы, когда в уроке их не хватает', () => {
     const tiny = [lesson[0]!, lesson[2]!]
     times(20, () => {
-      const steps = buildPractice(tiny, { near: tiny, far: pools.far, stages: withoutSound.stages, withCards: false }).filter(isChoice)
+      const steps = buildPractice(tiny, { near: tiny, far: pools.far, language: 'ru', stages: withoutSound.stages, withCards: false }).filter(isChoice)
       expect(steps.every((s) => s.options.length === 4)).toBe(true)
     })
   })
@@ -389,5 +389,51 @@ describe('выбор этапов', () => {
     const steps = buildReview([lesson[0]!], () => 1, { ...pools, stages: ['assemble'] })
     expect(steps).toHaveLength(1)
     expect(steps[0]!.kind).not.toBe('assemble')
+  })
+})
+
+/**
+ * Эти проверки написаны после поломки: карточка показывала узбекский перевод,
+ * а варианты ответа оставались русскими. Расчёт был верен — язык просто
+ * не доходил от экрана до сборщика.
+ */
+describe('язык вопроса и вариантов', () => {
+  const uzLesson: Phrase[] = [
+    { id: 'EE001', en: 'Hi!', ru: 'Привет!', uz: 'Salom!' },
+    { id: 'EE004', en: 'Good morning!', ru: 'Доброе утро!', uz: 'Xayrli tong!' },
+    { id: 'EE007', en: 'How are you?', ru: 'Как дела?', uz: 'Qalaysiz?' },
+    { id: 'EE010', en: 'It is nice to see you.', ru: 'Рад тебя видеть.', uz: 'Sizni koʻrganimdan xursandman.' },
+  ]
+  const uzPools = { near: uzLesson, far: uzLesson, language: 'uz' as const }
+  const cyrillic = /[А-Яа-яЁё]/
+
+  it('на узбекском и ответ, и варианты узбекские', () => {
+    const steps = buildPractice(uzLesson, { ...uzPools, stages: ['choice-ru'], withCards: false })
+    expect(steps.length).toBeGreaterThan(0)
+    for (const step of steps.filter(isChoice)) {
+      expect(step.options.some((option) => cyrillic.test(option))).toBe(false)
+    }
+  })
+
+  it('на узбекском спрашивают узбекским переводом и в письме', () => {
+    const steps = buildPractice(uzLesson, { ...uzPools, stages: ['typing'], withCards: false })
+    const typing = steps.filter((step): step is TypingStep => step.kind === 'typing')
+    expect(typing.length).toBeGreaterThan(0)
+    expect(typing.every((step) => !cyrillic.test(step.phrase.uz!))).toBe(true)
+    expect(typing.map((step) => step.accept.join(' ')).every((accept) => !cyrillic.test(accept))).toBe(true)
+  })
+
+  it('повторение тоже спрашивает на выбранном языке', () => {
+    const steps = buildReview(uzLesson, () => 0, { ...uzPools, stages: ['choice-ru'] })
+    for (const step of steps.filter(isChoice)) {
+      expect(cyrillic.test(step.answer)).toBe(false)
+    }
+  })
+
+  it('без узбекского перевода у фразы остаётся русский, а не пустая строка', () => {
+    const steps = buildPractice(lesson, { ...pools, language: 'uz', stages: ['choice-ru'], withCards: false })
+    for (const step of steps.filter(isChoice)) {
+      expect(step.answer.length).toBeGreaterThan(0)
+    }
   })
 })
