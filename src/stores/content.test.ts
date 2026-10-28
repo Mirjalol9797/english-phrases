@@ -1,3 +1,5 @@
+// @vitest-environment happy-dom
+// Стор берёт тексты ошибок из i18n, а тот — язык из настроек, которые читают matchMedia.
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { createPinia, setActivePinia } from 'pinia'
 import { NotFoundError, useContentStore } from './content'

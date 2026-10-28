@@ -54,6 +54,11 @@ export const UZ_TEXT: Record<string, string> = {
   'Позже': 'Keyinroq',
   'Понятно': 'Tushunarli',
   'Страница не найдена': 'Sahifa topilmadi',
+
+  // Г1 — сообщения о данных: их видит и тот, кто учится
+  'Глава «{id}» не найдена.': 'Bob «{id}» topilmadi.',
+  'Урок «{id}» не найден.': 'Dars «{id}» topilmadi.',
+  'Файл {path} не загрузился (код {status}).': '{path} fayli yuklanmadi (kod {status}).',
   'Такой страницы нет': 'Bunday sahifa yoʻq',
   'Проверьте адрес или вернитесь на главную.': 'Manzilni tekshiring yoki bosh sahifaga qayting.',
   'На главную': 'Bosh sahifaga',

@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia'
 import { ref, shallowRef } from 'vue'
 import { fetchChapter, fetchContentIndex } from '@/services/dataService'
+import { useI18n } from '@/i18n'
 import type { Chapter, ContentIndex, LessonContext } from '@/types/content'
 
 export class NotFoundError extends Error {}
@@ -10,6 +11,9 @@ export class NotFoundError extends Error {}
  * Главы загружаются по требованию и кэшируются, повторный запрос не идёт в сеть.
  */
 export const useContentStore = defineStore('content', () => {
+  // Эти сообщения видит не только разработчик: «Глава … не найдена» —
+  // заголовок экрана «страницы нет», так что они переводятся.
+  const { t } = useI18n()
   const index = shallowRef<ContentIndex | null>(null)
   const chapters = ref<Record<string, Chapter>>({})
 
@@ -37,7 +41,7 @@ export const useContentStore = defineStore('content', () => {
 
     const { chapters: summaries } = await loadIndex()
     const summary = summaries.find((c) => c.id === chapterId)
-    if (!summary) throw new NotFoundError(`Глава «${chapterId}» не найдена.`)
+    if (!summary) throw new NotFoundError(t('Глава «{id}» не найдена.', { id: chapterId }))
 
     let request = chapterRequests.get(chapterId)
     if (!request) {
@@ -71,12 +75,12 @@ export const useContentStore = defineStore('content', () => {
     const prefix = lessonId.split('-L')[0]
     const { chapters: summaries } = await loadIndex()
     const summary = summaries.find((c) => c.prefix === prefix)
-    if (!summary) throw new NotFoundError(`Урок «${lessonId}» не найден.`)
+    if (!summary) throw new NotFoundError(t('Урок «{id}» не найден.', { id: lessonId }))
 
     const chapter = await loadChapter(summary.id)
     const position = chapter.lessons.findIndex((l) => l.id === lessonId)
     const lesson = chapter.lessons[position]
-    if (!lesson) throw new NotFoundError(`Урок «${lessonId}» не найден.`)
+    if (!lesson) throw new NotFoundError(t('Урок «{id}» не найден.', { id: lessonId }))
 
     return {
       chapter,
