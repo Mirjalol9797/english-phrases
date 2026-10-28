@@ -1,0 +1,200 @@
+phrase|No way!||Да ладно! / Не может быть!|Qoʻysangiz-chi! / Boʻlishi mumkin emas!
+phrase|You must be kidding.||Ты, должно быть, шутишь.|Hazillashyapsiz shekilli.
+phrase|That figures.||Так и думал(а). / Неудивительно.|Shunday deb oʻylagandim. / Ajablanarli emas.
+phrase|Fair enough.||Ладно, справедливо.|Mayli, toʻgʻri.
+phrase|I get it.||Понимаю.|Tushundim.
+phrase|Makes sense.||Логично.|Mantiqli.
+phrase|Good point.||Хорошее замечание.|Yaxshi fikr.
+phrase|I hear you.||Я тебя понимаю.|Sizni tushunaman.
+phrase|Tell me about it.||И не говори!|Aytmang-a!
+phrase|You can say that again.||Ещё бы! / Полностью согласен(на).|Shunisi rost! / Toʻliq qoʻshilaman.
+phrase|What's up?||Что нового? / Как дела?|Nima gaplar? / Qalaysiz?
+phrase|I'm good.||У меня всё хорошо.|Menda hammasi yaxshi.
+phrase|Not much.||Ничего особенного.|Alohida gap yoʻq.
+phrase|No big deal.||Ничего страшного.|Hechqisi yoʻq.
+phrase|My bad.||Моя вина.|Mening aybim.
+phrase|I'm in.||Я согласен / я участвую.|Men roziman, qatnashaman.
+phrase|I'm out.||Я пас.|Men qatnashmayman.
+phrase|Sounds like a plan.||Отличный план.|Zoʻr reja.
+phrase|Works for me.||Меня устраивает.|Menga toʻgʻri keladi.
+phrase|I'm down for that.||Я за / я не против.|Men roziman, qarshi emasman.
+phrase|Absolutely.||Определённо.|Albatta.
+phrase|For sure.||Точно. / Конечно.|Aniq. / Tabiiy.
+phrase|Totally.||Полностью согласен(на).|Toʻliq qoʻshilaman.
+phrase|You bet.||Ещё бы. / Конечно.|Shubhasiz. / Albatta.
+phrase|I'm with you on that.||В этом я с тобой согласен(на).|Bunda men siz bilan birdamman.
+phrase|Couldn't have said it better.||Лучше и не скажешь.|Bundan yaxshiroq aytib boʻlmaydi.
+phrase|That's exactly it.||Именно так.|Aynan shunday.
+phrase|I'm all for it.||Я полностью за.|Men toʻliq tarafdorman.
+phrase|Count me in.||Считайте меня участником.|Meni ham hisobga oling.
+phrase|You've got a point there.||В этом ты прав(а).|Bunda siz haqsiz.
+phrase|I don't know about that.||Не уверен(а) насчёт этого.|Bunisiga ishonchim yoʻq.
+phrase|I'm not so sure.||Я не так уж уверен(а).|Ishonchim unchalik komil emas.
+phrase|Not quite.||Не совсем.|Unchalik emas.
+phrase|I wouldn't go that far.||Я бы не стал(а) так далеко заходить.|Men bunchalik deb aytmagan boʻlardim.
+phrase|That's not how I see it.||Я вижу это иначе.|Men buni boshqacha koʻraman.
+phrase|I beg to differ.||Позволю себе не согласиться.|Rozi boʻlmasligimga ijozat bering.
+phrase|Maybe, but...||Возможно, но...|Boʻlishi mumkin, lekin...
+phrase|I get what you're saying, but...||Я понимаю, что ты говоришь, но...|Nima deyayotganingizni tushunaman, lekin...
+phrase|I'm not buying it.||Я в это не верю.|Men bunga ishonmayman.
+phrase|Let's agree to disagree.||Давай останемся каждый при своём мнении.|Keling, har birimiz oʻz fikrimizda qolaylik.
+phrase|A bit||Немного.|Biroz.
+phrase|Kind of||Вроде как; своего рода.|Qandaydir; bir turdagi.
+phrase|Sort of||В некотором смысле.|Maʼlum maʼnoda.
+phrase|Pretty much||В основном; практически.|Asosan; deyarli.
+phrase|More or less||Более или менее.|Ozmi-koʻpmi; taxminan.
+phrase|A bunch of||Много; целая куча.|Koʻp; bir talay.
+phrase|Loads of||Очень много.|Juda koʻp.
+phrase|A couple of||Пара; несколько.|Bir juft; bir nechta.
+phrase|Stuff like that||Что-то в этом роде.|Shunga oʻxshash narsalar.
+phrase|And things like that||И тому подобное.|Va shunga oʻxshaganlar.
+phrase|I'm up for it.||Я не против / я за.|Men roziman.
+phrase|Let's play it by ear.||Будем решать по ходу дела.|Keling, vaziyatga qarab hal qilamiz.
+phrase|I'm not sure yet.||Я пока не уверен(а).|Hozircha ishonchim komil emas.
+phrase|I'll see how I feel.||Посмотрю по самочувствию.|Oʻzimni qanday his qilishimga qarab koʻraman.
+phrase|Let's see what happens.||Посмотрим, что будет.|Koʻramiz, nima boʻlarkin.
+phrase|I'm thinking about it.||Я об этом думаю.|Men bu haqda oʻylayapman.
+phrase|I'm leaning toward staying in.||Я склоняюсь к тому, чтобы остаться дома.|Men uyda qolishga moyilman.
+phrase|It's still up in the air.||Это пока не решено.|Bu hali hal boʻlgani yoʻq.
+phrase|I'll keep you posted.||Буду держать тебя в курсе.|Sizni xabardor qilib turaman.
+phrase|Let's make it happen.||Давай сделаем так, чтобы это произошло.|Keling, buni amalga oshiraylik.
+phrase|You're all good.||Всё нормально.|Hammasi joyida.
+phrase|Don't sweat it.||Не переживай.|Xavotir olmang.
+phrase|It's all good.||Всё хорошо.|Hammasi yaxshi.
+phrase|No biggie.||Ничего страшного.|Katta gap emas.
+phrase|It'll work out.||Всё наладится.|Hammasi yaxshi boʻlib ketadi.
+phrase|We've all been there.||Со всеми такое бывало.|Bu hammamizning boshimizdan oʻtgan.
+phrase|Take it easy.||Не переживай; полегче.|Xotirjam boʻling; shoshilmang.
+phrase|You're doing fine.||У тебя всё хорошо получается.|Sizda yaxshi chiqyapti.
+phrase|It's not the end of the world.||Это не конец света.|Bu dunyoning oxiri emas.
+phrase|One thing at a time.||По одному делу за раз.|Bir vaqtda bitta ish.
+phrase|I literally can't.||Я буквально не могу (разг.).|Men chindan ham qila olmayman (soʻzlashuv).
+phrase|I'm so done with this.||С меня хватит этого.|Bu jonimga tegdi.
+phrase|That's a whole different story.||Это совсем другая история.|Bu butunlay boshqa gap.
+phrase|It's such a pain.||Это такая морока.|Bu juda ovora qiladigan ish.
+phrase|I'm really into it.||Мне это очень нравится.|Bu menga juda yoqadi.
+phrase|It's super easy.||Это очень просто.|Bu juda oson.
+phrase|I'm dead tired.||Я смертельно устал(а).|Men oʻlguday charchadim.
+phrase|That was a close call.||Чуть не случилась беда.|Sal boʻlmasa falokat yuz berardi.
+phrase|It's way too expensive.||Это слишком дорого.|Bu juda ham qimmat.
+phrase|I'm not even joking.||Я даже не шучу.|Men hazillashayotganim ham yoʻq.
+phrase|I guess...||Полагаю...|Menimcha...
+phrase|I suppose...||Думаю... / Полагаю...|Oʻylaymanki... / Taxminimcha...
+phrase|Maybe it's just me, but...||Может, это только мне кажется, но...|Balki menga shunday tuyulayotgandir, lekin...
+phrase|I could be wrong.||Возможно, я ошибаюсь.|Men adashayotgan boʻlishim mumkin.
+phrase|As far as I can tell...||Насколько я могу судить...|Men bilganimcha...
+phrase|If that makes sense.||Если я понятно объяснил(а).|Agar tushunarli tushuntirgan boʻlsam.
+phrase|I don't mean to be rude.||Я не хочу показаться грубым / грубой.|Qoʻpol koʻrinishni istamayman.
+phrase|To be fair...||Справедливости ради...|Adolat yuzasidan aytganda...
+phrase|I see what you mean, though.||Хотя я понимаю, что ты имеешь в виду.|Baribir nimani nazarda tutayotganingizni tushunaman.
+phrase|That's just my take on it.||Это просто мой взгляд на ситуацию.|Bu shunchaki mening qarashim.
+phrase|So, guess what happened.||Так вот, угадай, что случилось.|Xullas, nima boʻldi deb oʻylaysiz?
+phrase|Long story short...||Короче говоря...|Qisqasi...
+phrase|You won't believe this.||Ты в это не поверишь.|Bunga ishonmaysiz.
+phrase|Here's the funny part.||А вот тут самое смешное.|Eng qizigʻi shu yerda.
+phrase|Out of nowhere...||Совершенно неожиданно...|Kutilmaganda...
+phrase|Before I knew it...||Не успел(а) я опомниться, как...|Men oʻzimga kelgunimcha...
+phrase|Next thing I knew...||И вдруг оказалось, что...|Birdan maʼlum boʻldiki...
+phrase|It turned out that...||Оказалось, что...|Maʼlum boʻlishicha...
+phrase|The best part was...||Самое лучшее было то, что...|Eng yaxshi tomoni shu ediki...
+phrase|That's how it all started.||Вот так всё и началось.|Mana shunday hammasi boshlangan.
+phrase|It's up to you.||Решать тебе.|Oʻzingiz hal qiling.
+phrase|Give it a shot.||Попробуй.|Bir urinib koʻring.
+phrase|Hang in there.||Держись.|Bardosh bering.
+phrase|Fingers crossed.||Будем надеяться; держу кулачки.|Umid qilamiz; omad tilayman.
+phrase|I'm all ears.||Я весь внимание.|Diqqat bilan eshitaman.
+phrase|It's not my cup of tea.||Это не в моём вкусе.|Bu mening didimga toʻgʻri kelmaydi.
+phrase|Better late than never.||Лучше поздно, чем никогда.|Hech boʻlmagandan kech boʻlgani yaxshi.
+phrase|So far, so good.||Пока всё хорошо.|Hozircha hammasi yaxshi.
+phrase|The sooner, the better.||Чем скорее, тем лучше.|Qanchalik tez boʻlsa, shunchalik yaxshi.
+phrase|That's the last straw.||Это последняя капля.|Bu sabr kosasini toʻldirdi.
+phrase|That's awesome!||Это потрясающе!|Bu zoʻr-ku!
+phrase|That's rough.||Непросто тебе пришлось.|Sizga oson boʻlmagan ekan.
+phrase|What a bummer.||Как обидно.|Qanday achinarli.
+phrase|I'm happy for you.||Я рад(а) за тебя.|Men siz uchun xursandman.
+phrase|You deserve it.||Ты это заслужил(а).|Siz bunga loyiqsiz.
+phrase|That's a relief.||Какое облегчение.|Qanday yengillik.
+phrase|I didn't see that coming.||Я этого не ожидал(а).|Men buni kutmagandim.
+phrase|Good for you!||Рад(а) за тебя!|Barakalla!
+phrase|That's unfortunate.||Как неудачно.|Qanday omadsizlik.
+phrase|I'm sorry to hear that.||Мне жаль это слышать.|Buni eshitganimdan afsusdaman.
+phrase|Wanna grab a bite?||Хочешь перекусить?|Gazak qilamizmi?
+phrase|Fancy a coffee?||Хочешь кофе?|Qahva ichamizmi?
+phrase|Do you wanna come along?||Хочешь пойти с нами?|Biz bilan borasizmi?
+phrase|I'm game.||Я за.|Men tayyorman.
+phrase|I'm up for anything.||Я не против чего угодно.|Men hamma narsaga tayyorman.
+phrase|Let's hang out.||Давай проведём время вместе.|Keling, birga vaqt oʻtkazaylik.
+phrase|Come on over.||Заходи.|Kelavering.
+phrase|Feel free to join us.||Присоединяйся, если хочешь.|Xohlasangiz, bemalol qoʻshiling.
+phrase|I'm gonna head out.||Я собираюсь уходить.|Men ketmoqchiman.
+phrase|Catch you later.||Увидимся позже.|Keyinroq koʻrishamiz.
+phrase|In a bit||Скоро; через некоторое время.|Tez orada; biroz vaqtdan keyin.
+phrase|Right away||Сразу же.|Darhol.
+phrase|Anytime soon||В ближайшее время.|Yaqin kelajakda.
+phrase|Once in a while||Время от времени.|Goho-goho.
+phrase|Every now and then||Время от времени.|Vaqti-vaqti bilan.
+phrase|For ages||Очень давно; целую вечность.|Juda koʻpdan beri; bir asrdan buyon.
+phrase|At the last minute||В последнюю минуту.|Soʻnggi daqiqada.
+phrase|From time to time||Время от времени.|Ora-sira.
+phrase|Before long||Вскоре.|Koʻp oʻtmay.
+phrase|For the time being||Пока что.|Hozircha.
+phrase|He's easygoing.||Он лёгкий в общении.|U muloqotda yengil odam.
+phrase|She's down-to-earth.||Она простая и практичная.|U sodda va amaliy inson.
+phrase|He's a bit of a handful.||С ним бывает непросто.|U bilan baʼzan oson emas.
+phrase|She's good company.||С ней приятно проводить время.|U bilan vaqt oʻtkazish yoqimli.
+phrase|He's such a character.||Он очень своеобразный человек.|U juda oʻziga xos odam.
+phrase|She's got a great vibe.||От неё исходит отличная энергия.|Undan ajoyib energiya taralib turadi.
+phrase|He's pretty laid-back.||Он довольно спокойный.|U ancha xotirjam odam.
+phrase|She's full of energy.||Она полна энергии.|U energiyaga toʻla.
+phrase|He's not much of a talker.||Он не очень разговорчивый.|U koʻp gapiradiganlardan emas.
+phrase|They're on the same wavelength.||Они на одной волне.|Ular bir toʻlqinda.
+phrase|What a hassle.||Какая морока.|Qanday ovora.
+phrase|That's annoying.||Это раздражает.|Bu asabni buzadi.
+phrase|I'm fed up with this.||Мне это надоело.|Bundan charchadim.
+phrase|It drives me crazy.||Это сводит меня с ума.|Bu meni aqldan ozdiradi.
+phrase|What a mess.||Какой беспорядок.|Qanday tartibsizlik.
+phrase|This is taking forever.||Это длится целую вечность.|Bu cheksiz choʻzilyapti.
+phrase|I can't be bothered.||Мне не хочется этим заниматься.|Bu bilan shugʻullanishga hafsalam yoʻq.
+phrase|That's such a pain.||Это такая головная боль.|Bu juda bosh ogʻrigʻi.
+phrase|Things aren't going as planned.||Всё идёт не по плану.|Hammasi reja boʻyicha ketmayapti.
+phrase|Could be worse.||Могло быть и хуже.|Bundan battar ham boʻlishi mumkin edi.
+phrase|Oops, my bad.||Ой, моя вина.|Voy, mening aybim.
+phrase|Sorry about that.||Извини за это.|Bunisi uchun uzr.
+phrase|I didn't mean it.||Я не это имел(а) в виду.|Men buni nazarda tutmagandim.
+phrase|I messed up.||Я накосячил(а).|Men xato qildim.
+phrase|That's on me.||Это моя ответственность / моя вина.|Bu mening javobgarligim.
+phrase|I totally forgot.||Я совсем забыл(а).|Men butunlay unutibman.
+phrase|Sorry, I got caught up.||Извини, я увлёкся / задержался.|Kechirasiz, ishim chiqib qoldi.
+phrase|I should've told you.||Мне следовало тебе сказать.|Sizga aytishim kerak edi.
+phrase|I owe you an apology.||Я должен / должна перед тобой извиниться.|Sizdan uzr soʻrashim kerak.
+phrase|We're good, right?||Между нами всё нормально?|Oramizda hammasi joyida-a?
+phrase|Can you give me a sec?||Дашь мне секундочку?|Menga bir soniya bera olasizmi?
+phrase|Mind helping me out?||Не поможешь мне?|Menga yordam bermaysizmi?
+phrase|Can you do me a quick favour?||Можешь оказать мне небольшую услугу?|Menga kichik yaxshilik qila olasizmi?
+phrase|Could you pass me that?||Передашь мне это?|Buni menga uzatib bera olasizmi?
+phrase|Give me a heads-up.||Предупреди меня заранее.|Meni oldindan ogohlantiring.
+phrase|Let me know.||Дай мне знать.|Menga xabar bering.
+phrase|Keep an eye on this.||Присмотри за этим.|Bunga koʻz-quloq boʻling.
+phrase|Can you save me a spot?||Можешь занять мне место?|Menga joy band qilib qoʻya olasizmi?
+phrase|Can I borrow this for a sec?||Можно я ненадолго это возьму?|Buni bir zumga olib tursam boʻladimi?
+phrase|Give me a minute.||Дай мне минуту.|Menga bir daqiqa bering.
+phrase|Anyway, I should get going.||Ладно, мне пора идти.|Xullas, men ketishim kerak.
+phrase|I'll let you get back to it.||Не буду тебя отвлекать.|Sizni ishingizdan chalgʻitmayin.
+phrase|Good catching up.||Рад(а), что удалось поболтать.|Suhbatlashganimiz yaxshi boʻldi.
+phrase|Let's do this again sometime.||Давай как-нибудь повторим.|Keling, buni yana bir marta takrorlaymiz.
+phrase|I'll see you around.||Ещё увидимся.|Yana koʻrishamiz.
+phrase|Take care of yourself.||Береги себя.|Oʻzingizni ehtiyot qiling.
+phrase|Text me when you get home.||Напиши, когда доберёшься домой.|Uyga yetganingizda yozing.
+phrase|Give me a call sometime.||Как-нибудь позвони мне.|Qachondir menga qoʻngʻiroq qiling.
+phrase|Have a good one.||Хорошего дня / всего хорошего.|Kuningiz yaxshi oʻtsin.
+phrase|Later!||Пока! / До встречи!|Xayr! / Koʻrishguncha!
+phrase|It is what it is.||Что есть, то есть.|Bor gap shu.
+phrase|You never know.||Кто знает.|Kim biladi deysiz.
+phrase|That's the point.||В этом и смысл.|Gap ham shunda.
+phrase|Long story.||Долгая история.|Uzun hikoya.
+phrase|I'm just saying.||Я просто говорю.|Shunchaki aytyapman.
+phrase|Don't get me wrong.||Не пойми меня неправильно.|Meni notoʻgʻri tushunmang.
+phrase|I know, right?||Вот именно!|Aynan shunday-da!
+phrase|Here we go again.||Опять начинается.|Yana boshlandi.
+phrase|It happens.||Бывает.|Boʻlib turadi.
+phrase|Let's call it a day.||На сегодня закончим.|Bugunga shu yerda toʻxtaylik.

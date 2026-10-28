@@ -145,11 +145,13 @@
       "kind": "phrases",
       "title": {
         "en": "Natural English",
-        "ru": "Естественный разговорный английский"
+        "ru": "Естественный разговорный английский",
+        "uz": "Tabiiy soʻzlashuv ingliz tili"
       },
       "file": "chapters/natural-english.json",
       "lessonCount": 20,
-      "phraseCount": 200
+      "phraseCount": 200,
+      "translatedUz": true
     },
     {
       "id": "core-verbs",

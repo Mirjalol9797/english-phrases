@@ -5,7 +5,8 @@
   "kind": "phrases",
   "title": {
     "en": "Natural English",
-    "ru": "Естественный разговорный английский"
+    "ru": "Естественный разговорный английский",
+    "uz": "Tabiiy soʻzlashuv ingliz tili"
   },
   "lessons": [
     {
@@ -13,58 +14,69 @@
       "order": 1,
       "title": {
         "en": "Natural reactions",
-        "ru": "Естественные реакции"
+        "ru": "Естественные реакции",
+        "uz": "Tabiiy javob-munosabatlar"
       },
       "phrases": [
         {
           "id": "NE001",
           "en": "No way!",
-          "ru": "Да ладно! / Не может быть!"
+          "ru": "Да ладно! / Не может быть!",
+          "uz": "Qoʻysangiz-chi! / Boʻlishi mumkin emas!"
         },
         {
           "id": "NE002",
           "en": "You must be kidding.",
-          "ru": "Ты, должно быть, шутишь."
+          "ru": "Ты, должно быть, шутишь.",
+          "uz": "Hazillashyapsiz shekilli."
         },
         {
           "id": "NE003",
           "en": "That figures.",
-          "ru": "Так и думал(а). / Неудивительно."
+          "ru": "Так и думал(а). / Неудивительно.",
+          "uz": "Shunday deb oʻylagandim. / Ajablanarli emas."
         },
         {
           "id": "NE004",
           "en": "Fair enough.",
-          "ru": "Ладно, справедливо."
+          "ru": "Ладно, справедливо.",
+          "uz": "Mayli, toʻgʻri."
         },
         {
           "id": "NE005",
           "en": "I get it.",
-          "ru": "Понимаю."
+          "ru": "Понимаю.",
+          "uz": "Tushundim."
         },
         {
           "id": "NE006",
           "en": "Makes sense.",
-          "ru": "Логично."
+          "ru": "Логично.",
+          "uz": "Mantiqli."
         },
         {
           "id": "NE007",
           "en": "Good point.",
-          "ru": "Хорошее замечание."
+          "ru": "Хорошее замечание.",
+          "uz": "Yaxshi fikr."
         },
         {
           "id": "NE008",
           "en": "I hear you.",
-          "ru": "Я тебя понимаю."
+          "ru": "Я тебя понимаю.",
+          "uz": "Sizni tushunaman."
         },
         {
           "id": "NE009",
           "en": "Tell me about it.",
-          "ru": "И не говори!"
+          "ru": "И не говори!",
+          "uz": "Aytmang-a!"
         },
         {
           "id": "NE010",
           "en": "You can say that again.",
-          "ru": "Ещё бы! / Полностью согласен(на)."
+          "ru": "Ещё бы! / Полностью согласен(на).",
+          "uz": "Shunisi rost! / Toʻliq qoʻshilaman."
         }
       ]
     },
@@ -73,58 +85,69 @@
       "order": 2,
       "title": {
         "en": "Common informal phrases",
-        "ru": "Частые неформальные фразы"
+        "ru": "Частые неформальные фразы",
+        "uz": "Koʻp ishlatiladigan norasmiy iboralar"
       },
       "phrases": [
         {
           "id": "NE011",
           "en": "What's up?",
-          "ru": "Что нового? / Как дела?"
+          "ru": "Что нового? / Как дела?",
+          "uz": "Nima gaplar? / Qalaysiz?"
         },
         {
           "id": "NE012",
           "en": "I'm good.",
-          "ru": "У меня всё хорошо."
+          "ru": "У меня всё хорошо.",
+          "uz": "Menda hammasi yaxshi."
         },
         {
           "id": "NE013",
           "en": "Not much.",
-          "ru": "Ничего особенного."
+          "ru": "Ничего особенного.",
+          "uz": "Alohida gap yoʻq."
         },
         {
           "id": "NE014",
           "en": "No big deal.",
-          "ru": "Ничего страшного."
+          "ru": "Ничего страшного.",
+          "uz": "Hechqisi yoʻq."
         },
         {
           "id": "NE015",
           "en": "My bad.",
-          "ru": "Моя вина."
+          "ru": "Моя вина.",
+          "uz": "Mening aybim."
         },
         {
           "id": "NE016",
           "en": "I'm in.",
-          "ru": "Я согласен / я участвую."
+          "ru": "Я согласен / я участвую.",
+          "uz": "Men roziman, qatnashaman."
         },
         {
           "id": "NE017",
           "en": "I'm out.",
-          "ru": "Я пас."
+          "ru": "Я пас.",
+          "uz": "Men qatnashmayman."
         },
         {
           "id": "NE018",
           "en": "Sounds like a plan.",
-          "ru": "Отличный план."
+          "ru": "Отличный план.",
+          "uz": "Zoʻr reja."
         },
         {
           "id": "NE019",
           "en": "Works for me.",
-          "ru": "Меня устраивает."
+          "ru": "Меня устраивает.",
+          "uz": "Menga toʻgʻri keladi."
         },
         {
           "id": "NE020",
           "en": "I'm down for that.",
-          "ru": "Я за / я не против."
+          "ru": "Я за / я не против.",
+          "uz": "Men roziman, qarshi emasman."
         }
       ]
     },
@@ -133,58 +156,69 @@
       "order": 3,
       "title": {
         "en": "Natural agreement",
-        "ru": "Естественное согласие"
+        "ru": "Естественное согласие",
+        "uz": "Tabiiy rozilik"
       },
       "phrases": [
         {
           "id": "NE021",
           "en": "Absolutely.",
-          "ru": "Определённо."
+          "ru": "Определённо.",
+          "uz": "Albatta."
         },
         {
           "id": "NE022",
           "en": "For sure.",
-          "ru": "Точно. / Конечно."
+          "ru": "Точно. / Конечно.",
+          "uz": "Aniq. / Tabiiy."
         },
         {
           "id": "NE023",
           "en": "Totally.",
-          "ru": "Полностью согласен(на)."
+          "ru": "Полностью согласен(на).",
+          "uz": "Toʻliq qoʻshilaman."
         },
         {
           "id": "NE024",
           "en": "You bet.",
-          "ru": "Ещё бы. / Конечно."
+          "ru": "Ещё бы. / Конечно.",
+          "uz": "Shubhasiz. / Albatta."
         },
         {
           "id": "NE025",
           "en": "I'm with you on that.",
-          "ru": "В этом я с тобой согласен(на)."
+          "ru": "В этом я с тобой согласен(на).",
+          "uz": "Bunda men siz bilan birdamman."
         },
         {
           "id": "NE026",
           "en": "Couldn't have said it better.",
-          "ru": "Лучше и не скажешь."
+          "ru": "Лучше и не скажешь.",
+          "uz": "Bundan yaxshiroq aytib boʻlmaydi."
         },
         {
           "id": "NE027",
           "en": "That's exactly it.",
-          "ru": "Именно так."
+          "ru": "Именно так.",
+          "uz": "Aynan shunday."
         },
         {
           "id": "NE028",
           "en": "I'm all for it.",
-          "ru": "Я полностью за."
+          "ru": "Я полностью за.",
+          "uz": "Men toʻliq tarafdorman."
         },
         {
           "id": "NE029",
           "en": "Count me in.",
-          "ru": "Считайте меня участником."
+          "ru": "Считайте меня участником.",
+          "uz": "Meni ham hisobga oling."
         },
         {
           "id": "NE030",
           "en": "You've got a point there.",
-          "ru": "В этом ты прав(а)."
+          "ru": "В этом ты прав(а).",
+          "uz": "Bunda siz haqsiz."
         }
       ]
     },
@@ -193,58 +227,69 @@
       "order": 4,
       "title": {
         "en": "Natural disagreement",
-        "ru": "Естественное несогласие"
+        "ru": "Естественное несогласие",
+        "uz": "Tabiiy eʼtiroz"
       },
       "phrases": [
         {
           "id": "NE031",
           "en": "I don't know about that.",
-          "ru": "Не уверен(а) насчёт этого."
+          "ru": "Не уверен(а) насчёт этого.",
+          "uz": "Bunisiga ishonchim yoʻq."
         },
         {
           "id": "NE032",
           "en": "I'm not so sure.",
-          "ru": "Я не так уж уверен(а)."
+          "ru": "Я не так уж уверен(а).",
+          "uz": "Ishonchim unchalik komil emas."
         },
         {
           "id": "NE033",
           "en": "Not quite.",
-          "ru": "Не совсем."
+          "ru": "Не совсем.",
+          "uz": "Unchalik emas."
         },
         {
           "id": "NE034",
           "en": "I wouldn't go that far.",
-          "ru": "Я бы не стал(а) так далеко заходить."
+          "ru": "Я бы не стал(а) так далеко заходить.",
+          "uz": "Men bunchalik deb aytmagan boʻlardim."
         },
         {
           "id": "NE035",
           "en": "That's not how I see it.",
-          "ru": "Я вижу это иначе."
+          "ru": "Я вижу это иначе.",
+          "uz": "Men buni boshqacha koʻraman."
         },
         {
           "id": "NE036",
           "en": "I beg to differ.",
-          "ru": "Позволю себе не согласиться."
+          "ru": "Позволю себе не согласиться.",
+          "uz": "Rozi boʻlmasligimga ijozat bering."
         },
         {
           "id": "NE037",
           "en": "Maybe, but...",
-          "ru": "Возможно, но..."
+          "ru": "Возможно, но...",
+          "uz": "Boʻlishi mumkin, lekin..."
         },
         {
           "id": "NE038",
           "en": "I get what you're saying, but...",
-          "ru": "Я понимаю, что ты говоришь, но..."
+          "ru": "Я понимаю, что ты говоришь, но...",
+          "uz": "Nima deyayotganingizni tushunaman, lekin..."
         },
         {
           "id": "NE039",
           "en": "I'm not buying it.",
-          "ru": "Я в это не верю."
+          "ru": "Я в это не верю.",
+          "uz": "Men bunga ishonmayman."
         },
         {
           "id": "NE040",
           "en": "Let's agree to disagree.",
-          "ru": "Давай останемся каждый при своём мнении."
+          "ru": "Давай останемся каждый при своём мнении.",
+          "uz": "Keling, har birimiz oʻz fikrimizda qolaylik."
         }
       ]
     },
@@ -253,58 +298,69 @@
       "order": 5,
       "title": {
         "en": "Sounding less formal",
-        "ru": "Менее формальная речь"
+        "ru": "Менее формальная речь",
+        "uz": "Kamroq rasmiy nutq"
       },
       "phrases": [
         {
           "id": "NE041",
           "en": "A bit",
-          "ru": "Немного."
+          "ru": "Немного.",
+          "uz": "Biroz."
         },
         {
           "id": "NE042",
           "en": "Kind of",
-          "ru": "Вроде как; своего рода."
+          "ru": "Вроде как; своего рода.",
+          "uz": "Qandaydir; bir turdagi."
         },
         {
           "id": "NE043",
           "en": "Sort of",
-          "ru": "В некотором смысле."
+          "ru": "В некотором смысле.",
+          "uz": "Maʼlum maʼnoda."
         },
         {
           "id": "NE044",
           "en": "Pretty much",
-          "ru": "В основном; практически."
+          "ru": "В основном; практически.",
+          "uz": "Asosan; deyarli."
         },
         {
           "id": "NE045",
           "en": "More or less",
-          "ru": "Более или менее."
+          "ru": "Более или менее.",
+          "uz": "Ozmi-koʻpmi; taxminan."
         },
         {
           "id": "NE046",
           "en": "A bunch of",
-          "ru": "Много; целая куча."
+          "ru": "Много; целая куча.",
+          "uz": "Koʻp; bir talay."
         },
         {
           "id": "NE047",
           "en": "Loads of",
-          "ru": "Очень много."
+          "ru": "Очень много.",
+          "uz": "Juda koʻp."
         },
         {
           "id": "NE048",
           "en": "A couple of",
-          "ru": "Пара; несколько."
+          "ru": "Пара; несколько.",
+          "uz": "Bir juft; bir nechta."
         },
         {
           "id": "NE049",
           "en": "Stuff like that",
-          "ru": "Что-то в этом роде."
+          "ru": "Что-то в этом роде.",
+          "uz": "Shunga oʻxshash narsalar."
         },
         {
           "id": "NE050",
           "en": "And things like that",
-          "ru": "И тому подобное."
+          "ru": "И тому подобное.",
+          "uz": "Va shunga oʻxshaganlar."
         }
       ]
     },
@@ -313,58 +369,69 @@
       "order": 6,
       "title": {
         "en": "Talking about plans",
-        "ru": "Разговор о планах"
+        "ru": "Разговор о планах",
+        "uz": "Rejalar haqida suhbat"
       },
       "phrases": [
         {
           "id": "NE051",
           "en": "I'm up for it.",
-          "ru": "Я не против / я за."
+          "ru": "Я не против / я за.",
+          "uz": "Men roziman."
         },
         {
           "id": "NE052",
           "en": "Let's play it by ear.",
-          "ru": "Будем решать по ходу дела."
+          "ru": "Будем решать по ходу дела.",
+          "uz": "Keling, vaziyatga qarab hal qilamiz."
         },
         {
           "id": "NE053",
           "en": "I'm not sure yet.",
-          "ru": "Я пока не уверен(а)."
+          "ru": "Я пока не уверен(а).",
+          "uz": "Hozircha ishonchim komil emas."
         },
         {
           "id": "NE054",
           "en": "I'll see how I feel.",
-          "ru": "Посмотрю по самочувствию."
+          "ru": "Посмотрю по самочувствию.",
+          "uz": "Oʻzimni qanday his qilishimga qarab koʻraman."
         },
         {
           "id": "NE055",
           "en": "Let's see what happens.",
-          "ru": "Посмотрим, что будет."
+          "ru": "Посмотрим, что будет.",
+          "uz": "Koʻramiz, nima boʻlarkin."
         },
         {
           "id": "NE056",
           "en": "I'm thinking about it.",
-          "ru": "Я об этом думаю."
+          "ru": "Я об этом думаю.",
+          "uz": "Men bu haqda oʻylayapman."
         },
         {
           "id": "NE057",
           "en": "I'm leaning toward staying in.",
-          "ru": "Я склоняюсь к тому, чтобы остаться дома."
+          "ru": "Я склоняюсь к тому, чтобы остаться дома.",
+          "uz": "Men uyda qolishga moyilman."
         },
         {
           "id": "NE058",
           "en": "It's still up in the air.",
-          "ru": "Это пока не решено."
+          "ru": "Это пока не решено.",
+          "uz": "Bu hali hal boʻlgani yoʻq."
         },
         {
           "id": "NE059",
           "en": "I'll keep you posted.",
-          "ru": "Буду держать тебя в курсе."
+          "ru": "Буду держать тебя в курсе.",
+          "uz": "Sizni xabardor qilib turaman."
         },
         {
           "id": "NE060",
           "en": "Let's make it happen.",
-          "ru": "Давай сделаем так, чтобы это произошло."
+          "ru": "Давай сделаем так, чтобы это произошло.",
+          "uz": "Keling, buni amalga oshiraylik."
         }
       ]
     },
@@ -373,58 +440,69 @@
       "order": 7,
       "title": {
         "en": "Reassuring naturally",
-        "ru": "Естественное успокоение"
+        "ru": "Естественное успокоение",
+        "uz": "Tabiiy tinchlantirish"
       },
       "phrases": [
         {
           "id": "NE061",
           "en": "You're all good.",
-          "ru": "Всё нормально."
+          "ru": "Всё нормально.",
+          "uz": "Hammasi joyida."
         },
         {
           "id": "NE062",
           "en": "Don't sweat it.",
-          "ru": "Не переживай."
+          "ru": "Не переживай.",
+          "uz": "Xavotir olmang."
         },
         {
           "id": "NE063",
           "en": "It's all good.",
-          "ru": "Всё хорошо."
+          "ru": "Всё хорошо.",
+          "uz": "Hammasi yaxshi."
         },
         {
           "id": "NE064",
           "en": "No biggie.",
-          "ru": "Ничего страшного."
+          "ru": "Ничего страшного.",
+          "uz": "Katta gap emas."
         },
         {
           "id": "NE065",
           "en": "It'll work out.",
-          "ru": "Всё наладится."
+          "ru": "Всё наладится.",
+          "uz": "Hammasi yaxshi boʻlib ketadi."
         },
         {
           "id": "NE066",
           "en": "We've all been there.",
-          "ru": "Со всеми такое бывало."
+          "ru": "Со всеми такое бывало.",
+          "uz": "Bu hammamizning boshimizdan oʻtgan."
         },
         {
           "id": "NE067",
           "en": "Take it easy.",
-          "ru": "Не переживай; полегче."
+          "ru": "Не переживай; полегче.",
+          "uz": "Xotirjam boʻling; shoshilmang."
         },
         {
           "id": "NE068",
           "en": "You're doing fine.",
-          "ru": "У тебя всё хорошо получается."
+          "ru": "У тебя всё хорошо получается.",
+          "uz": "Sizda yaxshi chiqyapti."
         },
         {
           "id": "NE069",
           "en": "It's not the end of the world.",
-          "ru": "Это не конец света."
+          "ru": "Это не конец света.",
+          "uz": "Bu dunyoning oxiri emas."
         },
         {
           "id": "NE070",
           "en": "One thing at a time.",
-          "ru": "По одному делу за раз."
+          "ru": "По одному делу за раз.",
+          "uz": "Bir vaqtda bitta ish."
         }
       ]
     },
@@ -433,58 +511,69 @@
       "order": 8,
       "title": {
         "en": "Everyday emphasis",
-        "ru": "Усиление мысли"
+        "ru": "Усиление мысли",
+        "uz": "Fikrni kuchaytirish"
       },
       "phrases": [
         {
           "id": "NE071",
           "en": "I literally can't.",
-          "ru": "Я буквально не могу (разг.)."
+          "ru": "Я буквально не могу (разг.).",
+          "uz": "Men chindan ham qila olmayman (soʻzlashuv)."
         },
         {
           "id": "NE072",
           "en": "I'm so done with this.",
-          "ru": "С меня хватит этого."
+          "ru": "С меня хватит этого.",
+          "uz": "Bu jonimga tegdi."
         },
         {
           "id": "NE073",
           "en": "That's a whole different story.",
-          "ru": "Это совсем другая история."
+          "ru": "Это совсем другая история.",
+          "uz": "Bu butunlay boshqa gap."
         },
         {
           "id": "NE074",
           "en": "It's such a pain.",
-          "ru": "Это такая морока."
+          "ru": "Это такая морока.",
+          "uz": "Bu juda ovora qiladigan ish."
         },
         {
           "id": "NE075",
           "en": "I'm really into it.",
-          "ru": "Мне это очень нравится."
+          "ru": "Мне это очень нравится.",
+          "uz": "Bu menga juda yoqadi."
         },
         {
           "id": "NE076",
           "en": "It's super easy.",
-          "ru": "Это очень просто."
+          "ru": "Это очень просто.",
+          "uz": "Bu juda oson."
         },
         {
           "id": "NE077",
           "en": "I'm dead tired.",
-          "ru": "Я смертельно устал(а)."
+          "ru": "Я смертельно устал(а).",
+          "uz": "Men oʻlguday charchadim."
         },
         {
           "id": "NE078",
           "en": "That was a close call.",
-          "ru": "Чуть не случилась беда."
+          "ru": "Чуть не случилась беда.",
+          "uz": "Sal boʻlmasa falokat yuz berardi."
         },
         {
           "id": "NE079",
           "en": "It's way too expensive.",
-          "ru": "Это слишком дорого."
+          "ru": "Это слишком дорого.",
+          "uz": "Bu juda ham qimmat."
         },
         {
           "id": "NE080",
           "en": "I'm not even joking.",
-          "ru": "Я даже не шучу."
+          "ru": "Я даже не шучу.",
+          "uz": "Men hazillashayotganim ham yoʻq."
         }
       ]
     },
@@ -493,58 +582,69 @@
       "order": 9,
       "title": {
         "en": "Softening what you say",
-        "ru": "Смягчение высказываний"
+        "ru": "Смягчение высказываний",
+        "uz": "Gapni yumshatish"
       },
       "phrases": [
         {
           "id": "NE081",
           "en": "I guess...",
-          "ru": "Полагаю..."
+          "ru": "Полагаю...",
+          "uz": "Menimcha..."
         },
         {
           "id": "NE082",
           "en": "I suppose...",
-          "ru": "Думаю... / Полагаю..."
+          "ru": "Думаю... / Полагаю...",
+          "uz": "Oʻylaymanki... / Taxminimcha..."
         },
         {
           "id": "NE083",
           "en": "Maybe it's just me, but...",
-          "ru": "Может, это только мне кажется, но..."
+          "ru": "Может, это только мне кажется, но...",
+          "uz": "Balki menga shunday tuyulayotgandir, lekin..."
         },
         {
           "id": "NE084",
           "en": "I could be wrong.",
-          "ru": "Возможно, я ошибаюсь."
+          "ru": "Возможно, я ошибаюсь.",
+          "uz": "Men adashayotgan boʻlishim mumkin."
         },
         {
           "id": "NE085",
           "en": "As far as I can tell...",
-          "ru": "Насколько я могу судить..."
+          "ru": "Насколько я могу судить...",
+          "uz": "Men bilganimcha..."
         },
         {
           "id": "NE086",
           "en": "If that makes sense.",
-          "ru": "Если я понятно объяснил(а)."
+          "ru": "Если я понятно объяснил(а).",
+          "uz": "Agar tushunarli tushuntirgan boʻlsam."
         },
         {
           "id": "NE087",
           "en": "I don't mean to be rude.",
-          "ru": "Я не хочу показаться грубым / грубой."
+          "ru": "Я не хочу показаться грубым / грубой.",
+          "uz": "Qoʻpol koʻrinishni istamayman."
         },
         {
           "id": "NE088",
           "en": "To be fair...",
-          "ru": "Справедливости ради..."
+          "ru": "Справедливости ради...",
+          "uz": "Adolat yuzasidan aytganda..."
         },
         {
           "id": "NE089",
           "en": "I see what you mean, though.",
-          "ru": "Хотя я понимаю, что ты имеешь в виду."
+          "ru": "Хотя я понимаю, что ты имеешь в виду.",
+          "uz": "Baribir nimani nazarda tutayotganingizni tushunaman."
         },
         {
           "id": "NE090",
           "en": "That's just my take on it.",
-          "ru": "Это просто мой взгляд на ситуацию."
+          "ru": "Это просто мой взгляд на ситуацию.",
+          "uz": "Bu shunchaki mening qarashim."
         }
       ]
     },
@@ -553,58 +653,69 @@
       "order": 10,
       "title": {
         "en": "Telling stories",
-        "ru": "Рассказ историй"
+        "ru": "Рассказ историй",
+        "uz": "Voqea hikoya qilish"
       },
       "phrases": [
         {
           "id": "NE091",
           "en": "So, guess what happened.",
-          "ru": "Так вот, угадай, что случилось."
+          "ru": "Так вот, угадай, что случилось.",
+          "uz": "Xullas, nima boʻldi deb oʻylaysiz?"
         },
         {
           "id": "NE092",
           "en": "Long story short...",
-          "ru": "Короче говоря..."
+          "ru": "Короче говоря...",
+          "uz": "Qisqasi..."
         },
         {
           "id": "NE093",
           "en": "You won't believe this.",
-          "ru": "Ты в это не поверишь."
+          "ru": "Ты в это не поверишь.",
+          "uz": "Bunga ishonmaysiz."
         },
         {
           "id": "NE094",
           "en": "Here's the funny part.",
-          "ru": "А вот тут самое смешное."
+          "ru": "А вот тут самое смешное.",
+          "uz": "Eng qizigʻi shu yerda."
         },
         {
           "id": "NE095",
           "en": "Out of nowhere...",
-          "ru": "Совершенно неожиданно..."
+          "ru": "Совершенно неожиданно...",
+          "uz": "Kutilmaganda..."
         },
         {
           "id": "NE096",
           "en": "Before I knew it...",
-          "ru": "Не успел(а) я опомниться, как..."
+          "ru": "Не успел(а) я опомниться, как...",
+          "uz": "Men oʻzimga kelgunimcha..."
         },
         {
           "id": "NE097",
           "en": "Next thing I knew...",
-          "ru": "И вдруг оказалось, что..."
+          "ru": "И вдруг оказалось, что...",
+          "uz": "Birdan maʼlum boʻldiki..."
         },
         {
           "id": "NE098",
           "en": "It turned out that...",
-          "ru": "Оказалось, что..."
+          "ru": "Оказалось, что...",
+          "uz": "Maʼlum boʻlishicha..."
         },
         {
           "id": "NE099",
           "en": "The best part was...",
-          "ru": "Самое лучшее было то, что..."
+          "ru": "Самое лучшее было то, что...",
+          "uz": "Eng yaxshi tomoni shu ediki..."
         },
         {
           "id": "NE100",
           "en": "That's how it all started.",
-          "ru": "Вот так всё и началось."
+          "ru": "Вот так всё и началось.",
+          "uz": "Mana shunday hammasi boshlangan."
         }
       ]
     },
@@ -613,58 +724,69 @@
       "order": 11,
       "title": {
         "en": "Everyday idiomatic phrases",
-        "ru": "Идиоматические фразы"
+        "ru": "Идиоматические фразы",
+        "uz": "Kundalik idiomatik iboralar"
       },
       "phrases": [
         {
           "id": "NE101",
           "en": "It's up to you.",
-          "ru": "Решать тебе."
+          "ru": "Решать тебе.",
+          "uz": "Oʻzingiz hal qiling."
         },
         {
           "id": "NE102",
           "en": "Give it a shot.",
-          "ru": "Попробуй."
+          "ru": "Попробуй.",
+          "uz": "Bir urinib koʻring."
         },
         {
           "id": "NE103",
           "en": "Hang in there.",
-          "ru": "Держись."
+          "ru": "Держись.",
+          "uz": "Bardosh bering."
         },
         {
           "id": "NE104",
           "en": "Fingers crossed.",
-          "ru": "Будем надеяться; держу кулачки."
+          "ru": "Будем надеяться; держу кулачки.",
+          "uz": "Umid qilamiz; omad tilayman."
         },
         {
           "id": "NE105",
           "en": "I'm all ears.",
-          "ru": "Я весь внимание."
+          "ru": "Я весь внимание.",
+          "uz": "Diqqat bilan eshitaman."
         },
         {
           "id": "NE106",
           "en": "It's not my cup of tea.",
-          "ru": "Это не в моём вкусе."
+          "ru": "Это не в моём вкусе.",
+          "uz": "Bu mening didimga toʻgʻri kelmaydi."
         },
         {
           "id": "NE107",
           "en": "Better late than never.",
-          "ru": "Лучше поздно, чем никогда."
+          "ru": "Лучше поздно, чем никогда.",
+          "uz": "Hech boʻlmagandan kech boʻlgani yaxshi."
         },
         {
           "id": "NE108",
           "en": "So far, so good.",
-          "ru": "Пока всё хорошо."
+          "ru": "Пока всё хорошо.",
+          "uz": "Hozircha hammasi yaxshi."
         },
         {
           "id": "NE109",
           "en": "The sooner, the better.",
-          "ru": "Чем скорее, тем лучше."
+          "ru": "Чем скорее, тем лучше.",
+          "uz": "Qanchalik tez boʻlsa, shunchalik yaxshi."
         },
         {
           "id": "NE110",
           "en": "That's the last straw.",
-          "ru": "Это последняя капля."
+          "ru": "Это последняя капля.",
+          "uz": "Bu sabr kosasini toʻldirdi."
         }
       ]
     },
@@ -673,58 +795,69 @@
       "order": 12,
       "title": {
         "en": "Responding to news",
-        "ru": "Реакция на новости"
+        "ru": "Реакция на новости",
+        "uz": "Yangilikka munosabat"
       },
       "phrases": [
         {
           "id": "NE111",
           "en": "That's awesome!",
-          "ru": "Это потрясающе!"
+          "ru": "Это потрясающе!",
+          "uz": "Bu zoʻr-ku!"
         },
         {
           "id": "NE112",
           "en": "That's rough.",
-          "ru": "Непросто тебе пришлось."
+          "ru": "Непросто тебе пришлось.",
+          "uz": "Sizga oson boʻlmagan ekan."
         },
         {
           "id": "NE113",
           "en": "What a bummer.",
-          "ru": "Как обидно."
+          "ru": "Как обидно.",
+          "uz": "Qanday achinarli."
         },
         {
           "id": "NE114",
           "en": "I'm happy for you.",
-          "ru": "Я рад(а) за тебя."
+          "ru": "Я рад(а) за тебя.",
+          "uz": "Men siz uchun xursandman."
         },
         {
           "id": "NE115",
           "en": "You deserve it.",
-          "ru": "Ты это заслужил(а)."
+          "ru": "Ты это заслужил(а).",
+          "uz": "Siz bunga loyiqsiz."
         },
         {
           "id": "NE116",
           "en": "That's a relief.",
-          "ru": "Какое облегчение."
+          "ru": "Какое облегчение.",
+          "uz": "Qanday yengillik."
         },
         {
           "id": "NE117",
           "en": "I didn't see that coming.",
-          "ru": "Я этого не ожидал(а)."
+          "ru": "Я этого не ожидал(а).",
+          "uz": "Men buni kutmagandim."
         },
         {
           "id": "NE118",
           "en": "Good for you!",
-          "ru": "Рад(а) за тебя!"
+          "ru": "Рад(а) за тебя!",
+          "uz": "Barakalla!"
         },
         {
           "id": "NE119",
           "en": "That's unfortunate.",
-          "ru": "Как неудачно."
+          "ru": "Как неудачно.",
+          "uz": "Qanday omadsizlik."
         },
         {
           "id": "NE120",
           "en": "I'm sorry to hear that.",
-          "ru": "Мне жаль это слышать."
+          "ru": "Мне жаль это слышать.",
+          "uz": "Buni eshitganimdan afsusdaman."
         }
       ]
     },
@@ -733,58 +866,69 @@
       "order": 13,
       "title": {
         "en": "Casual invitations",
-        "ru": "Неформальные приглашения"
+        "ru": "Неформальные приглашения",
+        "uz": "Norasmiy takliflar"
       },
       "phrases": [
         {
           "id": "NE121",
           "en": "Wanna grab a bite?",
-          "ru": "Хочешь перекусить?"
+          "ru": "Хочешь перекусить?",
+          "uz": "Gazak qilamizmi?"
         },
         {
           "id": "NE122",
           "en": "Fancy a coffee?",
-          "ru": "Хочешь кофе?"
+          "ru": "Хочешь кофе?",
+          "uz": "Qahva ichamizmi?"
         },
         {
           "id": "NE123",
           "en": "Do you wanna come along?",
-          "ru": "Хочешь пойти с нами?"
+          "ru": "Хочешь пойти с нами?",
+          "uz": "Biz bilan borasizmi?"
         },
         {
           "id": "NE124",
           "en": "I'm game.",
-          "ru": "Я за."
+          "ru": "Я за.",
+          "uz": "Men tayyorman."
         },
         {
           "id": "NE125",
           "en": "I'm up for anything.",
-          "ru": "Я не против чего угодно."
+          "ru": "Я не против чего угодно.",
+          "uz": "Men hamma narsaga tayyorman."
         },
         {
           "id": "NE126",
           "en": "Let's hang out.",
-          "ru": "Давай проведём время вместе."
+          "ru": "Давай проведём время вместе.",
+          "uz": "Keling, birga vaqt oʻtkazaylik."
         },
         {
           "id": "NE127",
           "en": "Come on over.",
-          "ru": "Заходи."
+          "ru": "Заходи.",
+          "uz": "Kelavering."
         },
         {
           "id": "NE128",
           "en": "Feel free to join us.",
-          "ru": "Присоединяйся, если хочешь."
+          "ru": "Присоединяйся, если хочешь.",
+          "uz": "Xohlasangiz, bemalol qoʻshiling."
         },
         {
           "id": "NE129",
           "en": "I'm gonna head out.",
-          "ru": "Я собираюсь уходить."
+          "ru": "Я собираюсь уходить.",
+          "uz": "Men ketmoqchiman."
         },
         {
           "id": "NE130",
           "en": "Catch you later.",
-          "ru": "Увидимся позже."
+          "ru": "Увидимся позже.",
+          "uz": "Keyinroq koʻrishamiz."
         }
       ]
     },
@@ -793,58 +937,69 @@
       "order": 14,
       "title": {
         "en": "Casual time expressions",
-        "ru": "Разговорные выражения времени"
+        "ru": "Разговорные выражения времени",
+        "uz": "Vaqtni bildiruvchi soʻzlashuv iboralari"
       },
       "phrases": [
         {
           "id": "NE131",
           "en": "In a bit",
-          "ru": "Скоро; через некоторое время."
+          "ru": "Скоро; через некоторое время.",
+          "uz": "Tez orada; biroz vaqtdan keyin."
         },
         {
           "id": "NE132",
           "en": "Right away",
-          "ru": "Сразу же."
+          "ru": "Сразу же.",
+          "uz": "Darhol."
         },
         {
           "id": "NE133",
           "en": "Anytime soon",
-          "ru": "В ближайшее время."
+          "ru": "В ближайшее время.",
+          "uz": "Yaqin kelajakda."
         },
         {
           "id": "NE134",
           "en": "Once in a while",
-          "ru": "Время от времени."
+          "ru": "Время от времени.",
+          "uz": "Goho-goho."
         },
         {
           "id": "NE135",
           "en": "Every now and then",
-          "ru": "Время от времени."
+          "ru": "Время от времени.",
+          "uz": "Vaqti-vaqti bilan."
         },
         {
           "id": "NE136",
           "en": "For ages",
-          "ru": "Очень давно; целую вечность."
+          "ru": "Очень давно; целую вечность.",
+          "uz": "Juda koʻpdan beri; bir asrdan buyon."
         },
         {
           "id": "NE137",
           "en": "At the last minute",
-          "ru": "В последнюю минуту."
+          "ru": "В последнюю минуту.",
+          "uz": "Soʻnggi daqiqada."
         },
         {
           "id": "NE138",
           "en": "From time to time",
-          "ru": "Время от времени."
+          "ru": "Время от времени.",
+          "uz": "Ora-sira."
         },
         {
           "id": "NE139",
           "en": "Before long",
-          "ru": "Вскоре."
+          "ru": "Вскоре.",
+          "uz": "Koʻp oʻtmay."
         },
         {
           "id": "NE140",
           "en": "For the time being",
-          "ru": "Пока что."
+          "ru": "Пока что.",
+          "uz": "Hozircha."
         }
       ]
     },
@@ -853,58 +1008,69 @@
       "order": 15,
       "title": {
         "en": "Casual ways to describe people",
-        "ru": "Описание людей в разговоре"
+        "ru": "Описание людей в разговоре",
+        "uz": "Suhbatda odamlarni taʼriflash"
       },
       "phrases": [
         {
           "id": "NE141",
           "en": "He's easygoing.",
-          "ru": "Он лёгкий в общении."
+          "ru": "Он лёгкий в общении.",
+          "uz": "U muloqotda yengil odam."
         },
         {
           "id": "NE142",
           "en": "She's down-to-earth.",
-          "ru": "Она простая и практичная."
+          "ru": "Она простая и практичная.",
+          "uz": "U sodda va amaliy inson."
         },
         {
           "id": "NE143",
           "en": "He's a bit of a handful.",
-          "ru": "С ним бывает непросто."
+          "ru": "С ним бывает непросто.",
+          "uz": "U bilan baʼzan oson emas."
         },
         {
           "id": "NE144",
           "en": "She's good company.",
-          "ru": "С ней приятно проводить время."
+          "ru": "С ней приятно проводить время.",
+          "uz": "U bilan vaqt oʻtkazish yoqimli."
         },
         {
           "id": "NE145",
           "en": "He's such a character.",
-          "ru": "Он очень своеобразный человек."
+          "ru": "Он очень своеобразный человек.",
+          "uz": "U juda oʻziga xos odam."
         },
         {
           "id": "NE146",
           "en": "She's got a great vibe.",
-          "ru": "От неё исходит отличная энергия."
+          "ru": "От неё исходит отличная энергия.",
+          "uz": "Undan ajoyib energiya taralib turadi."
         },
         {
           "id": "NE147",
           "en": "He's pretty laid-back.",
-          "ru": "Он довольно спокойный."
+          "ru": "Он довольно спокойный.",
+          "uz": "U ancha xotirjam odam."
         },
         {
           "id": "NE148",
           "en": "She's full of energy.",
-          "ru": "Она полна энергии."
+          "ru": "Она полна энергии.",
+          "uz": "U energiyaga toʻla."
         },
         {
           "id": "NE149",
           "en": "He's not much of a talker.",
-          "ru": "Он не очень разговорчивый."
+          "ru": "Он не очень разговорчивый.",
+          "uz": "U koʻp gapiradiganlardan emas."
         },
         {
           "id": "NE150",
           "en": "They're on the same wavelength.",
-          "ru": "Они на одной волне."
+          "ru": "Они на одной волне.",
+          "uz": "Ular bir toʻlqinda."
         }
       ]
     },
@@ -913,58 +1079,69 @@
       "order": 16,
       "title": {
         "en": "Everyday complaints",
-        "ru": "Повседневные жалобы"
+        "ru": "Повседневные жалобы",
+        "uz": "Kundalik nolishlar"
       },
       "phrases": [
         {
           "id": "NE151",
           "en": "What a hassle.",
-          "ru": "Какая морока."
+          "ru": "Какая морока.",
+          "uz": "Qanday ovora."
         },
         {
           "id": "NE152",
           "en": "That's annoying.",
-          "ru": "Это раздражает."
+          "ru": "Это раздражает.",
+          "uz": "Bu asabni buzadi."
         },
         {
           "id": "NE153",
           "en": "I'm fed up with this.",
-          "ru": "Мне это надоело."
+          "ru": "Мне это надоело.",
+          "uz": "Bundan charchadim."
         },
         {
           "id": "NE154",
           "en": "It drives me crazy.",
-          "ru": "Это сводит меня с ума."
+          "ru": "Это сводит меня с ума.",
+          "uz": "Bu meni aqldan ozdiradi."
         },
         {
           "id": "NE155",
           "en": "What a mess.",
-          "ru": "Какой беспорядок."
+          "ru": "Какой беспорядок.",
+          "uz": "Qanday tartibsizlik."
         },
         {
           "id": "NE156",
           "en": "This is taking forever.",
-          "ru": "Это длится целую вечность."
+          "ru": "Это длится целую вечность.",
+          "uz": "Bu cheksiz choʻzilyapti."
         },
         {
           "id": "NE157",
           "en": "I can't be bothered.",
-          "ru": "Мне не хочется этим заниматься."
+          "ru": "Мне не хочется этим заниматься.",
+          "uz": "Bu bilan shugʻullanishga hafsalam yoʻq."
         },
         {
           "id": "NE158",
           "en": "That's such a pain.",
-          "ru": "Это такая головная боль."
+          "ru": "Это такая головная боль.",
+          "uz": "Bu juda bosh ogʻrigʻi."
         },
         {
           "id": "NE159",
           "en": "Things aren't going as planned.",
-          "ru": "Всё идёт не по плану."
+          "ru": "Всё идёт не по плану.",
+          "uz": "Hammasi reja boʻyicha ketmayapti."
         },
         {
           "id": "NE160",
           "en": "Could be worse.",
-          "ru": "Могло быть и хуже."
+          "ru": "Могло быть и хуже.",
+          "uz": "Bundan battar ham boʻlishi mumkin edi."
         }
       ]
     },
@@ -973,58 +1150,69 @@
       "order": 17,
       "title": {
         "en": "Casual apologies",
-        "ru": "Неформальные извинения"
+        "ru": "Неформальные извинения",
+        "uz": "Norasmiy uzr soʻrash"
       },
       "phrases": [
         {
           "id": "NE161",
           "en": "Oops, my bad.",
-          "ru": "Ой, моя вина."
+          "ru": "Ой, моя вина.",
+          "uz": "Voy, mening aybim."
         },
         {
           "id": "NE162",
           "en": "Sorry about that.",
-          "ru": "Извини за это."
+          "ru": "Извини за это.",
+          "uz": "Bunisi uchun uzr."
         },
         {
           "id": "NE163",
           "en": "I didn't mean it.",
-          "ru": "Я не это имел(а) в виду."
+          "ru": "Я не это имел(а) в виду.",
+          "uz": "Men buni nazarda tutmagandim."
         },
         {
           "id": "NE164",
           "en": "I messed up.",
-          "ru": "Я накосячил(а)."
+          "ru": "Я накосячил(а).",
+          "uz": "Men xato qildim."
         },
         {
           "id": "NE165",
           "en": "That's on me.",
-          "ru": "Это моя ответственность / моя вина."
+          "ru": "Это моя ответственность / моя вина.",
+          "uz": "Bu mening javobgarligim."
         },
         {
           "id": "NE166",
           "en": "I totally forgot.",
-          "ru": "Я совсем забыл(а)."
+          "ru": "Я совсем забыл(а).",
+          "uz": "Men butunlay unutibman."
         },
         {
           "id": "NE167",
           "en": "Sorry, I got caught up.",
-          "ru": "Извини, я увлёкся / задержался."
+          "ru": "Извини, я увлёкся / задержался.",
+          "uz": "Kechirasiz, ishim chiqib qoldi."
         },
         {
           "id": "NE168",
           "en": "I should've told you.",
-          "ru": "Мне следовало тебе сказать."
+          "ru": "Мне следовало тебе сказать.",
+          "uz": "Sizga aytishim kerak edi."
         },
         {
           "id": "NE169",
           "en": "I owe you an apology.",
-          "ru": "Я должен / должна перед тобой извиниться."
+          "ru": "Я должен / должна перед тобой извиниться.",
+          "uz": "Sizdan uzr soʻrashim kerak."
         },
         {
           "id": "NE170",
           "en": "We're good, right?",
-          "ru": "Между нами всё нормально?"
+          "ru": "Между нами всё нормально?",
+          "uz": "Oramizda hammasi joyida-a?"
         }
       ]
     },
@@ -1033,58 +1221,69 @@
       "order": 18,
       "title": {
         "en": "Casual requests",
-        "ru": "Неформальные просьбы"
+        "ru": "Неформальные просьбы",
+        "uz": "Norasmiy iltimoslar"
       },
       "phrases": [
         {
           "id": "NE171",
           "en": "Can you give me a sec?",
-          "ru": "Дашь мне секундочку?"
+          "ru": "Дашь мне секундочку?",
+          "uz": "Menga bir soniya bera olasizmi?"
         },
         {
           "id": "NE172",
           "en": "Mind helping me out?",
-          "ru": "Не поможешь мне?"
+          "ru": "Не поможешь мне?",
+          "uz": "Menga yordam bermaysizmi?"
         },
         {
           "id": "NE173",
           "en": "Can you do me a quick favour?",
-          "ru": "Можешь оказать мне небольшую услугу?"
+          "ru": "Можешь оказать мне небольшую услугу?",
+          "uz": "Menga kichik yaxshilik qila olasizmi?"
         },
         {
           "id": "NE174",
           "en": "Could you pass me that?",
-          "ru": "Передашь мне это?"
+          "ru": "Передашь мне это?",
+          "uz": "Buni menga uzatib bera olasizmi?"
         },
         {
           "id": "NE175",
           "en": "Give me a heads-up.",
-          "ru": "Предупреди меня заранее."
+          "ru": "Предупреди меня заранее.",
+          "uz": "Meni oldindan ogohlantiring."
         },
         {
           "id": "NE176",
           "en": "Let me know.",
-          "ru": "Дай мне знать."
+          "ru": "Дай мне знать.",
+          "uz": "Menga xabar bering."
         },
         {
           "id": "NE177",
           "en": "Keep an eye on this.",
-          "ru": "Присмотри за этим."
+          "ru": "Присмотри за этим.",
+          "uz": "Bunga koʻz-quloq boʻling."
         },
         {
           "id": "NE178",
           "en": "Can you save me a spot?",
-          "ru": "Можешь занять мне место?"
+          "ru": "Можешь занять мне место?",
+          "uz": "Menga joy band qilib qoʻya olasizmi?"
         },
         {
           "id": "NE179",
           "en": "Can I borrow this for a sec?",
-          "ru": "Можно я ненадолго это возьму?"
+          "ru": "Можно я ненадолго это возьму?",
+          "uz": "Buni bir zumga olib tursam boʻladimi?"
         },
         {
           "id": "NE180",
           "en": "Give me a minute.",
-          "ru": "Дай мне минуту."
+          "ru": "Дай мне минуту.",
+          "uz": "Menga bir daqiqa bering."
         }
       ]
     },
@@ -1093,58 +1292,69 @@
       "order": 19,
       "title": {
         "en": "Natural conversation closers",
-        "ru": "Естественное завершение разговора"
+        "ru": "Естественное завершение разговора",
+        "uz": "Suhbatni tabiiy yakunlash"
       },
       "phrases": [
         {
           "id": "NE181",
           "en": "Anyway, I should get going.",
-          "ru": "Ладно, мне пора идти."
+          "ru": "Ладно, мне пора идти.",
+          "uz": "Xullas, men ketishim kerak."
         },
         {
           "id": "NE182",
           "en": "I'll let you get back to it.",
-          "ru": "Не буду тебя отвлекать."
+          "ru": "Не буду тебя отвлекать.",
+          "uz": "Sizni ishingizdan chalgʻitmayin."
         },
         {
           "id": "NE183",
           "en": "Good catching up.",
-          "ru": "Рад(а), что удалось поболтать."
+          "ru": "Рад(а), что удалось поболтать.",
+          "uz": "Suhbatlashganimiz yaxshi boʻldi."
         },
         {
           "id": "NE184",
           "en": "Let's do this again sometime.",
-          "ru": "Давай как-нибудь повторим."
+          "ru": "Давай как-нибудь повторим.",
+          "uz": "Keling, buni yana bir marta takrorlaymiz."
         },
         {
           "id": "NE185",
           "en": "I'll see you around.",
-          "ru": "Ещё увидимся."
+          "ru": "Ещё увидимся.",
+          "uz": "Yana koʻrishamiz."
         },
         {
           "id": "NE186",
           "en": "Take care of yourself.",
-          "ru": "Береги себя."
+          "ru": "Береги себя.",
+          "uz": "Oʻzingizni ehtiyot qiling."
         },
         {
           "id": "NE187",
           "en": "Text me when you get home.",
-          "ru": "Напиши, когда доберёшься домой."
+          "ru": "Напиши, когда доберёшься домой.",
+          "uz": "Uyga yetganingizda yozing."
         },
         {
           "id": "NE188",
           "en": "Give me a call sometime.",
-          "ru": "Как-нибудь позвони мне."
+          "ru": "Как-нибудь позвони мне.",
+          "uz": "Qachondir menga qoʻngʻiroq qiling."
         },
         {
           "id": "NE189",
           "en": "Have a good one.",
-          "ru": "Хорошего дня / всего хорошего."
+          "ru": "Хорошего дня / всего хорошего.",
+          "uz": "Kuningiz yaxshi oʻtsin."
         },
         {
           "id": "NE190",
           "en": "Later!",
-          "ru": "Пока! / До встречи!"
+          "ru": "Пока! / До встречи!",
+          "uz": "Xayr! / Koʻrishguncha!"
         }
       ]
     },
@@ -1153,58 +1363,69 @@
       "order": 20,
       "title": {
         "en": "Common natural expressions",
-        "ru": "Частые естественные выражения"
+        "ru": "Частые естественные выражения",
+        "uz": "Koʻp uchraydigan tabiiy iboralar"
       },
       "phrases": [
         {
           "id": "NE191",
           "en": "It is what it is.",
-          "ru": "Что есть, то есть."
+          "ru": "Что есть, то есть.",
+          "uz": "Bor gap shu."
         },
         {
           "id": "NE192",
           "en": "You never know.",
-          "ru": "Кто знает."
+          "ru": "Кто знает.",
+          "uz": "Kim biladi deysiz."
         },
         {
           "id": "NE193",
           "en": "That's the point.",
-          "ru": "В этом и смысл."
+          "ru": "В этом и смысл.",
+          "uz": "Gap ham shunda."
         },
         {
           "id": "NE194",
           "en": "Long story.",
-          "ru": "Долгая история."
+          "ru": "Долгая история.",
+          "uz": "Uzun hikoya."
         },
         {
           "id": "NE195",
           "en": "I'm just saying.",
-          "ru": "Я просто говорю."
+          "ru": "Я просто говорю.",
+          "uz": "Shunchaki aytyapman."
         },
         {
           "id": "NE196",
           "en": "Don't get me wrong.",
-          "ru": "Не пойми меня неправильно."
+          "ru": "Не пойми меня неправильно.",
+          "uz": "Meni notoʻgʻri tushunmang."
         },
         {
           "id": "NE197",
           "en": "I know, right?",
-          "ru": "Вот именно!"
+          "ru": "Вот именно!",
+          "uz": "Aynan shunday-da!"
         },
         {
           "id": "NE198",
           "en": "Here we go again.",
-          "ru": "Опять начинается."
+          "ru": "Опять начинается.",
+          "uz": "Yana boshlandi."
         },
         {
           "id": "NE199",
           "en": "It happens.",
-          "ru": "Бывает."
+          "ru": "Бывает.",
+          "uz": "Boʻlib turadi."
         },
         {
           "id": "NE200",
           "en": "Let's call it a day.",
-          "ru": "На сегодня закончим."
+          "ru": "На сегодня закончим.",
+          "uz": "Bugunga shu yerda toʻxtaylik."
         }
       ]
     }
