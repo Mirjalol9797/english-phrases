@@ -1,0 +1,200 @@
+phrase|Hi!||Привет!|Salom!
+phrase|Hello!||Здравствуйте! / Привет!|Assalomu alaykum! / Salom!
+phrase|Hey!||Привет!|Hoy! / Salom!
+phrase|Good morning!||Доброе утро!|Xayrli tong!
+phrase|Good afternoon!||Добрый день!|Xayrli kun!
+phrase|Good evening!||Добрый вечер!|Xayrli kech!
+phrase|How are you?||Как дела?|Qalaysiz?
+phrase|How's it going?||Как дела? / Как оно?|Ishlar qalay?
+phrase|How have you been?||Как ты поживал(а)?|Qandaysiz, nima gaplar?
+phrase|It's nice to see you.||Рад(а) тебя видеть.|Sizni koʻrganimdan xursandman.
+phrase|Goodbye!||До свидания!|Xayr!
+phrase|Bye!||Пока!|Xayr! / Koʻrishguncha!
+phrase|See you later.||Увидимся позже.|Keyinroq koʻrishamiz.
+phrase|See you soon.||До скорой встречи.|Tez orada koʻrishamiz.
+phrase|See you tomorrow.||Увидимся завтра.|Ertaga koʻrishamiz.
+phrase|Take care.||Береги себя.|Oʻzingizni ehtiyot qiling.
+phrase|Have a nice day!||Хорошего дня!|Kuningiz yaxshi oʻtsin!
+phrase|Have a good evening!||Хорошего вечера!|Kechangiz yaxshi oʻtsin!
+phrase|Talk to you later.||Поговорим позже.|Keyinroq gaplashamiz.
+phrase|It was nice seeing you.||Было приятно тебя увидеть.|Sizni koʻrganim yaxshi boʻldi.
+phrase|How are things?||Как дела?|Ishlar qalay?
+phrase|How's your day going?||Как проходит твой день?|Kuningiz qanday oʻtyapti?
+phrase|How are you doing?||Как ты? / Как дела?|Oʻzingiz qalaysiz?
+phrase|Everything okay?||Всё в порядке?|Hammasi joyidami?
+phrase|Is everything all right?||Всё хорошо?|Hammasi yaxshimi?
+phrase|What's new?||Что нового?|Nima yangiliklar?
+phrase|Anything new?||Есть что-нибудь новенькое?|Yangilik bormi?
+phrase|I'm good, thanks.||У меня всё хорошо, спасибо.|Yaxshi, rahmat.
+phrase|Pretty good, thanks.||Довольно хорошо, спасибо.|Ancha yaxshi, rahmat.
+phrase|Not bad.||Неплохо.|Yomon emas.
+phrase|What's your name?||Как тебя зовут?|Ismingiz nima?
+phrase|My name is ...||Меня зовут ...|Mening ismim ...
+phrase|You can call me ...||Можешь называть меня ...|Meni ... deb chaqirsangiz boʻladi.
+phrase|Nice to meet you.||Приятно познакомиться.|Tanishganimdan xursandman.
+phrase|Nice to meet you, too.||Мне тоже приятно познакомиться.|Men ham tanishganimdan xursandman.
+phrase|Where are you from?||Откуда ты?|Qayerdansiz?
+phrase|I'm from Uzbekistan.||Я из Узбекистана.|Men Oʻzbekistondanman.
+phrase|Where do you live?||Где ты живёшь?|Qayerda yashaysiz?
+phrase|I live in Tashkent.||Я живу в Ташкенте.|Men Toshkentda yashayman.
+phrase|What do you do?||Кем ты работаешь? / Чем занимаешься?|Nima ish qilasiz?
+phrase|What are you doing?||Что ты делаешь?|Nima qilyapsiz?
+phrase|What are you up to?||Чем занимаешься?|Nima bilan bandsiz?
+phrase|I'm getting ready.||Я собираюсь / готовлюсь.|Tayyorlanyapman.
+phrase|I'm on my way.||Я уже в пути.|Yoʻldaman.
+phrase|I'm just relaxing.||Я просто отдыхаю.|Shunchaki dam olyapman.
+phrase|I'm having lunch.||Я обедаю.|Tushlik qilyapman.
+phrase|I'm working right now.||Я сейчас работаю.|Hozir ishlayapman.
+phrase|I'm going home.||Я иду / еду домой.|Uyga ketyapman.
+phrase|I'm a little busy.||Я немного занят(а).|Birozgina bandman.
+phrase|I'm free right now.||Я сейчас свободен / свободна.|Hozir boʻshman.
+phrase|Are you free today?||Ты сегодня свободен / свободна?|Bugun boʻshmisiz?
+phrase|Are you doing anything tonight?||Ты чем-нибудь занят(а) сегодня вечером?|Bugun kechqurun bandmisiz?
+phrase|Do you want to hang out?||Хочешь провести время вместе?|Birga vaqt oʻtkazmaymizmi?
+phrase|Let's meet up.||Давай встретимся.|Keling, uchrashaylik.
+phrase|Let's go for a walk.||Давай прогуляемся.|Keling, sayr qilaylik.
+phrase|What time works for you?||Какое время тебе подходит?|Sizga qaysi vaqt qulay?
+phrase|Where shall we meet?||Где встретимся?|Qayerda uchrashamiz?
+phrase|That sounds good.||Звучит хорошо.|Bu yaxshi fikr.
+phrase|I'm not sure yet.||Я пока не уверен(а).|Hali aniq bilmayman.
+phrase|I'll let you know.||Я дам тебе знать.|Sizga xabar beraman.
+phrase|Would you like to join us?||Хочешь присоединиться к нам?|Bizga qoʻshilasizmi?
+phrase|Do you want to come with me?||Хочешь пойти со мной?|Men bilan borasizmi?
+phrase|Sure, why not?||Конечно, почему бы и нет?|Albatta, nega boʻlmasin?
+phrase|I'd love to.||С удовольствием.|Bajonidil.
+phrase|That sounds like fun.||Звучит весело.|Qiziqarli boʻladiganga oʻxshaydi.
+phrase|Sorry, I can't make it.||Извини, я не смогу прийти.|Kechirasiz, bora olmayman.
+phrase|Maybe next time.||Может быть, в следующий раз.|Balki keyingi safar.
+phrase|Thanks for inviting me.||Спасибо за приглашение.|Taklif qilganingiz uchun rahmat.
+phrase|Can I bring a friend?||Можно я приведу друга / подругу?|Doʻstimni olib kelsam boʻladimi?
+phrase|What should I bring?||Что мне принести?|Nima olib kelay?
+phrase|Thank you.||Спасибо.|Rahmat.
+phrase|Thanks a lot.||Большое спасибо.|Katta rahmat.
+phrase|Thank you so much.||Огромное спасибо.|Juda katta rahmat.
+phrase|I really appreciate it.||Я очень это ценю.|Buni juda qadrlayman.
+phrase|That's very kind of you.||Это очень мило с твоей стороны.|Bu juda xolisona boʻldi.
+phrase|You're welcome.||Пожалуйста. / Не за что.|Arzimaydi.
+phrase|No problem.||Без проблем.|Muammo yoʻq.
+phrase|Anytime.||Всегда пожалуйста.|Doimo marhamat.
+phrase|Don't mention it.||Не стоит благодарности.|Arzimaydi, gapning kerakmas.
+phrase|I'm glad I could help.||Рад(а), что смог(ла) помочь.|Yordam bera olganimdan xursandman.
+phrase|I'm sorry.||Мне жаль. / Извини(те).|Kechirasiz.
+phrase|Sorry I'm late.||Извини(те), я опоздал(а).|Kechikkanim uchun uzr.
+phrase|I'm so sorry.||Мне очень жаль.|Juda afsusdaman.
+phrase|Sorry about that.||Извини(те) за это.|Bunisi uchun uzr.
+phrase|My mistake.||Моя ошибка.|Mening xatoyim.
+phrase|It was an accident.||Это вышло случайно.|Bu tasodifan boʻldi.
+phrase|I didn't mean to.||Я не хотел(а) этого.|Men bunday boʻlishini xohlamagandim.
+phrase|No worries.||Ничего страшного.|Hechqisi yoʻq.
+phrase|That's okay.||Всё нормально.|Hammasi joyida.
+phrase|It happens.||Бывает.|Bunday boʻlib turadi.
+phrase|I see.||Понятно.|Tushunarli.
+phrase|I understand.||Я понимаю.|Tushunyapman.
+phrase|I don't understand.||Я не понимаю.|Tushunmayapman.
+phrase|What do you mean?||Что ты имеешь в виду?|Nimani nazarda tutyapsiz?
+phrase|Could you explain that?||Не мог(ли) бы ты это объяснить?|Buni tushuntirib bera olasizmi?
+phrase|Could you say that again?||Не мог(ли) бы ты повторить?|Yana bir marta takrorlay olasizmi?
+phrase|Could you speak more slowly?||Не мог(ли) бы ты говорить медленнее?|Sekinroq gapira olasizmi?
+phrase|I didn't catch that.||Я не расслышал(а).|Eshitmay qoldim.
+phrase|What was that?||Что ты сказал(а)?|Nima dedingiz?
+phrase|Now I get it.||Теперь я понял(а).|Endi tushundim.
+phrase|Can you help me?||Можешь мне помочь?|Menga yordam bera olasizmi?
+phrase|Could you help me, please?||Не могли бы вы мне помочь?|Iltimos, menga yordam bera olasizmi?
+phrase|Can you give me a hand?||Можешь мне помочь?|Menga qoʻl choʻzasizmi?
+phrase|Could you do me a favor?||Не мог(ли) бы ты оказать мне услугу?|Bir yaxshilik qila olasizmi?
+phrase|Can you show me?||Можешь мне показать?|Menga koʻrsata olasizmi?
+phrase|Can you wait a minute?||Можешь подождать минуту?|Bir daqiqa kuta olasizmi?
+phrase|Please give me a moment.||Пожалуйста, дай(те) мне минутку.|Iltimos, menga bir daqiqa bering.
+phrase|Could you repeat that, please?||Не могли бы вы повторить?|Iltimos, buni takrorlay olasizmi?
+phrase|Can you write it down?||Можешь это записать?|Buni yozib bera olasizmi?
+phrase|Thanks for your help.||Спасибо за помощь.|Yordamingiz uchun rahmat.
+phrase|I think so.||Думаю, да.|Menimcha, ha.
+phrase|I don't think so.||Думаю, нет.|Menimcha, yoʻq.
+phrase|I agree.||Я согласен / согласна.|Roziman.
+phrase|I don't agree.||Я не согласен / согласна.|Rozi emasman.
+phrase|You're right.||Ты прав(а).|Siz haqsiz.
+phrase|That's true.||Это правда.|Bu rost.
+phrase|That makes sense.||В этом есть смысл. / Теперь понятно.|Bunda mantiq bor.
+phrase|Really?||Правда?|Rostdanmi?
+phrase|Are you serious?||Ты серьёзно?|Jiddiy aytyapsizmi?
+phrase|I don't know about that.||Не уверен(а) насчёт этого.|Bunisiga unchalik ishonmayman.
+phrase|I like it.||Мне это нравится.|Bu menga yoqadi.
+phrase|I love it.||Мне это очень нравится.|Bu menga juda yoqadi.
+phrase|I don't like it.||Мне это не нравится.|Bu menga yoqmaydi.
+phrase|It's not my thing.||Это не моё.|Bu meniki emas.
+phrase|I prefer this one.||Я предпочитаю этот вариант.|Men bunisini afzal koʻraman.
+phrase|Either is fine.||Подойдёт любой вариант.|Ikkalasi ham boʻladi.
+phrase|I don't mind.||Я не против. / Мне не принципиально.|Menga farqi yoʻq.
+phrase|It's up to you.||Решать тебе.|Oʻzingiz hal qiling.
+phrase|You choose.||Выбирай ты.|Siz tanlang.
+phrase|I'd rather stay home.||Я бы предпочёл / предпочла остаться дома.|Men uyda qolishni afzal koʻrardim.
+phrase|I'm happy.||Я счастлив(а).|Men baxtliman.
+phrase|I'm tired.||Я устал(а).|Men charchadim.
+phrase|I'm exhausted.||Я совершенно без сил.|Butunlay holdan toydim.
+phrase|I'm excited.||Я очень рад(а) / взволнован(а).|Men juda hayajondaman.
+phrase|I'm worried.||Я волнуюсь.|Men xavotirdaman.
+phrase|I'm nervous.||Я нервничаю.|Men hayajonlanyapman.
+phrase|I'm bored.||Мне скучно.|Zerikyapman.
+phrase|I'm hungry.||Я голоден / голодна.|Qornim och.
+phrase|I'm thirsty.||Я хочу пить.|Chanqadim.
+phrase|I feel much better.||Я чувствую себя намного лучше.|Oʻzimni ancha yaxshi his qilyapman.
+phrase|What time is it?||Который час?|Soat necha boʻldi?
+phrase|It's getting late.||Уже становится поздно.|Kech boʻlib qolyapti.
+phrase|I'm running late.||Я опаздываю.|Kechikyapman.
+phrase|I'll be there soon.||Я скоро буду там.|Tez orada yetib boraman.
+phrase|Give me five minutes.||Дай мне пять минут.|Menga besh daqiqa bering.
+phrase|I'm almost there.||Я почти на месте.|Deyarli yetib keldim.
+phrase|I have to go.||Мне пора идти.|Men ketishim kerak.
+phrase|I don't have much time.||У меня мало времени.|Vaqtim koʻp emas.
+phrase|Let's not be late.||Давай не будем опаздывать.|Kechikmaylik.
+phrase|Take your time.||Не торопись.|Shoshilmang.
+phrase|I'm home.||Я дома.|Men uydaman.
+phrase|Make yourself at home.||Чувствуй себя как дома.|Oʻzingizni uyingizdagidek his qiling.
+phrase|What's for dinner?||Что на ужин?|Kechki ovqatga nima bor?
+phrase|I'm making some tea.||Я готовлю чай.|Choy damlayapman.
+phrase|Could you open the window?||Не мог(ла) бы ты открыть окно?|Derazani ocha olasizmi?
+phrase|Please turn on the light.||Пожалуйста, включи свет.|Iltimos, chiroqni yoqing.
+phrase|Can you turn it off?||Можешь это выключить?|Buni oʻchira olasizmi?
+phrase|I'll be right back.||Я сейчас вернусь.|Hozir qaytaman.
+phrase|Where did I put my keys?||Куда я положил(а) ключи?|Kalitlarimni qayerga qoʻygandim?
+phrase|I'm going to bed.||Я иду спать.|Uxlagani ketyapman.
+phrase|Are you hungry?||Ты голоден / голодна?|Qorningiz ochmi?
+phrase|Let's get something to eat.||Давай что-нибудь поедим.|Keling, bir nima yeb olaylik.
+phrase|What do you feel like eating?||Что тебе хочется поесть?|Nima yegingiz kelyapti?
+phrase|That looks delicious.||Выглядит очень вкусно.|Juda mazali koʻrinadi.
+phrase|Can I try some?||Можно мне попробовать?|Biroz tatib koʻrsam boʻladimi?
+phrase|I'm full.||Я сыт(а).|Toʻyib qoldim.
+phrase|Let's get a coffee.||Давай выпьем кофе.|Keling, qahva ichaylik.
+phrase|Shall we eat out?||Может, поедим где-нибудь вне дома?|Tashqarida ovqatlansak-chi?
+phrase|The food was great.||Еда была отличной.|Ovqat juda zoʻr edi.
+phrase|Can I have the bill, please?||Можно счёт, пожалуйста?|Iltimos, hisobni olsam boʻladimi?
+phrase|What's wrong?||Что случилось?|Nima boʻldi?
+phrase|What's the matter?||В чём дело?|Gap nimada?
+phrase|I have a problem.||У меня проблема.|Menda bir muammo bor.
+phrase|Something came up.||Возникли непредвиденные обстоятельства.|Kutilmagan ish chiqib qoldi.
+phrase|I forgot.||Я забыл(а).|Esimdan chiqibdi.
+phrase|I lost my phone.||Я потерял(а) телефон.|Telefonimni yoʻqotib qoʻydim.
+phrase|It doesn't work.||Это не работает.|Bu ishlamayapti.
+phrase|That's strange.||Это странно.|Bu gʻalati.
+phrase|Don't worry about it.||Не переживай из-за этого.|Bunisi uchun xavotir olmang.
+phrase|We'll figure it out.||Мы разберёмся.|Biror yoʻlini topamiz.
+phrase|Anyway, I should go.||Ладно, мне пора идти.|Mayli, men boray.
+phrase|I have to get going.||Мне пора отправляться.|Men joʻnashim kerak.
+phrase|It was great talking to you.||Было приятно с тобой поговорить.|Siz bilan suhbatlashganim yoqdi.
+phrase|Let's keep in touch.||Давай оставаться на связи.|Aloqani uzmaylik.
+phrase|Send me a message.||Напиши мне сообщение.|Menga xabar yozing.
+phrase|Text me later.||Напиши мне позже.|Keyinroq yozing.
+phrase|Let me know how it goes.||Расскажи, как всё пройдёт.|Qanday oʻtganini aytib bering.
+phrase|Have fun!||Хорошо проведи время!|Yaxshi dam oling!
+phrase|Enjoy your day!||Хорошего тебе дня!|Kuningiz yaxshi oʻtsin!
+phrase|See you around.||Ещё увидимся.|Yana koʻrishamiz.
+phrase|Of course.||Конечно.|Albatta.
+phrase|Sure.||Конечно. / Без проблем.|Albatta. / Muammo yoʻq.
+phrase|Why not?||Почему бы и нет?|Nega boʻlmasin?
+phrase|Maybe.||Может быть.|Balki.
+phrase|Probably.||Вероятно.|Ehtimol.
+phrase|It depends.||Это зависит от обстоятельств.|Bu holatga bogʻliq.
+phrase|I'm not sure.||Я не уверен(а).|Ishonchim komil emas.
+phrase|Let me think.||Дай подумать.|Oʻylab koʻray.
+phrase|Sounds good!||Звучит отлично!|Zoʻr-ku!
+phrase|That's a good idea.||Это хорошая идея.|Bu yaxshi fikr.

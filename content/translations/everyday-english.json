@@ -1,0 +1,1029 @@
+{
+  "chapter": "everyday-english",
+  "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Kundalik muloqot",
+  "lessons": {
+    "Приветствия": "Salomlashish",
+    "Прощания": "Xayrlashish",
+    "Как дела": "Hol-ahvol soʻrash",
+    "Знакомство": "Tanishuv",
+    "Повседневные дела": "Kundalik ishlar",
+    "Договариваемся о встрече": "Uchrashuvga kelishish",
+    "Приглашения и ответы": "Takliflar va javoblar",
+    "Благодарность": "Minnatdorchilik",
+    "Извинения": "Uzr soʻrash",
+    "Понимание и уточнение": "Tushunish va aniqlashtirish",
+    "Просьбы о помощи": "Yordam soʻrash",
+    "Мнение и реакция": "Fikr va munosabat",
+    "Предпочтения и выбор": "Afzalliklar va tanlov",
+    "Самочувствие и эмоции": "Kayfiyat va his-tuygʻular",
+    "Время и опоздания": "Vaqt va kechikish",
+    "Дом и быт": "Uy va kundalik turmush",
+    "Еда и выход куда-нибудь": "Ovqat va tashqariga chiqish",
+    "Проблемы и неожиданности": "Muammolar va kutilmagan holatlar",
+    "Завершение разговора": "Suhbatni yakunlash",
+    "Частые ответы в разговоре": "Suhbatdagi keng tarqalgan javoblar"
+  },
+  "entries": [
+    {
+      "en": "Hi!",
+      "ru": "Привет!",
+      "uz": "Salom!"
+    },
+    {
+      "en": "Hello!",
+      "ru": "Здравствуйте! / Привет!",
+      "uz": "Assalomu alaykum! / Salom!"
+    },
+    {
+      "en": "Hey!",
+      "ru": "Привет!",
+      "uz": "Hoy! / Salom!"
+    },
+    {
+      "en": "Good morning!",
+      "ru": "Доброе утро!",
+      "uz": "Xayrli tong!"
+    },
+    {
+      "en": "Good afternoon!",
+      "ru": "Добрый день!",
+      "uz": "Xayrli kun!"
+    },
+    {
+      "en": "Good evening!",
+      "ru": "Добрый вечер!",
+      "uz": "Xayrli kech!"
+    },
+    {
+      "en": "How are you?",
+      "ru": "Как дела?",
+      "uz": "Qalaysiz?"
+    },
+    {
+      "en": "How's it going?",
+      "ru": "Как дела? / Как оно?",
+      "uz": "Ishlar qalay?"
+    },
+    {
+      "en": "How have you been?",
+      "ru": "Как ты поживал(а)?",
+      "uz": "Qandaysiz, nima gaplar?"
+    },
+    {
+      "en": "It's nice to see you.",
+      "ru": "Рад(а) тебя видеть.",
+      "uz": "Sizni koʻrganimdan xursandman."
+    },
+    {
+      "en": "Goodbye!",
+      "ru": "До свидания!",
+      "uz": "Xayr!"
+    },
+    {
+      "en": "Bye!",
+      "ru": "Пока!",
+      "uz": "Xayr! / Koʻrishguncha!"
+    },
+    {
+      "en": "See you later.",
+      "ru": "Увидимся позже.",
+      "uz": "Keyinroq koʻrishamiz."
+    },
+    {
+      "en": "See you soon.",
+      "ru": "До скорой встречи.",
+      "uz": "Tez orada koʻrishamiz."
+    },
+    {
+      "en": "See you tomorrow.",
+      "ru": "Увидимся завтра.",
+      "uz": "Ertaga koʻrishamiz."
+    },
+    {
+      "en": "Take care.",
+      "ru": "Береги себя.",
+      "uz": "Oʻzingizni ehtiyot qiling."
+    },
+    {
+      "en": "Have a nice day!",
+      "ru": "Хорошего дня!",
+      "uz": "Kuningiz yaxshi oʻtsin!"
+    },
+    {
+      "en": "Have a good evening!",
+      "ru": "Хорошего вечера!",
+      "uz": "Kechangiz yaxshi oʻtsin!"
+    },
+    {
+      "en": "Talk to you later.",
+      "ru": "Поговорим позже.",
+      "uz": "Keyinroq gaplashamiz."
+    },
+    {
+      "en": "It was nice seeing you.",
+      "ru": "Было приятно тебя увидеть.",
+      "uz": "Sizni koʻrganim yaxshi boʻldi."
+    },
+    {
+      "en": "How are things?",
+      "ru": "Как дела?",
+      "uz": "Ishlar qalay?"
+    },
+    {
+      "en": "How's your day going?",
+      "ru": "Как проходит твой день?",
+      "uz": "Kuningiz qanday oʻtyapti?"
+    },
+    {
+      "en": "How are you doing?",
+      "ru": "Как ты? / Как дела?",
+      "uz": "Oʻzingiz qalaysiz?"
+    },
+    {
+      "en": "Everything okay?",
+      "ru": "Всё в порядке?",
+      "uz": "Hammasi joyidami?"
+    },
+    {
+      "en": "Is everything all right?",
+      "ru": "Всё хорошо?",
+      "uz": "Hammasi yaxshimi?"
+    },
+    {
+      "en": "What's new?",
+      "ru": "Что нового?",
+      "uz": "Nima yangiliklar?"
+    },
+    {
+      "en": "Anything new?",
+      "ru": "Есть что-нибудь новенькое?",
+      "uz": "Yangilik bormi?"
+    },
+    {
+      "en": "I'm good, thanks.",
+      "ru": "У меня всё хорошо, спасибо.",
+      "uz": "Yaxshi, rahmat."
+    },
+    {
+      "en": "Pretty good, thanks.",
+      "ru": "Довольно хорошо, спасибо.",
+      "uz": "Ancha yaxshi, rahmat."
+    },
+    {
+      "en": "Not bad.",
+      "ru": "Неплохо.",
+      "uz": "Yomon emas."
+    },
+    {
+      "en": "What's your name?",
+      "ru": "Как тебя зовут?",
+      "uz": "Ismingiz nima?"
+    },
+    {
+      "en": "My name is ...",
+      "ru": "Меня зовут ...",
+      "uz": "Mening ismim ..."
+    },
+    {
+      "en": "You can call me ...",
+      "ru": "Можешь называть меня ...",
+      "uz": "Meni ... deb chaqirsangiz boʻladi."
+    },
+    {
+      "en": "Nice to meet you.",
+      "ru": "Приятно познакомиться.",
+      "uz": "Tanishganimdan xursandman."
+    },
+    {
+      "en": "Nice to meet you, too.",
+      "ru": "Мне тоже приятно познакомиться.",
+      "uz": "Men ham tanishganimdan xursandman."
+    },
+    {
+      "en": "Where are you from?",
+      "ru": "Откуда ты?",
+      "uz": "Qayerdansiz?"
+    },
+    {
+      "en": "I'm from Uzbekistan.",
+      "ru": "Я из Узбекистана.",
+      "uz": "Men Oʻzbekistondanman."
+    },
+    {
+      "en": "Where do you live?",
+      "ru": "Где ты живёшь?",
+      "uz": "Qayerda yashaysiz?"
+    },
+    {
+      "en": "I live in Tashkent.",
+      "ru": "Я живу в Ташкенте.",
+      "uz": "Men Toshkentda yashayman."
+    },
+    {
+      "en": "What do you do?",
+      "ru": "Кем ты работаешь? / Чем занимаешься?",
+      "uz": "Nima ish qilasiz?"
+    },
+    {
+      "en": "What are you doing?",
+      "ru": "Что ты делаешь?",
+      "uz": "Nima qilyapsiz?"
+    },
+    {
+      "en": "What are you up to?",
+      "ru": "Чем занимаешься?",
+      "uz": "Nima bilan bandsiz?"
+    },
+    {
+      "en": "I'm getting ready.",
+      "ru": "Я собираюсь / готовлюсь.",
+      "uz": "Tayyorlanyapman."
+    },
+    {
+      "en": "I'm on my way.",
+      "ru": "Я уже в пути.",
+      "uz": "Yoʻldaman."
+    },
+    {
+      "en": "I'm just relaxing.",
+      "ru": "Я просто отдыхаю.",
+      "uz": "Shunchaki dam olyapman."
+    },
+    {
+      "en": "I'm having lunch.",
+      "ru": "Я обедаю.",
+      "uz": "Tushlik qilyapman."
+    },
+    {
+      "en": "I'm working right now.",
+      "ru": "Я сейчас работаю.",
+      "uz": "Hozir ishlayapman."
+    },
+    {
+      "en": "I'm going home.",
+      "ru": "Я иду / еду домой.",
+      "uz": "Uyga ketyapman."
+    },
+    {
+      "en": "I'm a little busy.",
+      "ru": "Я немного занят(а).",
+      "uz": "Birozgina bandman."
+    },
+    {
+      "en": "I'm free right now.",
+      "ru": "Я сейчас свободен / свободна.",
+      "uz": "Hozir boʻshman."
+    },
+    {
+      "en": "Are you free today?",
+      "ru": "Ты сегодня свободен / свободна?",
+      "uz": "Bugun boʻshmisiz?"
+    },
+    {
+      "en": "Are you doing anything tonight?",
+      "ru": "Ты чем-нибудь занят(а) сегодня вечером?",
+      "uz": "Bugun kechqurun bandmisiz?"
+    },
+    {
+      "en": "Do you want to hang out?",
+      "ru": "Хочешь провести время вместе?",
+      "uz": "Birga vaqt oʻtkazmaymizmi?"
+    },
+    {
+      "en": "Let's meet up.",
+      "ru": "Давай встретимся.",
+      "uz": "Keling, uchrashaylik."
+    },
+    {
+      "en": "Let's go for a walk.",
+      "ru": "Давай прогуляемся.",
+      "uz": "Keling, sayr qilaylik."
+    },
+    {
+      "en": "What time works for you?",
+      "ru": "Какое время тебе подходит?",
+      "uz": "Sizga qaysi vaqt qulay?"
+    },
+    {
+      "en": "Where shall we meet?",
+      "ru": "Где встретимся?",
+      "uz": "Qayerda uchrashamiz?"
+    },
+    {
+      "en": "That sounds good.",
+      "ru": "Звучит хорошо.",
+      "uz": "Bu yaxshi fikr."
+    },
+    {
+      "en": "I'm not sure yet.",
+      "ru": "Я пока не уверен(а).",
+      "uz": "Hali aniq bilmayman."
+    },
+    {
+      "en": "I'll let you know.",
+      "ru": "Я дам тебе знать.",
+      "uz": "Sizga xabar beraman."
+    },
+    {
+      "en": "Would you like to join us?",
+      "ru": "Хочешь присоединиться к нам?",
+      "uz": "Bizga qoʻshilasizmi?"
+    },
+    {
+      "en": "Do you want to come with me?",
+      "ru": "Хочешь пойти со мной?",
+      "uz": "Men bilan borasizmi?"
+    },
+    {
+      "en": "Sure, why not?",
+      "ru": "Конечно, почему бы и нет?",
+      "uz": "Albatta, nega boʻlmasin?"
+    },
+    {
+      "en": "I'd love to.",
+      "ru": "С удовольствием.",
+      "uz": "Bajonidil."
+    },
+    {
+      "en": "That sounds like fun.",
+      "ru": "Звучит весело.",
+      "uz": "Qiziqarli boʻladiganga oʻxshaydi."
+    },
+    {
+      "en": "Sorry, I can't make it.",
+      "ru": "Извини, я не смогу прийти.",
+      "uz": "Kechirasiz, bora olmayman."
+    },
+    {
+      "en": "Maybe next time.",
+      "ru": "Может быть, в следующий раз.",
+      "uz": "Balki keyingi safar."
+    },
+    {
+      "en": "Thanks for inviting me.",
+      "ru": "Спасибо за приглашение.",
+      "uz": "Taklif qilganingiz uchun rahmat."
+    },
+    {
+      "en": "Can I bring a friend?",
+      "ru": "Можно я приведу друга / подругу?",
+      "uz": "Doʻstimni olib kelsam boʻladimi?"
+    },
+    {
+      "en": "What should I bring?",
+      "ru": "Что мне принести?",
+      "uz": "Nima olib kelay?"
+    },
+    {
+      "en": "Thank you.",
+      "ru": "Спасибо.",
+      "uz": "Rahmat."
+    },
+    {
+      "en": "Thanks a lot.",
+      "ru": "Большое спасибо.",
+      "uz": "Katta rahmat."
+    },
+    {
+      "en": "Thank you so much.",
+      "ru": "Огромное спасибо.",
+      "uz": "Juda katta rahmat."
+    },
+    {
+      "en": "I really appreciate it.",
+      "ru": "Я очень это ценю.",
+      "uz": "Buni juda qadrlayman."
+    },
+    {
+      "en": "That's very kind of you.",
+      "ru": "Это очень мило с твоей стороны.",
+      "uz": "Bu juda xolisona boʻldi."
+    },
+    {
+      "en": "You're welcome.",
+      "ru": "Пожалуйста. / Не за что.",
+      "uz": "Arzimaydi."
+    },
+    {
+      "en": "No problem.",
+      "ru": "Без проблем.",
+      "uz": "Muammo yoʻq."
+    },
+    {
+      "en": "Anytime.",
+      "ru": "Всегда пожалуйста.",
+      "uz": "Doimo marhamat."
+    },
+    {
+      "en": "Don't mention it.",
+      "ru": "Не стоит благодарности.",
+      "uz": "Arzimaydi, gapning kerakmas."
+    },
+    {
+      "en": "I'm glad I could help.",
+      "ru": "Рад(а), что смог(ла) помочь.",
+      "uz": "Yordam bera olganimdan xursandman."
+    },
+    {
+      "en": "I'm sorry.",
+      "ru": "Мне жаль. / Извини(те).",
+      "uz": "Kechirasiz."
+    },
+    {
+      "en": "Sorry I'm late.",
+      "ru": "Извини(те), я опоздал(а).",
+      "uz": "Kechikkanim uchun uzr."
+    },
+    {
+      "en": "I'm so sorry.",
+      "ru": "Мне очень жаль.",
+      "uz": "Juda afsusdaman."
+    },
+    {
+      "en": "Sorry about that.",
+      "ru": "Извини(те) за это.",
+      "uz": "Bunisi uchun uzr."
+    },
+    {
+      "en": "My mistake.",
+      "ru": "Моя ошибка.",
+      "uz": "Mening xatoyim."
+    },
+    {
+      "en": "It was an accident.",
+      "ru": "Это вышло случайно.",
+      "uz": "Bu tasodifan boʻldi."
+    },
+    {
+      "en": "I didn't mean to.",
+      "ru": "Я не хотел(а) этого.",
+      "uz": "Men bunday boʻlishini xohlamagandim."
+    },
+    {
+      "en": "No worries.",
+      "ru": "Ничего страшного.",
+      "uz": "Hechqisi yoʻq."
+    },
+    {
+      "en": "That's okay.",
+      "ru": "Всё нормально.",
+      "uz": "Hammasi joyida."
+    },
+    {
+      "en": "It happens.",
+      "ru": "Бывает.",
+      "uz": "Bunday boʻlib turadi."
+    },
+    {
+      "en": "I see.",
+      "ru": "Понятно.",
+      "uz": "Tushunarli."
+    },
+    {
+      "en": "I understand.",
+      "ru": "Я понимаю.",
+      "uz": "Tushunyapman."
+    },
+    {
+      "en": "I don't understand.",
+      "ru": "Я не понимаю.",
+      "uz": "Tushunmayapman."
+    },
+    {
+      "en": "What do you mean?",
+      "ru": "Что ты имеешь в виду?",
+      "uz": "Nimani nazarda tutyapsiz?"
+    },
+    {
+      "en": "Could you explain that?",
+      "ru": "Не мог(ли) бы ты это объяснить?",
+      "uz": "Buni tushuntirib bera olasizmi?"
+    },
+    {
+      "en": "Could you say that again?",
+      "ru": "Не мог(ли) бы ты повторить?",
+      "uz": "Yana bir marta takrorlay olasizmi?"
+    },
+    {
+      "en": "Could you speak more slowly?",
+      "ru": "Не мог(ли) бы ты говорить медленнее?",
+      "uz": "Sekinroq gapira olasizmi?"
+    },
+    {
+      "en": "I didn't catch that.",
+      "ru": "Я не расслышал(а).",
+      "uz": "Eshitmay qoldim."
+    },
+    {
+      "en": "What was that?",
+      "ru": "Что ты сказал(а)?",
+      "uz": "Nima dedingiz?"
+    },
+    {
+      "en": "Now I get it.",
+      "ru": "Теперь я понял(а).",
+      "uz": "Endi tushundim."
+    },
+    {
+      "en": "Can you help me?",
+      "ru": "Можешь мне помочь?",
+      "uz": "Menga yordam bera olasizmi?"
+    },
+    {
+      "en": "Could you help me, please?",
+      "ru": "Не могли бы вы мне помочь?",
+      "uz": "Iltimos, menga yordam bera olasizmi?"
+    },
+    {
+      "en": "Can you give me a hand?",
+      "ru": "Можешь мне помочь?",
+      "uz": "Menga qoʻl choʻzasizmi?"
+    },
+    {
+      "en": "Could you do me a favor?",
+      "ru": "Не мог(ли) бы ты оказать мне услугу?",
+      "uz": "Bir yaxshilik qila olasizmi?"
+    },
+    {
+      "en": "Can you show me?",
+      "ru": "Можешь мне показать?",
+      "uz": "Menga koʻrsata olasizmi?"
+    },
+    {
+      "en": "Can you wait a minute?",
+      "ru": "Можешь подождать минуту?",
+      "uz": "Bir daqiqa kuta olasizmi?"
+    },
+    {
+      "en": "Please give me a moment.",
+      "ru": "Пожалуйста, дай(те) мне минутку.",
+      "uz": "Iltimos, menga bir daqiqa bering."
+    },
+    {
+      "en": "Could you repeat that, please?",
+      "ru": "Не могли бы вы повторить?",
+      "uz": "Iltimos, buni takrorlay olasizmi?"
+    },
+    {
+      "en": "Can you write it down?",
+      "ru": "Можешь это записать?",
+      "uz": "Buni yozib bera olasizmi?"
+    },
+    {
+      "en": "Thanks for your help.",
+      "ru": "Спасибо за помощь.",
+      "uz": "Yordamingiz uchun rahmat."
+    },
+    {
+      "en": "I think so.",
+      "ru": "Думаю, да.",
+      "uz": "Menimcha, ha."
+    },
+    {
+      "en": "I don't think so.",
+      "ru": "Думаю, нет.",
+      "uz": "Menimcha, yoʻq."
+    },
+    {
+      "en": "I agree.",
+      "ru": "Я согласен / согласна.",
+      "uz": "Roziman."
+    },
+    {
+      "en": "I don't agree.",
+      "ru": "Я не согласен / согласна.",
+      "uz": "Rozi emasman."
+    },
+    {
+      "en": "You're right.",
+      "ru": "Ты прав(а).",
+      "uz": "Siz haqsiz."
+    },
+    {
+      "en": "That's true.",
+      "ru": "Это правда.",
+      "uz": "Bu rost."
+    },
+    {
+      "en": "That makes sense.",
+      "ru": "В этом есть смысл. / Теперь понятно.",
+      "uz": "Bunda mantiq bor."
+    },
+    {
+      "en": "Really?",
+      "ru": "Правда?",
+      "uz": "Rostdanmi?"
+    },
+    {
+      "en": "Are you serious?",
+      "ru": "Ты серьёзно?",
+      "uz": "Jiddiy aytyapsizmi?"
+    },
+    {
+      "en": "I don't know about that.",
+      "ru": "Не уверен(а) насчёт этого.",
+      "uz": "Bunisiga unchalik ishonmayman."
+    },
+    {
+      "en": "I like it.",
+      "ru": "Мне это нравится.",
+      "uz": "Bu menga yoqadi."
+    },
+    {
+      "en": "I love it.",
+      "ru": "Мне это очень нравится.",
+      "uz": "Bu menga juda yoqadi."
+    },
+    {
+      "en": "I don't like it.",
+      "ru": "Мне это не нравится.",
+      "uz": "Bu menga yoqmaydi."
+    },
+    {
+      "en": "It's not my thing.",
+      "ru": "Это не моё.",
+      "uz": "Bu meniki emas."
+    },
+    {
+      "en": "I prefer this one.",
+      "ru": "Я предпочитаю этот вариант.",
+      "uz": "Men bunisini afzal koʻraman."
+    },
+    {
+      "en": "Either is fine.",
+      "ru": "Подойдёт любой вариант.",
+      "uz": "Ikkalasi ham boʻladi."
+    },
+    {
+      "en": "I don't mind.",
+      "ru": "Я не против. / Мне не принципиально.",
+      "uz": "Menga farqi yoʻq."
+    },
+    {
+      "en": "It's up to you.",
+      "ru": "Решать тебе.",
+      "uz": "Oʻzingiz hal qiling."
+    },
+    {
+      "en": "You choose.",
+      "ru": "Выбирай ты.",
+      "uz": "Siz tanlang."
+    },
+    {
+      "en": "I'd rather stay home.",
+      "ru": "Я бы предпочёл / предпочла остаться дома.",
+      "uz": "Men uyda qolishni afzal koʻrardim."
+    },
+    {
+      "en": "I'm happy.",
+      "ru": "Я счастлив(а).",
+      "uz": "Men baxtliman."
+    },
+    {
+      "en": "I'm tired.",
+      "ru": "Я устал(а).",
+      "uz": "Men charchadim."
+    },
+    {
+      "en": "I'm exhausted.",
+      "ru": "Я совершенно без сил.",
+      "uz": "Butunlay holdan toydim."
+    },
+    {
+      "en": "I'm excited.",
+      "ru": "Я очень рад(а) / взволнован(а).",
+      "uz": "Men juda hayajondaman."
+    },
+    {
+      "en": "I'm worried.",
+      "ru": "Я волнуюсь.",
+      "uz": "Men xavotirdaman."
+    },
+    {
+      "en": "I'm nervous.",
+      "ru": "Я нервничаю.",
+      "uz": "Men hayajonlanyapman."
+    },
+    {
+      "en": "I'm bored.",
+      "ru": "Мне скучно.",
+      "uz": "Zerikyapman."
+    },
+    {
+      "en": "I'm hungry.",
+      "ru": "Я голоден / голодна.",
+      "uz": "Qornim och."
+    },
+    {
+      "en": "I'm thirsty.",
+      "ru": "Я хочу пить.",
+      "uz": "Chanqadim."
+    },
+    {
+      "en": "I feel much better.",
+      "ru": "Я чувствую себя намного лучше.",
+      "uz": "Oʻzimni ancha yaxshi his qilyapman."
+    },
+    {
+      "en": "What time is it?",
+      "ru": "Который час?",
+      "uz": "Soat necha boʻldi?"
+    },
+    {
+      "en": "It's getting late.",
+      "ru": "Уже становится поздно.",
+      "uz": "Kech boʻlib qolyapti."
+    },
+    {
+      "en": "I'm running late.",
+      "ru": "Я опаздываю.",
+      "uz": "Kechikyapman."
+    },
+    {
+      "en": "I'll be there soon.",
+      "ru": "Я скоро буду там.",
+      "uz": "Tez orada yetib boraman."
+    },
+    {
+      "en": "Give me five minutes.",
+      "ru": "Дай мне пять минут.",
+      "uz": "Menga besh daqiqa bering."
+    },
+    {
+      "en": "I'm almost there.",
+      "ru": "Я почти на месте.",
+      "uz": "Deyarli yetib keldim."
+    },
+    {
+      "en": "I have to go.",
+      "ru": "Мне пора идти.",
+      "uz": "Men ketishim kerak."
+    },
+    {
+      "en": "I don't have much time.",
+      "ru": "У меня мало времени.",
+      "uz": "Vaqtim koʻp emas."
+    },
+    {
+      "en": "Let's not be late.",
+      "ru": "Давай не будем опаздывать.",
+      "uz": "Kechikmaylik."
+    },
+    {
+      "en": "Take your time.",
+      "ru": "Не торопись.",
+      "uz": "Shoshilmang."
+    },
+    {
+      "en": "I'm home.",
+      "ru": "Я дома.",
+      "uz": "Men uydaman."
+    },
+    {
+      "en": "Make yourself at home.",
+      "ru": "Чувствуй себя как дома.",
+      "uz": "Oʻzingizni uyingizdagidek his qiling."
+    },
+    {
+      "en": "What's for dinner?",
+      "ru": "Что на ужин?",
+      "uz": "Kechki ovqatga nima bor?"
+    },
+    {
+      "en": "I'm making some tea.",
+      "ru": "Я готовлю чай.",
+      "uz": "Choy damlayapman."
+    },
+    {
+      "en": "Could you open the window?",
+      "ru": "Не мог(ла) бы ты открыть окно?",
+      "uz": "Derazani ocha olasizmi?"
+    },
+    {
+      "en": "Please turn on the light.",
+      "ru": "Пожалуйста, включи свет.",
+      "uz": "Iltimos, chiroqni yoqing."
+    },
+    {
+      "en": "Can you turn it off?",
+      "ru": "Можешь это выключить?",
+      "uz": "Buni oʻchira olasizmi?"
+    },
+    {
+      "en": "I'll be right back.",
+      "ru": "Я сейчас вернусь.",
+      "uz": "Hozir qaytaman."
+    },
+    {
+      "en": "Where did I put my keys?",
+      "ru": "Куда я положил(а) ключи?",
+      "uz": "Kalitlarimni qayerga qoʻygandim?"
+    },
+    {
+      "en": "I'm going to bed.",
+      "ru": "Я иду спать.",
+      "uz": "Uxlagani ketyapman."
+    },
+    {
+      "en": "Are you hungry?",
+      "ru": "Ты голоден / голодна?",
+      "uz": "Qorningiz ochmi?"
+    },
+    {
+      "en": "Let's get something to eat.",
+      "ru": "Давай что-нибудь поедим.",
+      "uz": "Keling, bir nima yeb olaylik."
+    },
+    {
+      "en": "What do you feel like eating?",
+      "ru": "Что тебе хочется поесть?",
+      "uz": "Nima yegingiz kelyapti?"
+    },
+    {
+      "en": "That looks delicious.",
+      "ru": "Выглядит очень вкусно.",
+      "uz": "Juda mazali koʻrinadi."
+    },
+    {
+      "en": "Can I try some?",
+      "ru": "Можно мне попробовать?",
+      "uz": "Biroz tatib koʻrsam boʻladimi?"
+    },
+    {
+      "en": "I'm full.",
+      "ru": "Я сыт(а).",
+      "uz": "Toʻyib qoldim."
+    },
+    {
+      "en": "Let's get a coffee.",
+      "ru": "Давай выпьем кофе.",
+      "uz": "Keling, qahva ichaylik."
+    },
+    {
+      "en": "Shall we eat out?",
+      "ru": "Может, поедим где-нибудь вне дома?",
+      "uz": "Tashqarida ovqatlansak-chi?"
+    },
+    {
+      "en": "The food was great.",
+      "ru": "Еда была отличной.",
+      "uz": "Ovqat juda zoʻr edi."
+    },
+    {
+      "en": "Can I have the bill, please?",
+      "ru": "Можно счёт, пожалуйста?",
+      "uz": "Iltimos, hisobni olsam boʻladimi?"
+    },
+    {
+      "en": "What's wrong?",
+      "ru": "Что случилось?",
+      "uz": "Nima boʻldi?"
+    },
+    {
+      "en": "What's the matter?",
+      "ru": "В чём дело?",
+      "uz": "Gap nimada?"
+    },
+    {
+      "en": "I have a problem.",
+      "ru": "У меня проблема.",
+      "uz": "Menda bir muammo bor."
+    },
+    {
+      "en": "Something came up.",
+      "ru": "Возникли непредвиденные обстоятельства.",
+      "uz": "Kutilmagan ish chiqib qoldi."
+    },
+    {
+      "en": "I forgot.",
+      "ru": "Я забыл(а).",
+      "uz": "Esimdan chiqibdi."
+    },
+    {
+      "en": "I lost my phone.",
+      "ru": "Я потерял(а) телефон.",
+      "uz": "Telefonimni yoʻqotib qoʻydim."
+    },
+    {
+      "en": "It doesn't work.",
+      "ru": "Это не работает.",
+      "uz": "Bu ishlamayapti."
+    },
+    {
+      "en": "That's strange.",
+      "ru": "Это странно.",
+      "uz": "Bu gʻalati."
+    },
+    {
+      "en": "Don't worry about it.",
+      "ru": "Не переживай из-за этого.",
+      "uz": "Bunisi uchun xavotir olmang."
+    },
+    {
+      "en": "We'll figure it out.",
+      "ru": "Мы разберёмся.",
+      "uz": "Biror yoʻlini topamiz."
+    },
+    {
+      "en": "Anyway, I should go.",
+      "ru": "Ладно, мне пора идти.",
+      "uz": "Mayli, men boray."
+    },
+    {
+      "en": "I have to get going.",
+      "ru": "Мне пора отправляться.",
+      "uz": "Men joʻnashim kerak."
+    },
+    {
+      "en": "It was great talking to you.",
+      "ru": "Было приятно с тобой поговорить.",
+      "uz": "Siz bilan suhbatlashganim yoqdi."
+    },
+    {
+      "en": "Let's keep in touch.",
+      "ru": "Давай оставаться на связи.",
+      "uz": "Aloqani uzmaylik."
+    },
+    {
+      "en": "Send me a message.",
+      "ru": "Напиши мне сообщение.",
+      "uz": "Menga xabar yozing."
+    },
+    {
+      "en": "Text me later.",
+      "ru": "Напиши мне позже.",
+      "uz": "Keyinroq yozing."
+    },
+    {
+      "en": "Let me know how it goes.",
+      "ru": "Расскажи, как всё пройдёт.",
+      "uz": "Qanday oʻtganini aytib bering."
+    },
+    {
+      "en": "Have fun!",
+      "ru": "Хорошо проведи время!",
+      "uz": "Yaxshi dam oling!"
+    },
+    {
+      "en": "Enjoy your day!",
+      "ru": "Хорошего тебе дня!",
+      "uz": "Kuningiz yaxshi oʻtsin!"
+    },
+    {
+      "en": "See you around.",
+      "ru": "Ещё увидимся.",
+      "uz": "Yana koʻrishamiz."
+    },
+    {
+      "en": "Of course.",
+      "ru": "Конечно.",
+      "uz": "Albatta."
+    },
+    {
+      "en": "Sure.",
+      "ru": "Конечно. / Без проблем.",
+      "uz": "Albatta. / Muammo yoʻq."
+    },
+    {
+      "en": "Why not?",
+      "ru": "Почему бы и нет?",
+      "uz": "Nega boʻlmasin?"
+    },
+    {
+      "en": "Maybe.",
+      "ru": "Может быть.",
+      "uz": "Balki."
+    },
+    {
+      "en": "Probably.",
+      "ru": "Вероятно.",
+      "uz": "Ehtimol."
+    },
+    {
+      "en": "It depends.",
+      "ru": "Это зависит от обстоятельств.",
+      "uz": "Bu holatga bogʻliq."
+    },
+    {
+      "en": "I'm not sure.",
+      "ru": "Я не уверен(а).",
+      "uz": "Ishonchim komil emas."
+    },
+    {
+      "en": "Let me think.",
+      "ru": "Дай подумать.",
+      "uz": "Oʻylab koʻray."
+    },
+    {
+      "en": "Sounds good!",
+      "ru": "Звучит отлично!",
+      "uz": "Zoʻr-ku!"
+    },
+    {
+      "en": "That's a good idea.",
+      "ru": "Это хорошая идея.",
+      "uz": "Bu yaxshi fikr."
+    }
+  ]
+}

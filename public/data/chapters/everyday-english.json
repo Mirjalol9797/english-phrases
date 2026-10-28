@@ -5,7 +5,8 @@
   "kind": "phrases",
   "title": {
     "en": "Everyday English",
-    "ru": "Повседневное общение"
+    "ru": "Повседневное общение",
+    "uz": "Kundalik muloqot"
   },
   "lessons": [
     {
@@ -13,58 +14,69 @@
       "order": 1,
       "title": {
         "en": "Greetings",
-        "ru": "Приветствия"
+        "ru": "Приветствия",
+        "uz": "Salomlashish"
       },
       "phrases": [
         {
           "id": "EE001",
           "en": "Hi!",
-          "ru": "Привет!"
+          "ru": "Привет!",
+          "uz": "Salom!"
         },
         {
           "id": "EE002",
           "en": "Hello!",
-          "ru": "Здравствуйте! / Привет!"
+          "ru": "Здравствуйте! / Привет!",
+          "uz": "Assalomu alaykum! / Salom!"
         },
         {
           "id": "EE003",
           "en": "Hey!",
-          "ru": "Привет!"
+          "ru": "Привет!",
+          "uz": "Hoy! / Salom!"
         },
         {
           "id": "EE004",
           "en": "Good morning!",
-          "ru": "Доброе утро!"
+          "ru": "Доброе утро!",
+          "uz": "Xayrli tong!"
         },
         {
           "id": "EE005",
           "en": "Good afternoon!",
-          "ru": "Добрый день!"
+          "ru": "Добрый день!",
+          "uz": "Xayrli kun!"
         },
         {
           "id": "EE006",
           "en": "Good evening!",
-          "ru": "Добрый вечер!"
+          "ru": "Добрый вечер!",
+          "uz": "Xayrli kech!"
         },
         {
           "id": "EE007",
           "en": "How are you?",
-          "ru": "Как дела?"
+          "ru": "Как дела?",
+          "uz": "Qalaysiz?"
         },
         {
           "id": "EE008",
           "en": "How's it going?",
-          "ru": "Как дела? / Как оно?"
+          "ru": "Как дела? / Как оно?",
+          "uz": "Ishlar qalay?"
         },
         {
           "id": "EE009",
           "en": "How have you been?",
-          "ru": "Как ты поживал(а)?"
+          "ru": "Как ты поживал(а)?",
+          "uz": "Qandaysiz, nima gaplar?"
         },
         {
           "id": "EE010",
           "en": "It's nice to see you.",
-          "ru": "Рад(а) тебя видеть."
+          "ru": "Рад(а) тебя видеть.",
+          "uz": "Sizni koʻrganimdan xursandman."
         }
       ]
     },
@@ -73,58 +85,69 @@
       "order": 2,
       "title": {
         "en": "Saying goodbye",
-        "ru": "Прощания"
+        "ru": "Прощания",
+        "uz": "Xayrlashish"
       },
       "phrases": [
         {
           "id": "EE011",
           "en": "Goodbye!",
-          "ru": "До свидания!"
+          "ru": "До свидания!",
+          "uz": "Xayr!"
         },
         {
           "id": "EE012",
           "en": "Bye!",
-          "ru": "Пока!"
+          "ru": "Пока!",
+          "uz": "Xayr! / Koʻrishguncha!"
         },
         {
           "id": "EE013",
           "en": "See you later.",
-          "ru": "Увидимся позже."
+          "ru": "Увидимся позже.",
+          "uz": "Keyinroq koʻrishamiz."
         },
         {
           "id": "EE014",
           "en": "See you soon.",
-          "ru": "До скорой встречи."
+          "ru": "До скорой встречи.",
+          "uz": "Tez orada koʻrishamiz."
         },
         {
           "id": "EE015",
           "en": "See you tomorrow.",
-          "ru": "Увидимся завтра."
+          "ru": "Увидимся завтра.",
+          "uz": "Ertaga koʻrishamiz."
         },
         {
           "id": "EE016",
           "en": "Take care.",
-          "ru": "Береги себя."
+          "ru": "Береги себя.",
+          "uz": "Oʻzingizni ehtiyot qiling."
         },
         {
           "id": "EE017",
           "en": "Have a nice day!",
-          "ru": "Хорошего дня!"
+          "ru": "Хорошего дня!",
+          "uz": "Kuningiz yaxshi oʻtsin!"
         },
         {
           "id": "EE018",
           "en": "Have a good evening!",
-          "ru": "Хорошего вечера!"
+          "ru": "Хорошего вечера!",
+          "uz": "Kechangiz yaxshi oʻtsin!"
         },
         {
           "id": "EE019",
           "en": "Talk to you later.",
-          "ru": "Поговорим позже."
+          "ru": "Поговорим позже.",
+          "uz": "Keyinroq gaplashamiz."
         },
         {
           "id": "EE020",
           "en": "It was nice seeing you.",
-          "ru": "Было приятно тебя увидеть."
+          "ru": "Было приятно тебя увидеть.",
+          "uz": "Sizni koʻrganim yaxshi boʻldi."
         }
       ]
     },
@@ -133,58 +156,69 @@
       "order": 3,
       "title": {
         "en": "Asking how someone is",
-        "ru": "Как дела"
+        "ru": "Как дела",
+        "uz": "Hol-ahvol soʻrash"
       },
       "phrases": [
         {
           "id": "EE021",
           "en": "How are things?",
-          "ru": "Как дела?"
+          "ru": "Как дела?",
+          "uz": "Ishlar qalay?"
         },
         {
           "id": "EE022",
           "en": "How's your day going?",
-          "ru": "Как проходит твой день?"
+          "ru": "Как проходит твой день?",
+          "uz": "Kuningiz qanday oʻtyapti?"
         },
         {
           "id": "EE023",
           "en": "How are you doing?",
-          "ru": "Как ты? / Как дела?"
+          "ru": "Как ты? / Как дела?",
+          "uz": "Oʻzingiz qalaysiz?"
         },
         {
           "id": "EE024",
           "en": "Everything okay?",
-          "ru": "Всё в порядке?"
+          "ru": "Всё в порядке?",
+          "uz": "Hammasi joyidami?"
         },
         {
           "id": "EE025",
           "en": "Is everything all right?",
-          "ru": "Всё хорошо?"
+          "ru": "Всё хорошо?",
+          "uz": "Hammasi yaxshimi?"
         },
         {
           "id": "EE026",
           "en": "What's new?",
-          "ru": "Что нового?"
+          "ru": "Что нового?",
+          "uz": "Nima yangiliklar?"
         },
         {
           "id": "EE027",
           "en": "Anything new?",
-          "ru": "Есть что-нибудь новенькое?"
+          "ru": "Есть что-нибудь новенькое?",
+          "uz": "Yangilik bormi?"
         },
         {
           "id": "EE028",
           "en": "I'm good, thanks.",
-          "ru": "У меня всё хорошо, спасибо."
+          "ru": "У меня всё хорошо, спасибо.",
+          "uz": "Yaxshi, rahmat."
         },
         {
           "id": "EE029",
           "en": "Pretty good, thanks.",
-          "ru": "Довольно хорошо, спасибо."
+          "ru": "Довольно хорошо, спасибо.",
+          "uz": "Ancha yaxshi, rahmat."
         },
         {
           "id": "EE030",
           "en": "Not bad.",
-          "ru": "Неплохо."
+          "ru": "Неплохо.",
+          "uz": "Yomon emas."
         }
       ]
     },
@@ -193,58 +227,69 @@
       "order": 4,
       "title": {
         "en": "Introducing yourself",
-        "ru": "Знакомство"
+        "ru": "Знакомство",
+        "uz": "Tanishuv"
       },
       "phrases": [
         {
           "id": "EE031",
           "en": "What's your name?",
-          "ru": "Как тебя зовут?"
+          "ru": "Как тебя зовут?",
+          "uz": "Ismingiz nima?"
         },
         {
           "id": "EE032",
           "en": "My name is ...",
-          "ru": "Меня зовут ..."
+          "ru": "Меня зовут ...",
+          "uz": "Mening ismim ..."
         },
         {
           "id": "EE033",
           "en": "You can call me ...",
-          "ru": "Можешь называть меня ..."
+          "ru": "Можешь называть меня ...",
+          "uz": "Meni ... deb chaqirsangiz boʻladi."
         },
         {
           "id": "EE034",
           "en": "Nice to meet you.",
-          "ru": "Приятно познакомиться."
+          "ru": "Приятно познакомиться.",
+          "uz": "Tanishganimdan xursandman."
         },
         {
           "id": "EE035",
           "en": "Nice to meet you, too.",
-          "ru": "Мне тоже приятно познакомиться."
+          "ru": "Мне тоже приятно познакомиться.",
+          "uz": "Men ham tanishganimdan xursandman."
         },
         {
           "id": "EE036",
           "en": "Where are you from?",
-          "ru": "Откуда ты?"
+          "ru": "Откуда ты?",
+          "uz": "Qayerdansiz?"
         },
         {
           "id": "EE037",
           "en": "I'm from Uzbekistan.",
-          "ru": "Я из Узбекистана."
+          "ru": "Я из Узбекистана.",
+          "uz": "Men Oʻzbekistondanman."
         },
         {
           "id": "EE038",
           "en": "Where do you live?",
-          "ru": "Где ты живёшь?"
+          "ru": "Где ты живёшь?",
+          "uz": "Qayerda yashaysiz?"
         },
         {
           "id": "EE039",
           "en": "I live in Tashkent.",
-          "ru": "Я живу в Ташкенте."
+          "ru": "Я живу в Ташкенте.",
+          "uz": "Men Toshkentda yashayman."
         },
         {
           "id": "EE040",
           "en": "What do you do?",
-          "ru": "Кем ты работаешь? / Чем занимаешься?"
+          "ru": "Кем ты работаешь? / Чем занимаешься?",
+          "uz": "Nima ish qilasiz?"
         }
       ]
     },
@@ -253,58 +298,69 @@
       "order": 5,
       "title": {
         "en": "Everyday activities",
-        "ru": "Повседневные дела"
+        "ru": "Повседневные дела",
+        "uz": "Kundalik ishlar"
       },
       "phrases": [
         {
           "id": "EE041",
           "en": "What are you doing?",
-          "ru": "Что ты делаешь?"
+          "ru": "Что ты делаешь?",
+          "uz": "Nima qilyapsiz?"
         },
         {
           "id": "EE042",
           "en": "What are you up to?",
-          "ru": "Чем занимаешься?"
+          "ru": "Чем занимаешься?",
+          "uz": "Nima bilan bandsiz?"
         },
         {
           "id": "EE043",
           "en": "I'm getting ready.",
-          "ru": "Я собираюсь / готовлюсь."
+          "ru": "Я собираюсь / готовлюсь.",
+          "uz": "Tayyorlanyapman."
         },
         {
           "id": "EE044",
           "en": "I'm on my way.",
-          "ru": "Я уже в пути."
+          "ru": "Я уже в пути.",
+          "uz": "Yoʻldaman."
         },
         {
           "id": "EE045",
           "en": "I'm just relaxing.",
-          "ru": "Я просто отдыхаю."
+          "ru": "Я просто отдыхаю.",
+          "uz": "Shunchaki dam olyapman."
         },
         {
           "id": "EE046",
           "en": "I'm having lunch.",
-          "ru": "Я обедаю."
+          "ru": "Я обедаю.",
+          "uz": "Tushlik qilyapman."
         },
         {
           "id": "EE047",
           "en": "I'm working right now.",
-          "ru": "Я сейчас работаю."
+          "ru": "Я сейчас работаю.",
+          "uz": "Hozir ishlayapman."
         },
         {
           "id": "EE048",
           "en": "I'm going home.",
-          "ru": "Я иду / еду домой."
+          "ru": "Я иду / еду домой.",
+          "uz": "Uyga ketyapman."
         },
         {
           "id": "EE049",
           "en": "I'm a little busy.",
-          "ru": "Я немного занят(а)."
+          "ru": "Я немного занят(а).",
+          "uz": "Birozgina bandman."
         },
         {
           "id": "EE050",
           "en": "I'm free right now.",
-          "ru": "Я сейчас свободен / свободна."
+          "ru": "Я сейчас свободен / свободна.",
+          "uz": "Hozir boʻshman."
         }
       ]
     },
@@ -313,58 +369,69 @@
       "order": 6,
       "title": {
         "en": "Making plans",
-        "ru": "Договариваемся о встрече"
+        "ru": "Договариваемся о встрече",
+        "uz": "Uchrashuvga kelishish"
       },
       "phrases": [
         {
           "id": "EE051",
           "en": "Are you free today?",
-          "ru": "Ты сегодня свободен / свободна?"
+          "ru": "Ты сегодня свободен / свободна?",
+          "uz": "Bugun boʻshmisiz?"
         },
         {
           "id": "EE052",
           "en": "Are you doing anything tonight?",
-          "ru": "Ты чем-нибудь занят(а) сегодня вечером?"
+          "ru": "Ты чем-нибудь занят(а) сегодня вечером?",
+          "uz": "Bugun kechqurun bandmisiz?"
         },
         {
           "id": "EE053",
           "en": "Do you want to hang out?",
-          "ru": "Хочешь провести время вместе?"
+          "ru": "Хочешь провести время вместе?",
+          "uz": "Birga vaqt oʻtkazmaymizmi?"
         },
         {
           "id": "EE054",
           "en": "Let's meet up.",
-          "ru": "Давай встретимся."
+          "ru": "Давай встретимся.",
+          "uz": "Keling, uchrashaylik."
         },
         {
           "id": "EE055",
           "en": "Let's go for a walk.",
-          "ru": "Давай прогуляемся."
+          "ru": "Давай прогуляемся.",
+          "uz": "Keling, sayr qilaylik."
         },
         {
           "id": "EE056",
           "en": "What time works for you?",
-          "ru": "Какое время тебе подходит?"
+          "ru": "Какое время тебе подходит?",
+          "uz": "Sizga qaysi vaqt qulay?"
         },
         {
           "id": "EE057",
           "en": "Where shall we meet?",
-          "ru": "Где встретимся?"
+          "ru": "Где встретимся?",
+          "uz": "Qayerda uchrashamiz?"
         },
         {
           "id": "EE058",
           "en": "That sounds good.",
-          "ru": "Звучит хорошо."
+          "ru": "Звучит хорошо.",
+          "uz": "Bu yaxshi fikr."
         },
         {
           "id": "EE059",
           "en": "I'm not sure yet.",
-          "ru": "Я пока не уверен(а)."
+          "ru": "Я пока не уверен(а).",
+          "uz": "Hali aniq bilmayman."
         },
         {
           "id": "EE060",
           "en": "I'll let you know.",
-          "ru": "Я дам тебе знать."
+          "ru": "Я дам тебе знать.",
+          "uz": "Sizga xabar beraman."
         }
       ]
     },
@@ -373,58 +440,69 @@
       "order": 7,
       "title": {
         "en": "Invitations and responses",
-        "ru": "Приглашения и ответы"
+        "ru": "Приглашения и ответы",
+        "uz": "Takliflar va javoblar"
       },
       "phrases": [
         {
           "id": "EE061",
           "en": "Would you like to join us?",
-          "ru": "Хочешь присоединиться к нам?"
+          "ru": "Хочешь присоединиться к нам?",
+          "uz": "Bizga qoʻshilasizmi?"
         },
         {
           "id": "EE062",
           "en": "Do you want to come with me?",
-          "ru": "Хочешь пойти со мной?"
+          "ru": "Хочешь пойти со мной?",
+          "uz": "Men bilan borasizmi?"
         },
         {
           "id": "EE063",
           "en": "Sure, why not?",
-          "ru": "Конечно, почему бы и нет?"
+          "ru": "Конечно, почему бы и нет?",
+          "uz": "Albatta, nega boʻlmasin?"
         },
         {
           "id": "EE064",
           "en": "I'd love to.",
-          "ru": "С удовольствием."
+          "ru": "С удовольствием.",
+          "uz": "Bajonidil."
         },
         {
           "id": "EE065",
           "en": "That sounds like fun.",
-          "ru": "Звучит весело."
+          "ru": "Звучит весело.",
+          "uz": "Qiziqarli boʻladiganga oʻxshaydi."
         },
         {
           "id": "EE066",
           "en": "Sorry, I can't make it.",
-          "ru": "Извини, я не смогу прийти."
+          "ru": "Извини, я не смогу прийти.",
+          "uz": "Kechirasiz, bora olmayman."
         },
         {
           "id": "EE067",
           "en": "Maybe next time.",
-          "ru": "Может быть, в следующий раз."
+          "ru": "Может быть, в следующий раз.",
+          "uz": "Balki keyingi safar."
         },
         {
           "id": "EE068",
           "en": "Thanks for inviting me.",
-          "ru": "Спасибо за приглашение."
+          "ru": "Спасибо за приглашение.",
+          "uz": "Taklif qilganingiz uchun rahmat."
         },
         {
           "id": "EE069",
           "en": "Can I bring a friend?",
-          "ru": "Можно я приведу друга / подругу?"
+          "ru": "Можно я приведу друга / подругу?",
+          "uz": "Doʻstimni olib kelsam boʻladimi?"
         },
         {
           "id": "EE070",
           "en": "What should I bring?",
-          "ru": "Что мне принести?"
+          "ru": "Что мне принести?",
+          "uz": "Nima olib kelay?"
         }
       ]
     },
@@ -433,58 +511,69 @@
       "order": 8,
       "title": {
         "en": "Expressing thanks",
-        "ru": "Благодарность"
+        "ru": "Благодарность",
+        "uz": "Minnatdorchilik"
       },
       "phrases": [
         {
           "id": "EE071",
           "en": "Thank you.",
-          "ru": "Спасибо."
+          "ru": "Спасибо.",
+          "uz": "Rahmat."
         },
         {
           "id": "EE072",
           "en": "Thanks a lot.",
-          "ru": "Большое спасибо."
+          "ru": "Большое спасибо.",
+          "uz": "Katta rahmat."
         },
         {
           "id": "EE073",
           "en": "Thank you so much.",
-          "ru": "Огромное спасибо."
+          "ru": "Огромное спасибо.",
+          "uz": "Juda katta rahmat."
         },
         {
           "id": "EE074",
           "en": "I really appreciate it.",
-          "ru": "Я очень это ценю."
+          "ru": "Я очень это ценю.",
+          "uz": "Buni juda qadrlayman."
         },
         {
           "id": "EE075",
           "en": "That's very kind of you.",
-          "ru": "Это очень мило с твоей стороны."
+          "ru": "Это очень мило с твоей стороны.",
+          "uz": "Bu juda xolisona boʻldi."
         },
         {
           "id": "EE076",
           "en": "You're welcome.",
-          "ru": "Пожалуйста. / Не за что."
+          "ru": "Пожалуйста. / Не за что.",
+          "uz": "Arzimaydi."
         },
         {
           "id": "EE077",
           "en": "No problem.",
-          "ru": "Без проблем."
+          "ru": "Без проблем.",
+          "uz": "Muammo yoʻq."
         },
         {
           "id": "EE078",
           "en": "Anytime.",
-          "ru": "Всегда пожалуйста."
+          "ru": "Всегда пожалуйста.",
+          "uz": "Doimo marhamat."
         },
         {
           "id": "EE079",
           "en": "Don't mention it.",
-          "ru": "Не стоит благодарности."
+          "ru": "Не стоит благодарности.",
+          "uz": "Arzimaydi, gapning kerakmas."
         },
         {
           "id": "EE080",
           "en": "I'm glad I could help.",
-          "ru": "Рад(а), что смог(ла) помочь."
+          "ru": "Рад(а), что смог(ла) помочь.",
+          "uz": "Yordam bera olganimdan xursandman."
         }
       ]
     },
@@ -493,58 +582,69 @@
       "order": 9,
       "title": {
         "en": "Apologies",
-        "ru": "Извинения"
+        "ru": "Извинения",
+        "uz": "Uzr soʻrash"
       },
       "phrases": [
         {
           "id": "EE081",
           "en": "I'm sorry.",
-          "ru": "Мне жаль. / Извини(те)."
+          "ru": "Мне жаль. / Извини(те).",
+          "uz": "Kechirasiz."
         },
         {
           "id": "EE082",
           "en": "Sorry I'm late.",
-          "ru": "Извини(те), я опоздал(а)."
+          "ru": "Извини(те), я опоздал(а).",
+          "uz": "Kechikkanim uchun uzr."
         },
         {
           "id": "EE083",
           "en": "I'm so sorry.",
-          "ru": "Мне очень жаль."
+          "ru": "Мне очень жаль.",
+          "uz": "Juda afsusdaman."
         },
         {
           "id": "EE084",
           "en": "Sorry about that.",
-          "ru": "Извини(те) за это."
+          "ru": "Извини(те) за это.",
+          "uz": "Bunisi uchun uzr."
         },
         {
           "id": "EE085",
           "en": "My mistake.",
-          "ru": "Моя ошибка."
+          "ru": "Моя ошибка.",
+          "uz": "Mening xatoyim."
         },
         {
           "id": "EE086",
           "en": "It was an accident.",
-          "ru": "Это вышло случайно."
+          "ru": "Это вышло случайно.",
+          "uz": "Bu tasodifan boʻldi."
         },
         {
           "id": "EE087",
           "en": "I didn't mean to.",
-          "ru": "Я не хотел(а) этого."
+          "ru": "Я не хотел(а) этого.",
+          "uz": "Men bunday boʻlishini xohlamagandim."
         },
         {
           "id": "EE088",
           "en": "No worries.",
-          "ru": "Ничего страшного."
+          "ru": "Ничего страшного.",
+          "uz": "Hechqisi yoʻq."
         },
         {
           "id": "EE089",
           "en": "That's okay.",
-          "ru": "Всё нормально."
+          "ru": "Всё нормально.",
+          "uz": "Hammasi joyida."
         },
         {
           "id": "EE090",
           "en": "It happens.",
-          "ru": "Бывает."
+          "ru": "Бывает.",
+          "uz": "Bunday boʻlib turadi."
         }
       ]
     },
@@ -553,58 +653,69 @@
       "order": 10,
       "title": {
         "en": "Understanding and clarification",
-        "ru": "Понимание и уточнение"
+        "ru": "Понимание и уточнение",
+        "uz": "Tushunish va aniqlashtirish"
       },
       "phrases": [
         {
           "id": "EE091",
           "en": "I see.",
-          "ru": "Понятно."
+          "ru": "Понятно.",
+          "uz": "Tushunarli."
         },
         {
           "id": "EE092",
           "en": "I understand.",
-          "ru": "Я понимаю."
+          "ru": "Я понимаю.",
+          "uz": "Tushunyapman."
         },
         {
           "id": "EE093",
           "en": "I don't understand.",
-          "ru": "Я не понимаю."
+          "ru": "Я не понимаю.",
+          "uz": "Tushunmayapman."
         },
         {
           "id": "EE094",
           "en": "What do you mean?",
-          "ru": "Что ты имеешь в виду?"
+          "ru": "Что ты имеешь в виду?",
+          "uz": "Nimani nazarda tutyapsiz?"
         },
         {
           "id": "EE095",
           "en": "Could you explain that?",
-          "ru": "Не мог(ли) бы ты это объяснить?"
+          "ru": "Не мог(ли) бы ты это объяснить?",
+          "uz": "Buni tushuntirib bera olasizmi?"
         },
         {
           "id": "EE096",
           "en": "Could you say that again?",
-          "ru": "Не мог(ли) бы ты повторить?"
+          "ru": "Не мог(ли) бы ты повторить?",
+          "uz": "Yana bir marta takrorlay olasizmi?"
         },
         {
           "id": "EE097",
           "en": "Could you speak more slowly?",
-          "ru": "Не мог(ли) бы ты говорить медленнее?"
+          "ru": "Не мог(ли) бы ты говорить медленнее?",
+          "uz": "Sekinroq gapira olasizmi?"
         },
         {
           "id": "EE098",
           "en": "I didn't catch that.",
-          "ru": "Я не расслышал(а)."
+          "ru": "Я не расслышал(а).",
+          "uz": "Eshitmay qoldim."
         },
         {
           "id": "EE099",
           "en": "What was that?",
-          "ru": "Что ты сказал(а)?"
+          "ru": "Что ты сказал(а)?",
+          "uz": "Nima dedingiz?"
         },
         {
           "id": "EE100",
           "en": "Now I get it.",
-          "ru": "Теперь я понял(а)."
+          "ru": "Теперь я понял(а).",
+          "uz": "Endi tushundim."
         }
       ]
     },
@@ -613,58 +724,69 @@
       "order": 11,
       "title": {
         "en": "Asking for help",
-        "ru": "Просьбы о помощи"
+        "ru": "Просьбы о помощи",
+        "uz": "Yordam soʻrash"
       },
       "phrases": [
         {
           "id": "EE101",
           "en": "Can you help me?",
-          "ru": "Можешь мне помочь?"
+          "ru": "Можешь мне помочь?",
+          "uz": "Menga yordam bera olasizmi?"
         },
         {
           "id": "EE102",
           "en": "Could you help me, please?",
-          "ru": "Не могли бы вы мне помочь?"
+          "ru": "Не могли бы вы мне помочь?",
+          "uz": "Iltimos, menga yordam bera olasizmi?"
         },
         {
           "id": "EE103",
           "en": "Can you give me a hand?",
-          "ru": "Можешь мне помочь?"
+          "ru": "Можешь мне помочь?",
+          "uz": "Menga qoʻl choʻzasizmi?"
         },
         {
           "id": "EE104",
           "en": "Could you do me a favor?",
-          "ru": "Не мог(ли) бы ты оказать мне услугу?"
+          "ru": "Не мог(ли) бы ты оказать мне услугу?",
+          "uz": "Bir yaxshilik qila olasizmi?"
         },
         {
           "id": "EE105",
           "en": "Can you show me?",
-          "ru": "Можешь мне показать?"
+          "ru": "Можешь мне показать?",
+          "uz": "Menga koʻrsata olasizmi?"
         },
         {
           "id": "EE106",
           "en": "Can you wait a minute?",
-          "ru": "Можешь подождать минуту?"
+          "ru": "Можешь подождать минуту?",
+          "uz": "Bir daqiqa kuta olasizmi?"
         },
         {
           "id": "EE107",
           "en": "Please give me a moment.",
-          "ru": "Пожалуйста, дай(те) мне минутку."
+          "ru": "Пожалуйста, дай(те) мне минутку.",
+          "uz": "Iltimos, menga bir daqiqa bering."
         },
         {
           "id": "EE108",
           "en": "Could you repeat that, please?",
-          "ru": "Не могли бы вы повторить?"
+          "ru": "Не могли бы вы повторить?",
+          "uz": "Iltimos, buni takrorlay olasizmi?"
         },
         {
           "id": "EE109",
           "en": "Can you write it down?",
-          "ru": "Можешь это записать?"
+          "ru": "Можешь это записать?",
+          "uz": "Buni yozib bera olasizmi?"
         },
         {
           "id": "EE110",
           "en": "Thanks for your help.",
-          "ru": "Спасибо за помощь."
+          "ru": "Спасибо за помощь.",
+          "uz": "Yordamingiz uchun rahmat."
         }
       ]
     },
@@ -673,58 +795,69 @@
       "order": 12,
       "title": {
         "en": "Opinions and reactions",
-        "ru": "Мнение и реакция"
+        "ru": "Мнение и реакция",
+        "uz": "Fikr va munosabat"
       },
       "phrases": [
         {
           "id": "EE111",
           "en": "I think so.",
-          "ru": "Думаю, да."
+          "ru": "Думаю, да.",
+          "uz": "Menimcha, ha."
         },
         {
           "id": "EE112",
           "en": "I don't think so.",
-          "ru": "Думаю, нет."
+          "ru": "Думаю, нет.",
+          "uz": "Menimcha, yoʻq."
         },
         {
           "id": "EE113",
           "en": "I agree.",
-          "ru": "Я согласен / согласна."
+          "ru": "Я согласен / согласна.",
+          "uz": "Roziman."
         },
         {
           "id": "EE114",
           "en": "I don't agree.",
-          "ru": "Я не согласен / согласна."
+          "ru": "Я не согласен / согласна.",
+          "uz": "Rozi emasman."
         },
         {
           "id": "EE115",
           "en": "You're right.",
-          "ru": "Ты прав(а)."
+          "ru": "Ты прав(а).",
+          "uz": "Siz haqsiz."
         },
         {
           "id": "EE116",
           "en": "That's true.",
-          "ru": "Это правда."
+          "ru": "Это правда.",
+          "uz": "Bu rost."
         },
         {
           "id": "EE117",
           "en": "That makes sense.",
-          "ru": "В этом есть смысл. / Теперь понятно."
+          "ru": "В этом есть смысл. / Теперь понятно.",
+          "uz": "Bunda mantiq bor."
         },
         {
           "id": "EE118",
           "en": "Really?",
-          "ru": "Правда?"
+          "ru": "Правда?",
+          "uz": "Rostdanmi?"
         },
         {
           "id": "EE119",
           "en": "Are you serious?",
-          "ru": "Ты серьёзно?"
+          "ru": "Ты серьёзно?",
+          "uz": "Jiddiy aytyapsizmi?"
         },
         {
           "id": "EE120",
           "en": "I don't know about that.",
-          "ru": "Не уверен(а) насчёт этого."
+          "ru": "Не уверен(а) насчёт этого.",
+          "uz": "Bunisiga unchalik ishonmayman."
         }
       ]
     },
@@ -733,58 +866,69 @@
       "order": 13,
       "title": {
         "en": "Preferences and choices",
-        "ru": "Предпочтения и выбор"
+        "ru": "Предпочтения и выбор",
+        "uz": "Afzalliklar va tanlov"
       },
       "phrases": [
         {
           "id": "EE121",
           "en": "I like it.",
-          "ru": "Мне это нравится."
+          "ru": "Мне это нравится.",
+          "uz": "Bu menga yoqadi."
         },
         {
           "id": "EE122",
           "en": "I love it.",
-          "ru": "Мне это очень нравится."
+          "ru": "Мне это очень нравится.",
+          "uz": "Bu menga juda yoqadi."
         },
         {
           "id": "EE123",
           "en": "I don't like it.",
-          "ru": "Мне это не нравится."
+          "ru": "Мне это не нравится.",
+          "uz": "Bu menga yoqmaydi."
         },
         {
           "id": "EE124",
           "en": "It's not my thing.",
-          "ru": "Это не моё."
+          "ru": "Это не моё.",
+          "uz": "Bu meniki emas."
         },
         {
           "id": "EE125",
           "en": "I prefer this one.",
-          "ru": "Я предпочитаю этот вариант."
+          "ru": "Я предпочитаю этот вариант.",
+          "uz": "Men bunisini afzal koʻraman."
         },
         {
           "id": "EE126",
           "en": "Either is fine.",
-          "ru": "Подойдёт любой вариант."
+          "ru": "Подойдёт любой вариант.",
+          "uz": "Ikkalasi ham boʻladi."
         },
         {
           "id": "EE127",
           "en": "I don't mind.",
-          "ru": "Я не против. / Мне не принципиально."
+          "ru": "Я не против. / Мне не принципиально.",
+          "uz": "Menga farqi yoʻq."
         },
         {
           "id": "EE128",
           "en": "It's up to you.",
-          "ru": "Решать тебе."
+          "ru": "Решать тебе.",
+          "uz": "Oʻzingiz hal qiling."
         },
         {
           "id": "EE129",
           "en": "You choose.",
-          "ru": "Выбирай ты."
+          "ru": "Выбирай ты.",
+          "uz": "Siz tanlang."
         },
         {
           "id": "EE130",
           "en": "I'd rather stay home.",
-          "ru": "Я бы предпочёл / предпочла остаться дома."
+          "ru": "Я бы предпочёл / предпочла остаться дома.",
+          "uz": "Men uyda qolishni afzal koʻrardim."
         }
       ]
     },
@@ -793,58 +937,69 @@
       "order": 14,
       "title": {
         "en": "Feelings and condition",
-        "ru": "Самочувствие и эмоции"
+        "ru": "Самочувствие и эмоции",
+        "uz": "Kayfiyat va his-tuygʻular"
       },
       "phrases": [
         {
           "id": "EE131",
           "en": "I'm happy.",
-          "ru": "Я счастлив(а)."
+          "ru": "Я счастлив(а).",
+          "uz": "Men baxtliman."
         },
         {
           "id": "EE132",
           "en": "I'm tired.",
-          "ru": "Я устал(а)."
+          "ru": "Я устал(а).",
+          "uz": "Men charchadim."
         },
         {
           "id": "EE133",
           "en": "I'm exhausted.",
-          "ru": "Я совершенно без сил."
+          "ru": "Я совершенно без сил.",
+          "uz": "Butunlay holdan toydim."
         },
         {
           "id": "EE134",
           "en": "I'm excited.",
-          "ru": "Я очень рад(а) / взволнован(а)."
+          "ru": "Я очень рад(а) / взволнован(а).",
+          "uz": "Men juda hayajondaman."
         },
         {
           "id": "EE135",
           "en": "I'm worried.",
-          "ru": "Я волнуюсь."
+          "ru": "Я волнуюсь.",
+          "uz": "Men xavotirdaman."
         },
         {
           "id": "EE136",
           "en": "I'm nervous.",
-          "ru": "Я нервничаю."
+          "ru": "Я нервничаю.",
+          "uz": "Men hayajonlanyapman."
         },
         {
           "id": "EE137",
           "en": "I'm bored.",
-          "ru": "Мне скучно."
+          "ru": "Мне скучно.",
+          "uz": "Zerikyapman."
         },
         {
           "id": "EE138",
           "en": "I'm hungry.",
-          "ru": "Я голоден / голодна."
+          "ru": "Я голоден / голодна.",
+          "uz": "Qornim och."
         },
         {
           "id": "EE139",
           "en": "I'm thirsty.",
-          "ru": "Я хочу пить."
+          "ru": "Я хочу пить.",
+          "uz": "Chanqadim."
         },
         {
           "id": "EE140",
           "en": "I feel much better.",
-          "ru": "Я чувствую себя намного лучше."
+          "ru": "Я чувствую себя намного лучше.",
+          "uz": "Oʻzimni ancha yaxshi his qilyapman."
         }
       ]
     },
@@ -853,58 +1008,69 @@
       "order": 15,
       "title": {
         "en": "Time and being late",
-        "ru": "Время и опоздания"
+        "ru": "Время и опоздания",
+        "uz": "Vaqt va kechikish"
       },
       "phrases": [
         {
           "id": "EE141",
           "en": "What time is it?",
-          "ru": "Который час?"
+          "ru": "Который час?",
+          "uz": "Soat necha boʻldi?"
         },
         {
           "id": "EE142",
           "en": "It's getting late.",
-          "ru": "Уже становится поздно."
+          "ru": "Уже становится поздно.",
+          "uz": "Kech boʻlib qolyapti."
         },
         {
           "id": "EE143",
           "en": "I'm running late.",
-          "ru": "Я опаздываю."
+          "ru": "Я опаздываю.",
+          "uz": "Kechikyapman."
         },
         {
           "id": "EE144",
           "en": "I'll be there soon.",
-          "ru": "Я скоро буду там."
+          "ru": "Я скоро буду там.",
+          "uz": "Tez orada yetib boraman."
         },
         {
           "id": "EE145",
           "en": "Give me five minutes.",
-          "ru": "Дай мне пять минут."
+          "ru": "Дай мне пять минут.",
+          "uz": "Menga besh daqiqa bering."
         },
         {
           "id": "EE146",
           "en": "I'm almost there.",
-          "ru": "Я почти на месте."
+          "ru": "Я почти на месте.",
+          "uz": "Deyarli yetib keldim."
         },
         {
           "id": "EE147",
           "en": "I have to go.",
-          "ru": "Мне пора идти."
+          "ru": "Мне пора идти.",
+          "uz": "Men ketishim kerak."
         },
         {
           "id": "EE148",
           "en": "I don't have much time.",
-          "ru": "У меня мало времени."
+          "ru": "У меня мало времени.",
+          "uz": "Vaqtim koʻp emas."
         },
         {
           "id": "EE149",
           "en": "Let's not be late.",
-          "ru": "Давай не будем опаздывать."
+          "ru": "Давай не будем опаздывать.",
+          "uz": "Kechikmaylik."
         },
         {
           "id": "EE150",
           "en": "Take your time.",
-          "ru": "Не торопись."
+          "ru": "Не торопись.",
+          "uz": "Shoshilmang."
         }
       ]
     },
@@ -913,58 +1079,69 @@
       "order": 16,
       "title": {
         "en": "At home and daily life",
-        "ru": "Дом и быт"
+        "ru": "Дом и быт",
+        "uz": "Uy va kundalik turmush"
       },
       "phrases": [
         {
           "id": "EE151",
           "en": "I'm home.",
-          "ru": "Я дома."
+          "ru": "Я дома.",
+          "uz": "Men uydaman."
         },
         {
           "id": "EE152",
           "en": "Make yourself at home.",
-          "ru": "Чувствуй себя как дома."
+          "ru": "Чувствуй себя как дома.",
+          "uz": "Oʻzingizni uyingizdagidek his qiling."
         },
         {
           "id": "EE153",
           "en": "What's for dinner?",
-          "ru": "Что на ужин?"
+          "ru": "Что на ужин?",
+          "uz": "Kechki ovqatga nima bor?"
         },
         {
           "id": "EE154",
           "en": "I'm making some tea.",
-          "ru": "Я готовлю чай."
+          "ru": "Я готовлю чай.",
+          "uz": "Choy damlayapman."
         },
         {
           "id": "EE155",
           "en": "Could you open the window?",
-          "ru": "Не мог(ла) бы ты открыть окно?"
+          "ru": "Не мог(ла) бы ты открыть окно?",
+          "uz": "Derazani ocha olasizmi?"
         },
         {
           "id": "EE156",
           "en": "Please turn on the light.",
-          "ru": "Пожалуйста, включи свет."
+          "ru": "Пожалуйста, включи свет.",
+          "uz": "Iltimos, chiroqni yoqing."
         },
         {
           "id": "EE157",
           "en": "Can you turn it off?",
-          "ru": "Можешь это выключить?"
+          "ru": "Можешь это выключить?",
+          "uz": "Buni oʻchira olasizmi?"
         },
         {
           "id": "EE158",
           "en": "I'll be right back.",
-          "ru": "Я сейчас вернусь."
+          "ru": "Я сейчас вернусь.",
+          "uz": "Hozir qaytaman."
         },
         {
           "id": "EE159",
           "en": "Where did I put my keys?",
-          "ru": "Куда я положил(а) ключи?"
+          "ru": "Куда я положил(а) ключи?",
+          "uz": "Kalitlarimni qayerga qoʻygandim?"
         },
         {
           "id": "EE160",
           "en": "I'm going to bed.",
-          "ru": "Я иду спать."
+          "ru": "Я иду спать.",
+          "uz": "Uxlagani ketyapman."
         }
       ]
     },
@@ -973,58 +1150,69 @@
       "order": 17,
       "title": {
         "en": "Food and going out",
-        "ru": "Еда и выход куда-нибудь"
+        "ru": "Еда и выход куда-нибудь",
+        "uz": "Ovqat va tashqariga chiqish"
       },
       "phrases": [
         {
           "id": "EE161",
           "en": "Are you hungry?",
-          "ru": "Ты голоден / голодна?"
+          "ru": "Ты голоден / голодна?",
+          "uz": "Qorningiz ochmi?"
         },
         {
           "id": "EE162",
           "en": "Let's get something to eat.",
-          "ru": "Давай что-нибудь поедим."
+          "ru": "Давай что-нибудь поедим.",
+          "uz": "Keling, bir nima yeb olaylik."
         },
         {
           "id": "EE163",
           "en": "What do you feel like eating?",
-          "ru": "Что тебе хочется поесть?"
+          "ru": "Что тебе хочется поесть?",
+          "uz": "Nima yegingiz kelyapti?"
         },
         {
           "id": "EE164",
           "en": "That looks delicious.",
-          "ru": "Выглядит очень вкусно."
+          "ru": "Выглядит очень вкусно.",
+          "uz": "Juda mazali koʻrinadi."
         },
         {
           "id": "EE165",
           "en": "Can I try some?",
-          "ru": "Можно мне попробовать?"
+          "ru": "Можно мне попробовать?",
+          "uz": "Biroz tatib koʻrsam boʻladimi?"
         },
         {
           "id": "EE166",
           "en": "I'm full.",
-          "ru": "Я сыт(а)."
+          "ru": "Я сыт(а).",
+          "uz": "Toʻyib qoldim."
         },
         {
           "id": "EE167",
           "en": "Let's get a coffee.",
-          "ru": "Давай выпьем кофе."
+          "ru": "Давай выпьем кофе.",
+          "uz": "Keling, qahva ichaylik."
         },
         {
           "id": "EE168",
           "en": "Shall we eat out?",
-          "ru": "Может, поедим где-нибудь вне дома?"
+          "ru": "Может, поедим где-нибудь вне дома?",
+          "uz": "Tashqarida ovqatlansak-chi?"
         },
         {
           "id": "EE169",
           "en": "The food was great.",
-          "ru": "Еда была отличной."
+          "ru": "Еда была отличной.",
+          "uz": "Ovqat juda zoʻr edi."
         },
         {
           "id": "EE170",
           "en": "Can I have the bill, please?",
-          "ru": "Можно счёт, пожалуйста?"
+          "ru": "Можно счёт, пожалуйста?",
+          "uz": "Iltimos, hisobni olsam boʻladimi?"
         }
       ]
     },
@@ -1033,58 +1221,69 @@
       "order": 18,
       "title": {
         "en": "Problems and unexpected situations",
-        "ru": "Проблемы и неожиданности"
+        "ru": "Проблемы и неожиданности",
+        "uz": "Muammolar va kutilmagan holatlar"
       },
       "phrases": [
         {
           "id": "EE171",
           "en": "What's wrong?",
-          "ru": "Что случилось?"
+          "ru": "Что случилось?",
+          "uz": "Nima boʻldi?"
         },
         {
           "id": "EE172",
           "en": "What's the matter?",
-          "ru": "В чём дело?"
+          "ru": "В чём дело?",
+          "uz": "Gap nimada?"
         },
         {
           "id": "EE173",
           "en": "I have a problem.",
-          "ru": "У меня проблема."
+          "ru": "У меня проблема.",
+          "uz": "Menda bir muammo bor."
         },
         {
           "id": "EE174",
           "en": "Something came up.",
-          "ru": "Возникли непредвиденные обстоятельства."
+          "ru": "Возникли непредвиденные обстоятельства.",
+          "uz": "Kutilmagan ish chiqib qoldi."
         },
         {
           "id": "EE175",
           "en": "I forgot.",
-          "ru": "Я забыл(а)."
+          "ru": "Я забыл(а).",
+          "uz": "Esimdan chiqibdi."
         },
         {
           "id": "EE176",
           "en": "I lost my phone.",
-          "ru": "Я потерял(а) телефон."
+          "ru": "Я потерял(а) телефон.",
+          "uz": "Telefonimni yoʻqotib qoʻydim."
         },
         {
           "id": "EE177",
           "en": "It doesn't work.",
-          "ru": "Это не работает."
+          "ru": "Это не работает.",
+          "uz": "Bu ishlamayapti."
         },
         {
           "id": "EE178",
           "en": "That's strange.",
-          "ru": "Это странно."
+          "ru": "Это странно.",
+          "uz": "Bu gʻalati."
         },
         {
           "id": "EE179",
           "en": "Don't worry about it.",
-          "ru": "Не переживай из-за этого."
+          "ru": "Не переживай из-за этого.",
+          "uz": "Bunisi uchun xavotir olmang."
         },
         {
           "id": "EE180",
           "en": "We'll figure it out.",
-          "ru": "Мы разберёмся."
+          "ru": "Мы разберёмся.",
+          "uz": "Biror yoʻlini topamiz."
         }
       ]
     },
@@ -1093,58 +1292,69 @@
       "order": 19,
       "title": {
         "en": "Ending a conversation",
-        "ru": "Завершение разговора"
+        "ru": "Завершение разговора",
+        "uz": "Suhbatni yakunlash"
       },
       "phrases": [
         {
           "id": "EE181",
           "en": "Anyway, I should go.",
-          "ru": "Ладно, мне пора идти."
+          "ru": "Ладно, мне пора идти.",
+          "uz": "Mayli, men boray."
         },
         {
           "id": "EE182",
           "en": "I have to get going.",
-          "ru": "Мне пора отправляться."
+          "ru": "Мне пора отправляться.",
+          "uz": "Men joʻnashim kerak."
         },
         {
           "id": "EE183",
           "en": "It was great talking to you.",
-          "ru": "Было приятно с тобой поговорить."
+          "ru": "Было приятно с тобой поговорить.",
+          "uz": "Siz bilan suhbatlashganim yoqdi."
         },
         {
           "id": "EE184",
           "en": "Let's keep in touch.",
-          "ru": "Давай оставаться на связи."
+          "ru": "Давай оставаться на связи.",
+          "uz": "Aloqani uzmaylik."
         },
         {
           "id": "EE185",
           "en": "Send me a message.",
-          "ru": "Напиши мне сообщение."
+          "ru": "Напиши мне сообщение.",
+          "uz": "Menga xabar yozing."
         },
         {
           "id": "EE186",
           "en": "Text me later.",
-          "ru": "Напиши мне позже."
+          "ru": "Напиши мне позже.",
+          "uz": "Keyinroq yozing."
         },
         {
           "id": "EE187",
           "en": "Let me know how it goes.",
-          "ru": "Расскажи, как всё пройдёт."
+          "ru": "Расскажи, как всё пройдёт.",
+          "uz": "Qanday oʻtganini aytib bering."
         },
         {
           "id": "EE188",
           "en": "Have fun!",
-          "ru": "Хорошо проведи время!"
+          "ru": "Хорошо проведи время!",
+          "uz": "Yaxshi dam oling!"
         },
         {
           "id": "EE189",
           "en": "Enjoy your day!",
-          "ru": "Хорошего тебе дня!"
+          "ru": "Хорошего тебе дня!",
+          "uz": "Kuningiz yaxshi oʻtsin!"
         },
         {
           "id": "EE190",
           "en": "See you around.",
-          "ru": "Ещё увидимся."
+          "ru": "Ещё увидимся.",
+          "uz": "Yana koʻrishamiz."
         }
       ]
     },
@@ -1153,58 +1363,69 @@
       "order": 20,
       "title": {
         "en": "Common everyday responses",
-        "ru": "Частые ответы в разговоре"
+        "ru": "Частые ответы в разговоре",
+        "uz": "Suhbatdagi keng tarqalgan javoblar"
       },
       "phrases": [
         {
           "id": "EE191",
           "en": "Of course.",
-          "ru": "Конечно."
+          "ru": "Конечно.",
+          "uz": "Albatta."
         },
         {
           "id": "EE192",
           "en": "Sure.",
-          "ru": "Конечно. / Без проблем."
+          "ru": "Конечно. / Без проблем.",
+          "uz": "Albatta. / Muammo yoʻq."
         },
         {
           "id": "EE193",
           "en": "Why not?",
-          "ru": "Почему бы и нет?"
+          "ru": "Почему бы и нет?",
+          "uz": "Nega boʻlmasin?"
         },
         {
           "id": "EE194",
           "en": "Maybe.",
-          "ru": "Может быть."
+          "ru": "Может быть.",
+          "uz": "Balki."
         },
         {
           "id": "EE195",
           "en": "Probably.",
-          "ru": "Вероятно."
+          "ru": "Вероятно.",
+          "uz": "Ehtimol."
         },
         {
           "id": "EE196",
           "en": "It depends.",
-          "ru": "Это зависит от обстоятельств."
+          "ru": "Это зависит от обстоятельств.",
+          "uz": "Bu holatga bogʻliq."
         },
         {
           "id": "EE197",
           "en": "I'm not sure.",
-          "ru": "Я не уверен(а)."
+          "ru": "Я не уверен(а).",
+          "uz": "Ishonchim komil emas."
         },
         {
           "id": "EE198",
           "en": "Let me think.",
-          "ru": "Дай подумать."
+          "ru": "Дай подумать.",
+          "uz": "Oʻylab koʻray."
         },
         {
           "id": "EE199",
           "en": "Sounds good!",
-          "ru": "Звучит отлично!"
+          "ru": "Звучит отлично!",
+          "uz": "Zoʻr-ku!"
         },
         {
           "id": "EE200",
           "en": "That's a good idea.",
-          "ru": "Это хорошая идея."
+          "ru": "Это хорошая идея.",
+          "uz": "Bu yaxshi fikr."
         }
       ]
     }

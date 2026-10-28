@@ -10,11 +10,13 @@
       "kind": "phrases",
       "title": {
         "en": "Everyday English",
-        "ru": "Повседневное общение"
+        "ru": "Повседневное общение",
+        "uz": "Kundalik muloqot"
       },
       "file": "chapters/everyday-english.json",
       "lessonCount": 20,
-      "phraseCount": 200
+      "phraseCount": 200,
+      "translatedUz": true
     },
     {
       "id": "useful-expressions",
