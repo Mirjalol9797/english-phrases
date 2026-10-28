@@ -3,6 +3,9 @@ import { computed, ref, useTemplateRef, onMounted } from 'vue'
 import type { TypingStep } from '@/types/practice'
 import { isSameAnswer } from '@/utils/answer'
 import { closestAnswer, diffWords } from '@/utils/diff'
+import { useI18n } from '@/i18n'
+
+const { t } = useI18n()
 
 const props = defineProps<{ step: TypingStep }>()
 const emit = defineEmits<{ answer: [correct: boolean] }>()
@@ -36,7 +39,7 @@ function check() {
 
 <template>
   <div>
-    <p class="text-sm text-muted">Напишите по-английски</p>
+    <p class="text-sm text-muted">{{ t('Напишите по-английски') }}</p>
     <p class="mt-3 text-[clamp(1.125rem,4vw,1.5rem)] leading-snug">{{ step.phrase.ru }}</p>
 
     <form class="mt-4 sm:mt-5" @submit.prevent="check">
@@ -49,15 +52,15 @@ function check() {
         autocapitalize="off"
         spellcheck="false"
         :readonly="checked"
-        aria-label="Английская фраза"
+        :aria-label="t('Английская фраза')"
         class="field font-serif text-lg"
         :class="checked ? (correct ? 'option-correct' : 'option-wrong') : ''"
       />
-      <button v-if="!checked" type="submit" class="btn-primary mt-4" :disabled="!value.trim()">Проверить</button>
+      <button v-if="!checked" type="submit" class="btn-primary mt-4" :disabled="!value.trim()">{{ t('Проверить') }}</button>
     </form>
 
     <template v-if="checked && !correct">
-      <p class="mt-4 sm:mt-5 text-sm text-muted">Вы написали</p>
+      <p class="mt-4 sm:mt-5 text-sm text-muted">{{ t('Вы написали') }}</p>
       <!-- Пробел внутри слова, а не отдельным узлом: между тегами его съедает сборка,
            а раскладкой через flex слова разъезжаются переносами при копировании. -->
       <p lang="en" class="mt-1 font-serif text-lg">
@@ -69,7 +72,7 @@ function check() {
         >
       </p>
 
-      <p class="mt-3 text-sm text-muted">Правильно</p>
+      <p class="mt-3 text-sm text-muted">{{ t('Правильно') }}</p>
       <p lang="en" class="mt-1 font-serif text-lg">
         <span
           v-for="(part, index) in diff.expected"
@@ -79,13 +82,13 @@ function check() {
         >
       </p>
       <p v-if="step.accept.length > 1" class="mt-2 text-sm text-muted">
-        Подошло бы и так: <span lang="en" class="font-serif">{{ expected }}</span>
+        {{ t('Подошло бы и так:') }} <span lang="en" class="font-serif">{{ expected }}</span>
       </p>
     </template>
 
     <!-- Регистр, апостроф и точка в конце ошибкой не считаются, но написание покажем как в главе. -->
     <p v-else-if="checked && value.trim() !== step.phrase.en" class="mt-4 sm:mt-5 text-sm text-muted">
-      В главе записано так: <span lang="en" class="font-serif">{{ step.phrase.en }}</span>
+      {{ t('В главе записано так:') }} <span lang="en" class="font-serif">{{ step.phrase.en }}</span>
     </p>
   </div>
 </template>

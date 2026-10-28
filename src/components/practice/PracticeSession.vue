@@ -13,6 +13,9 @@ import { EXERCISE_ORDER, EXERCISE_TITLES } from '@/utils/practice'
 import { isPhraseDone } from '@/utils/session'
 import { isTypingTarget, useHasKeyboard, useWindowKey } from '@/composables/useWindowKey'
 import type { ExerciseKind, PracticeStep, StepResult } from '@/types/practice'
+import { useI18n } from '@/i18n'
+
+const { t } = useI18n()
 
 /**
  * Прохождение набора шагов: карточки, упражнения, полоса прогресса и звук.
@@ -103,10 +106,11 @@ const position = computed(() => {
   const current = step.value
   if (!current) return null
   const sameKind = props.steps.filter((s) => s.kind === current.kind)
-  const inStage = `${sameKind.indexOf(current) + 1} из ${sameKind.length}`
-  if (current.kind === 'card') return `${props.cardLabel ?? 'Знакомство'} · ${inStage}`
+  const inStage = t('{n} из {total}', { n: sameKind.indexOf(current) + 1, total: sameKind.length })
+  if (current.kind === 'card') return `${props.cardLabel ?? t('Знакомство')} · ${inStage}`
   const number = stages.value.indexOf(current.kind) + 1
-  return `Этап ${number} из ${stages.value.length} · ${EXERCISE_TITLES[current.kind]} · ${inStage}`
+  const stage = t('Этап {n} из {total}', { n: number, total: stages.value.length })
+  return `${stage} · ${t(EXERCISE_TITLES[current.kind])} · ${inStage}`
 })
 
 function onAnswer(correct: boolean) {
@@ -150,11 +154,11 @@ useWindowKey((event) => {
 /** Что напомнить про клавиши на текущем шаге. */
 const keyboardHint = computed(() => {
   if (!hasKeyboard.value) return null
-  if (answered.value || step.value?.kind === 'card') return 'Enter — дальше'
-  if (listenStep.value) return 'Цифры — ответ, пробел — повторить'
-  if (choiceStep.value) return 'Цифры — ответ, Enter — дальше'
-  if (assembleStep.value) return 'Enter — проверить, Backspace — убрать слово'
-  if (typingStep.value) return 'Enter — проверить'
+  if (answered.value || step.value?.kind === 'card') return t('Enter — дальше')
+  if (listenStep.value) return t('Цифры — ответ, пробел — повторить')
+  if (choiceStep.value) return t('Цифры — ответ, Enter — дальше')
+  if (assembleStep.value) return t('Enter — проверить, Backspace — убрать слово')
+  if (typingStep.value) return t('Enter — проверить')
   return null
 })
 </script>
@@ -162,7 +166,7 @@ const keyboardHint = computed(() => {
 <template>
   <div v-if="step">
     <div class="flex items-center gap-3">
-      <RouterLink :to="exitTo" class="link-back shrink-0" aria-label="Выйти из занятия">
+      <RouterLink :to="exitTo" class="link-back shrink-0" :aria-label="t('Выйти из занятия')">
         <AppIcon name="close" :size="18" />
       </RouterLink>
 
@@ -174,7 +178,7 @@ const keyboardHint = computed(() => {
           :aria-valuenow="progress"
           aria-valuemin="0"
           aria-valuemax="100"
-          aria-label="Прогресс занятия"
+          :aria-label="t('Прогресс занятия')"
         />
       </div>
 
@@ -182,7 +186,7 @@ const keyboardHint = computed(() => {
         v-if="speechSupported"
         type="button"
         class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-muted hover:text-ink"
-        :aria-label="settings.speechEnabled ? 'Выключить автоозвучку' : 'Включить автоозвучку'"
+        :aria-label="settings.speechEnabled ? t('Выключить автоозвучку') : t('Включить автоозвучку')"
         :aria-pressed="settings.speechEnabled"
         @click="settings.speechEnabled = !settings.speechEnabled"
       >
@@ -224,9 +228,9 @@ const keyboardHint = computed(() => {
 
     <div class="mt-6 sm:mt-8 flex flex-wrap items-center gap-x-4 gap-y-2">
       <button type="button" class="btn-primary" :disabled="!canGoNext" @click="next">
-        {{ isLast ? 'Завершить' : 'Дальше' }}
+        {{ isLast ? t('Завершить') : t('Дальше') }}
       </button>
-      <p v-if="!canGoNext" class="text-sm text-muted">Ответьте, чтобы продолжить.</p>
+      <p v-if="!canGoNext" class="text-sm text-muted">{{ t('Ответьте, чтобы продолжить.') }}</p>
       <p v-if="keyboardHint" class="text-xs text-muted">{{ keyboardHint }}</p>
     </div>
   </div>

@@ -4,6 +4,9 @@ import type { ListenStep } from '@/types/practice'
 import { isSameAnswer } from '@/utils/answer'
 import { isTypingTarget, useWindowKey } from '@/composables/useWindowKey'
 import AppIcon from '@/components/AppIcon.vue'
+import { useI18n } from '@/i18n'
+
+const { t } = useI18n()
 
 /**
  * Фраза звучит, а на экране её нет — в этом весь смысл задания.
@@ -55,18 +58,18 @@ function stateClass(option: string) {
 
 <template>
   <div>
-    <p class="text-sm text-muted">Послушайте и выберите перевод</p>
+    <p class="text-sm text-muted">{{ t('Послушайте и выберите перевод') }}</p>
 
     <div class="mt-3 flex items-center gap-4">
       <button
         type="button"
         class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-marker text-on-marker"
-        aria-label="Послушать ещё раз"
+        :aria-label="t('Послушать ещё раз')"
         @click="play"
       >
         <AppIcon name="volume" :size="28" />
       </button>
-      <p class="text-sm text-muted">Нажмите, чтобы послушать ещё раз</p>
+      <p class="text-sm text-muted">{{ t('Нажмите, чтобы послушать ещё раз') }}</p>
     </div>
 
     <ul class="mt-4 sm:mt-5 grid gap-2">

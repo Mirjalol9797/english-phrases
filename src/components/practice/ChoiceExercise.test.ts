@@ -1,5 +1,6 @@
 // @vitest-environment happy-dom
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { createPinia, setActivePinia } from 'pinia'
 import { enableAutoUnmount, mount } from '@vue/test-utils'
 import ChoiceExercise from './ChoiceExercise.vue'
 import type { ChoiceStep } from '@/types/practice'
@@ -7,6 +8,9 @@ import type { ChoiceStep } from '@/types/practice'
 // Компоненты слушают клавиши на окне. Без снятия предыдущий перехватил бы
 // нажатие и погасил его, и следующий тест ничего бы не увидел.
 enableAutoUnmount(afterEach)
+
+// Упражнения спрашивают язык у настроек, значит нужно живое хранилище.
+beforeEach(() => setActivePinia(createPinia()))
 
 const phrase = { id: 'EE001', en: 'Hi!', ru: 'Привет!' }
 

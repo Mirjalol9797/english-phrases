@@ -1,10 +1,14 @@
 // @vitest-environment happy-dom
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { createPinia, setActivePinia } from 'pinia'
 import { enableAutoUnmount, mount } from '@vue/test-utils'
 import ListenExercise from './ListenExercise.vue'
 import type { ListenStep } from '@/types/practice'
 
 enableAutoUnmount(afterEach)
+
+// Упражнения спрашивают язык у настроек, значит нужно живое хранилище.
+beforeEach(() => setActivePinia(createPinia()))
 
 const phrase = { id: 'EE001', en: 'See you tomorrow.', ru: 'Увидимся завтра.' }
 

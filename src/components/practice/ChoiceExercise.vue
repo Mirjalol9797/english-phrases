@@ -4,6 +4,9 @@ import { isTypingTarget, useWindowKey } from '@/composables/useWindowKey'
 import type { ChoiceStep } from '@/types/practice'
 import { isSameAnswer } from '@/utils/answer'
 import SpeakButton from './SpeakButton.vue'
+import { useI18n } from '@/i18n'
+
+const { t } = useI18n()
 
 const props = defineProps<{
   step: ChoiceStep
@@ -43,7 +46,7 @@ function stateClass(option: string) {
 <template>
   <div>
     <p class="text-sm text-muted">
-      {{ askingTranslation ? 'Выберите перевод' : 'Выберите английскую фразу' }}
+      {{ askingTranslation ? t('Выберите перевод') : t('Выберите английскую фразу') }}
     </p>
 
     <div class="mt-3 flex items-start gap-3">

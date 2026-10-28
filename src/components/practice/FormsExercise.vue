@@ -2,6 +2,9 @@
 import { computed, ref, useTemplateRef, onMounted } from 'vue'
 import type { FormsStep } from '@/types/practice'
 import { isSameAnswer } from '@/utils/answer'
+import { useI18n } from '@/i18n'
+
+const { t } = useI18n()
 
 // Главное в неправильном глаголе — не перевод, а три формы. Здесь показана
 // первая и перевод, а вторую и третью нужно вспомнить самому.
@@ -41,7 +44,7 @@ function check() {
 
 <template>
   <div>
-    <p class="text-sm text-muted">Напишите вторую и третью формы</p>
+    <p class="text-sm text-muted">{{ t('Напишите вторую и третью формы') }}</p>
 
     <p lang="en" class="mt-3 font-serif text-[clamp(1.5rem,6vw,2.5rem)] leading-tight font-semibold">
       <span class="marker">{{ step.phrase.en }}</span>
@@ -81,13 +84,13 @@ function check() {
       </label>
 
       <button v-if="!checked" type="submit" class="btn-primary sm:col-span-2 justify-self-start" :disabled="!filled">
-        Проверить
+        {{ t('Проверить') }}
       </button>
     </form>
 
     <!-- Показываем обе формы целиком: ошиблись в одной — вторую тоже полезно увидеть. -->
     <template v-if="checked && !correct">
-      <p class="mt-4 sm:mt-5 text-sm text-muted">Правильно</p>
+      <p class="mt-4 sm:mt-5 text-sm text-muted">{{ t('Правильно') }}</p>
       <p lang="en" class="mt-1 font-serif text-lg">
         <span class="marker font-semibold">{{ step.phrase.en }}</span>
         — <span :class="pastOk ? '' : 'marker font-semibold'">{{ written.v2 }}</span>
@@ -100,7 +103,7 @@ function check() {
       v-else-if="checked && (past.trim() !== written.v2 || participle.trim() !== written.v3)"
       class="mt-4 sm:mt-5 text-sm text-muted"
     >
-      В главе записано так:
+      {{ t('В главе записано так:') }}
       <span lang="en" class="font-serif">{{ step.phrase.en }} — {{ written.v2 }} — {{ written.v3 }}</span>
     </p>
   </div>
