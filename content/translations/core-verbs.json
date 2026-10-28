@@ -1,0 +1,1815 @@
+{
+  "chapter": "core-verbs",
+  "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "entries": [
+    {
+      "en": "get up",
+      "ru": "вставать",
+      "uz": "turmoq",
+      "examples": [
+        {
+          "en": "I get up at seven every morning.",
+          "uz": "Men har kuni ertalab soat yettida turaman."
+        }
+      ]
+    },
+    {
+      "en": "get ready",
+      "ru": "готовиться; собираться",
+      "uz": "tayyorlanmoq",
+      "examples": [
+        {
+          "en": "I need to get ready for work.",
+          "uz": "Menga ishga tayyorlanish kerak."
+        }
+      ]
+    },
+    {
+      "en": "get dressed",
+      "ru": "одеваться",
+      "uz": "kiyinmoq",
+      "examples": [
+        {
+          "en": "The children are getting dressed.",
+          "uz": "Bolalar kiyinyapti."
+        }
+      ]
+    },
+    {
+      "en": "get home",
+      "ru": "добираться домой",
+      "uz": "uyga yetib bormoq",
+      "examples": [
+        {
+          "en": "What time do you get home?",
+          "uz": "Soat nechada uyga yetib borasiz?"
+        }
+      ]
+    },
+    {
+      "en": "get back",
+      "ru": "возвращаться",
+      "uz": "qaytmoq",
+      "examples": [
+        {
+          "en": "I'll get back at six.",
+          "uz": "Men soat oltida qaytaman."
+        }
+      ]
+    },
+    {
+      "en": "get in",
+      "ru": "входить; садиться в машину",
+      "uz": "kirmoq; mashinaga oʻtirmoq",
+      "examples": [
+        {
+          "en": "Get in the car, please.",
+          "uz": "Iltimos, mashinaga oʻtiring."
+        }
+      ]
+    },
+    {
+      "en": "get out",
+      "ru": "выходить",
+      "uz": "chiqmoq",
+      "examples": [
+        {
+          "en": "We got out of the taxi.",
+          "uz": "Biz taksidan tushdik."
+        }
+      ]
+    },
+    {
+      "en": "get on",
+      "ru": "садиться в автобус или поезд",
+      "uz": "avtobus yoki poyezdga chiqmoq",
+      "examples": [
+        {
+          "en": "I get on the bus near my house.",
+          "uz": "Men uyim yonida avtobusga chiqaman."
+        }
+      ]
+    },
+    {
+      "en": "get off",
+      "ru": "выходить из автобуса или поезда",
+      "uz": "avtobus yoki poyezddan tushmoq",
+      "examples": [
+        {
+          "en": "We get off at the next stop.",
+          "uz": "Biz keyingi bekatda tushamiz."
+        }
+      ]
+    },
+    {
+      "en": "get a job",
+      "ru": "получить работу",
+      "uz": "ishga joylashmoq",
+      "examples": [
+        {
+          "en": "She wants to get a job in Tashkent.",
+          "uz": "U Toshkentda ishga joylashmoqchi."
+        }
+      ]
+    },
+    {
+      "en": "get a message",
+      "ru": "получить сообщение",
+      "uz": "xabar olmoq",
+      "examples": [
+        {
+          "en": "I got your message yesterday.",
+          "uz": "Xabaringizni kecha oldim."
+        }
+      ]
+    },
+    {
+      "en": "get better",
+      "ru": "становиться лучше; поправляться",
+      "uz": "yaxshilanmoq; tuzalmoq",
+      "examples": [
+        {
+          "en": "I hope you get better soon.",
+          "uz": "Umid qilamanki, tezda tuzalib ketasiz."
+        }
+      ]
+    },
+    {
+      "en": "get tired",
+      "ru": "уставать",
+      "uz": "charchamoq",
+      "examples": [
+        {
+          "en": "I get tired after work.",
+          "uz": "Men ishdan keyin charchayman."
+        }
+      ]
+    },
+    {
+      "en": "get angry",
+      "ru": "злиться",
+      "uz": "jahli chiqmoq",
+      "examples": [
+        {
+          "en": "Don't get angry with me.",
+          "uz": "Menga jahlingiz chiqmasin."
+        }
+      ]
+    },
+    {
+      "en": "get lost",
+      "ru": "заблудиться",
+      "uz": "adashib qolmoq",
+      "examples": [
+        {
+          "en": "We got lost in the city.",
+          "uz": "Biz shaharda adashib qoldik."
+        }
+      ]
+    },
+    {
+      "en": "get married",
+      "ru": "жениться; выходить замуж",
+      "uz": "turmush qurmoq",
+      "examples": [
+        {
+          "en": "They want to get married next year.",
+          "uz": "Ular kelasi yili turmush qurmoqchi."
+        }
+      ]
+    },
+    {
+      "en": "get along with someone",
+      "ru": "ладить с кем-либо",
+      "uz": "kimdir bilan chiqishmoq",
+      "examples": [
+        {
+          "en": "I get along well with my colleagues.",
+          "uz": "Men hamkasblarim bilan yaxshi chiqishaman."
+        }
+      ]
+    },
+    {
+      "en": "get a chance",
+      "ru": "получить возможность",
+      "uz": "imkoniyat topmoq",
+      "examples": [
+        {
+          "en": "I hope I get a chance to speak to her.",
+          "uz": "Umid qilamanki, u bilan gaplashishga imkoniyat topaman."
+        }
+      ]
+    },
+    {
+      "en": "get to work",
+      "ru": "добираться до работы",
+      "uz": "ishga yetib bormoq",
+      "examples": [
+        {
+          "en": "How do you get to work?",
+          "uz": "Ishga qanday yetib borasiz?"
+        }
+      ]
+    },
+    {
+      "en": "get used to something",
+      "ru": "привыкнуть к чему-либо",
+      "uz": "biror narsaga koʻnikmoq",
+      "examples": [
+        {
+          "en": "I'm getting used to my new job.",
+          "uz": "Men yangi ishimga koʻnikyapman."
+        }
+      ]
+    },
+    {
+      "en": "take a shower",
+      "ru": "принимать душ",
+      "uz": "dush qabul qilmoq",
+      "examples": [
+        {
+          "en": "I take a shower every morning.",
+          "uz": "Men har kuni ertalab dush qabul qilaman."
+        }
+      ]
+    },
+    {
+      "en": "take a break",
+      "ru": "делать перерыв",
+      "uz": "tanaffus qilmoq",
+      "examples": [
+        {
+          "en": "Let's take a short break.",
+          "uz": "Keling, qisqa tanaffus qilaylik."
+        }
+      ]
+    },
+    {
+      "en": "take a seat",
+      "ru": "садиться; присаживаться",
+      "uz": "joy olmoq",
+      "examples": [
+        {
+          "en": "Please take a seat.",
+          "uz": "Iltimos, joy oling."
+        }
+      ]
+    },
+    {
+      "en": "take a photo",
+      "ru": "делать фотографию",
+      "uz": "surat olmoq",
+      "examples": [
+        {
+          "en": "Can you take a photo of us?",
+          "uz": "Bizni suratga olib bera olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "take a taxi",
+      "ru": "ехать на такси",
+      "uz": "taksida bormoq",
+      "examples": [
+        {
+          "en": "Let's take a taxi to the station.",
+          "uz": "Keling, bekatga taksida boramiz."
+        }
+      ]
+    },
+    {
+      "en": "take medicine",
+      "ru": "принимать лекарство",
+      "uz": "dori ichmoq",
+      "examples": [
+        {
+          "en": "You should take this medicine twice a day.",
+          "uz": "Bu dorini kuniga ikki marta ichishingiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "take your time",
+      "ru": "не торопиться",
+      "uz": "shoshilmaslik",
+      "examples": [
+        {
+          "en": "Take your time. We aren't in a hurry.",
+          "uz": "Shoshilmang. Biz shoshmayapmiz."
+        }
+      ]
+    },
+    {
+      "en": "take care",
+      "ru": "береги себя; заботься",
+      "uz": "oʻzingizni ehtiyot qiling",
+      "examples": [
+        {
+          "en": "Take care and see you soon.",
+          "uz": "Oʻzingizni ehtiyot qiling, tez orada koʻrishamiz."
+        }
+      ]
+    },
+    {
+      "en": "take care of someone",
+      "ru": "заботиться о ком-либо",
+      "uz": "kimgadir gʻamxoʻrlik qilmoq",
+      "examples": [
+        {
+          "en": "She takes care of her younger brother.",
+          "uz": "U ukasiga gʻamxoʻrlik qiladi."
+        }
+      ]
+    },
+    {
+      "en": "take part in",
+      "ru": "принимать участие в",
+      "uz": "qatnashmoq",
+      "examples": [
+        {
+          "en": "I want to take part in the competition.",
+          "uz": "Men musobaqada qatnashmoqchiman."
+        }
+      ]
+    },
+    {
+      "en": "take a look",
+      "ru": "взглянуть",
+      "uz": "koʻz tashlamoq",
+      "examples": [
+        {
+          "en": "Can you take a look at this?",
+          "uz": "Bunga koʻz tashlay olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "take notes",
+      "ru": "делать записи",
+      "uz": "yozib bormoq",
+      "examples": [
+        {
+          "en": "I take notes during lessons.",
+          "uz": "Men dars davomida yozib boraman."
+        }
+      ]
+    },
+    {
+      "en": "take an exam",
+      "ru": "сдавать экзамен",
+      "uz": "imtihon topshirmoq",
+      "examples": [
+        {
+          "en": "We take an English exam tomorrow.",
+          "uz": "Biz ertaga ingliz tilidan imtihon topshiramiz."
+        }
+      ]
+    },
+    {
+      "en": "take a day off",
+      "ru": "взять выходной",
+      "uz": "dam olish kuni olmoq",
+      "examples": [
+        {
+          "en": "I'm going to take a day off on Friday.",
+          "uz": "Men juma kuni dam olish kuni olmoqchiman."
+        }
+      ]
+    },
+    {
+      "en": "take place",
+      "ru": "происходить; проходить",
+      "uz": "boʻlib oʻtmoq",
+      "examples": [
+        {
+          "en": "The meeting takes place at noon.",
+          "uz": "Uchrashuv tushda boʻlib oʻtadi."
+        }
+      ]
+    },
+    {
+      "en": "take out",
+      "ru": "вынимать; выносить",
+      "uz": "chiqarmoq",
+      "examples": [
+        {
+          "en": "Take your phone out of your bag.",
+          "uz": "Telefoningizni sumkangizdan chiqaring."
+        }
+      ]
+    },
+    {
+      "en": "take off",
+      "ru": "снимать; взлетать",
+      "uz": "yechmoq; uchib ketmoq",
+      "examples": [
+        {
+          "en": "Please take off your shoes.",
+          "uz": "Iltimos, oyoq kiyimingizni yeching."
+        }
+      ]
+    },
+    {
+      "en": "take away",
+      "ru": "брать с собой; еда навынос",
+      "uz": "olib ketmoq; olib ketiladigan taom",
+      "examples": [
+        {
+          "en": "Can I get this to take away?",
+          "uz": "Buni olib ketishga olsam boʻladimi?"
+        }
+      ]
+    },
+    {
+      "en": "take responsibility",
+      "ru": "брать ответственность",
+      "uz": "javobgarlikni oʻz zimmasiga olmoq",
+      "examples": [
+        {
+          "en": "He needs to take responsibility for his actions.",
+          "uz": "U oʻz xatti-harakatlari uchun javobgarlikni oʻz zimmasiga olishi kerak."
+        }
+      ]
+    },
+    {
+      "en": "have breakfast",
+      "ru": "завтракать",
+      "uz": "nonushta qilmoq",
+      "examples": [
+        {
+          "en": "I have breakfast at eight.",
+          "uz": "Men soat sakkizda nonushta qilaman."
+        }
+      ]
+    },
+    {
+      "en": "have lunch",
+      "ru": "обедать",
+      "uz": "tushlik qilmoq",
+      "examples": [
+        {
+          "en": "We usually have lunch together.",
+          "uz": "Biz odatda birga tushlik qilamiz."
+        }
+      ]
+    },
+    {
+      "en": "have dinner",
+      "ru": "ужинать",
+      "uz": "kechki ovqat yemoq",
+      "examples": [
+        {
+          "en": "Let's have dinner at home.",
+          "uz": "Keling, kechki ovqatni uyda yeymiz."
+        }
+      ]
+    },
+    {
+      "en": "have a shower",
+      "ru": "принимать душ",
+      "uz": "dushga tushmoq",
+      "examples": [
+        {
+          "en": "I have a shower before bed.",
+          "uz": "Men uxlashdan oldin dushga tushaman."
+        }
+      ]
+    },
+    {
+      "en": "have a rest",
+      "ru": "отдыхать",
+      "uz": "dam olmoq",
+      "examples": [
+        {
+          "en": "You look tired. Have a rest.",
+          "uz": "Charchagan koʻrinasiz. Dam oling."
+        }
+      ]
+    },
+    {
+      "en": "have a good time",
+      "ru": "хорошо проводить время",
+      "uz": "yaxshi vaqt oʻtkazmoq",
+      "examples": [
+        {
+          "en": "We had a good time at the party.",
+          "uz": "Biz bazmda yaxshi vaqt oʻtkazdik."
+        }
+      ]
+    },
+    {
+      "en": "have fun",
+      "ru": "веселиться",
+      "uz": "koʻngil ochmoq",
+      "examples": [
+        {
+          "en": "Have fun on your trip!",
+          "uz": "Sayohatingizda koʻngil oching!"
+        }
+      ]
+    },
+    {
+      "en": "have a problem",
+      "ru": "иметь проблему",
+      "uz": "muammosi boʻlmoq",
+      "examples": [
+        {
+          "en": "I have a problem with my computer.",
+          "uz": "Kompyuterimda muammo bor."
+        }
+      ]
+    },
+    {
+      "en": "have a question",
+      "ru": "иметь вопрос",
+      "uz": "savoli boʻlmoq",
+      "examples": [
+        {
+          "en": "Can I ask you a question?",
+          "uz": "Sizga savol bersam boʻladimi?"
+        }
+      ]
+    },
+    {
+      "en": "have an idea",
+      "ru": "иметь идею",
+      "uz": "fikri boʻlmoq",
+      "examples": [
+        {
+          "en": "I have an idea.",
+          "uz": "Menda bir fikr bor."
+        }
+      ]
+    },
+    {
+      "en": "have a look",
+      "ru": "посмотреть",
+      "uz": "qarab qoʻymoq",
+      "examples": [
+        {
+          "en": "Have a look at this picture.",
+          "uz": "Bu suratga qarab qoʻying."
+        }
+      ]
+    },
+    {
+      "en": "have a meeting",
+      "ru": "проводить встречу",
+      "uz": "uchrashuv oʻtkazmoq",
+      "examples": [
+        {
+          "en": "I have a meeting at ten.",
+          "uz": "Mening soat oʻnda uchrashuvim bor."
+        }
+      ]
+    },
+    {
+      "en": "have a cold",
+      "ru": "быть простуженным",
+      "uz": "shamollamoq",
+      "examples": [
+        {
+          "en": "I have a cold, so I'm staying home.",
+          "uz": "Men shamolladim, shuning uchun uyda qolyapman."
+        }
+      ]
+    },
+    {
+      "en": "have a headache",
+      "ru": "испытывать головную боль",
+      "uz": "boshi ogʻrimoq",
+      "examples": [
+        {
+          "en": "I have a headache.",
+          "uz": "Boshim ogʻriyapti."
+        }
+      ]
+    },
+    {
+      "en": "have time",
+      "ru": "иметь время",
+      "uz": "vaqti boʻlmoq",
+      "examples": [
+        {
+          "en": "Do you have time to talk?",
+          "uz": "Gaplashishga vaqtingiz bormi?"
+        }
+      ]
+    },
+    {
+      "en": "have to",
+      "ru": "быть должным; нужно",
+      "uz": "majbur boʻlmoq; kerak",
+      "examples": [
+        {
+          "en": "I have to leave now.",
+          "uz": "Men hozir ketishim kerak."
+        }
+      ]
+    },
+    {
+      "en": "have a chance",
+      "ru": "иметь шанс",
+      "uz": "imkoniyati boʻlmoq",
+      "examples": [
+        {
+          "en": "We still have a chance to win.",
+          "uz": "Bizda hali ham yutish imkoniyati bor."
+        }
+      ]
+    },
+    {
+      "en": "have a good day",
+      "ru": "хорошего дня",
+      "uz": "kuningiz yaxshi oʻtsin",
+      "examples": [
+        {
+          "en": "Have a good day at work!",
+          "uz": "Ishda kuningiz yaxshi oʻtsin!"
+        }
+      ]
+    },
+    {
+      "en": "have trouble",
+      "ru": "испытывать трудности",
+      "uz": "qiynalmoq",
+      "examples": [
+        {
+          "en": "I have trouble understanding fast English.",
+          "uz": "Men tez ingliz tilini tushunishda qiynalaman."
+        }
+      ]
+    },
+    {
+      "en": "have something in common",
+      "ru": "иметь что-то общее",
+      "uz": "umumiy jihati boʻlmoq",
+      "examples": [
+        {
+          "en": "We have a lot in common.",
+          "uz": "Bizda umumiy jihatlar koʻp."
+        }
+      ]
+    },
+    {
+      "en": "make a mistake",
+      "ru": "совершить ошибку",
+      "uz": "xato qilmoq",
+      "examples": [
+        {
+          "en": "I made a mistake in my homework.",
+          "uz": "Men uy vazifamda xato qildim."
+        }
+      ]
+    },
+    {
+      "en": "make a decision",
+      "ru": "принять решение",
+      "uz": "qaror qabul qilmoq",
+      "examples": [
+        {
+          "en": "We need to make a decision today.",
+          "uz": "Biz bugun qaror qabul qilishimiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "make a plan",
+      "ru": "составить план",
+      "uz": "reja tuzmoq",
+      "examples": [
+        {
+          "en": "Let's make a plan for the weekend.",
+          "uz": "Keling, dam olish kunlari uchun reja tuzaylik."
+        }
+      ]
+    },
+    {
+      "en": "make money",
+      "ru": "зарабатывать деньги",
+      "uz": "pul topmoq",
+      "examples": [
+        {
+          "en": "He wants to make more money.",
+          "uz": "U koʻproq pul topmoqchi."
+        }
+      ]
+    },
+    {
+      "en": "make friends",
+      "ru": "заводить друзей",
+      "uz": "doʻst orttirmoq",
+      "examples": [
+        {
+          "en": "It's easy to make friends here.",
+          "uz": "Bu yerda doʻst orttirish oson."
+        }
+      ]
+    },
+    {
+      "en": "make a phone call",
+      "ru": "сделать телефонный звонок",
+      "uz": "telefon qilmoq",
+      "examples": [
+        {
+          "en": "I need to make a phone call.",
+          "uz": "Menga telefon qilish kerak."
+        }
+      ]
+    },
+    {
+      "en": "make breakfast",
+      "ru": "приготовить завтрак",
+      "uz": "nonushta tayyorlamoq",
+      "examples": [
+        {
+          "en": "I'll make breakfast for everyone.",
+          "uz": "Men hammaga nonushta tayyorlayman."
+        }
+      ]
+    },
+    {
+      "en": "make sure",
+      "ru": "убедиться",
+      "uz": "ishonch hosil qilmoq",
+      "examples": [
+        {
+          "en": "Make sure the door is locked.",
+          "uz": "Eshik yopiqligiga ishonch hosil qiling."
+        }
+      ]
+    },
+    {
+      "en": "make sense",
+      "ru": "иметь смысл; быть понятным",
+      "uz": "mantiqli boʻlmoq; tushunarli boʻlmoq",
+      "examples": [
+        {
+          "en": "This explanation doesn't make sense.",
+          "uz": "Bu tushuntirish mantiqqa toʻgʻri kelmaydi."
+        }
+      ]
+    },
+    {
+      "en": "make a difference",
+      "ru": "иметь значение",
+      "uz": "ahamiyatga ega boʻlmoq",
+      "examples": [
+        {
+          "en": "Small changes can make a difference.",
+          "uz": "Kichik oʻzgarishlar ham ahamiyatga ega boʻlishi mumkin."
+        }
+      ]
+    },
+    {
+      "en": "make an effort",
+      "ru": "приложить усилия",
+      "uz": "harakat qilmoq",
+      "examples": [
+        {
+          "en": "You need to make an effort.",
+          "uz": "Siz harakat qilishingiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "make progress",
+      "ru": "делать успехи",
+      "uz": "oldinga siljimoq",
+      "examples": [
+        {
+          "en": "You're making progress in English.",
+          "uz": "Siz ingliz tilida oldinga siljiyapsiz."
+        }
+      ]
+    },
+    {
+      "en": "make a list",
+      "ru": "составить список",
+      "uz": "roʻyxat tuzmoq",
+      "examples": [
+        {
+          "en": "I made a list of things to buy.",
+          "uz": "Men sotib olinadigan narsalar roʻyxatini tuzdim."
+        }
+      ]
+    },
+    {
+      "en": "make a promise",
+      "ru": "дать обещание",
+      "uz": "vaʼda bermoq",
+      "examples": [
+        {
+          "en": "Don't make a promise you can't keep.",
+          "uz": "Bajara olmaydigan vaʼdani bermang."
+        }
+      ]
+    },
+    {
+      "en": "make someone happy",
+      "ru": "делать кого-либо счастливым",
+      "uz": "kimnidir xursand qilmoq",
+      "examples": [
+        {
+          "en": "Your message made me happy.",
+          "uz": "Xabaringiz meni xursand qildi."
+        }
+      ]
+    },
+    {
+      "en": "make it",
+      "ru": "успеть; прийти; справиться",
+      "uz": "ulgurmoq; yetib bormoq; uddalamoq",
+      "examples": [
+        {
+          "en": "Sorry, I can't make it tonight.",
+          "uz": "Kechirasiz, bugun kechqurun bora olmayman."
+        }
+      ]
+    },
+    {
+      "en": "make up your mind",
+      "ru": "решить; определиться",
+      "uz": "qaroringizni qilmoq",
+      "examples": [
+        {
+          "en": "You need to make up your mind.",
+          "uz": "Siz qaroringizni qilishingiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "make the bed",
+      "ru": "заправить кровать",
+      "uz": "karavotni yigʻishtirmoq",
+      "examples": [
+        {
+          "en": "I make the bed every morning.",
+          "uz": "Men har kuni ertalab karavotni yigʻishtiraman."
+        }
+      ]
+    },
+    {
+      "en": "do homework",
+      "ru": "делать домашнее задание",
+      "uz": "uy vazifasini bajarmoq",
+      "examples": [
+        {
+          "en": "I do my homework after dinner.",
+          "uz": "Men uy vazifamni kechki ovqatdan keyin bajaraman."
+        }
+      ]
+    },
+    {
+      "en": "do housework",
+      "ru": "заниматься домашними делами",
+      "uz": "uy ishlarini qilmoq",
+      "examples": [
+        {
+          "en": "We do housework on Saturdays.",
+          "uz": "Biz shanba kunlari uy ishlarini qilamiz."
+        }
+      ]
+    },
+    {
+      "en": "do the dishes",
+      "ru": "мыть посуду",
+      "uz": "idish yuvmoq",
+      "examples": [
+        {
+          "en": "I'll do the dishes after dinner.",
+          "uz": "Men kechki ovqatdan keyin idish yuvaman."
+        }
+      ]
+    },
+    {
+      "en": "do the laundry",
+      "ru": "стирать одежду",
+      "uz": "kir yuvmoq",
+      "examples": [
+        {
+          "en": "I do the laundry twice a week.",
+          "uz": "Men haftada ikki marta kir yuvaman."
+        }
+      ]
+    },
+    {
+      "en": "do your best",
+      "ru": "стараться изо всех сил",
+      "uz": "bor kuchi bilan harakat qilmoq",
+      "examples": [
+        {
+          "en": "Just do your best.",
+          "uz": "Shunchaki bor kuchingiz bilan harakat qiling."
+        }
+      ]
+    },
+    {
+      "en": "do exercise",
+      "ru": "делать упражнения",
+      "uz": "mashq qilmoq",
+      "examples": [
+        {
+          "en": "I do exercise every morning.",
+          "uz": "Men har kuni ertalab mashq qilaman."
+        }
+      ]
+    },
+    {
+      "en": "do business",
+      "ru": "вести бизнес",
+      "uz": "biznes yuritmoq",
+      "examples": [
+        {
+          "en": "They do business with local companies.",
+          "uz": "Ular mahalliy kompaniyalar bilan biznes yuritadi."
+        }
+      ]
+    },
+    {
+      "en": "do a great job",
+      "ru": "отлично справиться",
+      "uz": "ajoyib ish qilmoq",
+      "examples": [
+        {
+          "en": "You did a great job.",
+          "uz": "Siz ajoyib ish qildingiz."
+        }
+      ]
+    },
+    {
+      "en": "do research",
+      "ru": "проводить исследование",
+      "uz": "tadqiqot oʻtkazmoq",
+      "examples": [
+        {
+          "en": "We're doing research for our project.",
+          "uz": "Biz loyihamiz uchun tadqiqot oʻtkazyapmiz."
+        }
+      ]
+    },
+    {
+      "en": "do a course",
+      "ru": "проходить курс",
+      "uz": "kursda oʻqimoq",
+      "examples": [
+        {
+          "en": "I'm doing an English course online.",
+          "uz": "Men onlayn ingliz tili kursida oʻqiyapman."
+        }
+      ]
+    },
+    {
+      "en": "do someone a favour",
+      "ru": "оказать услугу",
+      "uz": "kimgadir yaxshilik qilmoq",
+      "examples": [
+        {
+          "en": "Could you do me a favour?",
+          "uz": "Menga bir yaxshilik qila olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "do well",
+      "ru": "хорошо справляться",
+      "uz": "yaxshi natija koʻrsatmoq",
+      "examples": [
+        {
+          "en": "She's doing well at school.",
+          "uz": "U maktabda yaxshi natija koʻrsatyapti."
+        }
+      ]
+    },
+    {
+      "en": "do badly",
+      "ru": "плохо справиться",
+      "uz": "yomon natija koʻrsatmoq",
+      "examples": [
+        {
+          "en": "I did badly on the test.",
+          "uz": "Men testda yomon natija koʻrsatdim."
+        }
+      ]
+    },
+    {
+      "en": "do something",
+      "ru": "делать что-либо",
+      "uz": "biror narsa qilmoq",
+      "examples": [
+        {
+          "en": "What are you doing tonight?",
+          "uz": "Bugun kechqurun nima qilyapsiz?"
+        }
+      ]
+    },
+    {
+      "en": "do nothing",
+      "ru": "ничего не делать",
+      "uz": "hech narsa qilmaslik",
+      "examples": [
+        {
+          "en": "I want to do nothing this weekend.",
+          "uz": "Men bu dam olish kunlari hech narsa qilmoqchi emasman."
+        }
+      ]
+    },
+    {
+      "en": "do the shopping",
+      "ru": "ходить за покупками",
+      "uz": "xarid qilmoq",
+      "examples": [
+        {
+          "en": "I do the shopping on Fridays.",
+          "uz": "Men juma kunlari xarid qilaman."
+        }
+      ]
+    },
+    {
+      "en": "do the cleaning",
+      "ru": "заниматься уборкой",
+      "uz": "tozalash ishlarini qilmoq",
+      "examples": [
+        {
+          "en": "We need to do the cleaning today.",
+          "uz": "Biz bugun tozalash ishlarini qilishimiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "do damage",
+      "ru": "наносить ущерб",
+      "uz": "zarar yetkazmoq",
+      "examples": [
+        {
+          "en": "The storm did a lot of damage.",
+          "uz": "Boʻron katta zarar yetkazdi."
+        }
+      ]
+    },
+    {
+      "en": "go home",
+      "ru": "идти домой",
+      "uz": "uyga ketmoq",
+      "examples": [
+        {
+          "en": "I go home at six.",
+          "uz": "Men soat oltida uyga ketaman."
+        }
+      ]
+    },
+    {
+      "en": "go to work",
+      "ru": "идти на работу",
+      "uz": "ishga bormoq",
+      "examples": [
+        {
+          "en": "I go to work by bus.",
+          "uz": "Men ishga avtobusda boraman."
+        }
+      ]
+    },
+    {
+      "en": "go to school",
+      "ru": "ходить в школу",
+      "uz": "maktabga bormoq",
+      "examples": [
+        {
+          "en": "My son goes to school nearby.",
+          "uz": "Oʻgʻlim yaqin atrofdagi maktabga boradi."
+        }
+      ]
+    },
+    {
+      "en": "go shopping",
+      "ru": "ходить за покупками",
+      "uz": "xarid qilgani bormoq",
+      "examples": [
+        {
+          "en": "Let's go shopping after lunch.",
+          "uz": "Keling, tushlikdan keyin xarid qilgani boramiz."
+        }
+      ]
+    },
+    {
+      "en": "go out",
+      "ru": "выходить куда-либо; гулять",
+      "uz": "tashqariga chiqmoq; sayr qilmoq",
+      "examples": [
+        {
+          "en": "Do you want to go out tonight?",
+          "uz": "Bugun kechqurun tashqariga chiqmoqchimisiz?"
+        }
+      ]
+    },
+    {
+      "en": "go for a walk",
+      "ru": "пойти погулять",
+      "uz": "sayrga chiqmoq",
+      "examples": [
+        {
+          "en": "Let's go for a walk.",
+          "uz": "Keling, sayrga chiqamiz."
+        }
+      ]
+    },
+    {
+      "en": "go by bus",
+      "ru": "ехать на автобусе",
+      "uz": "avtobusda bormoq",
+      "examples": [
+        {
+          "en": "We go by bus when it rains.",
+          "uz": "Yomgʻir yoqqanda biz avtobusda boramiz."
+        }
+      ]
+    },
+    {
+      "en": "go on holiday",
+      "ru": "ехать в отпуск",
+      "uz": "taʼtilga chiqmoq",
+      "examples": [
+        {
+          "en": "We're going on holiday in July.",
+          "uz": "Biz iyulda taʼtilga chiqamiz."
+        }
+      ]
+    },
+    {
+      "en": "go to bed",
+      "ru": "ложиться спать",
+      "uz": "uxlashga yotmoq",
+      "examples": [
+        {
+          "en": "I usually go to bed at eleven.",
+          "uz": "Men odatda soat oʻn birda uxlashga yotaman."
+        }
+      ]
+    },
+    {
+      "en": "go to sleep",
+      "ru": "засыпать",
+      "uz": "uyquga ketmoq",
+      "examples": [
+        {
+          "en": "The baby went to sleep quickly.",
+          "uz": "Chaqaloq tez uyquga ketdi."
+        }
+      ]
+    },
+    {
+      "en": "go wrong",
+      "ru": "идти не так; ломаться",
+      "uz": "notoʻgʻri ketmoq; buzilmoq",
+      "examples": [
+        {
+          "en": "Something went wrong with my laptop.",
+          "uz": "Noutbukimda nimadir buzildi."
+        }
+      ]
+    },
+    {
+      "en": "go well",
+      "ru": "проходить хорошо",
+      "uz": "yaxshi oʻtmoq",
+      "examples": [
+        {
+          "en": "I hope everything goes well.",
+          "uz": "Umid qilamanki, hammasi yaxshi oʻtadi."
+        }
+      ]
+    },
+    {
+      "en": "go ahead",
+      "ru": "продолжать; начинать",
+      "uz": "davom etmoq; boshlamoq",
+      "examples": [
+        {
+          "en": "Go ahead. I'm listening.",
+          "uz": "Davom eting. Men eshityapman."
+        }
+      ]
+    },
+    {
+      "en": "go back",
+      "ru": "возвращаться",
+      "uz": "qaytib bormoq",
+      "examples": [
+        {
+          "en": "I need to go back to the office.",
+          "uz": "Menga ofisga qaytib borish kerak."
+        }
+      ]
+    },
+    {
+      "en": "go away",
+      "ru": "уходить; уезжать",
+      "uz": "ketmoq",
+      "examples": [
+        {
+          "en": "Please go away and leave me alone.",
+          "uz": "Iltimos, keting va meni tinch qoʻying."
+        }
+      ]
+    },
+    {
+      "en": "go on",
+      "ru": "продолжаться",
+      "uz": "davom etmoq",
+      "examples": [
+        {
+          "en": "The meeting went on for two hours.",
+          "uz": "Uchrashuv ikki soat davom etdi."
+        }
+      ]
+    },
+    {
+      "en": "go online",
+      "ru": "выходить в интернет",
+      "uz": "internetga kirmoq",
+      "examples": [
+        {
+          "en": "I go online every evening.",
+          "uz": "Men har kuni kechqurun internetga kiraman."
+        }
+      ]
+    },
+    {
+      "en": "go through",
+      "ru": "переживать; проходить через",
+      "uz": "boshidan kechirmoq",
+      "examples": [
+        {
+          "en": "She's going through a difficult time.",
+          "uz": "U qiyin davrni boshidan kechiryapti."
+        }
+      ]
+    },
+    {
+      "en": "come here",
+      "ru": "подойти сюда",
+      "uz": "bu yerga kelmoq",
+      "examples": [
+        {
+          "en": "Can you come here for a minute?",
+          "uz": "Bir daqiqaga bu yerga kela olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "come back",
+      "ru": "вернуться",
+      "uz": "qaytib kelmoq",
+      "examples": [
+        {
+          "en": "Please come back soon.",
+          "uz": "Iltimos, tezroq qaytib keling."
+        }
+      ]
+    },
+    {
+      "en": "come in",
+      "ru": "войти",
+      "uz": "kirmoq",
+      "examples": [
+        {
+          "en": "Come in and sit down.",
+          "uz": "Kiring va oʻtiring."
+        }
+      ]
+    },
+    {
+      "en": "come out",
+      "ru": "выходить; появляться",
+      "uz": "chiqmoq; paydo boʻlmoq",
+      "examples": [
+        {
+          "en": "The new phone comes out next month.",
+          "uz": "Yangi telefon kelasi oy chiqadi."
+        }
+      ]
+    },
+    {
+      "en": "come over",
+      "ru": "зайти в гости",
+      "uz": "mehmonga kelmoq",
+      "examples": [
+        {
+          "en": "Do you want to come over tonight?",
+          "uz": "Bugun kechqurun mehmonga kelasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "come along",
+      "ru": "присоединиться",
+      "uz": "qoʻshilmoq",
+      "examples": [
+        {
+          "en": "You can come along with us.",
+          "uz": "Siz biz bilan qoʻshilib borishingiz mumkin."
+        }
+      ]
+    },
+    {
+      "en": "come from",
+      "ru": "быть родом из",
+      "uz": "aslida qayerdandir boʻlmoq",
+      "examples": [
+        {
+          "en": "Where do you come from?",
+          "uz": "Siz qayerdansiz?"
+        }
+      ]
+    },
+    {
+      "en": "come first",
+      "ru": "быть на первом месте",
+      "uz": "birinchi oʻrinda turmoq",
+      "examples": [
+        {
+          "en": "Family comes first for me.",
+          "uz": "Men uchun oila birinchi oʻrinda turadi."
+        }
+      ]
+    },
+    {
+      "en": "come true",
+      "ru": "сбываться",
+      "uz": "amalga oshmoq",
+      "examples": [
+        {
+          "en": "I hope your dream comes true.",
+          "uz": "Umid qilamanki, orzuingiz amalga oshadi."
+        }
+      ]
+    },
+    {
+      "en": "come to an end",
+      "ru": "заканчиваться",
+      "uz": "yakunlanmoq",
+      "examples": [
+        {
+          "en": "The meeting came to an end at five.",
+          "uz": "Uchrashuv soat beshda yakunlandi."
+        }
+      ]
+    },
+    {
+      "en": "come up",
+      "ru": "возникнуть",
+      "uz": "yuzaga kelmoq",
+      "examples": [
+        {
+          "en": "Something urgent has come up.",
+          "uz": "Shoshilinch ish yuzaga keldi."
+        }
+      ]
+    },
+    {
+      "en": "come up with an idea",
+      "ru": "придумать идею",
+      "uz": "fikr oʻylab topmoq",
+      "examples": [
+        {
+          "en": "She came up with a great idea.",
+          "uz": "U ajoyib fikr oʻylab topdi."
+        }
+      ]
+    },
+    {
+      "en": "come early",
+      "ru": "приходить рано",
+      "uz": "erta kelmoq",
+      "examples": [
+        {
+          "en": "Try to come early tomorrow.",
+          "uz": "Ertaga erta kelishga harakat qiling."
+        }
+      ]
+    },
+    {
+      "en": "come with me",
+      "ru": "пойти со мной",
+      "uz": "men bilan yurmoq",
+      "examples": [
+        {
+          "en": "Come with me, please.",
+          "uz": "Iltimos, men bilan yuring."
+        }
+      ]
+    },
+    {
+      "en": "come on",
+      "ru": "давай; ну же",
+      "uz": "qani; boʻling endi",
+      "examples": [
+        {
+          "en": "Come on, we're going to be late!",
+          "uz": "Qani boʻling, kechikamiz!"
+        }
+      ]
+    },
+    {
+      "en": "come in handy",
+      "ru": "пригодиться",
+      "uz": "asqotmoq",
+      "examples": [
+        {
+          "en": "This tool may come in handy.",
+          "uz": "Bu asbob asqotib qolishi mumkin."
+        }
+      ]
+    },
+    {
+      "en": "give me a hand",
+      "ru": "помочь мне",
+      "uz": "menga yordam bermoq",
+      "examples": [
+        {
+          "en": "Can you give me a hand with this box?",
+          "uz": "Bu quti bilan menga yordam bera olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "give someone a call",
+      "ru": "позвонить кому-либо",
+      "uz": "kimgadir qoʻngʻiroq qilmoq"
+    },
+    {
+      "en": "give advice",
+      "ru": "давать совет",
+      "uz": "maslahat bermoq",
+      "examples": [
+        {
+          "en": "My father always gives good advice.",
+          "uz": "Otam har doim yaxshi maslahat beradi."
+        }
+      ]
+    },
+    {
+      "en": "give an answer",
+      "ru": "дать ответ",
+      "uz": "javob bermoq",
+      "examples": [
+        {
+          "en": "Please give me an answer today.",
+          "uz": "Iltimos, bugun menga javob bering."
+        }
+      ]
+    },
+    {
+      "en": "give permission",
+      "ru": "дать разрешение",
+      "uz": "ruxsat bermoq",
+      "examples": [
+        {
+          "en": "They gave us permission to leave early.",
+          "uz": "Ular bizga erta ketishga ruxsat berishdi."
+        }
+      ]
+    },
+    {
+      "en": "give someone a chance",
+      "ru": "дать кому-либо шанс",
+      "uz": "kimgadir imkoniyat bermoq",
+      "examples": [
+        {
+          "en": "Please give me another chance.",
+          "uz": "Iltimos, menga yana bir imkoniyat bering."
+        }
+      ]
+    },
+    {
+      "en": "give a reason",
+      "ru": "назвать причину",
+      "uz": "sabab aytmoq",
+      "examples": [
+        {
+          "en": "Can you give me a reason?",
+          "uz": "Menga sabab ayta olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "give a presentation",
+      "ru": "провести презентацию",
+      "uz": "taqdimot qilmoq",
+      "examples": [
+        {
+          "en": "I have to give a presentation tomorrow.",
+          "uz": "Men ertaga taqdimot qilishim kerak."
+        }
+      ]
+    },
+    {
+      "en": "give a gift",
+      "ru": "подарить подарок",
+      "uz": "sovgʻa bermoq",
+      "examples": [
+        {
+          "en": "I want to give her a gift.",
+          "uz": "Men unga sovgʻa bermoqchiman."
+        }
+      ]
+    },
+    {
+      "en": "give up",
+      "ru": "сдаваться; бросать",
+      "uz": "taslim boʻlmoq; tashlamoq",
+      "examples": [
+        {
+          "en": "Don't give up on your dream.",
+          "uz": "Orzuingizdan voz kechmang."
+        }
+      ]
+    },
+    {
+      "en": "give back",
+      "ru": "возвращать",
+      "uz": "qaytarib bermoq",
+      "examples": [
+        {
+          "en": "Please give back my book.",
+          "uz": "Iltimos, kitobimni qaytarib bering."
+        }
+      ]
+    },
+    {
+      "en": "give away",
+      "ru": "отдавать даром",
+      "uz": "bepul tarqatmoq",
+      "examples": [
+        {
+          "en": "They gave away old clothes.",
+          "uz": "Ular eski kiyimlarni bepul tarqatishdi."
+        }
+      ]
+    },
+    {
+      "en": "give it a try",
+      "ru": "попробовать",
+      "uz": "sinab koʻrmoq",
+      "examples": [
+        {
+          "en": "I've never tried it, but I'll give it a try.",
+          "uz": "Men buni hech sinab koʻrmaganman, lekin sinab koʻraman."
+        }
+      ]
+    },
+    {
+      "en": "give someone a lift",
+      "ru": "подвезти кого-либо",
+      "uz": "kimnidir mashinada olib bormoq",
+      "examples": [
+        {
+          "en": "Can you give me a lift to the station?",
+          "uz": "Meni bekatgacha olib bora olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "give someone a hug",
+      "ru": "обнять кого-либо",
+      "uz": "kimnidir quchoqlamoq",
+      "examples": [
+        {
+          "en": "She gave her mother a hug.",
+          "uz": "U onasini quchoqladi."
+        }
+      ]
+    },
+    {
+      "en": "give an example",
+      "ru": "привести пример",
+      "uz": "misol keltirmoq",
+      "examples": [
+        {
+          "en": "Can you give me an example?",
+          "uz": "Menga misol keltira olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "keep going",
+      "ru": "продолжать",
+      "uz": "davom etmoq",
+      "examples": [
+        {
+          "en": "Keep going. You're doing well.",
+          "uz": "Davom eting. Yaxshi ketyapsiz."
+        }
+      ]
+    },
+    {
+      "en": "keep in touch",
+      "ru": "поддерживать связь",
+      "uz": "aloqada boʻlmoq",
+      "examples": [
+        {
+          "en": "Let's keep in touch.",
+          "uz": "Keling, aloqada boʻlaylik."
+        }
+      ]
+    },
+    {
+      "en": "keep a secret",
+      "ru": "хранить секрет",
+      "uz": "sirni saqlamoq",
+      "examples": [
+        {
+          "en": "Can you keep a secret?",
+          "uz": "Sir saqlay olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "keep calm",
+      "ru": "сохранять спокойствие",
+      "uz": "xotirjamlikni saqlamoq",
+      "examples": [
+        {
+          "en": "Try to keep calm.",
+          "uz": "Xotirjamlikni saqlashga harakat qiling."
+        }
+      ]
+    },
+    {
+      "en": "keep in mind",
+      "ru": "иметь в виду",
+      "uz": "yodda tutmoq",
+      "examples": [
+        {
+          "en": "Keep in mind that the shop closes at six.",
+          "uz": "Doʻkon soat oltida yopilishini yodda tuting."
+        }
+      ]
+    },
+    {
+      "en": "keep a promise",
+      "ru": "держать обещание",
+      "uz": "vaʼdaga vafo qilmoq",
+      "examples": [
+        {
+          "en": "He always keeps his promises.",
+          "uz": "U har doim vaʼdasiga vafo qiladi."
+        }
+      ]
+    },
+    {
+      "en": "keep fit",
+      "ru": "поддерживать форму",
+      "uz": "sogʻlom holatni saqlamoq",
+      "examples": [
+        {
+          "en": "She walks every day to keep fit.",
+          "uz": "U sogʻlom holatni saqlash uchun har kuni piyoda yuradi."
+        }
+      ]
+    },
+    {
+      "en": "keep safe",
+      "ru": "беречь себя; быть в безопасности",
+      "uz": "oʻzini asramoq; xavfsiz boʻlmoq",
+      "examples": [
+        {
+          "en": "Keep safe on your trip.",
+          "uz": "Sayohatingizda oʻzingizni asrang."
+        }
+      ]
+    },
+    {
+      "en": "keep trying",
+      "ru": "продолжать пытаться",
+      "uz": "urinishda davom etmoq",
+      "examples": [
+        {
+          "en": "Keep trying and you'll improve.",
+          "uz": "Urinishda davom eting, albatta yaxshilanasiz."
+        }
+      ]
+    },
+    {
+      "en": "keep the change",
+      "ru": "сдачи не надо",
+      "uz": "qaytimi kerak emas",
+      "examples": [
+        {
+          "en": "Keep the change.",
+          "uz": "Qaytimi kerak emas."
+        }
+      ]
+    },
+    {
+      "en": "keep away from",
+      "ru": "держаться подальше от",
+      "uz": "uzoqroq yurmoq",
+      "examples": [
+        {
+          "en": "Keep away from the fire.",
+          "uz": "Olovdan uzoqroq yuring."
+        }
+      ]
+    },
+    {
+      "en": "keep up with",
+      "ru": "не отставать от",
+      "uz": "ortda qolmaslik",
+      "examples": [
+        {
+          "en": "I can't keep up with him.",
+          "uz": "Men undan ortda qolmay yura olmayman."
+        }
+      ]
+    },
+    {
+      "en": "keep on doing something",
+      "ru": "продолжать что-либо делать",
+      "uz": "biror ishni qilishda davom etmoq",
+      "examples": [
+        {
+          "en": "He kept on talking.",
+          "uz": "U gapirishda davom etdi."
+        }
+      ]
+    },
+    {
+      "en": "keep an eye on",
+      "ru": "присматривать за",
+      "uz": "koʻz-quloq boʻlmoq",
+      "examples": [
+        {
+          "en": "Can you keep an eye on my bag?",
+          "uz": "Sumkamga koʻz-quloq boʻla olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "keep your word",
+      "ru": "держать слово",
+      "uz": "soʻzida turmoq",
+      "examples": [
+        {
+          "en": "You should keep your word.",
+          "uz": "Siz soʻzingizda turishingiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "put on",
+      "ru": "надевать",
+      "uz": "kiymoq",
+      "examples": [
+        {
+          "en": "Put on your jacket. It's cold.",
+          "uz": "Kurtkangizni kiying. Sovuq."
+        }
+      ]
+    },
+    {
+      "en": "put away",
+      "ru": "убирать на место",
+      "uz": "joyiga olib qoʻymoq",
+      "examples": [
+        {
+          "en": "Please put your toys away.",
+          "uz": "Iltimos, oʻyinchoqlaringizni joyiga olib qoʻying."
+        }
+      ]
+    },
+    {
+      "en": "put down",
+      "ru": "класть; опускать",
+      "uz": "qoʻymoq; tushirmoq",
+      "examples": [
+        {
+          "en": "Put the bag down here.",
+          "uz": "Sumkani shu yerga qoʻying."
+        }
+      ]
+    },
+    {
+      "en": "put off",
+      "ru": "откладывать",
+      "uz": "keyinga qoldirmoq",
+      "examples": [
+        {
+          "en": "Don't put off your homework.",
+          "uz": "Uy vazifangizni keyinga qoldirmang."
+        }
+      ]
+    },
+    {
+      "en": "put out",
+      "ru": "тушить; гасить",
+      "uz": "oʻchirmoq",
+      "examples": [
+        {
+          "en": "Please put out the candle.",
+          "uz": "Iltimos, shamni oʻchiring."
+        }
+      ]
+    }
+  ]
+}

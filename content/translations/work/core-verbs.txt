@@ -1,0 +1,330 @@
+phrase|get up||вставать|turmoq
+example|get up||I get up at seven every morning.|Men har kuni ertalab soat yettida turaman.
+phrase|get ready||готовиться; собираться|tayyorlanmoq
+example|get ready||I need to get ready for work.|Menga ishga tayyorlanish kerak.
+phrase|get dressed||одеваться|kiyinmoq
+example|get dressed||The children are getting dressed.|Bolalar kiyinyapti.
+phrase|get home||добираться домой|uyga yetib bormoq
+example|get home||What time do you get home?|Soat nechada uyga yetib borasiz?
+phrase|get back||возвращаться|qaytmoq
+example|get back||I'll get back at six.|Men soat oltida qaytaman.
+phrase|get in||входить; садиться в машину|kirmoq; mashinaga oʻtirmoq
+example|get in||Get in the car, please.|Iltimos, mashinaga oʻtiring.
+phrase|get out||выходить|chiqmoq
+example|get out||We got out of the taxi.|Biz taksidan tushdik.
+phrase|get on||садиться в автобус или поезд|avtobus yoki poyezdga chiqmoq
+example|get on||I get on the bus near my house.|Men uyim yonida avtobusga chiqaman.
+phrase|get off||выходить из автобуса или поезда|avtobus yoki poyezddan tushmoq
+example|get off||We get off at the next stop.|Biz keyingi bekatda tushamiz.
+phrase|get a job||получить работу|ishga joylashmoq
+example|get a job||She wants to get a job in Tashkent.|U Toshkentda ishga joylashmoqchi.
+phrase|get a message||получить сообщение|xabar olmoq
+example|get a message||I got your message yesterday.|Xabaringizni kecha oldim.
+phrase|get better||становиться лучше; поправляться|yaxshilanmoq; tuzalmoq
+example|get better||I hope you get better soon.|Umid qilamanki, tezda tuzalib ketasiz.
+phrase|get tired||уставать|charchamoq
+example|get tired||I get tired after work.|Men ishdan keyin charchayman.
+phrase|get angry||злиться|jahli chiqmoq
+example|get angry||Don't get angry with me.|Menga jahlingiz chiqmasin.
+phrase|get lost||заблудиться|adashib qolmoq
+example|get lost||We got lost in the city.|Biz shaharda adashib qoldik.
+phrase|get married||жениться; выходить замуж|turmush qurmoq
+example|get married||They want to get married next year.|Ular kelasi yili turmush qurmoqchi.
+phrase|get along with someone||ладить с кем-либо|kimdir bilan chiqishmoq
+example|get along with someone||I get along well with my colleagues.|Men hamkasblarim bilan yaxshi chiqishaman.
+phrase|get a chance||получить возможность|imkoniyat topmoq
+example|get a chance||I hope I get a chance to speak to her.|Umid qilamanki, u bilan gaplashishga imkoniyat topaman.
+phrase|get to work||добираться до работы|ishga yetib bormoq
+example|get to work||How do you get to work?|Ishga qanday yetib borasiz?
+phrase|get used to something||привыкнуть к чему-либо|biror narsaga koʻnikmoq
+example|get used to something||I'm getting used to my new job.|Men yangi ishimga koʻnikyapman.
+phrase|take a shower||принимать душ|dush qabul qilmoq
+example|take a shower||I take a shower every morning.|Men har kuni ertalab dush qabul qilaman.
+phrase|take a break||делать перерыв|tanaffus qilmoq
+example|take a break||Let's take a short break.|Keling, qisqa tanaffus qilaylik.
+phrase|take a seat||садиться; присаживаться|joy olmoq
+example|take a seat||Please take a seat.|Iltimos, joy oling.
+phrase|take a photo||делать фотографию|surat olmoq
+example|take a photo||Can you take a photo of us?|Bizni suratga olib bera olasizmi?
+phrase|take a taxi||ехать на такси|taksida bormoq
+example|take a taxi||Let's take a taxi to the station.|Keling, bekatga taksida boramiz.
+phrase|take medicine||принимать лекарство|dori ichmoq
+example|take medicine||You should take this medicine twice a day.|Bu dorini kuniga ikki marta ichishingiz kerak.
+phrase|take your time||не торопиться|shoshilmaslik
+example|take your time||Take your time. We aren't in a hurry.|Shoshilmang. Biz shoshmayapmiz.
+phrase|take care||береги себя; заботься|oʻzingizni ehtiyot qiling
+example|take care||Take care and see you soon.|Oʻzingizni ehtiyot qiling, tez orada koʻrishamiz.
+phrase|take care of someone||заботиться о ком-либо|kimgadir gʻamxoʻrlik qilmoq
+example|take care of someone||She takes care of her younger brother.|U ukasiga gʻamxoʻrlik qiladi.
+phrase|take part in||принимать участие в|qatnashmoq
+example|take part in||I want to take part in the competition.|Men musobaqada qatnashmoqchiman.
+phrase|take a look||взглянуть|koʻz tashlamoq
+example|take a look||Can you take a look at this?|Bunga koʻz tashlay olasizmi?
+phrase|take notes||делать записи|yozib bormoq
+example|take notes||I take notes during lessons.|Men dars davomida yozib boraman.
+phrase|take an exam||сдавать экзамен|imtihon topshirmoq
+example|take an exam||We take an English exam tomorrow.|Biz ertaga ingliz tilidan imtihon topshiramiz.
+phrase|take a day off||взять выходной|dam olish kuni olmoq
+example|take a day off||I'm going to take a day off on Friday.|Men juma kuni dam olish kuni olmoqchiman.
+phrase|take place||происходить; проходить|boʻlib oʻtmoq
+example|take place||The meeting takes place at noon.|Uchrashuv tushda boʻlib oʻtadi.
+phrase|take out||вынимать; выносить|chiqarmoq
+example|take out||Take your phone out of your bag.|Telefoningizni sumkangizdan chiqaring.
+phrase|take off||снимать; взлетать|yechmoq; uchib ketmoq
+example|take off||Please take off your shoes.|Iltimos, oyoq kiyimingizni yeching.
+phrase|take away||брать с собой; еда навынос|olib ketmoq; olib ketiladigan taom
+example|take away||Can I get this to take away?|Buni olib ketishga olsam boʻladimi?
+phrase|take responsibility||брать ответственность|javobgarlikni oʻz zimmasiga olmoq
+example|take responsibility||He needs to take responsibility for his actions.|U oʻz xatti-harakatlari uchun javobgarlikni oʻz zimmasiga olishi kerak.
+phrase|have breakfast||завтракать|nonushta qilmoq
+example|have breakfast||I have breakfast at eight.|Men soat sakkizda nonushta qilaman.
+phrase|have lunch||обедать|tushlik qilmoq
+example|have lunch||We usually have lunch together.|Biz odatda birga tushlik qilamiz.
+phrase|have dinner||ужинать|kechki ovqat yemoq
+example|have dinner||Let's have dinner at home.|Keling, kechki ovqatni uyda yeymiz.
+phrase|have a shower||принимать душ|dushga tushmoq
+example|have a shower||I have a shower before bed.|Men uxlashdan oldin dushga tushaman.
+phrase|have a rest||отдыхать|dam olmoq
+example|have a rest||You look tired. Have a rest.|Charchagan koʻrinasiz. Dam oling.
+phrase|have a good time||хорошо проводить время|yaxshi vaqt oʻtkazmoq
+example|have a good time||We had a good time at the party.|Biz bazmda yaxshi vaqt oʻtkazdik.
+phrase|have fun||веселиться|koʻngil ochmoq
+example|have fun||Have fun on your trip!|Sayohatingizda koʻngil oching!
+phrase|have a problem||иметь проблему|muammosi boʻlmoq
+example|have a problem||I have a problem with my computer.|Kompyuterimda muammo bor.
+phrase|have a question||иметь вопрос|savoli boʻlmoq
+example|have a question||Can I ask you a question?|Sizga savol bersam boʻladimi?
+phrase|have an idea||иметь идею|fikri boʻlmoq
+example|have an idea||I have an idea.|Menda bir fikr bor.
+phrase|have a look||посмотреть|qarab qoʻymoq
+example|have a look||Have a look at this picture.|Bu suratga qarab qoʻying.
+phrase|have a meeting||проводить встречу|uchrashuv oʻtkazmoq
+example|have a meeting||I have a meeting at ten.|Mening soat oʻnda uchrashuvim bor.
+phrase|have a cold||быть простуженным|shamollamoq
+example|have a cold||I have a cold, so I'm staying home.|Men shamolladim, shuning uchun uyda qolyapman.
+phrase|have a headache||испытывать головную боль|boshi ogʻrimoq
+example|have a headache||I have a headache.|Boshim ogʻriyapti.
+phrase|have time||иметь время|vaqti boʻlmoq
+example|have time||Do you have time to talk?|Gaplashishga vaqtingiz bormi?
+phrase|have to||быть должным; нужно|majbur boʻlmoq; kerak
+example|have to||I have to leave now.|Men hozir ketishim kerak.
+phrase|have a chance||иметь шанс|imkoniyati boʻlmoq
+example|have a chance||We still have a chance to win.|Bizda hali ham yutish imkoniyati bor.
+phrase|have a good day||хорошего дня|kuningiz yaxshi oʻtsin
+example|have a good day||Have a good day at work!|Ishda kuningiz yaxshi oʻtsin!
+phrase|have trouble||испытывать трудности|qiynalmoq
+example|have trouble||I have trouble understanding fast English.|Men tez ingliz tilini tushunishda qiynalaman.
+phrase|have something in common||иметь что-то общее|umumiy jihati boʻlmoq
+example|have something in common||We have a lot in common.|Bizda umumiy jihatlar koʻp.
+phrase|make a mistake||совершить ошибку|xato qilmoq
+example|make a mistake||I made a mistake in my homework.|Men uy vazifamda xato qildim.
+phrase|make a decision||принять решение|qaror qabul qilmoq
+example|make a decision||We need to make a decision today.|Biz bugun qaror qabul qilishimiz kerak.
+phrase|make a plan||составить план|reja tuzmoq
+example|make a plan||Let's make a plan for the weekend.|Keling, dam olish kunlari uchun reja tuzaylik.
+phrase|make money||зарабатывать деньги|pul topmoq
+example|make money||He wants to make more money.|U koʻproq pul topmoqchi.
+phrase|make friends||заводить друзей|doʻst orttirmoq
+example|make friends||It's easy to make friends here.|Bu yerda doʻst orttirish oson.
+phrase|make a phone call||сделать телефонный звонок|telefon qilmoq
+example|make a phone call||I need to make a phone call.|Menga telefon qilish kerak.
+phrase|make breakfast||приготовить завтрак|nonushta tayyorlamoq
+example|make breakfast||I'll make breakfast for everyone.|Men hammaga nonushta tayyorlayman.
+phrase|make sure||убедиться|ishonch hosil qilmoq
+example|make sure||Make sure the door is locked.|Eshik yopiqligiga ishonch hosil qiling.
+phrase|make sense||иметь смысл; быть понятным|mantiqli boʻlmoq; tushunarli boʻlmoq
+example|make sense||This explanation doesn't make sense.|Bu tushuntirish mantiqqa toʻgʻri kelmaydi.
+phrase|make a difference||иметь значение|ahamiyatga ega boʻlmoq
+example|make a difference||Small changes can make a difference.|Kichik oʻzgarishlar ham ahamiyatga ega boʻlishi mumkin.
+phrase|make an effort||приложить усилия|harakat qilmoq
+example|make an effort||You need to make an effort.|Siz harakat qilishingiz kerak.
+phrase|make progress||делать успехи|oldinga siljimoq
+example|make progress||You're making progress in English.|Siz ingliz tilida oldinga siljiyapsiz.
+phrase|make a list||составить список|roʻyxat tuzmoq
+example|make a list||I made a list of things to buy.|Men sotib olinadigan narsalar roʻyxatini tuzdim.
+phrase|make a promise||дать обещание|vaʼda bermoq
+example|make a promise||Don't make a promise you can't keep.|Bajara olmaydigan vaʼdani bermang.
+phrase|make someone happy||делать кого-либо счастливым|kimnidir xursand qilmoq
+example|make someone happy||Your message made me happy.|Xabaringiz meni xursand qildi.
+phrase|make it||успеть; прийти; справиться|ulgurmoq; yetib bormoq; uddalamoq
+example|make it||Sorry, I can't make it tonight.|Kechirasiz, bugun kechqurun bora olmayman.
+phrase|make up your mind||решить; определиться|qaroringizni qilmoq
+example|make up your mind||You need to make up your mind.|Siz qaroringizni qilishingiz kerak.
+phrase|make the bed||заправить кровать|karavotni yigʻishtirmoq
+example|make the bed||I make the bed every morning.|Men har kuni ertalab karavotni yigʻishtiraman.
+phrase|do homework||делать домашнее задание|uy vazifasini bajarmoq
+example|do homework||I do my homework after dinner.|Men uy vazifamni kechki ovqatdan keyin bajaraman.
+phrase|do housework||заниматься домашними делами|uy ishlarini qilmoq
+example|do housework||We do housework on Saturdays.|Biz shanba kunlari uy ishlarini qilamiz.
+phrase|do the dishes||мыть посуду|idish yuvmoq
+example|do the dishes||I'll do the dishes after dinner.|Men kechki ovqatdan keyin idish yuvaman.
+phrase|do the laundry||стирать одежду|kir yuvmoq
+example|do the laundry||I do the laundry twice a week.|Men haftada ikki marta kir yuvaman.
+phrase|do your best||стараться изо всех сил|bor kuchi bilan harakat qilmoq
+example|do your best||Just do your best.|Shunchaki bor kuchingiz bilan harakat qiling.
+phrase|do exercise||делать упражнения|mashq qilmoq
+example|do exercise||I do exercise every morning.|Men har kuni ertalab mashq qilaman.
+phrase|do business||вести бизнес|biznes yuritmoq
+example|do business||They do business with local companies.|Ular mahalliy kompaniyalar bilan biznes yuritadi.
+phrase|do a great job||отлично справиться|ajoyib ish qilmoq
+example|do a great job||You did a great job.|Siz ajoyib ish qildingiz.
+phrase|do research||проводить исследование|tadqiqot oʻtkazmoq
+example|do research||We're doing research for our project.|Biz loyihamiz uchun tadqiqot oʻtkazyapmiz.
+phrase|do a course||проходить курс|kursda oʻqimoq
+example|do a course||I'm doing an English course online.|Men onlayn ingliz tili kursida oʻqiyapman.
+phrase|do someone a favour||оказать услугу|kimgadir yaxshilik qilmoq
+example|do someone a favour||Could you do me a favour?|Menga bir yaxshilik qila olasizmi?
+phrase|do well||хорошо справляться|yaxshi natija koʻrsatmoq
+example|do well||She's doing well at school.|U maktabda yaxshi natija koʻrsatyapti.
+phrase|do badly||плохо справиться|yomon natija koʻrsatmoq
+example|do badly||I did badly on the test.|Men testda yomon natija koʻrsatdim.
+phrase|do something||делать что-либо|biror narsa qilmoq
+example|do something||What are you doing tonight?|Bugun kechqurun nima qilyapsiz?
+phrase|do nothing||ничего не делать|hech narsa qilmaslik
+example|do nothing||I want to do nothing this weekend.|Men bu dam olish kunlari hech narsa qilmoqchi emasman.
+phrase|do the shopping||ходить за покупками|xarid qilmoq
+example|do the shopping||I do the shopping on Fridays.|Men juma kunlari xarid qilaman.
+phrase|do the cleaning||заниматься уборкой|tozalash ishlarini qilmoq
+example|do the cleaning||We need to do the cleaning today.|Biz bugun tozalash ishlarini qilishimiz kerak.
+phrase|do damage||наносить ущерб|zarar yetkazmoq
+example|do damage||The storm did a lot of damage.|Boʻron katta zarar yetkazdi.
+phrase|go home||идти домой|uyga ketmoq
+example|go home||I go home at six.|Men soat oltida uyga ketaman.
+phrase|go to work||идти на работу|ishga bormoq
+example|go to work||I go to work by bus.|Men ishga avtobusda boraman.
+phrase|go to school||ходить в школу|maktabga bormoq
+example|go to school||My son goes to school nearby.|Oʻgʻlim yaqin atrofdagi maktabga boradi.
+phrase|go shopping||ходить за покупками|xarid qilgani bormoq
+example|go shopping||Let's go shopping after lunch.|Keling, tushlikdan keyin xarid qilgani boramiz.
+phrase|go out||выходить куда-либо; гулять|tashqariga chiqmoq; sayr qilmoq
+example|go out||Do you want to go out tonight?|Bugun kechqurun tashqariga chiqmoqchimisiz?
+phrase|go for a walk||пойти погулять|sayrga chiqmoq
+example|go for a walk||Let's go for a walk.|Keling, sayrga chiqamiz.
+phrase|go by bus||ехать на автобусе|avtobusda bormoq
+example|go by bus||We go by bus when it rains.|Yomgʻir yoqqanda biz avtobusda boramiz.
+phrase|go on holiday||ехать в отпуск|taʼtilga chiqmoq
+example|go on holiday||We're going on holiday in July.|Biz iyulda taʼtilga chiqamiz.
+phrase|go to bed||ложиться спать|uxlashga yotmoq
+example|go to bed||I usually go to bed at eleven.|Men odatda soat oʻn birda uxlashga yotaman.
+phrase|go to sleep||засыпать|uyquga ketmoq
+example|go to sleep||The baby went to sleep quickly.|Chaqaloq tez uyquga ketdi.
+phrase|go wrong||идти не так; ломаться|notoʻgʻri ketmoq; buzilmoq
+example|go wrong||Something went wrong with my laptop.|Noutbukimda nimadir buzildi.
+phrase|go well||проходить хорошо|yaxshi oʻtmoq
+example|go well||I hope everything goes well.|Umid qilamanki, hammasi yaxshi oʻtadi.
+phrase|go ahead||продолжать; начинать|davom etmoq; boshlamoq
+example|go ahead||Go ahead. I'm listening.|Davom eting. Men eshityapman.
+phrase|go back||возвращаться|qaytib bormoq
+example|go back||I need to go back to the office.|Menga ofisga qaytib borish kerak.
+phrase|go away||уходить; уезжать|ketmoq
+example|go away||Please go away and leave me alone.|Iltimos, keting va meni tinch qoʻying.
+phrase|go on||продолжаться|davom etmoq
+example|go on||The meeting went on for two hours.|Uchrashuv ikki soat davom etdi.
+phrase|go online||выходить в интернет|internetga kirmoq
+example|go online||I go online every evening.|Men har kuni kechqurun internetga kiraman.
+phrase|go through||переживать; проходить через|boshidan kechirmoq
+example|go through||She's going through a difficult time.|U qiyin davrni boshidan kechiryapti.
+phrase|come here||подойти сюда|bu yerga kelmoq
+example|come here||Can you come here for a minute?|Bir daqiqaga bu yerga kela olasizmi?
+phrase|come back||вернуться|qaytib kelmoq
+example|come back||Please come back soon.|Iltimos, tezroq qaytib keling.
+phrase|come in||войти|kirmoq
+example|come in||Come in and sit down.|Kiring va oʻtiring.
+phrase|come out||выходить; появляться|chiqmoq; paydo boʻlmoq
+example|come out||The new phone comes out next month.|Yangi telefon kelasi oy chiqadi.
+phrase|come over||зайти в гости|mehmonga kelmoq
+example|come over||Do you want to come over tonight?|Bugun kechqurun mehmonga kelasizmi?
+phrase|come along||присоединиться|qoʻshilmoq
+example|come along||You can come along with us.|Siz biz bilan qoʻshilib borishingiz mumkin.
+phrase|come from||быть родом из|aslida qayerdandir boʻlmoq
+example|come from||Where do you come from?|Siz qayerdansiz?
+phrase|come first||быть на первом месте|birinchi oʻrinda turmoq
+example|come first||Family comes first for me.|Men uchun oila birinchi oʻrinda turadi.
+phrase|come true||сбываться|amalga oshmoq
+example|come true||I hope your dream comes true.|Umid qilamanki, orzuingiz amalga oshadi.
+phrase|come to an end||заканчиваться|yakunlanmoq
+example|come to an end||The meeting came to an end at five.|Uchrashuv soat beshda yakunlandi.
+phrase|come up||возникнуть|yuzaga kelmoq
+example|come up||Something urgent has come up.|Shoshilinch ish yuzaga keldi.
+phrase|come up with an idea||придумать идею|fikr oʻylab topmoq
+example|come up with an idea||She came up with a great idea.|U ajoyib fikr oʻylab topdi.
+phrase|come early||приходить рано|erta kelmoq
+example|come early||Try to come early tomorrow.|Ertaga erta kelishga harakat qiling.
+phrase|come with me||пойти со мной|men bilan yurmoq
+example|come with me||Come with me, please.|Iltimos, men bilan yuring.
+phrase|come on||давай; ну же|qani; boʻling endi
+example|come on||Come on, we're going to be late!|Qani boʻling, kechikamiz!
+phrase|come in handy||пригодиться|asqotmoq
+example|come in handy||This tool may come in handy.|Bu asbob asqotib qolishi mumkin.
+phrase|give me a hand||помочь мне|menga yordam bermoq
+example|give me a hand||Can you give me a hand with this box?|Bu quti bilan menga yordam bera olasizmi?
+phrase|give someone a call||позвонить кому-либо|kimgadir qoʻngʻiroq qilmoq
+example|give someone a call||Give me a call when you arrive.|Yetib kelganingizda menga qoʻngʻiroq qiling.
+phrase|give advice||давать совет|maslahat bermoq
+example|give advice||My father always gives good advice.|Otam har doim yaxshi maslahat beradi.
+phrase|give an answer||дать ответ|javob bermoq
+example|give an answer||Please give me an answer today.|Iltimos, bugun menga javob bering.
+phrase|give permission||дать разрешение|ruxsat bermoq
+example|give permission||They gave us permission to leave early.|Ular bizga erta ketishga ruxsat berishdi.
+phrase|give someone a chance||дать кому-либо шанс|kimgadir imkoniyat bermoq
+example|give someone a chance||Please give me another chance.|Iltimos, menga yana bir imkoniyat bering.
+phrase|give a reason||назвать причину|sabab aytmoq
+example|give a reason||Can you give me a reason?|Menga sabab ayta olasizmi?
+phrase|give a presentation||провести презентацию|taqdimot qilmoq
+example|give a presentation||I have to give a presentation tomorrow.|Men ertaga taqdimot qilishim kerak.
+phrase|give a gift||подарить подарок|sovgʻa bermoq
+example|give a gift||I want to give her a gift.|Men unga sovgʻa bermoqchiman.
+phrase|give up||сдаваться; бросать|taslim boʻlmoq; tashlamoq
+example|give up||Don't give up on your dream.|Orzuingizdan voz kechmang.
+phrase|give back||возвращать|qaytarib bermoq
+example|give back||Please give back my book.|Iltimos, kitobimni qaytarib bering.
+phrase|give away||отдавать даром|bepul tarqatmoq
+example|give away||They gave away old clothes.|Ular eski kiyimlarni bepul tarqatishdi.
+phrase|give it a try||попробовать|sinab koʻrmoq
+example|give it a try||I've never tried it, but I'll give it a try.|Men buni hech sinab koʻrmaganman, lekin sinab koʻraman.
+phrase|give someone a lift||подвезти кого-либо|kimnidir mashinada olib bormoq
+example|give someone a lift||Can you give me a lift to the station?|Meni bekatgacha olib bora olasizmi?
+phrase|give someone a hug||обнять кого-либо|kimnidir quchoqlamoq
+example|give someone a hug||She gave her mother a hug.|U onasini quchoqladi.
+phrase|give an example||привести пример|misol keltirmoq
+example|give an example||Can you give me an example?|Menga misol keltira olasizmi?
+phrase|keep going||продолжать|davom etmoq
+example|keep going||Keep going. You're doing well.|Davom eting. Yaxshi ketyapsiz.
+phrase|keep in touch||поддерживать связь|aloqada boʻlmoq
+example|keep in touch||Let's keep in touch.|Keling, aloqada boʻlaylik.
+phrase|keep a secret||хранить секрет|sirni saqlamoq
+example|keep a secret||Can you keep a secret?|Sir saqlay olasizmi?
+phrase|keep calm||сохранять спокойствие|xotirjamlikni saqlamoq
+example|keep calm||Try to keep calm.|Xotirjamlikni saqlashga harakat qiling.
+phrase|keep in mind||иметь в виду|yodda tutmoq
+example|keep in mind||Keep in mind that the shop closes at six.|Doʻkon soat oltida yopilishini yodda tuting.
+phrase|keep a promise||держать обещание|vaʼdaga vafo qilmoq
+example|keep a promise||He always keeps his promises.|U har doim vaʼdasiga vafo qiladi.
+phrase|keep fit||поддерживать форму|sogʻlom holatni saqlamoq
+example|keep fit||She walks every day to keep fit.|U sogʻlom holatni saqlash uchun har kuni piyoda yuradi.
+phrase|keep safe||беречь себя; быть в безопасности|oʻzini asramoq; xavfsiz boʻlmoq
+example|keep safe||Keep safe on your trip.|Sayohatingizda oʻzingizni asrang.
+phrase|keep trying||продолжать пытаться|urinishda davom etmoq
+example|keep trying||Keep trying and you'll improve.|Urinishda davom eting, albatta yaxshilanasiz.
+phrase|keep the change||сдачи не надо|qaytimi kerak emas
+example|keep the change||Keep the change.|Qaytimi kerak emas.
+phrase|keep away from||держаться подальше от|uzoqroq yurmoq
+example|keep away from||Keep away from the fire.|Olovdan uzoqroq yuring.
+phrase|keep up with||не отставать от|ortda qolmaslik
+example|keep up with||I can't keep up with him.|Men undan ortda qolmay yura olmayman.
+phrase|keep on doing something||продолжать что-либо делать|biror ishni qilishda davom etmoq
+example|keep on doing something||He kept on talking.|U gapirishda davom etdi.
+phrase|keep an eye on||присматривать за|koʻz-quloq boʻlmoq
+example|keep an eye on||Can you keep an eye on my bag?|Sumkamga koʻz-quloq boʻla olasizmi?
+phrase|keep your word||держать слово|soʻzida turmoq
+example|keep your word||You should keep your word.|Siz soʻzingizda turishingiz kerak.
+phrase|put on||надевать|kiymoq
+example|put on||Put on your jacket. It's cold.|Kurtkangizni kiying. Sovuq.
+phrase|put away||убирать на место|joyiga olib qoʻymoq
+example|put away||Please put your toys away.|Iltimos, oʻyinchoqlaringizni joyiga olib qoʻying.
+phrase|put down||класть; опускать|qoʻymoq; tushirmoq
+example|put down||Put the bag down here.|Sumkani shu yerga qoʻying.
+phrase|put off||откладывать|keyinga qoldirmoq
+example|put off||Don't put off your homework.|Uy vazifangizni keyinga qoldirmang.
+phrase|put out||тушить; гасить|oʻchirmoq
+example|put out||Please put out the candle.|Iltimos, shamni oʻchiring.
