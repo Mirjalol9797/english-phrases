@@ -1,0 +1,200 @@
+phrase|I agree.||Я согласен / согласна.|Roziman.
+phrase|I totally agree.||Я полностью согласен / согласна.|Toʻliq roziman.
+phrase|You're absolutely right.||Ты совершенно прав(а).|Siz mutlaqo haqsiz.
+phrase|Exactly.||Именно так.|Aynan shunday.
+phrase|That's true.||Это правда.|Bu rost.
+phrase|That's a good point.||Это хорошее замечание.|Bu yaxshi fikr.
+phrase|I think so, too.||Я тоже так думаю.|Men ham shunday oʻylayman.
+phrase|You have a point.||В твоих словах есть смысл.|Gapingizda jon bor.
+phrase|I couldn't agree more.||Полностью с тобой согласен / согласна.|Bundan koʻra koʻproq rozi boʻla olmasdim.
+phrase|That's exactly what I think.||Я думаю точно так же.|Men ham aynan shunday oʻylayman.
+phrase|I don't agree.||Я не согласен / согласна.|Rozi emasman.
+phrase|I'm not sure I agree.||Не уверен(а), что согласен / согласна.|Rozimanmi, ishonchim komil emas.
+phrase|I see it differently.||Я смотрю на это иначе.|Men buni boshqacha koʻraman.
+phrase|I don't think that's right.||Не думаю, что это правильно.|Menimcha, bu toʻgʻri emas.
+phrase|Not necessarily.||Не обязательно.|Shart emas.
+phrase|I wouldn't say that.||Я бы так не сказал(а).|Men bunday demagan boʻlardim.
+phrase|I have a different opinion.||У меня другое мнение.|Mening fikrim boshqacha.
+phrase|I understand your point, but...||Я понимаю твою точку зрения, но...|Fikringizni tushunaman, lekin...
+phrase|I'm afraid I disagree.||Боюсь, я не согласен / согласна.|Afsuski, men rozi emasman.
+phrase|Let's agree to disagree.||Давай останемся каждый при своём мнении.|Keling, har birimiz oʻz fikrimizda qolaylik.
+phrase|I'm not sure.||Я не уверен(а).|Ishonchim komil emas.
+phrase|I'm not really sure.||Я не совсем уверен(а).|Unchalik ishonchim komil emas.
+phrase|I have my doubts.||У меня есть сомнения.|Shubhalarim bor.
+phrase|Maybe, maybe not.||Может быть, а может и нет.|Balki ha, balki yoʻq.
+phrase|It's hard to say.||Трудно сказать.|Aytish qiyin.
+phrase|I'm not convinced.||Я не убеждён(а).|Men ishonmayapman.
+phrase|I could be wrong.||Возможно, я ошибаюсь.|Men adashayotgan boʻlishim mumkin.
+phrase|As far as I know...||Насколько мне известно...|Men bilganimcha...
+phrase|I might be wrong, but...||Возможно, я ошибаюсь, но...|Adashayotgan boʻlishim mumkin, lekin...
+phrase|I need to think about it.||Мне нужно это обдумать.|Bu haqda oʻylab koʻrishim kerak.
+phrase|I think...||Я думаю...|Menimcha...
+phrase|In my opinion...||По моему мнению...|Mening fikrimcha...
+phrase|Personally, I think...||Лично я думаю...|Shaxsan men oʻylaymanki...
+phrase|As I see it...||Как я это вижу...|Men buni shunday koʻraman...
+phrase|The way I see it...||На мой взгляд...|Mening nazarimda...
+phrase|If you ask me...||Если спросишь меня...|Mendan soʻrasangiz...
+phrase|To me, it seems...||Мне кажется...|Menga shunday tuyuladi...
+phrase|I feel that...||Я считаю / чувствую, что...|Men hisoblaymanki...
+phrase|From my point of view...||С моей точки зрения...|Mening nuqtayi nazarimdan...
+phrase|My impression is that...||У меня сложилось впечатление, что...|Menda shunday taassurot qoldiki...
+phrase|What exactly do you mean?||Что именно ты имеешь в виду?|Aniq nimani nazarda tutyapsiz?
+phrase|Could you be more specific?||Не мог(ли) бы ты уточнить?|Aniqroq aytib bera olasizmi?
+phrase|Do you mean that...?||Ты имеешь в виду, что...?|Siz shuni nazarda tutyapsizmi...?
+phrase|Let me make sure I understand.||Позволь убедиться, что я правильно понял(а).|Toʻgʻri tushunganimga ishonch hosil qilay.
+phrase|So, what you're saying is...||То есть ты говоришь, что...|Yaʼni, siz aytmoqchisizki...
+phrase|Could you explain that a little more?||Не мог(ли) бы ты объяснить это подробнее?|Buni biroz batafsilroq tushuntira olasizmi?
+phrase|Can I just check something?||Можно кое-что уточнить?|Bir narsani aniqlashtirsam boʻladimi?
+phrase|Did I get that right?||Я правильно понял(а)?|Toʻgʻri tushundimmi?
+phrase|Could you give me an example?||Не мог(ли) бы ты привести пример?|Misol keltira olasizmi?
+phrase|What do you mean by that?||Что ты под этим подразумеваешь?|Buning bilan nimani nazarda tutyapsiz?
+phrase|I see what you mean.||Я понимаю, что ты имеешь в виду.|Nimani nazarda tutayotganingizni tushunaman.
+phrase|I get your point.||Я понимаю твою мысль.|Fikringizni tushundim.
+phrase|That makes sense.||В этом есть смысл.|Bunda mantiq bor.
+phrase|I know what you mean.||Я понимаю, о чём ты.|Nima demoqchi ekaningizni bilaman.
+phrase|I see where you're coming from.||Я понимаю, почему ты так думаешь.|Nega shunday deyayotganingizni tushunaman.
+phrase|That explains it.||Теперь всё объясняется.|Mana, endi tushunarli boʻldi.
+phrase|Now I understand.||Теперь я понимаю.|Endi tushundim.
+phrase|I hadn't thought of it that way.||Я не рассматривал(а) это с такой стороны.|Men buni bu tomondan oʻylab koʻrmagan ekanman.
+phrase|I can see why.||Я понимаю почему.|Nega ekanini tushunaman.
+phrase|That clears things up.||Теперь всё стало яснее.|Endi hammasi oydinlashdi.
+phrase|Really?||Правда?|Rostdanmi?
+phrase|Are you serious?||Ты серьёзно?|Jiddiy aytyapsizmi?
+phrase|No way!||Не может быть!|Boʻlishi mumkin emas!
+phrase|You're kidding!||Ты шутишь!|Hazillashyapsiz!
+phrase|I can't believe it.||Не могу в это поверить.|Bunga ishona olmayman.
+phrase|That's surprising.||Это удивительно.|Bu hayratlanarli.
+phrase|I didn't expect that.||Я этого не ожидал(а).|Men buni kutmagandim.
+phrase|What a surprise!||Какой сюрприз!|Qanday kutilmagan hodisa!
+phrase|You've got to be joking.||Ты, должно быть, шутишь.|Siz hazillashyapsiz shekilli.
+phrase|Is that so?||Вот как? / Неужели?|Shundaymi? / Nahotki?
+phrase|You can do it.||Ты сможешь.|Siz qila olasiz.
+phrase|Don't give up.||Не сдавайся.|Taslim boʻlmang.
+phrase|Keep going.||Продолжай.|Davom eting.
+phrase|I'm rooting for you.||Я за тебя болею / поддерживаю тебя.|Men sizni qoʻllab-quvvatlayman.
+phrase|You've got this.||У тебя всё получится.|Sizning qoʻlingizdan keladi.
+phrase|Take your time.||Не торопись.|Shoshilmang.
+phrase|One step at a time.||Шаг за шагом.|Bosqichma-bosqich.
+phrase|I'm here for you.||Я рядом, если тебе нужна поддержка.|Men yoningizdaman.
+phrase|You'll be fine.||Всё будет хорошо.|Hammasi yaxshi boʻladi.
+phrase|I'm proud of you.||Я горжусь тобой.|Men sizdan faxrlanaman.
+phrase|Don't worry.||Не волнуйся.|Xavotir olmang.
+phrase|Everything will be okay.||Всё будет хорошо.|Hammasi joyida boʻladi.
+phrase|It's not a big deal.||Это не такая уж большая проблема.|Bu unchalik katta muammo emas.
+phrase|No need to panic.||Не нужно паниковать.|Vahima qilishning hojati yoʻq.
+phrase|It's going to be all right.||Всё будет в порядке.|Hammasi yaxshi boʻladi.
+phrase|You don't have to worry about it.||Тебе не нужно об этом беспокоиться.|Bu haqda xavotir olishingiz shart emas.
+phrase|We'll work it out.||Мы найдём решение.|Biz buning yechimini topamiz.
+phrase|There's nothing to worry about.||Не о чем беспокоиться.|Xavotir oladigan narsa yoʻq.
+phrase|It's under control.||Всё под контролем.|Hammasi nazorat ostida.
+phrase|You can count on me.||Ты можешь на меня рассчитывать.|Menga ishonsangiz boʻladi.
+phrase|Why don't we...?||Почему бы нам не...?|Nega biz... qilmaymiz?
+phrase|How about...?||Как насчёт...?|... qalay boʻlarkan?
+phrase|You should...||Тебе следует...|Siz ... qilishingiz kerak.
+phrase|If I were you, I'd...||На твоём месте я бы...|Sizning oʻrningizda boʻlsam, men...
+phrase|Maybe you could...||Возможно, ты мог(ла) бы...|Balki siz ... qila olarsiz.
+phrase|Have you tried...?||Ты пробовал(а)...?|Siz ... ni sinab koʻrdingizmi?
+phrase|It's worth a try.||Стоит попробовать.|Sinab koʻrishga arziydi.
+phrase|I'd recommend...||Я бы порекомендовал(а)...|Men ... ni tavsiya qilgan boʻlardim.
+phrase|You might want to...||Возможно, тебе стоит...|Balki siz ... qilsangiz yaxshi boʻlar.
+phrase|What if we...?||А что, если мы...?|Agar biz ... qilsakchi?
+phrase|It depends on what you prefer.||Это зависит от того, что ты предпочитаешь.|Bu nimani afzal koʻrishingizga bogʻliq.
+phrase|I'd rather not.||Я бы предпочёл / предпочла не делать этого.|Men buni qilmasam deb edim.
+phrase|I'd prefer to...||Я бы предпочёл / предпочла...|Men ... ni afzal koʻrardim.
+phrase|It doesn't matter to me.||Для меня это не имеет значения.|Menga farqi yoʻq.
+phrase|I'm open to suggestions.||Я готов(а) рассмотреть предложения.|Men takliflarni eshitishga tayyorman.
+phrase|That's my first choice.||Это мой первый выбор.|Bu mening birinchi tanlovim.
+phrase|My main concern is...||Меня больше всего беспокоит...|Meni eng koʻp tashvishga solayotgani...
+phrase|The most important thing is...||Самое важное — это...|Eng muhimi —...
+phrase|I'm leaning toward...||Я склоняюсь к варианту...|Men ... tomonga moyilman.
+phrase|I'd go with this one.||Я бы выбрал(а) этот вариант.|Men shu variantni tanlagan boʻlardim.
+phrase|I'm really into it.||Мне это очень нравится / я этим увлекаюсь.|Bu menga juda qiziq.
+phrase|I'm a big fan of...||Я большой поклонник / поклонница...|Men ... ning katta muxlisiman.
+phrase|It's not for me.||Это не для меня.|Bu menga toʻgʻri kelmaydi.
+phrase|I'm not a fan of...||Я не большой любитель / любительница...|Men ... ni unchalik yoqtirmayman.
+phrase|I can't stand it.||Терпеть этого не могу.|Men bunga chiday olmayman.
+phrase|It grew on me.||Со временем мне это понравилось.|Vaqt oʻtib menga yoqib qoldi.
+phrase|I'm getting used to it.||Я к этому привыкаю.|Men bunga koʻnikib boryapman.
+phrase|It's right up my alley.||Это как раз в моём вкусе.|Bu aynan mening didimga mos.
+phrase|I could take it or leave it.||Мне это безразлично.|Menga baribir.
+phrase|I have mixed feelings about it.||У меня неоднозначные чувства по этому поводу.|Bu haqda fikrim ikkiga boʻlingan.
+phrase|That makes me happy.||Это меня радует.|Bu meni xursand qiladi.
+phrase|I'm so relieved.||Я так рад(а), что всё обошлось.|Koʻnglim joyiga tushdi.
+phrase|That's frustrating.||Это раздражает / расстраивает.|Bu asabni buzadi.
+phrase|I'm disappointed.||Я разочарован(а).|Men hafsalam pir boʻldi.
+phrase|I'm really looking forward to it.||Я очень этого жду.|Men buni juda intiqlik bilan kutyapman.
+phrase|That sounds exciting.||Звучит захватывающе.|Bu qiziqarli tuyuladi.
+phrase|I'm a bit overwhelmed.||Я немного перегружен(а) / растерян(а).|Men biroz holdan toydim.
+phrase|What a relief!||Какое облегчение!|Qanday yengillik!
+phrase|That must be difficult.||Это, должно быть, непросто.|Bu qiyin boʻlsa kerak.
+phrase|I know how you feel.||Я понимаю, что ты чувствуешь.|Nima his qilayotganingizni tushunaman.
+phrase|Would you mind...?||Ты не возражаешь...? / Не могли бы вы...?|... qarshi boʻlmasangiz?
+phrase|If you don't mind...||Если ты не против...|Agar qarshi boʻlmasangiz...
+phrase|I was wondering if...||Я хотел(а) узнать, не могли бы вы...|Bilmoqchi edim, ...
+phrase|Whenever you have a chance.||Когда у тебя будет возможность.|Qachon imkoningiz boʻlsa.
+phrase|I don't mean to interrupt.||Не хочу перебивать.|Soʻzingizni boʻlmoqchi emasman.
+phrase|Sorry to bother you.||Извини(те), что беспокою.|Bezovta qilganim uchun uzr.
+phrase|Thanks for your patience.||Спасибо за терпение.|Sabringiz uchun rahmat.
+phrase|I appreciate your understanding.||Благодарю за понимание.|Tushunganingiz uchun minnatdorman.
+phrase|That's very thoughtful of you.||Это очень внимательно с твоей стороны.|Bu juda eʼtiborli boʻldi.
+phrase|After you.||После вас. / Проходите первым.|Siz oldin oʻting.
+phrase|I think we might need to...||Думаю, нам, возможно, нужно...|Menimcha, bizga ... kerak boʻlishi mumkin.
+phrase|Maybe I'm wrong, but...||Возможно, я ошибаюсь, но...|Balki men adashayotgandirman, lekin...
+phrase|I'm not sure that's the best idea.||Не уверен(а), что это лучшая идея.|Bu eng yaxshi fikr ekaniga ishonchim komil emas.
+phrase|It might be better to...||Возможно, будет лучше...|Balki ... qilgan maʼqulroqdir.
+phrase|I see your point, although...||Я понимаю твою точку зрения, хотя...|Fikringizni tushunaman, biroq...
+phrase|Perhaps we could...||Возможно, мы могли бы...|Balki biz ... qila olarmiz.
+phrase|I wonder if we should...||Интересно, не стоит ли нам...|Bizga ... kerakmikan, deb oʻylayman.
+phrase|I could be mistaken, but...||Возможно, я ошибаюсь, но...|Xato qilayotgan boʻlishim mumkin, lekin...
+phrase|Would it be possible to...?||Было бы возможно...?|... qilish mumkinmi?
+phrase|I don't want to sound rude, but...||Не хочу показаться грубым / грубой, но...|Qoʻpol tuyulishni istamayman, lekin...
+phrase|The reason is that...||Причина в том, что...|Sababi shuki...
+phrase|That's because...||Это потому, что...|Buning sababi...
+phrase|The thing is...||Дело в том, что...|Gap shundaki...
+phrase|What I mean is...||Я имею в виду, что...|Men shuni nazarda tutyapmanki...
+phrase|Let me explain.||Позволь мне объяснить.|Tushuntirib beraman.
+phrase|Here's why.||Вот почему.|Mana sababi.
+phrase|For example...||Например...|Masalan...
+phrase|In other words...||Другими словами...|Boshqacha aytganda...
+phrase|To put it simply...||Проще говоря...|Oddiy qilib aytganda...
+phrase|That's one way to look at it.||На это можно посмотреть и так.|Bunga shunday qarash ham mumkin.
+phrase|By the way...||Кстати...|Aytgancha...
+phrase|That reminds me...||Это напоминает мне...|Bu menga ... ni eslatdi.
+phrase|Speaking of which...||Кстати, раз уж об этом заговорили...|Gap shundan chiqqanda...
+phrase|Anyway...||В любом случае... / Ладно...|Xullas... / Nima boʻlganda ham...
+phrase|On another note...||К слову о другом...|Boshqa narsa haqida aytsam...
+phrase|Before I forget...||Пока я не забыл(а)...|Esimdan chiqmasidan aytay...
+phrase|Getting back to the point...||Возвращаясь к сути...|Mavzuga qaytsak...
+phrase|As I was saying...||Как я и говорил(а)...|Aytganimdek...
+phrase|Where was I?||На чём я остановился / остановилась?|Qayerda toʻxtagan edim?
+phrase|Let's move on.||Давайте перейдём дальше.|Keling, davom etaylik.
+phrase|Well...||Ну...|Xoʻsh...
+phrase|Actually...||Вообще-то... / На самом деле...|Aslida...
+phrase|Basically...||В общем... / По сути...|Umuman olganda...
+phrase|To be honest...||Честно говоря...|Rostini aytsam...
+phrase|I mean...||Я имею в виду...|Men shuni demoqchimanki...
+phrase|You know...||Знаешь...|Bilasizmi...
+phrase|Let me see...||Дай посмотреть / подумать...|Qani, koʻray-chi...
+phrase|How can I put it?||Как бы это выразить?|Buni qanday aytsam ekan?
+phrase|The thing is...||Дело в том, что...|Gap shundaki...
+phrase|At the end of the day...||В конечном счёте...|Oxir-oqibat...
+phrase|I've made up my mind.||Я принял(а) решение.|Men qaror qildim.
+phrase|I haven't decided yet.||Я ещё не решил(а).|Men hali qaror qilmadim.
+phrase|Let me think it over.||Дай мне это обдумать.|Oʻylab koʻray.
+phrase|I'll think about it.||Я подумаю об этом.|Bu haqda oʻylab koʻraman.
+phrase|It's worth considering.||Это стоит обдумать.|Bu oʻylab koʻrishga arziydi.
+phrase|I need more time.||Мне нужно больше времени.|Menga koʻproq vaqt kerak.
+phrase|Let's weigh the options.||Давай взвесим варианты.|Keling, variantlarni tarozida tortaylik.
+phrase|I'm ready to decide.||Я готов(а) принять решение.|Men qaror qilishga tayyorman.
+phrase|I've changed my mind.||Я передумал(а).|Men fikrimdan qaytdim.
+phrase|Let's leave it for now.||Давай пока оставим это.|Keling, buni hozircha qoldiraylik.
+phrase|Fair enough.||Ладно, справедливо. / Хорошо, понимаю.|Mayli, adolatli.
+phrase|That works for me.||Меня это устраивает.|Bu menga toʻgʻri keladi.
+phrase|I guess so.||Наверное, да.|Shekilli, ha.
+phrase|Not really.||Не совсем. / Не особо.|Unchalik emas.
+phrase|Absolutely.||Безусловно.|Shubhasiz.
+phrase|That's a good question.||Хороший вопрос.|Bu yaxshi savol.
+phrase|Good point.||Хорошее замечание.|Yaxshi fikr.
+phrase|I hadn't thought of that.||Я об этом не думал(а).|Men bu haqda oʻylamagan ekanman.
+phrase|It makes no difference to me.||Для меня это ничего не меняет.|Men uchun bu hech narsani oʻzgartirmaydi.
+phrase|Let's see how it goes.||Посмотрим, как всё пойдёт.|Keling, qanday ketishini koʻramiz.

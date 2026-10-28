@@ -1,0 +1,1024 @@
+{
+  "chapter": "useful-expressions",
+  "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Foydali iboralar",
+  "lessons": {
+    "Согласие": "Rozilik",
+    "Несогласие": "Rozi emaslik",
+    "Неуверенность и сомнение": "Ishonchsizlik va shubha",
+    "Выражение мнения": "Fikr bildirish",
+    "Уточнение и проверка понимания": "Aniqlashtirish va tushunganini tekshirish",
+    "Понимание собеседника": "Suhbatdoshni tushunish",
+    "Удивление и недоверие": "Hayrat va ishonqiramaslik",
+    "Поддержка и ободрение": "Qoʻllab-quvvatlash va dalda berish",
+    "Успокоение и заверение": "Tinchlantirish va ishontirish",
+    "Предложения и советы": "Takliflar va maslahatlar",
+    "Предпочтения и приоритеты": "Afzalliklar va ustuvorliklar",
+    "Нравится и не нравится": "Yoqadi va yoqmaydi",
+    "Эмоции и реакции": "His-tuygʻular va munosabat",
+    "Вежливые выражения": "Xushmuomalalik iboralari",
+    "Более мягкие формулировки": "Yumshoqroq ifodalar",
+    "Объяснение причин": "Sabablarni tushuntirish",
+    "Переход к другой теме": "Boshqa mavzuga oʻtish",
+    "Разговорные связки": "Soʻzlashuv bogʻlovchilari",
+    "Принятие решений": "Qaror qabul qilish",
+    "Полезные ответы": "Foydali javoblar"
+  },
+  "entries": [
+    {
+      "en": "I agree.",
+      "ru": "Я согласен / согласна.",
+      "uz": "Roziman."
+    },
+    {
+      "en": "I totally agree.",
+      "ru": "Я полностью согласен / согласна.",
+      "uz": "Toʻliq roziman."
+    },
+    {
+      "en": "You're absolutely right.",
+      "ru": "Ты совершенно прав(а).",
+      "uz": "Siz mutlaqo haqsiz."
+    },
+    {
+      "en": "Exactly.",
+      "ru": "Именно так.",
+      "uz": "Aynan shunday."
+    },
+    {
+      "en": "That's true.",
+      "ru": "Это правда.",
+      "uz": "Bu rost."
+    },
+    {
+      "en": "That's a good point.",
+      "ru": "Это хорошее замечание.",
+      "uz": "Bu yaxshi fikr."
+    },
+    {
+      "en": "I think so, too.",
+      "ru": "Я тоже так думаю.",
+      "uz": "Men ham shunday oʻylayman."
+    },
+    {
+      "en": "You have a point.",
+      "ru": "В твоих словах есть смысл.",
+      "uz": "Gapingizda jon bor."
+    },
+    {
+      "en": "I couldn't agree more.",
+      "ru": "Полностью с тобой согласен / согласна.",
+      "uz": "Bundan koʻra koʻproq rozi boʻla olmasdim."
+    },
+    {
+      "en": "That's exactly what I think.",
+      "ru": "Я думаю точно так же.",
+      "uz": "Men ham aynan shunday oʻylayman."
+    },
+    {
+      "en": "I don't agree.",
+      "ru": "Я не согласен / согласна.",
+      "uz": "Rozi emasman."
+    },
+    {
+      "en": "I'm not sure I agree.",
+      "ru": "Не уверен(а), что согласен / согласна.",
+      "uz": "Rozimanmi, ishonchim komil emas."
+    },
+    {
+      "en": "I see it differently.",
+      "ru": "Я смотрю на это иначе.",
+      "uz": "Men buni boshqacha koʻraman."
+    },
+    {
+      "en": "I don't think that's right.",
+      "ru": "Не думаю, что это правильно.",
+      "uz": "Menimcha, bu toʻgʻri emas."
+    },
+    {
+      "en": "Not necessarily.",
+      "ru": "Не обязательно.",
+      "uz": "Shart emas."
+    },
+    {
+      "en": "I wouldn't say that.",
+      "ru": "Я бы так не сказал(а).",
+      "uz": "Men bunday demagan boʻlardim."
+    },
+    {
+      "en": "I have a different opinion.",
+      "ru": "У меня другое мнение.",
+      "uz": "Mening fikrim boshqacha."
+    },
+    {
+      "en": "I understand your point, but...",
+      "ru": "Я понимаю твою точку зрения, но...",
+      "uz": "Fikringizni tushunaman, lekin..."
+    },
+    {
+      "en": "I'm afraid I disagree.",
+      "ru": "Боюсь, я не согласен / согласна.",
+      "uz": "Afsuski, men rozi emasman."
+    },
+    {
+      "en": "Let's agree to disagree.",
+      "ru": "Давай останемся каждый при своём мнении.",
+      "uz": "Keling, har birimiz oʻz fikrimizda qolaylik."
+    },
+    {
+      "en": "I'm not sure.",
+      "ru": "Я не уверен(а).",
+      "uz": "Ishonchim komil emas."
+    },
+    {
+      "en": "I'm not really sure.",
+      "ru": "Я не совсем уверен(а).",
+      "uz": "Unchalik ishonchim komil emas."
+    },
+    {
+      "en": "I have my doubts.",
+      "ru": "У меня есть сомнения.",
+      "uz": "Shubhalarim bor."
+    },
+    {
+      "en": "Maybe, maybe not.",
+      "ru": "Может быть, а может и нет.",
+      "uz": "Balki ha, balki yoʻq."
+    },
+    {
+      "en": "It's hard to say.",
+      "ru": "Трудно сказать.",
+      "uz": "Aytish qiyin."
+    },
+    {
+      "en": "I'm not convinced.",
+      "ru": "Я не убеждён(а).",
+      "uz": "Men ishonmayapman."
+    },
+    {
+      "en": "I could be wrong.",
+      "ru": "Возможно, я ошибаюсь.",
+      "uz": "Men adashayotgan boʻlishim mumkin."
+    },
+    {
+      "en": "As far as I know...",
+      "ru": "Насколько мне известно...",
+      "uz": "Men bilganimcha..."
+    },
+    {
+      "en": "I might be wrong, but...",
+      "ru": "Возможно, я ошибаюсь, но...",
+      "uz": "Adashayotgan boʻlishim mumkin, lekin..."
+    },
+    {
+      "en": "I need to think about it.",
+      "ru": "Мне нужно это обдумать.",
+      "uz": "Bu haqda oʻylab koʻrishim kerak."
+    },
+    {
+      "en": "I think...",
+      "ru": "Я думаю...",
+      "uz": "Menimcha..."
+    },
+    {
+      "en": "In my opinion...",
+      "ru": "По моему мнению...",
+      "uz": "Mening fikrimcha..."
+    },
+    {
+      "en": "Personally, I think...",
+      "ru": "Лично я думаю...",
+      "uz": "Shaxsan men oʻylaymanki..."
+    },
+    {
+      "en": "As I see it...",
+      "ru": "Как я это вижу...",
+      "uz": "Men buni shunday koʻraman..."
+    },
+    {
+      "en": "The way I see it...",
+      "ru": "На мой взгляд...",
+      "uz": "Mening nazarimda..."
+    },
+    {
+      "en": "If you ask me...",
+      "ru": "Если спросишь меня...",
+      "uz": "Mendan soʻrasangiz..."
+    },
+    {
+      "en": "To me, it seems...",
+      "ru": "Мне кажется...",
+      "uz": "Menga shunday tuyuladi..."
+    },
+    {
+      "en": "I feel that...",
+      "ru": "Я считаю / чувствую, что...",
+      "uz": "Men hisoblaymanki..."
+    },
+    {
+      "en": "From my point of view...",
+      "ru": "С моей точки зрения...",
+      "uz": "Mening nuqtayi nazarimdan..."
+    },
+    {
+      "en": "My impression is that...",
+      "ru": "У меня сложилось впечатление, что...",
+      "uz": "Menda shunday taassurot qoldiki..."
+    },
+    {
+      "en": "What exactly do you mean?",
+      "ru": "Что именно ты имеешь в виду?",
+      "uz": "Aniq nimani nazarda tutyapsiz?"
+    },
+    {
+      "en": "Could you be more specific?",
+      "ru": "Не мог(ли) бы ты уточнить?",
+      "uz": "Aniqroq aytib bera olasizmi?"
+    },
+    {
+      "en": "Do you mean that...?",
+      "ru": "Ты имеешь в виду, что...?",
+      "uz": "Siz shuni nazarda tutyapsizmi...?"
+    },
+    {
+      "en": "Let me make sure I understand.",
+      "ru": "Позволь убедиться, что я правильно понял(а).",
+      "uz": "Toʻgʻri tushunganimga ishonch hosil qilay."
+    },
+    {
+      "en": "So, what you're saying is...",
+      "ru": "То есть ты говоришь, что...",
+      "uz": "Yaʼni, siz aytmoqchisizki..."
+    },
+    {
+      "en": "Could you explain that a little more?",
+      "ru": "Не мог(ли) бы ты объяснить это подробнее?",
+      "uz": "Buni biroz batafsilroq tushuntira olasizmi?"
+    },
+    {
+      "en": "Can I just check something?",
+      "ru": "Можно кое-что уточнить?",
+      "uz": "Bir narsani aniqlashtirsam boʻladimi?"
+    },
+    {
+      "en": "Did I get that right?",
+      "ru": "Я правильно понял(а)?",
+      "uz": "Toʻgʻri tushundimmi?"
+    },
+    {
+      "en": "Could you give me an example?",
+      "ru": "Не мог(ли) бы ты привести пример?",
+      "uz": "Misol keltira olasizmi?"
+    },
+    {
+      "en": "What do you mean by that?",
+      "ru": "Что ты под этим подразумеваешь?",
+      "uz": "Buning bilan nimani nazarda tutyapsiz?"
+    },
+    {
+      "en": "I see what you mean.",
+      "ru": "Я понимаю, что ты имеешь в виду.",
+      "uz": "Nimani nazarda tutayotganingizni tushunaman."
+    },
+    {
+      "en": "I get your point.",
+      "ru": "Я понимаю твою мысль.",
+      "uz": "Fikringizni tushundim."
+    },
+    {
+      "en": "That makes sense.",
+      "ru": "В этом есть смысл.",
+      "uz": "Bunda mantiq bor."
+    },
+    {
+      "en": "I know what you mean.",
+      "ru": "Я понимаю, о чём ты.",
+      "uz": "Nima demoqchi ekaningizni bilaman."
+    },
+    {
+      "en": "I see where you're coming from.",
+      "ru": "Я понимаю, почему ты так думаешь.",
+      "uz": "Nega shunday deyayotganingizni tushunaman."
+    },
+    {
+      "en": "That explains it.",
+      "ru": "Теперь всё объясняется.",
+      "uz": "Mana, endi tushunarli boʻldi."
+    },
+    {
+      "en": "Now I understand.",
+      "ru": "Теперь я понимаю.",
+      "uz": "Endi tushundim."
+    },
+    {
+      "en": "I hadn't thought of it that way.",
+      "ru": "Я не рассматривал(а) это с такой стороны.",
+      "uz": "Men buni bu tomondan oʻylab koʻrmagan ekanman."
+    },
+    {
+      "en": "I can see why.",
+      "ru": "Я понимаю почему.",
+      "uz": "Nega ekanini tushunaman."
+    },
+    {
+      "en": "That clears things up.",
+      "ru": "Теперь всё стало яснее.",
+      "uz": "Endi hammasi oydinlashdi."
+    },
+    {
+      "en": "Really?",
+      "ru": "Правда?",
+      "uz": "Rostdanmi?"
+    },
+    {
+      "en": "Are you serious?",
+      "ru": "Ты серьёзно?",
+      "uz": "Jiddiy aytyapsizmi?"
+    },
+    {
+      "en": "No way!",
+      "ru": "Не может быть!",
+      "uz": "Boʻlishi mumkin emas!"
+    },
+    {
+      "en": "You're kidding!",
+      "ru": "Ты шутишь!",
+      "uz": "Hazillashyapsiz!"
+    },
+    {
+      "en": "I can't believe it.",
+      "ru": "Не могу в это поверить.",
+      "uz": "Bunga ishona olmayman."
+    },
+    {
+      "en": "That's surprising.",
+      "ru": "Это удивительно.",
+      "uz": "Bu hayratlanarli."
+    },
+    {
+      "en": "I didn't expect that.",
+      "ru": "Я этого не ожидал(а).",
+      "uz": "Men buni kutmagandim."
+    },
+    {
+      "en": "What a surprise!",
+      "ru": "Какой сюрприз!",
+      "uz": "Qanday kutilmagan hodisa!"
+    },
+    {
+      "en": "You've got to be joking.",
+      "ru": "Ты, должно быть, шутишь.",
+      "uz": "Siz hazillashyapsiz shekilli."
+    },
+    {
+      "en": "Is that so?",
+      "ru": "Вот как? / Неужели?",
+      "uz": "Shundaymi? / Nahotki?"
+    },
+    {
+      "en": "You can do it.",
+      "ru": "Ты сможешь.",
+      "uz": "Siz qila olasiz."
+    },
+    {
+      "en": "Don't give up.",
+      "ru": "Не сдавайся.",
+      "uz": "Taslim boʻlmang."
+    },
+    {
+      "en": "Keep going.",
+      "ru": "Продолжай.",
+      "uz": "Davom eting."
+    },
+    {
+      "en": "I'm rooting for you.",
+      "ru": "Я за тебя болею / поддерживаю тебя.",
+      "uz": "Men sizni qoʻllab-quvvatlayman."
+    },
+    {
+      "en": "You've got this.",
+      "ru": "У тебя всё получится.",
+      "uz": "Sizning qoʻlingizdan keladi."
+    },
+    {
+      "en": "Take your time.",
+      "ru": "Не торопись.",
+      "uz": "Shoshilmang."
+    },
+    {
+      "en": "One step at a time.",
+      "ru": "Шаг за шагом.",
+      "uz": "Bosqichma-bosqich."
+    },
+    {
+      "en": "I'm here for you.",
+      "ru": "Я рядом, если тебе нужна поддержка.",
+      "uz": "Men yoningizdaman."
+    },
+    {
+      "en": "You'll be fine.",
+      "ru": "Всё будет хорошо.",
+      "uz": "Hammasi yaxshi boʻladi."
+    },
+    {
+      "en": "I'm proud of you.",
+      "ru": "Я горжусь тобой.",
+      "uz": "Men sizdan faxrlanaman."
+    },
+    {
+      "en": "Don't worry.",
+      "ru": "Не волнуйся.",
+      "uz": "Xavotir olmang."
+    },
+    {
+      "en": "Everything will be okay.",
+      "ru": "Всё будет хорошо.",
+      "uz": "Hammasi joyida boʻladi."
+    },
+    {
+      "en": "It's not a big deal.",
+      "ru": "Это не такая уж большая проблема.",
+      "uz": "Bu unchalik katta muammo emas."
+    },
+    {
+      "en": "No need to panic.",
+      "ru": "Не нужно паниковать.",
+      "uz": "Vahima qilishning hojati yoʻq."
+    },
+    {
+      "en": "It's going to be all right.",
+      "ru": "Всё будет в порядке.",
+      "uz": "Hammasi yaxshi boʻladi."
+    },
+    {
+      "en": "You don't have to worry about it.",
+      "ru": "Тебе не нужно об этом беспокоиться.",
+      "uz": "Bu haqda xavotir olishingiz shart emas."
+    },
+    {
+      "en": "We'll work it out.",
+      "ru": "Мы найдём решение.",
+      "uz": "Biz buning yechimini topamiz."
+    },
+    {
+      "en": "There's nothing to worry about.",
+      "ru": "Не о чем беспокоиться.",
+      "uz": "Xavotir oladigan narsa yoʻq."
+    },
+    {
+      "en": "It's under control.",
+      "ru": "Всё под контролем.",
+      "uz": "Hammasi nazorat ostida."
+    },
+    {
+      "en": "You can count on me.",
+      "ru": "Ты можешь на меня рассчитывать.",
+      "uz": "Menga ishonsangiz boʻladi."
+    },
+    {
+      "en": "Why don't we...?",
+      "ru": "Почему бы нам не...?",
+      "uz": "Nega biz... qilmaymiz?"
+    },
+    {
+      "en": "How about...?",
+      "ru": "Как насчёт...?",
+      "uz": "... qalay boʻlarkan?"
+    },
+    {
+      "en": "You should...",
+      "ru": "Тебе следует...",
+      "uz": "Siz ... qilishingiz kerak."
+    },
+    {
+      "en": "If I were you, I'd...",
+      "ru": "На твоём месте я бы...",
+      "uz": "Sizning oʻrningizda boʻlsam, men..."
+    },
+    {
+      "en": "Maybe you could...",
+      "ru": "Возможно, ты мог(ла) бы...",
+      "uz": "Balki siz ... qila olarsiz."
+    },
+    {
+      "en": "Have you tried...?",
+      "ru": "Ты пробовал(а)...?",
+      "uz": "Siz ... ni sinab koʻrdingizmi?"
+    },
+    {
+      "en": "It's worth a try.",
+      "ru": "Стоит попробовать.",
+      "uz": "Sinab koʻrishga arziydi."
+    },
+    {
+      "en": "I'd recommend...",
+      "ru": "Я бы порекомендовал(а)...",
+      "uz": "Men ... ni tavsiya qilgan boʻlardim."
+    },
+    {
+      "en": "You might want to...",
+      "ru": "Возможно, тебе стоит...",
+      "uz": "Balki siz ... qilsangiz yaxshi boʻlar."
+    },
+    {
+      "en": "What if we...?",
+      "ru": "А что, если мы...?",
+      "uz": "Agar biz ... qilsakchi?"
+    },
+    {
+      "en": "It depends on what you prefer.",
+      "ru": "Это зависит от того, что ты предпочитаешь.",
+      "uz": "Bu nimani afzal koʻrishingizga bogʻliq."
+    },
+    {
+      "en": "I'd rather not.",
+      "ru": "Я бы предпочёл / предпочла не делать этого.",
+      "uz": "Men buni qilmasam deb edim."
+    },
+    {
+      "en": "I'd prefer to...",
+      "ru": "Я бы предпочёл / предпочла...",
+      "uz": "Men ... ni afzal koʻrardim."
+    },
+    {
+      "en": "It doesn't matter to me.",
+      "ru": "Для меня это не имеет значения.",
+      "uz": "Menga farqi yoʻq."
+    },
+    {
+      "en": "I'm open to suggestions.",
+      "ru": "Я готов(а) рассмотреть предложения.",
+      "uz": "Men takliflarni eshitishga tayyorman."
+    },
+    {
+      "en": "That's my first choice.",
+      "ru": "Это мой первый выбор.",
+      "uz": "Bu mening birinchi tanlovim."
+    },
+    {
+      "en": "My main concern is...",
+      "ru": "Меня больше всего беспокоит...",
+      "uz": "Meni eng koʻp tashvishga solayotgani..."
+    },
+    {
+      "en": "The most important thing is...",
+      "ru": "Самое важное — это...",
+      "uz": "Eng muhimi —..."
+    },
+    {
+      "en": "I'm leaning toward...",
+      "ru": "Я склоняюсь к варианту...",
+      "uz": "Men ... tomonga moyilman."
+    },
+    {
+      "en": "I'd go with this one.",
+      "ru": "Я бы выбрал(а) этот вариант.",
+      "uz": "Men shu variantni tanlagan boʻlardim."
+    },
+    {
+      "en": "I'm really into it.",
+      "ru": "Мне это очень нравится / я этим увлекаюсь.",
+      "uz": "Bu menga juda qiziq."
+    },
+    {
+      "en": "I'm a big fan of...",
+      "ru": "Я большой поклонник / поклонница...",
+      "uz": "Men ... ning katta muxlisiman."
+    },
+    {
+      "en": "It's not for me.",
+      "ru": "Это не для меня.",
+      "uz": "Bu menga toʻgʻri kelmaydi."
+    },
+    {
+      "en": "I'm not a fan of...",
+      "ru": "Я не большой любитель / любительница...",
+      "uz": "Men ... ni unchalik yoqtirmayman."
+    },
+    {
+      "en": "I can't stand it.",
+      "ru": "Терпеть этого не могу.",
+      "uz": "Men bunga chiday olmayman."
+    },
+    {
+      "en": "It grew on me.",
+      "ru": "Со временем мне это понравилось.",
+      "uz": "Vaqt oʻtib menga yoqib qoldi."
+    },
+    {
+      "en": "I'm getting used to it.",
+      "ru": "Я к этому привыкаю.",
+      "uz": "Men bunga koʻnikib boryapman."
+    },
+    {
+      "en": "It's right up my alley.",
+      "ru": "Это как раз в моём вкусе.",
+      "uz": "Bu aynan mening didimga mos."
+    },
+    {
+      "en": "I could take it or leave it.",
+      "ru": "Мне это безразлично.",
+      "uz": "Menga baribir."
+    },
+    {
+      "en": "I have mixed feelings about it.",
+      "ru": "У меня неоднозначные чувства по этому поводу.",
+      "uz": "Bu haqda fikrim ikkiga boʻlingan."
+    },
+    {
+      "en": "That makes me happy.",
+      "ru": "Это меня радует.",
+      "uz": "Bu meni xursand qiladi."
+    },
+    {
+      "en": "I'm so relieved.",
+      "ru": "Я так рад(а), что всё обошлось.",
+      "uz": "Koʻnglim joyiga tushdi."
+    },
+    {
+      "en": "That's frustrating.",
+      "ru": "Это раздражает / расстраивает.",
+      "uz": "Bu asabni buzadi."
+    },
+    {
+      "en": "I'm disappointed.",
+      "ru": "Я разочарован(а).",
+      "uz": "Men hafsalam pir boʻldi."
+    },
+    {
+      "en": "I'm really looking forward to it.",
+      "ru": "Я очень этого жду.",
+      "uz": "Men buni juda intiqlik bilan kutyapman."
+    },
+    {
+      "en": "That sounds exciting.",
+      "ru": "Звучит захватывающе.",
+      "uz": "Bu qiziqarli tuyuladi."
+    },
+    {
+      "en": "I'm a bit overwhelmed.",
+      "ru": "Я немного перегружен(а) / растерян(а).",
+      "uz": "Men biroz holdan toydim."
+    },
+    {
+      "en": "What a relief!",
+      "ru": "Какое облегчение!",
+      "uz": "Qanday yengillik!"
+    },
+    {
+      "en": "That must be difficult.",
+      "ru": "Это, должно быть, непросто.",
+      "uz": "Bu qiyin boʻlsa kerak."
+    },
+    {
+      "en": "I know how you feel.",
+      "ru": "Я понимаю, что ты чувствуешь.",
+      "uz": "Nima his qilayotganingizni tushunaman."
+    },
+    {
+      "en": "Would you mind...?",
+      "ru": "Ты не возражаешь...? / Не могли бы вы...?",
+      "uz": "... qarshi boʻlmasangiz?"
+    },
+    {
+      "en": "If you don't mind...",
+      "ru": "Если ты не против...",
+      "uz": "Agar qarshi boʻlmasangiz..."
+    },
+    {
+      "en": "I was wondering if...",
+      "ru": "Я хотел(а) узнать, не могли бы вы...",
+      "uz": "Bilmoqchi edim, ..."
+    },
+    {
+      "en": "Whenever you have a chance.",
+      "ru": "Когда у тебя будет возможность.",
+      "uz": "Qachon imkoningiz boʻlsa."
+    },
+    {
+      "en": "I don't mean to interrupt.",
+      "ru": "Не хочу перебивать.",
+      "uz": "Soʻzingizni boʻlmoqchi emasman."
+    },
+    {
+      "en": "Sorry to bother you.",
+      "ru": "Извини(те), что беспокою.",
+      "uz": "Bezovta qilganim uchun uzr."
+    },
+    {
+      "en": "Thanks for your patience.",
+      "ru": "Спасибо за терпение.",
+      "uz": "Sabringiz uchun rahmat."
+    },
+    {
+      "en": "I appreciate your understanding.",
+      "ru": "Благодарю за понимание.",
+      "uz": "Tushunganingiz uchun minnatdorman."
+    },
+    {
+      "en": "That's very thoughtful of you.",
+      "ru": "Это очень внимательно с твоей стороны.",
+      "uz": "Bu juda eʼtiborli boʻldi."
+    },
+    {
+      "en": "After you.",
+      "ru": "После вас. / Проходите первым.",
+      "uz": "Siz oldin oʻting."
+    },
+    {
+      "en": "I think we might need to...",
+      "ru": "Думаю, нам, возможно, нужно...",
+      "uz": "Menimcha, bizga ... kerak boʻlishi mumkin."
+    },
+    {
+      "en": "Maybe I'm wrong, but...",
+      "ru": "Возможно, я ошибаюсь, но...",
+      "uz": "Balki men adashayotgandirman, lekin..."
+    },
+    {
+      "en": "I'm not sure that's the best idea.",
+      "ru": "Не уверен(а), что это лучшая идея.",
+      "uz": "Bu eng yaxshi fikr ekaniga ishonchim komil emas."
+    },
+    {
+      "en": "It might be better to...",
+      "ru": "Возможно, будет лучше...",
+      "uz": "Balki ... qilgan maʼqulroqdir."
+    },
+    {
+      "en": "I see your point, although...",
+      "ru": "Я понимаю твою точку зрения, хотя...",
+      "uz": "Fikringizni tushunaman, biroq..."
+    },
+    {
+      "en": "Perhaps we could...",
+      "ru": "Возможно, мы могли бы...",
+      "uz": "Balki biz ... qila olarmiz."
+    },
+    {
+      "en": "I wonder if we should...",
+      "ru": "Интересно, не стоит ли нам...",
+      "uz": "Bizga ... kerakmikan, deb oʻylayman."
+    },
+    {
+      "en": "I could be mistaken, but...",
+      "ru": "Возможно, я ошибаюсь, но...",
+      "uz": "Xato qilayotgan boʻlishim mumkin, lekin..."
+    },
+    {
+      "en": "Would it be possible to...?",
+      "ru": "Было бы возможно...?",
+      "uz": "... qilish mumkinmi?"
+    },
+    {
+      "en": "I don't want to sound rude, but...",
+      "ru": "Не хочу показаться грубым / грубой, но...",
+      "uz": "Qoʻpol tuyulishni istamayman, lekin..."
+    },
+    {
+      "en": "The reason is that...",
+      "ru": "Причина в том, что...",
+      "uz": "Sababi shuki..."
+    },
+    {
+      "en": "That's because...",
+      "ru": "Это потому, что...",
+      "uz": "Buning sababi..."
+    },
+    {
+      "en": "The thing is...",
+      "ru": "Дело в том, что...",
+      "uz": "Gap shundaki..."
+    },
+    {
+      "en": "What I mean is...",
+      "ru": "Я имею в виду, что...",
+      "uz": "Men shuni nazarda tutyapmanki..."
+    },
+    {
+      "en": "Let me explain.",
+      "ru": "Позволь мне объяснить.",
+      "uz": "Tushuntirib beraman."
+    },
+    {
+      "en": "Here's why.",
+      "ru": "Вот почему.",
+      "uz": "Mana sababi."
+    },
+    {
+      "en": "For example...",
+      "ru": "Например...",
+      "uz": "Masalan..."
+    },
+    {
+      "en": "In other words...",
+      "ru": "Другими словами...",
+      "uz": "Boshqacha aytganda..."
+    },
+    {
+      "en": "To put it simply...",
+      "ru": "Проще говоря...",
+      "uz": "Oddiy qilib aytganda..."
+    },
+    {
+      "en": "That's one way to look at it.",
+      "ru": "На это можно посмотреть и так.",
+      "uz": "Bunga shunday qarash ham mumkin."
+    },
+    {
+      "en": "By the way...",
+      "ru": "Кстати...",
+      "uz": "Aytgancha..."
+    },
+    {
+      "en": "That reminds me...",
+      "ru": "Это напоминает мне...",
+      "uz": "Bu menga ... ni eslatdi."
+    },
+    {
+      "en": "Speaking of which...",
+      "ru": "Кстати, раз уж об этом заговорили...",
+      "uz": "Gap shundan chiqqanda..."
+    },
+    {
+      "en": "Anyway...",
+      "ru": "В любом случае... / Ладно...",
+      "uz": "Xullas... / Nima boʻlganda ham..."
+    },
+    {
+      "en": "On another note...",
+      "ru": "К слову о другом...",
+      "uz": "Boshqa narsa haqida aytsam..."
+    },
+    {
+      "en": "Before I forget...",
+      "ru": "Пока я не забыл(а)...",
+      "uz": "Esimdan chiqmasidan aytay..."
+    },
+    {
+      "en": "Getting back to the point...",
+      "ru": "Возвращаясь к сути...",
+      "uz": "Mavzuga qaytsak..."
+    },
+    {
+      "en": "As I was saying...",
+      "ru": "Как я и говорил(а)...",
+      "uz": "Aytganimdek..."
+    },
+    {
+      "en": "Where was I?",
+      "ru": "На чём я остановился / остановилась?",
+      "uz": "Qayerda toʻxtagan edim?"
+    },
+    {
+      "en": "Let's move on.",
+      "ru": "Давайте перейдём дальше.",
+      "uz": "Keling, davom etaylik."
+    },
+    {
+      "en": "Well...",
+      "ru": "Ну...",
+      "uz": "Xoʻsh..."
+    },
+    {
+      "en": "Actually...",
+      "ru": "Вообще-то... / На самом деле...",
+      "uz": "Aslida..."
+    },
+    {
+      "en": "Basically...",
+      "ru": "В общем... / По сути...",
+      "uz": "Umuman olganda..."
+    },
+    {
+      "en": "To be honest...",
+      "ru": "Честно говоря...",
+      "uz": "Rostini aytsam..."
+    },
+    {
+      "en": "I mean...",
+      "ru": "Я имею в виду...",
+      "uz": "Men shuni demoqchimanki..."
+    },
+    {
+      "en": "You know...",
+      "ru": "Знаешь...",
+      "uz": "Bilasizmi..."
+    },
+    {
+      "en": "Let me see...",
+      "ru": "Дай посмотреть / подумать...",
+      "uz": "Qani, koʻray-chi..."
+    },
+    {
+      "en": "How can I put it?",
+      "ru": "Как бы это выразить?",
+      "uz": "Buni qanday aytsam ekan?"
+    },
+    {
+      "en": "At the end of the day...",
+      "ru": "В конечном счёте...",
+      "uz": "Oxir-oqibat..."
+    },
+    {
+      "en": "I've made up my mind.",
+      "ru": "Я принял(а) решение.",
+      "uz": "Men qaror qildim."
+    },
+    {
+      "en": "I haven't decided yet.",
+      "ru": "Я ещё не решил(а).",
+      "uz": "Men hali qaror qilmadim."
+    },
+    {
+      "en": "Let me think it over.",
+      "ru": "Дай мне это обдумать.",
+      "uz": "Oʻylab koʻray."
+    },
+    {
+      "en": "I'll think about it.",
+      "ru": "Я подумаю об этом.",
+      "uz": "Bu haqda oʻylab koʻraman."
+    },
+    {
+      "en": "It's worth considering.",
+      "ru": "Это стоит обдумать.",
+      "uz": "Bu oʻylab koʻrishga arziydi."
+    },
+    {
+      "en": "I need more time.",
+      "ru": "Мне нужно больше времени.",
+      "uz": "Menga koʻproq vaqt kerak."
+    },
+    {
+      "en": "Let's weigh the options.",
+      "ru": "Давай взвесим варианты.",
+      "uz": "Keling, variantlarni tarozida tortaylik."
+    },
+    {
+      "en": "I'm ready to decide.",
+      "ru": "Я готов(а) принять решение.",
+      "uz": "Men qaror qilishga tayyorman."
+    },
+    {
+      "en": "I've changed my mind.",
+      "ru": "Я передумал(а).",
+      "uz": "Men fikrimdan qaytdim."
+    },
+    {
+      "en": "Let's leave it for now.",
+      "ru": "Давай пока оставим это.",
+      "uz": "Keling, buni hozircha qoldiraylik."
+    },
+    {
+      "en": "Fair enough.",
+      "ru": "Ладно, справедливо. / Хорошо, понимаю.",
+      "uz": "Mayli, adolatli."
+    },
+    {
+      "en": "That works for me.",
+      "ru": "Меня это устраивает.",
+      "uz": "Bu menga toʻgʻri keladi."
+    },
+    {
+      "en": "I guess so.",
+      "ru": "Наверное, да.",
+      "uz": "Shekilli, ha."
+    },
+    {
+      "en": "Not really.",
+      "ru": "Не совсем. / Не особо.",
+      "uz": "Unchalik emas."
+    },
+    {
+      "en": "Absolutely.",
+      "ru": "Безусловно.",
+      "uz": "Shubhasiz."
+    },
+    {
+      "en": "That's a good question.",
+      "ru": "Хороший вопрос.",
+      "uz": "Bu yaxshi savol."
+    },
+    {
+      "en": "Good point.",
+      "ru": "Хорошее замечание.",
+      "uz": "Yaxshi fikr."
+    },
+    {
+      "en": "I hadn't thought of that.",
+      "ru": "Я об этом не думал(а).",
+      "uz": "Men bu haqda oʻylamagan ekanman."
+    },
+    {
+      "en": "It makes no difference to me.",
+      "ru": "Для меня это ничего не меняет.",
+      "uz": "Men uchun bu hech narsani oʻzgartirmaydi."
+    },
+    {
+      "en": "Let's see how it goes.",
+      "ru": "Посмотрим, как всё пойдёт.",
+      "uz": "Keling, qanday ketishini koʻramiz."
+    }
+  ]
+}

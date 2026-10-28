@@ -5,7 +5,8 @@
   "kind": "phrases",
   "title": {
     "en": "Useful Expressions",
-    "ru": "Полезные выражения"
+    "ru": "Полезные выражения",
+    "uz": "Foydali iboralar"
   },
   "lessons": [
     {
@@ -13,58 +14,69 @@
       "order": 1,
       "title": {
         "en": "Agreement",
-        "ru": "Согласие"
+        "ru": "Согласие",
+        "uz": "Rozilik"
       },
       "phrases": [
         {
           "id": "UE001",
           "en": "I agree.",
-          "ru": "Я согласен / согласна."
+          "ru": "Я согласен / согласна.",
+          "uz": "Roziman."
         },
         {
           "id": "UE002",
           "en": "I totally agree.",
-          "ru": "Я полностью согласен / согласна."
+          "ru": "Я полностью согласен / согласна.",
+          "uz": "Toʻliq roziman."
         },
         {
           "id": "UE003",
           "en": "You're absolutely right.",
-          "ru": "Ты совершенно прав(а)."
+          "ru": "Ты совершенно прав(а).",
+          "uz": "Siz mutlaqo haqsiz."
         },
         {
           "id": "UE004",
           "en": "Exactly.",
-          "ru": "Именно так."
+          "ru": "Именно так.",
+          "uz": "Aynan shunday."
         },
         {
           "id": "UE005",
           "en": "That's true.",
-          "ru": "Это правда."
+          "ru": "Это правда.",
+          "uz": "Bu rost."
         },
         {
           "id": "UE006",
           "en": "That's a good point.",
-          "ru": "Это хорошее замечание."
+          "ru": "Это хорошее замечание.",
+          "uz": "Bu yaxshi fikr."
         },
         {
           "id": "UE007",
           "en": "I think so, too.",
-          "ru": "Я тоже так думаю."
+          "ru": "Я тоже так думаю.",
+          "uz": "Men ham shunday oʻylayman."
         },
         {
           "id": "UE008",
           "en": "You have a point.",
-          "ru": "В твоих словах есть смысл."
+          "ru": "В твоих словах есть смысл.",
+          "uz": "Gapingizda jon bor."
         },
         {
           "id": "UE009",
           "en": "I couldn't agree more.",
-          "ru": "Полностью с тобой согласен / согласна."
+          "ru": "Полностью с тобой согласен / согласна.",
+          "uz": "Bundan koʻra koʻproq rozi boʻla olmasdim."
         },
         {
           "id": "UE010",
           "en": "That's exactly what I think.",
-          "ru": "Я думаю точно так же."
+          "ru": "Я думаю точно так же.",
+          "uz": "Men ham aynan shunday oʻylayman."
         }
       ]
     },
@@ -73,58 +85,69 @@
       "order": 2,
       "title": {
         "en": "Disagreement",
-        "ru": "Несогласие"
+        "ru": "Несогласие",
+        "uz": "Rozi emaslik"
       },
       "phrases": [
         {
           "id": "UE011",
           "en": "I don't agree.",
-          "ru": "Я не согласен / согласна."
+          "ru": "Я не согласен / согласна.",
+          "uz": "Rozi emasman."
         },
         {
           "id": "UE012",
           "en": "I'm not sure I agree.",
-          "ru": "Не уверен(а), что согласен / согласна."
+          "ru": "Не уверен(а), что согласен / согласна.",
+          "uz": "Rozimanmi, ishonchim komil emas."
         },
         {
           "id": "UE013",
           "en": "I see it differently.",
-          "ru": "Я смотрю на это иначе."
+          "ru": "Я смотрю на это иначе.",
+          "uz": "Men buni boshqacha koʻraman."
         },
         {
           "id": "UE014",
           "en": "I don't think that's right.",
-          "ru": "Не думаю, что это правильно."
+          "ru": "Не думаю, что это правильно.",
+          "uz": "Menimcha, bu toʻgʻri emas."
         },
         {
           "id": "UE015",
           "en": "Not necessarily.",
-          "ru": "Не обязательно."
+          "ru": "Не обязательно.",
+          "uz": "Shart emas."
         },
         {
           "id": "UE016",
           "en": "I wouldn't say that.",
-          "ru": "Я бы так не сказал(а)."
+          "ru": "Я бы так не сказал(а).",
+          "uz": "Men bunday demagan boʻlardim."
         },
         {
           "id": "UE017",
           "en": "I have a different opinion.",
-          "ru": "У меня другое мнение."
+          "ru": "У меня другое мнение.",
+          "uz": "Mening fikrim boshqacha."
         },
         {
           "id": "UE018",
           "en": "I understand your point, but...",
-          "ru": "Я понимаю твою точку зрения, но..."
+          "ru": "Я понимаю твою точку зрения, но...",
+          "uz": "Fikringizni tushunaman, lekin..."
         },
         {
           "id": "UE019",
           "en": "I'm afraid I disagree.",
-          "ru": "Боюсь, я не согласен / согласна."
+          "ru": "Боюсь, я не согласен / согласна.",
+          "uz": "Afsuski, men rozi emasman."
         },
         {
           "id": "UE020",
           "en": "Let's agree to disagree.",
-          "ru": "Давай останемся каждый при своём мнении."
+          "ru": "Давай останемся каждый при своём мнении.",
+          "uz": "Keling, har birimiz oʻz fikrimizda qolaylik."
         }
       ]
     },
@@ -133,58 +156,69 @@
       "order": 3,
       "title": {
         "en": "Uncertainty and doubt",
-        "ru": "Неуверенность и сомнение"
+        "ru": "Неуверенность и сомнение",
+        "uz": "Ishonchsizlik va shubha"
       },
       "phrases": [
         {
           "id": "UE021",
           "en": "I'm not sure.",
-          "ru": "Я не уверен(а)."
+          "ru": "Я не уверен(а).",
+          "uz": "Ishonchim komil emas."
         },
         {
           "id": "UE022",
           "en": "I'm not really sure.",
-          "ru": "Я не совсем уверен(а)."
+          "ru": "Я не совсем уверен(а).",
+          "uz": "Unchalik ishonchim komil emas."
         },
         {
           "id": "UE023",
           "en": "I have my doubts.",
-          "ru": "У меня есть сомнения."
+          "ru": "У меня есть сомнения.",
+          "uz": "Shubhalarim bor."
         },
         {
           "id": "UE024",
           "en": "Maybe, maybe not.",
-          "ru": "Может быть, а может и нет."
+          "ru": "Может быть, а может и нет.",
+          "uz": "Balki ha, balki yoʻq."
         },
         {
           "id": "UE025",
           "en": "It's hard to say.",
-          "ru": "Трудно сказать."
+          "ru": "Трудно сказать.",
+          "uz": "Aytish qiyin."
         },
         {
           "id": "UE026",
           "en": "I'm not convinced.",
-          "ru": "Я не убеждён(а)."
+          "ru": "Я не убеждён(а).",
+          "uz": "Men ishonmayapman."
         },
         {
           "id": "UE027",
           "en": "I could be wrong.",
-          "ru": "Возможно, я ошибаюсь."
+          "ru": "Возможно, я ошибаюсь.",
+          "uz": "Men adashayotgan boʻlishim mumkin."
         },
         {
           "id": "UE028",
           "en": "As far as I know...",
-          "ru": "Насколько мне известно..."
+          "ru": "Насколько мне известно...",
+          "uz": "Men bilganimcha..."
         },
         {
           "id": "UE029",
           "en": "I might be wrong, but...",
-          "ru": "Возможно, я ошибаюсь, но..."
+          "ru": "Возможно, я ошибаюсь, но...",
+          "uz": "Adashayotgan boʻlishim mumkin, lekin..."
         },
         {
           "id": "UE030",
           "en": "I need to think about it.",
-          "ru": "Мне нужно это обдумать."
+          "ru": "Мне нужно это обдумать.",
+          "uz": "Bu haqda oʻylab koʻrishim kerak."
         }
       ]
     },
@@ -193,58 +227,69 @@
       "order": 4,
       "title": {
         "en": "Giving opinions",
-        "ru": "Выражение мнения"
+        "ru": "Выражение мнения",
+        "uz": "Fikr bildirish"
       },
       "phrases": [
         {
           "id": "UE031",
           "en": "I think...",
-          "ru": "Я думаю..."
+          "ru": "Я думаю...",
+          "uz": "Menimcha..."
         },
         {
           "id": "UE032",
           "en": "In my opinion...",
-          "ru": "По моему мнению..."
+          "ru": "По моему мнению...",
+          "uz": "Mening fikrimcha..."
         },
         {
           "id": "UE033",
           "en": "Personally, I think...",
-          "ru": "Лично я думаю..."
+          "ru": "Лично я думаю...",
+          "uz": "Shaxsan men oʻylaymanki..."
         },
         {
           "id": "UE034",
           "en": "As I see it...",
-          "ru": "Как я это вижу..."
+          "ru": "Как я это вижу...",
+          "uz": "Men buni shunday koʻraman..."
         },
         {
           "id": "UE035",
           "en": "The way I see it...",
-          "ru": "На мой взгляд..."
+          "ru": "На мой взгляд...",
+          "uz": "Mening nazarimda..."
         },
         {
           "id": "UE036",
           "en": "If you ask me...",
-          "ru": "Если спросишь меня..."
+          "ru": "Если спросишь меня...",
+          "uz": "Mendan soʻrasangiz..."
         },
         {
           "id": "UE037",
           "en": "To me, it seems...",
-          "ru": "Мне кажется..."
+          "ru": "Мне кажется...",
+          "uz": "Menga shunday tuyuladi..."
         },
         {
           "id": "UE038",
           "en": "I feel that...",
-          "ru": "Я считаю / чувствую, что..."
+          "ru": "Я считаю / чувствую, что...",
+          "uz": "Men hisoblaymanki..."
         },
         {
           "id": "UE039",
           "en": "From my point of view...",
-          "ru": "С моей точки зрения..."
+          "ru": "С моей точки зрения...",
+          "uz": "Mening nuqtayi nazarimdan..."
         },
         {
           "id": "UE040",
           "en": "My impression is that...",
-          "ru": "У меня сложилось впечатление, что..."
+          "ru": "У меня сложилось впечатление, что...",
+          "uz": "Menda shunday taassurot qoldiki..."
         }
       ]
     },
@@ -253,58 +298,69 @@
       "order": 5,
       "title": {
         "en": "Clarifying and checking",
-        "ru": "Уточнение и проверка понимания"
+        "ru": "Уточнение и проверка понимания",
+        "uz": "Aniqlashtirish va tushunganini tekshirish"
       },
       "phrases": [
         {
           "id": "UE041",
           "en": "What exactly do you mean?",
-          "ru": "Что именно ты имеешь в виду?"
+          "ru": "Что именно ты имеешь в виду?",
+          "uz": "Aniq nimani nazarda tutyapsiz?"
         },
         {
           "id": "UE042",
           "en": "Could you be more specific?",
-          "ru": "Не мог(ли) бы ты уточнить?"
+          "ru": "Не мог(ли) бы ты уточнить?",
+          "uz": "Aniqroq aytib bera olasizmi?"
         },
         {
           "id": "UE043",
           "en": "Do you mean that...?",
-          "ru": "Ты имеешь в виду, что...?"
+          "ru": "Ты имеешь в виду, что...?",
+          "uz": "Siz shuni nazarda tutyapsizmi...?"
         },
         {
           "id": "UE044",
           "en": "Let me make sure I understand.",
-          "ru": "Позволь убедиться, что я правильно понял(а)."
+          "ru": "Позволь убедиться, что я правильно понял(а).",
+          "uz": "Toʻgʻri tushunganimga ishonch hosil qilay."
         },
         {
           "id": "UE045",
           "en": "So, what you're saying is...",
-          "ru": "То есть ты говоришь, что..."
+          "ru": "То есть ты говоришь, что...",
+          "uz": "Yaʼni, siz aytmoqchisizki..."
         },
         {
           "id": "UE046",
           "en": "Could you explain that a little more?",
-          "ru": "Не мог(ли) бы ты объяснить это подробнее?"
+          "ru": "Не мог(ли) бы ты объяснить это подробнее?",
+          "uz": "Buni biroz batafsilroq tushuntira olasizmi?"
         },
         {
           "id": "UE047",
           "en": "Can I just check something?",
-          "ru": "Можно кое-что уточнить?"
+          "ru": "Можно кое-что уточнить?",
+          "uz": "Bir narsani aniqlashtirsam boʻladimi?"
         },
         {
           "id": "UE048",
           "en": "Did I get that right?",
-          "ru": "Я правильно понял(а)?"
+          "ru": "Я правильно понял(а)?",
+          "uz": "Toʻgʻri tushundimmi?"
         },
         {
           "id": "UE049",
           "en": "Could you give me an example?",
-          "ru": "Не мог(ли) бы ты привести пример?"
+          "ru": "Не мог(ли) бы ты привести пример?",
+          "uz": "Misol keltira olasizmi?"
         },
         {
           "id": "UE050",
           "en": "What do you mean by that?",
-          "ru": "Что ты под этим подразумеваешь?"
+          "ru": "Что ты под этим подразумеваешь?",
+          "uz": "Buning bilan nimani nazarda tutyapsiz?"
         }
       ]
     },
@@ -313,58 +369,69 @@
       "order": 6,
       "title": {
         "en": "Showing understanding",
-        "ru": "Понимание собеседника"
+        "ru": "Понимание собеседника",
+        "uz": "Suhbatdoshni tushunish"
       },
       "phrases": [
         {
           "id": "UE051",
           "en": "I see what you mean.",
-          "ru": "Я понимаю, что ты имеешь в виду."
+          "ru": "Я понимаю, что ты имеешь в виду.",
+          "uz": "Nimani nazarda tutayotganingizni tushunaman."
         },
         {
           "id": "UE052",
           "en": "I get your point.",
-          "ru": "Я понимаю твою мысль."
+          "ru": "Я понимаю твою мысль.",
+          "uz": "Fikringizni tushundim."
         },
         {
           "id": "UE053",
           "en": "That makes sense.",
-          "ru": "В этом есть смысл."
+          "ru": "В этом есть смысл.",
+          "uz": "Bunda mantiq bor."
         },
         {
           "id": "UE054",
           "en": "I know what you mean.",
-          "ru": "Я понимаю, о чём ты."
+          "ru": "Я понимаю, о чём ты.",
+          "uz": "Nima demoqchi ekaningizni bilaman."
         },
         {
           "id": "UE055",
           "en": "I see where you're coming from.",
-          "ru": "Я понимаю, почему ты так думаешь."
+          "ru": "Я понимаю, почему ты так думаешь.",
+          "uz": "Nega shunday deyayotganingizni tushunaman."
         },
         {
           "id": "UE056",
           "en": "That explains it.",
-          "ru": "Теперь всё объясняется."
+          "ru": "Теперь всё объясняется.",
+          "uz": "Mana, endi tushunarli boʻldi."
         },
         {
           "id": "UE057",
           "en": "Now I understand.",
-          "ru": "Теперь я понимаю."
+          "ru": "Теперь я понимаю.",
+          "uz": "Endi tushundim."
         },
         {
           "id": "UE058",
           "en": "I hadn't thought of it that way.",
-          "ru": "Я не рассматривал(а) это с такой стороны."
+          "ru": "Я не рассматривал(а) это с такой стороны.",
+          "uz": "Men buni bu tomondan oʻylab koʻrmagan ekanman."
         },
         {
           "id": "UE059",
           "en": "I can see why.",
-          "ru": "Я понимаю почему."
+          "ru": "Я понимаю почему.",
+          "uz": "Nega ekanini tushunaman."
         },
         {
           "id": "UE060",
           "en": "That clears things up.",
-          "ru": "Теперь всё стало яснее."
+          "ru": "Теперь всё стало яснее.",
+          "uz": "Endi hammasi oydinlashdi."
         }
       ]
     },
@@ -373,58 +440,69 @@
       "order": 7,
       "title": {
         "en": "Surprise and disbelief",
-        "ru": "Удивление и недоверие"
+        "ru": "Удивление и недоверие",
+        "uz": "Hayrat va ishonqiramaslik"
       },
       "phrases": [
         {
           "id": "UE061",
           "en": "Really?",
-          "ru": "Правда?"
+          "ru": "Правда?",
+          "uz": "Rostdanmi?"
         },
         {
           "id": "UE062",
           "en": "Are you serious?",
-          "ru": "Ты серьёзно?"
+          "ru": "Ты серьёзно?",
+          "uz": "Jiddiy aytyapsizmi?"
         },
         {
           "id": "UE063",
           "en": "No way!",
-          "ru": "Не может быть!"
+          "ru": "Не может быть!",
+          "uz": "Boʻlishi mumkin emas!"
         },
         {
           "id": "UE064",
           "en": "You're kidding!",
-          "ru": "Ты шутишь!"
+          "ru": "Ты шутишь!",
+          "uz": "Hazillashyapsiz!"
         },
         {
           "id": "UE065",
           "en": "I can't believe it.",
-          "ru": "Не могу в это поверить."
+          "ru": "Не могу в это поверить.",
+          "uz": "Bunga ishona olmayman."
         },
         {
           "id": "UE066",
           "en": "That's surprising.",
-          "ru": "Это удивительно."
+          "ru": "Это удивительно.",
+          "uz": "Bu hayratlanarli."
         },
         {
           "id": "UE067",
           "en": "I didn't expect that.",
-          "ru": "Я этого не ожидал(а)."
+          "ru": "Я этого не ожидал(а).",
+          "uz": "Men buni kutmagandim."
         },
         {
           "id": "UE068",
           "en": "What a surprise!",
-          "ru": "Какой сюрприз!"
+          "ru": "Какой сюрприз!",
+          "uz": "Qanday kutilmagan hodisa!"
         },
         {
           "id": "UE069",
           "en": "You've got to be joking.",
-          "ru": "Ты, должно быть, шутишь."
+          "ru": "Ты, должно быть, шутишь.",
+          "uz": "Siz hazillashyapsiz shekilli."
         },
         {
           "id": "UE070",
           "en": "Is that so?",
-          "ru": "Вот как? / Неужели?"
+          "ru": "Вот как? / Неужели?",
+          "uz": "Shundaymi? / Nahotki?"
         }
       ]
     },
@@ -433,58 +511,69 @@
       "order": 8,
       "title": {
         "en": "Encouragement and support",
-        "ru": "Поддержка и ободрение"
+        "ru": "Поддержка и ободрение",
+        "uz": "Qoʻllab-quvvatlash va dalda berish"
       },
       "phrases": [
         {
           "id": "UE071",
           "en": "You can do it.",
-          "ru": "Ты сможешь."
+          "ru": "Ты сможешь.",
+          "uz": "Siz qila olasiz."
         },
         {
           "id": "UE072",
           "en": "Don't give up.",
-          "ru": "Не сдавайся."
+          "ru": "Не сдавайся.",
+          "uz": "Taslim boʻlmang."
         },
         {
           "id": "UE073",
           "en": "Keep going.",
-          "ru": "Продолжай."
+          "ru": "Продолжай.",
+          "uz": "Davom eting."
         },
         {
           "id": "UE074",
           "en": "I'm rooting for you.",
-          "ru": "Я за тебя болею / поддерживаю тебя."
+          "ru": "Я за тебя болею / поддерживаю тебя.",
+          "uz": "Men sizni qoʻllab-quvvatlayman."
         },
         {
           "id": "UE075",
           "en": "You've got this.",
-          "ru": "У тебя всё получится."
+          "ru": "У тебя всё получится.",
+          "uz": "Sizning qoʻlingizdan keladi."
         },
         {
           "id": "UE076",
           "en": "Take your time.",
-          "ru": "Не торопись."
+          "ru": "Не торопись.",
+          "uz": "Shoshilmang."
         },
         {
           "id": "UE077",
           "en": "One step at a time.",
-          "ru": "Шаг за шагом."
+          "ru": "Шаг за шагом.",
+          "uz": "Bosqichma-bosqich."
         },
         {
           "id": "UE078",
           "en": "I'm here for you.",
-          "ru": "Я рядом, если тебе нужна поддержка."
+          "ru": "Я рядом, если тебе нужна поддержка.",
+          "uz": "Men yoningizdaman."
         },
         {
           "id": "UE079",
           "en": "You'll be fine.",
-          "ru": "Всё будет хорошо."
+          "ru": "Всё будет хорошо.",
+          "uz": "Hammasi yaxshi boʻladi."
         },
         {
           "id": "UE080",
           "en": "I'm proud of you.",
-          "ru": "Я горжусь тобой."
+          "ru": "Я горжусь тобой.",
+          "uz": "Men sizdan faxrlanaman."
         }
       ]
     },
@@ -493,58 +582,69 @@
       "order": 9,
       "title": {
         "en": "Reassurance",
-        "ru": "Успокоение и заверение"
+        "ru": "Успокоение и заверение",
+        "uz": "Tinchlantirish va ishontirish"
       },
       "phrases": [
         {
           "id": "UE081",
           "en": "Don't worry.",
-          "ru": "Не волнуйся."
+          "ru": "Не волнуйся.",
+          "uz": "Xavotir olmang."
         },
         {
           "id": "UE082",
           "en": "Everything will be okay.",
-          "ru": "Всё будет хорошо."
+          "ru": "Всё будет хорошо.",
+          "uz": "Hammasi joyida boʻladi."
         },
         {
           "id": "UE083",
           "en": "It's not a big deal.",
-          "ru": "Это не такая уж большая проблема."
+          "ru": "Это не такая уж большая проблема.",
+          "uz": "Bu unchalik katta muammo emas."
         },
         {
           "id": "UE084",
           "en": "No need to panic.",
-          "ru": "Не нужно паниковать."
+          "ru": "Не нужно паниковать.",
+          "uz": "Vahima qilishning hojati yoʻq."
         },
         {
           "id": "UE085",
           "en": "It's going to be all right.",
-          "ru": "Всё будет в порядке."
+          "ru": "Всё будет в порядке.",
+          "uz": "Hammasi yaxshi boʻladi."
         },
         {
           "id": "UE086",
           "en": "You don't have to worry about it.",
-          "ru": "Тебе не нужно об этом беспокоиться."
+          "ru": "Тебе не нужно об этом беспокоиться.",
+          "uz": "Bu haqda xavotir olishingiz shart emas."
         },
         {
           "id": "UE087",
           "en": "We'll work it out.",
-          "ru": "Мы найдём решение."
+          "ru": "Мы найдём решение.",
+          "uz": "Biz buning yechimini topamiz."
         },
         {
           "id": "UE088",
           "en": "There's nothing to worry about.",
-          "ru": "Не о чем беспокоиться."
+          "ru": "Не о чем беспокоиться.",
+          "uz": "Xavotir oladigan narsa yoʻq."
         },
         {
           "id": "UE089",
           "en": "It's under control.",
-          "ru": "Всё под контролем."
+          "ru": "Всё под контролем.",
+          "uz": "Hammasi nazorat ostida."
         },
         {
           "id": "UE090",
           "en": "You can count on me.",
-          "ru": "Ты можешь на меня рассчитывать."
+          "ru": "Ты можешь на меня рассчитывать.",
+          "uz": "Menga ishonsangiz boʻladi."
         }
       ]
     },
@@ -553,58 +653,69 @@
       "order": 10,
       "title": {
         "en": "Suggestions and advice",
-        "ru": "Предложения и советы"
+        "ru": "Предложения и советы",
+        "uz": "Takliflar va maslahatlar"
       },
       "phrases": [
         {
           "id": "UE091",
           "en": "Why don't we...?",
-          "ru": "Почему бы нам не...?"
+          "ru": "Почему бы нам не...?",
+          "uz": "Nega biz... qilmaymiz?"
         },
         {
           "id": "UE092",
           "en": "How about...?",
-          "ru": "Как насчёт...?"
+          "ru": "Как насчёт...?",
+          "uz": "... qalay boʻlarkan?"
         },
         {
           "id": "UE093",
           "en": "You should...",
-          "ru": "Тебе следует..."
+          "ru": "Тебе следует...",
+          "uz": "Siz ... qilishingiz kerak."
         },
         {
           "id": "UE094",
           "en": "If I were you, I'd...",
-          "ru": "На твоём месте я бы..."
+          "ru": "На твоём месте я бы...",
+          "uz": "Sizning oʻrningizda boʻlsam, men..."
         },
         {
           "id": "UE095",
           "en": "Maybe you could...",
-          "ru": "Возможно, ты мог(ла) бы..."
+          "ru": "Возможно, ты мог(ла) бы...",
+          "uz": "Balki siz ... qila olarsiz."
         },
         {
           "id": "UE096",
           "en": "Have you tried...?",
-          "ru": "Ты пробовал(а)...?"
+          "ru": "Ты пробовал(а)...?",
+          "uz": "Siz ... ni sinab koʻrdingizmi?"
         },
         {
           "id": "UE097",
           "en": "It's worth a try.",
-          "ru": "Стоит попробовать."
+          "ru": "Стоит попробовать.",
+          "uz": "Sinab koʻrishga arziydi."
         },
         {
           "id": "UE098",
           "en": "I'd recommend...",
-          "ru": "Я бы порекомендовал(а)..."
+          "ru": "Я бы порекомендовал(а)...",
+          "uz": "Men ... ni tavsiya qilgan boʻlardim."
         },
         {
           "id": "UE099",
           "en": "You might want to...",
-          "ru": "Возможно, тебе стоит..."
+          "ru": "Возможно, тебе стоит...",
+          "uz": "Balki siz ... qilsangiz yaxshi boʻlar."
         },
         {
           "id": "UE100",
           "en": "What if we...?",
-          "ru": "А что, если мы...?"
+          "ru": "А что, если мы...?",
+          "uz": "Agar biz ... qilsakchi?"
         }
       ]
     },
@@ -613,58 +724,69 @@
       "order": 11,
       "title": {
         "en": "Preferences and priorities",
-        "ru": "Предпочтения и приоритеты"
+        "ru": "Предпочтения и приоритеты",
+        "uz": "Afzalliklar va ustuvorliklar"
       },
       "phrases": [
         {
           "id": "UE101",
           "en": "It depends on what you prefer.",
-          "ru": "Это зависит от того, что ты предпочитаешь."
+          "ru": "Это зависит от того, что ты предпочитаешь.",
+          "uz": "Bu nimani afzal koʻrishingizga bogʻliq."
         },
         {
           "id": "UE102",
           "en": "I'd rather not.",
-          "ru": "Я бы предпочёл / предпочла не делать этого."
+          "ru": "Я бы предпочёл / предпочла не делать этого.",
+          "uz": "Men buni qilmasam deb edim."
         },
         {
           "id": "UE103",
           "en": "I'd prefer to...",
-          "ru": "Я бы предпочёл / предпочла..."
+          "ru": "Я бы предпочёл / предпочла...",
+          "uz": "Men ... ni afzal koʻrardim."
         },
         {
           "id": "UE104",
           "en": "It doesn't matter to me.",
-          "ru": "Для меня это не имеет значения."
+          "ru": "Для меня это не имеет значения.",
+          "uz": "Menga farqi yoʻq."
         },
         {
           "id": "UE105",
           "en": "I'm open to suggestions.",
-          "ru": "Я готов(а) рассмотреть предложения."
+          "ru": "Я готов(а) рассмотреть предложения.",
+          "uz": "Men takliflarni eshitishga tayyorman."
         },
         {
           "id": "UE106",
           "en": "That's my first choice.",
-          "ru": "Это мой первый выбор."
+          "ru": "Это мой первый выбор.",
+          "uz": "Bu mening birinchi tanlovim."
         },
         {
           "id": "UE107",
           "en": "My main concern is...",
-          "ru": "Меня больше всего беспокоит..."
+          "ru": "Меня больше всего беспокоит...",
+          "uz": "Meni eng koʻp tashvishga solayotgani..."
         },
         {
           "id": "UE108",
           "en": "The most important thing is...",
-          "ru": "Самое важное — это..."
+          "ru": "Самое важное — это...",
+          "uz": "Eng muhimi —..."
         },
         {
           "id": "UE109",
           "en": "I'm leaning toward...",
-          "ru": "Я склоняюсь к варианту..."
+          "ru": "Я склоняюсь к варианту...",
+          "uz": "Men ... tomonga moyilman."
         },
         {
           "id": "UE110",
           "en": "I'd go with this one.",
-          "ru": "Я бы выбрал(а) этот вариант."
+          "ru": "Я бы выбрал(а) этот вариант.",
+          "uz": "Men shu variantni tanlagan boʻlardim."
         }
       ]
     },
@@ -673,58 +795,69 @@
       "order": 12,
       "title": {
         "en": "Likes and dislikes",
-        "ru": "Нравится и не нравится"
+        "ru": "Нравится и не нравится",
+        "uz": "Yoqadi va yoqmaydi"
       },
       "phrases": [
         {
           "id": "UE111",
           "en": "I'm really into it.",
-          "ru": "Мне это очень нравится / я этим увлекаюсь."
+          "ru": "Мне это очень нравится / я этим увлекаюсь.",
+          "uz": "Bu menga juda qiziq."
         },
         {
           "id": "UE112",
           "en": "I'm a big fan of...",
-          "ru": "Я большой поклонник / поклонница..."
+          "ru": "Я большой поклонник / поклонница...",
+          "uz": "Men ... ning katta muxlisiman."
         },
         {
           "id": "UE113",
           "en": "It's not for me.",
-          "ru": "Это не для меня."
+          "ru": "Это не для меня.",
+          "uz": "Bu menga toʻgʻri kelmaydi."
         },
         {
           "id": "UE114",
           "en": "I'm not a fan of...",
-          "ru": "Я не большой любитель / любительница..."
+          "ru": "Я не большой любитель / любительница...",
+          "uz": "Men ... ni unchalik yoqtirmayman."
         },
         {
           "id": "UE115",
           "en": "I can't stand it.",
-          "ru": "Терпеть этого не могу."
+          "ru": "Терпеть этого не могу.",
+          "uz": "Men bunga chiday olmayman."
         },
         {
           "id": "UE116",
           "en": "It grew on me.",
-          "ru": "Со временем мне это понравилось."
+          "ru": "Со временем мне это понравилось.",
+          "uz": "Vaqt oʻtib menga yoqib qoldi."
         },
         {
           "id": "UE117",
           "en": "I'm getting used to it.",
-          "ru": "Я к этому привыкаю."
+          "ru": "Я к этому привыкаю.",
+          "uz": "Men bunga koʻnikib boryapman."
         },
         {
           "id": "UE118",
           "en": "It's right up my alley.",
-          "ru": "Это как раз в моём вкусе."
+          "ru": "Это как раз в моём вкусе.",
+          "uz": "Bu aynan mening didimga mos."
         },
         {
           "id": "UE119",
           "en": "I could take it or leave it.",
-          "ru": "Мне это безразлично."
+          "ru": "Мне это безразлично.",
+          "uz": "Menga baribir."
         },
         {
           "id": "UE120",
           "en": "I have mixed feelings about it.",
-          "ru": "У меня неоднозначные чувства по этому поводу."
+          "ru": "У меня неоднозначные чувства по этому поводу.",
+          "uz": "Bu haqda fikrim ikkiga boʻlingan."
         }
       ]
     },
@@ -733,58 +866,69 @@
       "order": 13,
       "title": {
         "en": "Emotions and reactions",
-        "ru": "Эмоции и реакции"
+        "ru": "Эмоции и реакции",
+        "uz": "His-tuygʻular va munosabat"
       },
       "phrases": [
         {
           "id": "UE121",
           "en": "That makes me happy.",
-          "ru": "Это меня радует."
+          "ru": "Это меня радует.",
+          "uz": "Bu meni xursand qiladi."
         },
         {
           "id": "UE122",
           "en": "I'm so relieved.",
-          "ru": "Я так рад(а), что всё обошлось."
+          "ru": "Я так рад(а), что всё обошлось.",
+          "uz": "Koʻnglim joyiga tushdi."
         },
         {
           "id": "UE123",
           "en": "That's frustrating.",
-          "ru": "Это раздражает / расстраивает."
+          "ru": "Это раздражает / расстраивает.",
+          "uz": "Bu asabni buzadi."
         },
         {
           "id": "UE124",
           "en": "I'm disappointed.",
-          "ru": "Я разочарован(а)."
+          "ru": "Я разочарован(а).",
+          "uz": "Men hafsalam pir boʻldi."
         },
         {
           "id": "UE125",
           "en": "I'm really looking forward to it.",
-          "ru": "Я очень этого жду."
+          "ru": "Я очень этого жду.",
+          "uz": "Men buni juda intiqlik bilan kutyapman."
         },
         {
           "id": "UE126",
           "en": "That sounds exciting.",
-          "ru": "Звучит захватывающе."
+          "ru": "Звучит захватывающе.",
+          "uz": "Bu qiziqarli tuyuladi."
         },
         {
           "id": "UE127",
           "en": "I'm a bit overwhelmed.",
-          "ru": "Я немного перегружен(а) / растерян(а)."
+          "ru": "Я немного перегружен(а) / растерян(а).",
+          "uz": "Men biroz holdan toydim."
         },
         {
           "id": "UE128",
           "en": "What a relief!",
-          "ru": "Какое облегчение!"
+          "ru": "Какое облегчение!",
+          "uz": "Qanday yengillik!"
         },
         {
           "id": "UE129",
           "en": "That must be difficult.",
-          "ru": "Это, должно быть, непросто."
+          "ru": "Это, должно быть, непросто.",
+          "uz": "Bu qiyin boʻlsa kerak."
         },
         {
           "id": "UE130",
           "en": "I know how you feel.",
-          "ru": "Я понимаю, что ты чувствуешь."
+          "ru": "Я понимаю, что ты чувствуешь.",
+          "uz": "Nima his qilayotganingizni tushunaman."
         }
       ]
     },
@@ -793,58 +937,69 @@
       "order": 14,
       "title": {
         "en": "Polite expressions",
-        "ru": "Вежливые выражения"
+        "ru": "Вежливые выражения",
+        "uz": "Xushmuomalalik iboralari"
       },
       "phrases": [
         {
           "id": "UE131",
           "en": "Would you mind...?",
-          "ru": "Ты не возражаешь...? / Не могли бы вы...?"
+          "ru": "Ты не возражаешь...? / Не могли бы вы...?",
+          "uz": "... qarshi boʻlmasangiz?"
         },
         {
           "id": "UE132",
           "en": "If you don't mind...",
-          "ru": "Если ты не против..."
+          "ru": "Если ты не против...",
+          "uz": "Agar qarshi boʻlmasangiz..."
         },
         {
           "id": "UE133",
           "en": "I was wondering if...",
-          "ru": "Я хотел(а) узнать, не могли бы вы..."
+          "ru": "Я хотел(а) узнать, не могли бы вы...",
+          "uz": "Bilmoqchi edim, ..."
         },
         {
           "id": "UE134",
           "en": "Whenever you have a chance.",
-          "ru": "Когда у тебя будет возможность."
+          "ru": "Когда у тебя будет возможность.",
+          "uz": "Qachon imkoningiz boʻlsa."
         },
         {
           "id": "UE135",
           "en": "I don't mean to interrupt.",
-          "ru": "Не хочу перебивать."
+          "ru": "Не хочу перебивать.",
+          "uz": "Soʻzingizni boʻlmoqchi emasman."
         },
         {
           "id": "UE136",
           "en": "Sorry to bother you.",
-          "ru": "Извини(те), что беспокою."
+          "ru": "Извини(те), что беспокою.",
+          "uz": "Bezovta qilganim uchun uzr."
         },
         {
           "id": "UE137",
           "en": "Thanks for your patience.",
-          "ru": "Спасибо за терпение."
+          "ru": "Спасибо за терпение.",
+          "uz": "Sabringiz uchun rahmat."
         },
         {
           "id": "UE138",
           "en": "I appreciate your understanding.",
-          "ru": "Благодарю за понимание."
+          "ru": "Благодарю за понимание.",
+          "uz": "Tushunganingiz uchun minnatdorman."
         },
         {
           "id": "UE139",
           "en": "That's very thoughtful of you.",
-          "ru": "Это очень внимательно с твоей стороны."
+          "ru": "Это очень внимательно с твоей стороны.",
+          "uz": "Bu juda eʼtiborli boʻldi."
         },
         {
           "id": "UE140",
           "en": "After you.",
-          "ru": "После вас. / Проходите первым."
+          "ru": "После вас. / Проходите первым.",
+          "uz": "Siz oldin oʻting."
         }
       ]
     },
@@ -853,58 +1008,69 @@
       "order": 15,
       "title": {
         "en": "Softening statements",
-        "ru": "Более мягкие формулировки"
+        "ru": "Более мягкие формулировки",
+        "uz": "Yumshoqroq ifodalar"
       },
       "phrases": [
         {
           "id": "UE141",
           "en": "I think we might need to...",
-          "ru": "Думаю, нам, возможно, нужно..."
+          "ru": "Думаю, нам, возможно, нужно...",
+          "uz": "Menimcha, bizga ... kerak boʻlishi mumkin."
         },
         {
           "id": "UE142",
           "en": "Maybe I'm wrong, but...",
-          "ru": "Возможно, я ошибаюсь, но..."
+          "ru": "Возможно, я ошибаюсь, но...",
+          "uz": "Balki men adashayotgandirman, lekin..."
         },
         {
           "id": "UE143",
           "en": "I'm not sure that's the best idea.",
-          "ru": "Не уверен(а), что это лучшая идея."
+          "ru": "Не уверен(а), что это лучшая идея.",
+          "uz": "Bu eng yaxshi fikr ekaniga ishonchim komil emas."
         },
         {
           "id": "UE144",
           "en": "It might be better to...",
-          "ru": "Возможно, будет лучше..."
+          "ru": "Возможно, будет лучше...",
+          "uz": "Balki ... qilgan maʼqulroqdir."
         },
         {
           "id": "UE145",
           "en": "I see your point, although...",
-          "ru": "Я понимаю твою точку зрения, хотя..."
+          "ru": "Я понимаю твою точку зрения, хотя...",
+          "uz": "Fikringizni tushunaman, biroq..."
         },
         {
           "id": "UE146",
           "en": "Perhaps we could...",
-          "ru": "Возможно, мы могли бы..."
+          "ru": "Возможно, мы могли бы...",
+          "uz": "Balki biz ... qila olarmiz."
         },
         {
           "id": "UE147",
           "en": "I wonder if we should...",
-          "ru": "Интересно, не стоит ли нам..."
+          "ru": "Интересно, не стоит ли нам...",
+          "uz": "Bizga ... kerakmikan, deb oʻylayman."
         },
         {
           "id": "UE148",
           "en": "I could be mistaken, but...",
-          "ru": "Возможно, я ошибаюсь, но..."
+          "ru": "Возможно, я ошибаюсь, но...",
+          "uz": "Xato qilayotgan boʻlishim mumkin, lekin..."
         },
         {
           "id": "UE149",
           "en": "Would it be possible to...?",
-          "ru": "Было бы возможно...?"
+          "ru": "Было бы возможно...?",
+          "uz": "... qilish mumkinmi?"
         },
         {
           "id": "UE150",
           "en": "I don't want to sound rude, but...",
-          "ru": "Не хочу показаться грубым / грубой, но..."
+          "ru": "Не хочу показаться грубым / грубой, но...",
+          "uz": "Qoʻpol tuyulishni istamayman, lekin..."
         }
       ]
     },
@@ -913,58 +1079,69 @@
       "order": 16,
       "title": {
         "en": "Explaining reasons",
-        "ru": "Объяснение причин"
+        "ru": "Объяснение причин",
+        "uz": "Sabablarni tushuntirish"
       },
       "phrases": [
         {
           "id": "UE151",
           "en": "The reason is that...",
-          "ru": "Причина в том, что..."
+          "ru": "Причина в том, что...",
+          "uz": "Sababi shuki..."
         },
         {
           "id": "UE152",
           "en": "That's because...",
-          "ru": "Это потому, что..."
+          "ru": "Это потому, что...",
+          "uz": "Buning sababi..."
         },
         {
           "id": "UE153",
           "en": "The thing is...",
-          "ru": "Дело в том, что..."
+          "ru": "Дело в том, что...",
+          "uz": "Gap shundaki..."
         },
         {
           "id": "UE154",
           "en": "What I mean is...",
-          "ru": "Я имею в виду, что..."
+          "ru": "Я имею в виду, что...",
+          "uz": "Men shuni nazarda tutyapmanki..."
         },
         {
           "id": "UE155",
           "en": "Let me explain.",
-          "ru": "Позволь мне объяснить."
+          "ru": "Позволь мне объяснить.",
+          "uz": "Tushuntirib beraman."
         },
         {
           "id": "UE156",
           "en": "Here's why.",
-          "ru": "Вот почему."
+          "ru": "Вот почему.",
+          "uz": "Mana sababi."
         },
         {
           "id": "UE157",
           "en": "For example...",
-          "ru": "Например..."
+          "ru": "Например...",
+          "uz": "Masalan..."
         },
         {
           "id": "UE158",
           "en": "In other words...",
-          "ru": "Другими словами..."
+          "ru": "Другими словами...",
+          "uz": "Boshqacha aytganda..."
         },
         {
           "id": "UE159",
           "en": "To put it simply...",
-          "ru": "Проще говоря..."
+          "ru": "Проще говоря...",
+          "uz": "Oddiy qilib aytganda..."
         },
         {
           "id": "UE160",
           "en": "That's one way to look at it.",
-          "ru": "На это можно посмотреть и так."
+          "ru": "На это можно посмотреть и так.",
+          "uz": "Bunga shunday qarash ham mumkin."
         }
       ]
     },
@@ -973,58 +1150,69 @@
       "order": 17,
       "title": {
         "en": "Changing the subject and conversation flow",
-        "ru": "Переход к другой теме"
+        "ru": "Переход к другой теме",
+        "uz": "Boshqa mavzuga oʻtish"
       },
       "phrases": [
         {
           "id": "UE161",
           "en": "By the way...",
-          "ru": "Кстати..."
+          "ru": "Кстати...",
+          "uz": "Aytgancha..."
         },
         {
           "id": "UE162",
           "en": "That reminds me...",
-          "ru": "Это напоминает мне..."
+          "ru": "Это напоминает мне...",
+          "uz": "Bu menga ... ni eslatdi."
         },
         {
           "id": "UE163",
           "en": "Speaking of which...",
-          "ru": "Кстати, раз уж об этом заговорили..."
+          "ru": "Кстати, раз уж об этом заговорили...",
+          "uz": "Gap shundan chiqqanda..."
         },
         {
           "id": "UE164",
           "en": "Anyway...",
-          "ru": "В любом случае... / Ладно..."
+          "ru": "В любом случае... / Ладно...",
+          "uz": "Xullas... / Nima boʻlganda ham..."
         },
         {
           "id": "UE165",
           "en": "On another note...",
-          "ru": "К слову о другом..."
+          "ru": "К слову о другом...",
+          "uz": "Boshqa narsa haqida aytsam..."
         },
         {
           "id": "UE166",
           "en": "Before I forget...",
-          "ru": "Пока я не забыл(а)..."
+          "ru": "Пока я не забыл(а)...",
+          "uz": "Esimdan chiqmasidan aytay..."
         },
         {
           "id": "UE167",
           "en": "Getting back to the point...",
-          "ru": "Возвращаясь к сути..."
+          "ru": "Возвращаясь к сути...",
+          "uz": "Mavzuga qaytsak..."
         },
         {
           "id": "UE168",
           "en": "As I was saying...",
-          "ru": "Как я и говорил(а)..."
+          "ru": "Как я и говорил(а)...",
+          "uz": "Aytganimdek..."
         },
         {
           "id": "UE169",
           "en": "Where was I?",
-          "ru": "На чём я остановился / остановилась?"
+          "ru": "На чём я остановился / остановилась?",
+          "uz": "Qayerda toʻxtagan edim?"
         },
         {
           "id": "UE170",
           "en": "Let's move on.",
-          "ru": "Давайте перейдём дальше."
+          "ru": "Давайте перейдём дальше.",
+          "uz": "Keling, davom etaylik."
         }
       ]
     },
@@ -1033,58 +1221,69 @@
       "order": 18,
       "title": {
         "en": "Common conversational fillers",
-        "ru": "Разговорные связки"
+        "ru": "Разговорные связки",
+        "uz": "Soʻzlashuv bogʻlovchilari"
       },
       "phrases": [
         {
           "id": "UE171",
           "en": "Well...",
-          "ru": "Ну..."
+          "ru": "Ну...",
+          "uz": "Xoʻsh..."
         },
         {
           "id": "UE172",
           "en": "Actually...",
-          "ru": "Вообще-то... / На самом деле..."
+          "ru": "Вообще-то... / На самом деле...",
+          "uz": "Aslida..."
         },
         {
           "id": "UE173",
           "en": "Basically...",
-          "ru": "В общем... / По сути..."
+          "ru": "В общем... / По сути...",
+          "uz": "Umuman olganda..."
         },
         {
           "id": "UE174",
           "en": "To be honest...",
-          "ru": "Честно говоря..."
+          "ru": "Честно говоря...",
+          "uz": "Rostini aytsam..."
         },
         {
           "id": "UE175",
           "en": "I mean...",
-          "ru": "Я имею в виду..."
+          "ru": "Я имею в виду...",
+          "uz": "Men shuni demoqchimanki..."
         },
         {
           "id": "UE176",
           "en": "You know...",
-          "ru": "Знаешь..."
+          "ru": "Знаешь...",
+          "uz": "Bilasizmi..."
         },
         {
           "id": "UE177",
           "en": "Let me see...",
-          "ru": "Дай посмотреть / подумать..."
+          "ru": "Дай посмотреть / подумать...",
+          "uz": "Qani, koʻray-chi..."
         },
         {
           "id": "UE178",
           "en": "How can I put it?",
-          "ru": "Как бы это выразить?"
+          "ru": "Как бы это выразить?",
+          "uz": "Buni qanday aytsam ekan?"
         },
         {
           "id": "UE179",
           "en": "The thing is...",
-          "ru": "Дело в том, что..."
+          "ru": "Дело в том, что...",
+          "uz": "Gap shundaki..."
         },
         {
           "id": "UE180",
           "en": "At the end of the day...",
-          "ru": "В конечном счёте..."
+          "ru": "В конечном счёте...",
+          "uz": "Oxir-oqibat..."
         }
       ]
     },
@@ -1093,58 +1292,69 @@
       "order": 19,
       "title": {
         "en": "Making decisions",
-        "ru": "Принятие решений"
+        "ru": "Принятие решений",
+        "uz": "Qaror qabul qilish"
       },
       "phrases": [
         {
           "id": "UE181",
           "en": "I've made up my mind.",
-          "ru": "Я принял(а) решение."
+          "ru": "Я принял(а) решение.",
+          "uz": "Men qaror qildim."
         },
         {
           "id": "UE182",
           "en": "I haven't decided yet.",
-          "ru": "Я ещё не решил(а)."
+          "ru": "Я ещё не решил(а).",
+          "uz": "Men hali qaror qilmadim."
         },
         {
           "id": "UE183",
           "en": "Let me think it over.",
-          "ru": "Дай мне это обдумать."
+          "ru": "Дай мне это обдумать.",
+          "uz": "Oʻylab koʻray."
         },
         {
           "id": "UE184",
           "en": "I'll think about it.",
-          "ru": "Я подумаю об этом."
+          "ru": "Я подумаю об этом.",
+          "uz": "Bu haqda oʻylab koʻraman."
         },
         {
           "id": "UE185",
           "en": "It's worth considering.",
-          "ru": "Это стоит обдумать."
+          "ru": "Это стоит обдумать.",
+          "uz": "Bu oʻylab koʻrishga arziydi."
         },
         {
           "id": "UE186",
           "en": "I need more time.",
-          "ru": "Мне нужно больше времени."
+          "ru": "Мне нужно больше времени.",
+          "uz": "Menga koʻproq vaqt kerak."
         },
         {
           "id": "UE187",
           "en": "Let's weigh the options.",
-          "ru": "Давай взвесим варианты."
+          "ru": "Давай взвесим варианты.",
+          "uz": "Keling, variantlarni tarozida tortaylik."
         },
         {
           "id": "UE188",
           "en": "I'm ready to decide.",
-          "ru": "Я готов(а) принять решение."
+          "ru": "Я готов(а) принять решение.",
+          "uz": "Men qaror qilishga tayyorman."
         },
         {
           "id": "UE189",
           "en": "I've changed my mind.",
-          "ru": "Я передумал(а)."
+          "ru": "Я передумал(а).",
+          "uz": "Men fikrimdan qaytdim."
         },
         {
           "id": "UE190",
           "en": "Let's leave it for now.",
-          "ru": "Давай пока оставим это."
+          "ru": "Давай пока оставим это.",
+          "uz": "Keling, buni hozircha qoldiraylik."
         }
       ]
     },
@@ -1153,58 +1363,69 @@
       "order": 20,
       "title": {
         "en": "Common useful responses",
-        "ru": "Полезные ответы"
+        "ru": "Полезные ответы",
+        "uz": "Foydali javoblar"
       },
       "phrases": [
         {
           "id": "UE191",
           "en": "Fair enough.",
-          "ru": "Ладно, справедливо. / Хорошо, понимаю."
+          "ru": "Ладно, справедливо. / Хорошо, понимаю.",
+          "uz": "Mayli, adolatli."
         },
         {
           "id": "UE192",
           "en": "That works for me.",
-          "ru": "Меня это устраивает."
+          "ru": "Меня это устраивает.",
+          "uz": "Bu menga toʻgʻri keladi."
         },
         {
           "id": "UE193",
           "en": "I guess so.",
-          "ru": "Наверное, да."
+          "ru": "Наверное, да.",
+          "uz": "Shekilli, ha."
         },
         {
           "id": "UE194",
           "en": "Not really.",
-          "ru": "Не совсем. / Не особо."
+          "ru": "Не совсем. / Не особо.",
+          "uz": "Unchalik emas."
         },
         {
           "id": "UE195",
           "en": "Absolutely.",
-          "ru": "Безусловно."
+          "ru": "Безусловно.",
+          "uz": "Shubhasiz."
         },
         {
           "id": "UE196",
           "en": "That's a good question.",
-          "ru": "Хороший вопрос."
+          "ru": "Хороший вопрос.",
+          "uz": "Bu yaxshi savol."
         },
         {
           "id": "UE197",
           "en": "Good point.",
-          "ru": "Хорошее замечание."
+          "ru": "Хорошее замечание.",
+          "uz": "Yaxshi fikr."
         },
         {
           "id": "UE198",
           "en": "I hadn't thought of that.",
-          "ru": "Я об этом не думал(а)."
+          "ru": "Я об этом не думал(а).",
+          "uz": "Men bu haqda oʻylamagan ekanman."
         },
         {
           "id": "UE199",
           "en": "It makes no difference to me.",
-          "ru": "Для меня это ничего не меняет."
+          "ru": "Для меня это ничего не меняет.",
+          "uz": "Men uchun bu hech narsani oʻzgartirmaydi."
         },
         {
           "id": "UE200",
           "en": "Let's see how it goes.",
-          "ru": "Посмотрим, как всё пойдёт."
+          "ru": "Посмотрим, как всё пойдёт.",
+          "uz": "Keling, qanday ketishini koʻramiz."
         }
       ]
     }

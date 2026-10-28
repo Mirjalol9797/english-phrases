@@ -25,11 +25,13 @@
       "kind": "phrases",
       "title": {
         "en": "Useful Expressions",
-        "ru": "Полезные выражения"
+        "ru": "Полезные выражения",
+        "uz": "Foydali iboralar"
       },
       "file": "chapters/useful-expressions.json",
       "lessonCount": 20,
-      "phraseCount": 200
+      "phraseCount": 200,
+      "translatedUz": true
     },
     {
       "id": "small-talk",
