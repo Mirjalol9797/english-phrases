@@ -206,11 +206,13 @@
       "group": "Oxford 3000",
       "title": {
         "en": "Oxford 3000 · A1",
-        "ru": "Самые нужные слова, уровень A1"
+        "ru": "Самые нужные слова, уровень A1",
+        "uz": "Eng kerakli soʻzlar, A1 daraja"
       },
       "file": "chapters/oxford-a1.json",
       "lessonCount": 90,
-      "phraseCount": 900
+      "phraseCount": 900,
+      "translatedUz": true
     },
     {
       "id": "oxford-a2",
