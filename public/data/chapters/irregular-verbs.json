@@ -5,7 +5,8 @@
   "kind": "verbs",
   "title": {
     "en": "Irregular Verbs",
-    "ru": "Неправильные глаголы"
+    "ru": "Неправильные глаголы",
+    "uz": "Notoʻgʻri feʼllar"
   },
   "lessons": [
     {
@@ -13,7 +14,8 @@
       "order": 1,
       "title": {
         "en": "be · have · do",
-        "ru": "Этап 1 · глаголы 1–10"
+        "ru": "Этап 1 · глаголы 1–10",
+        "uz": "1-bosqich · 1–10-feʼllar"
       },
       "phrases": [
         {
@@ -23,7 +25,8 @@
           "forms": {
             "v2": "was/were",
             "v3": "been"
-          }
+          },
+          "uz": "boʻlmoq; turmoq"
         },
         {
           "id": "IRV002",
@@ -32,7 +35,8 @@
           "forms": {
             "v2": "had",
             "v3": "had"
-          }
+          },
+          "uz": "ega boʻlmoq"
         },
         {
           "id": "IRV003",
@@ -41,7 +45,8 @@
           "forms": {
             "v2": "did",
             "v3": "done"
-          }
+          },
+          "uz": "qilmoq"
         },
         {
           "id": "IRV004",
@@ -50,7 +55,8 @@
           "forms": {
             "v2": "went",
             "v3": "gone"
-          }
+          },
+          "uz": "bormoq; ketmoq"
         },
         {
           "id": "IRV005",
@@ -59,7 +65,8 @@
           "forms": {
             "v2": "got",
             "v3": "got/gotten"
-          }
+          },
+          "uz": "olmoq; boʻlib qolmoq"
         },
         {
           "id": "IRV006",
@@ -68,7 +75,8 @@
           "forms": {
             "v2": "made",
             "v3": "made"
-          }
+          },
+          "uz": "yasamoq; yaratmoq"
         },
         {
           "id": "IRV007",
@@ -77,7 +85,8 @@
           "forms": {
             "v2": "took",
             "v3": "taken"
-          }
+          },
+          "uz": "olmoq"
         },
         {
           "id": "IRV008",
@@ -86,7 +95,8 @@
           "forms": {
             "v2": "came",
             "v3": "come"
-          }
+          },
+          "uz": "kelmoq"
         },
         {
           "id": "IRV009",
@@ -95,7 +105,8 @@
           "forms": {
             "v2": "saw",
             "v3": "seen"
-          }
+          },
+          "uz": "koʻrmoq"
         },
         {
           "id": "IRV010",
@@ -104,7 +115,8 @@
           "forms": {
             "v2": "knew",
             "v3": "known"
-          }
+          },
+          "uz": "bilmoq"
         }
       ]
     },
@@ -113,7 +125,8 @@
       "order": 2,
       "title": {
         "en": "think · say · give",
-        "ru": "Этап 1 · глаголы 11–20"
+        "ru": "Этап 1 · глаголы 11–20",
+        "uz": "1-bosqich · 11–20-feʼllar"
       },
       "phrases": [
         {
@@ -123,7 +136,8 @@
           "forms": {
             "v2": "thought",
             "v3": "thought"
-          }
+          },
+          "uz": "oʻylamoq"
         },
         {
           "id": "IRV012",
@@ -132,7 +146,8 @@
           "forms": {
             "v2": "said",
             "v3": "said"
-          }
+          },
+          "uz": "aytmoq"
         },
         {
           "id": "IRV013",
@@ -141,7 +156,8 @@
           "forms": {
             "v2": "gave",
             "v3": "given"
-          }
+          },
+          "uz": "bermoq"
         },
         {
           "id": "IRV014",
@@ -150,7 +166,8 @@
           "forms": {
             "v2": "found",
             "v3": "found"
-          }
+          },
+          "uz": "topmoq"
         },
         {
           "id": "IRV015",
@@ -159,7 +176,8 @@
           "forms": {
             "v2": "told",
             "v3": "told"
-          }
+          },
+          "uz": "aytib bermoq; soʻzlab bermoq"
         },
         {
           "id": "IRV016",
@@ -168,7 +186,8 @@
           "forms": {
             "v2": "felt",
             "v3": "felt"
-          }
+          },
+          "uz": "his qilmoq"
         },
         {
           "id": "IRV017",
@@ -177,7 +196,8 @@
           "forms": {
             "v2": "left",
             "v3": "left"
-          }
+          },
+          "uz": "ketmoq; qoldirmoq"
         },
         {
           "id": "IRV018",
@@ -186,7 +206,8 @@
           "forms": {
             "v2": "put",
             "v3": "put"
-          }
+          },
+          "uz": "qoʻymoq"
         },
         {
           "id": "IRV019",
@@ -195,7 +216,8 @@
           "forms": {
             "v2": "brought",
             "v3": "brought"
-          }
+          },
+          "uz": "olib kelmoq"
         },
         {
           "id": "IRV020",
@@ -204,7 +226,8 @@
           "forms": {
             "v2": "began",
             "v3": "begun"
-          }
+          },
+          "uz": "boshlamoq; boshlanmoq"
         }
       ]
     },
@@ -213,7 +236,8 @@
       "order": 3,
       "title": {
         "en": "keep · hold · write",
-        "ru": "Этап 1 · глаголы 21–30"
+        "ru": "Этап 1 · глаголы 21–30",
+        "uz": "1-bosqich · 21–30-feʼllar"
       },
       "phrases": [
         {
@@ -223,7 +247,8 @@
           "forms": {
             "v2": "kept",
             "v3": "kept"
-          }
+          },
+          "uz": "saqlamoq"
         },
         {
           "id": "IRV022",
@@ -232,7 +257,8 @@
           "forms": {
             "v2": "held",
             "v3": "held"
-          }
+          },
+          "uz": "ushlab turmoq"
         },
         {
           "id": "IRV023",
@@ -241,7 +267,8 @@
           "forms": {
             "v2": "wrote",
             "v3": "written"
-          }
+          },
+          "uz": "yozmoq"
         },
         {
           "id": "IRV024",
@@ -250,7 +277,8 @@
           "forms": {
             "v2": "spoke",
             "v3": "spoken"
-          }
+          },
+          "uz": "gapirmoq"
         },
         {
           "id": "IRV025",
@@ -259,7 +287,8 @@
           "forms": {
             "v2": "read",
             "v3": "read"
-          }
+          },
+          "uz": "oʻqimoq"
         },
         {
           "id": "IRV026",
@@ -268,7 +297,8 @@
           "forms": {
             "v2": "ate",
             "v3": "eaten"
-          }
+          },
+          "uz": "yemoq"
         },
         {
           "id": "IRV027",
@@ -277,7 +307,8 @@
           "forms": {
             "v2": "drank",
             "v3": "drunk"
-          }
+          },
+          "uz": "ichmoq"
         },
         {
           "id": "IRV028",
@@ -286,7 +317,8 @@
           "forms": {
             "v2": "bought",
             "v3": "bought"
-          }
+          },
+          "uz": "sotib olmoq"
         },
         {
           "id": "IRV029",
@@ -295,7 +327,8 @@
           "forms": {
             "v2": "paid",
             "v3": "paid"
-          }
+          },
+          "uz": "toʻlamoq"
         },
         {
           "id": "IRV030",
@@ -304,7 +337,8 @@
           "forms": {
             "v2": "met",
             "v3": "met"
-          }
+          },
+          "uz": "uchrashmoq"
         }
       ]
     },
@@ -313,7 +347,8 @@
       "order": 4,
       "title": {
         "en": "hear · run · sit",
-        "ru": "Этап 2 · глаголы 1–10"
+        "ru": "Этап 2 · глаголы 1–10",
+        "uz": "2-bosqich · 1–10-feʼllar"
       },
       "phrases": [
         {
@@ -323,7 +358,8 @@
           "forms": {
             "v2": "heard",
             "v3": "heard"
-          }
+          },
+          "uz": "eshitmoq"
         },
         {
           "id": "IRV032",
@@ -332,7 +368,8 @@
           "forms": {
             "v2": "ran",
             "v3": "run"
-          }
+          },
+          "uz": "yugurmoq"
         },
         {
           "id": "IRV033",
@@ -341,7 +378,8 @@
           "forms": {
             "v2": "sat",
             "v3": "sat"
-          }
+          },
+          "uz": "oʻtirmoq"
         },
         {
           "id": "IRV034",
@@ -350,7 +388,8 @@
           "forms": {
             "v2": "stood",
             "v3": "stood"
-          }
+          },
+          "uz": "turmoq"
         },
         {
           "id": "IRV035",
@@ -359,7 +398,8 @@
           "forms": {
             "v2": "slept",
             "v3": "slept"
-          }
+          },
+          "uz": "uxlamoq"
         },
         {
           "id": "IRV036",
@@ -368,7 +408,8 @@
           "forms": {
             "v2": "sent",
             "v3": "sent"
-          }
+          },
+          "uz": "yubormoq"
         },
         {
           "id": "IRV037",
@@ -377,7 +418,8 @@
           "forms": {
             "v2": "spent",
             "v3": "spent"
-          }
+          },
+          "uz": "sarflamoq; vaqt oʻtkazmoq"
         },
         {
           "id": "IRV038",
@@ -386,7 +428,8 @@
           "forms": {
             "v2": "won",
             "v3": "won"
-          }
+          },
+          "uz": "gʻalaba qozonmoq; yutmoq"
         },
         {
           "id": "IRV039",
@@ -395,7 +438,8 @@
           "forms": {
             "v2": "lost",
             "v3": "lost"
-          }
+          },
+          "uz": "yoʻqotmoq; yutqazmoq"
         },
         {
           "id": "IRV040",
@@ -404,7 +448,8 @@
           "forms": {
             "v2": "fell",
             "v3": "fallen"
-          }
+          },
+          "uz": "yiqilmoq"
         }
       ]
     },
@@ -413,7 +458,8 @@
       "order": 5,
       "title": {
         "en": "forget · understand · build",
-        "ru": "Этап 2 · глаголы 11–20"
+        "ru": "Этап 2 · глаголы 11–20",
+        "uz": "2-bosqich · 11–20-feʼllar"
       },
       "phrases": [
         {
@@ -423,7 +469,8 @@
           "forms": {
             "v2": "forgot",
             "v3": "forgotten"
-          }
+          },
+          "uz": "unutmoq"
         },
         {
           "id": "IRV042",
@@ -432,7 +479,8 @@
           "forms": {
             "v2": "understood",
             "v3": "understood"
-          }
+          },
+          "uz": "tushunmoq"
         },
         {
           "id": "IRV043",
@@ -441,7 +489,8 @@
           "forms": {
             "v2": "built",
             "v3": "built"
-          }
+          },
+          "uz": "qurmoq"
         },
         {
           "id": "IRV044",
@@ -450,7 +499,8 @@
           "forms": {
             "v2": "broke",
             "v3": "broken"
-          }
+          },
+          "uz": "sindirmoq"
         },
         {
           "id": "IRV045",
@@ -459,7 +509,8 @@
           "forms": {
             "v2": "chose",
             "v3": "chosen"
-          }
+          },
+          "uz": "tanlamoq"
         },
         {
           "id": "IRV046",
@@ -468,7 +519,8 @@
           "forms": {
             "v2": "drove",
             "v3": "driven"
-          }
+          },
+          "uz": "mashina haydamoq"
         },
         {
           "id": "IRV047",
@@ -477,7 +529,8 @@
           "forms": {
             "v2": "wore",
             "v3": "worn"
-          }
+          },
+          "uz": "kiyib yurmoq"
         },
         {
           "id": "IRV048",
@@ -486,7 +539,8 @@
           "forms": {
             "v2": "taught",
             "v3": "taught"
-          }
+          },
+          "uz": "oʻrgatmoq; dars bermoq"
         },
         {
           "id": "IRV049",
@@ -495,7 +549,8 @@
           "forms": {
             "v2": "learnt/learned",
             "v3": "learnt/learned"
-          }
+          },
+          "uz": "oʻrganmoq; bilib olmoq"
         },
         {
           "id": "IRV050",
@@ -504,7 +559,8 @@
           "forms": {
             "v2": "became",
             "v3": "become"
-          }
+          },
+          "uz": "boʻlmoq"
         }
       ]
     },
@@ -513,7 +569,8 @@
       "order": 6,
       "title": {
         "en": "show · catch · cut",
-        "ru": "Этап 3 · глаголы 1–9"
+        "ru": "Этап 3 · глаголы 1–9",
+        "uz": "3-bosqich · 1–9-feʼllar"
       },
       "phrases": [
         {
@@ -523,7 +580,8 @@
           "forms": {
             "v2": "showed",
             "v3": "shown/showed"
-          }
+          },
+          "uz": "koʻrsatmoq"
         },
         {
           "id": "IRV052",
@@ -532,7 +590,8 @@
           "forms": {
             "v2": "caught",
             "v3": "caught"
-          }
+          },
+          "uz": "tutmoq"
         },
         {
           "id": "IRV053",
@@ -541,7 +600,8 @@
           "forms": {
             "v2": "cut",
             "v3": "cut"
-          }
+          },
+          "uz": "kesmoq"
         },
         {
           "id": "IRV054",
@@ -550,7 +610,8 @@
           "forms": {
             "v2": "cost",
             "v3": "cost"
-          }
+          },
+          "uz": "narxi boʻlmoq"
         },
         {
           "id": "IRV055",
@@ -559,7 +620,8 @@
           "forms": {
             "v2": "drew",
             "v3": "drawn"
-          }
+          },
+          "uz": "chizmoq; tortmoq"
         },
         {
           "id": "IRV056",
@@ -568,7 +630,8 @@
           "forms": {
             "v2": "fought",
             "v3": "fought"
-          }
+          },
+          "uz": "urishmoq; kurashmoq"
         },
         {
           "id": "IRV057",
@@ -577,7 +640,8 @@
           "forms": {
             "v2": "flew",
             "v3": "flown"
-          }
+          },
+          "uz": "uchmoq"
         },
         {
           "id": "IRV058",
@@ -586,7 +650,8 @@
           "forms": {
             "v2": "grew",
             "v3": "grown"
-          }
+          },
+          "uz": "oʻsmoq; yetishtirmoq"
         },
         {
           "id": "IRV059",
@@ -595,7 +660,8 @@
           "forms": {
             "v2": "let",
             "v3": "let"
-          }
+          },
+          "uz": "ruxsat bermoq"
         }
       ]
     },
@@ -604,7 +670,8 @@
       "order": 7,
       "title": {
         "en": "lie · mean · ride",
-        "ru": "Этап 3 · глаголы 10–17"
+        "ru": "Этап 3 · глаголы 10–17",
+        "uz": "3-bosqich · 10–17-feʼllar"
       },
       "phrases": [
         {
@@ -614,7 +681,8 @@
           "forms": {
             "v2": "lay",
             "v3": "lain"
-          }
+          },
+          "uz": "yotmoq"
         },
         {
           "id": "IRV061",
@@ -623,7 +691,8 @@
           "forms": {
             "v2": "meant",
             "v3": "meant"
-          }
+          },
+          "uz": "anglatmoq; nazarda tutmoq"
         },
         {
           "id": "IRV062",
@@ -632,7 +701,8 @@
           "forms": {
             "v2": "rode",
             "v3": "ridden"
-          }
+          },
+          "uz": "minmoq"
         },
         {
           "id": "IRV063",
@@ -641,7 +711,8 @@
           "forms": {
             "v2": "rang",
             "v3": "rung"
-          }
+          },
+          "uz": "jiringlamoq"
         },
         {
           "id": "IRV064",
@@ -650,7 +721,8 @@
           "forms": {
             "v2": "rose",
             "v3": "risen"
-          }
+          },
+          "uz": "koʻtarilmoq"
         },
         {
           "id": "IRV065",
@@ -659,7 +731,8 @@
           "forms": {
             "v2": "sold",
             "v3": "sold"
-          }
+          },
+          "uz": "sotmoq"
         },
         {
           "id": "IRV066",
@@ -668,7 +741,8 @@
           "forms": {
             "v2": "shook",
             "v3": "shaken"
-          }
+          },
+          "uz": "silkitmoq"
         },
         {
           "id": "IRV067",
@@ -677,7 +751,8 @@
           "forms": {
             "v2": "shot",
             "v3": "shot"
-          }
+          },
+          "uz": "otmoq"
         }
       ]
     },
@@ -686,7 +761,8 @@
       "order": 8,
       "title": {
         "en": "shut · sing · sink",
-        "ru": "Этап 3 · глаголы 18–25"
+        "ru": "Этап 3 · глаголы 18–25",
+        "uz": "3-bosqich · 18–25-feʼllar"
       },
       "phrases": [
         {
@@ -696,7 +772,8 @@
           "forms": {
             "v2": "shut",
             "v3": "shut"
-          }
+          },
+          "uz": "yopmoq"
         },
         {
           "id": "IRV069",
@@ -705,7 +782,8 @@
           "forms": {
             "v2": "sang",
             "v3": "sung"
-          }
+          },
+          "uz": "kuylamoq"
         },
         {
           "id": "IRV070",
@@ -714,7 +792,8 @@
           "forms": {
             "v2": "sank/sunk",
             "v3": "sunk"
-          }
+          },
+          "uz": "choʻkmoq"
         },
         {
           "id": "IRV071",
@@ -723,7 +802,8 @@
           "forms": {
             "v2": "slid",
             "v3": "slid"
-          }
+          },
+          "uz": "sirgʻalmoq"
         },
         {
           "id": "IRV072",
@@ -732,7 +812,8 @@
           "forms": {
             "v2": "smelt/smelled",
             "v3": "smelt/smelled"
-          }
+          },
+          "uz": "hidlanmoq; hidlamoq"
         },
         {
           "id": "IRV073",
@@ -741,7 +822,8 @@
           "forms": {
             "v2": "swam",
             "v3": "swum"
-          }
+          },
+          "uz": "suzmoq"
         },
         {
           "id": "IRV074",
@@ -750,7 +832,8 @@
           "forms": {
             "v2": "swung",
             "v3": "swung"
-          }
+          },
+          "uz": "tebranmoq; silkimoq"
         },
         {
           "id": "IRV075",
@@ -759,7 +842,8 @@
           "forms": {
             "v2": "threw",
             "v3": "thrown"
-          }
+          },
+          "uz": "tashlamoq"
         }
       ]
     },
@@ -768,7 +852,8 @@
       "order": 9,
       "title": {
         "en": "wake · feed · freeze",
-        "ru": "Этап 4 · глаголы 1–9"
+        "ru": "Этап 4 · глаголы 1–9",
+        "uz": "4-bosqich · 1–9-feʼllar"
       },
       "phrases": [
         {
@@ -778,7 +863,8 @@
           "forms": {
             "v2": "woke/waked",
             "v3": "woken/waked"
-          }
+          },
+          "uz": "uygʻonmoq; uygʻotmoq"
         },
         {
           "id": "IRV077",
@@ -787,7 +873,8 @@
           "forms": {
             "v2": "fed",
             "v3": "fed"
-          }
+          },
+          "uz": "boqmoq"
         },
         {
           "id": "IRV078",
@@ -796,7 +883,8 @@
           "forms": {
             "v2": "froze",
             "v3": "frozen"
-          }
+          },
+          "uz": "muzlamoq; muzlatmoq"
         },
         {
           "id": "IRV079",
@@ -805,7 +893,8 @@
           "forms": {
             "v2": "hid",
             "v3": "hidden"
-          }
+          },
+          "uz": "yashirmoq; yashirinmoq"
         },
         {
           "id": "IRV080",
@@ -814,7 +903,8 @@
           "forms": {
             "v2": "led",
             "v3": "led"
-          }
+          },
+          "uz": "yetaklamoq; boshqarmoq"
         },
         {
           "id": "IRV081",
@@ -823,7 +913,8 @@
           "forms": {
             "v2": "lent",
             "v3": "lent"
-          }
+          },
+          "uz": "qarzga bermoq"
         },
         {
           "id": "IRV082",
@@ -832,7 +923,8 @@
           "forms": {
             "v2": "lit/lighted",
             "v3": "lit/lighted"
-          }
+          },
+          "uz": "yoqmoq; yoritmoq"
         },
         {
           "id": "IRV083",
@@ -841,7 +933,8 @@
           "forms": {
             "v2": "proved",
             "v3": "proved/proven"
-          }
+          },
+          "uz": "isbotlamoq"
         },
         {
           "id": "IRV084",
@@ -850,7 +943,8 @@
           "forms": {
             "v2": "quit/quitted",
             "v3": "quit/quitted"
-          }
+          },
+          "uz": "tashlamoq; toʻxtatmoq"
         }
       ]
     },
@@ -859,7 +953,8 @@
       "order": 10,
       "title": {
         "en": "set · stick · tear",
-        "ru": "Этап 4 · глаголы 10–17"
+        "ru": "Этап 4 · глаголы 10–17",
+        "uz": "4-bosqich · 10–17-feʼllar"
       },
       "phrases": [
         {
@@ -869,7 +964,8 @@
           "forms": {
             "v2": "set",
             "v3": "set"
-          }
+          },
+          "uz": "oʻrnatmoq; qoʻymoq"
         },
         {
           "id": "IRV086",
@@ -878,7 +974,8 @@
           "forms": {
             "v2": "stuck",
             "v3": "stuck"
-          }
+          },
+          "uz": "yopishtirmoq; tiqilib qolmoq"
         },
         {
           "id": "IRV087",
@@ -887,7 +984,8 @@
           "forms": {
             "v2": "tore",
             "v3": "torn"
-          }
+          },
+          "uz": "yirtmoq"
         },
         {
           "id": "IRV088",
@@ -896,7 +994,8 @@
           "forms": {
             "v2": "bit",
             "v3": "bitten"
-          }
+          },
+          "uz": "tishlamoq"
         },
         {
           "id": "IRV089",
@@ -905,7 +1004,8 @@
           "forms": {
             "v2": "blew",
             "v3": "blown"
-          }
+          },
+          "uz": "puflamoq"
         },
         {
           "id": "IRV090",
@@ -914,7 +1014,8 @@
           "forms": {
             "v2": "burnt/burned",
             "v3": "burnt/burned"
-          }
+          },
+          "uz": "yonmoq; kuydirmoq"
         },
         {
           "id": "IRV091",
@@ -923,7 +1024,8 @@
           "forms": {
             "v2": "dealt",
             "v3": "dealt"
-          }
+          },
+          "uz": "ish koʻrmoq; tarqatmoq"
         },
         {
           "id": "IRV092",
@@ -932,7 +1034,8 @@
           "forms": {
             "v2": "dreamt/dreamed",
             "v3": "dreamt/dreamed"
-          }
+          },
+          "uz": "orzu qilmoq; tush koʻrmoq"
         }
       ]
     },
@@ -941,7 +1044,8 @@
       "order": 11,
       "title": {
         "en": "forgive · hurt · steal",
-        "ru": "Этап 4 · глаголы 18–25"
+        "ru": "Этап 4 · глаголы 18–25",
+        "uz": "4-bosqich · 18–25-feʼllar"
       },
       "phrases": [
         {
@@ -951,7 +1055,8 @@
           "forms": {
             "v2": "forgave",
             "v3": "forgiven"
-          }
+          },
+          "uz": "kechirmoq"
         },
         {
           "id": "IRV094",
@@ -960,7 +1065,8 @@
           "forms": {
             "v2": "hurt",
             "v3": "hurt"
-          }
+          },
+          "uz": "ogʻritmoq; ogʻrimoq"
         },
         {
           "id": "IRV095",
@@ -969,7 +1075,8 @@
           "forms": {
             "v2": "stole",
             "v3": "stolen"
-          }
+          },
+          "uz": "oʻgʻirlamoq"
         },
         {
           "id": "IRV096",
@@ -978,7 +1085,8 @@
           "forms": {
             "v2": "swept",
             "v3": "swept"
-          }
+          },
+          "uz": "supurmoq"
         },
         {
           "id": "IRV097",
@@ -987,7 +1095,8 @@
           "forms": {
             "v2": "hung/hanged",
             "v3": "hung/hanged"
-          }
+          },
+          "uz": "osmoq; osilib turmoq; dorga osmoq"
         },
         {
           "id": "IRV098",
@@ -996,7 +1105,8 @@
           "forms": {
             "v2": "laid",
             "v3": "laid"
-          }
+          },
+          "uz": "qoʻymoq; yotqizmoq"
         },
         {
           "id": "IRV099",
@@ -1005,7 +1115,8 @@
           "forms": {
             "v2": "sought",
             "v3": "sought"
-          }
+          },
+          "uz": "izlamoq"
         },
         {
           "id": "IRV100",
@@ -1014,7 +1125,8 @@
           "forms": {
             "v2": "spread",
             "v3": "spread"
-          }
+          },
+          "uz": "tarqatmoq; surtmoq"
         }
       ]
     },
@@ -1023,7 +1135,8 @@
       "order": 12,
       "title": {
         "en": "arise · awake · bear",
-        "ru": "Этап 5 · глаголы 1–8"
+        "ru": "Этап 5 · глаголы 1–8",
+        "uz": "5-bosqich · 1–8-feʼllar"
       },
       "phrases": [
         {
@@ -1033,7 +1146,8 @@
           "forms": {
             "v2": "arose",
             "v3": "arisen"
-          }
+          },
+          "uz": "yuzaga kelmoq; koʻtarilmoq"
         },
         {
           "id": "IRV102",
@@ -1042,7 +1156,8 @@
           "forms": {
             "v2": "awoke",
             "v3": "awoken"
-          }
+          },
+          "uz": "uygʻonmoq; uygʻotmoq"
         },
         {
           "id": "IRV103",
@@ -1051,7 +1166,8 @@
           "forms": {
             "v2": "bore",
             "v3": "borne/born"
-          }
+          },
+          "uz": "koʻtarmoq; chidamoq; tugʻmoq"
         },
         {
           "id": "IRV104",
@@ -1060,7 +1176,8 @@
           "forms": {
             "v2": "beat",
             "v3": "beaten"
-          }
+          },
+          "uz": "kaltaklamoq; yengmoq"
         },
         {
           "id": "IRV105",
@@ -1069,7 +1186,8 @@
           "forms": {
             "v2": "bent",
             "v3": "bent"
-          }
+          },
+          "uz": "bukmoq; egilmoq"
         },
         {
           "id": "IRV106",
@@ -1078,7 +1196,8 @@
           "forms": {
             "v2": "bound",
             "v3": "bound"
-          }
+          },
+          "uz": "bogʻlamoq; muqovalamoq"
         },
         {
           "id": "IRV107",
@@ -1087,7 +1206,8 @@
           "forms": {
             "v2": "bred",
             "v3": "bred"
-          }
+          },
+          "uz": "koʻpaytirmoq; yetishtirmoq"
         },
         {
           "id": "IRV108",
@@ -1096,7 +1216,8 @@
           "forms": {
             "v2": "burst",
             "v3": "burst"
-          }
+          },
+          "uz": "yorilmoq; portlamoq"
         }
       ]
     },
@@ -1105,7 +1226,8 @@
       "order": 13,
       "title": {
         "en": "cast · cling · creep",
-        "ru": "Этап 5 · глаголы 9–15"
+        "ru": "Этап 5 · глаголы 9–15",
+        "uz": "5-bosqich · 9–15-feʼllar"
       },
       "phrases": [
         {
@@ -1115,7 +1237,8 @@
           "forms": {
             "v2": "cast",
             "v3": "cast"
-          }
+          },
+          "uz": "otmoq; rollarni taqsimlamoq"
         },
         {
           "id": "IRV110",
@@ -1124,7 +1247,8 @@
           "forms": {
             "v2": "clung",
             "v3": "clung"
-          }
+          },
+          "uz": "yopishmoq; chirmashmoq"
         },
         {
           "id": "IRV111",
@@ -1133,7 +1257,8 @@
           "forms": {
             "v2": "crept",
             "v3": "crept"
-          }
+          },
+          "uz": "oʻrmalamoq; sekin yaqinlashmoq"
         },
         {
           "id": "IRV112",
@@ -1142,7 +1267,8 @@
           "forms": {
             "v2": "dug",
             "v3": "dug"
-          }
+          },
+          "uz": "qazimoq"
         },
         {
           "id": "IRV113",
@@ -1151,7 +1277,8 @@
           "forms": {
             "v2": "dived/dove",
             "v3": "dived"
-          }
+          },
+          "uz": "shoʻngʻimoq"
         },
         {
           "id": "IRV114",
@@ -1160,7 +1287,8 @@
           "forms": {
             "v2": "fled",
             "v3": "fled"
-          }
+          },
+          "uz": "qochmoq; qochib qutulmoq"
         },
         {
           "id": "IRV115",
@@ -1169,7 +1297,8 @@
           "forms": {
             "v2": "flung",
             "v3": "flung"
-          }
+          },
+          "uz": "uloqtirmoq"
         }
       ]
     },
@@ -1178,7 +1307,8 @@
       "order": 14,
       "title": {
         "en": "forbid · forecast · foresee",
-        "ru": "Этап 5 · глаголы 16–22"
+        "ru": "Этап 5 · глаголы 16–22",
+        "uz": "5-bosqich · 16–22-feʼllar"
       },
       "phrases": [
         {
@@ -1188,7 +1318,8 @@
           "forms": {
             "v2": "forbade",
             "v3": "forbidden"
-          }
+          },
+          "uz": "taqiqlamoq"
         },
         {
           "id": "IRV117",
@@ -1197,7 +1328,8 @@
           "forms": {
             "v2": "forecast/forecasted",
             "v3": "forecast/forecasted"
-          }
+          },
+          "uz": "bashorat qilmoq"
         },
         {
           "id": "IRV118",
@@ -1206,7 +1338,8 @@
           "forms": {
             "v2": "foresaw",
             "v3": "foreseen"
-          }
+          },
+          "uz": "oldindan koʻra bilmoq"
         },
         {
           "id": "IRV119",
@@ -1215,7 +1348,8 @@
           "forms": {
             "v2": "foretold",
             "v3": "foretold"
-          }
+          },
+          "uz": "oldindan aytmoq"
         },
         {
           "id": "IRV120",
@@ -1224,7 +1358,8 @@
           "forms": {
             "v2": "forsook",
             "v3": "forsaken"
-          }
+          },
+          "uz": "tashlab ketmoq"
         },
         {
           "id": "IRV121",
@@ -1233,7 +1368,8 @@
           "forms": {
             "v2": "ground",
             "v3": "ground"
-          }
+          },
+          "uz": "yanchmoq; maydalamoq"
         },
         {
           "id": "IRV122",
@@ -1242,7 +1378,8 @@
           "forms": {
             "v2": "knelt/kneeled",
             "v3": "knelt/kneeled"
-          }
+          },
+          "uz": "tiz choʻkmoq"
         }
       ]
     },
@@ -1251,7 +1388,8 @@
       "order": 15,
       "title": {
         "en": "knit · lean · leap",
-        "ru": "Этап 6 · глаголы 1–8"
+        "ru": "Этап 6 · глаголы 1–8",
+        "uz": "6-bosqich · 1–8-feʼllar"
       },
       "phrases": [
         {
@@ -1261,7 +1399,8 @@
           "forms": {
             "v2": "knit/knitted",
             "v3": "knit/knitted"
-          }
+          },
+          "uz": "toʻqimoq"
         },
         {
           "id": "IRV124",
@@ -1270,7 +1409,8 @@
           "forms": {
             "v2": "leant/leaned",
             "v3": "leant/leaned"
-          }
+          },
+          "uz": "egilmoq; suyanmoq"
         },
         {
           "id": "IRV125",
@@ -1279,7 +1419,8 @@
           "forms": {
             "v2": "leapt/leaped",
             "v3": "leapt/leaped"
-          }
+          },
+          "uz": "sakramoq"
         },
         {
           "id": "IRV126",
@@ -1288,7 +1429,8 @@
           "forms": {
             "v2": "overcame",
             "v3": "overcome"
-          }
+          },
+          "uz": "yengib oʻtmoq"
         },
         {
           "id": "IRV127",
@@ -1297,7 +1439,8 @@
           "forms": {
             "v2": "overdid",
             "v3": "overdone"
-          }
+          },
+          "uz": "haddan ziyod qilmoq"
         },
         {
           "id": "IRV128",
@@ -1306,7 +1449,8 @@
           "forms": {
             "v2": "overate",
             "v3": "overeaten"
-          }
+          },
+          "uz": "haddan ziyod yemoq"
         },
         {
           "id": "IRV129",
@@ -1315,7 +1459,8 @@
           "forms": {
             "v2": "overheard",
             "v3": "overheard"
-          }
+          },
+          "uz": "tasodifan eshitib qolmoq"
         },
         {
           "id": "IRV130",
@@ -1324,7 +1469,8 @@
           "forms": {
             "v2": "overpaid",
             "v3": "overpaid"
-          }
+          },
+          "uz": "ortiqcha toʻlamoq"
         }
       ]
     },
@@ -1333,7 +1479,8 @@
       "order": 16,
       "title": {
         "en": "oversleep · overtake · overthrow",
-        "ru": "Этап 6 · глаголы 9–15"
+        "ru": "Этап 6 · глаголы 9–15",
+        "uz": "6-bosqich · 9–15-feʼllar"
       },
       "phrases": [
         {
@@ -1343,7 +1490,8 @@
           "forms": {
             "v2": "overslept",
             "v3": "overslept"
-          }
+          },
+          "uz": "uxlab qolmoq"
         },
         {
           "id": "IRV132",
@@ -1352,7 +1500,8 @@
           "forms": {
             "v2": "overtook",
             "v3": "overtaken"
-          }
+          },
+          "uz": "quvib oʻtmoq; yetib olmoq"
         },
         {
           "id": "IRV133",
@@ -1361,7 +1510,8 @@
           "forms": {
             "v2": "overthrew",
             "v3": "overthrown"
-          }
+          },
+          "uz": "agʻdarmoq"
         },
         {
           "id": "IRV134",
@@ -1370,7 +1520,8 @@
           "forms": {
             "v2": "rebuilt",
             "v3": "rebuilt"
-          }
+          },
+          "uz": "qayta qurmoq"
         },
         {
           "id": "IRV135",
@@ -1379,7 +1530,8 @@
           "forms": {
             "v2": "redid",
             "v3": "redone"
-          }
+          },
+          "uz": "qayta qilmoq"
         },
         {
           "id": "IRV136",
@@ -1388,7 +1540,8 @@
           "forms": {
             "v2": "remade",
             "v3": "remade"
-          }
+          },
+          "uz": "qayta ishlamoq; qayta suratga olmoq"
         },
         {
           "id": "IRV137",
@@ -1397,7 +1550,8 @@
           "forms": {
             "v2": "repaid",
             "v3": "repaid"
-          }
+          },
+          "uz": "qoplamoq; pulni qaytarmoq"
         }
       ]
     },
@@ -1406,7 +1560,8 @@
       "order": 17,
       "title": {
         "en": "reread · reset · retake",
-        "ru": "Этап 6 · глаголы 16–22"
+        "ru": "Этап 6 · глаголы 16–22",
+        "uz": "6-bosqich · 16–22-feʼllar"
       },
       "phrases": [
         {
@@ -1416,7 +1571,8 @@
           "forms": {
             "v2": "reread",
             "v3": "reread"
-          }
+          },
+          "uz": "qayta oʻqimoq"
         },
         {
           "id": "IRV139",
@@ -1425,7 +1581,8 @@
           "forms": {
             "v2": "reset",
             "v3": "reset"
-          }
+          },
+          "uz": "bekor qilib qaytarmoq; qaytadan oʻrnatmoq"
         },
         {
           "id": "IRV140",
@@ -1434,7 +1591,8 @@
           "forms": {
             "v2": "retook",
             "v3": "retaken"
-          }
+          },
+          "uz": "qayta topshirmoq; qaytadan olmoq"
         },
         {
           "id": "IRV141",
@@ -1443,7 +1601,8 @@
           "forms": {
             "v2": "rewrote",
             "v3": "rewritten"
-          }
+          },
+          "uz": "qayta yozmoq"
         },
         {
           "id": "IRV142",
@@ -1452,7 +1611,8 @@
           "forms": {
             "v2": "misled",
             "v3": "misled"
-          }
+          },
+          "uz": "chalgʻitmoq"
         },
         {
           "id": "IRV143",
@@ -1461,7 +1621,8 @@
           "forms": {
             "v2": "misunderstood",
             "v3": "misunderstood"
-          }
+          },
+          "uz": "notoʻgʻri tushunmoq"
         },
         {
           "id": "IRV144",
@@ -1470,7 +1631,8 @@
           "forms": {
             "v2": "input/inputted",
             "v3": "input/inputted"
-          }
+          },
+          "uz": "maʼlumot kiritmoq"
         }
       ]
     },
@@ -1479,7 +1641,8 @@
       "order": 18,
       "title": {
         "en": "broadcast · unfreeze · uphold",
-        "ru": "Этап 7 · глаголы 1–8"
+        "ru": "Этап 7 · глаголы 1–8",
+        "uz": "7-bosqich · 1–8-feʼllar"
       },
       "phrases": [
         {
@@ -1489,7 +1652,8 @@
           "forms": {
             "v2": "broadcast/broadcasted",
             "v3": "broadcast/broadcasted"
-          }
+          },
+          "uz": "efirga uzatmoq"
         },
         {
           "id": "IRV146",
@@ -1498,7 +1662,8 @@
           "forms": {
             "v2": "unfroze",
             "v3": "unfrozen"
-          }
+          },
+          "uz": "muzdan tushirmoq"
         },
         {
           "id": "IRV147",
@@ -1507,7 +1672,8 @@
           "forms": {
             "v2": "upheld",
             "v3": "upheld"
-          }
+          },
+          "uz": "qoʻllab-quvvatlamoq; himoya qilmoq"
         },
         {
           "id": "IRV148",
@@ -1516,7 +1682,8 @@
           "forms": {
             "v2": "upset",
             "v3": "upset"
-          }
+          },
+          "uz": "xafa qilmoq; agʻdarib yubormoq"
         },
         {
           "id": "IRV149",
@@ -1525,7 +1692,8 @@
           "forms": {
             "v2": "undid",
             "v3": "undone"
-          }
+          },
+          "uz": "bekor qilmoq; yechmoq"
         },
         {
           "id": "IRV150",
@@ -1534,7 +1702,8 @@
           "forms": {
             "v2": "undertook",
             "v3": "undertaken"
-          }
+          },
+          "uz": "qoʻl urmoq; zimmasiga olmoq"
         },
         {
           "id": "IRV151",
@@ -1543,7 +1712,8 @@
           "forms": {
             "v2": "underwent",
             "v3": "undergone"
-          }
+          },
+          "uz": "boshidan kechirmoq; duchor boʻlmoq"
         },
         {
           "id": "IRV152",
@@ -1552,7 +1722,8 @@
           "forms": {
             "v2": "withdrew",
             "v3": "withdrawn"
-          }
+          },
+          "uz": "qaytarib olmoq; chaqirib olmoq"
         }
       ]
     },
@@ -1561,7 +1732,8 @@
       "order": 19,
       "title": {
         "en": "withhold · withstand · speed",
-        "ru": "Этап 7 · глаголы 9–15"
+        "ru": "Этап 7 · глаголы 9–15",
+        "uz": "7-bosqich · 9–15-feʼllar"
       },
       "phrases": [
         {
@@ -1571,7 +1743,8 @@
           "forms": {
             "v2": "withheld",
             "v3": "withheld"
-          }
+          },
+          "uz": "ushlab qolmoq; bermaslik"
         },
         {
           "id": "IRV154",
@@ -1580,7 +1753,8 @@
           "forms": {
             "v2": "withstood",
             "v3": "withstood"
-          }
+          },
+          "uz": "bardosh bermoq; qarshi turmoq"
         },
         {
           "id": "IRV155",
@@ -1589,7 +1763,8 @@
           "forms": {
             "v2": "sped/speeded",
             "v3": "sped/speeded"
-          }
+          },
+          "uz": "tezlashmoq; shiddat bilan ketmoq"
         },
         {
           "id": "IRV156",
@@ -1598,7 +1773,8 @@
           "forms": {
             "v2": "spelt/spelled",
             "v3": "spelt/spelled"
-          }
+          },
+          "uz": "harflab aytmoq"
         },
         {
           "id": "IRV157",
@@ -1607,7 +1783,8 @@
           "forms": {
             "v2": "spilt/spilled",
             "v3": "spilt/spilled"
-          }
+          },
+          "uz": "toʻkmoq; sochmoq"
         },
         {
           "id": "IRV158",
@@ -1616,7 +1793,8 @@
           "forms": {
             "v2": "split",
             "v3": "split"
-          }
+          },
+          "uz": "boʻlmoq; yormoq"
         },
         {
           "id": "IRV159",
@@ -1625,7 +1803,8 @@
           "forms": {
             "v2": "sprang/sprung",
             "v3": "sprung"
-          }
+          },
+          "uz": "otilib chiqmoq; paydo boʻlmoq"
         }
       ]
     },
@@ -1634,7 +1813,8 @@
       "order": 20,
       "title": {
         "en": "strike · strive · thrive",
-        "ru": "Этап 7 · глаголы 16–22"
+        "ru": "Этап 7 · глаголы 16–22",
+        "uz": "7-bosqich · 16–22-feʼllar"
       },
       "phrases": [
         {
@@ -1644,7 +1824,8 @@
           "forms": {
             "v2": "struck",
             "v3": "struck/stricken"
-          }
+          },
+          "uz": "zarba bermoq; ish tashlamoq"
         },
         {
           "id": "IRV161",
@@ -1653,7 +1834,8 @@
           "forms": {
             "v2": "strove/strived",
             "v3": "striven/strived"
-          }
+          },
+          "uz": "intilmoq"
         },
         {
           "id": "IRV162",
@@ -1662,7 +1844,8 @@
           "forms": {
             "v2": "throve/thrived",
             "v3": "thriven/thrived"
-          }
+          },
+          "uz": "gullab-yashnamoq"
         },
         {
           "id": "IRV163",
@@ -1671,7 +1854,8 @@
           "forms": {
             "v2": "thrust",
             "v3": "thrust"
-          }
+          },
+          "uz": "itarmoq; surib kirgizmoq"
         },
         {
           "id": "IRV164",
@@ -1680,7 +1864,8 @@
           "forms": {
             "v2": "trod",
             "v3": "trodden/trod"
-          }
+          },
+          "uz": "qadam bosmoq; bosib yurmoq"
         },
         {
           "id": "IRV165",
@@ -1689,7 +1874,8 @@
           "forms": {
             "v2": "wound",
             "v3": "wound"
-          }
+          },
+          "uz": "oʻramoq; mexanizmni burab qoʻymoq"
         },
         {
           "id": "IRV166",
@@ -1698,7 +1884,8 @@
           "forms": {
             "v2": "shone/shined",
             "v3": "shone/shined"
-          }
+          },
+          "uz": "porlamoq; nur sochmoq; yaltiratmoq"
         }
       ]
     },
@@ -1707,7 +1894,8 @@
       "order": 21,
       "title": {
         "en": "shrink · spit · sling",
-        "ru": "Этап 8 · глаголы 1–8"
+        "ru": "Этап 8 · глаголы 1–8",
+        "uz": "8-bosqich · 1–8-feʼllar"
       },
       "phrases": [
         {
@@ -1717,7 +1905,8 @@
           "forms": {
             "v2": "shrank/shrunk",
             "v3": "shrunk/shrunken"
-          }
+          },
+          "uz": "qisqarmoq; kichraymoq"
         },
         {
           "id": "IRV168",
@@ -1726,7 +1915,8 @@
           "forms": {
             "v2": "spat/spit",
             "v3": "spat/spit"
-          }
+          },
+          "uz": "tupurmoq"
         },
         {
           "id": "IRV169",
@@ -1735,7 +1925,8 @@
           "forms": {
             "v2": "slung",
             "v3": "slung"
-          }
+          },
+          "uz": "irgʻitmoq; osib qoʻymoq"
         },
         {
           "id": "IRV170",
@@ -1744,7 +1935,8 @@
           "forms": {
             "v2": "slunk",
             "v3": "slunk"
-          }
+          },
+          "uz": "pusib yurmoq"
         },
         {
           "id": "IRV171",
@@ -1753,7 +1945,8 @@
           "forms": {
             "v2": "slit",
             "v3": "slit"
-          }
+          },
+          "uz": "uzunasiga kesmoq"
         },
         {
           "id": "IRV172",
@@ -1762,7 +1955,8 @@
           "forms": {
             "v2": "stung",
             "v3": "stung"
-          }
+          },
+          "uz": "chaqmoq"
         },
         {
           "id": "IRV173",
@@ -1771,7 +1965,8 @@
           "forms": {
             "v2": "stank/stunk",
             "v3": "stunk"
-          }
+          },
+          "uz": "sassiq hid taratmoq"
         },
         {
           "id": "IRV174",
@@ -1780,7 +1975,8 @@
           "forms": {
             "v2": "strode",
             "v3": "stridden"
-          }
+          },
+          "uz": "keng qadam tashlamoq"
         }
       ]
     },
@@ -1789,7 +1985,8 @@
       "order": 22,
       "title": {
         "en": "string · swell · weave",
-        "ru": "Этап 8 · глаголы 9–15"
+        "ru": "Этап 8 · глаголы 9–15",
+        "uz": "8-bosqich · 9–15-feʼllar"
       },
       "phrases": [
         {
@@ -1799,7 +1996,8 @@
           "forms": {
             "v2": "strung",
             "v3": "strung"
-          }
+          },
+          "uz": "tizmoq; tor tortmoq"
         },
         {
           "id": "IRV176",
@@ -1808,7 +2006,8 @@
           "forms": {
             "v2": "swelled",
             "v3": "swollen/swelled"
-          }
+          },
+          "uz": "shishmoq; boʻrtmoq"
         },
         {
           "id": "IRV177",
@@ -1817,7 +2016,8 @@
           "forms": {
             "v2": "wove/weaved",
             "v3": "woven/weaved"
-          }
+          },
+          "uz": "toʻqimoq; chirmashtirmoq"
         },
         {
           "id": "IRV178",
@@ -1826,7 +2026,8 @@
           "forms": {
             "v2": "wept",
             "v3": "wept"
-          }
+          },
+          "uz": "yigʻlamoq"
         },
         {
           "id": "IRV179",
@@ -1835,7 +2036,8 @@
           "forms": {
             "v2": "wet/wetted",
             "v3": "wet/wetted"
-          }
+          },
+          "uz": "hoʻllamoq; namlamoq"
         },
         {
           "id": "IRV180",
@@ -1844,7 +2046,8 @@
           "forms": {
             "v2": "wrung",
             "v3": "wrung"
-          }
+          },
+          "uz": "burab siqmoq; siqib suvini chiqarmoq"
         },
         {
           "id": "IRV181",
@@ -1853,7 +2056,8 @@
           "forms": {
             "v2": "abode/abided",
             "v3": "abode/abided"
-          }
+          },
+          "uz": "amal qilmoq; chidamoq"
         }
       ]
     },
@@ -1862,7 +2066,8 @@
       "order": 23,
       "title": {
         "en": "befall · beget · behold",
-        "ru": "Этап 8 · глаголы 16–22"
+        "ru": "Этап 8 · глаголы 16–22",
+        "uz": "8-bosqich · 16–22-feʼllar"
       },
       "phrases": [
         {
@@ -1872,7 +2077,8 @@
           "forms": {
             "v2": "befell",
             "v3": "befallen"
-          }
+          },
+          "uz": "yuz bermoq; boshiga tushmoq"
         },
         {
           "id": "IRV183",
@@ -1881,7 +2087,8 @@
           "forms": {
             "v2": "begot",
             "v3": "begotten"
-          }
+          },
+          "uz": "vujudga keltirmoq"
         },
         {
           "id": "IRV184",
@@ -1890,7 +2097,8 @@
           "forms": {
             "v2": "beheld",
             "v3": "beheld"
-          }
+          },
+          "uz": "nazar solmoq; koʻrmoq"
         },
         {
           "id": "IRV185",
@@ -1899,7 +2107,8 @@
           "forms": {
             "v2": "bereaved/bereft",
             "v3": "bereaved/bereft"
-          }
+          },
+          "uz": "yaqinidan judo qilmoq"
         },
         {
           "id": "IRV186",
@@ -1908,7 +2117,8 @@
           "forms": {
             "v2": "besought/beseeched",
             "v3": "besought/beseeched"
-          }
+          },
+          "uz": "yolvormoq"
         },
         {
           "id": "IRV187",
@@ -1917,7 +2127,8 @@
           "forms": {
             "v2": "beset",
             "v3": "beset"
-          }
+          },
+          "uz": "qurshab olmoq; qiyinchilik bilan oʻramoq"
         },
         {
           "id": "IRV188",
@@ -1926,7 +2137,8 @@
           "forms": {
             "v2": "bet/betted",
             "v3": "bet/betted"
-          }
+          },
+          "uz": "garov boylashmoq"
         }
       ]
     },
@@ -1935,7 +2147,8 @@
       "order": 24,
       "title": {
         "en": "bid · bleed · browbeat",
-        "ru": "Этап 9 · глаголы 1–7"
+        "ru": "Этап 9 · глаголы 1–7",
+        "uz": "9-bosqich · 1–7-feʼllar"
       },
       "phrases": [
         {
@@ -1945,7 +2158,8 @@
           "forms": {
             "v2": "bid/bade",
             "v3": "bid/bidden"
-          }
+          },
+          "uz": "narx taklif qilmoq; buyurmoq"
         },
         {
           "id": "IRV190",
@@ -1954,7 +2168,8 @@
           "forms": {
             "v2": "bled",
             "v3": "bled"
-          }
+          },
+          "uz": "qon ketmoq"
         },
         {
           "id": "IRV191",
@@ -1963,7 +2178,8 @@
           "forms": {
             "v2": "browbeat",
             "v3": "browbeaten"
-          }
+          },
+          "uz": "qoʻrqitib boʻysundirmoq"
         },
         {
           "id": "IRV192",
@@ -1972,7 +2188,8 @@
           "forms": {
             "v2": "bust/busted",
             "v3": "bust/busted"
-          }
+          },
+          "uz": "sindirmoq; xonavayron qilmoq"
         },
         {
           "id": "IRV193",
@@ -1981,7 +2198,8 @@
           "forms": {
             "v2": "chid/chided",
             "v3": "chid/chidden/chided"
-          }
+          },
+          "uz": "koyimoq"
         },
         {
           "id": "IRV194",
@@ -1990,7 +2208,8 @@
           "forms": {
             "v2": "clothed/clad",
             "v3": "clothed/clad"
-          }
+          },
+          "uz": "kiyintirmoq"
         },
         {
           "id": "IRV195",
@@ -1999,7 +2218,8 @@
           "forms": {
             "v2": "dwelt/dwelled",
             "v3": "dwelt/dwelled"
-          }
+          },
+          "uz": "yashamoq; istiqomat qilmoq"
         }
       ]
     },
@@ -2008,7 +2228,8 @@
       "order": 25,
       "title": {
         "en": "fit · gild · gird",
-        "ru": "Этап 9 · глаголы 8–14"
+        "ru": "Этап 9 · глаголы 8–14",
+        "uz": "9-bosqich · 8–14-feʼllar"
       },
       "phrases": [
         {
@@ -2018,7 +2239,8 @@
           "forms": {
             "v2": "fit/fitted",
             "v3": "fit/fitted"
-          }
+          },
+          "uz": "oʻlchamiga mos kelmoq"
         },
         {
           "id": "IRV197",
@@ -2027,7 +2249,8 @@
           "forms": {
             "v2": "gilt/gilded",
             "v3": "gilt/gilded"
-          }
+          },
+          "uz": "zarhal qoplamoq"
         },
         {
           "id": "IRV198",
@@ -2036,7 +2259,8 @@
           "forms": {
             "v2": "girded/girt",
             "v3": "girded/girt"
-          }
+          },
+          "uz": "belbogʻ bogʻlamoq"
         },
         {
           "id": "IRV199",
@@ -2045,7 +2269,8 @@
           "forms": {
             "v2": "hewed",
             "v3": "hewn/hewed"
-          }
+          },
+          "uz": "chopmoq; yoʻnmoq"
         },
         {
           "id": "IRV200",
@@ -2054,7 +2279,8 @@
           "forms": {
             "v2": "hit",
             "v3": "hit"
-          }
+          },
+          "uz": "urmoq"
         },
         {
           "id": "IRV201",
@@ -2063,7 +2289,8 @@
           "forms": {
             "v2": "inlaid",
             "v3": "inlaid"
-          }
+          },
+          "uz": "naqsh solib qoplamoq"
         },
         {
           "id": "IRV202",
@@ -2072,7 +2299,8 @@
           "forms": {
             "v2": "interwove/interweaved",
             "v3": "interwoven/interweaved"
-          }
+          },
+          "uz": "bir-biriga chirmashtirmoq"
         }
       ]
     },
@@ -2081,7 +2309,8 @@
       "order": 26,
       "title": {
         "en": "mistake · mow · overdraw",
-        "ru": "Этап 9 · глаголы 15–21"
+        "ru": "Этап 9 · глаголы 15–21",
+        "uz": "9-bosqich · 15–21-feʼllar"
       },
       "phrases": [
         {
@@ -2091,7 +2320,8 @@
           "forms": {
             "v2": "mistook",
             "v3": "mistaken"
-          }
+          },
+          "uz": "adashib boshqasi deb oʻylamoq; chalkashtirmoq"
         },
         {
           "id": "IRV204",
@@ -2100,7 +2330,8 @@
           "forms": {
             "v2": "mowed",
             "v3": "mown/mowed"
-          }
+          },
+          "uz": "oʻrmoq"
         },
         {
           "id": "IRV205",
@@ -2109,7 +2340,8 @@
           "forms": {
             "v2": "overdrew",
             "v3": "overdrawn"
-          }
+          },
+          "uz": "hisobdagidan ortiq pul yechmoq"
         },
         {
           "id": "IRV206",
@@ -2118,7 +2350,8 @@
           "forms": {
             "v2": "overlaid",
             "v3": "overlaid"
-          }
+          },
+          "uz": "ustidan qoplamoq"
         },
         {
           "id": "IRV207",
@@ -2127,7 +2360,8 @@
           "forms": {
             "v2": "overrode",
             "v3": "overridden"
-          }
+          },
+          "uz": "bekor qilib yubormoq; ustun turmoq"
         },
         {
           "id": "IRV208",
@@ -2136,7 +2370,8 @@
           "forms": {
             "v2": "overran",
             "v3": "overrun"
-          }
+          },
+          "uz": "bosib ketmoq; egallab olmoq"
         },
         {
           "id": "IRV209",
@@ -2145,7 +2380,8 @@
           "forms": {
             "v2": "oversaw",
             "v3": "overseen"
-          }
+          },
+          "uz": "nazorat qilmoq; boshqarmoq"
         }
       ]
     },
@@ -2154,7 +2390,8 @@
       "order": 27,
       "title": {
         "en": "overshoot · plead · rend",
-        "ru": "Этап 10 · глаголы 1–7"
+        "ru": "Этап 10 · глаголы 1–7",
+        "uz": "10-bosqich · 1–7-feʼllar"
       },
       "phrases": [
         {
@@ -2164,7 +2401,8 @@
           "forms": {
             "v2": "overshot",
             "v3": "overshot"
-          }
+          },
+          "uz": "moʻljaldan oshib ketmoq"
         },
         {
           "id": "IRV211",
@@ -2173,7 +2411,8 @@
           "forms": {
             "v2": "pleaded/pled",
             "v3": "pleaded/pled"
-          }
+          },
+          "uz": "iltijo qilmoq; sudda bayonot bermoq"
         },
         {
           "id": "IRV212",
@@ -2182,7 +2421,8 @@
           "forms": {
             "v2": "rent",
             "v3": "rent"
-          }
+          },
+          "uz": "tilka-pora qilmoq"
         },
         {
           "id": "IRV213",
@@ -2191,7 +2431,8 @@
           "forms": {
             "v2": "rid/ridded",
             "v3": "rid/ridded"
-          }
+          },
+          "uz": "xalos qilmoq"
         },
         {
           "id": "IRV214",
@@ -2200,7 +2441,8 @@
           "forms": {
             "v2": "rived",
             "v3": "riven/rived"
-          }
+          },
+          "uz": "yorib yubormoq"
         },
         {
           "id": "IRV215",
@@ -2209,7 +2451,8 @@
           "forms": {
             "v2": "sawed",
             "v3": "sawn/sawed"
-          }
+          },
+          "uz": "arralamoq"
         },
         {
           "id": "IRV216",
@@ -2218,7 +2461,8 @@
           "forms": {
             "v2": "sewed",
             "v3": "sewn/sewed"
-          }
+          },
+          "uz": "tikmoq"
         }
       ]
     },
@@ -2227,7 +2471,8 @@
       "order": 28,
       "title": {
         "en": "shave · shear · shed",
-        "ru": "Этап 10 · глаголы 8–14"
+        "ru": "Этап 10 · глаголы 8–14",
+        "uz": "10-bosqich · 8–14-feʼllar"
       },
       "phrases": [
         {
@@ -2237,7 +2482,8 @@
           "forms": {
             "v2": "shaved",
             "v3": "shaved/shaven"
-          }
+          },
+          "uz": "soqol olmoq"
         },
         {
           "id": "IRV218",
@@ -2246,7 +2492,8 @@
           "forms": {
             "v2": "sheared",
             "v3": "shorn/sheared"
-          }
+          },
+          "uz": "qirqmoq; kesib olmoq"
         },
         {
           "id": "IRV219",
@@ -2255,7 +2502,8 @@
           "forms": {
             "v2": "shed",
             "v3": "shed"
-          }
+          },
+          "uz": "toʻkmoq; tashlab yubormoq"
         },
         {
           "id": "IRV220",
@@ -2264,7 +2512,8 @@
           "forms": {
             "v2": "shod/shoed",
             "v3": "shod/shoed"
-          }
+          },
+          "uz": "taqa qoqmoq; oyoq kiyim kiydirmoq"
         },
         {
           "id": "IRV221",
@@ -2273,7 +2522,8 @@
           "forms": {
             "v2": "shrove/shrived",
             "v3": "shriven/shrived"
-          }
+          },
+          "uz": "gunohdan forigʻ qilmoq"
         },
         {
           "id": "IRV222",
@@ -2282,7 +2532,8 @@
           "forms": {
             "v2": "slew",
             "v3": "slain"
-          }
+          },
+          "uz": "oʻldirmoq"
         },
         {
           "id": "IRV223",
@@ -2291,7 +2542,8 @@
           "forms": {
             "v2": "smote",
             "v3": "smitten"
-          }
+          },
+          "uz": "qattiq urmoq"
         }
       ]
     },
@@ -2300,7 +2552,8 @@
       "order": 29,
       "title": {
         "en": "sow · spin · spoil",
-        "ru": "Этап 10 · глаголы 15–21"
+        "ru": "Этап 10 · глаголы 15–21",
+        "uz": "10-bosqich · 15–21-feʼllar"
       },
       "phrases": [
         {
@@ -2310,7 +2563,8 @@
           "forms": {
             "v2": "sowed",
             "v3": "sown/sowed"
-          }
+          },
+          "uz": "ekmoq"
         },
         {
           "id": "IRV225",
@@ -2319,7 +2573,8 @@
           "forms": {
             "v2": "spun",
             "v3": "spun"
-          }
+          },
+          "uz": "aylantirmoq; yigirmoq"
         },
         {
           "id": "IRV226",
@@ -2328,7 +2583,8 @@
           "forms": {
             "v2": "spoilt/spoiled",
             "v3": "spoilt/spoiled"
-          }
+          },
+          "uz": "buzmoq"
         },
         {
           "id": "IRV227",
@@ -2337,7 +2593,8 @@
           "forms": {
             "v2": "swore",
             "v3": "sworn"
-          }
+          },
+          "uz": "qasam ichmoq; soʻkinmoq"
         },
         {
           "id": "IRV228",
@@ -2346,7 +2603,8 @@
           "forms": {
             "v2": "underlay",
             "v3": "underlain"
-          }
+          },
+          "uz": "asosida yotmoq"
         },
         {
           "id": "IRV229",
@@ -2355,7 +2613,8 @@
           "forms": {
             "v2": "waylaid",
             "v3": "waylaid"
-          }
+          },
+          "uz": "poylab turmoq"
         },
         {
           "id": "IRV230",
@@ -2364,7 +2623,8 @@
           "forms": {
             "v2": "wed/wedded",
             "v3": "wed/wedded"
-          }
+          },
+          "uz": "turmush qurmoq"
         }
       ]
     }

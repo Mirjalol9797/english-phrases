@@ -190,11 +190,13 @@
       "kind": "verbs",
       "title": {
         "en": "Irregular Verbs",
-        "ru": "Неправильные глаголы"
+        "ru": "Неправильные глаголы",
+        "uz": "Notoʻgʻri feʼllar"
       },
       "file": "chapters/irregular-verbs.json",
       "lessonCount": 29,
-      "phraseCount": 230
+      "phraseCount": 230,
+      "translatedUz": true
     },
     {
       "id": "oxford-a1",

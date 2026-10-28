@@ -1,0 +1,1188 @@
+{
+  "chapter": "irregular-verbs",
+  "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Notoʻgʻri feʼllar",
+  "lessons": {
+    "Этап 1 · глаголы 1–10": "1-bosqich · 1–10-feʼllar",
+    "Этап 1 · глаголы 11–20": "1-bosqich · 11–20-feʼllar",
+    "Этап 1 · глаголы 21–30": "1-bosqich · 21–30-feʼllar",
+    "Этап 2 · глаголы 1–10": "2-bosqich · 1–10-feʼllar",
+    "Этап 2 · глаголы 11–20": "2-bosqich · 11–20-feʼllar",
+    "Этап 3 · глаголы 1–9": "3-bosqich · 1–9-feʼllar",
+    "Этап 3 · глаголы 10–17": "3-bosqich · 10–17-feʼllar",
+    "Этап 3 · глаголы 18–25": "3-bosqich · 18–25-feʼllar",
+    "Этап 4 · глаголы 1–9": "4-bosqich · 1–9-feʼllar",
+    "Этап 4 · глаголы 10–17": "4-bosqich · 10–17-feʼllar",
+    "Этап 4 · глаголы 18–25": "4-bosqich · 18–25-feʼllar",
+    "Этап 5 · глаголы 1–8": "5-bosqich · 1–8-feʼllar",
+    "Этап 5 · глаголы 9–15": "5-bosqich · 9–15-feʼllar",
+    "Этап 5 · глаголы 16–22": "5-bosqich · 16–22-feʼllar",
+    "Этап 6 · глаголы 1–8": "6-bosqich · 1–8-feʼllar",
+    "Этап 6 · глаголы 9–15": "6-bosqich · 9–15-feʼllar",
+    "Этап 6 · глаголы 16–22": "6-bosqich · 16–22-feʼllar",
+    "Этап 7 · глаголы 1–8": "7-bosqich · 1–8-feʼllar",
+    "Этап 7 · глаголы 9–15": "7-bosqich · 9–15-feʼllar",
+    "Этап 7 · глаголы 16–22": "7-bosqich · 16–22-feʼllar",
+    "Этап 8 · глаголы 1–8": "8-bosqich · 1–8-feʼllar",
+    "Этап 8 · глаголы 9–15": "8-bosqich · 9–15-feʼllar",
+    "Этап 8 · глаголы 16–22": "8-bosqich · 16–22-feʼllar",
+    "Этап 9 · глаголы 1–7": "9-bosqich · 1–7-feʼllar",
+    "Этап 9 · глаголы 8–14": "9-bosqich · 8–14-feʼllar",
+    "Этап 9 · глаголы 15–21": "9-bosqich · 15–21-feʼllar",
+    "Этап 10 · глаголы 1–7": "10-bosqich · 1–7-feʼllar",
+    "Этап 10 · глаголы 8–14": "10-bosqich · 8–14-feʼllar",
+    "Этап 10 · глаголы 15–21": "10-bosqich · 15–21-feʼllar"
+  },
+  "entries": [
+    {
+      "en": "be",
+      "ru": "быть; находиться",
+      "uz": "boʻlmoq; turmoq"
+    },
+    {
+      "en": "have",
+      "ru": "иметь",
+      "uz": "ega boʻlmoq"
+    },
+    {
+      "en": "do",
+      "ru": "делать",
+      "uz": "qilmoq"
+    },
+    {
+      "en": "go",
+      "ru": "идти; ехать",
+      "uz": "bormoq; ketmoq"
+    },
+    {
+      "en": "get",
+      "ru": "получать; становиться",
+      "uz": "olmoq; boʻlib qolmoq"
+    },
+    {
+      "en": "make",
+      "ru": "делать; создавать",
+      "uz": "yasamoq; yaratmoq"
+    },
+    {
+      "en": "take",
+      "ru": "брать",
+      "uz": "olmoq"
+    },
+    {
+      "en": "come",
+      "ru": "приходить; приезжать",
+      "uz": "kelmoq"
+    },
+    {
+      "en": "see",
+      "ru": "видеть",
+      "uz": "koʻrmoq"
+    },
+    {
+      "en": "know",
+      "ru": "знать",
+      "uz": "bilmoq"
+    },
+    {
+      "en": "think",
+      "ru": "думать",
+      "uz": "oʻylamoq"
+    },
+    {
+      "en": "say",
+      "ru": "говорить; сказать",
+      "uz": "aytmoq"
+    },
+    {
+      "en": "give",
+      "ru": "давать",
+      "uz": "bermoq"
+    },
+    {
+      "en": "find",
+      "ru": "находить",
+      "uz": "topmoq"
+    },
+    {
+      "en": "tell",
+      "ru": "рассказывать; говорить",
+      "uz": "aytib bermoq; soʻzlab bermoq"
+    },
+    {
+      "en": "feel",
+      "ru": "чувствовать",
+      "uz": "his qilmoq"
+    },
+    {
+      "en": "leave",
+      "ru": "уходить; оставлять",
+      "uz": "ketmoq; qoldirmoq"
+    },
+    {
+      "en": "put",
+      "ru": "класть; ставить",
+      "uz": "qoʻymoq"
+    },
+    {
+      "en": "bring",
+      "ru": "приносить; привозить",
+      "uz": "olib kelmoq"
+    },
+    {
+      "en": "begin",
+      "ru": "начинать(ся)",
+      "uz": "boshlamoq; boshlanmoq"
+    },
+    {
+      "en": "keep",
+      "ru": "держать; хранить",
+      "uz": "saqlamoq"
+    },
+    {
+      "en": "hold",
+      "ru": "держать",
+      "uz": "ushlab turmoq"
+    },
+    {
+      "en": "write",
+      "ru": "писать",
+      "uz": "yozmoq"
+    },
+    {
+      "en": "speak",
+      "ru": "говорить",
+      "uz": "gapirmoq"
+    },
+    {
+      "en": "read",
+      "ru": "читать",
+      "uz": "oʻqimoq"
+    },
+    {
+      "en": "eat",
+      "ru": "есть",
+      "uz": "yemoq"
+    },
+    {
+      "en": "drink",
+      "ru": "пить",
+      "uz": "ichmoq"
+    },
+    {
+      "en": "buy",
+      "ru": "покупать",
+      "uz": "sotib olmoq"
+    },
+    {
+      "en": "pay",
+      "ru": "платить",
+      "uz": "toʻlamoq"
+    },
+    {
+      "en": "meet",
+      "ru": "встречать(ся)",
+      "uz": "uchrashmoq"
+    },
+    {
+      "en": "hear",
+      "ru": "слышать",
+      "uz": "eshitmoq"
+    },
+    {
+      "en": "run",
+      "ru": "бежать",
+      "uz": "yugurmoq"
+    },
+    {
+      "en": "sit",
+      "ru": "сидеть",
+      "uz": "oʻtirmoq"
+    },
+    {
+      "en": "stand",
+      "ru": "стоять",
+      "uz": "turmoq"
+    },
+    {
+      "en": "sleep",
+      "ru": "спать",
+      "uz": "uxlamoq"
+    },
+    {
+      "en": "send",
+      "ru": "отправлять",
+      "uz": "yubormoq"
+    },
+    {
+      "en": "spend",
+      "ru": "тратить; проводить время",
+      "uz": "sarflamoq; vaqt oʻtkazmoq"
+    },
+    {
+      "en": "win",
+      "ru": "побеждать; выигрывать",
+      "uz": "gʻalaba qozonmoq; yutmoq"
+    },
+    {
+      "en": "lose",
+      "ru": "терять; проигрывать",
+      "uz": "yoʻqotmoq; yutqazmoq"
+    },
+    {
+      "en": "fall",
+      "ru": "падать",
+      "uz": "yiqilmoq"
+    },
+    {
+      "en": "forget",
+      "ru": "забывать",
+      "uz": "unutmoq"
+    },
+    {
+      "en": "understand",
+      "ru": "понимать",
+      "uz": "tushunmoq"
+    },
+    {
+      "en": "build",
+      "ru": "строить",
+      "uz": "qurmoq"
+    },
+    {
+      "en": "break",
+      "ru": "ломать; разбивать",
+      "uz": "sindirmoq"
+    },
+    {
+      "en": "choose",
+      "ru": "выбирать",
+      "uz": "tanlamoq"
+    },
+    {
+      "en": "drive",
+      "ru": "водить; ехать на машине",
+      "uz": "mashina haydamoq"
+    },
+    {
+      "en": "wear",
+      "ru": "носить (одежду)",
+      "uz": "kiyib yurmoq"
+    },
+    {
+      "en": "teach",
+      "ru": "учить; преподавать",
+      "uz": "oʻrgatmoq; dars bermoq"
+    },
+    {
+      "en": "learn",
+      "ru": "учить; узнавать",
+      "uz": "oʻrganmoq; bilib olmoq"
+    },
+    {
+      "en": "become",
+      "ru": "становиться",
+      "uz": "boʻlmoq"
+    },
+    {
+      "en": "show",
+      "ru": "показывать",
+      "uz": "koʻrsatmoq"
+    },
+    {
+      "en": "catch",
+      "ru": "ловить; поймать",
+      "uz": "tutmoq"
+    },
+    {
+      "en": "cut",
+      "ru": "резать",
+      "uz": "kesmoq"
+    },
+    {
+      "en": "cost",
+      "ru": "стоить",
+      "uz": "narxi boʻlmoq"
+    },
+    {
+      "en": "draw",
+      "ru": "рисовать; тянуть",
+      "uz": "chizmoq; tortmoq"
+    },
+    {
+      "en": "fight",
+      "ru": "драться; бороться",
+      "uz": "urishmoq; kurashmoq"
+    },
+    {
+      "en": "fly",
+      "ru": "летать",
+      "uz": "uchmoq"
+    },
+    {
+      "en": "grow",
+      "ru": "расти; выращивать",
+      "uz": "oʻsmoq; yetishtirmoq"
+    },
+    {
+      "en": "let",
+      "ru": "позволять",
+      "uz": "ruxsat bermoq"
+    },
+    {
+      "en": "lie",
+      "ru": "лежать",
+      "uz": "yotmoq"
+    },
+    {
+      "en": "mean",
+      "ru": "значить; иметь в виду",
+      "uz": "anglatmoq; nazarda tutmoq"
+    },
+    {
+      "en": "ride",
+      "ru": "ездить верхом; кататься",
+      "uz": "minmoq"
+    },
+    {
+      "en": "ring",
+      "ru": "звонить",
+      "uz": "jiringlamoq"
+    },
+    {
+      "en": "rise",
+      "ru": "подниматься",
+      "uz": "koʻtarilmoq"
+    },
+    {
+      "en": "sell",
+      "ru": "продавать",
+      "uz": "sotmoq"
+    },
+    {
+      "en": "shake",
+      "ru": "трясти",
+      "uz": "silkitmoq"
+    },
+    {
+      "en": "shoot",
+      "ru": "стрелять",
+      "uz": "otmoq"
+    },
+    {
+      "en": "shut",
+      "ru": "закрывать",
+      "uz": "yopmoq"
+    },
+    {
+      "en": "sing",
+      "ru": "петь",
+      "uz": "kuylamoq"
+    },
+    {
+      "en": "sink",
+      "ru": "тонуть; погружаться",
+      "uz": "choʻkmoq"
+    },
+    {
+      "en": "slide",
+      "ru": "скользить",
+      "uz": "sirgʻalmoq"
+    },
+    {
+      "en": "smell",
+      "ru": "пахнуть; нюхать",
+      "uz": "hidlanmoq; hidlamoq"
+    },
+    {
+      "en": "swim",
+      "ru": "плавать",
+      "uz": "suzmoq"
+    },
+    {
+      "en": "swing",
+      "ru": "качать(ся); размахивать",
+      "uz": "tebranmoq; silkimoq"
+    },
+    {
+      "en": "throw",
+      "ru": "бросать",
+      "uz": "tashlamoq"
+    },
+    {
+      "en": "wake",
+      "ru": "просыпаться; будить",
+      "uz": "uygʻonmoq; uygʻotmoq"
+    },
+    {
+      "en": "feed",
+      "ru": "кормить",
+      "uz": "boqmoq"
+    },
+    {
+      "en": "freeze",
+      "ru": "замерзать; замораживать",
+      "uz": "muzlamoq; muzlatmoq"
+    },
+    {
+      "en": "hide",
+      "ru": "прятать(ся)",
+      "uz": "yashirmoq; yashirinmoq"
+    },
+    {
+      "en": "lead",
+      "ru": "вести; руководить",
+      "uz": "yetaklamoq; boshqarmoq"
+    },
+    {
+      "en": "lend",
+      "ru": "одалживать кому-либо",
+      "uz": "qarzga bermoq"
+    },
+    {
+      "en": "light",
+      "ru": "зажигать; освещать",
+      "uz": "yoqmoq; yoritmoq"
+    },
+    {
+      "en": "prove",
+      "ru": "доказывать",
+      "uz": "isbotlamoq"
+    },
+    {
+      "en": "quit",
+      "ru": "бросать; прекращать",
+      "uz": "tashlamoq; toʻxtatmoq"
+    },
+    {
+      "en": "set",
+      "ru": "устанавливать; ставить",
+      "uz": "oʻrnatmoq; qoʻymoq"
+    },
+    {
+      "en": "stick",
+      "ru": "приклеивать; застревать",
+      "uz": "yopishtirmoq; tiqilib qolmoq"
+    },
+    {
+      "en": "tear",
+      "ru": "рвать",
+      "uz": "yirtmoq"
+    },
+    {
+      "en": "bite",
+      "ru": "кусать",
+      "uz": "tishlamoq"
+    },
+    {
+      "en": "blow",
+      "ru": "дуть",
+      "uz": "puflamoq"
+    },
+    {
+      "en": "burn",
+      "ru": "гореть; обжигать",
+      "uz": "yonmoq; kuydirmoq"
+    },
+    {
+      "en": "deal",
+      "ru": "иметь дело; раздавать",
+      "uz": "ish koʻrmoq; tarqatmoq"
+    },
+    {
+      "en": "dream",
+      "ru": "мечтать; видеть сны",
+      "uz": "orzu qilmoq; tush koʻrmoq"
+    },
+    {
+      "en": "forgive",
+      "ru": "прощать",
+      "uz": "kechirmoq"
+    },
+    {
+      "en": "hurt",
+      "ru": "причинять боль; болеть",
+      "uz": "ogʻritmoq; ogʻrimoq"
+    },
+    {
+      "en": "steal",
+      "ru": "красть",
+      "uz": "oʻgʻirlamoq"
+    },
+    {
+      "en": "sweep",
+      "ru": "подметать",
+      "uz": "supurmoq"
+    },
+    {
+      "en": "hang",
+      "ru": "вешать; висеть; казнить через повешение",
+      "uz": "osmoq; osilib turmoq; dorga osmoq"
+    },
+    {
+      "en": "lay",
+      "ru": "класть; укладывать",
+      "uz": "qoʻymoq; yotqizmoq"
+    },
+    {
+      "en": "seek",
+      "ru": "искать",
+      "uz": "izlamoq"
+    },
+    {
+      "en": "spread",
+      "ru": "распространять; намазывать",
+      "uz": "tarqatmoq; surtmoq"
+    },
+    {
+      "en": "arise",
+      "ru": "возникать; подниматься",
+      "uz": "yuzaga kelmoq; koʻtarilmoq"
+    },
+    {
+      "en": "awake",
+      "ru": "просыпаться; будить",
+      "uz": "uygʻonmoq; uygʻotmoq"
+    },
+    {
+      "en": "bear",
+      "ru": "нести; выносить; рождать",
+      "uz": "koʻtarmoq; chidamoq; tugʻmoq"
+    },
+    {
+      "en": "beat",
+      "ru": "бить; побеждать",
+      "uz": "kaltaklamoq; yengmoq"
+    },
+    {
+      "en": "bend",
+      "ru": "сгибать(ся)",
+      "uz": "bukmoq; egilmoq"
+    },
+    {
+      "en": "bind",
+      "ru": "связывать; переплетать",
+      "uz": "bogʻlamoq; muqovalamoq"
+    },
+    {
+      "en": "breed",
+      "ru": "разводить; выращивать",
+      "uz": "koʻpaytirmoq; yetishtirmoq"
+    },
+    {
+      "en": "burst",
+      "ru": "лопаться; взрываться",
+      "uz": "yorilmoq; portlamoq"
+    },
+    {
+      "en": "cast",
+      "ru": "бросать; распределять роли",
+      "uz": "otmoq; rollarni taqsimlamoq"
+    },
+    {
+      "en": "cling",
+      "ru": "цепляться; прилипать",
+      "uz": "yopishmoq; chirmashmoq"
+    },
+    {
+      "en": "creep",
+      "ru": "ползти; красться",
+      "uz": "oʻrmalamoq; sekin yaqinlashmoq"
+    },
+    {
+      "en": "dig",
+      "ru": "копать",
+      "uz": "qazimoq"
+    },
+    {
+      "en": "dive",
+      "ru": "нырять",
+      "uz": "shoʻngʻimoq"
+    },
+    {
+      "en": "flee",
+      "ru": "убегать; спасаться бегством",
+      "uz": "qochmoq; qochib qutulmoq"
+    },
+    {
+      "en": "fling",
+      "ru": "швырять",
+      "uz": "uloqtirmoq"
+    },
+    {
+      "en": "forbid",
+      "ru": "запрещать",
+      "uz": "taqiqlamoq"
+    },
+    {
+      "en": "forecast",
+      "ru": "прогнозировать",
+      "uz": "bashorat qilmoq"
+    },
+    {
+      "en": "foresee",
+      "ru": "предвидеть",
+      "uz": "oldindan koʻra bilmoq"
+    },
+    {
+      "en": "foretell",
+      "ru": "предсказывать",
+      "uz": "oldindan aytmoq"
+    },
+    {
+      "en": "forsake",
+      "ru": "покидать; оставлять",
+      "uz": "tashlab ketmoq"
+    },
+    {
+      "en": "grind",
+      "ru": "молоть; измельчать",
+      "uz": "yanchmoq; maydalamoq"
+    },
+    {
+      "en": "kneel",
+      "ru": "становиться на колени",
+      "uz": "tiz choʻkmoq"
+    },
+    {
+      "en": "knit",
+      "ru": "вязать",
+      "uz": "toʻqimoq"
+    },
+    {
+      "en": "lean",
+      "ru": "наклоняться; опираться",
+      "uz": "egilmoq; suyanmoq"
+    },
+    {
+      "en": "leap",
+      "ru": "прыгать",
+      "uz": "sakramoq"
+    },
+    {
+      "en": "overcome",
+      "ru": "преодолевать",
+      "uz": "yengib oʻtmoq"
+    },
+    {
+      "en": "overdo",
+      "ru": "делать чрезмерно",
+      "uz": "haddan ziyod qilmoq"
+    },
+    {
+      "en": "overeat",
+      "ru": "переедать",
+      "uz": "haddan ziyod yemoq"
+    },
+    {
+      "en": "overhear",
+      "ru": "случайно услышать",
+      "uz": "tasodifan eshitib qolmoq"
+    },
+    {
+      "en": "overpay",
+      "ru": "переплачивать",
+      "uz": "ortiqcha toʻlamoq"
+    },
+    {
+      "en": "oversleep",
+      "ru": "проспать",
+      "uz": "uxlab qolmoq"
+    },
+    {
+      "en": "overtake",
+      "ru": "обгонять; настигать",
+      "uz": "quvib oʻtmoq; yetib olmoq"
+    },
+    {
+      "en": "overthrow",
+      "ru": "свергать",
+      "uz": "agʻdarmoq"
+    },
+    {
+      "en": "rebuild",
+      "ru": "перестраивать",
+      "uz": "qayta qurmoq"
+    },
+    {
+      "en": "redo",
+      "ru": "переделывать",
+      "uz": "qayta qilmoq"
+    },
+    {
+      "en": "remake",
+      "ru": "переделывать; переснимать",
+      "uz": "qayta ishlamoq; qayta suratga olmoq"
+    },
+    {
+      "en": "repay",
+      "ru": "возмещать; возвращать деньги",
+      "uz": "qoplamoq; pulni qaytarmoq"
+    },
+    {
+      "en": "reread",
+      "ru": "перечитывать",
+      "uz": "qayta oʻqimoq"
+    },
+    {
+      "en": "reset",
+      "ru": "сбрасывать; устанавливать заново",
+      "uz": "bekor qilib qaytarmoq; qaytadan oʻrnatmoq"
+    },
+    {
+      "en": "retake",
+      "ru": "пересдавать; брать снова",
+      "uz": "qayta topshirmoq; qaytadan olmoq"
+    },
+    {
+      "en": "rewrite",
+      "ru": "переписывать",
+      "uz": "qayta yozmoq"
+    },
+    {
+      "en": "mislead",
+      "ru": "вводить в заблуждение",
+      "uz": "chalgʻitmoq"
+    },
+    {
+      "en": "misunderstand",
+      "ru": "неправильно понимать",
+      "uz": "notoʻgʻri tushunmoq"
+    },
+    {
+      "en": "input",
+      "ru": "вводить данные",
+      "uz": "maʼlumot kiritmoq"
+    },
+    {
+      "en": "broadcast",
+      "ru": "транслировать",
+      "uz": "efirga uzatmoq"
+    },
+    {
+      "en": "unfreeze",
+      "ru": "размораживать",
+      "uz": "muzdan tushirmoq"
+    },
+    {
+      "en": "uphold",
+      "ru": "поддерживать; отстаивать",
+      "uz": "qoʻllab-quvvatlamoq; himoya qilmoq"
+    },
+    {
+      "en": "upset",
+      "ru": "расстраивать; опрокидывать",
+      "uz": "xafa qilmoq; agʻdarib yubormoq"
+    },
+    {
+      "en": "undo",
+      "ru": "отменять; развязывать",
+      "uz": "bekor qilmoq; yechmoq"
+    },
+    {
+      "en": "undertake",
+      "ru": "предпринимать; брать на себя",
+      "uz": "qoʻl urmoq; zimmasiga olmoq"
+    },
+    {
+      "en": "undergo",
+      "ru": "проходить через; подвергаться",
+      "uz": "boshidan kechirmoq; duchor boʻlmoq"
+    },
+    {
+      "en": "withdraw",
+      "ru": "забирать; отзывать",
+      "uz": "qaytarib olmoq; chaqirib olmoq"
+    },
+    {
+      "en": "withhold",
+      "ru": "удерживать; не предоставлять",
+      "uz": "ushlab qolmoq; bermaslik"
+    },
+    {
+      "en": "withstand",
+      "ru": "выдерживать; противостоять",
+      "uz": "bardosh bermoq; qarshi turmoq"
+    },
+    {
+      "en": "speed",
+      "ru": "ускоряться; мчаться",
+      "uz": "tezlashmoq; shiddat bilan ketmoq"
+    },
+    {
+      "en": "spell",
+      "ru": "писать/произносить по буквам",
+      "uz": "harflab aytmoq"
+    },
+    {
+      "en": "spill",
+      "ru": "проливать; рассыпать",
+      "uz": "toʻkmoq; sochmoq"
+    },
+    {
+      "en": "split",
+      "ru": "разделять; раскалывать",
+      "uz": "boʻlmoq; yormoq"
+    },
+    {
+      "en": "spring",
+      "ru": "прыгать; возникать",
+      "uz": "otilib chiqmoq; paydo boʻlmoq"
+    },
+    {
+      "en": "strike",
+      "ru": "ударять; бастовать",
+      "uz": "zarba bermoq; ish tashlamoq"
+    },
+    {
+      "en": "strive",
+      "ru": "стремиться",
+      "uz": "intilmoq"
+    },
+    {
+      "en": "thrive",
+      "ru": "процветать",
+      "uz": "gullab-yashnamoq"
+    },
+    {
+      "en": "thrust",
+      "ru": "толкать; проталкивать",
+      "uz": "itarmoq; surib kirgizmoq"
+    },
+    {
+      "en": "tread",
+      "ru": "ступать; топтать",
+      "uz": "qadam bosmoq; bosib yurmoq"
+    },
+    {
+      "en": "wind",
+      "ru": "наматывать; заводить механизм",
+      "uz": "oʻramoq; mexanizmni burab qoʻymoq"
+    },
+    {
+      "en": "shine",
+      "ru": "светить; сиять; полировать",
+      "uz": "porlamoq; nur sochmoq; yaltiratmoq"
+    },
+    {
+      "en": "shrink",
+      "ru": "сжиматься; уменьшаться",
+      "uz": "qisqarmoq; kichraymoq"
+    },
+    {
+      "en": "spit",
+      "ru": "плевать",
+      "uz": "tupurmoq"
+    },
+    {
+      "en": "sling",
+      "ru": "швырять; подвешивать",
+      "uz": "irgʻitmoq; osib qoʻymoq"
+    },
+    {
+      "en": "slink",
+      "ru": "красться",
+      "uz": "pusib yurmoq"
+    },
+    {
+      "en": "slit",
+      "ru": "разрезать вдоль",
+      "uz": "uzunasiga kesmoq"
+    },
+    {
+      "en": "sting",
+      "ru": "жалить",
+      "uz": "chaqmoq"
+    },
+    {
+      "en": "stink",
+      "ru": "вонять",
+      "uz": "sassiq hid taratmoq"
+    },
+    {
+      "en": "stride",
+      "ru": "шагать широко",
+      "uz": "keng qadam tashlamoq"
+    },
+    {
+      "en": "string",
+      "ru": "нанизывать; натягивать струну",
+      "uz": "tizmoq; tor tortmoq"
+    },
+    {
+      "en": "swell",
+      "ru": "опухать; набухать",
+      "uz": "shishmoq; boʻrtmoq"
+    },
+    {
+      "en": "weave",
+      "ru": "ткать; переплетать",
+      "uz": "toʻqimoq; chirmashtirmoq"
+    },
+    {
+      "en": "weep",
+      "ru": "плакать",
+      "uz": "yigʻlamoq"
+    },
+    {
+      "en": "wet",
+      "ru": "мочить; смачивать",
+      "uz": "hoʻllamoq; namlamoq"
+    },
+    {
+      "en": "wring",
+      "ru": "выкручивать; выжимать",
+      "uz": "burab siqmoq; siqib suvini chiqarmoq"
+    },
+    {
+      "en": "abide",
+      "ru": "соблюдать; терпеть",
+      "uz": "amal qilmoq; chidamoq"
+    },
+    {
+      "en": "befall",
+      "ru": "случаться; постигать",
+      "uz": "yuz bermoq; boshiga tushmoq"
+    },
+    {
+      "en": "beget",
+      "ru": "порождать",
+      "uz": "vujudga keltirmoq"
+    },
+    {
+      "en": "behold",
+      "ru": "созерцать; видеть",
+      "uz": "nazar solmoq; koʻrmoq"
+    },
+    {
+      "en": "bereave",
+      "ru": "лишать близкого; оставлять без",
+      "uz": "yaqinidan judo qilmoq"
+    },
+    {
+      "en": "beseech",
+      "ru": "умолять",
+      "uz": "yolvormoq"
+    },
+    {
+      "en": "beset",
+      "ru": "осаждать; окружать трудностями",
+      "uz": "qurshab olmoq; qiyinchilik bilan oʻramoq"
+    },
+    {
+      "en": "bet",
+      "ru": "держать пари",
+      "uz": "garov boylashmoq"
+    },
+    {
+      "en": "bid",
+      "ru": "предлагать цену; велеть",
+      "uz": "narx taklif qilmoq; buyurmoq"
+    },
+    {
+      "en": "bleed",
+      "ru": "кровоточить",
+      "uz": "qon ketmoq"
+    },
+    {
+      "en": "browbeat",
+      "ru": "запугивать; подавлять",
+      "uz": "qoʻrqitib boʻysundirmoq"
+    },
+    {
+      "en": "bust",
+      "ru": "ломать; разорять",
+      "uz": "sindirmoq; xonavayron qilmoq"
+    },
+    {
+      "en": "chide",
+      "ru": "бранить",
+      "uz": "koyimoq"
+    },
+    {
+      "en": "clothe",
+      "ru": "одевать",
+      "uz": "kiyintirmoq"
+    },
+    {
+      "en": "dwell",
+      "ru": "жить; обитать",
+      "uz": "yashamoq; istiqomat qilmoq"
+    },
+    {
+      "en": "fit",
+      "ru": "подходить по размеру",
+      "uz": "oʻlchamiga mos kelmoq"
+    },
+    {
+      "en": "gild",
+      "ru": "позолотить",
+      "uz": "zarhal qoplamoq"
+    },
+    {
+      "en": "gird",
+      "ru": "опоясывать",
+      "uz": "belbogʻ bogʻlamoq"
+    },
+    {
+      "en": "hew",
+      "ru": "рубить; тесать",
+      "uz": "chopmoq; yoʻnmoq"
+    },
+    {
+      "en": "hit",
+      "ru": "ударять",
+      "uz": "urmoq"
+    },
+    {
+      "en": "inlay",
+      "ru": "инкрустировать",
+      "uz": "naqsh solib qoplamoq"
+    },
+    {
+      "en": "interweave",
+      "ru": "переплетать",
+      "uz": "bir-biriga chirmashtirmoq"
+    },
+    {
+      "en": "mistake",
+      "ru": "ошибочно принимать; путать",
+      "uz": "adashib boshqasi deb oʻylamoq; chalkashtirmoq"
+    },
+    {
+      "en": "mow",
+      "ru": "косить",
+      "uz": "oʻrmoq"
+    },
+    {
+      "en": "overdraw",
+      "ru": "снимать со счёта больше остатка",
+      "uz": "hisobdagidan ortiq pul yechmoq"
+    },
+    {
+      "en": "overlay",
+      "ru": "покрывать сверху",
+      "uz": "ustidan qoplamoq"
+    },
+    {
+      "en": "override",
+      "ru": "отменять; иметь преимущество над",
+      "uz": "bekor qilib yubormoq; ustun turmoq"
+    },
+    {
+      "en": "overrun",
+      "ru": "переполнять; захватывать",
+      "uz": "bosib ketmoq; egallab olmoq"
+    },
+    {
+      "en": "oversee",
+      "ru": "надзирать; руководить",
+      "uz": "nazorat qilmoq; boshqarmoq"
+    },
+    {
+      "en": "overshoot",
+      "ru": "промахнуться; перелететь",
+      "uz": "moʻljaldan oshib ketmoq"
+    },
+    {
+      "en": "plead",
+      "ru": "умолять; заявлять в суде",
+      "uz": "iltijo qilmoq; sudda bayonot bermoq"
+    },
+    {
+      "en": "rend",
+      "ru": "раздирать",
+      "uz": "tilka-pora qilmoq"
+    },
+    {
+      "en": "rid",
+      "ru": "избавлять",
+      "uz": "xalos qilmoq"
+    },
+    {
+      "en": "rive",
+      "ru": "раскалывать",
+      "uz": "yorib yubormoq"
+    },
+    {
+      "en": "saw",
+      "ru": "пилить",
+      "uz": "arralamoq"
+    },
+    {
+      "en": "sew",
+      "ru": "шить",
+      "uz": "tikmoq"
+    },
+    {
+      "en": "shave",
+      "ru": "брить(ся)",
+      "uz": "soqol olmoq"
+    },
+    {
+      "en": "shear",
+      "ru": "стричь; срезать",
+      "uz": "qirqmoq; kesib olmoq"
+    },
+    {
+      "en": "shed",
+      "ru": "сбрасывать; проливать",
+      "uz": "toʻkmoq; tashlab yubormoq"
+    },
+    {
+      "en": "shoe",
+      "ru": "подковывать; обувать",
+      "uz": "taqa qoqmoq; oyoq kiyim kiydirmoq"
+    },
+    {
+      "en": "shrive",
+      "ru": "отпускать грехи",
+      "uz": "gunohdan forigʻ qilmoq"
+    },
+    {
+      "en": "slay",
+      "ru": "убивать",
+      "uz": "oʻldirmoq"
+    },
+    {
+      "en": "smite",
+      "ru": "поражать; сильно ударять",
+      "uz": "qattiq urmoq"
+    },
+    {
+      "en": "sow",
+      "ru": "сеять",
+      "uz": "ekmoq"
+    },
+    {
+      "en": "spin",
+      "ru": "крутить; прясть",
+      "uz": "aylantirmoq; yigirmoq"
+    },
+    {
+      "en": "spoil",
+      "ru": "портить",
+      "uz": "buzmoq"
+    },
+    {
+      "en": "swear",
+      "ru": "клясться; ругаться",
+      "uz": "qasam ichmoq; soʻkinmoq"
+    },
+    {
+      "en": "underlie",
+      "ru": "лежать в основе",
+      "uz": "asosida yotmoq"
+    },
+    {
+      "en": "waylay",
+      "ru": "подстерегать",
+      "uz": "poylab turmoq"
+    },
+    {
+      "en": "wed",
+      "ru": "жениться; выходить замуж",
+      "uz": "turmush qurmoq"
+    }
+  ]
+}

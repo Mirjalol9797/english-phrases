@@ -1,0 +1,230 @@
+phrase|be||быть; находиться|boʻlmoq; turmoq
+phrase|have||иметь|ega boʻlmoq
+phrase|do||делать|qilmoq
+phrase|go||идти; ехать|bormoq; ketmoq
+phrase|get||получать; становиться|olmoq; boʻlib qolmoq
+phrase|make||делать; создавать|yasamoq; yaratmoq
+phrase|take||брать|olmoq
+phrase|come||приходить; приезжать|kelmoq
+phrase|see||видеть|koʻrmoq
+phrase|know||знать|bilmoq
+phrase|think||думать|oʻylamoq
+phrase|say||говорить; сказать|aytmoq
+phrase|give||давать|bermoq
+phrase|find||находить|topmoq
+phrase|tell||рассказывать; говорить|aytib bermoq; soʻzlab bermoq
+phrase|feel||чувствовать|his qilmoq
+phrase|leave||уходить; оставлять|ketmoq; qoldirmoq
+phrase|put||класть; ставить|qoʻymoq
+phrase|bring||приносить; привозить|olib kelmoq
+phrase|begin||начинать(ся)|boshlamoq; boshlanmoq
+phrase|keep||держать; хранить|saqlamoq
+phrase|hold||держать|ushlab turmoq
+phrase|write||писать|yozmoq
+phrase|speak||говорить|gapirmoq
+phrase|read||читать|oʻqimoq
+phrase|eat||есть|yemoq
+phrase|drink||пить|ichmoq
+phrase|buy||покупать|sotib olmoq
+phrase|pay||платить|toʻlamoq
+phrase|meet||встречать(ся)|uchrashmoq
+phrase|hear||слышать|eshitmoq
+phrase|run||бежать|yugurmoq
+phrase|sit||сидеть|oʻtirmoq
+phrase|stand||стоять|turmoq
+phrase|sleep||спать|uxlamoq
+phrase|send||отправлять|yubormoq
+phrase|spend||тратить; проводить время|sarflamoq; vaqt oʻtkazmoq
+phrase|win||побеждать; выигрывать|gʻalaba qozonmoq; yutmoq
+phrase|lose||терять; проигрывать|yoʻqotmoq; yutqazmoq
+phrase|fall||падать|yiqilmoq
+phrase|forget||забывать|unutmoq
+phrase|understand||понимать|tushunmoq
+phrase|build||строить|qurmoq
+phrase|break||ломать; разбивать|sindirmoq
+phrase|choose||выбирать|tanlamoq
+phrase|drive||водить; ехать на машине|mashina haydamoq
+phrase|wear||носить (одежду)|kiyib yurmoq
+phrase|teach||учить; преподавать|oʻrgatmoq; dars bermoq
+phrase|learn||учить; узнавать|oʻrganmoq; bilib olmoq
+phrase|become||становиться|boʻlmoq
+phrase|show||показывать|koʻrsatmoq
+phrase|catch||ловить; поймать|tutmoq
+phrase|cut||резать|kesmoq
+phrase|cost||стоить|narxi boʻlmoq
+phrase|draw||рисовать; тянуть|chizmoq; tortmoq
+phrase|fight||драться; бороться|urishmoq; kurashmoq
+phrase|fly||летать|uchmoq
+phrase|grow||расти; выращивать|oʻsmoq; yetishtirmoq
+phrase|let||позволять|ruxsat bermoq
+phrase|lie||лежать|yotmoq
+phrase|mean||значить; иметь в виду|anglatmoq; nazarda tutmoq
+phrase|ride||ездить верхом; кататься|minmoq
+phrase|ring||звонить|jiringlamoq
+phrase|rise||подниматься|koʻtarilmoq
+phrase|sell||продавать|sotmoq
+phrase|shake||трясти|silkitmoq
+phrase|shoot||стрелять|otmoq
+phrase|shut||закрывать|yopmoq
+phrase|sing||петь|kuylamoq
+phrase|sink||тонуть; погружаться|choʻkmoq
+phrase|slide||скользить|sirgʻalmoq
+phrase|smell||пахнуть; нюхать|hidlanmoq; hidlamoq
+phrase|swim||плавать|suzmoq
+phrase|swing||качать(ся); размахивать|tebranmoq; silkimoq
+phrase|throw||бросать|tashlamoq
+phrase|wake||просыпаться; будить|uygʻonmoq; uygʻotmoq
+phrase|feed||кормить|boqmoq
+phrase|freeze||замерзать; замораживать|muzlamoq; muzlatmoq
+phrase|hide||прятать(ся)|yashirmoq; yashirinmoq
+phrase|lead||вести; руководить|yetaklamoq; boshqarmoq
+phrase|lend||одалживать кому-либо|qarzga bermoq
+phrase|light||зажигать; освещать|yoqmoq; yoritmoq
+phrase|prove||доказывать|isbotlamoq
+phrase|quit||бросать; прекращать|tashlamoq; toʻxtatmoq
+phrase|set||устанавливать; ставить|oʻrnatmoq; qoʻymoq
+phrase|stick||приклеивать; застревать|yopishtirmoq; tiqilib qolmoq
+phrase|tear||рвать|yirtmoq
+phrase|bite||кусать|tishlamoq
+phrase|blow||дуть|puflamoq
+phrase|burn||гореть; обжигать|yonmoq; kuydirmoq
+phrase|deal||иметь дело; раздавать|ish koʻrmoq; tarqatmoq
+phrase|dream||мечтать; видеть сны|orzu qilmoq; tush koʻrmoq
+phrase|forgive||прощать|kechirmoq
+phrase|hurt||причинять боль; болеть|ogʻritmoq; ogʻrimoq
+phrase|steal||красть|oʻgʻirlamoq
+phrase|sweep||подметать|supurmoq
+phrase|hang||вешать; висеть; казнить через повешение|osmoq; osilib turmoq; dorga osmoq
+phrase|lay||класть; укладывать|qoʻymoq; yotqizmoq
+phrase|seek||искать|izlamoq
+phrase|spread||распространять; намазывать|tarqatmoq; surtmoq
+phrase|arise||возникать; подниматься|yuzaga kelmoq; koʻtarilmoq
+phrase|awake||просыпаться; будить|uygʻonmoq; uygʻotmoq
+phrase|bear||нести; выносить; рождать|koʻtarmoq; chidamoq; tugʻmoq
+phrase|beat||бить; побеждать|kaltaklamoq; yengmoq
+phrase|bend||сгибать(ся)|bukmoq; egilmoq
+phrase|bind||связывать; переплетать|bogʻlamoq; muqovalamoq
+phrase|breed||разводить; выращивать|koʻpaytirmoq; yetishtirmoq
+phrase|burst||лопаться; взрываться|yorilmoq; portlamoq
+phrase|cast||бросать; распределять роли|otmoq; rollarni taqsimlamoq
+phrase|cling||цепляться; прилипать|yopishmoq; chirmashmoq
+phrase|creep||ползти; красться|oʻrmalamoq; sekin yaqinlashmoq
+phrase|dig||копать|qazimoq
+phrase|dive||нырять|shoʻngʻimoq
+phrase|flee||убегать; спасаться бегством|qochmoq; qochib qutulmoq
+phrase|fling||швырять|uloqtirmoq
+phrase|forbid||запрещать|taqiqlamoq
+phrase|forecast||прогнозировать|bashorat qilmoq
+phrase|foresee||предвидеть|oldindan koʻra bilmoq
+phrase|foretell||предсказывать|oldindan aytmoq
+phrase|forsake||покидать; оставлять|tashlab ketmoq
+phrase|grind||молоть; измельчать|yanchmoq; maydalamoq
+phrase|kneel||становиться на колени|tiz choʻkmoq
+phrase|knit||вязать|toʻqimoq
+phrase|lean||наклоняться; опираться|egilmoq; suyanmoq
+phrase|leap||прыгать|sakramoq
+phrase|overcome||преодолевать|yengib oʻtmoq
+phrase|overdo||делать чрезмерно|haddan ziyod qilmoq
+phrase|overeat||переедать|haddan ziyod yemoq
+phrase|overhear||случайно услышать|tasodifan eshitib qolmoq
+phrase|overpay||переплачивать|ortiqcha toʻlamoq
+phrase|oversleep||проспать|uxlab qolmoq
+phrase|overtake||обгонять; настигать|quvib oʻtmoq; yetib olmoq
+phrase|overthrow||свергать|agʻdarmoq
+phrase|rebuild||перестраивать|qayta qurmoq
+phrase|redo||переделывать|qayta qilmoq
+phrase|remake||переделывать; переснимать|qayta ishlamoq; qayta suratga olmoq
+phrase|repay||возмещать; возвращать деньги|qoplamoq; pulni qaytarmoq
+phrase|reread||перечитывать|qayta oʻqimoq
+phrase|reset||сбрасывать; устанавливать заново|bekor qilib qaytarmoq; qaytadan oʻrnatmoq
+phrase|retake||пересдавать; брать снова|qayta topshirmoq; qaytadan olmoq
+phrase|rewrite||переписывать|qayta yozmoq
+phrase|mislead||вводить в заблуждение|chalgʻitmoq
+phrase|misunderstand||неправильно понимать|notoʻgʻri tushunmoq
+phrase|input||вводить данные|maʼlumot kiritmoq
+phrase|broadcast||транслировать|efirga uzatmoq
+phrase|unfreeze||размораживать|muzdan tushirmoq
+phrase|uphold||поддерживать; отстаивать|qoʻllab-quvvatlamoq; himoya qilmoq
+phrase|upset||расстраивать; опрокидывать|xafa qilmoq; agʻdarib yubormoq
+phrase|undo||отменять; развязывать|bekor qilmoq; yechmoq
+phrase|undertake||предпринимать; брать на себя|qoʻl urmoq; zimmasiga olmoq
+phrase|undergo||проходить через; подвергаться|boshidan kechirmoq; duchor boʻlmoq
+phrase|withdraw||забирать; отзывать|qaytarib olmoq; chaqirib olmoq
+phrase|withhold||удерживать; не предоставлять|ushlab qolmoq; bermaslik
+phrase|withstand||выдерживать; противостоять|bardosh bermoq; qarshi turmoq
+phrase|speed||ускоряться; мчаться|tezlashmoq; shiddat bilan ketmoq
+phrase|spell||писать/произносить по буквам|harflab aytmoq
+phrase|spill||проливать; рассыпать|toʻkmoq; sochmoq
+phrase|split||разделять; раскалывать|boʻlmoq; yormoq
+phrase|spring||прыгать; возникать|otilib chiqmoq; paydo boʻlmoq
+phrase|strike||ударять; бастовать|zarba bermoq; ish tashlamoq
+phrase|strive||стремиться|intilmoq
+phrase|thrive||процветать|gullab-yashnamoq
+phrase|thrust||толкать; проталкивать|itarmoq; surib kirgizmoq
+phrase|tread||ступать; топтать|qadam bosmoq; bosib yurmoq
+phrase|wind||наматывать; заводить механизм|oʻramoq; mexanizmni burab qoʻymoq
+phrase|shine||светить; сиять; полировать|porlamoq; nur sochmoq; yaltiratmoq
+phrase|shrink||сжиматься; уменьшаться|qisqarmoq; kichraymoq
+phrase|spit||плевать|tupurmoq
+phrase|sling||швырять; подвешивать|irgʻitmoq; osib qoʻymoq
+phrase|slink||красться|pusib yurmoq
+phrase|slit||разрезать вдоль|uzunasiga kesmoq
+phrase|sting||жалить|chaqmoq
+phrase|stink||вонять|sassiq hid taratmoq
+phrase|stride||шагать широко|keng qadam tashlamoq
+phrase|string||нанизывать; натягивать струну|tizmoq; tor tortmoq
+phrase|swell||опухать; набухать|shishmoq; boʻrtmoq
+phrase|weave||ткать; переплетать|toʻqimoq; chirmashtirmoq
+phrase|weep||плакать|yigʻlamoq
+phrase|wet||мочить; смачивать|hoʻllamoq; namlamoq
+phrase|wring||выкручивать; выжимать|burab siqmoq; siqib suvini chiqarmoq
+phrase|abide||соблюдать; терпеть|amal qilmoq; chidamoq
+phrase|befall||случаться; постигать|yuz bermoq; boshiga tushmoq
+phrase|beget||порождать|vujudga keltirmoq
+phrase|behold||созерцать; видеть|nazar solmoq; koʻrmoq
+phrase|bereave||лишать близкого; оставлять без|yaqinidan judo qilmoq
+phrase|beseech||умолять|yolvormoq
+phrase|beset||осаждать; окружать трудностями|qurshab olmoq; qiyinchilik bilan oʻramoq
+phrase|bet||держать пари|garov boylashmoq
+phrase|bid||предлагать цену; велеть|narx taklif qilmoq; buyurmoq
+phrase|bleed||кровоточить|qon ketmoq
+phrase|browbeat||запугивать; подавлять|qoʻrqitib boʻysundirmoq
+phrase|bust||ломать; разорять|sindirmoq; xonavayron qilmoq
+phrase|chide||бранить|koyimoq
+phrase|clothe||одевать|kiyintirmoq
+phrase|dwell||жить; обитать|yashamoq; istiqomat qilmoq
+phrase|fit||подходить по размеру|oʻlchamiga mos kelmoq
+phrase|gild||позолотить|zarhal qoplamoq
+phrase|gird||опоясывать|belbogʻ bogʻlamoq
+phrase|hew||рубить; тесать|chopmoq; yoʻnmoq
+phrase|hit||ударять|urmoq
+phrase|inlay||инкрустировать|naqsh solib qoplamoq
+phrase|interweave||переплетать|bir-biriga chirmashtirmoq
+phrase|mistake||ошибочно принимать; путать|adashib boshqasi deb oʻylamoq; chalkashtirmoq
+phrase|mow||косить|oʻrmoq
+phrase|overdraw||снимать со счёта больше остатка|hisobdagidan ortiq pul yechmoq
+phrase|overlay||покрывать сверху|ustidan qoplamoq
+phrase|override||отменять; иметь преимущество над|bekor qilib yubormoq; ustun turmoq
+phrase|overrun||переполнять; захватывать|bosib ketmoq; egallab olmoq
+phrase|oversee||надзирать; руководить|nazorat qilmoq; boshqarmoq
+phrase|overshoot||промахнуться; перелететь|moʻljaldan oshib ketmoq
+phrase|plead||умолять; заявлять в суде|iltijo qilmoq; sudda bayonot bermoq
+phrase|rend||раздирать|tilka-pora qilmoq
+phrase|rid||избавлять|xalos qilmoq
+phrase|rive||раскалывать|yorib yubormoq
+phrase|saw||пилить|arralamoq
+phrase|sew||шить|tikmoq
+phrase|shave||брить(ся)|soqol olmoq
+phrase|shear||стричь; срезать|qirqmoq; kesib olmoq
+phrase|shed||сбрасывать; проливать|toʻkmoq; tashlab yubormoq
+phrase|shoe||подковывать; обувать|taqa qoqmoq; oyoq kiyim kiydirmoq
+phrase|shrive||отпускать грехи|gunohdan forigʻ qilmoq
+phrase|slay||убивать|oʻldirmoq
+phrase|smite||поражать; сильно ударять|qattiq urmoq
+phrase|sow||сеять|ekmoq
+phrase|spin||крутить; прясть|aylantirmoq; yigirmoq
+phrase|spoil||портить|buzmoq
+phrase|swear||клясться; ругаться|qasam ichmoq; soʻkinmoq
+phrase|underlie||лежать в основе|asosida yotmoq
+phrase|waylay||подстерегать|poylab turmoq
+phrase|wed||жениться; выходить замуж|turmush qurmoq
