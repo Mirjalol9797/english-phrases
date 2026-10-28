@@ -55,6 +55,34 @@ function checkEntry(entry, where) {
   return problems
 }
 
+/**
+ * Две разные фразы с одинаковым узбекским переводом.
+ *
+ * В упражнении неверные варианты берутся из той же главы, и два одинаковых
+ * варианта сразу видно. По-русски такие пары сборка уже называет — это та же
+ * проверка для узбекского. Если фразы и по-русски переведены одинаково,
+ * пара уже названа в русском отчёте, и повторять её незачем.
+ */
+function sameUzDifferentRu(applied, where) {
+  const byUz = new Map()
+  for (const { entry } of applied) {
+    const key = entry.uz.trim().toLowerCase()
+    byUz.set(key, [...(byUz.get(key) ?? []), entry])
+  }
+
+  const problems = []
+  for (const group of byUz.values()) {
+    const russians = new Set(group.map((e) => e.ru.trim().toLowerCase()))
+    if (group.length > 1 && russians.size > 1) {
+      problems.push(
+        `${where}: «${group.map((e) => e.en).join('», «')}» переведены на узбекский одинаково ` +
+          `(«${group[0].uz}»), хотя по-русски различаются — в упражнении это даст два одинаковых варианта.`,
+      )
+    }
+  }
+  return problems
+}
+
 export function applyTranslation(chapter, translation) {
   const problems = []
   const warnings = []
@@ -105,6 +133,9 @@ export function applyTranslation(chapter, translation) {
     )
     return { problems, warnings }
   }
+
+  problems.push(...sameUzDifferentRu(applied, where))
+  if (problems.length) return { problems, warnings }
 
   // Глава переведена целиком — только теперь переносим в данные.
   if (translation.title) chapter.title.uz = translation.title

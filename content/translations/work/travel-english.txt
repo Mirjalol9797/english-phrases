@@ -78,7 +78,7 @@ phrase|Could we have some tap water?||Можно нам обычной воды 
 phrase|Could I have this without onions?||Можно это без лука?|Buni piyozsiz olsam boʻladimi?
 phrase|Can we have the bill, please?||Можно счёт, пожалуйста?|Iltimos, hisobni olsak boʻladimi?
 phrase|Can I pay by card?||Можно оплатить картой?|Karta bilan toʻlasam boʻladimi?
-phrase|How much is this?||Сколько это стоит?|Bu qancha turadi?
+phrase|How much is this?||Сколько это стоит?|Buning narxi qancha?
 phrase|Do you have this in another size?||Есть это в другом размере?|Buning boshqa oʻlchami bormi?
 phrase|Can I try it on?||Можно примерить?|Kiyib koʻrsam boʻladimi?
 phrase|Where are the fitting rooms?||Где примерочные?|Kiyinish xonalari qayerda?

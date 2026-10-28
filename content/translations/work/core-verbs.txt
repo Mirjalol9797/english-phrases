@@ -288,7 +288,7 @@ phrase|give someone a hug||обнять кого-либо|kimnidir quchoqlamoq
 example|give someone a hug||She gave her mother a hug.|U onasini quchoqladi.
 phrase|give an example||привести пример|misol keltirmoq
 example|give an example||Can you give me an example?|Menga misol keltira olasizmi?
-phrase|keep going||продолжать|davom etmoq
+phrase|keep going||продолжать|toʻxtamay davom etmoq
 example|keep going||Keep going. You're doing well.|Davom eting. Yaxshi ketyapsiz.
 phrase|keep in touch||поддерживать связь|aloqada boʻlmoq
 example|keep in touch||Let's keep in touch.|Keling, aloqada boʻlaylik.
@@ -326,5 +326,334 @@ phrase|put down||класть; опускать|qoʻymoq; tushirmoq
 example|put down||Put the bag down here.|Sumkani shu yerga qoʻying.
 phrase|put off||откладывать|keyinga qoldirmoq
 example|put off||Don't put off your homework.|Uy vazifangizni keyinga qoldirmang.
-phrase|put out||тушить; гасить|oʻchirmoq
+phrase|put out||тушить; гасить|olovni oʻchirmoq
 example|put out||Please put out the candle.|Iltimos, shamni oʻchiring.
+phrase|put back||возвращать на место|joyiga qaytarib qoʻymoq
+example|put back||Put the book back on the shelf.|Kitobni javonga qaytarib qoʻying.
+phrase|put together||собирать; составлять|yigʻmoq; tuzmoq
+example|put together||I need to put this table together.|Menga bu stolni yigʻish kerak.
+phrase|put pressure on||оказывать давление|bosim oʻtkazmoq
+example|put pressure on||Don't put pressure on yourself.|Oʻzingizga bosim oʻtkazmang.
+phrase|put on weight||набирать вес|vazn ortmoq
+example|put on weight||He put on weight last year.|Uning vazni oʻtgan yili ortdi.
+phrase|put into practice||применять на практике|amalda qoʻllamoq
+example|put into practice||It's time to put the plan into practice.|Rejani amalda qoʻllash vaqti keldi.
+phrase|put up with||терпеть|chidamoq
+example|put up with||I can't put up with this noise.|Men bu shovqinga chiday olmayman.
+phrase|put your phone away||убрать телефон|telefonni olib qoʻymoq
+example|put your phone away||Please put your phone away during class.|Iltimos, dars davomida telefoningizni olib qoʻying.
+phrase|put it simply||проще говоря|soddaroq aytganda
+example|put it simply||Put simply, we need more time.|Soddaroq aytganda, bizga koʻproq vaqt kerak.
+phrase|put in||вставлять; вкладывать|solmoq; kiritmoq
+example|put in||Put your key in the lock.|Kalitingizni qulfga soling.
+phrase|put things right||исправить ситуацию|vaziyatni toʻgʻrilamoq
+example|put things right||I'll do my best to put things right.|Vaziyatni toʻgʻrilash uchun qoʻlimdan kelganini qilaman.
+phrase|turn on||включать|yoqmoq
+example|turn on||Can you turn on the light?|Chiroqni yoqa olasizmi?
+phrase|turn off||выключать|oʻchirmoq
+example|turn off||Please turn off the TV.|Iltimos, televizorni oʻchiring.
+phrase|turn up||увеличивать громкость|ovozni balandlatmoq
+example|turn up||Turn up the volume, please.|Iltimos, ovozni balandlating.
+phrase|turn down||уменьшать громкость; отклонять|ovozni pasaytirmoq; rad etmoq
+example|turn down||Could you turn down the music?|Musiqani pasaytira olasizmi?
+phrase|turn left||повернуть налево|chapga burilmoq
+example|turn left||Turn left at the traffic lights.|Svetoforda chapga buriling.
+phrase|turn right||повернуть направо|oʻngga burilmoq
+example|turn right||Turn right at the next street.|Keyingi koʻchada oʻngga buriling.
+phrase|turn around||обернуться; развернуться|orqaga oʻgirilmoq
+example|turn around||Turn around and look at me.|Orqaga oʻgirilib, menga qarang.
+phrase|turn back||вернуться назад|orqaga qaytmoq
+example|turn back||We had to turn back because of the rain.|Yomgʻir tufayli orqaga qaytishga toʻgʻri keldi.
+phrase|turn into||превращаться в|aylanmoq
+example|turn into||The water turned into ice.|Suv muzga aylandi.
+phrase|turn out||оказаться|boʻlib chiqmoq
+example|turn out||The film turned out to be great.|Film ajoyib boʻlib chiqdi.
+phrase|turn down an offer||отклонить предложение|taklifni rad etmoq
+example|turn down an offer||She turned down the job offer.|U ish taklifini rad etdi.
+phrase|turn 18||исполниться 18 лет|18 yoshga toʻlmoq
+example|turn 18||My brother turns 18 this year.|Akam bu yil 18 yoshga toʻladi.
+phrase|turn red||покраснеть|qizarmoq
+example|turn red||He turned red with embarrassment.|U uyalganidan qizarib ketdi.
+phrase|turn cold||стать холодным|sovib qolmoq
+example|turn cold||It's turning cold outside.|Tashqarida havo sovib qolyapti.
+phrase|take turns||делать по очереди|navbatma-navbat qilmoq
+example|take turns||We take turns cooking dinner.|Biz kechki ovqatni navbatma-navbat tayyorlaymiz.
+phrase|look at||смотреть на|qaramoq
+example|look at||Look at this photo.|Bu suratga qarang.
+phrase|look for||искать|qidirmoq
+example|look for||I'm looking for my keys.|Men kalitlarimni qidiryapman.
+phrase|look after||заботиться о|qarab turmoq; gʻamxoʻrlik qilmoq
+example|look after||Can you look after my cat?|Mushugimga qarab tura olasizmi?
+phrase|look like||быть похожим; выглядеть как|oʻxshamoq
+example|look like||You look like your father.|Siz otangizga oʻxshaysiz.
+phrase|look tired||выглядеть уставшим|charchagan koʻrinmoq
+example|look tired||You look tired today.|Bugun charchagan koʻrinasiz.
+phrase|look good||хорошо выглядеть|yaxshi koʻrinmoq
+example|look good||That shirt looks good on you.|Bu koʻylak sizga yarashibdi.
+phrase|look forward to||с нетерпением ждать|intiqlik bilan kutmoq
+example|look forward to||I'm looking forward to the weekend.|Men dam olish kunlarini intiqlik bilan kutyapman.
+phrase|look out||осторожно!|ehtiyot boʻling!
+example|look out||Look out! There's a car coming.|Ehtiyot boʻling! Mashina kelyapti.
+phrase|look up||искать информацию|maʼlumot qidirmoq
+example|look up||I'll look up the word in a dictionary.|Men soʻzni lugʻatdan qidiraman.
+phrase|look around||осмотреться|atrofni koʻzdan kechirmoq
+example|look around||Let's look around the city.|Keling, shaharni aylanib koʻramiz.
+phrase|look into||изучить; расследовать|oʻrganmoq; tekshirmoq
+example|look into||I'll look into the problem.|Men muammoni oʻrganaman.
+phrase|look through||просматривать|koʻrib chiqmoq
+example|look through||I looked through the documents.|Men hujjatlarni koʻrib chiqdim.
+phrase|look back||вспоминать прошлое|oʻtmishni eslamoq
+example|look back||I look back on those days with a smile.|Men oʻsha kunlarni tabassum bilan eslayman.
+phrase|look away||отвести взгляд|nigohini olib qochmoq
+example|look away||He looked away and said nothing.|U nigohini olib qochdi va hech narsa demadi.
+phrase|look up to someone||уважать; брать пример|hurmat qilmoq; ibrat olmoq
+example|look up to someone||I look up to my older sister.|Men opamdan ibrat olaman.
+phrase|bring it here||принести сюда|bu yerga olib kelmoq
+example|bring it here||Can you bring it here, please?|Iltimos, buni bu yerga olib kela olasizmi?
+phrase|bring back||вернуть; принести обратно|qaytarib olib kelmoq
+example|bring back||Please bring back my book tomorrow.|Iltimos, ertaga kitobimni qaytarib olib keling.
+phrase|bring along||взять с собой|oʻzi bilan olib kelmoq
+example|bring along||You can bring along a friend.|Oʻzingiz bilan doʻstingizni olib kelishingiz mumkin.
+phrase|bring someone with you||привести кого-либо с собой|kimnidir oʻzi bilan olib kelmoq
+example|bring someone with you||Bring your brother with you.|Ukangizni oʻzingiz bilan olib keling.
+phrase|bring food||принести еду|ovqat olib kelmoq
+example|bring food||Should I bring some food?|Men ovqat olib kelaymi?
+phrase|bring your passport||взять паспорт с собой|pasportni olib kelmoq
+example|bring your passport||Please bring your passport to the appointment.|Iltimos, uchrashuvga pasportingizni olib keling.
+phrase|bring good news||принести хорошие новости|yaxshi xabar keltirmoq
+example|bring good news||I hope you bring good news.|Umid qilamanki, yaxshi xabar keltirasiz.
+phrase|bring joy||приносить радость|quvonch olib kelmoq
+example|bring joy||Music brings me joy.|Musiqa menga quvonch olib keladi.
+phrase|bring up a topic||поднять тему|mavzuni koʻtarmoq
+example|bring up a topic||She brought up an interesting topic.|U qiziqarli mavzuni koʻtardi.
+phrase|bring up a child||воспитывать ребёнка|bola tarbiyalamoq
+example|bring up a child||They brought up three children.|Ular uchta bolani tarbiyalashdi.
+phrase|bring about change||привести к изменениям|oʻzgarishlarga olib kelmoq
+example|bring about change||The new plan brought about change.|Yangi reja oʻzgarishlarga olib keldi.
+phrase|bring it on||давай; я готов к вызову|qani, koʻramiz; men tayyorman
+example|bring it on||I'm ready for the test. Bring it on!|Men testga tayyorman. Qani, koʻramiz!
+phrase|bring together||объединять|birlashtirmoq
+example|bring together||Sport can bring people together.|Sport odamlarni birlashtira oladi.
+phrase|bring to an end||положить конец|yakuniga yetkazmoq
+example|bring to an end||We need to bring this argument to an end.|Bu bahsni yakuniga yetkazishimiz kerak.
+phrase|bring someone home||привезти кого-либо домой|kimnidir uyiga olib bormoq
+example|bring someone home||I'll bring you home after the party.|Bazmdan keyin sizni uyingizga olib boraman.
+phrase|break down||сломаться|buzilmoq
+example|break down||My car broke down on the way to work.|Mashinam ishga ketayotganimda buzilib qoldi.
+phrase|break up||расстаться|ajrashmoq
+example|break up||They broke up last month.|Ular oʻtgan oyda ajrashishdi.
+phrase|break a promise||нарушить обещание|vaʼdani buzmoq
+example|break a promise||I don't want to break my promise.|Men vaʼdamni buzishni xohlamayman.
+phrase|break the law||нарушать закон|qonunni buzmoq
+example|break the law||You mustn't break the law.|Qonunni buzmasligingiz kerak.
+phrase|break the rules||нарушать правила|qoidalarni buzmoq
+example|break the rules||He broke the rules again.|U yana qoidalarni buzdi.
+phrase|break a record||побить рекорд|rekordni yangilamoq
+example|break a record||She broke the world record.|U jahon rekordini yangiladi.
+phrase|break a habit||избавиться от привычки|odatdan qutulmoq
+example|break a habit||It's hard to break a bad habit.|Yomon odatdan qutulish qiyin.
+phrase|break the news||сообщить новость|xabarni yetkazmoq
+example|break the news||Who will break the news to him?|Unga bu xabarni kim yetkazadi?
+phrase|break the ice||разрядить обстановку|vaziyatni yumshatmoq
+example|break the ice||He told a joke to break the ice.|U vaziyatni yumshatish uchun hazil aytdi.
+phrase|break a window||разбить окно|oynani sindirmoq
+example|break a window||The ball broke the window.|Toʻp oynani sindirdi.
+phrase|break out||вспыхнуть; начаться внезапно|toʻsatdan boshlanmoq
+example|break out||A fire broke out in the kitchen.|Oshxonada yongʻin boshlandi.
+phrase|break into||вломиться; проникнуть|bostirib kirmoq
+example|break into||Someone broke into the house.|Kimdir uyga bostirib kirdi.
+phrase|break free||освободиться|ozod boʻlmoq
+example|break free||The dog broke free from its leash.|It bogʻichidan boʻshab ketdi.
+phrase|break even||выйти в ноль|zararsiz ishlamoq
+example|break even||The business finally broke even.|Biznes nihoyat zararsiz ishlay boshladi.
+phrase|break someone's heart||разбить кому-либо сердце|kimningdir qalbini sindirmoq
+example|break someone's heart||He broke her heart.|U uning qalbini sindirdi.
+phrase|run fast||быстро бегать|tez yugurmoq
+example|run fast||He can run very fast.|U juda tez yugura oladi.
+phrase|run away||убегать|qochib ketmoq
+example|run away||The dog ran away.|It qochib ketdi.
+phrase|run out of||закончиться; остаться без|tugab qolmoq
+example|run out of||We've run out of milk.|Sutimiz tugab qoldi.
+phrase|run late||опаздывать|kechikmoq
+example|run late||I'm running late. I'll be there soon.|Men kechikyapman. Tez orada yetib boraman.
+phrase|run a business||управлять бизнесом|biznesni boshqarmoq
+example|run a business||She runs a small business.|U kichik biznesni boshqaradi.
+phrase|run a test||провести тест|sinov oʻtkazmoq
+example|run a test||We need to run a test first.|Avval sinov oʻtkazishimiz kerak.
+phrase|run a program||запустить программу|dasturni ishga tushirmoq
+example|run a program||I can't run this program on my laptop.|Men bu dasturni noutbukimda ishga tushira olmayman.
+phrase|run smoothly||работать без сбоев|uzluksiz ishlamoq
+example|run smoothly||The system is running smoothly.|Tizim uzluksiz ishlayapti.
+phrase|run into someone||случайно встретить кого-либо|kimnidir tasodifan uchratmoq
+example|run into someone||I ran into an old friend yesterday.|Kecha eski doʻstimni tasodifan uchratdim.
+phrase|run into trouble||столкнуться с проблемами|muammoga duch kelmoq
+example|run into trouble||We ran into trouble on the way.|Biz yoʻlda muammoga duch keldik.
+phrase|run out||заканчиваться|tugamoq
+example|run out||Our time is running out.|Vaqtimiz tugayapti.
+phrase|run an errand||сходить по делу|yumush bilan chiqmoq
+example|run an errand||I need to run an errand after lunch.|Menga tushlikdan keyin yumush bilan chiqish kerak.
+phrase|run a meeting||проводить встречу|uchrashuvni olib bormoq
+example|run a meeting||She will run the meeting today.|Bugun uchrashuvni u olib boradi.
+phrase|run on batteries||работать от батареек|batareyada ishlamoq
+example|run on batteries||This remote runs on batteries.|Bu pult batareyada ishlaydi.
+phrase|run through||быстро повторить; пройтись по|tezda koʻrib chiqmoq
+example|run through||Let's run through the plan once more.|Keling, rejani yana bir bor tezda koʻrib chiqamiz.
+phrase|set an alarm||поставить будильник|budilnik qoʻymoq
+example|set an alarm||I set an alarm for six thirty.|Men budilnikni olti yarimga qoʻydim.
+phrase|set a goal||поставить цель|maqsad qoʻymoq
+example|set a goal||Set a small goal for this week.|Bu haftaga kichik maqsad qoʻying.
+phrase|set a date||назначить дату|sana belgilamoq
+example|set a date||Let's set a date for the meeting.|Keling, uchrashuv uchun sana belgilaylik.
+phrase|set a time||назначить время|vaqt belgilamoq
+example|set a time||We need to set a time to meet.|Biz uchrashish uchun vaqt belgilashimiz kerak.
+phrase|set a limit||установить ограничение|cheklov oʻrnatmoq
+example|set a limit||You should set a limit on screen time.|Ekran oldida oʻtirish vaqtiga cheklov oʻrnatishingiz kerak.
+phrase|set up||настроить; организовать|sozlamoq; tashkil qilmoq
+example|set up||Can you help me set up my new phone?|Yangi telefonimni sozlashga yordam bera olasizmi?
+phrase|set off||отправиться в путь|yoʻlga chiqmoq
+example|set off||We set off early in the morning.|Biz erta tongda yoʻlga chiqdik.
+phrase|set an example||подавать пример|oʻrnak koʻrsatmoq
+example|set an example||Parents should set a good example.|Ota-onalar yaxshi oʻrnak koʻrsatishi kerak.
+phrase|set the table||накрыть на стол|dasturxon yozmoq
+example|set the table||Please set the table for dinner.|Iltimos, kechki ovqatga dasturxon yozing.
+phrase|set a record||установить рекорд|rekord oʻrnatmoq
+example|set a record||The athlete set a new record.|Sportchi yangi rekord oʻrnatdi.
+phrase|set aside money||откладывать деньги|pul ajratib qoʻymoq
+example|set aside money||I set aside some money every month.|Men har oy bir oz pul ajratib qoʻyaman.
+phrase|set free||освободить|ozod qilmoq
+example|set free||The animal was set free.|Hayvon ozod qilindi.
+phrase|set a reminder||установить напоминание|eslatma oʻrnatmoq
+example|set a reminder||I'll set a reminder on my phone.|Men telefonimga eslatma oʻrnataman.
+phrase|set your mind on||твёрдо решить|qatʼiy qaror qilmoq
+example|set your mind on||She set her mind on becoming a doctor.|U shifokor boʻlishga qatʼiy qaror qildi.
+phrase|all set||всё готово|hammasi tayyor
+example|all set||Are we all set to leave?|Ketishga hammasi tayyormi?
+phrase|pick up||поднять; забрать; подобрать|koʻtarmoq; olib ketmoq
+example|pick up||I'll pick you up at seven.|Men sizni soat yettida olib ketaman.
+phrase|pick someone up||забрать кого-либо|kimnidir olib ketmoq
+example|pick someone up||Can you pick me up from the station?|Meni bekatdan olib keta olasizmi?
+phrase|pick up the phone||взять трубку|goʻshakni koʻtarmoq
+example|pick up the phone||Why didn't you pick up the phone?|Nega telefonni koʻtarmadingiz?
+phrase|pick a number||выбрать число|son tanlamoq
+example|pick a number||Pick a number between one and ten.|Birdan oʻngacha son tanlang.
+phrase|pick a name||выбрать название или имя|nom tanlamoq
+example|pick a name||We need to pick a name for the project.|Biz loyihaga nom tanlashimiz kerak.
+phrase|pick the best one||выбрать лучший вариант|eng yaxshisini tanlamoq
+example|pick the best one||Pick the best one for your needs.|Ehtiyojingizga eng mosini tanlang.
+phrase|pick flowers||собирать цветы|gul termoq
+example|pick flowers||Don't pick flowers in the park.|Bogʻda gul termang.
+phrase|pick fruit||собирать фрукты|meva termoq
+example|pick fruit||They pick fruit in summer.|Ular yozda meva terishadi.
+phrase|pick up a language||освоить язык|tilni oʻzlashtirmoq
+example|pick up a language||He picked up English while travelling.|U sayohat davomida ingliz tilini oʻzlashtirdi.
+phrase|pick up a skill||освоить навык|koʻnikma oʻzlashtirmoq
+example|pick up a skill||You can pick up useful skills online.|Siz onlayn foydali koʻnikmalarni oʻzlashtira olasiz.
+phrase|pick on someone||дразнить; задирать|kimnidir ranjitmoq
+example|pick on someone||Stop picking on your little brother.|Ukangizni ranjitishni bas qiling.
+phrase|pick out||выбрать|tanlab olmoq
+example|pick out||She picked out a blue dress.|U koʻk koʻylak tanlab oldi.
+phrase|pick a fight||затевать ссору|janjal chiqarmoq
+example|pick a fight||He's always trying to pick a fight.|U doim janjal chiqarishga urinadi.
+phrase|pick up speed||набирать скорость|tezlik olmoq
+example|pick up speed||The car picked up speed.|Mashina tezlik oldi.
+phrase|pick a side||выбрать сторону|bir tomonni tanlamoq
+example|pick a side||You don't have to pick a side.|Siz bir tomonni tanlashingiz shart emas.
+phrase|find out||выяснить; узнать|bilib olmoq
+example|find out||I'll find out what happened.|Men nima boʻlganini bilib olaman.
+phrase|find a job||найти работу|ish topmoq
+example|find a job||He's trying to find a job.|U ish topishga harakat qilyapti.
+phrase|find a solution||найти решение|yechim topmoq
+example|find a solution||We need to find a solution.|Biz yechim topishimiz kerak.
+phrase|find the answer||найти ответ|javobni topmoq
+example|find the answer||Can you find the answer?|Javobni topa olasizmi?
+phrase|find time||найти время|vaqt topmoq
+example|find time||I can't find time to exercise.|Men mashq qilishga vaqt topa olmayapman.
+phrase|find a way||найти способ|yoʻl topmoq
+example|find a way||We'll find a way to help you.|Biz sizga yordam berish yoʻlini topamiz.
+phrase|find a place||найти место|joy topmoq
+example|find a place||Let's find a place to sit.|Keling, oʻtiradigan joy topaylik.
+phrase|find something difficult||считать что-либо трудным|biror narsani qiyin deb bilmoq
+example|find something difficult||I find English pronunciation difficult.|Menimcha, ingliz tili talaffuzi qiyin.
+phrase|find something interesting||считать что-либо интересным|biror narsani qiziqarli deb bilmoq
+example|find something interesting||I find this topic interesting.|Menimcha, bu mavzu qiziqarli.
+phrase|find your way||найти дорогу|yoʻlni topmoq
+example|find your way||We found our way back to the hotel.|Biz mehmonxonaga qaytish yoʻlini topdik.
+phrase|find a mistake||найти ошибку|xatoni topmoq
+example|find a mistake||Can you find the mistake in this sentence?|Bu gapdagi xatoni topa olasizmi?
+phrase|find a seat||найти место|oʻtirgani joy topmoq
+example|find a seat||We found a seat near the window.|Biz deraza yonidan joy topdik.
+phrase|find a replacement||найти замену|oʻrnini bosadigan odam topmoq
+example|find a replacement||We need to find a replacement.|Biz oʻrnini bosadigan odam topishimiz kerak.
+phrase|find out about||узнать о|biror narsa haqida bilib olmoq
+example|find out about||I want to find out about the course.|Men kurs haqida bilib olmoqchiman.
+phrase|find out the truth||узнать правду|haqiqatni bilib olmoq
+example|find out the truth||She wanted to find out the truth.|U haqiqatni bilib olmoqchi edi.
+phrase|find it hard to||считать трудным что-либо делать|biror ishni qilish qiyin boʻlmoq
+example|find it hard to||I find it hard to wake up early.|Menga erta uygʻonish qiyin.
+phrase|work from home||работать из дома|uydan turib ishlamoq
+example|work from home||I work from home on Fridays.|Men juma kunlari uydan turib ishlayman.
+phrase|work hard||усердно работать|tirishib ishlamoq
+example|work hard||If you work hard, you can improve.|Tirishib ishlasangiz, yaxshilana olasiz.
+phrase|work late||работать допоздна|kechgacha ishlamoq
+example|work late||I have to work late tonight.|Bugun kechgacha ishlashim kerak.
+phrase|work overtime||работать сверхурочно|qoʻshimcha soatlarda ishlamoq
+example|work overtime||He sometimes works overtime.|U baʼzan qoʻshimcha soatlarda ishlaydi.
+phrase|work well||хорошо работать; функционировать|yaxshi ishlamoq
+example|work well||This app works well on my phone.|Bu ilova telefonimda yaxshi ishlaydi.
+phrase|work out||получаться; решаться|hal boʻlmoq; yaxshi chiqmoq
+example|work out||I hope everything works out.|Umid qilamanki, hammasi hal boʻladi.
+phrase|work on something||работать над чем-либо|biror narsa ustida ishlamoq
+example|work on something||I'm working on a new project.|Men yangi loyiha ustida ishlayapman.
+phrase|work for a company||работать в компании|kompaniyada ishlamoq
+example|work for a company||She works for an international company.|U xalqaro kompaniyada ishlaydi.
+phrase|work as a teacher||работать учителем|oʻqituvchi boʻlib ishlamoq
+example|work as a teacher||He works as a teacher.|U oʻqituvchi boʻlib ishlaydi.
+phrase|work together||работать вместе|birga ishlamoq
+example|work together||We work together every day.|Biz har kuni birga ishlaymiz.
+phrase|work out a problem||решить проблему|muammoni hal qilmoq
+example|work out a problem||Let's work out this problem together.|Keling, bu muammoni birga hal qilamiz.
+phrase|work your way up||продвигаться по карьерной лестнице|martaba pogʻonasida koʻtarilmoq
+example|work your way up||He worked his way up to manager.|U ishlab, menejerlikkacha koʻtarildi.
+phrase|work around a problem||найти обходное решение|muammoning aylanma yechimini topmoq
+example|work around a problem||We found a way to work around the problem.|Biz muammoning aylanma yechimini topdik.
+phrase|work out at the gym||тренироваться в спортзале|sport zalida shugʻullanmoq
+example|work out at the gym||I work out at the gym three times a week.|Men haftada uch marta sport zalida shugʻullanaman.
+phrase|work for me||мне подходит|menga toʻgʻri keladi
+example|work for me||Does three o'clock work for you?|Soat uch sizga toʻgʻri keladimi?
+phrase|work like a charm||работать отлично|aʼlo darajada ishlamoq
+example|work like a charm||Restarting the computer worked like a charm.|Kompyuterni qayta ishga tushirish aʼlo darajada yordam berdi.
+phrase|call me||позвони мне|menga qoʻngʻiroq qiling
+example|call me||Call me when you get home.|Uyga yetganingizda menga qoʻngʻiroq qiling.
+phrase|call back||перезвонить|qayta qoʻngʻiroq qilmoq
+example|call back||I'll call you back in ten minutes.|Men sizga oʻn daqiqadan keyin qayta qoʻngʻiroq qilaman.
+phrase|call someone up||позвонить кому-либо|kimnidir telefon qilmoq
+example|call someone up||I called him up last night.|Men unga kecha kechqurun telefon qildim.
+phrase|call for help||позвать на помощь|yordamga chaqirmoq
+example|call for help||Someone called for help.|Kimdir yordamga chaqirdi.
+phrase|call a taxi||вызвать такси|taksi chaqirmoq
+example|call a taxi||Can you call a taxi for us?|Bizga taksi chaqirib bera olasizmi?
+phrase|call an ambulance||вызвать скорую помощь|tez yordam chaqirmoq
+example|call an ambulance||Call an ambulance immediately.|Darhol tez yordam chaqiring.
+phrase|call the police||вызвать полицию|politsiyani chaqirmoq
+example|call the police||You should call the police.|Siz politsiyani chaqirishingiz kerak.
+phrase|call a meeting||созвать собрание|yigʻilish chaqirmoq
+example|call a meeting||The manager called a meeting.|Rahbar yigʻilish chaqirdi.
+phrase|call it a day||закончить работу на сегодня|bugunga ishni yakunlamoq
+example|call it a day||Let's call it a day.|Keling, bugunga ishni yakunlaymiz.
+phrase|call in sick||сообщить, что заболел и не придёшь|kasalligi haqida xabar berib, ishga chiqmaslik
+example|call in sick||I had to call in sick yesterday.|Kecha kasalligim haqida xabar berib, ishga chiqmadim.
+phrase|call off||отменить|bekor qilmoq
+example|call off||They called off the match because of rain.|Ular yomgʻir tufayli oʻyinni bekor qilishdi.
+phrase|call on someone||обратиться к кому-либо; вызвать отвечать|kimgadir murojaat qilmoq; javob berishga chaqirmoq
+example|call on someone||The teacher called on me to answer.|Oʻqituvchi meni javob berishga chaqirdi.
+phrase|call out||громко позвать; выкрикнуть|baland ovozda chaqirmoq
+example|call out||She called out my name.|U ismimni baland ovozda chaqirdi.
+phrase|call someone by name||называть кого-либо по имени|kimnidir ismi bilan chaqirmoq
+example|call someone by name||Please call me by my first name.|Iltimos, meni ismim bilan chaqiring.
+phrase|call a number||набрать номер|raqamga qoʻngʻiroq qilmoq
+example|call a number||Call this number if you need help.|Yordam kerak boʻlsa, shu raqamga qoʻngʻiroq qiling.
+phrase|call someone names||обзывать кого-либо|kimnidir haqoratlamoq
+example|call someone names||It's not nice to call people names.|Odamlarni haqoratlash yaxshi emas.
+phrase|call it quits||закончить; прекратить попытки|toʻxtatmoq; urinishni bas qilmoq
+example|call it quits||We've done enough for today. Let's call it quits.|Bugunga yetarli qildik. Keling, toʻxtatamiz.
+example|give someone a call||I'll give you a call tomorrow.|Men sizga ertaga qoʻngʻiroq qilaman.

@@ -82,7 +82,7 @@ phrase|Don't worry.||Не волнуйся.|Xavotir olmang.
 phrase|Everything will be okay.||Всё будет хорошо.|Hammasi joyida boʻladi.
 phrase|It's not a big deal.||Это не такая уж большая проблема.|Bu unchalik katta muammo emas.
 phrase|No need to panic.||Не нужно паниковать.|Vahima qilishning hojati yoʻq.
-phrase|It's going to be all right.||Всё будет в порядке.|Hammasi yaxshi boʻladi.
+phrase|It's going to be all right.||Всё будет в порядке.|Ishlar yaxshi boʻladi.
 phrase|You don't have to worry about it.||Тебе не нужно об этом беспокоиться.|Bu haqda xavotir olishingiz shart emas.
 phrase|We'll work it out.||Мы найдём решение.|Biz buning yechimini topamiz.
 phrase|There's nothing to worry about.||Не о чем беспокоиться.|Xavotir oladigan narsa yoʻq.

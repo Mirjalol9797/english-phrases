@@ -18,7 +18,7 @@ phrase|Have a nice day!||Хорошего дня!|Kuningiz yaxshi oʻtsin!
 phrase|Have a good evening!||Хорошего вечера!|Kechangiz yaxshi oʻtsin!
 phrase|Talk to you later.||Поговорим позже.|Keyinroq gaplashamiz.
 phrase|It was nice seeing you.||Было приятно тебя увидеть.|Sizni koʻrganim yaxshi boʻldi.
-phrase|How are things?||Как дела?|Ishlar qalay?
+phrase|How are things?||Как дела?|Ahvollar qanday?
 phrase|How's your day going?||Как проходит твой день?|Kuningiz qanday oʻtyapti?
 phrase|How are you doing?||Как ты? / Как дела?|Oʻzingiz qalaysiz?
 phrase|Everything okay?||Всё в порядке?|Hammasi joyidami?
@@ -55,7 +55,7 @@ phrase|Let's meet up.||Давай встретимся.|Keling, uchrashaylik.
 phrase|Let's go for a walk.||Давай прогуляемся.|Keling, sayr qilaylik.
 phrase|What time works for you?||Какое время тебе подходит?|Sizga qaysi vaqt qulay?
 phrase|Where shall we meet?||Где встретимся?|Qayerda uchrashamiz?
-phrase|That sounds good.||Звучит хорошо.|Bu yaxshi fikr.
+phrase|That sounds good.||Звучит хорошо.|Yaxshi tuyuladi.
 phrase|I'm not sure yet.||Я пока не уверен(а).|Hali aniq bilmayman.
 phrase|I'll let you know.||Я дам тебе знать.|Sizga xabar beraman.
 phrase|Would you like to join us?||Хочешь присоединиться к нам?|Bizga qoʻshilasizmi?
@@ -186,7 +186,7 @@ phrase|Send me a message.||Напиши мне сообщение.|Menga xabar y
 phrase|Text me later.||Напиши мне позже.|Keyinroq yozing.
 phrase|Let me know how it goes.||Расскажи, как всё пройдёт.|Qanday oʻtganini aytib bering.
 phrase|Have fun!||Хорошо проведи время!|Yaxshi dam oling!
-phrase|Enjoy your day!||Хорошего тебе дня!|Kuningiz yaxshi oʻtsin!
+phrase|Enjoy your day!||Хорошего тебе дня!|Kuningizdan rohatlaning!
 phrase|See you around.||Ещё увидимся.|Yana koʻrishamiz.
 phrase|Of course.||Конечно.|Albatta.
 phrase|Sure.||Конечно. / Без проблем.|Albatta. / Muammo yoʻq.

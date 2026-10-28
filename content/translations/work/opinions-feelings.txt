@@ -9,7 +9,7 @@ phrase|I tend to think that...||Я склонен / склонна думать,
 phrase|My feeling is that...||У меня такое ощущение, что...|Menda shunday tuygʻu borki...
 phrase|I'd say that...||Я бы сказал(а), что...|Men shuni aytgan boʻlardimki...
 phrase|I completely agree.||Я полностью согласен / согласна.|Men toʻliq roziman.
-phrase|That's exactly how I feel.||Я чувствую точно так же.|Men ham xuddi shunday his qilyapman.
+phrase|That's exactly how I feel.||Я чувствую точно так же.|Men ham aynan shunday his qilyapman.
 phrase|You've put it perfectly.||Ты прекрасно это выразил(а).|Siz buni juda yaxshi ifodaladingiz.
 phrase|I couldn't agree more.||Полностью согласен / согласна.|Bundan koʻra koʻproq rozi boʻla olmasdim.
 phrase|I feel the same way.||Я чувствую то же самое.|Men ham xuddi shunday his qilyapman.

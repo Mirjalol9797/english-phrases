@@ -160,11 +160,13 @@
       "kind": "expressions",
       "title": {
         "en": "English Core Verbs",
-        "ru": "Основные глаголы"
+        "ru": "Основные глаголы",
+        "uz": "Ingliz tilining asosiy feʼllari"
       },
       "file": "chapters/core-verbs.json",
       "lessonCount": 20,
-      "phraseCount": 330
+      "phraseCount": 330,
+      "translatedUz": true
     },
     {
       "id": "prepositions",

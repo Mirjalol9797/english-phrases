@@ -170,3 +170,34 @@ describe('качество перевода', () => {
     expect(problems).toEqual([])
   })
 })
+
+describe('одинаковый узбекский у разных фраз', () => {
+  it('ругается, когда по-русски фразы различаются', () => {
+    const c = chapter()
+    const { problems } = applyTranslation(
+      c,
+      translation([
+        { en: 'Hi!', ru: 'Привет!', uz: 'Salom!' },
+        { en: 'Bye!', ru: 'Пока!', uz: 'Salom!' },
+      ]),
+    )
+    expect(problems.join(' ')).toContain('одинаково')
+    // Перевод не взят: иначе в упражнении было бы два одинаковых варианта.
+    expect(c.lessons[0].phrases[0].uz).toBeUndefined()
+  })
+
+  it('молчит, когда фразы и по-русски одинаковы', () => {
+    // Такую пару сборка уже называет в русском отчёте — повторять незачем.
+    const c = chapter()
+    c.lessons[0].phrases[1].ru = 'Привет!'
+    const { problems } = applyTranslation(
+      c,
+      translation([
+        { en: 'Hi!', ru: 'Привет!', uz: 'Salom!' },
+        { en: 'Bye!', ru: 'Привет!', uz: 'Salom!' },
+      ]),
+    )
+    expect(problems).toEqual([])
+    expect(c.lessons[0].phrases[1].uz).toBe('Salom!')
+  })
+})

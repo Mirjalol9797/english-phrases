@@ -5,7 +5,8 @@
   "kind": "expressions",
   "title": {
     "en": "English Core Verbs",
-    "ru": "Основные глаголы"
+    "ru": "Основные глаголы",
+    "uz": "Ingliz tilining asosiy feʼllari"
   },
   "lessons": [
     {
@@ -13,7 +14,8 @@
       "order": 1,
       "title": {
         "en": "Get",
-        "ru": "Выражения с «get»"
+        "ru": "Выражения с «get»",
+        "uz": "«get» bilan iboralar"
       },
       "phrases": [
         {
@@ -23,9 +25,11 @@
           "examples": [
             {
               "en": "I get up at seven every morning.",
-              "ru": "Я встаю в семь часов каждое утро."
+              "ru": "Я встаю в семь часов каждое утро.",
+              "uz": "Men har kuni ertalab soat yettida turaman."
             }
-          ]
+          ],
+          "uz": "turmoq"
         },
         {
           "id": "GET002",
@@ -34,9 +38,11 @@
           "examples": [
             {
               "en": "I need to get ready for work.",
-              "ru": "Мне нужно собраться на работу."
+              "ru": "Мне нужно собраться на работу.",
+              "uz": "Menga ishga tayyorlanish kerak."
             }
-          ]
+          ],
+          "uz": "tayyorlanmoq"
         },
         {
           "id": "GET003",
@@ -45,9 +51,11 @@
           "examples": [
             {
               "en": "The children are getting dressed.",
-              "ru": "Дети одеваются."
+              "ru": "Дети одеваются.",
+              "uz": "Bolalar kiyinyapti."
             }
-          ]
+          ],
+          "uz": "kiyinmoq"
         },
         {
           "id": "GET004",
@@ -56,9 +64,11 @@
           "examples": [
             {
               "en": "What time do you get home?",
-              "ru": "Во сколько ты добираешься домой?"
+              "ru": "Во сколько ты добираешься домой?",
+              "uz": "Soat nechada uyga yetib borasiz?"
             }
-          ]
+          ],
+          "uz": "uyga yetib bormoq"
         },
         {
           "id": "GET005",
@@ -67,9 +77,11 @@
           "examples": [
             {
               "en": "I'll get back at six.",
-              "ru": "Я вернусь в шесть."
+              "ru": "Я вернусь в шесть.",
+              "uz": "Men soat oltida qaytaman."
             }
-          ]
+          ],
+          "uz": "qaytmoq"
         },
         {
           "id": "GET006",
@@ -78,9 +90,11 @@
           "examples": [
             {
               "en": "Get in the car, please.",
-              "ru": "Садись в машину, пожалуйста."
+              "ru": "Садись в машину, пожалуйста.",
+              "uz": "Iltimos, mashinaga oʻtiring."
             }
-          ]
+          ],
+          "uz": "kirmoq; mashinaga oʻtirmoq"
         },
         {
           "id": "GET007",
@@ -89,9 +103,11 @@
           "examples": [
             {
               "en": "We got out of the taxi.",
-              "ru": "Мы вышли из такси."
+              "ru": "Мы вышли из такси.",
+              "uz": "Biz taksidan tushdik."
             }
-          ]
+          ],
+          "uz": "chiqmoq"
         },
         {
           "id": "GET008",
@@ -100,9 +116,11 @@
           "examples": [
             {
               "en": "I get on the bus near my house.",
-              "ru": "Я сажусь на автобус возле дома."
+              "ru": "Я сажусь на автобус возле дома.",
+              "uz": "Men uyim yonida avtobusga chiqaman."
             }
-          ]
+          ],
+          "uz": "avtobus yoki poyezdga chiqmoq"
         },
         {
           "id": "GET009",
@@ -111,9 +129,11 @@
           "examples": [
             {
               "en": "We get off at the next stop.",
-              "ru": "Мы выходим на следующей остановке."
+              "ru": "Мы выходим на следующей остановке.",
+              "uz": "Biz keyingi bekatda tushamiz."
             }
-          ]
+          ],
+          "uz": "avtobus yoki poyezddan tushmoq"
         },
         {
           "id": "GET010",
@@ -122,9 +142,11 @@
           "examples": [
             {
               "en": "She wants to get a job in Tashkent.",
-              "ru": "Она хочет найти работу в Ташкенте."
+              "ru": "Она хочет найти работу в Ташкенте.",
+              "uz": "U Toshkentda ishga joylashmoqchi."
             }
-          ]
+          ],
+          "uz": "ishga joylashmoq"
         },
         {
           "id": "GET011",
@@ -133,9 +155,11 @@
           "examples": [
             {
               "en": "I got your message yesterday.",
-              "ru": "Я получил твоё сообщение вчера."
+              "ru": "Я получил твоё сообщение вчера.",
+              "uz": "Xabaringizni kecha oldim."
             }
-          ]
+          ],
+          "uz": "xabar olmoq"
         },
         {
           "id": "GET012",
@@ -144,9 +168,11 @@
           "examples": [
             {
               "en": "I hope you get better soon.",
-              "ru": "Надеюсь, ты скоро поправишься."
+              "ru": "Надеюсь, ты скоро поправишься.",
+              "uz": "Umid qilamanki, tezda tuzalib ketasiz."
             }
-          ]
+          ],
+          "uz": "yaxshilanmoq; tuzalmoq"
         },
         {
           "id": "GET013",
@@ -155,9 +181,11 @@
           "examples": [
             {
               "en": "I get tired after work.",
-              "ru": "Я устаю после работы."
+              "ru": "Я устаю после работы.",
+              "uz": "Men ishdan keyin charchayman."
             }
-          ]
+          ],
+          "uz": "charchamoq"
         },
         {
           "id": "GET014",
@@ -166,9 +194,11 @@
           "examples": [
             {
               "en": "Don't get angry with me.",
-              "ru": "Не злись на меня."
+              "ru": "Не злись на меня.",
+              "uz": "Menga jahlingiz chiqmasin."
             }
-          ]
+          ],
+          "uz": "jahli chiqmoq"
         },
         {
           "id": "GET015",
@@ -177,9 +207,11 @@
           "examples": [
             {
               "en": "We got lost in the city.",
-              "ru": "Мы заблудились в городе."
+              "ru": "Мы заблудились в городе.",
+              "uz": "Biz shaharda adashib qoldik."
             }
-          ]
+          ],
+          "uz": "adashib qolmoq"
         },
         {
           "id": "GET016",
@@ -188,9 +220,11 @@
           "examples": [
             {
               "en": "They want to get married next year.",
-              "ru": "Они хотят пожениться в следующем году."
+              "ru": "Они хотят пожениться в следующем году.",
+              "uz": "Ular kelasi yili turmush qurmoqchi."
             }
-          ]
+          ],
+          "uz": "turmush qurmoq"
         },
         {
           "id": "GET017",
@@ -199,9 +233,11 @@
           "examples": [
             {
               "en": "I get along well with my colleagues.",
-              "ru": "Я хорошо лажу с коллегами."
+              "ru": "Я хорошо лажу с коллегами.",
+              "uz": "Men hamkasblarim bilan yaxshi chiqishaman."
             }
-          ]
+          ],
+          "uz": "kimdir bilan chiqishmoq"
         },
         {
           "id": "GET018",
@@ -210,9 +246,11 @@
           "examples": [
             {
               "en": "I hope I get a chance to speak to her.",
-              "ru": "Надеюсь, у меня будет возможность поговорить с ней."
+              "ru": "Надеюсь, у меня будет возможность поговорить с ней.",
+              "uz": "Umid qilamanki, u bilan gaplashishga imkoniyat topaman."
             }
-          ]
+          ],
+          "uz": "imkoniyat topmoq"
         },
         {
           "id": "GET019",
@@ -221,9 +259,11 @@
           "examples": [
             {
               "en": "How do you get to work?",
-              "ru": "Как ты добираешься до работы?"
+              "ru": "Как ты добираешься до работы?",
+              "uz": "Ishga qanday yetib borasiz?"
             }
-          ]
+          ],
+          "uz": "ishga yetib bormoq"
         },
         {
           "id": "GET020",
@@ -232,9 +272,11 @@
           "examples": [
             {
               "en": "I'm getting used to my new job.",
-              "ru": "Я привыкаю к новой работе."
+              "ru": "Я привыкаю к новой работе.",
+              "uz": "Men yangi ishimga koʻnikyapman."
             }
-          ]
+          ],
+          "uz": "biror narsaga koʻnikmoq"
         }
       ]
     },
@@ -243,7 +285,8 @@
       "order": 2,
       "title": {
         "en": "Take",
-        "ru": "Выражения с «take»"
+        "ru": "Выражения с «take»",
+        "uz": "«take» bilan iboralar"
       },
       "phrases": [
         {
@@ -253,9 +296,11 @@
           "examples": [
             {
               "en": "I take a shower every morning.",
-              "ru": "Я принимаю душ каждое утро."
+              "ru": "Я принимаю душ каждое утро.",
+              "uz": "Men har kuni ertalab dush qabul qilaman."
             }
-          ]
+          ],
+          "uz": "dush qabul qilmoq"
         },
         {
           "id": "TAKE002",
@@ -264,9 +309,11 @@
           "examples": [
             {
               "en": "Let's take a short break.",
-              "ru": "Давай сделаем небольшой перерыв."
+              "ru": "Давай сделаем небольшой перерыв.",
+              "uz": "Keling, qisqa tanaffus qilaylik."
             }
-          ]
+          ],
+          "uz": "tanaffus qilmoq"
         },
         {
           "id": "TAKE003",
@@ -275,9 +322,11 @@
           "examples": [
             {
               "en": "Please take a seat.",
-              "ru": "Пожалуйста, присаживайтесь."
+              "ru": "Пожалуйста, присаживайтесь.",
+              "uz": "Iltimos, joy oling."
             }
-          ]
+          ],
+          "uz": "joy olmoq"
         },
         {
           "id": "TAKE004",
@@ -286,9 +335,11 @@
           "examples": [
             {
               "en": "Can you take a photo of us?",
-              "ru": "Можешь сфотографировать нас?"
+              "ru": "Можешь сфотографировать нас?",
+              "uz": "Bizni suratga olib bera olasizmi?"
             }
-          ]
+          ],
+          "uz": "surat olmoq"
         },
         {
           "id": "TAKE005",
@@ -297,9 +348,11 @@
           "examples": [
             {
               "en": "Let's take a taxi to the station.",
-              "ru": "Давай поедем на такси до станции."
+              "ru": "Давай поедем на такси до станции.",
+              "uz": "Keling, bekatga taksida boramiz."
             }
-          ]
+          ],
+          "uz": "taksida bormoq"
         },
         {
           "id": "TAKE006",
@@ -308,9 +361,11 @@
           "examples": [
             {
               "en": "You should take this medicine twice a day.",
-              "ru": "Тебе следует принимать это лекарство два раза в день."
+              "ru": "Тебе следует принимать это лекарство два раза в день.",
+              "uz": "Bu dorini kuniga ikki marta ichishingiz kerak."
             }
-          ]
+          ],
+          "uz": "dori ichmoq"
         },
         {
           "id": "TAKE007",
@@ -319,9 +374,11 @@
           "examples": [
             {
               "en": "Take your time. We aren't in a hurry.",
-              "ru": "Не торопись. Мы не спешим."
+              "ru": "Не торопись. Мы не спешим.",
+              "uz": "Shoshilmang. Biz shoshmayapmiz."
             }
-          ]
+          ],
+          "uz": "shoshilmaslik"
         },
         {
           "id": "TAKE008",
@@ -330,9 +387,11 @@
           "examples": [
             {
               "en": "Take care and see you soon.",
-              "ru": "Береги себя, до скорой встречи."
+              "ru": "Береги себя, до скорой встречи.",
+              "uz": "Oʻzingizni ehtiyot qiling, tez orada koʻrishamiz."
             }
-          ]
+          ],
+          "uz": "oʻzingizni ehtiyot qiling"
         },
         {
           "id": "TAKE009",
@@ -341,9 +400,11 @@
           "examples": [
             {
               "en": "She takes care of her younger brother.",
-              "ru": "Она заботится о младшем брате."
+              "ru": "Она заботится о младшем брате.",
+              "uz": "U ukasiga gʻamxoʻrlik qiladi."
             }
-          ]
+          ],
+          "uz": "kimgadir gʻamxoʻrlik qilmoq"
         },
         {
           "id": "TAKE010",
@@ -352,9 +413,11 @@
           "examples": [
             {
               "en": "I want to take part in the competition.",
-              "ru": "Я хочу принять участие в соревновании."
+              "ru": "Я хочу принять участие в соревновании.",
+              "uz": "Men musobaqada qatnashmoqchiman."
             }
-          ]
+          ],
+          "uz": "qatnashmoq"
         },
         {
           "id": "TAKE011",
@@ -363,9 +426,11 @@
           "examples": [
             {
               "en": "Can you take a look at this?",
-              "ru": "Можешь взглянуть на это?"
+              "ru": "Можешь взглянуть на это?",
+              "uz": "Bunga koʻz tashlay olasizmi?"
             }
-          ]
+          ],
+          "uz": "koʻz tashlamoq"
         },
         {
           "id": "TAKE012",
@@ -374,9 +439,11 @@
           "examples": [
             {
               "en": "I take notes during lessons.",
-              "ru": "Я делаю записи во время уроков."
+              "ru": "Я делаю записи во время уроков.",
+              "uz": "Men dars davomida yozib boraman."
             }
-          ]
+          ],
+          "uz": "yozib bormoq"
         },
         {
           "id": "TAKE013",
@@ -385,9 +452,11 @@
           "examples": [
             {
               "en": "We take an English exam tomorrow.",
-              "ru": "Завтра мы сдаём экзамен по английскому."
+              "ru": "Завтра мы сдаём экзамен по английскому.",
+              "uz": "Biz ertaga ingliz tilidan imtihon topshiramiz."
             }
-          ]
+          ],
+          "uz": "imtihon topshirmoq"
         },
         {
           "id": "TAKE014",
@@ -396,9 +465,11 @@
           "examples": [
             {
               "en": "I'm going to take a day off on Friday.",
-              "ru": "Я собираюсь взять выходной в пятницу."
+              "ru": "Я собираюсь взять выходной в пятницу.",
+              "uz": "Men juma kuni dam olish kuni olmoqchiman."
             }
-          ]
+          ],
+          "uz": "dam olish kuni olmoq"
         },
         {
           "id": "TAKE015",
@@ -407,9 +478,11 @@
           "examples": [
             {
               "en": "The meeting takes place at noon.",
-              "ru": "Встреча проходит в полдень."
+              "ru": "Встреча проходит в полдень.",
+              "uz": "Uchrashuv tushda boʻlib oʻtadi."
             }
-          ]
+          ],
+          "uz": "boʻlib oʻtmoq"
         },
         {
           "id": "TAKE016",
@@ -418,9 +491,11 @@
           "examples": [
             {
               "en": "Take your phone out of your bag.",
-              "ru": "Достань телефон из сумки."
+              "ru": "Достань телефон из сумки.",
+              "uz": "Telefoningizni sumkangizdan chiqaring."
             }
-          ]
+          ],
+          "uz": "chiqarmoq"
         },
         {
           "id": "TAKE017",
@@ -429,9 +504,11 @@
           "examples": [
             {
               "en": "Please take off your shoes.",
-              "ru": "Пожалуйста, сними обувь."
+              "ru": "Пожалуйста, сними обувь.",
+              "uz": "Iltimos, oyoq kiyimingizni yeching."
             }
-          ]
+          ],
+          "uz": "yechmoq; uchib ketmoq"
         },
         {
           "id": "TAKE018",
@@ -440,9 +517,11 @@
           "examples": [
             {
               "en": "Can I get this to take away?",
-              "ru": "Можно взять это с собой?"
+              "ru": "Можно взять это с собой?",
+              "uz": "Buni olib ketishga olsam boʻladimi?"
             }
-          ]
+          ],
+          "uz": "olib ketmoq; olib ketiladigan taom"
         },
         {
           "id": "TAKE019",
@@ -451,9 +530,11 @@
           "examples": [
             {
               "en": "He needs to take responsibility for his actions.",
-              "ru": "Ему нужно взять ответственность за свои поступки."
+              "ru": "Ему нужно взять ответственность за свои поступки.",
+              "uz": "U oʻz xatti-harakatlari uchun javobgarlikni oʻz zimmasiga olishi kerak."
             }
-          ]
+          ],
+          "uz": "javobgarlikni oʻz zimmasiga olmoq"
         }
       ]
     },
@@ -462,7 +543,8 @@
       "order": 3,
       "title": {
         "en": "Have",
-        "ru": "Выражения с «have»"
+        "ru": "Выражения с «have»",
+        "uz": "«have» bilan iboralar"
       },
       "phrases": [
         {
@@ -472,9 +554,11 @@
           "examples": [
             {
               "en": "I have breakfast at eight.",
-              "ru": "Я завтракаю в восемь."
+              "ru": "Я завтракаю в восемь.",
+              "uz": "Men soat sakkizda nonushta qilaman."
             }
-          ]
+          ],
+          "uz": "nonushta qilmoq"
         },
         {
           "id": "HAVE002",
@@ -483,9 +567,11 @@
           "examples": [
             {
               "en": "We usually have lunch together.",
-              "ru": "Обычно мы обедаем вместе."
+              "ru": "Обычно мы обедаем вместе.",
+              "uz": "Biz odatda birga tushlik qilamiz."
             }
-          ]
+          ],
+          "uz": "tushlik qilmoq"
         },
         {
           "id": "HAVE003",
@@ -494,9 +580,11 @@
           "examples": [
             {
               "en": "Let's have dinner at home.",
-              "ru": "Давай поужинаем дома."
+              "ru": "Давай поужинаем дома.",
+              "uz": "Keling, kechki ovqatni uyda yeymiz."
             }
-          ]
+          ],
+          "uz": "kechki ovqat yemoq"
         },
         {
           "id": "HAVE004",
@@ -505,9 +593,11 @@
           "examples": [
             {
               "en": "I have a shower before bed.",
-              "ru": "Я принимаю душ перед сном."
+              "ru": "Я принимаю душ перед сном.",
+              "uz": "Men uxlashdan oldin dushga tushaman."
             }
-          ]
+          ],
+          "uz": "dushga tushmoq"
         },
         {
           "id": "HAVE005",
@@ -516,9 +606,11 @@
           "examples": [
             {
               "en": "You look tired. Have a rest.",
-              "ru": "Ты выглядишь уставшим. Отдохни."
+              "ru": "Ты выглядишь уставшим. Отдохни.",
+              "uz": "Charchagan koʻrinasiz. Dam oling."
             }
-          ]
+          ],
+          "uz": "dam olmoq"
         },
         {
           "id": "HAVE006",
@@ -527,9 +619,11 @@
           "examples": [
             {
               "en": "We had a good time at the party.",
-              "ru": "Мы хорошо провели время на вечеринке."
+              "ru": "Мы хорошо провели время на вечеринке.",
+              "uz": "Biz bazmda yaxshi vaqt oʻtkazdik."
             }
-          ]
+          ],
+          "uz": "yaxshi vaqt oʻtkazmoq"
         },
         {
           "id": "HAVE007",
@@ -538,9 +632,11 @@
           "examples": [
             {
               "en": "Have fun on your trip!",
-              "ru": "Хорошо проведи время в поездке!"
+              "ru": "Хорошо проведи время в поездке!",
+              "uz": "Sayohatingizda koʻngil oching!"
             }
-          ]
+          ],
+          "uz": "koʻngil ochmoq"
         },
         {
           "id": "HAVE008",
@@ -549,9 +645,11 @@
           "examples": [
             {
               "en": "I have a problem with my computer.",
-              "ru": "У меня проблема с компьютером."
+              "ru": "У меня проблема с компьютером.",
+              "uz": "Kompyuterimda muammo bor."
             }
-          ]
+          ],
+          "uz": "muammosi boʻlmoq"
         },
         {
           "id": "HAVE009",
@@ -560,9 +658,11 @@
           "examples": [
             {
               "en": "Can I ask you a question?",
-              "ru": "Можно задать тебе вопрос?"
+              "ru": "Можно задать тебе вопрос?",
+              "uz": "Sizga savol bersam boʻladimi?"
             }
-          ]
+          ],
+          "uz": "savoli boʻlmoq"
         },
         {
           "id": "HAVE010",
@@ -571,9 +671,11 @@
           "examples": [
             {
               "en": "I have an idea.",
-              "ru": "У меня есть идея."
+              "ru": "У меня есть идея.",
+              "uz": "Menda bir fikr bor."
             }
-          ]
+          ],
+          "uz": "fikri boʻlmoq"
         },
         {
           "id": "HAVE011",
@@ -582,9 +684,11 @@
           "examples": [
             {
               "en": "Have a look at this picture.",
-              "ru": "Посмотри на эту картинку."
+              "ru": "Посмотри на эту картинку.",
+              "uz": "Bu suratga qarab qoʻying."
             }
-          ]
+          ],
+          "uz": "qarab qoʻymoq"
         },
         {
           "id": "HAVE012",
@@ -593,9 +697,11 @@
           "examples": [
             {
               "en": "I have a meeting at ten.",
-              "ru": "У меня встреча в десять."
+              "ru": "У меня встреча в десять.",
+              "uz": "Mening soat oʻnda uchrashuvim bor."
             }
-          ]
+          ],
+          "uz": "uchrashuv oʻtkazmoq"
         },
         {
           "id": "HAVE013",
@@ -604,9 +710,11 @@
           "examples": [
             {
               "en": "I have a cold, so I'm staying home.",
-              "ru": "Я простудился, поэтому остаюсь дома."
+              "ru": "Я простудился, поэтому остаюсь дома.",
+              "uz": "Men shamolladim, shuning uchun uyda qolyapman."
             }
-          ]
+          ],
+          "uz": "shamollamoq"
         },
         {
           "id": "HAVE014",
@@ -615,9 +723,11 @@
           "examples": [
             {
               "en": "I have a headache.",
-              "ru": "У меня болит голова."
+              "ru": "У меня болит голова.",
+              "uz": "Boshim ogʻriyapti."
             }
-          ]
+          ],
+          "uz": "boshi ogʻrimoq"
         },
         {
           "id": "HAVE015",
@@ -626,9 +736,11 @@
           "examples": [
             {
               "en": "Do you have time to talk?",
-              "ru": "У тебя есть время поговорить?"
+              "ru": "У тебя есть время поговорить?",
+              "uz": "Gaplashishga vaqtingiz bormi?"
             }
-          ]
+          ],
+          "uz": "vaqti boʻlmoq"
         },
         {
           "id": "HAVE016",
@@ -637,9 +749,11 @@
           "examples": [
             {
               "en": "I have to leave now.",
-              "ru": "Мне нужно сейчас уходить."
+              "ru": "Мне нужно сейчас уходить.",
+              "uz": "Men hozir ketishim kerak."
             }
-          ]
+          ],
+          "uz": "majbur boʻlmoq; kerak"
         },
         {
           "id": "HAVE017",
@@ -648,9 +762,11 @@
           "examples": [
             {
               "en": "We still have a chance to win.",
-              "ru": "У нас всё ещё есть шанс победить."
+              "ru": "У нас всё ещё есть шанс победить.",
+              "uz": "Bizda hali ham yutish imkoniyati bor."
             }
-          ]
+          ],
+          "uz": "imkoniyati boʻlmoq"
         },
         {
           "id": "HAVE018",
@@ -659,9 +775,11 @@
           "examples": [
             {
               "en": "Have a good day at work!",
-              "ru": "Хорошего дня на работе!"
+              "ru": "Хорошего дня на работе!",
+              "uz": "Ishda kuningiz yaxshi oʻtsin!"
             }
-          ]
+          ],
+          "uz": "kuningiz yaxshi oʻtsin"
         },
         {
           "id": "HAVE019",
@@ -670,9 +788,11 @@
           "examples": [
             {
               "en": "I have trouble understanding fast English.",
-              "ru": "Мне трудно понимать быструю английскую речь."
+              "ru": "Мне трудно понимать быструю английскую речь.",
+              "uz": "Men tez ingliz tilini tushunishda qiynalaman."
             }
-          ]
+          ],
+          "uz": "qiynalmoq"
         },
         {
           "id": "HAVE020",
@@ -681,9 +801,11 @@
           "examples": [
             {
               "en": "We have a lot in common.",
-              "ru": "У нас много общего."
+              "ru": "У нас много общего.",
+              "uz": "Bizda umumiy jihatlar koʻp."
             }
-          ]
+          ],
+          "uz": "umumiy jihati boʻlmoq"
         }
       ]
     },
@@ -692,7 +814,8 @@
       "order": 4,
       "title": {
         "en": "Make",
-        "ru": "Выражения с «make»"
+        "ru": "Выражения с «make»",
+        "uz": "«make» bilan iboralar"
       },
       "phrases": [
         {
@@ -702,9 +825,11 @@
           "examples": [
             {
               "en": "I made a mistake in my homework.",
-              "ru": "Я допустил ошибку в домашнем задании."
+              "ru": "Я допустил ошибку в домашнем задании.",
+              "uz": "Men uy vazifamda xato qildim."
             }
-          ]
+          ],
+          "uz": "xato qilmoq"
         },
         {
           "id": "MAKE002",
@@ -713,9 +838,11 @@
           "examples": [
             {
               "en": "We need to make a decision today.",
-              "ru": "Нам нужно принять решение сегодня."
+              "ru": "Нам нужно принять решение сегодня.",
+              "uz": "Biz bugun qaror qabul qilishimiz kerak."
             }
-          ]
+          ],
+          "uz": "qaror qabul qilmoq"
         },
         {
           "id": "MAKE003",
@@ -724,9 +851,11 @@
           "examples": [
             {
               "en": "Let's make a plan for the weekend.",
-              "ru": "Давай составим план на выходные."
+              "ru": "Давай составим план на выходные.",
+              "uz": "Keling, dam olish kunlari uchun reja tuzaylik."
             }
-          ]
+          ],
+          "uz": "reja tuzmoq"
         },
         {
           "id": "MAKE004",
@@ -735,9 +864,11 @@
           "examples": [
             {
               "en": "He wants to make more money.",
-              "ru": "Он хочет зарабатывать больше денег."
+              "ru": "Он хочет зарабатывать больше денег.",
+              "uz": "U koʻproq pul topmoqchi."
             }
-          ]
+          ],
+          "uz": "pul topmoq"
         },
         {
           "id": "MAKE005",
@@ -746,9 +877,11 @@
           "examples": [
             {
               "en": "It's easy to make friends here.",
-              "ru": "Здесь легко заводить друзей."
+              "ru": "Здесь легко заводить друзей.",
+              "uz": "Bu yerda doʻst orttirish oson."
             }
-          ]
+          ],
+          "uz": "doʻst orttirmoq"
         },
         {
           "id": "MAKE006",
@@ -757,9 +890,11 @@
           "examples": [
             {
               "en": "I need to make a phone call.",
-              "ru": "Мне нужно позвонить."
+              "ru": "Мне нужно позвонить.",
+              "uz": "Menga telefon qilish kerak."
             }
-          ]
+          ],
+          "uz": "telefon qilmoq"
         },
         {
           "id": "MAKE007",
@@ -768,9 +903,11 @@
           "examples": [
             {
               "en": "I'll make breakfast for everyone.",
-              "ru": "Я приготовлю завтрак для всех."
+              "ru": "Я приготовлю завтрак для всех.",
+              "uz": "Men hammaga nonushta tayyorlayman."
             }
-          ]
+          ],
+          "uz": "nonushta tayyorlamoq"
         },
         {
           "id": "MAKE008",
@@ -779,9 +916,11 @@
           "examples": [
             {
               "en": "Make sure the door is locked.",
-              "ru": "Убедись, что дверь заперта."
+              "ru": "Убедись, что дверь заперта.",
+              "uz": "Eshik yopiqligiga ishonch hosil qiling."
             }
-          ]
+          ],
+          "uz": "ishonch hosil qilmoq"
         },
         {
           "id": "MAKE009",
@@ -790,9 +929,11 @@
           "examples": [
             {
               "en": "This explanation doesn't make sense.",
-              "ru": "Это объяснение не имеет смысла."
+              "ru": "Это объяснение не имеет смысла.",
+              "uz": "Bu tushuntirish mantiqqa toʻgʻri kelmaydi."
             }
-          ]
+          ],
+          "uz": "mantiqli boʻlmoq; tushunarli boʻlmoq"
         },
         {
           "id": "MAKE010",
@@ -801,9 +942,11 @@
           "examples": [
             {
               "en": "Small changes can make a difference.",
-              "ru": "Небольшие изменения могут многое изменить."
+              "ru": "Небольшие изменения могут многое изменить.",
+              "uz": "Kichik oʻzgarishlar ham ahamiyatga ega boʻlishi mumkin."
             }
-          ]
+          ],
+          "uz": "ahamiyatga ega boʻlmoq"
         },
         {
           "id": "MAKE011",
@@ -812,9 +955,11 @@
           "examples": [
             {
               "en": "You need to make an effort.",
-              "ru": "Тебе нужно приложить усилия."
+              "ru": "Тебе нужно приложить усилия.",
+              "uz": "Siz harakat qilishingiz kerak."
             }
-          ]
+          ],
+          "uz": "harakat qilmoq"
         },
         {
           "id": "MAKE012",
@@ -823,9 +968,11 @@
           "examples": [
             {
               "en": "You're making progress in English.",
-              "ru": "Ты делаешь успехи в английском."
+              "ru": "Ты делаешь успехи в английском.",
+              "uz": "Siz ingliz tilida oldinga siljiyapsiz."
             }
-          ]
+          ],
+          "uz": "oldinga siljimoq"
         },
         {
           "id": "MAKE013",
@@ -834,9 +981,11 @@
           "examples": [
             {
               "en": "I made a list of things to buy.",
-              "ru": "Я составил список покупок."
+              "ru": "Я составил список покупок.",
+              "uz": "Men sotib olinadigan narsalar roʻyxatini tuzdim."
             }
-          ]
+          ],
+          "uz": "roʻyxat tuzmoq"
         },
         {
           "id": "MAKE014",
@@ -845,9 +994,11 @@
           "examples": [
             {
               "en": "Don't make a promise you can't keep.",
-              "ru": "Не давай обещаний, которые не сможешь выполнить."
+              "ru": "Не давай обещаний, которые не сможешь выполнить.",
+              "uz": "Bajara olmaydigan vaʼdani bermang."
             }
-          ]
+          ],
+          "uz": "vaʼda bermoq"
         },
         {
           "id": "MAKE015",
@@ -856,9 +1007,11 @@
           "examples": [
             {
               "en": "Your message made me happy.",
-              "ru": "Твоё сообщение обрадовало меня."
+              "ru": "Твоё сообщение обрадовало меня.",
+              "uz": "Xabaringiz meni xursand qildi."
             }
-          ]
+          ],
+          "uz": "kimnidir xursand qilmoq"
         },
         {
           "id": "MAKE016",
@@ -867,9 +1020,11 @@
           "examples": [
             {
               "en": "Sorry, I can't make it tonight.",
-              "ru": "Извини, сегодня вечером я не смогу прийти."
+              "ru": "Извини, сегодня вечером я не смогу прийти.",
+              "uz": "Kechirasiz, bugun kechqurun bora olmayman."
             }
-          ]
+          ],
+          "uz": "ulgurmoq; yetib bormoq; uddalamoq"
         },
         {
           "id": "MAKE017",
@@ -878,9 +1033,11 @@
           "examples": [
             {
               "en": "You need to make up your mind.",
-              "ru": "Тебе нужно определиться."
+              "ru": "Тебе нужно определиться.",
+              "uz": "Siz qaroringizni qilishingiz kerak."
             }
-          ]
+          ],
+          "uz": "qaroringizni qilmoq"
         },
         {
           "id": "MAKE018",
@@ -889,9 +1046,11 @@
           "examples": [
             {
               "en": "I make the bed every morning.",
-              "ru": "Я заправляю кровать каждое утро."
+              "ru": "Я заправляю кровать каждое утро.",
+              "uz": "Men har kuni ertalab karavotni yigʻishtiraman."
             }
-          ]
+          ],
+          "uz": "karavotni yigʻishtirmoq"
         }
       ]
     },
@@ -900,7 +1059,8 @@
       "order": 5,
       "title": {
         "en": "Do",
-        "ru": "Выражения с «do»"
+        "ru": "Выражения с «do»",
+        "uz": "«do» bilan iboralar"
       },
       "phrases": [
         {
@@ -910,9 +1070,11 @@
           "examples": [
             {
               "en": "I do my homework after dinner.",
-              "ru": "Я делаю домашнее задание после ужина."
+              "ru": "Я делаю домашнее задание после ужина.",
+              "uz": "Men uy vazifamni kechki ovqatdan keyin bajaraman."
             }
-          ]
+          ],
+          "uz": "uy vazifasini bajarmoq"
         },
         {
           "id": "DO002",
@@ -921,9 +1083,11 @@
           "examples": [
             {
               "en": "We do housework on Saturdays.",
-              "ru": "Мы занимаемся домашними делами по субботам."
+              "ru": "Мы занимаемся домашними делами по субботам.",
+              "uz": "Biz shanba kunlari uy ishlarini qilamiz."
             }
-          ]
+          ],
+          "uz": "uy ishlarini qilmoq"
         },
         {
           "id": "DO003",
@@ -932,9 +1096,11 @@
           "examples": [
             {
               "en": "I'll do the dishes after dinner.",
-              "ru": "Я помою посуду после ужина."
+              "ru": "Я помою посуду после ужина.",
+              "uz": "Men kechki ovqatdan keyin idish yuvaman."
             }
-          ]
+          ],
+          "uz": "idish yuvmoq"
         },
         {
           "id": "DO004",
@@ -943,9 +1109,11 @@
           "examples": [
             {
               "en": "I do the laundry twice a week.",
-              "ru": "Я стираю два раза в неделю."
+              "ru": "Я стираю два раза в неделю.",
+              "uz": "Men haftada ikki marta kir yuvaman."
             }
-          ]
+          ],
+          "uz": "kir yuvmoq"
         },
         {
           "id": "DO005",
@@ -954,9 +1122,11 @@
           "examples": [
             {
               "en": "Just do your best.",
-              "ru": "Просто постарайся изо всех сил."
+              "ru": "Просто постарайся изо всех сил.",
+              "uz": "Shunchaki bor kuchingiz bilan harakat qiling."
             }
-          ]
+          ],
+          "uz": "bor kuchi bilan harakat qilmoq"
         },
         {
           "id": "DO006",
@@ -965,9 +1135,11 @@
           "examples": [
             {
               "en": "I do exercise every morning.",
-              "ru": "Я делаю упражнения каждое утро."
+              "ru": "Я делаю упражнения каждое утро.",
+              "uz": "Men har kuni ertalab mashq qilaman."
             }
-          ]
+          ],
+          "uz": "mashq qilmoq"
         },
         {
           "id": "DO007",
@@ -976,9 +1148,11 @@
           "examples": [
             {
               "en": "They do business with local companies.",
-              "ru": "Они ведут дела с местными компаниями."
+              "ru": "Они ведут дела с местными компаниями.",
+              "uz": "Ular mahalliy kompaniyalar bilan biznes yuritadi."
             }
-          ]
+          ],
+          "uz": "biznes yuritmoq"
         },
         {
           "id": "DO008",
@@ -987,9 +1161,11 @@
           "examples": [
             {
               "en": "You did a great job.",
-              "ru": "Ты отлично справился."
+              "ru": "Ты отлично справился.",
+              "uz": "Siz ajoyib ish qildingiz."
             }
-          ]
+          ],
+          "uz": "ajoyib ish qilmoq"
         },
         {
           "id": "DO009",
@@ -998,9 +1174,11 @@
           "examples": [
             {
               "en": "We're doing research for our project.",
-              "ru": "Мы проводим исследование для нашего проекта."
+              "ru": "Мы проводим исследование для нашего проекта.",
+              "uz": "Biz loyihamiz uchun tadqiqot oʻtkazyapmiz."
             }
-          ]
+          ],
+          "uz": "tadqiqot oʻtkazmoq"
         },
         {
           "id": "DO010",
@@ -1009,9 +1187,11 @@
           "examples": [
             {
               "en": "I'm doing an English course online.",
-              "ru": "Я прохожу онлайн-курс английского."
+              "ru": "Я прохожу онлайн-курс английского.",
+              "uz": "Men onlayn ingliz tili kursida oʻqiyapman."
             }
-          ]
+          ],
+          "uz": "kursda oʻqimoq"
         },
         {
           "id": "DO011",
@@ -1020,9 +1200,11 @@
           "examples": [
             {
               "en": "Could you do me a favour?",
-              "ru": "Не мог бы ты оказать мне услугу?"
+              "ru": "Не мог бы ты оказать мне услугу?",
+              "uz": "Menga bir yaxshilik qila olasizmi?"
             }
-          ]
+          ],
+          "uz": "kimgadir yaxshilik qilmoq"
         },
         {
           "id": "DO012",
@@ -1031,9 +1213,11 @@
           "examples": [
             {
               "en": "She's doing well at school.",
-              "ru": "Она хорошо учится."
+              "ru": "Она хорошо учится.",
+              "uz": "U maktabda yaxshi natija koʻrsatyapti."
             }
-          ]
+          ],
+          "uz": "yaxshi natija koʻrsatmoq"
         },
         {
           "id": "DO013",
@@ -1042,9 +1226,11 @@
           "examples": [
             {
               "en": "I did badly on the test.",
-              "ru": "Я плохо написал тест."
+              "ru": "Я плохо написал тест.",
+              "uz": "Men testda yomon natija koʻrsatdim."
             }
-          ]
+          ],
+          "uz": "yomon natija koʻrsatmoq"
         },
         {
           "id": "DO014",
@@ -1053,9 +1239,11 @@
           "examples": [
             {
               "en": "What are you doing tonight?",
-              "ru": "Что ты делаешь сегодня вечером?"
+              "ru": "Что ты делаешь сегодня вечером?",
+              "uz": "Bugun kechqurun nima qilyapsiz?"
             }
-          ]
+          ],
+          "uz": "biror narsa qilmoq"
         },
         {
           "id": "DO015",
@@ -1064,9 +1252,11 @@
           "examples": [
             {
               "en": "I want to do nothing this weekend.",
-              "ru": "Я хочу ничего не делать в эти выходные."
+              "ru": "Я хочу ничего не делать в эти выходные.",
+              "uz": "Men bu dam olish kunlari hech narsa qilmoqchi emasman."
             }
-          ]
+          ],
+          "uz": "hech narsa qilmaslik"
         },
         {
           "id": "DO016",
@@ -1075,9 +1265,11 @@
           "examples": [
             {
               "en": "I do the shopping on Fridays.",
-              "ru": "Я хожу за покупками по пятницам."
+              "ru": "Я хожу за покупками по пятницам.",
+              "uz": "Men juma kunlari xarid qilaman."
             }
-          ]
+          ],
+          "uz": "xarid qilmoq"
         },
         {
           "id": "DO017",
@@ -1086,9 +1278,11 @@
           "examples": [
             {
               "en": "We need to do the cleaning today.",
-              "ru": "Нам нужно сегодня убраться."
+              "ru": "Нам нужно сегодня убраться.",
+              "uz": "Biz bugun tozalash ishlarini qilishimiz kerak."
             }
-          ]
+          ],
+          "uz": "tozalash ishlarini qilmoq"
         },
         {
           "id": "DO018",
@@ -1097,9 +1291,11 @@
           "examples": [
             {
               "en": "The storm did a lot of damage.",
-              "ru": "Шторм нанёс большой ущерб."
+              "ru": "Шторм нанёс большой ущерб.",
+              "uz": "Boʻron katta zarar yetkazdi."
             }
-          ]
+          ],
+          "uz": "zarar yetkazmoq"
         }
       ]
     },
@@ -1108,7 +1304,8 @@
       "order": 6,
       "title": {
         "en": "Go",
-        "ru": "Выражения с «go»"
+        "ru": "Выражения с «go»",
+        "uz": "«go» bilan iboralar"
       },
       "phrases": [
         {
@@ -1118,9 +1315,11 @@
           "examples": [
             {
               "en": "I go home at six.",
-              "ru": "Я иду домой в шесть."
+              "ru": "Я иду домой в шесть.",
+              "uz": "Men soat oltida uyga ketaman."
             }
-          ]
+          ],
+          "uz": "uyga ketmoq"
         },
         {
           "id": "GO002",
@@ -1129,9 +1328,11 @@
           "examples": [
             {
               "en": "I go to work by bus.",
-              "ru": "Я езжу на работу на автобусе."
+              "ru": "Я езжу на работу на автобусе.",
+              "uz": "Men ishga avtobusda boraman."
             }
-          ]
+          ],
+          "uz": "ishga bormoq"
         },
         {
           "id": "GO003",
@@ -1140,9 +1341,11 @@
           "examples": [
             {
               "en": "My son goes to school nearby.",
-              "ru": "Мой сын ходит в школу неподалёку."
+              "ru": "Мой сын ходит в школу неподалёку.",
+              "uz": "Oʻgʻlim yaqin atrofdagi maktabga boradi."
             }
-          ]
+          ],
+          "uz": "maktabga bormoq"
         },
         {
           "id": "GO004",
@@ -1151,9 +1354,11 @@
           "examples": [
             {
               "en": "Let's go shopping after lunch.",
-              "ru": "Давай сходим за покупками после обеда."
+              "ru": "Давай сходим за покупками после обеда.",
+              "uz": "Keling, tushlikdan keyin xarid qilgani boramiz."
             }
-          ]
+          ],
+          "uz": "xarid qilgani bormoq"
         },
         {
           "id": "GO005",
@@ -1162,9 +1367,11 @@
           "examples": [
             {
               "en": "Do you want to go out tonight?",
-              "ru": "Хочешь куда-нибудь сходить сегодня вечером?"
+              "ru": "Хочешь куда-нибудь сходить сегодня вечером?",
+              "uz": "Bugun kechqurun tashqariga chiqmoqchimisiz?"
             }
-          ]
+          ],
+          "uz": "tashqariga chiqmoq; sayr qilmoq"
         },
         {
           "id": "GO006",
@@ -1173,9 +1380,11 @@
           "examples": [
             {
               "en": "Let's go for a walk.",
-              "ru": "Давай пойдём прогуляемся."
+              "ru": "Давай пойдём прогуляемся.",
+              "uz": "Keling, sayrga chiqamiz."
             }
-          ]
+          ],
+          "uz": "sayrga chiqmoq"
         },
         {
           "id": "GO007",
@@ -1184,9 +1393,11 @@
           "examples": [
             {
               "en": "We go by bus when it rains.",
-              "ru": "Когда идёт дождь, мы ездим на автобусе."
+              "ru": "Когда идёт дождь, мы ездим на автобусе.",
+              "uz": "Yomgʻir yoqqanda biz avtobusda boramiz."
             }
-          ]
+          ],
+          "uz": "avtobusda bormoq"
         },
         {
           "id": "GO008",
@@ -1195,9 +1406,11 @@
           "examples": [
             {
               "en": "We're going on holiday in July.",
-              "ru": "Мы едем в отпуск в июле."
+              "ru": "Мы едем в отпуск в июле.",
+              "uz": "Biz iyulda taʼtilga chiqamiz."
             }
-          ]
+          ],
+          "uz": "taʼtilga chiqmoq"
         },
         {
           "id": "GO009",
@@ -1206,9 +1419,11 @@
           "examples": [
             {
               "en": "I usually go to bed at eleven.",
-              "ru": "Обычно я ложусь спать в одиннадцать."
+              "ru": "Обычно я ложусь спать в одиннадцать.",
+              "uz": "Men odatda soat oʻn birda uxlashga yotaman."
             }
-          ]
+          ],
+          "uz": "uxlashga yotmoq"
         },
         {
           "id": "GO010",
@@ -1217,9 +1432,11 @@
           "examples": [
             {
               "en": "The baby went to sleep quickly.",
-              "ru": "Ребёнок быстро уснул."
+              "ru": "Ребёнок быстро уснул.",
+              "uz": "Chaqaloq tez uyquga ketdi."
             }
-          ]
+          ],
+          "uz": "uyquga ketmoq"
         },
         {
           "id": "GO011",
@@ -1228,9 +1445,11 @@
           "examples": [
             {
               "en": "Something went wrong with my laptop.",
-              "ru": "Что-то случилось с моим ноутбуком."
+              "ru": "Что-то случилось с моим ноутбуком.",
+              "uz": "Noutbukimda nimadir buzildi."
             }
-          ]
+          ],
+          "uz": "notoʻgʻri ketmoq; buzilmoq"
         },
         {
           "id": "GO012",
@@ -1239,9 +1458,11 @@
           "examples": [
             {
               "en": "I hope everything goes well.",
-              "ru": "Надеюсь, всё пройдёт хорошо."
+              "ru": "Надеюсь, всё пройдёт хорошо.",
+              "uz": "Umid qilamanki, hammasi yaxshi oʻtadi."
             }
-          ]
+          ],
+          "uz": "yaxshi oʻtmoq"
         },
         {
           "id": "GO013",
@@ -1250,9 +1471,11 @@
           "examples": [
             {
               "en": "Go ahead. I'm listening.",
-              "ru": "Продолжай. Я слушаю."
+              "ru": "Продолжай. Я слушаю.",
+              "uz": "Davom eting. Men eshityapman."
             }
-          ]
+          ],
+          "uz": "davom etmoq; boshlamoq"
         },
         {
           "id": "GO014",
@@ -1261,9 +1484,11 @@
           "examples": [
             {
               "en": "I need to go back to the office.",
-              "ru": "Мне нужно вернуться в офис."
+              "ru": "Мне нужно вернуться в офис.",
+              "uz": "Menga ofisga qaytib borish kerak."
             }
-          ]
+          ],
+          "uz": "qaytib bormoq"
         },
         {
           "id": "GO015",
@@ -1272,9 +1497,11 @@
           "examples": [
             {
               "en": "Please go away and leave me alone.",
-              "ru": "Пожалуйста, уйди и оставь меня в покое."
+              "ru": "Пожалуйста, уйди и оставь меня в покое.",
+              "uz": "Iltimos, keting va meni tinch qoʻying."
             }
-          ]
+          ],
+          "uz": "ketmoq"
         },
         {
           "id": "GO016",
@@ -1283,9 +1510,11 @@
           "examples": [
             {
               "en": "The meeting went on for two hours.",
-              "ru": "Встреча продолжалась два часа."
+              "ru": "Встреча продолжалась два часа.",
+              "uz": "Uchrashuv ikki soat davom etdi."
             }
-          ]
+          ],
+          "uz": "davom etmoq"
         },
         {
           "id": "GO017",
@@ -1294,9 +1523,11 @@
           "examples": [
             {
               "en": "I go online every evening.",
-              "ru": "Я выхожу в интернет каждый вечер."
+              "ru": "Я выхожу в интернет каждый вечер.",
+              "uz": "Men har kuni kechqurun internetga kiraman."
             }
-          ]
+          ],
+          "uz": "internetga kirmoq"
         },
         {
           "id": "GO018",
@@ -1305,9 +1536,11 @@
           "examples": [
             {
               "en": "She's going through a difficult time.",
-              "ru": "Она переживает трудный период."
+              "ru": "Она переживает трудный период.",
+              "uz": "U qiyin davrni boshidan kechiryapti."
             }
-          ]
+          ],
+          "uz": "boshidan kechirmoq"
         }
       ]
     },
@@ -1316,7 +1549,8 @@
       "order": 7,
       "title": {
         "en": "Come",
-        "ru": "Выражения с «come»"
+        "ru": "Выражения с «come»",
+        "uz": "«come» bilan iboralar"
       },
       "phrases": [
         {
@@ -1326,9 +1560,11 @@
           "examples": [
             {
               "en": "Can you come here for a minute?",
-              "ru": "Можешь подойти сюда на минуту?"
+              "ru": "Можешь подойти сюда на минуту?",
+              "uz": "Bir daqiqaga bu yerga kela olasizmi?"
             }
-          ]
+          ],
+          "uz": "bu yerga kelmoq"
         },
         {
           "id": "COME002",
@@ -1337,9 +1573,11 @@
           "examples": [
             {
               "en": "Please come back soon.",
-              "ru": "Пожалуйста, возвращайся скорее."
+              "ru": "Пожалуйста, возвращайся скорее.",
+              "uz": "Iltimos, tezroq qaytib keling."
             }
-          ]
+          ],
+          "uz": "qaytib kelmoq"
         },
         {
           "id": "COME003",
@@ -1348,9 +1586,11 @@
           "examples": [
             {
               "en": "Come in and sit down.",
-              "ru": "Входи и садись."
+              "ru": "Входи и садись.",
+              "uz": "Kiring va oʻtiring."
             }
-          ]
+          ],
+          "uz": "kirmoq"
         },
         {
           "id": "COME004",
@@ -1359,9 +1599,11 @@
           "examples": [
             {
               "en": "The new phone comes out next month.",
-              "ru": "Новый телефон выйдет в следующем месяце."
+              "ru": "Новый телефон выйдет в следующем месяце.",
+              "uz": "Yangi telefon kelasi oy chiqadi."
             }
-          ]
+          ],
+          "uz": "chiqmoq; paydo boʻlmoq"
         },
         {
           "id": "COME005",
@@ -1370,9 +1612,11 @@
           "examples": [
             {
               "en": "Do you want to come over tonight?",
-              "ru": "Хочешь зайти сегодня вечером?"
+              "ru": "Хочешь зайти сегодня вечером?",
+              "uz": "Bugun kechqurun mehmonga kelasizmi?"
             }
-          ]
+          ],
+          "uz": "mehmonga kelmoq"
         },
         {
           "id": "COME006",
@@ -1381,9 +1625,11 @@
           "examples": [
             {
               "en": "You can come along with us.",
-              "ru": "Можешь пойти с нами."
+              "ru": "Можешь пойти с нами.",
+              "uz": "Siz biz bilan qoʻshilib borishingiz mumkin."
             }
-          ]
+          ],
+          "uz": "qoʻshilmoq"
         },
         {
           "id": "COME007",
@@ -1392,9 +1638,11 @@
           "examples": [
             {
               "en": "Where do you come from?",
-              "ru": "Откуда ты родом?"
+              "ru": "Откуда ты родом?",
+              "uz": "Siz qayerdansiz?"
             }
-          ]
+          ],
+          "uz": "aslida qayerdandir boʻlmoq"
         },
         {
           "id": "COME008",
@@ -1403,9 +1651,11 @@
           "examples": [
             {
               "en": "Family comes first for me.",
-              "ru": "Для меня семья на первом месте."
+              "ru": "Для меня семья на первом месте.",
+              "uz": "Men uchun oila birinchi oʻrinda turadi."
             }
-          ]
+          ],
+          "uz": "birinchi oʻrinda turmoq"
         },
         {
           "id": "COME009",
@@ -1414,9 +1664,11 @@
           "examples": [
             {
               "en": "I hope your dream comes true.",
-              "ru": "Надеюсь, твоя мечта сбудется."
+              "ru": "Надеюсь, твоя мечта сбудется.",
+              "uz": "Umid qilamanki, orzuingiz amalga oshadi."
             }
-          ]
+          ],
+          "uz": "amalga oshmoq"
         },
         {
           "id": "COME010",
@@ -1425,9 +1677,11 @@
           "examples": [
             {
               "en": "The meeting came to an end at five.",
-              "ru": "Встреча закончилась в пять."
+              "ru": "Встреча закончилась в пять.",
+              "uz": "Uchrashuv soat beshda yakunlandi."
             }
-          ]
+          ],
+          "uz": "yakunlanmoq"
         },
         {
           "id": "COME011",
@@ -1436,9 +1690,11 @@
           "examples": [
             {
               "en": "Something urgent has come up.",
-              "ru": "Возникло что-то срочное."
+              "ru": "Возникло что-то срочное.",
+              "uz": "Shoshilinch ish yuzaga keldi."
             }
-          ]
+          ],
+          "uz": "yuzaga kelmoq"
         },
         {
           "id": "COME012",
@@ -1447,9 +1703,11 @@
           "examples": [
             {
               "en": "She came up with a great idea.",
-              "ru": "Она придумала отличную идею."
+              "ru": "Она придумала отличную идею.",
+              "uz": "U ajoyib fikr oʻylab topdi."
             }
-          ]
+          ],
+          "uz": "fikr oʻylab topmoq"
         },
         {
           "id": "COME013",
@@ -1458,9 +1716,11 @@
           "examples": [
             {
               "en": "Try to come early tomorrow.",
-              "ru": "Постарайся прийти завтра пораньше."
+              "ru": "Постарайся прийти завтра пораньше.",
+              "uz": "Ertaga erta kelishga harakat qiling."
             }
-          ]
+          ],
+          "uz": "erta kelmoq"
         },
         {
           "id": "COME014",
@@ -1469,9 +1729,11 @@
           "examples": [
             {
               "en": "Come with me, please.",
-              "ru": "Пойдём со мной, пожалуйста."
+              "ru": "Пойдём со мной, пожалуйста.",
+              "uz": "Iltimos, men bilan yuring."
             }
-          ]
+          ],
+          "uz": "men bilan yurmoq"
         },
         {
           "id": "COME015",
@@ -1480,9 +1742,11 @@
           "examples": [
             {
               "en": "Come on, we're going to be late!",
-              "ru": "Давай, мы опоздаем!"
+              "ru": "Давай, мы опоздаем!",
+              "uz": "Qani boʻling, kechikamiz!"
             }
-          ]
+          ],
+          "uz": "qani; boʻling endi"
         },
         {
           "id": "COME016",
@@ -1491,9 +1755,11 @@
           "examples": [
             {
               "en": "This tool may come in handy.",
-              "ru": "Этот инструмент может пригодиться."
+              "ru": "Этот инструмент может пригодиться.",
+              "uz": "Bu asbob asqotib qolishi mumkin."
             }
-          ]
+          ],
+          "uz": "asqotmoq"
         }
       ]
     },
@@ -1502,7 +1768,8 @@
       "order": 8,
       "title": {
         "en": "Give",
-        "ru": "Выражения с «give»"
+        "ru": "Выражения с «give»",
+        "uz": "«give» bilan iboralar"
       },
       "phrases": [
         {
@@ -1512,9 +1779,11 @@
           "examples": [
             {
               "en": "Can you give me a hand with this box?",
-              "ru": "Можешь помочь мне с этой коробкой?"
+              "ru": "Можешь помочь мне с этой коробкой?",
+              "uz": "Bu quti bilan menga yordam bera olasizmi?"
             }
-          ]
+          ],
+          "uz": "menga yordam bermoq"
         },
         {
           "id": "GIVE002",
@@ -1525,7 +1794,8 @@
               "en": "Give me a call when you arrive.",
               "ru": "Позвони мне, когда приедешь."
             }
-          ]
+          ],
+          "uz": "kimgadir qoʻngʻiroq qilmoq"
         },
         {
           "id": "GIVE003",
@@ -1534,9 +1804,11 @@
           "examples": [
             {
               "en": "My father always gives good advice.",
-              "ru": "Мой отец всегда даёт хорошие советы."
+              "ru": "Мой отец всегда даёт хорошие советы.",
+              "uz": "Otam har doim yaxshi maslahat beradi."
             }
-          ]
+          ],
+          "uz": "maslahat bermoq"
         },
         {
           "id": "GIVE004",
@@ -1545,9 +1817,11 @@
           "examples": [
             {
               "en": "Please give me an answer today.",
-              "ru": "Пожалуйста, дай мне ответ сегодня."
+              "ru": "Пожалуйста, дай мне ответ сегодня.",
+              "uz": "Iltimos, bugun menga javob bering."
             }
-          ]
+          ],
+          "uz": "javob bermoq"
         },
         {
           "id": "GIVE005",
@@ -1556,9 +1830,11 @@
           "examples": [
             {
               "en": "They gave us permission to leave early.",
-              "ru": "Они разрешили нам уйти пораньше."
+              "ru": "Они разрешили нам уйти пораньше.",
+              "uz": "Ular bizga erta ketishga ruxsat berishdi."
             }
-          ]
+          ],
+          "uz": "ruxsat bermoq"
         },
         {
           "id": "GIVE006",
@@ -1567,9 +1843,11 @@
           "examples": [
             {
               "en": "Please give me another chance.",
-              "ru": "Пожалуйста, дай мне ещё один шанс."
+              "ru": "Пожалуйста, дай мне ещё один шанс.",
+              "uz": "Iltimos, menga yana bir imkoniyat bering."
             }
-          ]
+          ],
+          "uz": "kimgadir imkoniyat bermoq"
         },
         {
           "id": "GIVE007",
@@ -1578,9 +1856,11 @@
           "examples": [
             {
               "en": "Can you give me a reason?",
-              "ru": "Можешь назвать причину?"
+              "ru": "Можешь назвать причину?",
+              "uz": "Menga sabab ayta olasizmi?"
             }
-          ]
+          ],
+          "uz": "sabab aytmoq"
         },
         {
           "id": "GIVE008",
@@ -1589,9 +1869,11 @@
           "examples": [
             {
               "en": "I have to give a presentation tomorrow.",
-              "ru": "Завтра мне нужно провести презентацию."
+              "ru": "Завтра мне нужно провести презентацию.",
+              "uz": "Men ertaga taqdimot qilishim kerak."
             }
-          ]
+          ],
+          "uz": "taqdimot qilmoq"
         },
         {
           "id": "GIVE009",
@@ -1600,9 +1882,11 @@
           "examples": [
             {
               "en": "I want to give her a gift.",
-              "ru": "Я хочу подарить ей подарок."
+              "ru": "Я хочу подарить ей подарок.",
+              "uz": "Men unga sovgʻa bermoqchiman."
             }
-          ]
+          ],
+          "uz": "sovgʻa bermoq"
         },
         {
           "id": "GIVE010",
@@ -1611,9 +1895,11 @@
           "examples": [
             {
               "en": "Don't give up on your dream.",
-              "ru": "Не отказывайся от своей мечты."
+              "ru": "Не отказывайся от своей мечты.",
+              "uz": "Orzuingizdan voz kechmang."
             }
-          ]
+          ],
+          "uz": "taslim boʻlmoq; tashlamoq"
         },
         {
           "id": "GIVE011",
@@ -1622,9 +1908,11 @@
           "examples": [
             {
               "en": "Please give back my book.",
-              "ru": "Пожалуйста, верни мою книгу."
+              "ru": "Пожалуйста, верни мою книгу.",
+              "uz": "Iltimos, kitobimni qaytarib bering."
             }
-          ]
+          ],
+          "uz": "qaytarib bermoq"
         },
         {
           "id": "GIVE012",
@@ -1633,9 +1921,11 @@
           "examples": [
             {
               "en": "They gave away old clothes.",
-              "ru": "Они отдали старую одежду."
+              "ru": "Они отдали старую одежду.",
+              "uz": "Ular eski kiyimlarni bepul tarqatishdi."
             }
-          ]
+          ],
+          "uz": "bepul tarqatmoq"
         },
         {
           "id": "GIVE013",
@@ -1644,9 +1934,11 @@
           "examples": [
             {
               "en": "I've never tried it, but I'll give it a try.",
-              "ru": "Я никогда этого не пробовал, но попробую."
+              "ru": "Я никогда этого не пробовал, но попробую.",
+              "uz": "Men buni hech sinab koʻrmaganman, lekin sinab koʻraman."
             }
-          ]
+          ],
+          "uz": "sinab koʻrmoq"
         },
         {
           "id": "GIVE014",
@@ -1655,9 +1947,11 @@
           "examples": [
             {
               "en": "Can you give me a lift to the station?",
-              "ru": "Можешь подвезти меня до станции?"
+              "ru": "Можешь подвезти меня до станции?",
+              "uz": "Meni bekatgacha olib bora olasizmi?"
             }
-          ]
+          ],
+          "uz": "kimnidir mashinada olib bormoq"
         },
         {
           "id": "GIVE015",
@@ -1666,9 +1960,11 @@
           "examples": [
             {
               "en": "She gave her mother a hug.",
-              "ru": "Она обняла маму."
+              "ru": "Она обняла маму.",
+              "uz": "U onasini quchoqladi."
             }
-          ]
+          ],
+          "uz": "kimnidir quchoqlamoq"
         },
         {
           "id": "GIVE016",
@@ -1677,9 +1973,11 @@
           "examples": [
             {
               "en": "Can you give me an example?",
-              "ru": "Можешь привести мне пример?"
+              "ru": "Можешь привести мне пример?",
+              "uz": "Menga misol keltira olasizmi?"
             }
-          ]
+          ],
+          "uz": "misol keltirmoq"
         }
       ]
     },
@@ -1688,7 +1986,8 @@
       "order": 9,
       "title": {
         "en": "Keep",
-        "ru": "Выражения с «keep»"
+        "ru": "Выражения с «keep»",
+        "uz": "«keep» bilan iboralar"
       },
       "phrases": [
         {
@@ -1698,9 +1997,11 @@
           "examples": [
             {
               "en": "Keep going. You're doing well.",
-              "ru": "Продолжай. У тебя хорошо получается."
+              "ru": "Продолжай. У тебя хорошо получается.",
+              "uz": "Davom eting. Yaxshi ketyapsiz."
             }
-          ]
+          ],
+          "uz": "toʻxtamay davom etmoq"
         },
         {
           "id": "KEEP002",
@@ -1709,9 +2010,11 @@
           "examples": [
             {
               "en": "Let's keep in touch.",
-              "ru": "Давай поддерживать связь."
+              "ru": "Давай поддерживать связь.",
+              "uz": "Keling, aloqada boʻlaylik."
             }
-          ]
+          ],
+          "uz": "aloqada boʻlmoq"
         },
         {
           "id": "KEEP003",
@@ -1720,9 +2023,11 @@
           "examples": [
             {
               "en": "Can you keep a secret?",
-              "ru": "Ты умеешь хранить секреты?"
+              "ru": "Ты умеешь хранить секреты?",
+              "uz": "Sir saqlay olasizmi?"
             }
-          ]
+          ],
+          "uz": "sirni saqlamoq"
         },
         {
           "id": "KEEP004",
@@ -1731,9 +2036,11 @@
           "examples": [
             {
               "en": "Try to keep calm.",
-              "ru": "Постарайся сохранять спокойствие."
+              "ru": "Постарайся сохранять спокойствие.",
+              "uz": "Xotirjamlikni saqlashga harakat qiling."
             }
-          ]
+          ],
+          "uz": "xotirjamlikni saqlamoq"
         },
         {
           "id": "KEEP005",
@@ -1742,9 +2049,11 @@
           "examples": [
             {
               "en": "Keep in mind that the shop closes at six.",
-              "ru": "Имей в виду, что магазин закрывается в шесть."
+              "ru": "Имей в виду, что магазин закрывается в шесть.",
+              "uz": "Doʻkon soat oltida yopilishini yodda tuting."
             }
-          ]
+          ],
+          "uz": "yodda tutmoq"
         },
         {
           "id": "KEEP006",
@@ -1753,9 +2062,11 @@
           "examples": [
             {
               "en": "He always keeps his promises.",
-              "ru": "Он всегда держит свои обещания."
+              "ru": "Он всегда держит свои обещания.",
+              "uz": "U har doim vaʼdasiga vafo qiladi."
             }
-          ]
+          ],
+          "uz": "vaʼdaga vafo qilmoq"
         },
         {
           "id": "KEEP007",
@@ -1764,9 +2075,11 @@
           "examples": [
             {
               "en": "She walks every day to keep fit.",
-              "ru": "Она гуляет каждый день, чтобы поддерживать форму."
+              "ru": "Она гуляет каждый день, чтобы поддерживать форму.",
+              "uz": "U sogʻlom holatni saqlash uchun har kuni piyoda yuradi."
             }
-          ]
+          ],
+          "uz": "sogʻlom holatni saqlamoq"
         },
         {
           "id": "KEEP008",
@@ -1775,9 +2088,11 @@
           "examples": [
             {
               "en": "Keep safe on your trip.",
-              "ru": "Береги себя в поездке."
+              "ru": "Береги себя в поездке.",
+              "uz": "Sayohatingizda oʻzingizni asrang."
             }
-          ]
+          ],
+          "uz": "oʻzini asramoq; xavfsiz boʻlmoq"
         },
         {
           "id": "KEEP009",
@@ -1786,9 +2101,11 @@
           "examples": [
             {
               "en": "Keep trying and you'll improve.",
-              "ru": "Продолжай стараться, и ты станешь лучше."
+              "ru": "Продолжай стараться, и ты станешь лучше.",
+              "uz": "Urinishda davom eting, albatta yaxshilanasiz."
             }
-          ]
+          ],
+          "uz": "urinishda davom etmoq"
         },
         {
           "id": "KEEP010",
@@ -1797,9 +2114,11 @@
           "examples": [
             {
               "en": "Keep the change.",
-              "ru": "Сдачи не надо."
+              "ru": "Сдачи не надо.",
+              "uz": "Qaytimi kerak emas."
             }
-          ]
+          ],
+          "uz": "qaytimi kerak emas"
         },
         {
           "id": "KEEP011",
@@ -1808,9 +2127,11 @@
           "examples": [
             {
               "en": "Keep away from the fire.",
-              "ru": "Держись подальше от огня."
+              "ru": "Держись подальше от огня.",
+              "uz": "Olovdan uzoqroq yuring."
             }
-          ]
+          ],
+          "uz": "uzoqroq yurmoq"
         },
         {
           "id": "KEEP012",
@@ -1819,9 +2140,11 @@
           "examples": [
             {
               "en": "I can't keep up with him.",
-              "ru": "Я не могу за ним угнаться."
+              "ru": "Я не могу за ним угнаться.",
+              "uz": "Men undan ortda qolmay yura olmayman."
             }
-          ]
+          ],
+          "uz": "ortda qolmaslik"
         },
         {
           "id": "KEEP013",
@@ -1830,9 +2153,11 @@
           "examples": [
             {
               "en": "He kept on talking.",
-              "ru": "Он продолжал говорить."
+              "ru": "Он продолжал говорить.",
+              "uz": "U gapirishda davom etdi."
             }
-          ]
+          ],
+          "uz": "biror ishni qilishda davom etmoq"
         },
         {
           "id": "KEEP014",
@@ -1841,9 +2166,11 @@
           "examples": [
             {
               "en": "Can you keep an eye on my bag?",
-              "ru": "Можешь присмотреть за моей сумкой?"
+              "ru": "Можешь присмотреть за моей сумкой?",
+              "uz": "Sumkamga koʻz-quloq boʻla olasizmi?"
             }
-          ]
+          ],
+          "uz": "koʻz-quloq boʻlmoq"
         },
         {
           "id": "KEEP015",
@@ -1852,9 +2179,11 @@
           "examples": [
             {
               "en": "You should keep your word.",
-              "ru": "Ты должен держать своё слово."
+              "ru": "Ты должен держать своё слово.",
+              "uz": "Siz soʻzingizda turishingiz kerak."
             }
-          ]
+          ],
+          "uz": "soʻzida turmoq"
         }
       ]
     },
@@ -1863,7 +2192,8 @@
       "order": 10,
       "title": {
         "en": "Put",
-        "ru": "Выражения с «put»"
+        "ru": "Выражения с «put»",
+        "uz": "«put» bilan iboralar"
       },
       "phrases": [
         {
@@ -1873,9 +2203,11 @@
           "examples": [
             {
               "en": "Put on your jacket. It's cold.",
-              "ru": "Надень куртку. Холодно."
+              "ru": "Надень куртку. Холодно.",
+              "uz": "Kurtkangizni kiying. Sovuq."
             }
-          ]
+          ],
+          "uz": "kiymoq"
         },
         {
           "id": "PUT002",
@@ -1884,9 +2216,11 @@
           "examples": [
             {
               "en": "Please put your toys away.",
-              "ru": "Пожалуйста, убери свои игрушки."
+              "ru": "Пожалуйста, убери свои игрушки.",
+              "uz": "Iltimos, oʻyinchoqlaringizni joyiga olib qoʻying."
             }
-          ]
+          ],
+          "uz": "joyiga olib qoʻymoq"
         },
         {
           "id": "PUT003",
@@ -1895,9 +2229,11 @@
           "examples": [
             {
               "en": "Put the bag down here.",
-              "ru": "Поставь сумку здесь."
+              "ru": "Поставь сумку здесь.",
+              "uz": "Sumkani shu yerga qoʻying."
             }
-          ]
+          ],
+          "uz": "qoʻymoq; tushirmoq"
         },
         {
           "id": "PUT004",
@@ -1906,9 +2242,11 @@
           "examples": [
             {
               "en": "Don't put off your homework.",
-              "ru": "Не откладывай домашнее задание."
+              "ru": "Не откладывай домашнее задание.",
+              "uz": "Uy vazifangizni keyinga qoldirmang."
             }
-          ]
+          ],
+          "uz": "keyinga qoldirmoq"
         },
         {
           "id": "PUT005",
@@ -1917,9 +2255,11 @@
           "examples": [
             {
               "en": "Please put out the candle.",
-              "ru": "Пожалуйста, потуши свечу."
+              "ru": "Пожалуйста, потуши свечу.",
+              "uz": "Iltimos, shamni oʻchiring."
             }
-          ]
+          ],
+          "uz": "olovni oʻchirmoq"
         },
         {
           "id": "PUT006",
@@ -1928,9 +2268,11 @@
           "examples": [
             {
               "en": "Put the book back on the shelf.",
-              "ru": "Поставь книгу обратно на полку."
+              "ru": "Поставь книгу обратно на полку.",
+              "uz": "Kitobni javonga qaytarib qoʻying."
             }
-          ]
+          ],
+          "uz": "joyiga qaytarib qoʻymoq"
         },
         {
           "id": "PUT007",
@@ -1939,9 +2281,11 @@
           "examples": [
             {
               "en": "I need to put this table together.",
-              "ru": "Мне нужно собрать этот стол."
+              "ru": "Мне нужно собрать этот стол.",
+              "uz": "Menga bu stolni yigʻish kerak."
             }
-          ]
+          ],
+          "uz": "yigʻmoq; tuzmoq"
         },
         {
           "id": "PUT008",
@@ -1950,9 +2294,11 @@
           "examples": [
             {
               "en": "Don't put pressure on yourself.",
-              "ru": "Не дави на себя."
+              "ru": "Не дави на себя.",
+              "uz": "Oʻzingizga bosim oʻtkazmang."
             }
-          ]
+          ],
+          "uz": "bosim oʻtkazmoq"
         },
         {
           "id": "PUT009",
@@ -1961,9 +2307,11 @@
           "examples": [
             {
               "en": "He put on weight last year.",
-              "ru": "В прошлом году он набрал вес."
+              "ru": "В прошлом году он набрал вес.",
+              "uz": "Uning vazni oʻtgan yili ortdi."
             }
-          ]
+          ],
+          "uz": "vazn ortmoq"
         },
         {
           "id": "PUT010",
@@ -1972,9 +2320,11 @@
           "examples": [
             {
               "en": "It's time to put the plan into practice.",
-              "ru": "Пора применить план на практике."
+              "ru": "Пора применить план на практике.",
+              "uz": "Rejani amalda qoʻllash vaqti keldi."
             }
-          ]
+          ],
+          "uz": "amalda qoʻllamoq"
         },
         {
           "id": "PUT011",
@@ -1983,9 +2333,11 @@
           "examples": [
             {
               "en": "I can't put up with this noise.",
-              "ru": "Я не могу терпеть этот шум."
+              "ru": "Я не могу терпеть этот шум.",
+              "uz": "Men bu shovqinga chiday olmayman."
             }
-          ]
+          ],
+          "uz": "chidamoq"
         },
         {
           "id": "PUT012",
@@ -1994,9 +2346,11 @@
           "examples": [
             {
               "en": "Please put your phone away during class.",
-              "ru": "Пожалуйста, убери телефон во время урока."
+              "ru": "Пожалуйста, убери телефон во время урока.",
+              "uz": "Iltimos, dars davomida telefoningizni olib qoʻying."
             }
-          ]
+          ],
+          "uz": "telefonni olib qoʻymoq"
         },
         {
           "id": "PUT013",
@@ -2005,9 +2359,11 @@
           "examples": [
             {
               "en": "Put simply, we need more time.",
-              "ru": "Проще говоря, нам нужно больше времени."
+              "ru": "Проще говоря, нам нужно больше времени.",
+              "uz": "Soddaroq aytganda, bizga koʻproq vaqt kerak."
             }
-          ]
+          ],
+          "uz": "soddaroq aytganda"
         },
         {
           "id": "PUT014",
@@ -2016,9 +2372,11 @@
           "examples": [
             {
               "en": "Put your key in the lock.",
-              "ru": "Вставь ключ в замок."
+              "ru": "Вставь ключ в замок.",
+              "uz": "Kalitingizni qulfga soling."
             }
-          ]
+          ],
+          "uz": "solmoq; kiritmoq"
         },
         {
           "id": "PUT015",
@@ -2027,9 +2385,11 @@
           "examples": [
             {
               "en": "I'll do my best to put things right.",
-              "ru": "Я сделаю всё возможное, чтобы исправить ситуацию."
+              "ru": "Я сделаю всё возможное, чтобы исправить ситуацию.",
+              "uz": "Vaziyatni toʻgʻrilash uchun qoʻlimdan kelganini qilaman."
             }
-          ]
+          ],
+          "uz": "vaziyatni toʻgʻrilamoq"
         }
       ]
     },
@@ -2038,7 +2398,8 @@
       "order": 11,
       "title": {
         "en": "Turn",
-        "ru": "Выражения с «turn»"
+        "ru": "Выражения с «turn»",
+        "uz": "«turn» bilan iboralar"
       },
       "phrases": [
         {
@@ -2048,9 +2409,11 @@
           "examples": [
             {
               "en": "Can you turn on the light?",
-              "ru": "Можешь включить свет?"
+              "ru": "Можешь включить свет?",
+              "uz": "Chiroqni yoqa olasizmi?"
             }
-          ]
+          ],
+          "uz": "yoqmoq"
         },
         {
           "id": "TURN002",
@@ -2059,9 +2422,11 @@
           "examples": [
             {
               "en": "Please turn off the TV.",
-              "ru": "Пожалуйста, выключи телевизор."
+              "ru": "Пожалуйста, выключи телевизор.",
+              "uz": "Iltimos, televizorni oʻchiring."
             }
-          ]
+          ],
+          "uz": "oʻchirmoq"
         },
         {
           "id": "TURN003",
@@ -2070,9 +2435,11 @@
           "examples": [
             {
               "en": "Turn up the volume, please.",
-              "ru": "Увеличь громкость, пожалуйста."
+              "ru": "Увеличь громкость, пожалуйста.",
+              "uz": "Iltimos, ovozni balandlating."
             }
-          ]
+          ],
+          "uz": "ovozni balandlatmoq"
         },
         {
           "id": "TURN004",
@@ -2081,9 +2448,11 @@
           "examples": [
             {
               "en": "Could you turn down the music?",
-              "ru": "Можешь сделать музыку потише?"
+              "ru": "Можешь сделать музыку потише?",
+              "uz": "Musiqani pasaytira olasizmi?"
             }
-          ]
+          ],
+          "uz": "ovozni pasaytirmoq; rad etmoq"
         },
         {
           "id": "TURN005",
@@ -2092,9 +2461,11 @@
           "examples": [
             {
               "en": "Turn left at the traffic lights.",
-              "ru": "Поверни налево на светофоре."
+              "ru": "Поверни налево на светофоре.",
+              "uz": "Svetoforda chapga buriling."
             }
-          ]
+          ],
+          "uz": "chapga burilmoq"
         },
         {
           "id": "TURN006",
@@ -2103,9 +2474,11 @@
           "examples": [
             {
               "en": "Turn right at the next street.",
-              "ru": "Поверни направо на следующей улице."
+              "ru": "Поверни направо на следующей улице.",
+              "uz": "Keyingi koʻchada oʻngga buriling."
             }
-          ]
+          ],
+          "uz": "oʻngga burilmoq"
         },
         {
           "id": "TURN007",
@@ -2114,9 +2487,11 @@
           "examples": [
             {
               "en": "Turn around and look at me.",
-              "ru": "Обернись и посмотри на меня."
+              "ru": "Обернись и посмотри на меня.",
+              "uz": "Orqaga oʻgirilib, menga qarang."
             }
-          ]
+          ],
+          "uz": "orqaga oʻgirilmoq"
         },
         {
           "id": "TURN008",
@@ -2125,9 +2500,11 @@
           "examples": [
             {
               "en": "We had to turn back because of the rain.",
-              "ru": "Нам пришлось вернуться из-за дождя."
+              "ru": "Нам пришлось вернуться из-за дождя.",
+              "uz": "Yomgʻir tufayli orqaga qaytishga toʻgʻri keldi."
             }
-          ]
+          ],
+          "uz": "orqaga qaytmoq"
         },
         {
           "id": "TURN009",
@@ -2136,9 +2513,11 @@
           "examples": [
             {
               "en": "The water turned into ice.",
-              "ru": "Вода превратилась в лёд."
+              "ru": "Вода превратилась в лёд.",
+              "uz": "Suv muzga aylandi."
             }
-          ]
+          ],
+          "uz": "aylanmoq"
         },
         {
           "id": "TURN010",
@@ -2147,9 +2526,11 @@
           "examples": [
             {
               "en": "The film turned out to be great.",
-              "ru": "Оказалось, что фильм отличный."
+              "ru": "Оказалось, что фильм отличный.",
+              "uz": "Film ajoyib boʻlib chiqdi."
             }
-          ]
+          ],
+          "uz": "boʻlib chiqmoq"
         },
         {
           "id": "TURN011",
@@ -2158,9 +2539,11 @@
           "examples": [
             {
               "en": "She turned down the job offer.",
-              "ru": "Она отклонила предложение о работе."
+              "ru": "Она отклонила предложение о работе.",
+              "uz": "U ish taklifini rad etdi."
             }
-          ]
+          ],
+          "uz": "taklifni rad etmoq"
         },
         {
           "id": "TURN012",
@@ -2169,9 +2552,11 @@
           "examples": [
             {
               "en": "My brother turns 18 this year.",
-              "ru": "Моему брату в этом году исполняется 18 лет."
+              "ru": "Моему брату в этом году исполняется 18 лет.",
+              "uz": "Akam bu yil 18 yoshga toʻladi."
             }
-          ]
+          ],
+          "uz": "18 yoshga toʻlmoq"
         },
         {
           "id": "TURN013",
@@ -2180,9 +2565,11 @@
           "examples": [
             {
               "en": "He turned red with embarrassment.",
-              "ru": "Он покраснел от смущения."
+              "ru": "Он покраснел от смущения.",
+              "uz": "U uyalganidan qizarib ketdi."
             }
-          ]
+          ],
+          "uz": "qizarmoq"
         },
         {
           "id": "TURN014",
@@ -2191,9 +2578,11 @@
           "examples": [
             {
               "en": "It's turning cold outside.",
-              "ru": "На улице становится холодно."
+              "ru": "На улице становится холодно.",
+              "uz": "Tashqarida havo sovib qolyapti."
             }
-          ]
+          ],
+          "uz": "sovib qolmoq"
         },
         {
           "id": "TURN015",
@@ -2202,9 +2591,11 @@
           "examples": [
             {
               "en": "We take turns cooking dinner.",
-              "ru": "Мы готовим ужин по очереди."
+              "ru": "Мы готовим ужин по очереди.",
+              "uz": "Biz kechki ovqatni navbatma-navbat tayyorlaymiz."
             }
-          ]
+          ],
+          "uz": "navbatma-navbat qilmoq"
         }
       ]
     },
@@ -2213,7 +2604,8 @@
       "order": 12,
       "title": {
         "en": "Look",
-        "ru": "Выражения с «look»"
+        "ru": "Выражения с «look»",
+        "uz": "«look» bilan iboralar"
       },
       "phrases": [
         {
@@ -2223,9 +2615,11 @@
           "examples": [
             {
               "en": "Look at this photo.",
-              "ru": "Посмотри на эту фотографию."
+              "ru": "Посмотри на эту фотографию.",
+              "uz": "Bu suratga qarang."
             }
-          ]
+          ],
+          "uz": "qaramoq"
         },
         {
           "id": "LOOK002",
@@ -2234,9 +2628,11 @@
           "examples": [
             {
               "en": "I'm looking for my keys.",
-              "ru": "Я ищу свои ключи."
+              "ru": "Я ищу свои ключи.",
+              "uz": "Men kalitlarimni qidiryapman."
             }
-          ]
+          ],
+          "uz": "qidirmoq"
         },
         {
           "id": "LOOK003",
@@ -2245,9 +2641,11 @@
           "examples": [
             {
               "en": "Can you look after my cat?",
-              "ru": "Можешь присмотреть за моей кошкой?"
+              "ru": "Можешь присмотреть за моей кошкой?",
+              "uz": "Mushugimga qarab tura olasizmi?"
             }
-          ]
+          ],
+          "uz": "qarab turmoq; gʻamxoʻrlik qilmoq"
         },
         {
           "id": "LOOK004",
@@ -2256,9 +2654,11 @@
           "examples": [
             {
               "en": "You look like your father.",
-              "ru": "Ты похож на своего отца."
+              "ru": "Ты похож на своего отца.",
+              "uz": "Siz otangizga oʻxshaysiz."
             }
-          ]
+          ],
+          "uz": "oʻxshamoq"
         },
         {
           "id": "LOOK005",
@@ -2267,9 +2667,11 @@
           "examples": [
             {
               "en": "You look tired today.",
-              "ru": "Ты сегодня выглядишь уставшим."
+              "ru": "Ты сегодня выглядишь уставшим.",
+              "uz": "Bugun charchagan koʻrinasiz."
             }
-          ]
+          ],
+          "uz": "charchagan koʻrinmoq"
         },
         {
           "id": "LOOK006",
@@ -2278,9 +2680,11 @@
           "examples": [
             {
               "en": "That shirt looks good on you.",
-              "ru": "Эта рубашка тебе идёт."
+              "ru": "Эта рубашка тебе идёт.",
+              "uz": "Bu koʻylak sizga yarashibdi."
             }
-          ]
+          ],
+          "uz": "yaxshi koʻrinmoq"
         },
         {
           "id": "LOOK007",
@@ -2289,9 +2693,11 @@
           "examples": [
             {
               "en": "I'm looking forward to the weekend.",
-              "ru": "Я с нетерпением жду выходных."
+              "ru": "Я с нетерпением жду выходных.",
+              "uz": "Men dam olish kunlarini intiqlik bilan kutyapman."
             }
-          ]
+          ],
+          "uz": "intiqlik bilan kutmoq"
         },
         {
           "id": "LOOK008",
@@ -2300,9 +2706,11 @@
           "examples": [
             {
               "en": "Look out! There's a car coming.",
-              "ru": "Осторожно! Едет машина."
+              "ru": "Осторожно! Едет машина.",
+              "uz": "Ehtiyot boʻling! Mashina kelyapti."
             }
-          ]
+          ],
+          "uz": "ehtiyot boʻling!"
         },
         {
           "id": "LOOK009",
@@ -2311,9 +2719,11 @@
           "examples": [
             {
               "en": "I'll look up the word in a dictionary.",
-              "ru": "Я найду это слово в словаре."
+              "ru": "Я найду это слово в словаре.",
+              "uz": "Men soʻzni lugʻatdan qidiraman."
             }
-          ]
+          ],
+          "uz": "maʼlumot qidirmoq"
         },
         {
           "id": "LOOK010",
@@ -2322,9 +2732,11 @@
           "examples": [
             {
               "en": "Let's look around the city.",
-              "ru": "Давай осмотрим город."
+              "ru": "Давай осмотрим город.",
+              "uz": "Keling, shaharni aylanib koʻramiz."
             }
-          ]
+          ],
+          "uz": "atrofni koʻzdan kechirmoq"
         },
         {
           "id": "LOOK011",
@@ -2333,9 +2745,11 @@
           "examples": [
             {
               "en": "I'll look into the problem.",
-              "ru": "Я изучу эту проблему."
+              "ru": "Я изучу эту проблему.",
+              "uz": "Men muammoni oʻrganaman."
             }
-          ]
+          ],
+          "uz": "oʻrganmoq; tekshirmoq"
         },
         {
           "id": "LOOK012",
@@ -2344,9 +2758,11 @@
           "examples": [
             {
               "en": "I looked through the documents.",
-              "ru": "Я просмотрел документы."
+              "ru": "Я просмотрел документы.",
+              "uz": "Men hujjatlarni koʻrib chiqdim."
             }
-          ]
+          ],
+          "uz": "koʻrib chiqmoq"
         },
         {
           "id": "LOOK013",
@@ -2355,9 +2771,11 @@
           "examples": [
             {
               "en": "I look back on those days with a smile.",
-              "ru": "Я вспоминаю те дни с улыбкой."
+              "ru": "Я вспоминаю те дни с улыбкой.",
+              "uz": "Men oʻsha kunlarni tabassum bilan eslayman."
             }
-          ]
+          ],
+          "uz": "oʻtmishni eslamoq"
         },
         {
           "id": "LOOK014",
@@ -2366,9 +2784,11 @@
           "examples": [
             {
               "en": "He looked away and said nothing.",
-              "ru": "Он отвёл взгляд и ничего не сказал."
+              "ru": "Он отвёл взгляд и ничего не сказал.",
+              "uz": "U nigohini olib qochdi va hech narsa demadi."
             }
-          ]
+          ],
+          "uz": "nigohini olib qochmoq"
         },
         {
           "id": "LOOK015",
@@ -2377,9 +2797,11 @@
           "examples": [
             {
               "en": "I look up to my older sister.",
-              "ru": "Я равняюсь на старшую сестру."
+              "ru": "Я равняюсь на старшую сестру.",
+              "uz": "Men opamdan ibrat olaman."
             }
-          ]
+          ],
+          "uz": "hurmat qilmoq; ibrat olmoq"
         }
       ]
     },
@@ -2388,7 +2810,8 @@
       "order": 13,
       "title": {
         "en": "Bring",
-        "ru": "Выражения с «bring»"
+        "ru": "Выражения с «bring»",
+        "uz": "«bring» bilan iboralar"
       },
       "phrases": [
         {
@@ -2398,9 +2821,11 @@
           "examples": [
             {
               "en": "Can you bring it here, please?",
-              "ru": "Можешь принести это сюда, пожалуйста?"
+              "ru": "Можешь принести это сюда, пожалуйста?",
+              "uz": "Iltimos, buni bu yerga olib kela olasizmi?"
             }
-          ]
+          ],
+          "uz": "bu yerga olib kelmoq"
         },
         {
           "id": "BRING002",
@@ -2409,9 +2834,11 @@
           "examples": [
             {
               "en": "Please bring back my book tomorrow.",
-              "ru": "Пожалуйста, верни мою книгу завтра."
+              "ru": "Пожалуйста, верни мою книгу завтра.",
+              "uz": "Iltimos, ertaga kitobimni qaytarib olib keling."
             }
-          ]
+          ],
+          "uz": "qaytarib olib kelmoq"
         },
         {
           "id": "BRING003",
@@ -2420,9 +2847,11 @@
           "examples": [
             {
               "en": "You can bring along a friend.",
-              "ru": "Можешь взять с собой друга."
+              "ru": "Можешь взять с собой друга.",
+              "uz": "Oʻzingiz bilan doʻstingizni olib kelishingiz mumkin."
             }
-          ]
+          ],
+          "uz": "oʻzi bilan olib kelmoq"
         },
         {
           "id": "BRING004",
@@ -2431,9 +2860,11 @@
           "examples": [
             {
               "en": "Bring your brother with you.",
-              "ru": "Возьми с собой брата."
+              "ru": "Возьми с собой брата.",
+              "uz": "Ukangizni oʻzingiz bilan olib keling."
             }
-          ]
+          ],
+          "uz": "kimnidir oʻzi bilan olib kelmoq"
         },
         {
           "id": "BRING005",
@@ -2442,9 +2873,11 @@
           "examples": [
             {
               "en": "Should I bring some food?",
-              "ru": "Мне принести немного еды?"
+              "ru": "Мне принести немного еды?",
+              "uz": "Men ovqat olib kelaymi?"
             }
-          ]
+          ],
+          "uz": "ovqat olib kelmoq"
         },
         {
           "id": "BRING006",
@@ -2453,9 +2886,11 @@
           "examples": [
             {
               "en": "Please bring your passport to the appointment.",
-              "ru": "Пожалуйста, возьми паспорт на встречу."
+              "ru": "Пожалуйста, возьми паспорт на встречу.",
+              "uz": "Iltimos, uchrashuvga pasportingizni olib keling."
             }
-          ]
+          ],
+          "uz": "pasportni olib kelmoq"
         },
         {
           "id": "BRING007",
@@ -2464,9 +2899,11 @@
           "examples": [
             {
               "en": "I hope you bring good news.",
-              "ru": "Надеюсь, ты принесёшь хорошие новости."
+              "ru": "Надеюсь, ты принесёшь хорошие новости.",
+              "uz": "Umid qilamanki, yaxshi xabar keltirasiz."
             }
-          ]
+          ],
+          "uz": "yaxshi xabar keltirmoq"
         },
         {
           "id": "BRING008",
@@ -2475,9 +2912,11 @@
           "examples": [
             {
               "en": "Music brings me joy.",
-              "ru": "Музыка приносит мне радость."
+              "ru": "Музыка приносит мне радость.",
+              "uz": "Musiqa menga quvonch olib keladi."
             }
-          ]
+          ],
+          "uz": "quvonch olib kelmoq"
         },
         {
           "id": "BRING009",
@@ -2486,9 +2925,11 @@
           "examples": [
             {
               "en": "She brought up an interesting topic.",
-              "ru": "Она подняла интересную тему."
+              "ru": "Она подняла интересную тему.",
+              "uz": "U qiziqarli mavzuni koʻtardi."
             }
-          ]
+          ],
+          "uz": "mavzuni koʻtarmoq"
         },
         {
           "id": "BRING010",
@@ -2497,9 +2938,11 @@
           "examples": [
             {
               "en": "They brought up three children.",
-              "ru": "Они воспитали троих детей."
+              "ru": "Они воспитали троих детей.",
+              "uz": "Ular uchta bolani tarbiyalashdi."
             }
-          ]
+          ],
+          "uz": "bola tarbiyalamoq"
         },
         {
           "id": "BRING011",
@@ -2508,9 +2951,11 @@
           "examples": [
             {
               "en": "The new plan brought about change.",
-              "ru": "Новый план привёл к изменениям."
+              "ru": "Новый план привёл к изменениям.",
+              "uz": "Yangi reja oʻzgarishlarga olib keldi."
             }
-          ]
+          ],
+          "uz": "oʻzgarishlarga olib kelmoq"
         },
         {
           "id": "BRING012",
@@ -2519,9 +2964,11 @@
           "examples": [
             {
               "en": "I'm ready for the test. Bring it on!",
-              "ru": "Я готов к тесту. Давай!"
+              "ru": "Я готов к тесту. Давай!",
+              "uz": "Men testga tayyorman. Qani, koʻramiz!"
             }
-          ]
+          ],
+          "uz": "qani, koʻramiz; men tayyorman"
         },
         {
           "id": "BRING013",
@@ -2530,9 +2977,11 @@
           "examples": [
             {
               "en": "Sport can bring people together.",
-              "ru": "Спорт может объединять людей."
+              "ru": "Спорт может объединять людей.",
+              "uz": "Sport odamlarni birlashtira oladi."
             }
-          ]
+          ],
+          "uz": "birlashtirmoq"
         },
         {
           "id": "BRING014",
@@ -2541,9 +2990,11 @@
           "examples": [
             {
               "en": "We need to bring this argument to an end.",
-              "ru": "Нам нужно прекратить этот спор."
+              "ru": "Нам нужно прекратить этот спор.",
+              "uz": "Bu bahsni yakuniga yetkazishimiz kerak."
             }
-          ]
+          ],
+          "uz": "yakuniga yetkazmoq"
         },
         {
           "id": "BRING015",
@@ -2552,9 +3003,11 @@
           "examples": [
             {
               "en": "I'll bring you home after the party.",
-              "ru": "Я отвезу тебя домой после вечеринки."
+              "ru": "Я отвезу тебя домой после вечеринки.",
+              "uz": "Bazmdan keyin sizni uyingizga olib boraman."
             }
-          ]
+          ],
+          "uz": "kimnidir uyiga olib bormoq"
         }
       ]
     },
@@ -2563,7 +3016,8 @@
       "order": 14,
       "title": {
         "en": "Break",
-        "ru": "Выражения с «break»"
+        "ru": "Выражения с «break»",
+        "uz": "«break» bilan iboralar"
       },
       "phrases": [
         {
@@ -2573,9 +3027,11 @@
           "examples": [
             {
               "en": "My car broke down on the way to work.",
-              "ru": "Моя машина сломалась по дороге на работу."
+              "ru": "Моя машина сломалась по дороге на работу.",
+              "uz": "Mashinam ishga ketayotganimda buzilib qoldi."
             }
-          ]
+          ],
+          "uz": "buzilmoq"
         },
         {
           "id": "BREAK002",
@@ -2584,9 +3040,11 @@
           "examples": [
             {
               "en": "They broke up last month.",
-              "ru": "Они расстались в прошлом месяце."
+              "ru": "Они расстались в прошлом месяце.",
+              "uz": "Ular oʻtgan oyda ajrashishdi."
             }
-          ]
+          ],
+          "uz": "ajrashmoq"
         },
         {
           "id": "BREAK003",
@@ -2595,9 +3053,11 @@
           "examples": [
             {
               "en": "I don't want to break my promise.",
-              "ru": "Я не хочу нарушать своё обещание."
+              "ru": "Я не хочу нарушать своё обещание.",
+              "uz": "Men vaʼdamni buzishni xohlamayman."
             }
-          ]
+          ],
+          "uz": "vaʼdani buzmoq"
         },
         {
           "id": "BREAK004",
@@ -2606,9 +3066,11 @@
           "examples": [
             {
               "en": "You mustn't break the law.",
-              "ru": "Нельзя нарушать закон."
+              "ru": "Нельзя нарушать закон.",
+              "uz": "Qonunni buzmasligingiz kerak."
             }
-          ]
+          ],
+          "uz": "qonunni buzmoq"
         },
         {
           "id": "BREAK005",
@@ -2617,9 +3079,11 @@
           "examples": [
             {
               "en": "He broke the rules again.",
-              "ru": "Он снова нарушил правила."
+              "ru": "Он снова нарушил правила.",
+              "uz": "U yana qoidalarni buzdi."
             }
-          ]
+          ],
+          "uz": "qoidalarni buzmoq"
         },
         {
           "id": "BREAK006",
@@ -2628,9 +3092,11 @@
           "examples": [
             {
               "en": "She broke the world record.",
-              "ru": "Она побила мировой рекорд."
+              "ru": "Она побила мировой рекорд.",
+              "uz": "U jahon rekordini yangiladi."
             }
-          ]
+          ],
+          "uz": "rekordni yangilamoq"
         },
         {
           "id": "BREAK007",
@@ -2639,9 +3105,11 @@
           "examples": [
             {
               "en": "It's hard to break a bad habit.",
-              "ru": "Трудно избавиться от плохой привычки."
+              "ru": "Трудно избавиться от плохой привычки.",
+              "uz": "Yomon odatdan qutulish qiyin."
             }
-          ]
+          ],
+          "uz": "odatdan qutulmoq"
         },
         {
           "id": "BREAK008",
@@ -2650,9 +3118,11 @@
           "examples": [
             {
               "en": "Who will break the news to him?",
-              "ru": "Кто сообщит ему эту новость?"
+              "ru": "Кто сообщит ему эту новость?",
+              "uz": "Unga bu xabarni kim yetkazadi?"
             }
-          ]
+          ],
+          "uz": "xabarni yetkazmoq"
         },
         {
           "id": "BREAK009",
@@ -2661,9 +3131,11 @@
           "examples": [
             {
               "en": "He told a joke to break the ice.",
-              "ru": "Он пошутил, чтобы разрядить обстановку."
+              "ru": "Он пошутил, чтобы разрядить обстановку.",
+              "uz": "U vaziyatni yumshatish uchun hazil aytdi."
             }
-          ]
+          ],
+          "uz": "vaziyatni yumshatmoq"
         },
         {
           "id": "BREAK010",
@@ -2672,9 +3144,11 @@
           "examples": [
             {
               "en": "The ball broke the window.",
-              "ru": "Мяч разбил окно."
+              "ru": "Мяч разбил окно.",
+              "uz": "Toʻp oynani sindirdi."
             }
-          ]
+          ],
+          "uz": "oynani sindirmoq"
         },
         {
           "id": "BREAK011",
@@ -2683,9 +3157,11 @@
           "examples": [
             {
               "en": "A fire broke out in the kitchen.",
-              "ru": "На кухне вспыхнул пожар."
+              "ru": "На кухне вспыхнул пожар.",
+              "uz": "Oshxonada yongʻin boshlandi."
             }
-          ]
+          ],
+          "uz": "toʻsatdan boshlanmoq"
         },
         {
           "id": "BREAK012",
@@ -2694,9 +3170,11 @@
           "examples": [
             {
               "en": "Someone broke into the house.",
-              "ru": "Кто-то проник в дом."
+              "ru": "Кто-то проник в дом.",
+              "uz": "Kimdir uyga bostirib kirdi."
             }
-          ]
+          ],
+          "uz": "bostirib kirmoq"
         },
         {
           "id": "BREAK013",
@@ -2705,9 +3183,11 @@
           "examples": [
             {
               "en": "The dog broke free from its leash.",
-              "ru": "Собака вырвалась с поводка."
+              "ru": "Собака вырвалась с поводка.",
+              "uz": "It bogʻichidan boʻshab ketdi."
             }
-          ]
+          ],
+          "uz": "ozod boʻlmoq"
         },
         {
           "id": "BREAK014",
@@ -2716,9 +3196,11 @@
           "examples": [
             {
               "en": "The business finally broke even.",
-              "ru": "В итоге бизнес вышел в ноль."
+              "ru": "В итоге бизнес вышел в ноль.",
+              "uz": "Biznes nihoyat zararsiz ishlay boshladi."
             }
-          ]
+          ],
+          "uz": "zararsiz ishlamoq"
         },
         {
           "id": "BREAK015",
@@ -2727,9 +3209,11 @@
           "examples": [
             {
               "en": "He broke her heart.",
-              "ru": "Он разбил ей сердце."
+              "ru": "Он разбил ей сердце.",
+              "uz": "U uning qalbini sindirdi."
             }
-          ]
+          ],
+          "uz": "kimningdir qalbini sindirmoq"
         }
       ]
     },
@@ -2738,7 +3222,8 @@
       "order": 15,
       "title": {
         "en": "Run",
-        "ru": "Выражения с «run»"
+        "ru": "Выражения с «run»",
+        "uz": "«run» bilan iboralar"
       },
       "phrases": [
         {
@@ -2748,9 +3233,11 @@
           "examples": [
             {
               "en": "He can run very fast.",
-              "ru": "Он умеет очень быстро бегать."
+              "ru": "Он умеет очень быстро бегать.",
+              "uz": "U juda tez yugura oladi."
             }
-          ]
+          ],
+          "uz": "tez yugurmoq"
         },
         {
           "id": "RUN002",
@@ -2759,9 +3246,11 @@
           "examples": [
             {
               "en": "The dog ran away.",
-              "ru": "Собака убежала."
+              "ru": "Собака убежала.",
+              "uz": "It qochib ketdi."
             }
-          ]
+          ],
+          "uz": "qochib ketmoq"
         },
         {
           "id": "RUN003",
@@ -2770,9 +3259,11 @@
           "examples": [
             {
               "en": "We've run out of milk.",
-              "ru": "У нас закончилось молоко."
+              "ru": "У нас закончилось молоко.",
+              "uz": "Sutimiz tugab qoldi."
             }
-          ]
+          ],
+          "uz": "tugab qolmoq"
         },
         {
           "id": "RUN004",
@@ -2781,9 +3272,11 @@
           "examples": [
             {
               "en": "I'm running late. I'll be there soon.",
-              "ru": "Я опаздываю. Скоро буду."
+              "ru": "Я опаздываю. Скоро буду.",
+              "uz": "Men kechikyapman. Tez orada yetib boraman."
             }
-          ]
+          ],
+          "uz": "kechikmoq"
         },
         {
           "id": "RUN005",
@@ -2792,9 +3285,11 @@
           "examples": [
             {
               "en": "She runs a small business.",
-              "ru": "Она управляет небольшим бизнесом."
+              "ru": "Она управляет небольшим бизнесом.",
+              "uz": "U kichik biznesni boshqaradi."
             }
-          ]
+          ],
+          "uz": "biznesni boshqarmoq"
         },
         {
           "id": "RUN006",
@@ -2803,9 +3298,11 @@
           "examples": [
             {
               "en": "We need to run a test first.",
-              "ru": "Сначала нам нужно провести тест."
+              "ru": "Сначала нам нужно провести тест.",
+              "uz": "Avval sinov oʻtkazishimiz kerak."
             }
-          ]
+          ],
+          "uz": "sinov oʻtkazmoq"
         },
         {
           "id": "RUN007",
@@ -2814,9 +3311,11 @@
           "examples": [
             {
               "en": "I can't run this program on my laptop.",
-              "ru": "Я не могу запустить эту программу на ноутбуке."
+              "ru": "Я не могу запустить эту программу на ноутбуке.",
+              "uz": "Men bu dasturni noutbukimda ishga tushira olmayman."
             }
-          ]
+          ],
+          "uz": "dasturni ishga tushirmoq"
         },
         {
           "id": "RUN008",
@@ -2825,9 +3324,11 @@
           "examples": [
             {
               "en": "The system is running smoothly.",
-              "ru": "Система работает без сбоев."
+              "ru": "Система работает без сбоев.",
+              "uz": "Tizim uzluksiz ishlayapti."
             }
-          ]
+          ],
+          "uz": "uzluksiz ishlamoq"
         },
         {
           "id": "RUN009",
@@ -2836,9 +3337,11 @@
           "examples": [
             {
               "en": "I ran into an old friend yesterday.",
-              "ru": "Вчера я случайно встретил старого друга."
+              "ru": "Вчера я случайно встретил старого друга.",
+              "uz": "Kecha eski doʻstimni tasodifan uchratdim."
             }
-          ]
+          ],
+          "uz": "kimnidir tasodifan uchratmoq"
         },
         {
           "id": "RUN010",
@@ -2847,9 +3350,11 @@
           "examples": [
             {
               "en": "We ran into trouble on the way.",
-              "ru": "По дороге у нас возникли проблемы."
+              "ru": "По дороге у нас возникли проблемы.",
+              "uz": "Biz yoʻlda muammoga duch keldik."
             }
-          ]
+          ],
+          "uz": "muammoga duch kelmoq"
         },
         {
           "id": "RUN011",
@@ -2858,9 +3363,11 @@
           "examples": [
             {
               "en": "Our time is running out.",
-              "ru": "Наше время заканчивается."
+              "ru": "Наше время заканчивается.",
+              "uz": "Vaqtimiz tugayapti."
             }
-          ]
+          ],
+          "uz": "tugamoq"
         },
         {
           "id": "RUN012",
@@ -2869,9 +3376,11 @@
           "examples": [
             {
               "en": "I need to run an errand after lunch.",
-              "ru": "Мне нужно сходить по одному делу после обеда."
+              "ru": "Мне нужно сходить по одному делу после обеда.",
+              "uz": "Menga tushlikdan keyin yumush bilan chiqish kerak."
             }
-          ]
+          ],
+          "uz": "yumush bilan chiqmoq"
         },
         {
           "id": "RUN013",
@@ -2880,9 +3389,11 @@
           "examples": [
             {
               "en": "She will run the meeting today.",
-              "ru": "Сегодня она будет проводить встречу."
+              "ru": "Сегодня она будет проводить встречу.",
+              "uz": "Bugun uchrashuvni u olib boradi."
             }
-          ]
+          ],
+          "uz": "uchrashuvni olib bormoq"
         },
         {
           "id": "RUN014",
@@ -2891,9 +3402,11 @@
           "examples": [
             {
               "en": "This remote runs on batteries.",
-              "ru": "Этот пульт работает от батареек."
+              "ru": "Этот пульт работает от батареек.",
+              "uz": "Bu pult batareyada ishlaydi."
             }
-          ]
+          ],
+          "uz": "batareyada ishlamoq"
         },
         {
           "id": "RUN015",
@@ -2902,9 +3415,11 @@
           "examples": [
             {
               "en": "Let's run through the plan once more.",
-              "ru": "Давай ещё раз быстро пройдёмся по плану."
+              "ru": "Давай ещё раз быстро пройдёмся по плану.",
+              "uz": "Keling, rejani yana bir bor tezda koʻrib chiqamiz."
             }
-          ]
+          ],
+          "uz": "tezda koʻrib chiqmoq"
         }
       ]
     },
@@ -2913,7 +3428,8 @@
       "order": 16,
       "title": {
         "en": "Set",
-        "ru": "Выражения с «set»"
+        "ru": "Выражения с «set»",
+        "uz": "«set» bilan iboralar"
       },
       "phrases": [
         {
@@ -2923,9 +3439,11 @@
           "examples": [
             {
               "en": "I set an alarm for six thirty.",
-              "ru": "Я поставил будильник на половину седьмого."
+              "ru": "Я поставил будильник на половину седьмого.",
+              "uz": "Men budilnikni olti yarimga qoʻydim."
             }
-          ]
+          ],
+          "uz": "budilnik qoʻymoq"
         },
         {
           "id": "SET002",
@@ -2934,9 +3452,11 @@
           "examples": [
             {
               "en": "Set a small goal for this week.",
-              "ru": "Поставь небольшую цель на эту неделю."
+              "ru": "Поставь небольшую цель на эту неделю.",
+              "uz": "Bu haftaga kichik maqsad qoʻying."
             }
-          ]
+          ],
+          "uz": "maqsad qoʻymoq"
         },
         {
           "id": "SET003",
@@ -2945,9 +3465,11 @@
           "examples": [
             {
               "en": "Let's set a date for the meeting.",
-              "ru": "Давай назначим дату встречи."
+              "ru": "Давай назначим дату встречи.",
+              "uz": "Keling, uchrashuv uchun sana belgilaylik."
             }
-          ]
+          ],
+          "uz": "sana belgilamoq"
         },
         {
           "id": "SET004",
@@ -2956,9 +3478,11 @@
           "examples": [
             {
               "en": "We need to set a time to meet.",
-              "ru": "Нам нужно назначить время встречи."
+              "ru": "Нам нужно назначить время встречи.",
+              "uz": "Biz uchrashish uchun vaqt belgilashimiz kerak."
             }
-          ]
+          ],
+          "uz": "vaqt belgilamoq"
         },
         {
           "id": "SET005",
@@ -2967,9 +3491,11 @@
           "examples": [
             {
               "en": "You should set a limit on screen time.",
-              "ru": "Тебе следует ограничить время перед экраном."
+              "ru": "Тебе следует ограничить время перед экраном.",
+              "uz": "Ekran oldida oʻtirish vaqtiga cheklov oʻrnatishingiz kerak."
             }
-          ]
+          ],
+          "uz": "cheklov oʻrnatmoq"
         },
         {
           "id": "SET006",
@@ -2978,9 +3504,11 @@
           "examples": [
             {
               "en": "Can you help me set up my new phone?",
-              "ru": "Можешь помочь мне настроить новый телефон?"
+              "ru": "Можешь помочь мне настроить новый телефон?",
+              "uz": "Yangi telefonimni sozlashga yordam bera olasizmi?"
             }
-          ]
+          ],
+          "uz": "sozlamoq; tashkil qilmoq"
         },
         {
           "id": "SET007",
@@ -2989,9 +3517,11 @@
           "examples": [
             {
               "en": "We set off early in the morning.",
-              "ru": "Мы отправились в путь рано утром."
+              "ru": "Мы отправились в путь рано утром.",
+              "uz": "Biz erta tongda yoʻlga chiqdik."
             }
-          ]
+          ],
+          "uz": "yoʻlga chiqmoq"
         },
         {
           "id": "SET008",
@@ -3000,9 +3530,11 @@
           "examples": [
             {
               "en": "Parents should set a good example.",
-              "ru": "Родители должны подавать хороший пример."
+              "ru": "Родители должны подавать хороший пример.",
+              "uz": "Ota-onalar yaxshi oʻrnak koʻrsatishi kerak."
             }
-          ]
+          ],
+          "uz": "oʻrnak koʻrsatmoq"
         },
         {
           "id": "SET009",
@@ -3011,9 +3543,11 @@
           "examples": [
             {
               "en": "Please set the table for dinner.",
-              "ru": "Пожалуйста, накрой на стол к ужину."
+              "ru": "Пожалуйста, накрой на стол к ужину.",
+              "uz": "Iltimos, kechki ovqatga dasturxon yozing."
             }
-          ]
+          ],
+          "uz": "dasturxon yozmoq"
         },
         {
           "id": "SET010",
@@ -3022,9 +3556,11 @@
           "examples": [
             {
               "en": "The athlete set a new record.",
-              "ru": "Спортсмен установил новый рекорд."
+              "ru": "Спортсмен установил новый рекорд.",
+              "uz": "Sportchi yangi rekord oʻrnatdi."
             }
-          ]
+          ],
+          "uz": "rekord oʻrnatmoq"
         },
         {
           "id": "SET011",
@@ -3033,9 +3569,11 @@
           "examples": [
             {
               "en": "I set aside some money every month.",
-              "ru": "Я откладываю немного денег каждый месяц."
+              "ru": "Я откладываю немного денег каждый месяц.",
+              "uz": "Men har oy bir oz pul ajratib qoʻyaman."
             }
-          ]
+          ],
+          "uz": "pul ajratib qoʻymoq"
         },
         {
           "id": "SET012",
@@ -3044,9 +3582,11 @@
           "examples": [
             {
               "en": "The animal was set free.",
-              "ru": "Животное выпустили на свободу."
+              "ru": "Животное выпустили на свободу.",
+              "uz": "Hayvon ozod qilindi."
             }
-          ]
+          ],
+          "uz": "ozod qilmoq"
         },
         {
           "id": "SET013",
@@ -3055,9 +3595,11 @@
           "examples": [
             {
               "en": "I'll set a reminder on my phone.",
-              "ru": "Я установлю напоминание на телефоне."
+              "ru": "Я установлю напоминание на телефоне.",
+              "uz": "Men telefonimga eslatma oʻrnataman."
             }
-          ]
+          ],
+          "uz": "eslatma oʻrnatmoq"
         },
         {
           "id": "SET014",
@@ -3066,9 +3608,11 @@
           "examples": [
             {
               "en": "She set her mind on becoming a doctor.",
-              "ru": "Она твёрдо решила стать врачом."
+              "ru": "Она твёрдо решила стать врачом.",
+              "uz": "U shifokor boʻlishga qatʼiy qaror qildi."
             }
-          ]
+          ],
+          "uz": "qatʼiy qaror qilmoq"
         },
         {
           "id": "SET015",
@@ -3077,9 +3621,11 @@
           "examples": [
             {
               "en": "Are we all set to leave?",
-              "ru": "Мы уже готовы уходить?"
+              "ru": "Мы уже готовы уходить?",
+              "uz": "Ketishga hammasi tayyormi?"
             }
-          ]
+          ],
+          "uz": "hammasi tayyor"
         }
       ]
     },
@@ -3088,7 +3634,8 @@
       "order": 17,
       "title": {
         "en": "Pick",
-        "ru": "Выражения с «pick»"
+        "ru": "Выражения с «pick»",
+        "uz": "«pick» bilan iboralar"
       },
       "phrases": [
         {
@@ -3098,9 +3645,11 @@
           "examples": [
             {
               "en": "I'll pick you up at seven.",
-              "ru": "Я заеду за тобой в семь."
+              "ru": "Я заеду за тобой в семь.",
+              "uz": "Men sizni soat yettida olib ketaman."
             }
-          ]
+          ],
+          "uz": "koʻtarmoq; olib ketmoq"
         },
         {
           "id": "PICK002",
@@ -3109,9 +3658,11 @@
           "examples": [
             {
               "en": "Can you pick me up from the station?",
-              "ru": "Можешь забрать меня со станции?"
+              "ru": "Можешь забрать меня со станции?",
+              "uz": "Meni bekatdan olib keta olasizmi?"
             }
-          ]
+          ],
+          "uz": "kimnidir olib ketmoq"
         },
         {
           "id": "PICK003",
@@ -3120,9 +3671,11 @@
           "examples": [
             {
               "en": "Why didn't you pick up the phone?",
-              "ru": "Почему ты не взял трубку?"
+              "ru": "Почему ты не взял трубку?",
+              "uz": "Nega telefonni koʻtarmadingiz?"
             }
-          ]
+          ],
+          "uz": "goʻshakni koʻtarmoq"
         },
         {
           "id": "PICK004",
@@ -3131,9 +3684,11 @@
           "examples": [
             {
               "en": "Pick a number between one and ten.",
-              "ru": "Выбери число от одного до десяти."
+              "ru": "Выбери число от одного до десяти.",
+              "uz": "Birdan oʻngacha son tanlang."
             }
-          ]
+          ],
+          "uz": "son tanlamoq"
         },
         {
           "id": "PICK005",
@@ -3142,9 +3697,11 @@
           "examples": [
             {
               "en": "We need to pick a name for the project.",
-              "ru": "Нам нужно выбрать название для проекта."
+              "ru": "Нам нужно выбрать название для проекта.",
+              "uz": "Biz loyihaga nom tanlashimiz kerak."
             }
-          ]
+          ],
+          "uz": "nom tanlamoq"
         },
         {
           "id": "PICK006",
@@ -3153,9 +3710,11 @@
           "examples": [
             {
               "en": "Pick the best one for your needs.",
-              "ru": "Выбери лучший вариант для своих нужд."
+              "ru": "Выбери лучший вариант для своих нужд.",
+              "uz": "Ehtiyojingizga eng mosini tanlang."
             }
-          ]
+          ],
+          "uz": "eng yaxshisini tanlamoq"
         },
         {
           "id": "PICK007",
@@ -3164,9 +3723,11 @@
           "examples": [
             {
               "en": "Don't pick flowers in the park.",
-              "ru": "Не срывай цветы в парке."
+              "ru": "Не срывай цветы в парке.",
+              "uz": "Bogʻda gul termang."
             }
-          ]
+          ],
+          "uz": "gul termoq"
         },
         {
           "id": "PICK008",
@@ -3175,9 +3736,11 @@
           "examples": [
             {
               "en": "They pick fruit in summer.",
-              "ru": "Летом они собирают фрукты."
+              "ru": "Летом они собирают фрукты.",
+              "uz": "Ular yozda meva terishadi."
             }
-          ]
+          ],
+          "uz": "meva termoq"
         },
         {
           "id": "PICK009",
@@ -3186,9 +3749,11 @@
           "examples": [
             {
               "en": "He picked up English while travelling.",
-              "ru": "Он освоил английский во время путешествий."
+              "ru": "Он освоил английский во время путешествий.",
+              "uz": "U sayohat davomida ingliz tilini oʻzlashtirdi."
             }
-          ]
+          ],
+          "uz": "tilni oʻzlashtirmoq"
         },
         {
           "id": "PICK010",
@@ -3197,9 +3762,11 @@
           "examples": [
             {
               "en": "You can pick up useful skills online.",
-              "ru": "Ты можешь освоить полезные навыки онлайн."
+              "ru": "Ты можешь освоить полезные навыки онлайн.",
+              "uz": "Siz onlayn foydali koʻnikmalarni oʻzlashtira olasiz."
             }
-          ]
+          ],
+          "uz": "koʻnikma oʻzlashtirmoq"
         },
         {
           "id": "PICK011",
@@ -3208,9 +3775,11 @@
           "examples": [
             {
               "en": "Stop picking on your little brother.",
-              "ru": "Перестань задирать младшего брата."
+              "ru": "Перестань задирать младшего брата.",
+              "uz": "Ukangizni ranjitishni bas qiling."
             }
-          ]
+          ],
+          "uz": "kimnidir ranjitmoq"
         },
         {
           "id": "PICK012",
@@ -3219,9 +3788,11 @@
           "examples": [
             {
               "en": "She picked out a blue dress.",
-              "ru": "Она выбрала синее платье."
+              "ru": "Она выбрала синее платье.",
+              "uz": "U koʻk koʻylak tanlab oldi."
             }
-          ]
+          ],
+          "uz": "tanlab olmoq"
         },
         {
           "id": "PICK013",
@@ -3230,9 +3801,11 @@
           "examples": [
             {
               "en": "He's always trying to pick a fight.",
-              "ru": "Он постоянно пытается затеять ссору."
+              "ru": "Он постоянно пытается затеять ссору.",
+              "uz": "U doim janjal chiqarishga urinadi."
             }
-          ]
+          ],
+          "uz": "janjal chiqarmoq"
         },
         {
           "id": "PICK014",
@@ -3241,9 +3814,11 @@
           "examples": [
             {
               "en": "The car picked up speed.",
-              "ru": "Машина набрала скорость."
+              "ru": "Машина набрала скорость.",
+              "uz": "Mashina tezlik oldi."
             }
-          ]
+          ],
+          "uz": "tezlik olmoq"
         },
         {
           "id": "PICK015",
@@ -3252,9 +3827,11 @@
           "examples": [
             {
               "en": "You don't have to pick a side.",
-              "ru": "Тебе не обязательно выбирать сторону."
+              "ru": "Тебе не обязательно выбирать сторону.",
+              "uz": "Siz bir tomonni tanlashingiz shart emas."
             }
-          ]
+          ],
+          "uz": "bir tomonni tanlamoq"
         }
       ]
     },
@@ -3263,7 +3840,8 @@
       "order": 18,
       "title": {
         "en": "Find",
-        "ru": "Выражения с «find»"
+        "ru": "Выражения с «find»",
+        "uz": "«find» bilan iboralar"
       },
       "phrases": [
         {
@@ -3273,9 +3851,11 @@
           "examples": [
             {
               "en": "I'll find out what happened.",
-              "ru": "Я выясню, что произошло."
+              "ru": "Я выясню, что произошло.",
+              "uz": "Men nima boʻlganini bilib olaman."
             }
-          ]
+          ],
+          "uz": "bilib olmoq"
         },
         {
           "id": "FIND002",
@@ -3284,9 +3864,11 @@
           "examples": [
             {
               "en": "He's trying to find a job.",
-              "ru": "Он пытается найти работу."
+              "ru": "Он пытается найти работу.",
+              "uz": "U ish topishga harakat qilyapti."
             }
-          ]
+          ],
+          "uz": "ish topmoq"
         },
         {
           "id": "FIND003",
@@ -3295,9 +3877,11 @@
           "examples": [
             {
               "en": "We need to find a solution.",
-              "ru": "Нам нужно найти решение."
+              "ru": "Нам нужно найти решение.",
+              "uz": "Biz yechim topishimiz kerak."
             }
-          ]
+          ],
+          "uz": "yechim topmoq"
         },
         {
           "id": "FIND004",
@@ -3306,9 +3890,11 @@
           "examples": [
             {
               "en": "Can you find the answer?",
-              "ru": "Можешь найти ответ?"
+              "ru": "Можешь найти ответ?",
+              "uz": "Javobni topa olasizmi?"
             }
-          ]
+          ],
+          "uz": "javobni topmoq"
         },
         {
           "id": "FIND005",
@@ -3317,9 +3903,11 @@
           "examples": [
             {
               "en": "I can't find time to exercise.",
-              "ru": "Я не могу найти время для упражнений."
+              "ru": "Я не могу найти время для упражнений.",
+              "uz": "Men mashq qilishga vaqt topa olmayapman."
             }
-          ]
+          ],
+          "uz": "vaqt topmoq"
         },
         {
           "id": "FIND006",
@@ -3328,9 +3916,11 @@
           "examples": [
             {
               "en": "We'll find a way to help you.",
-              "ru": "Мы найдём способ тебе помочь."
+              "ru": "Мы найдём способ тебе помочь.",
+              "uz": "Biz sizga yordam berish yoʻlini topamiz."
             }
-          ]
+          ],
+          "uz": "yoʻl topmoq"
         },
         {
           "id": "FIND007",
@@ -3339,9 +3929,11 @@
           "examples": [
             {
               "en": "Let's find a place to sit.",
-              "ru": "Давай найдём место, где можно сесть."
+              "ru": "Давай найдём место, где можно сесть.",
+              "uz": "Keling, oʻtiradigan joy topaylik."
             }
-          ]
+          ],
+          "uz": "joy topmoq"
         },
         {
           "id": "FIND008",
@@ -3350,9 +3942,11 @@
           "examples": [
             {
               "en": "I find English pronunciation difficult.",
-              "ru": "Мне трудно даётся английское произношение."
+              "ru": "Мне трудно даётся английское произношение.",
+              "uz": "Menimcha, ingliz tili talaffuzi qiyin."
             }
-          ]
+          ],
+          "uz": "biror narsani qiyin deb bilmoq"
         },
         {
           "id": "FIND009",
@@ -3361,9 +3955,11 @@
           "examples": [
             {
               "en": "I find this topic interesting.",
-              "ru": "Я считаю эту тему интересной."
+              "ru": "Я считаю эту тему интересной.",
+              "uz": "Menimcha, bu mavzu qiziqarli."
             }
-          ]
+          ],
+          "uz": "biror narsani qiziqarli deb bilmoq"
         },
         {
           "id": "FIND010",
@@ -3372,9 +3968,11 @@
           "examples": [
             {
               "en": "We found our way back to the hotel.",
-              "ru": "Мы нашли дорогу обратно в отель."
+              "ru": "Мы нашли дорогу обратно в отель.",
+              "uz": "Biz mehmonxonaga qaytish yoʻlini topdik."
             }
-          ]
+          ],
+          "uz": "yoʻlni topmoq"
         },
         {
           "id": "FIND011",
@@ -3383,9 +3981,11 @@
           "examples": [
             {
               "en": "Can you find the mistake in this sentence?",
-              "ru": "Можешь найти ошибку в этом предложении?"
+              "ru": "Можешь найти ошибку в этом предложении?",
+              "uz": "Bu gapdagi xatoni topa olasizmi?"
             }
-          ]
+          ],
+          "uz": "xatoni topmoq"
         },
         {
           "id": "FIND012",
@@ -3394,9 +3994,11 @@
           "examples": [
             {
               "en": "We found a seat near the window.",
-              "ru": "Мы нашли место возле окна."
+              "ru": "Мы нашли место возле окна.",
+              "uz": "Biz deraza yonidan joy topdik."
             }
-          ]
+          ],
+          "uz": "oʻtirgani joy topmoq"
         },
         {
           "id": "FIND013",
@@ -3405,9 +4007,11 @@
           "examples": [
             {
               "en": "We need to find a replacement.",
-              "ru": "Нам нужно найти замену."
+              "ru": "Нам нужно найти замену.",
+              "uz": "Biz oʻrnini bosadigan odam topishimiz kerak."
             }
-          ]
+          ],
+          "uz": "oʻrnini bosadigan odam topmoq"
         },
         {
           "id": "FIND014",
@@ -3416,9 +4020,11 @@
           "examples": [
             {
               "en": "I want to find out about the course.",
-              "ru": "Я хочу узнать об этом курсе."
+              "ru": "Я хочу узнать об этом курсе.",
+              "uz": "Men kurs haqida bilib olmoqchiman."
             }
-          ]
+          ],
+          "uz": "biror narsa haqida bilib olmoq"
         },
         {
           "id": "FIND015",
@@ -3427,9 +4033,11 @@
           "examples": [
             {
               "en": "She wanted to find out the truth.",
-              "ru": "Она хотела узнать правду."
+              "ru": "Она хотела узнать правду.",
+              "uz": "U haqiqatni bilib olmoqchi edi."
             }
-          ]
+          ],
+          "uz": "haqiqatni bilib olmoq"
         },
         {
           "id": "FIND016",
@@ -3438,9 +4046,11 @@
           "examples": [
             {
               "en": "I find it hard to wake up early.",
-              "ru": "Мне трудно рано просыпаться."
+              "ru": "Мне трудно рано просыпаться.",
+              "uz": "Menga erta uygʻonish qiyin."
             }
-          ]
+          ],
+          "uz": "biror ishni qilish qiyin boʻlmoq"
         }
       ]
     },
@@ -3449,7 +4059,8 @@
       "order": 19,
       "title": {
         "en": "Work",
-        "ru": "Выражения с «work»"
+        "ru": "Выражения с «work»",
+        "uz": "«work» bilan iboralar"
       },
       "phrases": [
         {
@@ -3459,9 +4070,11 @@
           "examples": [
             {
               "en": "I work from home on Fridays.",
-              "ru": "По пятницам я работаю из дома."
+              "ru": "По пятницам я работаю из дома.",
+              "uz": "Men juma kunlari uydan turib ishlayman."
             }
-          ]
+          ],
+          "uz": "uydan turib ishlamoq"
         },
         {
           "id": "WORK002",
@@ -3470,9 +4083,11 @@
           "examples": [
             {
               "en": "If you work hard, you can improve.",
-              "ru": "Если будешь усердно работать, сможешь улучшить результат."
+              "ru": "Если будешь усердно работать, сможешь улучшить результат.",
+              "uz": "Tirishib ishlasangiz, yaxshilana olasiz."
             }
-          ]
+          ],
+          "uz": "tirishib ishlamoq"
         },
         {
           "id": "WORK003",
@@ -3481,9 +4096,11 @@
           "examples": [
             {
               "en": "I have to work late tonight.",
-              "ru": "Сегодня мне придётся работать допоздна."
+              "ru": "Сегодня мне придётся работать допоздна.",
+              "uz": "Bugun kechgacha ishlashim kerak."
             }
-          ]
+          ],
+          "uz": "kechgacha ishlamoq"
         },
         {
           "id": "WORK004",
@@ -3492,9 +4109,11 @@
           "examples": [
             {
               "en": "He sometimes works overtime.",
-              "ru": "Он иногда работает сверхурочно."
+              "ru": "Он иногда работает сверхурочно.",
+              "uz": "U baʼzan qoʻshimcha soatlarda ishlaydi."
             }
-          ]
+          ],
+          "uz": "qoʻshimcha soatlarda ishlamoq"
         },
         {
           "id": "WORK005",
@@ -3503,9 +4122,11 @@
           "examples": [
             {
               "en": "This app works well on my phone.",
-              "ru": "Это приложение хорошо работает на моём телефоне."
+              "ru": "Это приложение хорошо работает на моём телефоне.",
+              "uz": "Bu ilova telefonimda yaxshi ishlaydi."
             }
-          ]
+          ],
+          "uz": "yaxshi ishlamoq"
         },
         {
           "id": "WORK006",
@@ -3514,9 +4135,11 @@
           "examples": [
             {
               "en": "I hope everything works out.",
-              "ru": "Надеюсь, всё получится."
+              "ru": "Надеюсь, всё получится.",
+              "uz": "Umid qilamanki, hammasi hal boʻladi."
             }
-          ]
+          ],
+          "uz": "hal boʻlmoq; yaxshi chiqmoq"
         },
         {
           "id": "WORK007",
@@ -3525,9 +4148,11 @@
           "examples": [
             {
               "en": "I'm working on a new project.",
-              "ru": "Я работаю над новым проектом."
+              "ru": "Я работаю над новым проектом.",
+              "uz": "Men yangi loyiha ustida ishlayapman."
             }
-          ]
+          ],
+          "uz": "biror narsa ustida ishlamoq"
         },
         {
           "id": "WORK008",
@@ -3536,9 +4161,11 @@
           "examples": [
             {
               "en": "She works for an international company.",
-              "ru": "Она работает в международной компании."
+              "ru": "Она работает в международной компании.",
+              "uz": "U xalqaro kompaniyada ishlaydi."
             }
-          ]
+          ],
+          "uz": "kompaniyada ishlamoq"
         },
         {
           "id": "WORK009",
@@ -3547,9 +4174,11 @@
           "examples": [
             {
               "en": "He works as a teacher.",
-              "ru": "Он работает учителем."
+              "ru": "Он работает учителем.",
+              "uz": "U oʻqituvchi boʻlib ishlaydi."
             }
-          ]
+          ],
+          "uz": "oʻqituvchi boʻlib ishlamoq"
         },
         {
           "id": "WORK010",
@@ -3558,9 +4187,11 @@
           "examples": [
             {
               "en": "We work together every day.",
-              "ru": "Мы работаем вместе каждый день."
+              "ru": "Мы работаем вместе каждый день.",
+              "uz": "Biz har kuni birga ishlaymiz."
             }
-          ]
+          ],
+          "uz": "birga ishlamoq"
         },
         {
           "id": "WORK011",
@@ -3569,9 +4200,11 @@
           "examples": [
             {
               "en": "Let's work out this problem together.",
-              "ru": "Давай решим эту проблему вместе."
+              "ru": "Давай решим эту проблему вместе.",
+              "uz": "Keling, bu muammoni birga hal qilamiz."
             }
-          ]
+          ],
+          "uz": "muammoni hal qilmoq"
         },
         {
           "id": "WORK012",
@@ -3580,9 +4213,11 @@
           "examples": [
             {
               "en": "He worked his way up to manager.",
-              "ru": "Он вырос до должности менеджера."
+              "ru": "Он вырос до должности менеджера.",
+              "uz": "U ishlab, menejerlikkacha koʻtarildi."
             }
-          ]
+          ],
+          "uz": "martaba pogʻonasida koʻtarilmoq"
         },
         {
           "id": "WORK013",
@@ -3591,9 +4226,11 @@
           "examples": [
             {
               "en": "We found a way to work around the problem.",
-              "ru": "Мы нашли способ обойти эту проблему."
+              "ru": "Мы нашли способ обойти эту проблему.",
+              "uz": "Biz muammoning aylanma yechimini topdik."
             }
-          ]
+          ],
+          "uz": "muammoning aylanma yechimini topmoq"
         },
         {
           "id": "WORK014",
@@ -3602,9 +4239,11 @@
           "examples": [
             {
               "en": "I work out at the gym three times a week.",
-              "ru": "Я тренируюсь в спортзале три раза в неделю."
+              "ru": "Я тренируюсь в спортзале три раза в неделю.",
+              "uz": "Men haftada uch marta sport zalida shugʻullanaman."
             }
-          ]
+          ],
+          "uz": "sport zalida shugʻullanmoq"
         },
         {
           "id": "WORK015",
@@ -3613,9 +4252,11 @@
           "examples": [
             {
               "en": "Does three o'clock work for you?",
-              "ru": "Тебе подходит три часа?"
+              "ru": "Тебе подходит три часа?",
+              "uz": "Soat uch sizga toʻgʻri keladimi?"
             }
-          ]
+          ],
+          "uz": "menga toʻgʻri keladi"
         },
         {
           "id": "WORK016",
@@ -3624,9 +4265,11 @@
           "examples": [
             {
               "en": "Restarting the computer worked like a charm.",
-              "ru": "Перезагрузка компьютера отлично помогла."
+              "ru": "Перезагрузка компьютера отлично помогла.",
+              "uz": "Kompyuterni qayta ishga tushirish aʼlo darajada yordam berdi."
             }
-          ]
+          ],
+          "uz": "aʼlo darajada ishlamoq"
         }
       ]
     },
@@ -3635,7 +4278,8 @@
       "order": 20,
       "title": {
         "en": "Call",
-        "ru": "Выражения с «call»"
+        "ru": "Выражения с «call»",
+        "uz": "«call» bilan iboralar"
       },
       "phrases": [
         {
@@ -3645,9 +4289,11 @@
           "examples": [
             {
               "en": "Call me when you get home.",
-              "ru": "Позвони мне, когда доберёшься домой."
+              "ru": "Позвони мне, когда доберёшься домой.",
+              "uz": "Uyga yetganingizda menga qoʻngʻiroq qiling."
             }
-          ]
+          ],
+          "uz": "menga qoʻngʻiroq qiling"
         },
         {
           "id": "CALL002",
@@ -3656,9 +4302,11 @@
           "examples": [
             {
               "en": "I'll call you back in ten minutes.",
-              "ru": "Я перезвоню тебе через десять минут."
+              "ru": "Я перезвоню тебе через десять минут.",
+              "uz": "Men sizga oʻn daqiqadan keyin qayta qoʻngʻiroq qilaman."
             }
-          ]
+          ],
+          "uz": "qayta qoʻngʻiroq qilmoq"
         },
         {
           "id": "CALL003",
@@ -3667,9 +4315,11 @@
           "examples": [
             {
               "en": "I called him up last night.",
-              "ru": "Я позвонил ему вчера вечером."
+              "ru": "Я позвонил ему вчера вечером.",
+              "uz": "Men unga kecha kechqurun telefon qildim."
             }
-          ]
+          ],
+          "uz": "kimnidir telefon qilmoq"
         },
         {
           "id": "CALL004",
@@ -3678,9 +4328,11 @@
           "examples": [
             {
               "en": "Someone called for help.",
-              "ru": "Кто-то позвал на помощь."
+              "ru": "Кто-то позвал на помощь.",
+              "uz": "Kimdir yordamga chaqirdi."
             }
-          ]
+          ],
+          "uz": "yordamga chaqirmoq"
         },
         {
           "id": "CALL005",
@@ -3689,9 +4341,11 @@
           "examples": [
             {
               "en": "Can you call a taxi for us?",
-              "ru": "Можешь вызвать нам такси?"
+              "ru": "Можешь вызвать нам такси?",
+              "uz": "Bizga taksi chaqirib bera olasizmi?"
             }
-          ]
+          ],
+          "uz": "taksi chaqirmoq"
         },
         {
           "id": "CALL006",
@@ -3700,9 +4354,11 @@
           "examples": [
             {
               "en": "Call an ambulance immediately.",
-              "ru": "Немедленно вызовите скорую помощь."
+              "ru": "Немедленно вызовите скорую помощь.",
+              "uz": "Darhol tez yordam chaqiring."
             }
-          ]
+          ],
+          "uz": "tez yordam chaqirmoq"
         },
         {
           "id": "CALL007",
@@ -3711,9 +4367,11 @@
           "examples": [
             {
               "en": "You should call the police.",
-              "ru": "Тебе следует вызвать полицию."
+              "ru": "Тебе следует вызвать полицию.",
+              "uz": "Siz politsiyani chaqirishingiz kerak."
             }
-          ]
+          ],
+          "uz": "politsiyani chaqirmoq"
         },
         {
           "id": "CALL008",
@@ -3722,9 +4380,11 @@
           "examples": [
             {
               "en": "The manager called a meeting.",
-              "ru": "Менеджер созвал собрание."
+              "ru": "Менеджер созвал собрание.",
+              "uz": "Rahbar yigʻilish chaqirdi."
             }
-          ]
+          ],
+          "uz": "yigʻilish chaqirmoq"
         },
         {
           "id": "CALL009",
@@ -3733,9 +4393,11 @@
           "examples": [
             {
               "en": "Let's call it a day.",
-              "ru": "Давай на сегодня закончим."
+              "ru": "Давай на сегодня закончим.",
+              "uz": "Keling, bugunga ishni yakunlaymiz."
             }
-          ]
+          ],
+          "uz": "bugunga ishni yakunlamoq"
         },
         {
           "id": "CALL010",
@@ -3744,9 +4406,11 @@
           "examples": [
             {
               "en": "I had to call in sick yesterday.",
-              "ru": "Вчера мне пришлось сообщить, что я заболел и не приду."
+              "ru": "Вчера мне пришлось сообщить, что я заболел и не приду.",
+              "uz": "Kecha kasalligim haqida xabar berib, ishga chiqmadim."
             }
-          ]
+          ],
+          "uz": "kasalligi haqida xabar berib, ishga chiqmaslik"
         },
         {
           "id": "CALL011",
@@ -3755,9 +4419,11 @@
           "examples": [
             {
               "en": "They called off the match because of rain.",
-              "ru": "Они отменили матч из-за дождя."
+              "ru": "Они отменили матч из-за дождя.",
+              "uz": "Ular yomgʻir tufayli oʻyinni bekor qilishdi."
             }
-          ]
+          ],
+          "uz": "bekor qilmoq"
         },
         {
           "id": "CALL012",
@@ -3766,9 +4432,11 @@
           "examples": [
             {
               "en": "The teacher called on me to answer.",
-              "ru": "Учитель вызвал меня отвечать."
+              "ru": "Учитель вызвал меня отвечать.",
+              "uz": "Oʻqituvchi meni javob berishga chaqirdi."
             }
-          ]
+          ],
+          "uz": "kimgadir murojaat qilmoq; javob berishga chaqirmoq"
         },
         {
           "id": "CALL013",
@@ -3777,9 +4445,11 @@
           "examples": [
             {
               "en": "She called out my name.",
-              "ru": "Она громко назвала моё имя."
+              "ru": "Она громко назвала моё имя.",
+              "uz": "U ismimni baland ovozda chaqirdi."
             }
-          ]
+          ],
+          "uz": "baland ovozda chaqirmoq"
         },
         {
           "id": "CALL014",
@@ -3788,9 +4458,11 @@
           "examples": [
             {
               "en": "Please call me by my first name.",
-              "ru": "Пожалуйста, называй меня по имени."
+              "ru": "Пожалуйста, называй меня по имени.",
+              "uz": "Iltimos, meni ismim bilan chaqiring."
             }
-          ]
+          ],
+          "uz": "kimnidir ismi bilan chaqirmoq"
         },
         {
           "id": "CALL015",
@@ -3799,9 +4471,11 @@
           "examples": [
             {
               "en": "Call this number if you need help.",
-              "ru": "Позвони по этому номеру, если нужна помощь."
+              "ru": "Позвони по этому номеру, если нужна помощь.",
+              "uz": "Yordam kerak boʻlsa, shu raqamga qoʻngʻiroq qiling."
             }
-          ]
+          ],
+          "uz": "raqamga qoʻngʻiroq qilmoq"
         },
         {
           "id": "CALL016",
@@ -3810,9 +4484,11 @@
           "examples": [
             {
               "en": "It's not nice to call people names.",
-              "ru": "Нехорошо обзывать людей."
+              "ru": "Нехорошо обзывать людей.",
+              "uz": "Odamlarni haqoratlash yaxshi emas."
             }
-          ]
+          ],
+          "uz": "kimnidir haqoratlamoq"
         },
         {
           "id": "CALL017",
@@ -3821,9 +4497,11 @@
           "examples": [
             {
               "en": "We've done enough for today. Let's call it quits.",
-              "ru": "На сегодня достаточно. Давай закончим."
+              "ru": "На сегодня достаточно. Давай закончим.",
+              "uz": "Bugunga yetarli qildik. Keling, toʻxtatamiz."
             }
-          ]
+          ],
+          "uz": "toʻxtatmoq; urinishni bas qilmoq"
         },
         {
           "id": "CALL018",
@@ -3832,9 +4510,11 @@
           "examples": [
             {
               "en": "I'll give you a call tomorrow.",
-              "ru": "Я позвоню тебе завтра."
+              "ru": "Я позвоню тебе завтра.",
+              "uz": "Men sizga ertaga qoʻngʻiroq qilaman."
             }
-          ]
+          ],
+          "uz": "kimgadir qoʻngʻiroq qilmoq"
         }
       ]
     }

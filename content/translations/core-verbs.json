@@ -1,6 +1,29 @@
 {
   "chapter": "core-verbs",
   "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Ingliz tilining asosiy feʼllari",
+  "lessons": {
+    "Выражения с «get»": "«get» bilan iboralar",
+    "Выражения с «take»": "«take» bilan iboralar",
+    "Выражения с «have»": "«have» bilan iboralar",
+    "Выражения с «make»": "«make» bilan iboralar",
+    "Выражения с «do»": "«do» bilan iboralar",
+    "Выражения с «go»": "«go» bilan iboralar",
+    "Выражения с «come»": "«come» bilan iboralar",
+    "Выражения с «give»": "«give» bilan iboralar",
+    "Выражения с «keep»": "«keep» bilan iboralar",
+    "Выражения с «put»": "«put» bilan iboralar",
+    "Выражения с «turn»": "«turn» bilan iboralar",
+    "Выражения с «look»": "«look» bilan iboralar",
+    "Выражения с «bring»": "«bring» bilan iboralar",
+    "Выражения с «break»": "«break» bilan iboralar",
+    "Выражения с «run»": "«run» bilan iboralar",
+    "Выражения с «set»": "«set» bilan iboralar",
+    "Выражения с «pick»": "«pick» bilan iboralar",
+    "Выражения с «find»": "«find» bilan iboralar",
+    "Выражения с «work»": "«work» bilan iboralar",
+    "Выражения с «call»": "«call» bilan iboralar"
+  },
   "entries": [
     {
       "en": "get up",
@@ -1435,7 +1458,13 @@
     {
       "en": "give someone a call",
       "ru": "позвонить кому-либо",
-      "uz": "kimgadir qoʻngʻiroq qilmoq"
+      "uz": "kimgadir qoʻngʻiroq qilmoq",
+      "examples": [
+        {
+          "en": "I'll give you a call tomorrow.",
+          "uz": "Men sizga ertaga qoʻngʻiroq qilaman."
+        }
+      ]
     },
     {
       "en": "give advice",
@@ -1594,7 +1623,7 @@
     {
       "en": "keep going",
       "ru": "продолжать",
-      "uz": "davom etmoq",
+      "uz": "toʻxtamay davom etmoq",
       "examples": [
         {
           "en": "Keep going. You're doing well.",
@@ -1803,11 +1832,1815 @@
     {
       "en": "put out",
       "ru": "тушить; гасить",
-      "uz": "oʻchirmoq",
+      "uz": "olovni oʻchirmoq",
       "examples": [
         {
           "en": "Please put out the candle.",
           "uz": "Iltimos, shamni oʻchiring."
+        }
+      ]
+    },
+    {
+      "en": "put back",
+      "ru": "возвращать на место",
+      "uz": "joyiga qaytarib qoʻymoq",
+      "examples": [
+        {
+          "en": "Put the book back on the shelf.",
+          "uz": "Kitobni javonga qaytarib qoʻying."
+        }
+      ]
+    },
+    {
+      "en": "put together",
+      "ru": "собирать; составлять",
+      "uz": "yigʻmoq; tuzmoq",
+      "examples": [
+        {
+          "en": "I need to put this table together.",
+          "uz": "Menga bu stolni yigʻish kerak."
+        }
+      ]
+    },
+    {
+      "en": "put pressure on",
+      "ru": "оказывать давление",
+      "uz": "bosim oʻtkazmoq",
+      "examples": [
+        {
+          "en": "Don't put pressure on yourself.",
+          "uz": "Oʻzingizga bosim oʻtkazmang."
+        }
+      ]
+    },
+    {
+      "en": "put on weight",
+      "ru": "набирать вес",
+      "uz": "vazn ortmoq",
+      "examples": [
+        {
+          "en": "He put on weight last year.",
+          "uz": "Uning vazni oʻtgan yili ortdi."
+        }
+      ]
+    },
+    {
+      "en": "put into practice",
+      "ru": "применять на практике",
+      "uz": "amalda qoʻllamoq",
+      "examples": [
+        {
+          "en": "It's time to put the plan into practice.",
+          "uz": "Rejani amalda qoʻllash vaqti keldi."
+        }
+      ]
+    },
+    {
+      "en": "put up with",
+      "ru": "терпеть",
+      "uz": "chidamoq",
+      "examples": [
+        {
+          "en": "I can't put up with this noise.",
+          "uz": "Men bu shovqinga chiday olmayman."
+        }
+      ]
+    },
+    {
+      "en": "put your phone away",
+      "ru": "убрать телефон",
+      "uz": "telefonni olib qoʻymoq",
+      "examples": [
+        {
+          "en": "Please put your phone away during class.",
+          "uz": "Iltimos, dars davomida telefoningizni olib qoʻying."
+        }
+      ]
+    },
+    {
+      "en": "put it simply",
+      "ru": "проще говоря",
+      "uz": "soddaroq aytganda",
+      "examples": [
+        {
+          "en": "Put simply, we need more time.",
+          "uz": "Soddaroq aytganda, bizga koʻproq vaqt kerak."
+        }
+      ]
+    },
+    {
+      "en": "put in",
+      "ru": "вставлять; вкладывать",
+      "uz": "solmoq; kiritmoq",
+      "examples": [
+        {
+          "en": "Put your key in the lock.",
+          "uz": "Kalitingizni qulfga soling."
+        }
+      ]
+    },
+    {
+      "en": "put things right",
+      "ru": "исправить ситуацию",
+      "uz": "vaziyatni toʻgʻrilamoq",
+      "examples": [
+        {
+          "en": "I'll do my best to put things right.",
+          "uz": "Vaziyatni toʻgʻrilash uchun qoʻlimdan kelganini qilaman."
+        }
+      ]
+    },
+    {
+      "en": "turn on",
+      "ru": "включать",
+      "uz": "yoqmoq",
+      "examples": [
+        {
+          "en": "Can you turn on the light?",
+          "uz": "Chiroqni yoqa olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "turn off",
+      "ru": "выключать",
+      "uz": "oʻchirmoq",
+      "examples": [
+        {
+          "en": "Please turn off the TV.",
+          "uz": "Iltimos, televizorni oʻchiring."
+        }
+      ]
+    },
+    {
+      "en": "turn up",
+      "ru": "увеличивать громкость",
+      "uz": "ovozni balandlatmoq",
+      "examples": [
+        {
+          "en": "Turn up the volume, please.",
+          "uz": "Iltimos, ovozni balandlating."
+        }
+      ]
+    },
+    {
+      "en": "turn down",
+      "ru": "уменьшать громкость; отклонять",
+      "uz": "ovozni pasaytirmoq; rad etmoq",
+      "examples": [
+        {
+          "en": "Could you turn down the music?",
+          "uz": "Musiqani pasaytira olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "turn left",
+      "ru": "повернуть налево",
+      "uz": "chapga burilmoq",
+      "examples": [
+        {
+          "en": "Turn left at the traffic lights.",
+          "uz": "Svetoforda chapga buriling."
+        }
+      ]
+    },
+    {
+      "en": "turn right",
+      "ru": "повернуть направо",
+      "uz": "oʻngga burilmoq",
+      "examples": [
+        {
+          "en": "Turn right at the next street.",
+          "uz": "Keyingi koʻchada oʻngga buriling."
+        }
+      ]
+    },
+    {
+      "en": "turn around",
+      "ru": "обернуться; развернуться",
+      "uz": "orqaga oʻgirilmoq",
+      "examples": [
+        {
+          "en": "Turn around and look at me.",
+          "uz": "Orqaga oʻgirilib, menga qarang."
+        }
+      ]
+    },
+    {
+      "en": "turn back",
+      "ru": "вернуться назад",
+      "uz": "orqaga qaytmoq",
+      "examples": [
+        {
+          "en": "We had to turn back because of the rain.",
+          "uz": "Yomgʻir tufayli orqaga qaytishga toʻgʻri keldi."
+        }
+      ]
+    },
+    {
+      "en": "turn into",
+      "ru": "превращаться в",
+      "uz": "aylanmoq",
+      "examples": [
+        {
+          "en": "The water turned into ice.",
+          "uz": "Suv muzga aylandi."
+        }
+      ]
+    },
+    {
+      "en": "turn out",
+      "ru": "оказаться",
+      "uz": "boʻlib chiqmoq",
+      "examples": [
+        {
+          "en": "The film turned out to be great.",
+          "uz": "Film ajoyib boʻlib chiqdi."
+        }
+      ]
+    },
+    {
+      "en": "turn down an offer",
+      "ru": "отклонить предложение",
+      "uz": "taklifni rad etmoq",
+      "examples": [
+        {
+          "en": "She turned down the job offer.",
+          "uz": "U ish taklifini rad etdi."
+        }
+      ]
+    },
+    {
+      "en": "turn 18",
+      "ru": "исполниться 18 лет",
+      "uz": "18 yoshga toʻlmoq",
+      "examples": [
+        {
+          "en": "My brother turns 18 this year.",
+          "uz": "Akam bu yil 18 yoshga toʻladi."
+        }
+      ]
+    },
+    {
+      "en": "turn red",
+      "ru": "покраснеть",
+      "uz": "qizarmoq",
+      "examples": [
+        {
+          "en": "He turned red with embarrassment.",
+          "uz": "U uyalganidan qizarib ketdi."
+        }
+      ]
+    },
+    {
+      "en": "turn cold",
+      "ru": "стать холодным",
+      "uz": "sovib qolmoq",
+      "examples": [
+        {
+          "en": "It's turning cold outside.",
+          "uz": "Tashqarida havo sovib qolyapti."
+        }
+      ]
+    },
+    {
+      "en": "take turns",
+      "ru": "делать по очереди",
+      "uz": "navbatma-navbat qilmoq",
+      "examples": [
+        {
+          "en": "We take turns cooking dinner.",
+          "uz": "Biz kechki ovqatni navbatma-navbat tayyorlaymiz."
+        }
+      ]
+    },
+    {
+      "en": "look at",
+      "ru": "смотреть на",
+      "uz": "qaramoq",
+      "examples": [
+        {
+          "en": "Look at this photo.",
+          "uz": "Bu suratga qarang."
+        }
+      ]
+    },
+    {
+      "en": "look for",
+      "ru": "искать",
+      "uz": "qidirmoq",
+      "examples": [
+        {
+          "en": "I'm looking for my keys.",
+          "uz": "Men kalitlarimni qidiryapman."
+        }
+      ]
+    },
+    {
+      "en": "look after",
+      "ru": "заботиться о",
+      "uz": "qarab turmoq; gʻamxoʻrlik qilmoq",
+      "examples": [
+        {
+          "en": "Can you look after my cat?",
+          "uz": "Mushugimga qarab tura olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "look like",
+      "ru": "быть похожим; выглядеть как",
+      "uz": "oʻxshamoq",
+      "examples": [
+        {
+          "en": "You look like your father.",
+          "uz": "Siz otangizga oʻxshaysiz."
+        }
+      ]
+    },
+    {
+      "en": "look tired",
+      "ru": "выглядеть уставшим",
+      "uz": "charchagan koʻrinmoq",
+      "examples": [
+        {
+          "en": "You look tired today.",
+          "uz": "Bugun charchagan koʻrinasiz."
+        }
+      ]
+    },
+    {
+      "en": "look good",
+      "ru": "хорошо выглядеть",
+      "uz": "yaxshi koʻrinmoq",
+      "examples": [
+        {
+          "en": "That shirt looks good on you.",
+          "uz": "Bu koʻylak sizga yarashibdi."
+        }
+      ]
+    },
+    {
+      "en": "look forward to",
+      "ru": "с нетерпением ждать",
+      "uz": "intiqlik bilan kutmoq",
+      "examples": [
+        {
+          "en": "I'm looking forward to the weekend.",
+          "uz": "Men dam olish kunlarini intiqlik bilan kutyapman."
+        }
+      ]
+    },
+    {
+      "en": "look out",
+      "ru": "осторожно!",
+      "uz": "ehtiyot boʻling!",
+      "examples": [
+        {
+          "en": "Look out! There's a car coming.",
+          "uz": "Ehtiyot boʻling! Mashina kelyapti."
+        }
+      ]
+    },
+    {
+      "en": "look up",
+      "ru": "искать информацию",
+      "uz": "maʼlumot qidirmoq",
+      "examples": [
+        {
+          "en": "I'll look up the word in a dictionary.",
+          "uz": "Men soʻzni lugʻatdan qidiraman."
+        }
+      ]
+    },
+    {
+      "en": "look around",
+      "ru": "осмотреться",
+      "uz": "atrofni koʻzdan kechirmoq",
+      "examples": [
+        {
+          "en": "Let's look around the city.",
+          "uz": "Keling, shaharni aylanib koʻramiz."
+        }
+      ]
+    },
+    {
+      "en": "look into",
+      "ru": "изучить; расследовать",
+      "uz": "oʻrganmoq; tekshirmoq",
+      "examples": [
+        {
+          "en": "I'll look into the problem.",
+          "uz": "Men muammoni oʻrganaman."
+        }
+      ]
+    },
+    {
+      "en": "look through",
+      "ru": "просматривать",
+      "uz": "koʻrib chiqmoq",
+      "examples": [
+        {
+          "en": "I looked through the documents.",
+          "uz": "Men hujjatlarni koʻrib chiqdim."
+        }
+      ]
+    },
+    {
+      "en": "look back",
+      "ru": "вспоминать прошлое",
+      "uz": "oʻtmishni eslamoq",
+      "examples": [
+        {
+          "en": "I look back on those days with a smile.",
+          "uz": "Men oʻsha kunlarni tabassum bilan eslayman."
+        }
+      ]
+    },
+    {
+      "en": "look away",
+      "ru": "отвести взгляд",
+      "uz": "nigohini olib qochmoq",
+      "examples": [
+        {
+          "en": "He looked away and said nothing.",
+          "uz": "U nigohini olib qochdi va hech narsa demadi."
+        }
+      ]
+    },
+    {
+      "en": "look up to someone",
+      "ru": "уважать; брать пример",
+      "uz": "hurmat qilmoq; ibrat olmoq",
+      "examples": [
+        {
+          "en": "I look up to my older sister.",
+          "uz": "Men opamdan ibrat olaman."
+        }
+      ]
+    },
+    {
+      "en": "bring it here",
+      "ru": "принести сюда",
+      "uz": "bu yerga olib kelmoq",
+      "examples": [
+        {
+          "en": "Can you bring it here, please?",
+          "uz": "Iltimos, buni bu yerga olib kela olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "bring back",
+      "ru": "вернуть; принести обратно",
+      "uz": "qaytarib olib kelmoq",
+      "examples": [
+        {
+          "en": "Please bring back my book tomorrow.",
+          "uz": "Iltimos, ertaga kitobimni qaytarib olib keling."
+        }
+      ]
+    },
+    {
+      "en": "bring along",
+      "ru": "взять с собой",
+      "uz": "oʻzi bilan olib kelmoq",
+      "examples": [
+        {
+          "en": "You can bring along a friend.",
+          "uz": "Oʻzingiz bilan doʻstingizni olib kelishingiz mumkin."
+        }
+      ]
+    },
+    {
+      "en": "bring someone with you",
+      "ru": "привести кого-либо с собой",
+      "uz": "kimnidir oʻzi bilan olib kelmoq",
+      "examples": [
+        {
+          "en": "Bring your brother with you.",
+          "uz": "Ukangizni oʻzingiz bilan olib keling."
+        }
+      ]
+    },
+    {
+      "en": "bring food",
+      "ru": "принести еду",
+      "uz": "ovqat olib kelmoq",
+      "examples": [
+        {
+          "en": "Should I bring some food?",
+          "uz": "Men ovqat olib kelaymi?"
+        }
+      ]
+    },
+    {
+      "en": "bring your passport",
+      "ru": "взять паспорт с собой",
+      "uz": "pasportni olib kelmoq",
+      "examples": [
+        {
+          "en": "Please bring your passport to the appointment.",
+          "uz": "Iltimos, uchrashuvga pasportingizni olib keling."
+        }
+      ]
+    },
+    {
+      "en": "bring good news",
+      "ru": "принести хорошие новости",
+      "uz": "yaxshi xabar keltirmoq",
+      "examples": [
+        {
+          "en": "I hope you bring good news.",
+          "uz": "Umid qilamanki, yaxshi xabar keltirasiz."
+        }
+      ]
+    },
+    {
+      "en": "bring joy",
+      "ru": "приносить радость",
+      "uz": "quvonch olib kelmoq",
+      "examples": [
+        {
+          "en": "Music brings me joy.",
+          "uz": "Musiqa menga quvonch olib keladi."
+        }
+      ]
+    },
+    {
+      "en": "bring up a topic",
+      "ru": "поднять тему",
+      "uz": "mavzuni koʻtarmoq",
+      "examples": [
+        {
+          "en": "She brought up an interesting topic.",
+          "uz": "U qiziqarli mavzuni koʻtardi."
+        }
+      ]
+    },
+    {
+      "en": "bring up a child",
+      "ru": "воспитывать ребёнка",
+      "uz": "bola tarbiyalamoq",
+      "examples": [
+        {
+          "en": "They brought up three children.",
+          "uz": "Ular uchta bolani tarbiyalashdi."
+        }
+      ]
+    },
+    {
+      "en": "bring about change",
+      "ru": "привести к изменениям",
+      "uz": "oʻzgarishlarga olib kelmoq",
+      "examples": [
+        {
+          "en": "The new plan brought about change.",
+          "uz": "Yangi reja oʻzgarishlarga olib keldi."
+        }
+      ]
+    },
+    {
+      "en": "bring it on",
+      "ru": "давай; я готов к вызову",
+      "uz": "qani, koʻramiz; men tayyorman",
+      "examples": [
+        {
+          "en": "I'm ready for the test. Bring it on!",
+          "uz": "Men testga tayyorman. Qani, koʻramiz!"
+        }
+      ]
+    },
+    {
+      "en": "bring together",
+      "ru": "объединять",
+      "uz": "birlashtirmoq",
+      "examples": [
+        {
+          "en": "Sport can bring people together.",
+          "uz": "Sport odamlarni birlashtira oladi."
+        }
+      ]
+    },
+    {
+      "en": "bring to an end",
+      "ru": "положить конец",
+      "uz": "yakuniga yetkazmoq",
+      "examples": [
+        {
+          "en": "We need to bring this argument to an end.",
+          "uz": "Bu bahsni yakuniga yetkazishimiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "bring someone home",
+      "ru": "привезти кого-либо домой",
+      "uz": "kimnidir uyiga olib bormoq",
+      "examples": [
+        {
+          "en": "I'll bring you home after the party.",
+          "uz": "Bazmdan keyin sizni uyingizga olib boraman."
+        }
+      ]
+    },
+    {
+      "en": "break down",
+      "ru": "сломаться",
+      "uz": "buzilmoq",
+      "examples": [
+        {
+          "en": "My car broke down on the way to work.",
+          "uz": "Mashinam ishga ketayotganimda buzilib qoldi."
+        }
+      ]
+    },
+    {
+      "en": "break up",
+      "ru": "расстаться",
+      "uz": "ajrashmoq",
+      "examples": [
+        {
+          "en": "They broke up last month.",
+          "uz": "Ular oʻtgan oyda ajrashishdi."
+        }
+      ]
+    },
+    {
+      "en": "break a promise",
+      "ru": "нарушить обещание",
+      "uz": "vaʼdani buzmoq",
+      "examples": [
+        {
+          "en": "I don't want to break my promise.",
+          "uz": "Men vaʼdamni buzishni xohlamayman."
+        }
+      ]
+    },
+    {
+      "en": "break the law",
+      "ru": "нарушать закон",
+      "uz": "qonunni buzmoq",
+      "examples": [
+        {
+          "en": "You mustn't break the law.",
+          "uz": "Qonunni buzmasligingiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "break the rules",
+      "ru": "нарушать правила",
+      "uz": "qoidalarni buzmoq",
+      "examples": [
+        {
+          "en": "He broke the rules again.",
+          "uz": "U yana qoidalarni buzdi."
+        }
+      ]
+    },
+    {
+      "en": "break a record",
+      "ru": "побить рекорд",
+      "uz": "rekordni yangilamoq",
+      "examples": [
+        {
+          "en": "She broke the world record.",
+          "uz": "U jahon rekordini yangiladi."
+        }
+      ]
+    },
+    {
+      "en": "break a habit",
+      "ru": "избавиться от привычки",
+      "uz": "odatdan qutulmoq",
+      "examples": [
+        {
+          "en": "It's hard to break a bad habit.",
+          "uz": "Yomon odatdan qutulish qiyin."
+        }
+      ]
+    },
+    {
+      "en": "break the news",
+      "ru": "сообщить новость",
+      "uz": "xabarni yetkazmoq",
+      "examples": [
+        {
+          "en": "Who will break the news to him?",
+          "uz": "Unga bu xabarni kim yetkazadi?"
+        }
+      ]
+    },
+    {
+      "en": "break the ice",
+      "ru": "разрядить обстановку",
+      "uz": "vaziyatni yumshatmoq",
+      "examples": [
+        {
+          "en": "He told a joke to break the ice.",
+          "uz": "U vaziyatni yumshatish uchun hazil aytdi."
+        }
+      ]
+    },
+    {
+      "en": "break a window",
+      "ru": "разбить окно",
+      "uz": "oynani sindirmoq",
+      "examples": [
+        {
+          "en": "The ball broke the window.",
+          "uz": "Toʻp oynani sindirdi."
+        }
+      ]
+    },
+    {
+      "en": "break out",
+      "ru": "вспыхнуть; начаться внезапно",
+      "uz": "toʻsatdan boshlanmoq",
+      "examples": [
+        {
+          "en": "A fire broke out in the kitchen.",
+          "uz": "Oshxonada yongʻin boshlandi."
+        }
+      ]
+    },
+    {
+      "en": "break into",
+      "ru": "вломиться; проникнуть",
+      "uz": "bostirib kirmoq",
+      "examples": [
+        {
+          "en": "Someone broke into the house.",
+          "uz": "Kimdir uyga bostirib kirdi."
+        }
+      ]
+    },
+    {
+      "en": "break free",
+      "ru": "освободиться",
+      "uz": "ozod boʻlmoq",
+      "examples": [
+        {
+          "en": "The dog broke free from its leash.",
+          "uz": "It bogʻichidan boʻshab ketdi."
+        }
+      ]
+    },
+    {
+      "en": "break even",
+      "ru": "выйти в ноль",
+      "uz": "zararsiz ishlamoq",
+      "examples": [
+        {
+          "en": "The business finally broke even.",
+          "uz": "Biznes nihoyat zararsiz ishlay boshladi."
+        }
+      ]
+    },
+    {
+      "en": "break someone's heart",
+      "ru": "разбить кому-либо сердце",
+      "uz": "kimningdir qalbini sindirmoq",
+      "examples": [
+        {
+          "en": "He broke her heart.",
+          "uz": "U uning qalbini sindirdi."
+        }
+      ]
+    },
+    {
+      "en": "run fast",
+      "ru": "быстро бегать",
+      "uz": "tez yugurmoq",
+      "examples": [
+        {
+          "en": "He can run very fast.",
+          "uz": "U juda tez yugura oladi."
+        }
+      ]
+    },
+    {
+      "en": "run away",
+      "ru": "убегать",
+      "uz": "qochib ketmoq",
+      "examples": [
+        {
+          "en": "The dog ran away.",
+          "uz": "It qochib ketdi."
+        }
+      ]
+    },
+    {
+      "en": "run out of",
+      "ru": "закончиться; остаться без",
+      "uz": "tugab qolmoq",
+      "examples": [
+        {
+          "en": "We've run out of milk.",
+          "uz": "Sutimiz tugab qoldi."
+        }
+      ]
+    },
+    {
+      "en": "run late",
+      "ru": "опаздывать",
+      "uz": "kechikmoq",
+      "examples": [
+        {
+          "en": "I'm running late. I'll be there soon.",
+          "uz": "Men kechikyapman. Tez orada yetib boraman."
+        }
+      ]
+    },
+    {
+      "en": "run a business",
+      "ru": "управлять бизнесом",
+      "uz": "biznesni boshqarmoq",
+      "examples": [
+        {
+          "en": "She runs a small business.",
+          "uz": "U kichik biznesni boshqaradi."
+        }
+      ]
+    },
+    {
+      "en": "run a test",
+      "ru": "провести тест",
+      "uz": "sinov oʻtkazmoq",
+      "examples": [
+        {
+          "en": "We need to run a test first.",
+          "uz": "Avval sinov oʻtkazishimiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "run a program",
+      "ru": "запустить программу",
+      "uz": "dasturni ishga tushirmoq",
+      "examples": [
+        {
+          "en": "I can't run this program on my laptop.",
+          "uz": "Men bu dasturni noutbukimda ishga tushira olmayman."
+        }
+      ]
+    },
+    {
+      "en": "run smoothly",
+      "ru": "работать без сбоев",
+      "uz": "uzluksiz ishlamoq",
+      "examples": [
+        {
+          "en": "The system is running smoothly.",
+          "uz": "Tizim uzluksiz ishlayapti."
+        }
+      ]
+    },
+    {
+      "en": "run into someone",
+      "ru": "случайно встретить кого-либо",
+      "uz": "kimnidir tasodifan uchratmoq",
+      "examples": [
+        {
+          "en": "I ran into an old friend yesterday.",
+          "uz": "Kecha eski doʻstimni tasodifan uchratdim."
+        }
+      ]
+    },
+    {
+      "en": "run into trouble",
+      "ru": "столкнуться с проблемами",
+      "uz": "muammoga duch kelmoq",
+      "examples": [
+        {
+          "en": "We ran into trouble on the way.",
+          "uz": "Biz yoʻlda muammoga duch keldik."
+        }
+      ]
+    },
+    {
+      "en": "run out",
+      "ru": "заканчиваться",
+      "uz": "tugamoq",
+      "examples": [
+        {
+          "en": "Our time is running out.",
+          "uz": "Vaqtimiz tugayapti."
+        }
+      ]
+    },
+    {
+      "en": "run an errand",
+      "ru": "сходить по делу",
+      "uz": "yumush bilan chiqmoq",
+      "examples": [
+        {
+          "en": "I need to run an errand after lunch.",
+          "uz": "Menga tushlikdan keyin yumush bilan chiqish kerak."
+        }
+      ]
+    },
+    {
+      "en": "run a meeting",
+      "ru": "проводить встречу",
+      "uz": "uchrashuvni olib bormoq",
+      "examples": [
+        {
+          "en": "She will run the meeting today.",
+          "uz": "Bugun uchrashuvni u olib boradi."
+        }
+      ]
+    },
+    {
+      "en": "run on batteries",
+      "ru": "работать от батареек",
+      "uz": "batareyada ishlamoq",
+      "examples": [
+        {
+          "en": "This remote runs on batteries.",
+          "uz": "Bu pult batareyada ishlaydi."
+        }
+      ]
+    },
+    {
+      "en": "run through",
+      "ru": "быстро повторить; пройтись по",
+      "uz": "tezda koʻrib chiqmoq",
+      "examples": [
+        {
+          "en": "Let's run through the plan once more.",
+          "uz": "Keling, rejani yana bir bor tezda koʻrib chiqamiz."
+        }
+      ]
+    },
+    {
+      "en": "set an alarm",
+      "ru": "поставить будильник",
+      "uz": "budilnik qoʻymoq",
+      "examples": [
+        {
+          "en": "I set an alarm for six thirty.",
+          "uz": "Men budilnikni olti yarimga qoʻydim."
+        }
+      ]
+    },
+    {
+      "en": "set a goal",
+      "ru": "поставить цель",
+      "uz": "maqsad qoʻymoq",
+      "examples": [
+        {
+          "en": "Set a small goal for this week.",
+          "uz": "Bu haftaga kichik maqsad qoʻying."
+        }
+      ]
+    },
+    {
+      "en": "set a date",
+      "ru": "назначить дату",
+      "uz": "sana belgilamoq",
+      "examples": [
+        {
+          "en": "Let's set a date for the meeting.",
+          "uz": "Keling, uchrashuv uchun sana belgilaylik."
+        }
+      ]
+    },
+    {
+      "en": "set a time",
+      "ru": "назначить время",
+      "uz": "vaqt belgilamoq",
+      "examples": [
+        {
+          "en": "We need to set a time to meet.",
+          "uz": "Biz uchrashish uchun vaqt belgilashimiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "set a limit",
+      "ru": "установить ограничение",
+      "uz": "cheklov oʻrnatmoq",
+      "examples": [
+        {
+          "en": "You should set a limit on screen time.",
+          "uz": "Ekran oldida oʻtirish vaqtiga cheklov oʻrnatishingiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "set up",
+      "ru": "настроить; организовать",
+      "uz": "sozlamoq; tashkil qilmoq",
+      "examples": [
+        {
+          "en": "Can you help me set up my new phone?",
+          "uz": "Yangi telefonimni sozlashga yordam bera olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "set off",
+      "ru": "отправиться в путь",
+      "uz": "yoʻlga chiqmoq",
+      "examples": [
+        {
+          "en": "We set off early in the morning.",
+          "uz": "Biz erta tongda yoʻlga chiqdik."
+        }
+      ]
+    },
+    {
+      "en": "set an example",
+      "ru": "подавать пример",
+      "uz": "oʻrnak koʻrsatmoq",
+      "examples": [
+        {
+          "en": "Parents should set a good example.",
+          "uz": "Ota-onalar yaxshi oʻrnak koʻrsatishi kerak."
+        }
+      ]
+    },
+    {
+      "en": "set the table",
+      "ru": "накрыть на стол",
+      "uz": "dasturxon yozmoq",
+      "examples": [
+        {
+          "en": "Please set the table for dinner.",
+          "uz": "Iltimos, kechki ovqatga dasturxon yozing."
+        }
+      ]
+    },
+    {
+      "en": "set a record",
+      "ru": "установить рекорд",
+      "uz": "rekord oʻrnatmoq",
+      "examples": [
+        {
+          "en": "The athlete set a new record.",
+          "uz": "Sportchi yangi rekord oʻrnatdi."
+        }
+      ]
+    },
+    {
+      "en": "set aside money",
+      "ru": "откладывать деньги",
+      "uz": "pul ajratib qoʻymoq",
+      "examples": [
+        {
+          "en": "I set aside some money every month.",
+          "uz": "Men har oy bir oz pul ajratib qoʻyaman."
+        }
+      ]
+    },
+    {
+      "en": "set free",
+      "ru": "освободить",
+      "uz": "ozod qilmoq",
+      "examples": [
+        {
+          "en": "The animal was set free.",
+          "uz": "Hayvon ozod qilindi."
+        }
+      ]
+    },
+    {
+      "en": "set a reminder",
+      "ru": "установить напоминание",
+      "uz": "eslatma oʻrnatmoq",
+      "examples": [
+        {
+          "en": "I'll set a reminder on my phone.",
+          "uz": "Men telefonimga eslatma oʻrnataman."
+        }
+      ]
+    },
+    {
+      "en": "set your mind on",
+      "ru": "твёрдо решить",
+      "uz": "qatʼiy qaror qilmoq",
+      "examples": [
+        {
+          "en": "She set her mind on becoming a doctor.",
+          "uz": "U shifokor boʻlishga qatʼiy qaror qildi."
+        }
+      ]
+    },
+    {
+      "en": "all set",
+      "ru": "всё готово",
+      "uz": "hammasi tayyor",
+      "examples": [
+        {
+          "en": "Are we all set to leave?",
+          "uz": "Ketishga hammasi tayyormi?"
+        }
+      ]
+    },
+    {
+      "en": "pick up",
+      "ru": "поднять; забрать; подобрать",
+      "uz": "koʻtarmoq; olib ketmoq",
+      "examples": [
+        {
+          "en": "I'll pick you up at seven.",
+          "uz": "Men sizni soat yettida olib ketaman."
+        }
+      ]
+    },
+    {
+      "en": "pick someone up",
+      "ru": "забрать кого-либо",
+      "uz": "kimnidir olib ketmoq",
+      "examples": [
+        {
+          "en": "Can you pick me up from the station?",
+          "uz": "Meni bekatdan olib keta olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "pick up the phone",
+      "ru": "взять трубку",
+      "uz": "goʻshakni koʻtarmoq",
+      "examples": [
+        {
+          "en": "Why didn't you pick up the phone?",
+          "uz": "Nega telefonni koʻtarmadingiz?"
+        }
+      ]
+    },
+    {
+      "en": "pick a number",
+      "ru": "выбрать число",
+      "uz": "son tanlamoq",
+      "examples": [
+        {
+          "en": "Pick a number between one and ten.",
+          "uz": "Birdan oʻngacha son tanlang."
+        }
+      ]
+    },
+    {
+      "en": "pick a name",
+      "ru": "выбрать название или имя",
+      "uz": "nom tanlamoq",
+      "examples": [
+        {
+          "en": "We need to pick a name for the project.",
+          "uz": "Biz loyihaga nom tanlashimiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "pick the best one",
+      "ru": "выбрать лучший вариант",
+      "uz": "eng yaxshisini tanlamoq",
+      "examples": [
+        {
+          "en": "Pick the best one for your needs.",
+          "uz": "Ehtiyojingizga eng mosini tanlang."
+        }
+      ]
+    },
+    {
+      "en": "pick flowers",
+      "ru": "собирать цветы",
+      "uz": "gul termoq",
+      "examples": [
+        {
+          "en": "Don't pick flowers in the park.",
+          "uz": "Bogʻda gul termang."
+        }
+      ]
+    },
+    {
+      "en": "pick fruit",
+      "ru": "собирать фрукты",
+      "uz": "meva termoq",
+      "examples": [
+        {
+          "en": "They pick fruit in summer.",
+          "uz": "Ular yozda meva terishadi."
+        }
+      ]
+    },
+    {
+      "en": "pick up a language",
+      "ru": "освоить язык",
+      "uz": "tilni oʻzlashtirmoq",
+      "examples": [
+        {
+          "en": "He picked up English while travelling.",
+          "uz": "U sayohat davomida ingliz tilini oʻzlashtirdi."
+        }
+      ]
+    },
+    {
+      "en": "pick up a skill",
+      "ru": "освоить навык",
+      "uz": "koʻnikma oʻzlashtirmoq",
+      "examples": [
+        {
+          "en": "You can pick up useful skills online.",
+          "uz": "Siz onlayn foydali koʻnikmalarni oʻzlashtira olasiz."
+        }
+      ]
+    },
+    {
+      "en": "pick on someone",
+      "ru": "дразнить; задирать",
+      "uz": "kimnidir ranjitmoq",
+      "examples": [
+        {
+          "en": "Stop picking on your little brother.",
+          "uz": "Ukangizni ranjitishni bas qiling."
+        }
+      ]
+    },
+    {
+      "en": "pick out",
+      "ru": "выбрать",
+      "uz": "tanlab olmoq",
+      "examples": [
+        {
+          "en": "She picked out a blue dress.",
+          "uz": "U koʻk koʻylak tanlab oldi."
+        }
+      ]
+    },
+    {
+      "en": "pick a fight",
+      "ru": "затевать ссору",
+      "uz": "janjal chiqarmoq",
+      "examples": [
+        {
+          "en": "He's always trying to pick a fight.",
+          "uz": "U doim janjal chiqarishga urinadi."
+        }
+      ]
+    },
+    {
+      "en": "pick up speed",
+      "ru": "набирать скорость",
+      "uz": "tezlik olmoq",
+      "examples": [
+        {
+          "en": "The car picked up speed.",
+          "uz": "Mashina tezlik oldi."
+        }
+      ]
+    },
+    {
+      "en": "pick a side",
+      "ru": "выбрать сторону",
+      "uz": "bir tomonni tanlamoq",
+      "examples": [
+        {
+          "en": "You don't have to pick a side.",
+          "uz": "Siz bir tomonni tanlashingiz shart emas."
+        }
+      ]
+    },
+    {
+      "en": "find out",
+      "ru": "выяснить; узнать",
+      "uz": "bilib olmoq",
+      "examples": [
+        {
+          "en": "I'll find out what happened.",
+          "uz": "Men nima boʻlganini bilib olaman."
+        }
+      ]
+    },
+    {
+      "en": "find a job",
+      "ru": "найти работу",
+      "uz": "ish topmoq",
+      "examples": [
+        {
+          "en": "He's trying to find a job.",
+          "uz": "U ish topishga harakat qilyapti."
+        }
+      ]
+    },
+    {
+      "en": "find a solution",
+      "ru": "найти решение",
+      "uz": "yechim topmoq",
+      "examples": [
+        {
+          "en": "We need to find a solution.",
+          "uz": "Biz yechim topishimiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "find the answer",
+      "ru": "найти ответ",
+      "uz": "javobni topmoq",
+      "examples": [
+        {
+          "en": "Can you find the answer?",
+          "uz": "Javobni topa olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "find time",
+      "ru": "найти время",
+      "uz": "vaqt topmoq",
+      "examples": [
+        {
+          "en": "I can't find time to exercise.",
+          "uz": "Men mashq qilishga vaqt topa olmayapman."
+        }
+      ]
+    },
+    {
+      "en": "find a way",
+      "ru": "найти способ",
+      "uz": "yoʻl topmoq",
+      "examples": [
+        {
+          "en": "We'll find a way to help you.",
+          "uz": "Biz sizga yordam berish yoʻlini topamiz."
+        }
+      ]
+    },
+    {
+      "en": "find a place",
+      "ru": "найти место",
+      "uz": "joy topmoq",
+      "examples": [
+        {
+          "en": "Let's find a place to sit.",
+          "uz": "Keling, oʻtiradigan joy topaylik."
+        }
+      ]
+    },
+    {
+      "en": "find something difficult",
+      "ru": "считать что-либо трудным",
+      "uz": "biror narsani qiyin deb bilmoq",
+      "examples": [
+        {
+          "en": "I find English pronunciation difficult.",
+          "uz": "Menimcha, ingliz tili talaffuzi qiyin."
+        }
+      ]
+    },
+    {
+      "en": "find something interesting",
+      "ru": "считать что-либо интересным",
+      "uz": "biror narsani qiziqarli deb bilmoq",
+      "examples": [
+        {
+          "en": "I find this topic interesting.",
+          "uz": "Menimcha, bu mavzu qiziqarli."
+        }
+      ]
+    },
+    {
+      "en": "find your way",
+      "ru": "найти дорогу",
+      "uz": "yoʻlni topmoq",
+      "examples": [
+        {
+          "en": "We found our way back to the hotel.",
+          "uz": "Biz mehmonxonaga qaytish yoʻlini topdik."
+        }
+      ]
+    },
+    {
+      "en": "find a mistake",
+      "ru": "найти ошибку",
+      "uz": "xatoni topmoq",
+      "examples": [
+        {
+          "en": "Can you find the mistake in this sentence?",
+          "uz": "Bu gapdagi xatoni topa olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "find a seat",
+      "ru": "найти место",
+      "uz": "oʻtirgani joy topmoq",
+      "examples": [
+        {
+          "en": "We found a seat near the window.",
+          "uz": "Biz deraza yonidan joy topdik."
+        }
+      ]
+    },
+    {
+      "en": "find a replacement",
+      "ru": "найти замену",
+      "uz": "oʻrnini bosadigan odam topmoq",
+      "examples": [
+        {
+          "en": "We need to find a replacement.",
+          "uz": "Biz oʻrnini bosadigan odam topishimiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "find out about",
+      "ru": "узнать о",
+      "uz": "biror narsa haqida bilib olmoq",
+      "examples": [
+        {
+          "en": "I want to find out about the course.",
+          "uz": "Men kurs haqida bilib olmoqchiman."
+        }
+      ]
+    },
+    {
+      "en": "find out the truth",
+      "ru": "узнать правду",
+      "uz": "haqiqatni bilib olmoq",
+      "examples": [
+        {
+          "en": "She wanted to find out the truth.",
+          "uz": "U haqiqatni bilib olmoqchi edi."
+        }
+      ]
+    },
+    {
+      "en": "find it hard to",
+      "ru": "считать трудным что-либо делать",
+      "uz": "biror ishni qilish qiyin boʻlmoq",
+      "examples": [
+        {
+          "en": "I find it hard to wake up early.",
+          "uz": "Menga erta uygʻonish qiyin."
+        }
+      ]
+    },
+    {
+      "en": "work from home",
+      "ru": "работать из дома",
+      "uz": "uydan turib ishlamoq",
+      "examples": [
+        {
+          "en": "I work from home on Fridays.",
+          "uz": "Men juma kunlari uydan turib ishlayman."
+        }
+      ]
+    },
+    {
+      "en": "work hard",
+      "ru": "усердно работать",
+      "uz": "tirishib ishlamoq",
+      "examples": [
+        {
+          "en": "If you work hard, you can improve.",
+          "uz": "Tirishib ishlasangiz, yaxshilana olasiz."
+        }
+      ]
+    },
+    {
+      "en": "work late",
+      "ru": "работать допоздна",
+      "uz": "kechgacha ishlamoq",
+      "examples": [
+        {
+          "en": "I have to work late tonight.",
+          "uz": "Bugun kechgacha ishlashim kerak."
+        }
+      ]
+    },
+    {
+      "en": "work overtime",
+      "ru": "работать сверхурочно",
+      "uz": "qoʻshimcha soatlarda ishlamoq",
+      "examples": [
+        {
+          "en": "He sometimes works overtime.",
+          "uz": "U baʼzan qoʻshimcha soatlarda ishlaydi."
+        }
+      ]
+    },
+    {
+      "en": "work well",
+      "ru": "хорошо работать; функционировать",
+      "uz": "yaxshi ishlamoq",
+      "examples": [
+        {
+          "en": "This app works well on my phone.",
+          "uz": "Bu ilova telefonimda yaxshi ishlaydi."
+        }
+      ]
+    },
+    {
+      "en": "work out",
+      "ru": "получаться; решаться",
+      "uz": "hal boʻlmoq; yaxshi chiqmoq",
+      "examples": [
+        {
+          "en": "I hope everything works out.",
+          "uz": "Umid qilamanki, hammasi hal boʻladi."
+        }
+      ]
+    },
+    {
+      "en": "work on something",
+      "ru": "работать над чем-либо",
+      "uz": "biror narsa ustida ishlamoq",
+      "examples": [
+        {
+          "en": "I'm working on a new project.",
+          "uz": "Men yangi loyiha ustida ishlayapman."
+        }
+      ]
+    },
+    {
+      "en": "work for a company",
+      "ru": "работать в компании",
+      "uz": "kompaniyada ishlamoq",
+      "examples": [
+        {
+          "en": "She works for an international company.",
+          "uz": "U xalqaro kompaniyada ishlaydi."
+        }
+      ]
+    },
+    {
+      "en": "work as a teacher",
+      "ru": "работать учителем",
+      "uz": "oʻqituvchi boʻlib ishlamoq",
+      "examples": [
+        {
+          "en": "He works as a teacher.",
+          "uz": "U oʻqituvchi boʻlib ishlaydi."
+        }
+      ]
+    },
+    {
+      "en": "work together",
+      "ru": "работать вместе",
+      "uz": "birga ishlamoq",
+      "examples": [
+        {
+          "en": "We work together every day.",
+          "uz": "Biz har kuni birga ishlaymiz."
+        }
+      ]
+    },
+    {
+      "en": "work out a problem",
+      "ru": "решить проблему",
+      "uz": "muammoni hal qilmoq",
+      "examples": [
+        {
+          "en": "Let's work out this problem together.",
+          "uz": "Keling, bu muammoni birga hal qilamiz."
+        }
+      ]
+    },
+    {
+      "en": "work your way up",
+      "ru": "продвигаться по карьерной лестнице",
+      "uz": "martaba pogʻonasida koʻtarilmoq",
+      "examples": [
+        {
+          "en": "He worked his way up to manager.",
+          "uz": "U ishlab, menejerlikkacha koʻtarildi."
+        }
+      ]
+    },
+    {
+      "en": "work around a problem",
+      "ru": "найти обходное решение",
+      "uz": "muammoning aylanma yechimini topmoq",
+      "examples": [
+        {
+          "en": "We found a way to work around the problem.",
+          "uz": "Biz muammoning aylanma yechimini topdik."
+        }
+      ]
+    },
+    {
+      "en": "work out at the gym",
+      "ru": "тренироваться в спортзале",
+      "uz": "sport zalida shugʻullanmoq",
+      "examples": [
+        {
+          "en": "I work out at the gym three times a week.",
+          "uz": "Men haftada uch marta sport zalida shugʻullanaman."
+        }
+      ]
+    },
+    {
+      "en": "work for me",
+      "ru": "мне подходит",
+      "uz": "menga toʻgʻri keladi",
+      "examples": [
+        {
+          "en": "Does three o'clock work for you?",
+          "uz": "Soat uch sizga toʻgʻri keladimi?"
+        }
+      ]
+    },
+    {
+      "en": "work like a charm",
+      "ru": "работать отлично",
+      "uz": "aʼlo darajada ishlamoq",
+      "examples": [
+        {
+          "en": "Restarting the computer worked like a charm.",
+          "uz": "Kompyuterni qayta ishga tushirish aʼlo darajada yordam berdi."
+        }
+      ]
+    },
+    {
+      "en": "call me",
+      "ru": "позвони мне",
+      "uz": "menga qoʻngʻiroq qiling",
+      "examples": [
+        {
+          "en": "Call me when you get home.",
+          "uz": "Uyga yetganingizda menga qoʻngʻiroq qiling."
+        }
+      ]
+    },
+    {
+      "en": "call back",
+      "ru": "перезвонить",
+      "uz": "qayta qoʻngʻiroq qilmoq",
+      "examples": [
+        {
+          "en": "I'll call you back in ten minutes.",
+          "uz": "Men sizga oʻn daqiqadan keyin qayta qoʻngʻiroq qilaman."
+        }
+      ]
+    },
+    {
+      "en": "call someone up",
+      "ru": "позвонить кому-либо",
+      "uz": "kimnidir telefon qilmoq",
+      "examples": [
+        {
+          "en": "I called him up last night.",
+          "uz": "Men unga kecha kechqurun telefon qildim."
+        }
+      ]
+    },
+    {
+      "en": "call for help",
+      "ru": "позвать на помощь",
+      "uz": "yordamga chaqirmoq",
+      "examples": [
+        {
+          "en": "Someone called for help.",
+          "uz": "Kimdir yordamga chaqirdi."
+        }
+      ]
+    },
+    {
+      "en": "call a taxi",
+      "ru": "вызвать такси",
+      "uz": "taksi chaqirmoq",
+      "examples": [
+        {
+          "en": "Can you call a taxi for us?",
+          "uz": "Bizga taksi chaqirib bera olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "call an ambulance",
+      "ru": "вызвать скорую помощь",
+      "uz": "tez yordam chaqirmoq",
+      "examples": [
+        {
+          "en": "Call an ambulance immediately.",
+          "uz": "Darhol tez yordam chaqiring."
+        }
+      ]
+    },
+    {
+      "en": "call the police",
+      "ru": "вызвать полицию",
+      "uz": "politsiyani chaqirmoq",
+      "examples": [
+        {
+          "en": "You should call the police.",
+          "uz": "Siz politsiyani chaqirishingiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "call a meeting",
+      "ru": "созвать собрание",
+      "uz": "yigʻilish chaqirmoq",
+      "examples": [
+        {
+          "en": "The manager called a meeting.",
+          "uz": "Rahbar yigʻilish chaqirdi."
+        }
+      ]
+    },
+    {
+      "en": "call it a day",
+      "ru": "закончить работу на сегодня",
+      "uz": "bugunga ishni yakunlamoq",
+      "examples": [
+        {
+          "en": "Let's call it a day.",
+          "uz": "Keling, bugunga ishni yakunlaymiz."
+        }
+      ]
+    },
+    {
+      "en": "call in sick",
+      "ru": "сообщить, что заболел и не придёшь",
+      "uz": "kasalligi haqida xabar berib, ishga chiqmaslik",
+      "examples": [
+        {
+          "en": "I had to call in sick yesterday.",
+          "uz": "Kecha kasalligim haqida xabar berib, ishga chiqmadim."
+        }
+      ]
+    },
+    {
+      "en": "call off",
+      "ru": "отменить",
+      "uz": "bekor qilmoq",
+      "examples": [
+        {
+          "en": "They called off the match because of rain.",
+          "uz": "Ular yomgʻir tufayli oʻyinni bekor qilishdi."
+        }
+      ]
+    },
+    {
+      "en": "call on someone",
+      "ru": "обратиться к кому-либо; вызвать отвечать",
+      "uz": "kimgadir murojaat qilmoq; javob berishga chaqirmoq",
+      "examples": [
+        {
+          "en": "The teacher called on me to answer.",
+          "uz": "Oʻqituvchi meni javob berishga chaqirdi."
+        }
+      ]
+    },
+    {
+      "en": "call out",
+      "ru": "громко позвать; выкрикнуть",
+      "uz": "baland ovozda chaqirmoq",
+      "examples": [
+        {
+          "en": "She called out my name.",
+          "uz": "U ismimni baland ovozda chaqirdi."
+        }
+      ]
+    },
+    {
+      "en": "call someone by name",
+      "ru": "называть кого-либо по имени",
+      "uz": "kimnidir ismi bilan chaqirmoq",
+      "examples": [
+        {
+          "en": "Please call me by my first name.",
+          "uz": "Iltimos, meni ismim bilan chaqiring."
+        }
+      ]
+    },
+    {
+      "en": "call a number",
+      "ru": "набрать номер",
+      "uz": "raqamga qoʻngʻiroq qilmoq",
+      "examples": [
+        {
+          "en": "Call this number if you need help.",
+          "uz": "Yordam kerak boʻlsa, shu raqamga qoʻngʻiroq qiling."
+        }
+      ]
+    },
+    {
+      "en": "call someone names",
+      "ru": "обзывать кого-либо",
+      "uz": "kimnidir haqoratlamoq",
+      "examples": [
+        {
+          "en": "It's not nice to call people names.",
+          "uz": "Odamlarni haqoratlash yaxshi emas."
+        }
+      ]
+    },
+    {
+      "en": "call it quits",
+      "ru": "закончить; прекратить попытки",
+      "uz": "toʻxtatmoq; urinishni bas qilmoq",
+      "examples": [
+        {
+          "en": "We've done enough for today. Let's call it quits.",
+          "uz": "Bugunga yetarli qildik. Keling, toʻxtatamiz."
         }
       ]
     }

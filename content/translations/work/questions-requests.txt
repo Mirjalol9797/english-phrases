@@ -59,7 +59,7 @@ phrase|Would you mind if I opened the window?||Вы не возражаете, �
 phrase|Am I allowed to park here?||Мне разрешено здесь парковаться?|Bu yerga toʻxtashga ruxsat bormi?
 phrase|Can I ask you something personal?||Можно спросить тебя о личном?|Shaxsiy bir narsa soʻrasam boʻladimi?
 phrase|Can I help you with that?||Могу я помочь тебе с этим?|Bunda sizga yordam bera olamanmi?
-phrase|Would you like a hand?||Тебе помочь?|Yordam kerakmi?
+phrase|Would you like a hand?||Тебе помочь?|Yordam beraymi?
 phrase|Shall I carry that for you?||Мне понести это за тебя?|Buni koʻtarib beraymi?
 phrase|Do you need any help?||Тебе нужна помощь?|Yordam kerakmi?
 phrase|Can I get you anything?||Могу я тебе что-нибудь принести?|Sizga biror narsa olib kelaymi?
