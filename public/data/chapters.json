@@ -115,11 +115,13 @@
       "kind": "phrases",
       "title": {
         "en": "Work English",
-        "ru": "Английский для работы"
+        "ru": "Английский для работы",
+        "uz": "Ish uchun ingliz tili"
       },
       "file": "chapters/work-english.json",
       "lessonCount": 20,
-      "phraseCount": 200
+      "phraseCount": 200,
+      "translatedUz": true
     },
     {
       "id": "phrasal-verbs",

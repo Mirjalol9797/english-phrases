@@ -1,0 +1,200 @@
+phrase|Good morning, everyone.||Доброе утро, всем.|Hammaga xayrli tong.
+phrase|Let's get started.||Давайте начнём.|Keling, boshlaymiz.
+phrase|What's on the agenda today?||Что у нас сегодня в повестке?|Bugun kun tartibida nima bor?
+phrase|I have a quick question.||У меня небольшой вопрос.|Menda kichik savol bor.
+phrase|Let me check my schedule.||Позвольте проверить моё расписание.|Jadvalimni tekshirib koʻray.
+phrase|I'll be at my desk.||Я буду на рабочем месте.|Men ish joyimda boʻlaman.
+phrase|I'm logging in now.||Я сейчас вхожу в систему.|Men hozir tizimga kiryapman.
+phrase|Have you seen the latest update?||Вы видели последнее обновление?|Soʻnggi yangilanishni koʻrdingizmi?
+phrase|Let's go over today's tasks.||Давайте пройдёмся по сегодняшним задачам.|Keling, bugungi vazifalarni koʻrib chiqaylik.
+phrase|I'll get started on that.||Я начну этим заниматься.|Men bu bilan shugʻullana boshlayman.
+phrase|What's the priority?||Что в приоритете?|Nima ustuvor?
+phrase|This is my top priority.||Это моя главная задача.|Bu mening eng muhim vazifam.
+phrase|I'll handle this first.||Сначала я займусь этим.|Avval shu bilan shugʻullanaman.
+phrase|Can this wait until tomorrow?||Это может подождать до завтра?|Bu ertagacha kutib tura oladimi?
+phrase|I have a few things to finish.||Мне нужно закончить несколько дел.|Menga bir nechta ishni tugatish kerak.
+phrase|Let's break this into smaller tasks.||Давайте разделим это на небольшие задачи.|Keling, buni kichikroq vazifalarga boʻlaylik.
+phrase|I'm working on it.||Я над этим работаю.|Men bu ustida ishlayapman.
+phrase|I've finished the first part.||Я закончил(а) первую часть.|Men birinchi qismni tugatdim.
+phrase|What's the deadline?||Какой крайний срок?|Oxirgi muddat qachon?
+phrase|I'll keep you updated.||Я буду держать вас в курсе.|Sizni xabardor qilib turaman.
+phrase|When is the meeting?||Когда совещание?|Uchrashuv qachon?
+phrase|Could we schedule a meeting?||Можем назначить встречу?|Uchrashuv belgilasak boʻladimi?
+phrase|I'll send a calendar invite.||Я отправлю приглашение в календаре.|Men kalendarga taklif yuboraman.
+phrase|Can everyone hear me?||Все меня слышат?|Hamma meni eshityaptimi?
+phrase|Let's get down to business.||Давайте перейдём к делу.|Keling, ishga kirishaylik.
+phrase|Could you share your screen?||Не могли бы вы показать экран?|Ekraningizni ulasha olasizmi?
+phrase|Let's come back to that later.||Давайте вернёмся к этому позже.|Keling, bunga keyinroq qaytaylik.
+phrase|Does anyone have any questions?||У кого-нибудь есть вопросы?|Kimdadir savol bormi?
+phrase|Let's wrap up the meeting.||Давайте завершать совещание.|Keling, uchrashuvni yakunlaylik.
+phrase|I'll send the meeting notes.||Я отправлю заметки по итогам встречи.|Men uchrashuv yozuvlarini yuboraman.
+phrase|We're on schedule.||Мы идём по графику.|Biz jadval boʻyicha ketyapmiz.
+phrase|We're running behind schedule.||Мы отстаём от графика.|Biz jadvaldan orqada qolyapmiz.
+phrase|I can finish it by Friday.||Я могу закончить к пятнице.|Men buni jumagacha tugata olaman.
+phrase|The deadline is approaching.||Приближается крайний срок.|Oxirgi muddat yaqinlashyapti.
+phrase|Could we extend the deadline?||Можно продлить срок?|Muddatni uzaytira olamizmi?
+phrase|I'll need a little more time.||Мне понадобится немного больше времени.|Menga biroz koʻproq vaqt kerak boʻladi.
+phrase|This should only take a few minutes.||Это должно занять всего несколько минут.|Bu bor-yoʻgʻi bir necha daqiqa oladi.
+phrase|I'll have it ready by noon.||Я подготовлю это к полудню.|Men buni tushgacha tayyorlayman.
+phrase|We're ahead of schedule.||Мы опережаем график.|Biz jadvaldan oldindamiz.
+phrase|Let's agree on a realistic timeline.||Давайте согласуем реалистичные сроки.|Keling, real muddatlarni kelishib olaylik.
+phrase|Could you give me a hand with this?||Не могли бы вы помочь мне с этим?|Bunda menga yordam bera olasizmi?
+phrase|Do you have a minute?||У вас есть минутка?|Bir daqiqa vaqtingiz bormi?
+phrase|Could you take a look at this?||Не могли бы вы взглянуть на это?|Bunga koʻz tashlay olasizmi?
+phrase|Can you walk me through it?||Можете объяснить мне это по шагам?|Buni menga bosqichma-bosqich tushuntira olasizmi?
+phrase|I'm stuck on this part.||Я застрял(а) на этой части.|Men shu qismda qotib qoldim.
+phrase|Could you point me in the right direction?||Можете подсказать, в каком направлении двигаться?|Menga qaysi tomonga borishni koʻrsata olasizmi?
+phrase|Thanks for jumping in.||Спасибо, что подключились.|Yordamga qoʻshilganingiz uchun rahmat.
+phrase|I'll return the favor.||Я отплачу тем же / помогу вам в ответ.|Men ham sizga yordam beraman.
+phrase|Could you double-check this?||Не могли бы вы перепроверить это?|Buni qayta tekshirib bera olasizmi?
+phrase|I appreciate your help.||Я ценю вашу помощь.|Yordamingizni qadrlayman.
+phrase|Here's a quick update.||Кратко расскажу, что нового.|Qisqacha yangiliklar.
+phrase|So far, everything is going well.||Пока всё идёт хорошо.|Hozircha hammasi yaxshi ketyapti.
+phrase|I've made good progress.||Я хорошо продвинулся / продвинулась.|Men ancha oldinga siljidim.
+phrase|We're still waiting for feedback.||Мы всё ещё ждём обратную связь.|Biz hali ham fikr-mulohaza kutyapmiz.
+phrase|The task is almost complete.||Задача почти завершена.|Vazifa deyarli tugadi.
+phrase|I've run into a small issue.||Я столкнулся / столкнулась с небольшой проблемой.|Men kichik muammoga duch keldim.
+phrase|I'll share the results shortly.||Скоро поделюсь результатами.|Natijalarni tez orada ulashaman.
+phrase|Nothing has changed since yesterday.||Со вчерашнего дня ничего не изменилось.|Kechadan beri hech narsa oʻzgarmadi.
+phrase|We're waiting for approval.||Мы ждём согласования.|Biz tasdiqlanishini kutyapmiz.
+phrase|I'll send a full update this afternoon.||Я отправлю полный отчёт сегодня после обеда.|Bugun tushdan keyin toʻliq hisobot yuboraman.
+phrase|I'm following up on my previous email.||Пишу в продолжение предыдущего письма.|Oldingi xatim yuzasidan yozyapman.
+phrase|Please find the file attached.||Пожалуйста, найдите файл во вложении.|Iltimos, ilova qilingan faylni koʻring.
+phrase|I've copied you on the email.||Я добавил(а) вас в копию письма.|Men sizni xat nusxasiga qoʻshdim.
+phrase|Could you confirm receipt?||Не могли бы вы подтвердить получение?|Olganingizni tasdiqlay olasizmi?
+phrase|Thanks for getting back to me.||Спасибо, что ответили.|Javob berganingiz uchun rahmat.
+phrase|I'll get back to you soon.||Я скоро вам отвечу.|Tez orada sizga javob beraman.
+phrase|Please let me know if you have questions.||Пожалуйста, сообщите, если возникнут вопросы.|Savollaringiz boʻlsa, iltimos, xabar bering.
+phrase|I've included the details below.||Я указал(а) подробности ниже.|Tafsilotlarni quyida keltirdim.
+phrase|Sorry for the late reply.||Извините за поздний ответ.|Kech javob berganim uchun uzr.
+phrase|Looking forward to hearing from you.||Буду ждать вашего ответа.|Javobingizni kutaman.
+phrase|We've run into a problem.||Мы столкнулись с проблемой.|Biz muammoga duch keldik.
+phrase|I'm trying to figure out what went wrong.||Я пытаюсь выяснить, что пошло не так.|Nima notoʻgʻri ketganini aniqlashga harakat qilyapman.
+phrase|This isn't working as expected.||Это работает не так, как ожидалось.|Bu kutilganidek ishlamayapti.
+phrase|We're blocked by a dependency.||Нас блокирует зависимость от другой задачи.|Bizni boshqa vazifaga bogʻliqlik toʻsib turibdi.
+phrase|I'll investigate the issue.||Я изучу проблему.|Men muammoni oʻrganaman.
+phrase|Do we have a backup plan?||У нас есть запасной план?|Bizda zaxira reja bormi?
+phrase|Let's look for another solution.||Давайте найдём другое решение.|Keling, boshqa yechim qidiraylik.
+phrase|The issue has been resolved.||Проблема решена.|Muammo hal qilindi.
+phrase|I'll let the team know.||Я сообщу команде.|Men jamoaga xabar beraman.
+phrase|We need to prevent this from happening again.||Нужно предотвратить повторение этой ситуации.|Bu holat qaytarilmasligi uchun chora koʻrishimiz kerak.
+phrase|Could you give me some feedback?||Можете дать мне обратную связь?|Menga fikr-mulohazangizni bera olasizmi?
+phrase|Thanks for the feedback.||Спасибо за обратную связь.|Fikr-mulohazangiz uchun rahmat.
+phrase|That's a helpful suggestion.||Это полезное предложение.|Bu foydali taklif.
+phrase|I'll take that into account.||Я это учту.|Men buni hisobga olaman.
+phrase|Could you be a little more specific?||Можете уточнить?|Biroz aniqroq ayta olasizmi?
+phrase|I see room for improvement.||Я вижу возможности для улучшения.|Men yaxshilash imkoniyatini koʻryapman.
+phrase|You've done a great job.||Вы отлично справились.|Siz ajoyib ish qildingiz.
+phrase|One thing we could improve is...||Одна вещь, которую можно улучшить, — это...|Yaxshilash mumkin boʻlgan bir narsa — bu...
+phrase|Let me clarify my point.||Позвольте пояснить мою мысль.|Fikrimni aniqlashtirib beray.
+phrase|I'm open to constructive criticism.||Я открыт(а) к конструктивной критике.|Men konstruktiv tanqidga ochiqman.
+phrase|Let's work together on this.||Давайте работать над этим вместе.|Keling, bu ustida birga ishlaylik.
+phrase|Who is responsible for this task?||Кто отвечает за эту задачу?|Bu vazifa uchun kim javobgar?
+phrase|I'll take ownership of this.||Я возьму на себя ответственность за это.|Men buni oʻz zimmamga olaman.
+phrase|Let's divide up the work.||Давайте распределим работу.|Keling, ishni boʻlib olaylik.
+phrase|We need to be on the same page.||Нам нужно одинаково понимать ситуацию.|Biz vaziyatni bir xil tushunishimiz kerak.
+phrase|I'll coordinate with the team.||Я скоординирую действия с командой.|Men jamoa bilan muvofiqlashtiraman.
+phrase|Thanks for your contribution.||Спасибо за ваш вклад.|Hissangiz uchun rahmat.
+phrase|Let's support each other.||Давайте поддерживать друг друга.|Keling, bir-birimizni qoʻllab-quvvatlaylik.
+phrase|I'll cover this while you're away.||Я подменю вас, пока вас не будет.|Siz yoʻgʻingizda men oʻrningizni bosaman.
+phrase|We make a good team.||Мы хорошая команда.|Biz yaxshi jamoamiz.
+phrase|I'd like to walk you through the results.||Я хотел(а) бы показать вам результаты.|Natijalarni sizga bosqichma-bosqich koʻrsatmoqchiman.
+phrase|Let me start with the main point.||Позвольте начать с главного.|Asosiy fikrdan boshlay.
+phrase|As you can see on this slide...||Как вы видите на этом слайде...|Bu slaydda koʻrib turganingizdek...
+phrase|This chart shows the trend.||Эта диаграмма показывает тенденцию.|Bu diagramma tendensiyani koʻrsatadi.
+phrase|I'll keep this brief.||Я буду краток / кратка.|Men qisqa qilaman.
+phrase|Let me give you some background.||Позвольте дать немного контекста.|Avval biroz kontekst berib oʻtay.
+phrase|The key takeaway is...||Главный вывод заключается в том, что...|Asosiy xulosa shuki...
+phrase|I'm happy to answer questions.||Я готов(а) ответить на вопросы.|Savollarga javob berishdan xursandman.
+phrase|Could you move to the next slide?||Не могли бы вы перейти к следующему слайду?|Keyingi slaydga oʻta olasizmi?
+phrase|Thank you for your attention.||Спасибо за внимание.|Eʼtiboringiz uchun rahmat.
+phrase|Could I speak with you briefly?||Могу я ненадолго с вами поговорить?|Siz bilan qisqacha gaplashsam boʻladimi?
+phrase|I'd like to discuss my workload.||Я хотел(а) бы обсудить свою нагрузку.|Ish yukim haqida gaplashmoqchiman.
+phrase|Could you clarify your expectations?||Не могли бы вы уточнить ваши ожидания?|Kutayotganingizni aniqlashtira olasizmi?
+phrase|What would you like me to focus on?||На чём вы хотели бы, чтобы я сосредоточился / сосредоточилась?|Nimaga eʼtibor qaratishimni istaysiz?
+phrase|I wanted to raise a concern.||Я хотел(а) бы обратить внимание на одну проблему.|Men bir masalaga eʼtiboringizni qaratmoqchi edim.
+phrase|I'd appreciate your guidance.||Я был(а) бы признателен / признательна за ваши рекомендации.|Maslahatingiz uchun minnatdor boʻlardim.
+phrase|Can we discuss my progress?||Можем обсудить мой прогресс?|Mening natijalarimni muhokama qila olamizmi?
+phrase|I'll make the changes you suggested.||Я внесу предложенные вами изменения.|Siz taklif qilgan oʻzgarishlarni kiritaman.
+phrase|Thanks for taking the time to meet.||Спасибо, что нашли время на встречу.|Uchrashuvga vaqt ajratganingiz uchun rahmat.
+phrase|I'll follow up on our discussion.||Я вернусь к вопросам, которые мы обсудили.|Muhokamamiz yuzasidan ishni davom ettiraman.
+phrase|How can I help you today?||Чем я могу вам сегодня помочь?|Bugun sizga qanday yordam bera olaman?
+phrase|Thanks for reaching out.||Спасибо, что связались с нами.|Murojaat qilganingiz uchun rahmat.
+phrase|Let me look into that for you.||Позвольте мне разобраться в этом для вас.|Men siz uchun buni koʻrib chiqay.
+phrase|I'll check with the relevant team.||Я уточню у соответствующей команды.|Men tegishli jamoadan aniqlayman.
+phrase|We appreciate your patience.||Благодарим за ваше терпение.|Sabringiz uchun minnatdormiz.
+phrase|Could you provide a few more details?||Не могли бы вы предоставить ещё несколько подробностей?|Yana bir nechta tafsilot bera olasizmi?
+phrase|I'll keep you informed of any changes.||Я буду сообщать вам об изменениях.|Har qanday oʻzgarish haqida sizni xabardor qilaman.
+phrase|We understand your concern.||Мы понимаем ваше беспокойство.|Biz xavotiringizni tushunamiz.
+phrase|Thank you for bringing this to our attention.||Спасибо, что обратили на это наше внимание.|Buni eʼtiborimizga havola qilganingiz uchun rahmat.
+phrase|Please don't hesitate to contact us.||Пожалуйста, обращайтесь к нам без колебаний.|Iltimos, bemalol biz bilan bogʻlaning.
+phrase|Let's see if we can find a compromise.||Давайте попробуем найти компромисс.|Keling, murosa topa olamizmi, koʻraylik.
+phrase|Would that work for you?||Вас это устроит?|Bu sizga toʻgʻri keladimi?
+phrase|Let's clarify the terms.||Давайте уточним условия.|Keling, shartlarni aniqlashtiraylik.
+phrase|I think we can agree on that.||Думаю, мы можем с этим согласиться.|Menimcha, bunga kelisha olamiz.
+phrase|Could you be flexible on the price?||Вы можете уступить в цене?|Narxda yon bera olasizmi?
+phrase|That's outside our budget.||Это выходит за рамки нашего бюджета.|Bu bizning byudjetimizdan tashqarida.
+phrase|Let's revisit this proposal.||Давайте вернёмся к этому предложению.|Keling, bu taklifga qaytaylik.
+phrase|We have a deal.||Договорились.|Kelishdik.
+phrase|I'd like to propose an alternative.||Я хотел(а) бы предложить альтернативу.|Men muqobil variant taklif qilmoqchiman.
+phrase|Let's put the agreement in writing.||Давайте зафиксируем договорённость письменно.|Keling, kelishuvni yozma rasmiylashtiraylik.
+phrase|I'm working remotely today.||Сегодня я работаю удалённо.|Bugun masofadan ishlayapman.
+phrase|My internet connection is unstable.||У меня нестабильное интернет-соединение.|Internet aloqam barqaror emas.
+phrase|You're on mute.||У вас выключен микрофон.|Mikrofoningiz oʻchiq.
+phrase|I can't hear you clearly.||Я плохо вас слышу.|Sizni yaxshi eshitmayapman.
+phrase|My camera isn't working.||Моя камера не работает.|Kameram ishlamayapti.
+phrase|I'll reconnect to the call.||Я повторно подключусь к звонку.|Qoʻngʻiroqqa qayta ulanaman.
+phrase|Can you see my screen?||Вы видите мой экран?|Ekranimni koʻryapsizmi?
+phrase|I'll be offline for an hour.||Меня не будет на связи час.|Bir soat aloqada boʻlmayman.
+phrase|Let's use the chat for updates.||Давайте обмениваться новостями в чате.|Keling, yangiliklar uchun chatdan foydalanaylik.
+phrase|I'll join the call in a minute.||Я подключусь к звонку через минуту.|Bir daqiqadan keyin qoʻngʻiroqqa qoʻshilaman.
+phrase|Could you review this document?||Не могли бы вы проверить этот документ?|Bu hujjatni koʻrib chiqa olasizmi?
+phrase|I've attached the latest version.||Я прикрепил(а) последнюю версию.|Soʻnggi versiyani ilova qildim.
+phrase|Please use the updated file.||Пожалуйста, используйте обновлённый файл.|Iltimos, yangilangan fayldan foydalaning.
+phrase|The figures need to be verified.||Цифры нужно проверить.|Raqamlarni tekshirish kerak.
+phrase|I'll prepare a summary.||Я подготовлю краткое резюме.|Men qisqacha xulosa tayyorlayman.
+phrase|Could you add your comments?||Не могли бы вы добавить комментарии?|Izohlaringizni qoʻsha olasizmi?
+phrase|The report is ready for review.||Отчёт готов к проверке.|Hisobot koʻrib chiqishga tayyor.
+phrase|I've corrected the mistakes.||Я исправил(а) ошибки.|Men xatolarni tuzatdim.
+phrase|Let's make sure the data is accurate.||Давайте убедимся, что данные точны.|Keling, maʼlumotlar aniqligiga ishonch hosil qilaylik.
+phrase|I'll share the final draft.||Я отправлю окончательный черновик.|Yakuniy qoralamani ulashaman.
+phrase|I'm still learning how this works.||Я всё ещё изучаю, как это работает.|Men hali bu qanday ishlashini oʻrganyapman.
+phrase|Could you show me the process?||Не могли бы вы показать мне процесс?|Jarayonni menga koʻrsata olasizmi?
+phrase|Is there any documentation?||Есть ли документация?|Biror qoʻllanma bormi?
+phrase|Where can I find the guidelines?||Где я могу найти инструкции?|Koʻrsatmalarni qayerdan topsam boʻladi?
+phrase|I'll look into it and get back to you.||Я изучу вопрос и вернусь с ответом.|Men buni oʻrganib, sizga javob beraman.
+phrase|Thanks for explaining that.||Спасибо за объяснение.|Tushuntirganingiz uchun rahmat.
+phrase|I'd like to develop this skill.||Я хотел(а) бы развить этот навык.|Men bu koʻnikmani rivojlantirmoqchiman.
+phrase|Could you recommend a resource?||Можете порекомендовать ресурс?|Biror manbani tavsiya qila olasizmi?
+phrase|I'll practice and try again.||Я потренируюсь и попробую снова.|Mashq qilib, yana urinib koʻraman.
+phrase|I learned a lot from this project.||Я многому научился / научилась на этом проекте.|Men bu loyihadan koʻp narsa oʻrgandim.
+phrase|Are you available this afternoon?||Вы свободны сегодня после обеда?|Bugun tushdan keyin boʻshmisiz?
+phrase|My calendar is full today.||Сегодня у меня всё расписание занято.|Bugun jadvalim toʻla.
+phrase|Could we move the meeting to Monday?||Можем перенести встречу на понедельник?|Uchrashuvni dushanbaga koʻchira olamizmi?
+phrase|I'm available after 2 p.m.||Я свободен / свободна после двух часов дня.|Men soat ikkidan keyin boʻshman.
+phrase|That time doesn't work for me.||Это время мне не подходит.|Bu vaqt menga toʻgʻri kelmaydi.
+phrase|I'll send you some available slots.||Я отправлю вам несколько свободных временных интервалов.|Sizga bir nechta boʻsh vaqtni yuboraman.
+phrase|Let's find a time that works for everyone.||Давайте найдём время, удобное для всех.|Keling, hammaga qulay vaqt topaylik.
+phrase|I have a conflict at that time.||В это время у меня другое мероприятие.|Oʻsha vaqtda mening boshqa ishim bor.
+phrase|Can we make it a shorter meeting?||Можем сделать встречу короче?|Uchrashuvni qisqaroq qila olamizmi?
+phrase|I'll update the calendar.||Я обновлю календарь.|Men kalendarni yangilayman.
+phrase|Thank you for your time.||Спасибо за ваше время.|Vaqtingiz uchun rahmat.
+phrase|I appreciate your quick response.||Благодарю за быстрый ответ.|Tez javob berganingiz uchun minnatdorman.
+phrase|Sorry for the inconvenience.||Извините за неудобства.|Noqulaylik uchun uzr.
+phrase|Thanks for your understanding.||Спасибо за понимание.|Tushunganingiz uchun rahmat.
+phrase|It was a pleasure working with you.||Было приятно с вами работать.|Siz bilan ishlaganim yoqdi.
+phrase|Please let me know what you think.||Пожалуйста, сообщите, что вы думаете.|Iltimos, fikringizni bildiring.
+phrase|I hope this helps.||Надеюсь, это поможет.|Umid qilamanki, bu yordam beradi.
+phrase|Thank you for the opportunity.||Спасибо за предоставленную возможность.|Imkoniyat uchun rahmat.
+phrase|I look forward to working with you.||Буду рад(а) сотрудничеству.|Siz bilan ishlashni intiqlik bilan kutaman.
+phrase|Have a productive day.||Желаю продуктивного дня.|Kuningiz samarali oʻtsin.
+phrase|What's the next step?||Какой следующий шаг?|Keyingi qadam qanday?
+phrase|Let's agree on the action items.||Давайте согласуем дальнейшие действия.|Keling, keyingi vazifalarni kelishib olaylik.
+phrase|I'll take care of the follow-up.||Я займусь дальнейшими действиями.|Keyingi ishlarni men oʻz zimmamga olaman.
+phrase|I'll send a recap after the meeting.||Я отправлю краткие итоги после встречи.|Uchrashuvdan keyin qisqacha xulosa yuboraman.
+phrase|We're all set.||Всё готово.|Hammasi tayyor.
+phrase|That covers everything from my side.||С моей стороны это всё.|Mening tomonimdan hammasi shu.
+phrase|Is there anything else we need to discuss?||Нужно ли нам обсудить что-нибудь ещё?|Muhokama qilishimiz kerak boʻlgan yana biror narsa bormi?
+phrase|Let's touch base next week.||Давайте свяжемся на следующей неделе.|Keling, keyingi hafta bogʻlanaylik.
+phrase|I'll keep this moving.||Я буду продвигать это дальше.|Men bu ishni davom ettiraman.
+phrase|Thanks, everyone. That's all for today.||Спасибо всем. На сегодня всё.|Hammaga rahmat. Bugunga shu.

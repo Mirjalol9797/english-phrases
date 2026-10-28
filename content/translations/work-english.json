@@ -1,0 +1,1029 @@
+{
+  "chapter": "work-english",
+  "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Ish uchun ingliz tili",
+  "lessons": {
+    "Начало рабочего дня": "Ish kunining boshlanishi",
+    "Задачи и приоритеты": "Vazifalar va ustuvorliklar",
+    "Совещания": "Yigʻilishlar",
+    "Сроки и время": "Muddatlar va vaqt",
+    "Помощь коллег": "Hamkasblar yordami",
+    "Отчёты о ходе работы": "Ish borishi haqida hisobot",
+    "Электронная переписка": "Elektron yozishmalar",
+    "Проблемы и препятствия": "Muammolar va toʻsiqlar",
+    "Обратная связь": "Fikr-mulohaza",
+    "Командная работа": "Jamoaviy ish",
+    "Презентации": "Taqdimotlar",
+    "Общение с руководителем": "Rahbar bilan muloqot",
+    "Клиенты и заказчики": "Mijozlar va buyurtmachilar",
+    "Переговоры и договорённости": "Muzokaralar va kelishuvlar",
+    "Удалённая работа": "Masofaviy ish",
+    "Отчёты и документы": "Hisobotlar va hujjatlar",
+    "Обучение и развитие": "Oʻqish va rivojlanish",
+    "Расписание и доступность": "Jadval va boʻsh vaqt",
+    "Профессиональная вежливость": "Kasbiy xushmuomalalik",
+    "Завершение и следующие шаги": "Yakunlash va keyingi qadamlar"
+  },
+  "entries": [
+    {
+      "en": "Good morning, everyone.",
+      "ru": "Доброе утро, всем.",
+      "uz": "Hammaga xayrli tong."
+    },
+    {
+      "en": "Let's get started.",
+      "ru": "Давайте начнём.",
+      "uz": "Keling, boshlaymiz."
+    },
+    {
+      "en": "What's on the agenda today?",
+      "ru": "Что у нас сегодня в повестке?",
+      "uz": "Bugun kun tartibida nima bor?"
+    },
+    {
+      "en": "I have a quick question.",
+      "ru": "У меня небольшой вопрос.",
+      "uz": "Menda kichik savol bor."
+    },
+    {
+      "en": "Let me check my schedule.",
+      "ru": "Позвольте проверить моё расписание.",
+      "uz": "Jadvalimni tekshirib koʻray."
+    },
+    {
+      "en": "I'll be at my desk.",
+      "ru": "Я буду на рабочем месте.",
+      "uz": "Men ish joyimda boʻlaman."
+    },
+    {
+      "en": "I'm logging in now.",
+      "ru": "Я сейчас вхожу в систему.",
+      "uz": "Men hozir tizimga kiryapman."
+    },
+    {
+      "en": "Have you seen the latest update?",
+      "ru": "Вы видели последнее обновление?",
+      "uz": "Soʻnggi yangilanishni koʻrdingizmi?"
+    },
+    {
+      "en": "Let's go over today's tasks.",
+      "ru": "Давайте пройдёмся по сегодняшним задачам.",
+      "uz": "Keling, bugungi vazifalarni koʻrib chiqaylik."
+    },
+    {
+      "en": "I'll get started on that.",
+      "ru": "Я начну этим заниматься.",
+      "uz": "Men bu bilan shugʻullana boshlayman."
+    },
+    {
+      "en": "What's the priority?",
+      "ru": "Что в приоритете?",
+      "uz": "Nima ustuvor?"
+    },
+    {
+      "en": "This is my top priority.",
+      "ru": "Это моя главная задача.",
+      "uz": "Bu mening eng muhim vazifam."
+    },
+    {
+      "en": "I'll handle this first.",
+      "ru": "Сначала я займусь этим.",
+      "uz": "Avval shu bilan shugʻullanaman."
+    },
+    {
+      "en": "Can this wait until tomorrow?",
+      "ru": "Это может подождать до завтра?",
+      "uz": "Bu ertagacha kutib tura oladimi?"
+    },
+    {
+      "en": "I have a few things to finish.",
+      "ru": "Мне нужно закончить несколько дел.",
+      "uz": "Menga bir nechta ishni tugatish kerak."
+    },
+    {
+      "en": "Let's break this into smaller tasks.",
+      "ru": "Давайте разделим это на небольшие задачи.",
+      "uz": "Keling, buni kichikroq vazifalarga boʻlaylik."
+    },
+    {
+      "en": "I'm working on it.",
+      "ru": "Я над этим работаю.",
+      "uz": "Men bu ustida ishlayapman."
+    },
+    {
+      "en": "I've finished the first part.",
+      "ru": "Я закончил(а) первую часть.",
+      "uz": "Men birinchi qismni tugatdim."
+    },
+    {
+      "en": "What's the deadline?",
+      "ru": "Какой крайний срок?",
+      "uz": "Oxirgi muddat qachon?"
+    },
+    {
+      "en": "I'll keep you updated.",
+      "ru": "Я буду держать вас в курсе.",
+      "uz": "Sizni xabardor qilib turaman."
+    },
+    {
+      "en": "When is the meeting?",
+      "ru": "Когда совещание?",
+      "uz": "Uchrashuv qachon?"
+    },
+    {
+      "en": "Could we schedule a meeting?",
+      "ru": "Можем назначить встречу?",
+      "uz": "Uchrashuv belgilasak boʻladimi?"
+    },
+    {
+      "en": "I'll send a calendar invite.",
+      "ru": "Я отправлю приглашение в календаре.",
+      "uz": "Men kalendarga taklif yuboraman."
+    },
+    {
+      "en": "Can everyone hear me?",
+      "ru": "Все меня слышат?",
+      "uz": "Hamma meni eshityaptimi?"
+    },
+    {
+      "en": "Let's get down to business.",
+      "ru": "Давайте перейдём к делу.",
+      "uz": "Keling, ishga kirishaylik."
+    },
+    {
+      "en": "Could you share your screen?",
+      "ru": "Не могли бы вы показать экран?",
+      "uz": "Ekraningizni ulasha olasizmi?"
+    },
+    {
+      "en": "Let's come back to that later.",
+      "ru": "Давайте вернёмся к этому позже.",
+      "uz": "Keling, bunga keyinroq qaytaylik."
+    },
+    {
+      "en": "Does anyone have any questions?",
+      "ru": "У кого-нибудь есть вопросы?",
+      "uz": "Kimdadir savol bormi?"
+    },
+    {
+      "en": "Let's wrap up the meeting.",
+      "ru": "Давайте завершать совещание.",
+      "uz": "Keling, uchrashuvni yakunlaylik."
+    },
+    {
+      "en": "I'll send the meeting notes.",
+      "ru": "Я отправлю заметки по итогам встречи.",
+      "uz": "Men uchrashuv yozuvlarini yuboraman."
+    },
+    {
+      "en": "We're on schedule.",
+      "ru": "Мы идём по графику.",
+      "uz": "Biz jadval boʻyicha ketyapmiz."
+    },
+    {
+      "en": "We're running behind schedule.",
+      "ru": "Мы отстаём от графика.",
+      "uz": "Biz jadvaldan orqada qolyapmiz."
+    },
+    {
+      "en": "I can finish it by Friday.",
+      "ru": "Я могу закончить к пятнице.",
+      "uz": "Men buni jumagacha tugata olaman."
+    },
+    {
+      "en": "The deadline is approaching.",
+      "ru": "Приближается крайний срок.",
+      "uz": "Oxirgi muddat yaqinlashyapti."
+    },
+    {
+      "en": "Could we extend the deadline?",
+      "ru": "Можно продлить срок?",
+      "uz": "Muddatni uzaytira olamizmi?"
+    },
+    {
+      "en": "I'll need a little more time.",
+      "ru": "Мне понадобится немного больше времени.",
+      "uz": "Menga biroz koʻproq vaqt kerak boʻladi."
+    },
+    {
+      "en": "This should only take a few minutes.",
+      "ru": "Это должно занять всего несколько минут.",
+      "uz": "Bu bor-yoʻgʻi bir necha daqiqa oladi."
+    },
+    {
+      "en": "I'll have it ready by noon.",
+      "ru": "Я подготовлю это к полудню.",
+      "uz": "Men buni tushgacha tayyorlayman."
+    },
+    {
+      "en": "We're ahead of schedule.",
+      "ru": "Мы опережаем график.",
+      "uz": "Biz jadvaldan oldindamiz."
+    },
+    {
+      "en": "Let's agree on a realistic timeline.",
+      "ru": "Давайте согласуем реалистичные сроки.",
+      "uz": "Keling, real muddatlarni kelishib olaylik."
+    },
+    {
+      "en": "Could you give me a hand with this?",
+      "ru": "Не могли бы вы помочь мне с этим?",
+      "uz": "Bunda menga yordam bera olasizmi?"
+    },
+    {
+      "en": "Do you have a minute?",
+      "ru": "У вас есть минутка?",
+      "uz": "Bir daqiqa vaqtingiz bormi?"
+    },
+    {
+      "en": "Could you take a look at this?",
+      "ru": "Не могли бы вы взглянуть на это?",
+      "uz": "Bunga koʻz tashlay olasizmi?"
+    },
+    {
+      "en": "Can you walk me through it?",
+      "ru": "Можете объяснить мне это по шагам?",
+      "uz": "Buni menga bosqichma-bosqich tushuntira olasizmi?"
+    },
+    {
+      "en": "I'm stuck on this part.",
+      "ru": "Я застрял(а) на этой части.",
+      "uz": "Men shu qismda qotib qoldim."
+    },
+    {
+      "en": "Could you point me in the right direction?",
+      "ru": "Можете подсказать, в каком направлении двигаться?",
+      "uz": "Menga qaysi tomonga borishni koʻrsata olasizmi?"
+    },
+    {
+      "en": "Thanks for jumping in.",
+      "ru": "Спасибо, что подключились.",
+      "uz": "Yordamga qoʻshilganingiz uchun rahmat."
+    },
+    {
+      "en": "I'll return the favor.",
+      "ru": "Я отплачу тем же / помогу вам в ответ.",
+      "uz": "Men ham sizga yordam beraman."
+    },
+    {
+      "en": "Could you double-check this?",
+      "ru": "Не могли бы вы перепроверить это?",
+      "uz": "Buni qayta tekshirib bera olasizmi?"
+    },
+    {
+      "en": "I appreciate your help.",
+      "ru": "Я ценю вашу помощь.",
+      "uz": "Yordamingizni qadrlayman."
+    },
+    {
+      "en": "Here's a quick update.",
+      "ru": "Кратко расскажу, что нового.",
+      "uz": "Qisqacha yangiliklar."
+    },
+    {
+      "en": "So far, everything is going well.",
+      "ru": "Пока всё идёт хорошо.",
+      "uz": "Hozircha hammasi yaxshi ketyapti."
+    },
+    {
+      "en": "I've made good progress.",
+      "ru": "Я хорошо продвинулся / продвинулась.",
+      "uz": "Men ancha oldinga siljidim."
+    },
+    {
+      "en": "We're still waiting for feedback.",
+      "ru": "Мы всё ещё ждём обратную связь.",
+      "uz": "Biz hali ham fikr-mulohaza kutyapmiz."
+    },
+    {
+      "en": "The task is almost complete.",
+      "ru": "Задача почти завершена.",
+      "uz": "Vazifa deyarli tugadi."
+    },
+    {
+      "en": "I've run into a small issue.",
+      "ru": "Я столкнулся / столкнулась с небольшой проблемой.",
+      "uz": "Men kichik muammoga duch keldim."
+    },
+    {
+      "en": "I'll share the results shortly.",
+      "ru": "Скоро поделюсь результатами.",
+      "uz": "Natijalarni tez orada ulashaman."
+    },
+    {
+      "en": "Nothing has changed since yesterday.",
+      "ru": "Со вчерашнего дня ничего не изменилось.",
+      "uz": "Kechadan beri hech narsa oʻzgarmadi."
+    },
+    {
+      "en": "We're waiting for approval.",
+      "ru": "Мы ждём согласования.",
+      "uz": "Biz tasdiqlanishini kutyapmiz."
+    },
+    {
+      "en": "I'll send a full update this afternoon.",
+      "ru": "Я отправлю полный отчёт сегодня после обеда.",
+      "uz": "Bugun tushdan keyin toʻliq hisobot yuboraman."
+    },
+    {
+      "en": "I'm following up on my previous email.",
+      "ru": "Пишу в продолжение предыдущего письма.",
+      "uz": "Oldingi xatim yuzasidan yozyapman."
+    },
+    {
+      "en": "Please find the file attached.",
+      "ru": "Пожалуйста, найдите файл во вложении.",
+      "uz": "Iltimos, ilova qilingan faylni koʻring."
+    },
+    {
+      "en": "I've copied you on the email.",
+      "ru": "Я добавил(а) вас в копию письма.",
+      "uz": "Men sizni xat nusxasiga qoʻshdim."
+    },
+    {
+      "en": "Could you confirm receipt?",
+      "ru": "Не могли бы вы подтвердить получение?",
+      "uz": "Olganingizni tasdiqlay olasizmi?"
+    },
+    {
+      "en": "Thanks for getting back to me.",
+      "ru": "Спасибо, что ответили.",
+      "uz": "Javob berganingiz uchun rahmat."
+    },
+    {
+      "en": "I'll get back to you soon.",
+      "ru": "Я скоро вам отвечу.",
+      "uz": "Tez orada sizga javob beraman."
+    },
+    {
+      "en": "Please let me know if you have questions.",
+      "ru": "Пожалуйста, сообщите, если возникнут вопросы.",
+      "uz": "Savollaringiz boʻlsa, iltimos, xabar bering."
+    },
+    {
+      "en": "I've included the details below.",
+      "ru": "Я указал(а) подробности ниже.",
+      "uz": "Tafsilotlarni quyida keltirdim."
+    },
+    {
+      "en": "Sorry for the late reply.",
+      "ru": "Извините за поздний ответ.",
+      "uz": "Kech javob berganim uchun uzr."
+    },
+    {
+      "en": "Looking forward to hearing from you.",
+      "ru": "Буду ждать вашего ответа.",
+      "uz": "Javobingizni kutaman."
+    },
+    {
+      "en": "We've run into a problem.",
+      "ru": "Мы столкнулись с проблемой.",
+      "uz": "Biz muammoga duch keldik."
+    },
+    {
+      "en": "I'm trying to figure out what went wrong.",
+      "ru": "Я пытаюсь выяснить, что пошло не так.",
+      "uz": "Nima notoʻgʻri ketganini aniqlashga harakat qilyapman."
+    },
+    {
+      "en": "This isn't working as expected.",
+      "ru": "Это работает не так, как ожидалось.",
+      "uz": "Bu kutilganidek ishlamayapti."
+    },
+    {
+      "en": "We're blocked by a dependency.",
+      "ru": "Нас блокирует зависимость от другой задачи.",
+      "uz": "Bizni boshqa vazifaga bogʻliqlik toʻsib turibdi."
+    },
+    {
+      "en": "I'll investigate the issue.",
+      "ru": "Я изучу проблему.",
+      "uz": "Men muammoni oʻrganaman."
+    },
+    {
+      "en": "Do we have a backup plan?",
+      "ru": "У нас есть запасной план?",
+      "uz": "Bizda zaxira reja bormi?"
+    },
+    {
+      "en": "Let's look for another solution.",
+      "ru": "Давайте найдём другое решение.",
+      "uz": "Keling, boshqa yechim qidiraylik."
+    },
+    {
+      "en": "The issue has been resolved.",
+      "ru": "Проблема решена.",
+      "uz": "Muammo hal qilindi."
+    },
+    {
+      "en": "I'll let the team know.",
+      "ru": "Я сообщу команде.",
+      "uz": "Men jamoaga xabar beraman."
+    },
+    {
+      "en": "We need to prevent this from happening again.",
+      "ru": "Нужно предотвратить повторение этой ситуации.",
+      "uz": "Bu holat qaytarilmasligi uchun chora koʻrishimiz kerak."
+    },
+    {
+      "en": "Could you give me some feedback?",
+      "ru": "Можете дать мне обратную связь?",
+      "uz": "Menga fikr-mulohazangizni bera olasizmi?"
+    },
+    {
+      "en": "Thanks for the feedback.",
+      "ru": "Спасибо за обратную связь.",
+      "uz": "Fikr-mulohazangiz uchun rahmat."
+    },
+    {
+      "en": "That's a helpful suggestion.",
+      "ru": "Это полезное предложение.",
+      "uz": "Bu foydali taklif."
+    },
+    {
+      "en": "I'll take that into account.",
+      "ru": "Я это учту.",
+      "uz": "Men buni hisobga olaman."
+    },
+    {
+      "en": "Could you be a little more specific?",
+      "ru": "Можете уточнить?",
+      "uz": "Biroz aniqroq ayta olasizmi?"
+    },
+    {
+      "en": "I see room for improvement.",
+      "ru": "Я вижу возможности для улучшения.",
+      "uz": "Men yaxshilash imkoniyatini koʻryapman."
+    },
+    {
+      "en": "You've done a great job.",
+      "ru": "Вы отлично справились.",
+      "uz": "Siz ajoyib ish qildingiz."
+    },
+    {
+      "en": "One thing we could improve is...",
+      "ru": "Одна вещь, которую можно улучшить, — это...",
+      "uz": "Yaxshilash mumkin boʻlgan bir narsa — bu..."
+    },
+    {
+      "en": "Let me clarify my point.",
+      "ru": "Позвольте пояснить мою мысль.",
+      "uz": "Fikrimni aniqlashtirib beray."
+    },
+    {
+      "en": "I'm open to constructive criticism.",
+      "ru": "Я открыт(а) к конструктивной критике.",
+      "uz": "Men konstruktiv tanqidga ochiqman."
+    },
+    {
+      "en": "Let's work together on this.",
+      "ru": "Давайте работать над этим вместе.",
+      "uz": "Keling, bu ustida birga ishlaylik."
+    },
+    {
+      "en": "Who is responsible for this task?",
+      "ru": "Кто отвечает за эту задачу?",
+      "uz": "Bu vazifa uchun kim javobgar?"
+    },
+    {
+      "en": "I'll take ownership of this.",
+      "ru": "Я возьму на себя ответственность за это.",
+      "uz": "Men buni oʻz zimmamga olaman."
+    },
+    {
+      "en": "Let's divide up the work.",
+      "ru": "Давайте распределим работу.",
+      "uz": "Keling, ishni boʻlib olaylik."
+    },
+    {
+      "en": "We need to be on the same page.",
+      "ru": "Нам нужно одинаково понимать ситуацию.",
+      "uz": "Biz vaziyatni bir xil tushunishimiz kerak."
+    },
+    {
+      "en": "I'll coordinate with the team.",
+      "ru": "Я скоординирую действия с командой.",
+      "uz": "Men jamoa bilan muvofiqlashtiraman."
+    },
+    {
+      "en": "Thanks for your contribution.",
+      "ru": "Спасибо за ваш вклад.",
+      "uz": "Hissangiz uchun rahmat."
+    },
+    {
+      "en": "Let's support each other.",
+      "ru": "Давайте поддерживать друг друга.",
+      "uz": "Keling, bir-birimizni qoʻllab-quvvatlaylik."
+    },
+    {
+      "en": "I'll cover this while you're away.",
+      "ru": "Я подменю вас, пока вас не будет.",
+      "uz": "Siz yoʻgʻingizda men oʻrningizni bosaman."
+    },
+    {
+      "en": "We make a good team.",
+      "ru": "Мы хорошая команда.",
+      "uz": "Biz yaxshi jamoamiz."
+    },
+    {
+      "en": "I'd like to walk you through the results.",
+      "ru": "Я хотел(а) бы показать вам результаты.",
+      "uz": "Natijalarni sizga bosqichma-bosqich koʻrsatmoqchiman."
+    },
+    {
+      "en": "Let me start with the main point.",
+      "ru": "Позвольте начать с главного.",
+      "uz": "Asosiy fikrdan boshlay."
+    },
+    {
+      "en": "As you can see on this slide...",
+      "ru": "Как вы видите на этом слайде...",
+      "uz": "Bu slaydda koʻrib turganingizdek..."
+    },
+    {
+      "en": "This chart shows the trend.",
+      "ru": "Эта диаграмма показывает тенденцию.",
+      "uz": "Bu diagramma tendensiyani koʻrsatadi."
+    },
+    {
+      "en": "I'll keep this brief.",
+      "ru": "Я буду краток / кратка.",
+      "uz": "Men qisqa qilaman."
+    },
+    {
+      "en": "Let me give you some background.",
+      "ru": "Позвольте дать немного контекста.",
+      "uz": "Avval biroz kontekst berib oʻtay."
+    },
+    {
+      "en": "The key takeaway is...",
+      "ru": "Главный вывод заключается в том, что...",
+      "uz": "Asosiy xulosa shuki..."
+    },
+    {
+      "en": "I'm happy to answer questions.",
+      "ru": "Я готов(а) ответить на вопросы.",
+      "uz": "Savollarga javob berishdan xursandman."
+    },
+    {
+      "en": "Could you move to the next slide?",
+      "ru": "Не могли бы вы перейти к следующему слайду?",
+      "uz": "Keyingi slaydga oʻta olasizmi?"
+    },
+    {
+      "en": "Thank you for your attention.",
+      "ru": "Спасибо за внимание.",
+      "uz": "Eʼtiboringiz uchun rahmat."
+    },
+    {
+      "en": "Could I speak with you briefly?",
+      "ru": "Могу я ненадолго с вами поговорить?",
+      "uz": "Siz bilan qisqacha gaplashsam boʻladimi?"
+    },
+    {
+      "en": "I'd like to discuss my workload.",
+      "ru": "Я хотел(а) бы обсудить свою нагрузку.",
+      "uz": "Ish yukim haqida gaplashmoqchiman."
+    },
+    {
+      "en": "Could you clarify your expectations?",
+      "ru": "Не могли бы вы уточнить ваши ожидания?",
+      "uz": "Kutayotganingizni aniqlashtira olasizmi?"
+    },
+    {
+      "en": "What would you like me to focus on?",
+      "ru": "На чём вы хотели бы, чтобы я сосредоточился / сосредоточилась?",
+      "uz": "Nimaga eʼtibor qaratishimni istaysiz?"
+    },
+    {
+      "en": "I wanted to raise a concern.",
+      "ru": "Я хотел(а) бы обратить внимание на одну проблему.",
+      "uz": "Men bir masalaga eʼtiboringizni qaratmoqchi edim."
+    },
+    {
+      "en": "I'd appreciate your guidance.",
+      "ru": "Я был(а) бы признателен / признательна за ваши рекомендации.",
+      "uz": "Maslahatingiz uchun minnatdor boʻlardim."
+    },
+    {
+      "en": "Can we discuss my progress?",
+      "ru": "Можем обсудить мой прогресс?",
+      "uz": "Mening natijalarimni muhokama qila olamizmi?"
+    },
+    {
+      "en": "I'll make the changes you suggested.",
+      "ru": "Я внесу предложенные вами изменения.",
+      "uz": "Siz taklif qilgan oʻzgarishlarni kiritaman."
+    },
+    {
+      "en": "Thanks for taking the time to meet.",
+      "ru": "Спасибо, что нашли время на встречу.",
+      "uz": "Uchrashuvga vaqt ajratganingiz uchun rahmat."
+    },
+    {
+      "en": "I'll follow up on our discussion.",
+      "ru": "Я вернусь к вопросам, которые мы обсудили.",
+      "uz": "Muhokamamiz yuzasidan ishni davom ettiraman."
+    },
+    {
+      "en": "How can I help you today?",
+      "ru": "Чем я могу вам сегодня помочь?",
+      "uz": "Bugun sizga qanday yordam bera olaman?"
+    },
+    {
+      "en": "Thanks for reaching out.",
+      "ru": "Спасибо, что связались с нами.",
+      "uz": "Murojaat qilganingiz uchun rahmat."
+    },
+    {
+      "en": "Let me look into that for you.",
+      "ru": "Позвольте мне разобраться в этом для вас.",
+      "uz": "Men siz uchun buni koʻrib chiqay."
+    },
+    {
+      "en": "I'll check with the relevant team.",
+      "ru": "Я уточню у соответствующей команды.",
+      "uz": "Men tegishli jamoadan aniqlayman."
+    },
+    {
+      "en": "We appreciate your patience.",
+      "ru": "Благодарим за ваше терпение.",
+      "uz": "Sabringiz uchun minnatdormiz."
+    },
+    {
+      "en": "Could you provide a few more details?",
+      "ru": "Не могли бы вы предоставить ещё несколько подробностей?",
+      "uz": "Yana bir nechta tafsilot bera olasizmi?"
+    },
+    {
+      "en": "I'll keep you informed of any changes.",
+      "ru": "Я буду сообщать вам об изменениях.",
+      "uz": "Har qanday oʻzgarish haqida sizni xabardor qilaman."
+    },
+    {
+      "en": "We understand your concern.",
+      "ru": "Мы понимаем ваше беспокойство.",
+      "uz": "Biz xavotiringizni tushunamiz."
+    },
+    {
+      "en": "Thank you for bringing this to our attention.",
+      "ru": "Спасибо, что обратили на это наше внимание.",
+      "uz": "Buni eʼtiborimizga havola qilganingiz uchun rahmat."
+    },
+    {
+      "en": "Please don't hesitate to contact us.",
+      "ru": "Пожалуйста, обращайтесь к нам без колебаний.",
+      "uz": "Iltimos, bemalol biz bilan bogʻlaning."
+    },
+    {
+      "en": "Let's see if we can find a compromise.",
+      "ru": "Давайте попробуем найти компромисс.",
+      "uz": "Keling, murosa topa olamizmi, koʻraylik."
+    },
+    {
+      "en": "Would that work for you?",
+      "ru": "Вас это устроит?",
+      "uz": "Bu sizga toʻgʻri keladimi?"
+    },
+    {
+      "en": "Let's clarify the terms.",
+      "ru": "Давайте уточним условия.",
+      "uz": "Keling, shartlarni aniqlashtiraylik."
+    },
+    {
+      "en": "I think we can agree on that.",
+      "ru": "Думаю, мы можем с этим согласиться.",
+      "uz": "Menimcha, bunga kelisha olamiz."
+    },
+    {
+      "en": "Could you be flexible on the price?",
+      "ru": "Вы можете уступить в цене?",
+      "uz": "Narxda yon bera olasizmi?"
+    },
+    {
+      "en": "That's outside our budget.",
+      "ru": "Это выходит за рамки нашего бюджета.",
+      "uz": "Bu bizning byudjetimizdan tashqarida."
+    },
+    {
+      "en": "Let's revisit this proposal.",
+      "ru": "Давайте вернёмся к этому предложению.",
+      "uz": "Keling, bu taklifga qaytaylik."
+    },
+    {
+      "en": "We have a deal.",
+      "ru": "Договорились.",
+      "uz": "Kelishdik."
+    },
+    {
+      "en": "I'd like to propose an alternative.",
+      "ru": "Я хотел(а) бы предложить альтернативу.",
+      "uz": "Men muqobil variant taklif qilmoqchiman."
+    },
+    {
+      "en": "Let's put the agreement in writing.",
+      "ru": "Давайте зафиксируем договорённость письменно.",
+      "uz": "Keling, kelishuvni yozma rasmiylashtiraylik."
+    },
+    {
+      "en": "I'm working remotely today.",
+      "ru": "Сегодня я работаю удалённо.",
+      "uz": "Bugun masofadan ishlayapman."
+    },
+    {
+      "en": "My internet connection is unstable.",
+      "ru": "У меня нестабильное интернет-соединение.",
+      "uz": "Internet aloqam barqaror emas."
+    },
+    {
+      "en": "You're on mute.",
+      "ru": "У вас выключен микрофон.",
+      "uz": "Mikrofoningiz oʻchiq."
+    },
+    {
+      "en": "I can't hear you clearly.",
+      "ru": "Я плохо вас слышу.",
+      "uz": "Sizni yaxshi eshitmayapman."
+    },
+    {
+      "en": "My camera isn't working.",
+      "ru": "Моя камера не работает.",
+      "uz": "Kameram ishlamayapti."
+    },
+    {
+      "en": "I'll reconnect to the call.",
+      "ru": "Я повторно подключусь к звонку.",
+      "uz": "Qoʻngʻiroqqa qayta ulanaman."
+    },
+    {
+      "en": "Can you see my screen?",
+      "ru": "Вы видите мой экран?",
+      "uz": "Ekranimni koʻryapsizmi?"
+    },
+    {
+      "en": "I'll be offline for an hour.",
+      "ru": "Меня не будет на связи час.",
+      "uz": "Bir soat aloqada boʻlmayman."
+    },
+    {
+      "en": "Let's use the chat for updates.",
+      "ru": "Давайте обмениваться новостями в чате.",
+      "uz": "Keling, yangiliklar uchun chatdan foydalanaylik."
+    },
+    {
+      "en": "I'll join the call in a minute.",
+      "ru": "Я подключусь к звонку через минуту.",
+      "uz": "Bir daqiqadan keyin qoʻngʻiroqqa qoʻshilaman."
+    },
+    {
+      "en": "Could you review this document?",
+      "ru": "Не могли бы вы проверить этот документ?",
+      "uz": "Bu hujjatni koʻrib chiqa olasizmi?"
+    },
+    {
+      "en": "I've attached the latest version.",
+      "ru": "Я прикрепил(а) последнюю версию.",
+      "uz": "Soʻnggi versiyani ilova qildim."
+    },
+    {
+      "en": "Please use the updated file.",
+      "ru": "Пожалуйста, используйте обновлённый файл.",
+      "uz": "Iltimos, yangilangan fayldan foydalaning."
+    },
+    {
+      "en": "The figures need to be verified.",
+      "ru": "Цифры нужно проверить.",
+      "uz": "Raqamlarni tekshirish kerak."
+    },
+    {
+      "en": "I'll prepare a summary.",
+      "ru": "Я подготовлю краткое резюме.",
+      "uz": "Men qisqacha xulosa tayyorlayman."
+    },
+    {
+      "en": "Could you add your comments?",
+      "ru": "Не могли бы вы добавить комментарии?",
+      "uz": "Izohlaringizni qoʻsha olasizmi?"
+    },
+    {
+      "en": "The report is ready for review.",
+      "ru": "Отчёт готов к проверке.",
+      "uz": "Hisobot koʻrib chiqishga tayyor."
+    },
+    {
+      "en": "I've corrected the mistakes.",
+      "ru": "Я исправил(а) ошибки.",
+      "uz": "Men xatolarni tuzatdim."
+    },
+    {
+      "en": "Let's make sure the data is accurate.",
+      "ru": "Давайте убедимся, что данные точны.",
+      "uz": "Keling, maʼlumotlar aniqligiga ishonch hosil qilaylik."
+    },
+    {
+      "en": "I'll share the final draft.",
+      "ru": "Я отправлю окончательный черновик.",
+      "uz": "Yakuniy qoralamani ulashaman."
+    },
+    {
+      "en": "I'm still learning how this works.",
+      "ru": "Я всё ещё изучаю, как это работает.",
+      "uz": "Men hali bu qanday ishlashini oʻrganyapman."
+    },
+    {
+      "en": "Could you show me the process?",
+      "ru": "Не могли бы вы показать мне процесс?",
+      "uz": "Jarayonni menga koʻrsata olasizmi?"
+    },
+    {
+      "en": "Is there any documentation?",
+      "ru": "Есть ли документация?",
+      "uz": "Biror qoʻllanma bormi?"
+    },
+    {
+      "en": "Where can I find the guidelines?",
+      "ru": "Где я могу найти инструкции?",
+      "uz": "Koʻrsatmalarni qayerdan topsam boʻladi?"
+    },
+    {
+      "en": "I'll look into it and get back to you.",
+      "ru": "Я изучу вопрос и вернусь с ответом.",
+      "uz": "Men buni oʻrganib, sizga javob beraman."
+    },
+    {
+      "en": "Thanks for explaining that.",
+      "ru": "Спасибо за объяснение.",
+      "uz": "Tushuntirganingiz uchun rahmat."
+    },
+    {
+      "en": "I'd like to develop this skill.",
+      "ru": "Я хотел(а) бы развить этот навык.",
+      "uz": "Men bu koʻnikmani rivojlantirmoqchiman."
+    },
+    {
+      "en": "Could you recommend a resource?",
+      "ru": "Можете порекомендовать ресурс?",
+      "uz": "Biror manbani tavsiya qila olasizmi?"
+    },
+    {
+      "en": "I'll practice and try again.",
+      "ru": "Я потренируюсь и попробую снова.",
+      "uz": "Mashq qilib, yana urinib koʻraman."
+    },
+    {
+      "en": "I learned a lot from this project.",
+      "ru": "Я многому научился / научилась на этом проекте.",
+      "uz": "Men bu loyihadan koʻp narsa oʻrgandim."
+    },
+    {
+      "en": "Are you available this afternoon?",
+      "ru": "Вы свободны сегодня после обеда?",
+      "uz": "Bugun tushdan keyin boʻshmisiz?"
+    },
+    {
+      "en": "My calendar is full today.",
+      "ru": "Сегодня у меня всё расписание занято.",
+      "uz": "Bugun jadvalim toʻla."
+    },
+    {
+      "en": "Could we move the meeting to Monday?",
+      "ru": "Можем перенести встречу на понедельник?",
+      "uz": "Uchrashuvni dushanbaga koʻchira olamizmi?"
+    },
+    {
+      "en": "I'm available after 2 p.m.",
+      "ru": "Я свободен / свободна после двух часов дня.",
+      "uz": "Men soat ikkidan keyin boʻshman."
+    },
+    {
+      "en": "That time doesn't work for me.",
+      "ru": "Это время мне не подходит.",
+      "uz": "Bu vaqt menga toʻgʻri kelmaydi."
+    },
+    {
+      "en": "I'll send you some available slots.",
+      "ru": "Я отправлю вам несколько свободных временных интервалов.",
+      "uz": "Sizga bir nechta boʻsh vaqtni yuboraman."
+    },
+    {
+      "en": "Let's find a time that works for everyone.",
+      "ru": "Давайте найдём время, удобное для всех.",
+      "uz": "Keling, hammaga qulay vaqt topaylik."
+    },
+    {
+      "en": "I have a conflict at that time.",
+      "ru": "В это время у меня другое мероприятие.",
+      "uz": "Oʻsha vaqtda mening boshqa ishim bor."
+    },
+    {
+      "en": "Can we make it a shorter meeting?",
+      "ru": "Можем сделать встречу короче?",
+      "uz": "Uchrashuvni qisqaroq qila olamizmi?"
+    },
+    {
+      "en": "I'll update the calendar.",
+      "ru": "Я обновлю календарь.",
+      "uz": "Men kalendarni yangilayman."
+    },
+    {
+      "en": "Thank you for your time.",
+      "ru": "Спасибо за ваше время.",
+      "uz": "Vaqtingiz uchun rahmat."
+    },
+    {
+      "en": "I appreciate your quick response.",
+      "ru": "Благодарю за быстрый ответ.",
+      "uz": "Tez javob berganingiz uchun minnatdorman."
+    },
+    {
+      "en": "Sorry for the inconvenience.",
+      "ru": "Извините за неудобства.",
+      "uz": "Noqulaylik uchun uzr."
+    },
+    {
+      "en": "Thanks for your understanding.",
+      "ru": "Спасибо за понимание.",
+      "uz": "Tushunganingiz uchun rahmat."
+    },
+    {
+      "en": "It was a pleasure working with you.",
+      "ru": "Было приятно с вами работать.",
+      "uz": "Siz bilan ishlaganim yoqdi."
+    },
+    {
+      "en": "Please let me know what you think.",
+      "ru": "Пожалуйста, сообщите, что вы думаете.",
+      "uz": "Iltimos, fikringizni bildiring."
+    },
+    {
+      "en": "I hope this helps.",
+      "ru": "Надеюсь, это поможет.",
+      "uz": "Umid qilamanki, bu yordam beradi."
+    },
+    {
+      "en": "Thank you for the opportunity.",
+      "ru": "Спасибо за предоставленную возможность.",
+      "uz": "Imkoniyat uchun rahmat."
+    },
+    {
+      "en": "I look forward to working with you.",
+      "ru": "Буду рад(а) сотрудничеству.",
+      "uz": "Siz bilan ishlashni intiqlik bilan kutaman."
+    },
+    {
+      "en": "Have a productive day.",
+      "ru": "Желаю продуктивного дня.",
+      "uz": "Kuningiz samarali oʻtsin."
+    },
+    {
+      "en": "What's the next step?",
+      "ru": "Какой следующий шаг?",
+      "uz": "Keyingi qadam qanday?"
+    },
+    {
+      "en": "Let's agree on the action items.",
+      "ru": "Давайте согласуем дальнейшие действия.",
+      "uz": "Keling, keyingi vazifalarni kelishib olaylik."
+    },
+    {
+      "en": "I'll take care of the follow-up.",
+      "ru": "Я займусь дальнейшими действиями.",
+      "uz": "Keyingi ishlarni men oʻz zimmamga olaman."
+    },
+    {
+      "en": "I'll send a recap after the meeting.",
+      "ru": "Я отправлю краткие итоги после встречи.",
+      "uz": "Uchrashuvdan keyin qisqacha xulosa yuboraman."
+    },
+    {
+      "en": "We're all set.",
+      "ru": "Всё готово.",
+      "uz": "Hammasi tayyor."
+    },
+    {
+      "en": "That covers everything from my side.",
+      "ru": "С моей стороны это всё.",
+      "uz": "Mening tomonimdan hammasi shu."
+    },
+    {
+      "en": "Is there anything else we need to discuss?",
+      "ru": "Нужно ли нам обсудить что-нибудь ещё?",
+      "uz": "Muhokama qilishimiz kerak boʻlgan yana biror narsa bormi?"
+    },
+    {
+      "en": "Let's touch base next week.",
+      "ru": "Давайте свяжемся на следующей неделе.",
+      "uz": "Keling, keyingi hafta bogʻlanaylik."
+    },
+    {
+      "en": "I'll keep this moving.",
+      "ru": "Я буду продвигать это дальше.",
+      "uz": "Men bu ishni davom ettiraman."
+    },
+    {
+      "en": "Thanks, everyone. That's all for today.",
+      "ru": "Спасибо всем. На сегодня всё.",
+      "uz": "Hammaga rahmat. Bugunga shu."
+    }
+  ]
+}
