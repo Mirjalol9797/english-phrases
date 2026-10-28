@@ -32,4 +32,9 @@ export const UZ_TEXT: Record<string, string> = {
   'Словарь': 'Lugʻat',
   'Настройки': 'Sozlamalar',
   'Статистика': 'Statistika',
+
+  // 2.1 — переключатель языка
+  'Язык': 'Til',
+  'Язык интерфейса': 'Interfeys tili',
+  'Переводы, которых ещё нет, остаются на русском.': 'Hali tarjima qilinmagani ruscha qoladi.',
 }

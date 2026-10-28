@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, useTemplateRef } from 'vue'
-import { useI18n } from '@/i18n'
+import { useI18n, LANGUAGES } from '@/i18n'
 import {
   useSettingsStore,
   THEME_OPTIONS,
@@ -18,7 +18,7 @@ import AppIcon, { type IconName } from '@/components/AppIcon.vue'
 import { SESSION_SIZE_OPTIONS } from '@/utils/parts'
 import { today } from '@/utils/date'
 
-const { plural } = useI18n()
+const { t, plural } = useI18n()
 
 useDocumentTitle(() => 'Настройки')
 
@@ -84,7 +84,28 @@ function reset() {
   <section>
     <h1 class="text-xl sm:text-2xl font-semibold">Настройки</h1>
 
-    <h2 class="mt-5 sm:mt-6 text-lg font-semibold">Тема</h2>
+    <!-- Язык первым: с него начинают, когда приложение открыли не на своём. -->
+    <h2 class="mt-5 sm:mt-6 text-lg font-semibold">{{ t('Язык') }}</h2>
+    <div role="radiogroup" :aria-label="t('Язык интерфейса')" class="mt-3 flex flex-wrap gap-2">
+      <label
+        v-for="option in LANGUAGES"
+        :key="option.value"
+        class="theme-option flex cursor-pointer items-center gap-2 rounded-full border px-4 py-2.5 text-sm font-medium"
+        :class="
+          settings.language === option.value
+            ? 'border-transparent bg-marker text-on-marker'
+            : 'border-line text-muted hover:text-ink'
+        "
+      >
+        <input v-model="settings.language" type="radio" name="language" :value="option.value" class="sr-only" />
+        <span :lang="option.value">{{ option.label }}</span>
+      </label>
+    </div>
+    <p class="mt-3 text-sm text-muted">
+      {{ t('Переводы, которых ещё нет, остаются на русском.') }}
+    </p>
+
+    <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Тема</h2>
     <div role="radiogroup" aria-label="Тема оформления" class="mt-3 flex flex-wrap gap-2">
       <label
         v-for="option in THEME_OPTIONS"

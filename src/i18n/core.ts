@@ -6,7 +6,7 @@ export type Language = 'ru' | 'uz'
 
 export const LANGUAGES: { value: Language; label: string }[] = [
   { value: 'ru', label: 'Русский' },
-  { value: 'uz', label: "O'zbekcha" },
+  { value: 'uz', label: 'Oʻzbekcha' },
 ]
 
 /**
