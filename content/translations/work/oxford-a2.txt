@@ -1798,3 +1798,228 @@ example|electrical|adj.|The electrical work had been done by someone who wasn't 
 phrase|invention|n.|изобретение|ixtiro
 example|invention|n.|The internet is a great invention.|Internet — ajoyib ixtiro.
 example|invention|n.|The invention was ignored for twenty years and then changed everything.|Ixtiro yigirma yil eʼtiborsiz qoldi va keyin hamma narsani oʻzgartirdi.
+phrase|can|n.|банка (консервная)|banka, konserva bankasi
+example|can|n.|Open a can of beans.|Bir banka loviyani oching.
+example|can|n.|There were cans in the cupboard that had expired years ago.|Shkafda muddati yillar oldin oʻtgan bankalar bor edi.
+phrase|mine|pron.|мой (без существительного)|meniki
+example|mine|pron.|This book is mine.|Bu kitob meniki.
+example|mine|pron.|The responsibility was mine, whatever the paperwork says.|Qogʻozlarda nima yozilgan boʻlmasin, masʼuliyat meniki edi.
+phrase|express|v.|выражать|ifodalamoq
+example|express|v.|It's hard to express my feelings.|His-tuygʻularimni ifodalash qiyin.
+example|express|v.|She expressed her doubts in writing, which turned out to be wise.|U shubhalarini yozma ifodaladi, bu esa oqilona boʻlib chiqdi.
+phrase|coach|n.|тренер; автобус (междугородний)|murabbiy; shaharlararo avtobus
+example|coach|n.|Our coach is very strict.|Murabbiyimiz juda qatʼiy.
+example|coach|n.|The coach had been with the club longer than any of the players.|Murabbiy klubda har qanday oʻyinchidan uzoqroq ishlagandi.
+phrase|per cent|n., adj./adv.|процент|foiz
+example|per cent|n., adj./adv.|Fifty per cent of the students are girls.|Talabalarning ellik foizi qizlar.
+example|per cent|n., adj./adv.|Only twelve per cent of those asked had read the document.|Soʻralganlarning atigi oʻn ikki foizi hujjatni oʻqigandi.
+phrase|laughter|n.|смех|kulgi
+example|laughter|n.|The room was full of laughter.|Xona kulgiga toʻla edi.
+example|laughter|n.|There was laughter in the room, and not the friendly kind.|Xonada kulgi bor edi, lekin doʻstona emas.
+phrase|celebrate|v.|праздновать|nishonlamoq
+example|celebrate|v.|We celebrate Navruz in March.|Biz Navroʻzni martda nishonlaymiz.
+example|celebrate|v.|They celebrated too early, and the deal fell through the next week.|Ular juda erta nishonlashdi va keyingi haftada bitim buzildi.
+phrase|hole|n.|дыра, яма|teshik, chuqur
+example|hole|n.|There's a hole in my sock.|Paypogʻimda teshik bor.
+example|hole|n.|There's a hole in the argument that nobody wants to point at.|Dalilda hech kim koʻrsatishni istamaydigan teshik bor.
+phrase|sheet|n.|лист; простыня|varaq; choyshab
+example|sheet|n.|Take a sheet of paper.|Bir varaq qogʻoz oling.
+example|sheet|n.|She wrote the whole plan on a single sheet of paper.|U butun rejani bitta varaq qogʻozga yozdi.
+phrase|serious|adj.|серьёзный|jiddiy
+example|serious|adj.|Are you serious?|Jiddiy gapiryapsizmi?
+example|serious|adj.|Nobody took it seriously until the figures came out.|Raqamlar chiqqunicha buni hech kim jiddiy qabul qilmadi.
+phrase|audience|n.|зрители, аудитория|tomoshabinlar, auditoriya
+example|audience|n.|The audience loved the show.|Tomoshabinlarga shou juda yoqdi.
+example|audience|n.|Half the audience had left before the second half began.|Ikkinchi boʻlim boshlanishidan oldin tomoshabinlarning yarmi ketgandi.
+phrase|fortunately|adv.|к счастью|baxtimizga
+example|fortunately|adv.|Fortunately, nobody was hurt.|Baxtimizga, hech kim jabrlanmadi.
+example|fortunately|adv.|Fortunately, somebody had kept a copy of the original.|Baxtimizga, kimdir asl nusxani saqlab qolgandi.
+phrase|recognize|v.|узнавать|tanimoq
+example|recognize|v.|I didn't recognize you!|Men sizni tanimabman!
+example|recognize|v.|I hadn't recognized him until he started talking.|Men uni gapira boshlagunicha tanimagan ekanman.
+phrase|cook|n.|повар|oshpaz
+example|cook|n.|My mother is a great cook.|Oyim ajoyib oshpaz.
+example|cook|n.|The cook had been with the family since before the children were born.|Oshpaz bolalar tugʻilishidan oldingi davrdan beri oilada ishlardi.
+phrase|worried|adj.|обеспокоенный|xavotirdagi
+example|worried|adj.|I'm worried about my exam.|Men imtihonimdan xavotirdaman.
+example|worried|adj.|She was worried enough to ring at eleven at night.|U kechasi soat oʻn birda qoʻngʻiroq qiladigan darajada xavotirda edi.
+phrase|board|n.|доска|doska
+example|board|n.|Look at the board.|Doskaga qarang.
+example|board|n.|The notice had been on the board for a month and nobody had read it.|Eʼlon bir oy doskada turdi va uni hech kim oʻqimadi.
+phrase|dry|adj., v.|сухой; сушить|quruq; quritmoq
+example|dry|adj., v.|My clothes are dry now.|Kiyimlarim endi quruq.
+example|dry|adj., v.|The summer had been so dry that the wells ran out in August.|Yoz shunchalik quruq keldiki, avgustda quduqlar qurib qoldi.
+phrase|continent|n.|континент|qitʼa
+example|continent|n.|Asia is the largest continent.|Osiyo — eng katta qitʼa.
+example|continent|n.|The disease had spread across three continents before anyone acted.|Kimdir chora koʻrgunicha kasallik uch qitʼa boʻylab tarqalgandi.
+phrase|chef|n.|шеф-повар|oshpaz boshligʻi
+example|chef|n.|He is a chef in a restaurant.|U restoranda oshpaz boshligʻi.
+example|chef|n.|The chef left and took half the kitchen staff with him.|Oshpaz boshligʻi ketdi va oshxona xodimlarining yarmini olib ketdi.
+phrase|top|n., adj.|верх, вершина; верхний|yuqori, choʻqqi; yuqoridagi
+example|top|n., adj.|We climbed to the top of the hill.|Biz tepalik choʻqqisiga chiqdik.
+example|top|n., adj.|The decision came from the top, and nobody at the top explains.|Qaror yuqoridan keldi va yuqoridagilar hech narsani tushuntirmaydi.
+phrase|apply|v.|подавать заявление|ariza bermoq
+example|apply|v.|I applied for a new job.|Men yangi ishga ariza berdim.
+example|apply|v.|She applied three times before she was finally accepted.|U nihoyat qabul qilingunicha uch marta ariza berdi.
+phrase|climate|n.|климат|iqlim
+example|climate|n.|The climate here is dry.|Bu yerdagi iqlim quruq.
+example|climate|n.|The climate here has changed noticeably in a single generation.|Bu yerdagi iqlim bir avlod ichida sezilarli oʻzgardi.
+phrase|ocean|n.|океан|okean
+example|ocean|n.|The Pacific is the largest ocean.|Tinch okeani — eng katta okean.
+example|ocean|n.|The ocean absorbs far more heat than people realise.|Okean odamlar oʻylaganidan ancha koʻp issiqlikni yutadi.
+phrase|square|adj., n.|площадь; квадратный|maydon; kvadrat
+example|square|adj., n.|Registan Square is in Samarkand.|Registon maydoni Samarqandda.
+example|square|adj., n.|The square had been full since early morning.|Maydon erta tongdan beri toʻla edi.
+phrase|already|adv.|уже|allaqachon
+example|already|adv.|I have already eaten.|Men allaqachon ovqatlandim.
+example|already|adv.|By the time the warning came, the damage had already been done.|Ogohlantirish kelganida zarar allaqachon yetkazilgandi.
+phrase|quality|n.|качество|sifat
+example|quality|n.|The quality of the food is excellent.|Ovqatning sifati aʼlo darajada.
+example|quality|n.|Quality fell the moment the contract went to the lowest bidder.|Shartnoma eng arzon taklif bergan odamga oʻtishi bilan sifat tushdi.
+phrase|taste|n., v.|вкус; пробовать на вкус|taʼm; tatib koʻrmoq
+example|taste|n., v.|This soup tastes great.|Bu shoʻrvaning taʼmi zoʻr.
+example|taste|n., v.|It tastes better than it looks, which isn't saying much.|Uning taʼmi koʻrinishidan yaxshiroq, bu esa koʻp narsa demaydi.
+phrase|experiment|n.|эксперимент|tajriba
+example|experiment|n.|We did an experiment in class.|Biz sinfda tajriba oʻtkazdik.
+example|experiment|n.|The experiment had been repeated a hundred times with the same result.|Tajriba yuz marta takrorlangan va natija oʻsha boʻlgandi.
+phrase|several|det./pron.|несколько|bir nechta
+example|several|det./pron.|I've been there several times.|Men u yerda bir necha marta boʻlganman.
+example|several|det./pron.|Several people had raised the same concern independently.|Bir necha kishi bir-biridan mustaqil ravishda xuddi shu xavotirni bildirgandi.
+phrase|tradition|n.|традиция|anʼana
+example|tradition|n.|It's a family tradition.|Bu oilaviy anʼana.
+example|tradition|n.|The tradition is less old than everyone believes — about sixty years.|Anʼana hamma oʻylaganidan yosh — taxminan oltmish yillik.
+phrase|organize|v.|организовывать|tashkil qilmoq
+example|organize|v.|We organized a party for her.|Biz unga bazm tashkil qildik.
+example|organize|v.|She'd organized the whole thing in a week with no budget at all.|U butun ishni bir haftada, umuman byudjetsiz tashkil qilgandi.
+phrase|female|adj., n.|женский; женщина|ayol jinsiga oid; ayol
+example|female|adj., n.|Most of the students are female.|Talabalarning koʻpi ayol.
+example|female|adj., n.|Only two of the twelve directors are female.|Oʻn ikki direktordan faqat ikkitasi ayol.
+phrase|code|n.|код|kod
+example|code|n.|Enter the code.|Kodni kiriting.
+example|code|n.|The code hadn't been changed since the office opened.|Kod ofis ochilganidan beri oʻzgartirilmagandi.
+phrase|platform|n.|платформа|perron, platforma
+example|platform|n.|The train leaves from platform 2.|Poyezd 2-perrondan joʻnaydi.
+example|platform|n.|The announcement came after the train had already left the platform.|Eʼlon poyezd perrondan joʻnab ketganidan keyin aytildi.
+phrase|number|v.|нумеровать|raqamlamoq
+example|number|v.|Number the pictures from 1 to 5.|Suratlarni 1 dan 5 gacha raqamlang.
+example|number|v.|The pages had been numbered by hand, and two were missing.|Sahifalar qoʻlda raqamlangandi va ikkitasi yoʻq edi.
+phrase|instrument|n.|инструмент (музыкальный)|musiqa asbobi
+example|instrument|n.|Do you play an instrument?|Biror musiqa asbobi chalasizmi?
+example|instrument|n.|She picked up the instrument at forty and plays better than most.|U qirq yoshida asbobni qoʻliga oldi va koʻpchilikdan yaxshiroq chaladi.
+phrase|downstairs|adj.|находящийся внизу|pastdagi
+example|downstairs|adj.|The downstairs bathroom is small.|Pastdagi hammom kichkina.
+example|downstairs|adj.|The downstairs windows had been left open all night.|Pastdagi derazalar tun boʻyi ochiq qolgandi.
+phrase|fat|n.|жир|yogʻ
+example|fat|n.|This food is high in fat.|Bu ovqatda yogʻ koʻp.
+example|fat|n.|Cut off most of the fat before you put the meat in the pan.|Goʻshtni qozonga solishdan oldin yogʻining koʻpini kesib tashlang.
+phrase|actually|adv.|на самом деле|aslida
+example|actually|adv.|Actually, I don't like coffee.|Aslida, men qahvani yoqtirmayman.
+example|actually|adv.|It actually turned out to be cheaper than doing nothing.|Bu aslida hech narsa qilmaslikdan arzonroq boʻlib chiqdi.
+phrase|might|modal v.|мог бы; возможно|boʻlishi mumkin
+example|might|modal v.|It might rain later.|Keyinroq yomgʻir yogʻishi mumkin.
+example|might|modal v.|You might have told me before I booked the tickets.|Chiptalarni band qilishimdan oldin menga aytishingiz mumkin edi.
+phrase|king|n.|король|qirol
+example|king|n.|The king lived in a big palace.|Qirol katta saroyda yashagan.
+example|king|n.|The king who built it never saw it finished.|Uni qurgan qirol tugaganini koʻra olmadi.
+phrase|round|adj., adv., prep.|круглый; вокруг|dumaloq; atrofida
+example|round|adj., adv., prep.|We sat at a round table.|Biz dumaloq stolda oʻtirdik.
+example|round|adj., adv., prep.|We'd been round this argument so many times that nobody bothered any more.|Biz bu bahs atrofida shunchalik koʻp aylangandikki, endi hech kim urinmasdi.
+phrase|good|n.|добро, польза|yaxshilik, naf
+example|good|n.|Sport does you good.|Sport sizga naf keltiradi.
+example|good|n.|It was done for the good of people who were never asked.|Bu hech kimdan soʻralmagan odamlarning yaxshiligi uchun qilingandi.
+phrase|mirror|n.|зеркало|koʻzgu
+example|mirror|n.|Look in the mirror.|Koʻzguga qarang.
+example|mirror|n.|The mirror had hung in the hall since the house was built.|Koʻzgu uy qurilganidan beri dahlizda osigʻliq turardi.
+phrase|pick|v.|выбирать; собирать (фрукты)|tanlamoq; termoq
+example|pick|v.|Pick a card.|Bitta karta tanlang.
+example|pick|v.|They picked the one option nobody had argued for.|Ular hech kim yoqlamagan yagona variantni tanlashdi.
+phrase|request|n.|просьба, запрос|iltimos, soʻrov
+example|request|n.|I have a special request.|Menda alohida iltimos bor.
+example|request|n.|The request was refused without any reason being given.|Soʻrov hech qanday sabab bildirilmay rad etildi.
+phrase|simple|adj.|простой|oddiy
+example|simple|adj.|The rules are very simple.|Qoidalar juda oddiy.
+example|simple|adj.|The answer is simple, which is why nobody believes it.|Javob oddiy, shuning uchun ham unga hech kim ishonmaydi.
+phrase|stone|n.|камень|tosh
+example|stone|n.|The house is made of stone.|Uy toshdan qurilgan.
+example|stone|n.|The walls are a metre of solid stone, which is why it stays cool.|Devorlar bir metrlik yaxlit tosh, shuning uchun ichkari salqin turadi.
+phrase|contain|v.|содержать|tarkibida boʻlmoq
+example|contain|v.|This drink contains a lot of sugar.|Bu ichimlikning tarkibida koʻp shakar bor.
+example|contain|v.|The report contains nothing that wasn't already known.|Hisobotda allaqachon maʼlum boʻlmagan hech narsa yoʻq.
+phrase|clothing|n.|одежда|kiyim-kechak
+example|clothing|n.|They sell sports clothing.|Ular sport kiyim-kechaklari sotishadi.
+example|clothing|n.|Warm clothing matters more here than any piece of equipment.|Bu yerda iliq kiyim-kechak har qanday jihozdan muhimroq.
+phrase|bowl|n.|миска, тарелка (глубокая)|kosa
+example|bowl|n.|I had a bowl of soup.|Men bir kosa shoʻrva yedim.
+example|bowl|n.|He ate a bowl of soup standing up and went straight back to work.|U bir kosa shoʻrvani tik turib yedi va toʻppa-toʻgʻri ishga qaytdi.
+phrase|ideal|adj.|идеальный|ideal
+example|ideal|adj.|This is the ideal place for a holiday.|Bu taʼtil uchun ideal joy.
+example|ideal|adj.|The timing was far from ideal, and we went ahead anyway.|Vaqt ideallikdan yiroq edi va biz baribir davom etdik.
+phrase|high|adv.|высоко|baland
+example|high|adv.|The plane flew high above us.|Samolyot tepamizdan baland uchdi.
+example|high|adv.|The bar had been set so high that nobody could reach it.|Talab shunchalik baland qoʻyilgandiki, hech kim unga yeta olmasdi.
+phrase|collect|v.|собирать, коллекционировать|yigʻmoq, toʻplamoq
+example|collect|v.|He collects coins.|U tanga toʻplaydi.
+example|collect|v.|He'd been collecting the data for years before anyone found a use for it.|U maʼlumotlarni kimdir ularga ish topgunicha yillar davomida toʻplagandi.
+phrase|button|n.|кнопка; пуговица|tugma
+example|button|n.|Press the red button.|Qizil tugmani bosing.
+example|button|n.|Somebody pressed the wrong button and the whole system shut down.|Kimdir notoʻgʻri tugmani bosdi va butun tizim oʻchib qoldi.
+phrase|response|n.|ответ, реакция|javob, munosabat
+example|response|n.|I'm still waiting for a response.|Men hali javob kutyapman.
+example|response|n.|The response to the announcement was louder than anyone expected.|Eʼlonga boʻlgan munosabat hamma kutganidan kuchliroq boʻldi.
+phrase|against|prep.|против|qarshi
+example|against|prep.|Are you for or against the plan?|Siz rejani yoqlaysizmi yoki qarshimisiz?
+example|against|prep.|She argued against the idea and was the only one who did.|U gʻoyaga qarshi chiqdi va buni qilgan yagona odam edi.
+phrase|suggest|v.|предлагать, советовать|maslahat bermoq, taklif etmoq
+example|suggest|v.|I suggest we take a taxi.|Men taksida ketishni taklif qilaman.
+example|suggest|v.|I'd suggest we wait until the figures are confirmed.|Raqamlar tasdiqlangunicha kutishni maslahat berardim.
+phrase|ordinary|adj.|обычный|oʻrtamiyona, oddiygina
+example|ordinary|adj.|It was an ordinary day.|Oddiygina kun edi.
+example|ordinary|adj.|What looked like an ordinary Tuesday turned into the longest day of the year.|Oddiygina seshanbaga oʻxshagan kun yilning eng uzun kuniga aylandi.
+phrase|adventure|n.|приключение|sarguzasht
+example|adventure|n.|The trip was a real adventure.|Sayohat haqiqiy sarguzasht boʻldi.
+example|adventure|n.|What was supposed to be a quiet week turned into an adventure.|Tinch oʻtishi kerak boʻlgan hafta sarguzashtga aylandi.
+phrase|ability|n.|способность|qobiliyat
+example|ability|n.|She has the ability to learn fast.|Uning tez oʻrganish qobiliyati bor.
+example|ability|n.|Her ability to stay calm under pressure is why she got the job.|Uning bosim ostida xotirjam qolish qobiliyati tufayli u ishga olingan.
+phrase|fall|n.|падение; осень (амер.)|yiqilish; kuz
+example|fall|n.|He had a bad fall.|U qattiq yiqildi.
+example|fall|n.|The fall in prices came too late for most of the growers.|Narxlarning tushishi koʻpchilik yetishtiruvchilar uchun juda kech keldi.
+phrase|reduce|v.|сокращать, снижать|kamaytirmoq
+example|reduce|v.|Reduce the amount of sugar you eat.|Yeydigan shakar miqdorini kamaytiring.
+example|reduce|v.|Costs were reduced by cutting the one thing that worked.|Xarajatlar ishlayotgan yagona narsani qisqartirish hisobiga kamaytirildi.
+phrase|regular|adj.|регулярный, обычный|muntazam
+example|regular|adj.|Regular exercise is good for you.|Muntazam mashq qilish foydali.
+example|regular|adj.|Regular small payments turned out to be cheaper than one big one.|Muntazam kichik toʻlovlar bitta katta toʻlovdan arzonroq boʻlib chiqdi.
+phrase|nut|n.|орех|yongʻoq
+example|nut|n.|I'm allergic to nuts.|Menda yongʻoqqa allergiya bor.
+example|nut|n.|The nuts are picked in October and keep for most of the winter.|Yongʻoq oktabrda teriladi va qishning koʻp qismiga yetadi.
+phrase|war|n.|война|urush
+example|war|n.|My grandfather fought in the war.|Bobom urushda qatnashgan.
+example|war|n.|The town was rebuilt after the war and looks older than it is.|Shaharcha urushdan keyin qayta qurilgan va oʻzidan eskiroq koʻrinadi.
+phrase|certainly|adv.|конечно, безусловно|shubhasiz, albatta
+example|certainly|adv.|I'll certainly help you.|Men albatta sizga yordam beraman.
+example|certainly|adv.|It certainly wasn't the answer anyone in the room expected.|Bu shubhasiz xonadagilar kutgan javob emasdi.
+phrase|achieve|v.|достигать|erishmoq
+example|achieve|v.|You can achieve your goals.|Siz maqsadlaringizga erisha olasiz.
+example|achieve|v.|They achieved more in six months than the previous team had in three years.|Ular olti oyda oldingi jamoa uch yilda qilganidan koʻprogʻiga erishdi.
+phrase|seat|n.|место, сиденье|oʻrindiq
+example|seat|n.|Is this seat free?|Bu oʻrindiq boʻshmi?
+example|seat|n.|Every seat had been taken half an hour before the start.|Boshlanishdan yarim soat oldin barcha oʻrindiqlar band boʻlgandi.
+phrase|foreign|adj.|иностранный|chet el, xorijiy
+example|foreign|adj.|I speak two foreign languages.|Men ikkita chet tilida gapiraman.
+example|foreign|adj.|Learning a foreign language changes how you hear your own.|Chet tilini oʻrganish oʻz tilingizni qanday eshitishingizni oʻzgartiradi.
+phrase|electricity|n.|электричество|elektr energiyasi
+example|electricity|n.|There was no electricity all day.|Kun boʻyi elektr energiyasi yoʻq edi.
+example|electricity|n.|There had been no electricity in the village for three days.|Qishloqda uch kun elektr energiyasi boʻlmagandi.
+phrase|cover|v.|покрывать, накрывать|yopmoq, qoplamoq
+example|cover|v.|Cover the pot with a lid.|Qozonni qopqoq bilan yoping.
+example|cover|v.|The insurance doesn't cover anything that happens at home.|Sugʻurta uyda yuz bergan hech narsani qoplamaydi.
+phrase|designer|n.|дизайнер|dizayner
+example|designer|n.|She is a fashion designer.|U moda dizayneri.
+example|designer|n.|The designer had been given two days for work that needed two weeks.|Dizaynerga ikki hafta kerak boʻlgan ish uchun ikki kun berilgandi.
+phrase|home|adj.|домашний|uy (sifat)
+example|home|adj.|What's your home address?|Uy manzilingiz qanday?
+example|home|adj.|Home cooking is cheaper, slower and better in every way.|Uyda pishirilgan ovqat arzonroq, sekinroq va har jihatdan yaxshiroq.
+phrase|profile|n.|профиль|profil
+example|profile|n.|Update your profile photo.|Profil suratingizni yangilang.
+example|profile|n.|His profile said one thing and his record said another.|Uning profilida bir narsa, hujjatlarida esa boshqa narsa yozilgandi.
