@@ -20,7 +20,7 @@ import { today } from '@/utils/date'
 
 const { t, plural } = useI18n()
 
-useDocumentTitle(() => 'Настройки')
+useDocumentTitle(() => t('Настройки'))
 
 const settings = useSettingsStore()
 const progress = useProgressStore()
@@ -29,8 +29,10 @@ const ICONS: Record<ThemeChoice, IconName> = { system: 'display', light: 'sun', 
 
 const hint = computed(() =>
   settings.theme === 'system'
-    ? `Сейчас ${settings.resolvedTheme === 'dark' ? 'тёмная' : 'светлая'}: так настроены телефон или компьютер.`
-    : 'Выбор сохранён в этом браузере и не зависит от настроек системы.',
+    ? t('Сейчас {theme}: так настроены телефон или компьютер.', {
+        theme: settings.resolvedTheme === 'dark' ? t('тёмная') : t('светлая'),
+      })
+    : t('Выбор сохранён в этом браузере и не зависит от настроек системы.'),
 )
 
 const speech = useSpeech()
@@ -56,7 +58,7 @@ function save() {
   link.download = `english-phrases-${today()}.json`
   link.click()
   URL.revokeObjectURL(url)
-  message.value = { text: 'Файл сохранён в загрузки.' }
+  message.value = { text: t('Файл сохранён в загрузки.') }
 }
 
 async function load(event: Event) {
@@ -69,20 +71,20 @@ async function load(event: Event) {
   const restored = progress.importJson(await file.text())
   message.value =
     restored === null
-      ? { text: 'Не похоже на резервную копию этого приложения. Прогресс не тронут.', bad: true }
-      : { text: `Восстановлено ${plural(restored, 'phrase')}.` }
+      ? { text: t('Не похоже на резервную копию этого приложения. Прогресс не тронут.'), bad: true }
+      : { text: t('Восстановлено {items}.', { items: plural(restored, 'phrase') }) }
 }
 
 function reset() {
   progress.reset()
   confirmingReset.value = false
-  message.value = { text: 'Прогресс очищен.' }
+  message.value = { text: t('Прогресс очищен.') }
 }
 </script>
 
 <template>
   <section>
-    <h1 class="text-xl sm:text-2xl font-semibold">Настройки</h1>
+    <h1 class="text-xl sm:text-2xl font-semibold">{{ t('Настройки') }}</h1>
 
     <!-- Язык первым: с него начинают, когда приложение открыли не на своём. -->
     <h2 class="mt-5 sm:mt-6 text-lg font-semibold">{{ t('Язык') }}</h2>
@@ -98,15 +100,15 @@ function reset() {
         "
       >
         <input v-model="settings.language" type="radio" name="language" :value="option.value" class="sr-only" />
-        <span :lang="option.value">{{ option.label }}</span>
+        <span :lang="option.value">{{ t(option.label) }}</span>
       </label>
     </div>
     <p class="mt-3 text-sm text-muted">
       {{ t('Переводы, которых ещё нет, остаются на русском.') }}
     </p>
 
-    <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Тема</h2>
-    <div role="radiogroup" aria-label="Тема оформления" class="mt-3 flex flex-wrap gap-2">
+    <h2 class="mt-6 sm:mt-8 text-lg font-semibold">{{ t('Тема') }}</h2>
+    <div role="radiogroup" :aria-label="t('Тема оформления')" class="mt-3 flex flex-wrap gap-2">
       <label
         v-for="option in THEME_OPTIONS"
         :key="option.value"
@@ -119,25 +121,25 @@ function reset() {
       >
         <input v-model="settings.theme" type="radio" name="theme" :value="option.value" class="sr-only" />
         <AppIcon :name="ICONS[option.value]" :size="18" />
-        {{ option.label }}
+        {{ t(option.label) }}
       </label>
     </div>
     <p class="mt-3 text-sm text-muted">{{ hint }}</p>
 
     <!-- Раздела нет, если в системе не нашлось ни одного английского голоса. -->
     <template v-if="speech.supported.value">
-      <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Озвучка</h2>
+      <h2 class="mt-6 sm:mt-8 text-lg font-semibold">{{ t('Озвучка') }}</h2>
 
-      <label class="mt-3 block text-sm text-muted" for="voice">Голос</label>
+      <label class="mt-3 block text-sm text-muted" for="voice">{{ t('Голос') }}</label>
       <select id="voice" v-model="settings.voiceName" class="field mt-1 max-w-sm">
-        <option :value="null">Выбрать подходящий автоматически</option>
+        <option :value="null">{{ t('Выбрать подходящий автоматически') }}</option>
         <option v-for="item in speech.voices.value" :key="item.name" :value="item.name">
-          {{ item.name }} — {{ item.lang }}{{ item.localService ? ', офлайн' : '' }}
+          {{ item.name }} — {{ item.lang }}{{ item.localService ? t(', офлайн') : '' }}
         </option>
       </select>
 
       <label class="mt-4 sm:mt-5 block text-sm text-muted" for="rate">
-        Скорость речи — {{ settings.speechRate.toFixed(1) }}
+        {{ t('Скорость речи — {rate}', { rate: settings.speechRate.toFixed(1) }) }}
       </label>
       <input
         id="rate"
@@ -149,27 +151,29 @@ function reset() {
         class="mt-2 w-full max-w-sm accent-marker"
       />
       <div class="flex max-w-sm justify-between text-xs text-muted">
-        <span>медленнее</span>
-        <span>обычно</span>
+        <span>{{ t('медленнее') }}</span>
+        <span>{{ t('обычно') }}</span>
       </div>
 
       <div class="mt-4 flex flex-wrap items-center gap-3">
         <button type="button" class="btn-quiet" @click="speech.speak(SAMPLE)">
           <AppIcon name="speaker" :size="18" />
-          Проверить
+          {{ t('Проверить') }}
         </button>
         <p lang="en" class="font-serif text-sm text-muted">{{ SAMPLE }}</p>
       </div>
 
       <label class="mt-4 sm:mt-5 flex max-w-sm cursor-pointer items-center gap-3">
         <input v-model="settings.speechEnabled" type="checkbox" class="h-4 w-4 accent-marker" />
-        <span class="text-sm">Проговаривать фразу на карточке сама</span>
+        <span class="text-sm">{{ t('Проговаривать фразу на карточке сама') }}</span>
       </label>
     </template>
 
-    <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Занятие</h2>
-    <p class="mt-1 text-sm text-muted">Сколько записей брать за раз. Длинный урок разобьётся на части.</p>
-    <div role="radiogroup" aria-label="Размер занятия" class="mt-3 flex flex-wrap gap-2">
+    <h2 class="mt-6 sm:mt-8 text-lg font-semibold">{{ t('Занятие') }}</h2>
+    <p class="mt-1 text-sm text-muted">
+      {{ t('Сколько записей брать за раз. Длинный урок разобьётся на части.') }}
+    </p>
+    <div role="radiogroup" :aria-label="t('Размер занятия')" class="mt-3 flex flex-wrap gap-2">
       <label
         v-for="option in SESSION_SIZE_OPTIONS"
         :key="option.value"
@@ -181,11 +185,11 @@ function reset() {
         "
       >
         <input v-model="settings.sessionSize" type="radio" name="session-size" :value="option.value" class="sr-only" />
-        {{ option.label }}
+        {{ t(option.label) }}
       </label>
     </div>
 
-    <p class="mt-4 sm:mt-5 text-sm text-muted">Какие этапы проходить</p>
+    <p class="mt-4 sm:mt-5 text-sm text-muted">{{ t('Какие этапы проходить') }}</p>
     <ul class="mt-2 grid gap-2">
       <li v-for="option in STAGE_OPTIONS" :key="option.value">
         <label
@@ -199,20 +203,22 @@ function reset() {
             :disabled="onlyStageLeft && settings.isStageEnabled(option.value)"
             @change="settings.toggleStage(option.value)"
           />
-          <span class="flex-1">{{ option.label }}</span>
+          <span class="flex-1">{{ t(option.label) }}</span>
           <span v-if="option.value === 'listen' && !listeningPossible" class="text-xs text-muted">
-            нужен английский голос
+            {{ t('нужен английский голос') }}
           </span>
         </label>
       </li>
     </ul>
     <p class="mt-2 text-sm text-muted">
-      <template v-if="onlyStageLeft">Последний этап выключить нельзя — в уроке будет нечего делать.</template>
-      <template v-else>Выключенные этапы не появятся ни в уроке, ни в повторении.</template>
+      <template v-if="onlyStageLeft">
+        {{ t('Последний этап выключить нельзя — в уроке будет нечего делать.') }}
+      </template>
+      <template v-else>{{ t('Выключенные этапы не появятся ни в уроке, ни в повторении.') }}</template>
     </p>
 
-    <p class="mt-4 sm:mt-5 text-sm text-muted">Сколько новых фраз брать в день</p>
-    <div role="radiogroup" aria-label="Новых фраз в день" class="mt-2 flex flex-wrap gap-2">
+    <p class="mt-4 sm:mt-5 text-sm text-muted">{{ t('Сколько новых фраз брать в день') }}</p>
+    <div role="radiogroup" :aria-label="t('Новых фраз в день')" class="mt-2 flex flex-wrap gap-2">
       <label
         v-for="option in DAILY_NEW_OPTIONS"
         :key="option.value"
@@ -224,31 +230,43 @@ function reset() {
         "
       >
         <input v-model="settings.dailyNewLimit" type="radio" name="daily-new" :value="option.value" class="sr-only" />
-        {{ option.label }}
+        {{ t(option.label) }}
       </label>
     </div>
     <p class="mt-2 text-sm text-muted">
-      Сегодня взято {{ progress.newToday }}. Предел касается только новых записей — повторять
-      пройденное можно сколько угодно.
+      {{
+        t(
+          'Сегодня взято {n}. Предел касается только новых записей — повторять пройденное можно сколько угодно.',
+          { n: progress.newToday },
+        )
+      }}
     </p>
 
-    <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Прогресс</h2>
+    <h2 class="mt-6 sm:mt-8 text-lg font-semibold">{{ t('Прогресс') }}</h2>
     <p class="mt-3 text-muted">
-      <template v-if="progress.startedCount === 0">Занятий ещё не было.</template>
+      <template v-if="progress.startedCount === 0">{{ t('Занятий ещё не было.') }}</template>
       <template v-else>
-        Начато {{ plural(progress.startedCount, 'phrase') }}, выучено {{ progress.learnedCount }}.
+        {{
+          t('Начато {started}, выучено {learned}.', {
+            started: plural(progress.startedCount, 'phrase'),
+            learned: progress.learnedCount,
+          })
+        }}
       </template>
     </p>
     <p class="mt-1 max-w-prose text-sm text-muted">
-      Прогресс хранится только в этом браузере. Очистка данных сайта или другое устройство — и его нет,
-      поэтому держите резервную копию.
+      {{
+        t(
+          'Прогресс хранится только в этом браузере. Очистка данных сайта или другое устройство — и его нет, поэтому держите резервную копию.',
+        )
+      }}
     </p>
 
     <div class="mt-4 sm:mt-5 flex flex-wrap gap-3">
       <button type="button" class="btn-quiet" :disabled="progress.startedCount === 0" @click="save">
-        Сохранить копию
+        {{ t('Сохранить копию') }}
       </button>
-      <button type="button" class="btn-quiet" @click="fileInput?.click()">Восстановить из файла</button>
+      <button type="button" class="btn-quiet" @click="fileInput?.click()">{{ t('Восстановить из файла') }}</button>
       <input ref="fileInput" type="file" accept="application/json,.json" class="sr-only" @change="load" />
     </div>
 
@@ -260,12 +278,12 @@ function reset() {
         :disabled="progress.startedCount === 0"
         @click="confirmingReset = true"
       >
-        Очистить прогресс
+        {{ t('Очистить прогресс') }}
       </button>
       <div v-else class="flex flex-wrap items-center gap-3">
-        <p class="text-sm text-bad">Удалить весь прогресс без возможности вернуть?</p>
-        <button type="button" class="btn-quiet" @click="reset">Удалить</button>
-        <button type="button" class="btn-quiet" @click="confirmingReset = false">Отмена</button>
+        <p class="text-sm text-bad">{{ t('Удалить весь прогресс без возможности вернуть?') }}</p>
+        <button type="button" class="btn-quiet" @click="reset">{{ t('Удалить') }}</button>
+        <button type="button" class="btn-quiet" @click="confirmingReset = false">{{ t('Отмена') }}</button>
       </div>
     </div>
 
@@ -274,7 +292,7 @@ function reset() {
     </p>
 
     <p class="mt-6 sm:mt-8 border-t border-line pt-5">
-      <RouterLink to="/stats" class="text-accent underline underline-offset-4">Статистика</RouterLink>
+      <RouterLink to="/stats" class="text-accent underline underline-offset-4">{{ t('Статистика') }}</RouterLink>
     </p>
   </section>
 </template>

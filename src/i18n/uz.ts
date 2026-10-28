@@ -192,4 +192,86 @@ export const UZ_TEXT: Record<string, string> = {
   'Попробуйте другое слово или уберите фильтр по главе — поиск идёт и по английскому тексту, и по переводу.':
     'Boshqa soʻzni sinab koʻring yoki bob filtrini olib tashlang — qidiruv ham inglizcha matn, ham tarjima boʻyicha boradi.',
   'Показать ещё {n}': 'Yana {n} tasini koʻrsatish',
+
+  // 2.10 — статистика
+  'Статистика': 'Statistika',
+  'Выучено': 'Oʻrganilgan',
+  'Пока пусто. Пройдите первый урок — здесь появятся серия дней, календарь занятий и то, насколько прочно сидит каждая фраза.':
+    'Hozircha boʻsh. Birinchi darsni oʻting — bu yerda kunlar ketma-ketligi, mashgʻulotlar taqvimi va har bir ibora qanchalik mustahkam oʻrnashgani koʻrinadi.',
+  'Выбрать главу': 'Bob tanlash',
+  'лучшая — {n}': 'eng yaxshisi — {n}',
+  'из {n} начатых': 'boshlangan {n} tadan',
+  'Дней занятий': 'Mashgʻulot kunlari',
+  'Трудных': 'Qiyinlari',
+  'повторить': 'takrorlash',
+  'сейчас чисто': 'hozircha toza',
+  'Сегодня': 'Bugun',
+  'к повторению {n}': 'takrorlashga {n} ta',
+  'Занятия': 'Mashgʻulotlar',
+  'Последние {n} недель. Чем ярче, тем больше ответов в тот день.':
+    'Soʻnggi {n} hafta. Qanchalik yorqin boʻlsa, oʻsha kuni shuncha koʻp javob berilgan.',
+  '{day} — {what}': '{day} — {what}',
+  'не занимались': 'mashgʻulot boʻlmagan',
+  'Прочность': 'Mustahkamlik',
+  'Перерыв у каждой фразы свой: отвечаете верно — он растёт, ошибаетесь — возвращается к двум дням. Выученной фраза считается с перерыва в {days}.':
+    'Har bir iboraning oʻz tanaffusi bor: toʻgʻri javob bersangiz — oʻsadi, xato qilsangiz — ikki kunga qaytadi. Ibora {days} tanaffusdan boshlab oʻrganilgan hisoblanadi.',
+  '{learned} / {started} из {total}': '{total} tadan {learned} / {started}',
+  'выучено {learned}, начато {started}': 'oʻrganilgan {learned}, boshlangan {started}',
+  'Ближайшее повторение — {day}.': 'Eng yaqin takrorlash — {day}.',
+  'До недели': 'Bir haftagacha',
+  'До трёх недель': 'Uch haftagacha',
+  'Три недели и дольше': 'Uch hafta va undan koʻp',
+
+  // 2.11 — настройки
+  'Сейчас {theme}: так настроены телефон или компьютер.':
+    'Hozir {theme}: telefon yoki kompyuter shunday sozlangan.',
+  'тёмная': 'tungi',
+  'светлая': 'kunduzgi',
+  'Выбор сохранён в этом браузере и не зависит от настроек системы.':
+    'Tanlov shu brauzerda saqlangan va tizim sozlamalariga bogʻliq emas.',
+  'Файл сохранён в загрузки.': 'Fayl yuklanmalarga saqlandi.',
+  'Не похоже на резервную копию этого приложения. Прогресс не тронут.':
+    'Bu ilovaning zaxira nusxasiga oʻxshamaydi. Natijalarga tegilmadi.',
+  'Восстановлено {items}.': '{items} tiklandi.',
+  'Прогресс очищен.': 'Natijalar tozalandi.',
+  'Тема': 'Mavzu',
+  'Тема оформления': 'Bezak mavzusi',
+  'Как в системе': 'Tizimdagidek',
+  'Светлая': 'Kunduzgi',
+  'Тёмная': 'Tungi',
+  'Озвучка': 'Ovoz',
+  'Голос': 'Ovoz turi',
+  'Выбрать подходящий автоматически': 'Mosini avtomatik tanlash',
+  ', офлайн': ', oflayn',
+  'Скорость речи — {rate}': 'Nutq tezligi — {rate}',
+  'медленнее': 'sekinroq',
+  'обычно': 'odatdagidek',
+  'Проговаривать фразу на карточке сама': 'Kartochkadagi iborani oʻzi aytsin',
+  'Занятие': 'Mashgʻulot',
+  'Сколько записей брать за раз. Длинный урок разобьётся на части.':
+    'Bir martada nechta yozuv olinsin. Uzun dars qismlarga boʻlinadi.',
+  'Размер занятия': 'Mashgʻulot hajmi',
+  'Весь урок': 'Butun dars',
+  'Какие этапы проходить': 'Qaysi bosqichlar oʻtilsin',
+  'нужен английский голос': 'inglizcha ovoz kerak',
+  'Последний этап выключить нельзя — в уроке будет нечего делать.':
+    'Oxirgi bosqichni oʻchirib boʻlmaydi — darsda qiladigan ish qolmaydi.',
+  'Выключенные этапы не появятся ни в уроке, ни в повторении.':
+    'Oʻchirilgan bosqichlar na darsda, na takrorlashda chiqadi.',
+  'Сколько новых фраз брать в день': 'Kuniga nechta yangi ibora olinsin',
+  'Новых фраз в день': 'Kuniga yangi iboralar',
+  'Без ограничения': 'Cheklovsiz',
+  'Сегодня взято {n}. Предел касается только новых записей — повторять пройденное можно сколько угодно.':
+    'Bugun {n} ta olindi. Chegara faqat yangi yozuvlarga taalluqli — oʻtilganni xohlagancha takrorlash mumkin.',
+  'Прогресс': 'Natijalar',
+  'Занятий ещё не было.': 'Hali mashgʻulot boʻlmagan.',
+  'Начато {started}, выучено {learned}.': 'Boshlangan {started}, oʻrganilgan {learned}.',
+  'Прогресс хранится только в этом браузере. Очистка данных сайта или другое устройство — и его нет, поэтому держите резервную копию.':
+    'Natijalar faqat shu brauzerda saqlanadi. Sayt maʼlumotlari tozalansa yoki boshqa qurilmaga oʻtsangiz — ular yoʻqoladi, shuning uchun zaxira nusxa saqlab turing.',
+  'Сохранить копию': 'Nusxa saqlash',
+  'Восстановить из файла': 'Fayldan tiklash',
+  'Очистить прогресс': 'Natijalarni tozalash',
+  'Удалить весь прогресс без возможности вернуть?': 'Barcha natijalar qaytarib boʻlmaydigan tarzda oʻchirilsinmi?',
+  'Удалить': 'Oʻchirish',
+  'Отмена': 'Bekor qilish',
 }

@@ -1,6 +1,12 @@
+// Проверка импортирует хранилище настроек ради подписей, а оно при загрузке
+// смотрит на window.matchMedia — значит нужен DOM.
+// @vitest-environment happy-dom
 import { describe, expect, it } from 'vitest'
 import { UZ_TEXT } from './uz'
 import { EXERCISE_TITLES } from '@/utils/practice'
+import { THEME_OPTIONS, DAILY_NEW_OPTIONS } from '@/stores/settings'
+import { SESSION_SIZE_OPTIONS } from '@/utils/parts'
+import { INTERVAL_BUCKET_LABELS } from '@/stores/progress'
 
 /**
  * Исходники читаем через import.meta.glob, а не через node:fs: так проверка
@@ -31,6 +37,18 @@ function literalCalls(): Map<string, string> {
   return found
 }
 
+/**
+ * Подписи, которые подставляются переменной: сканированием их не найти.
+ * Чисто числовые («5», «20») переводить нечего — их отсеиваем.
+ */
+const dynamicLabels = new Set([
+  ...Object.values(EXERCISE_TITLES),
+  ...THEME_OPTIONS.map((o) => o.label),
+  ...DAILY_NEW_OPTIONS.map((o) => o.label),
+  ...SESSION_SIZE_OPTIONS.map((o) => o.label),
+  ...INTERVAL_BUCKET_LABELS,
+].filter((label) => /[А-Яа-яЁё]/.test(label)))
+
 describe('полнота узбекского словаря', () => {
   it('файлы исходников вообще нашлись', () => {
     // Иначе пустой список молча «проходил» бы все проверки ниже.
@@ -44,14 +62,15 @@ describe('полнота узбекского словаря', () => {
     expect(missing, 'нет перевода').toEqual([])
   })
 
-  it('названия упражнений переведены: они подставляются переменной, не литералом', () => {
-    const missing = Object.values(EXERCISE_TITLES).filter((title) => !(title in UZ_TEXT))
-    expect(missing).toEqual([])
+  it('подписи, приходящие переменной, тоже переведены', () => {
+    // Их не найти сканированием: в шаблоне стоит t(option.label), а не литерал.
+    const missing = [...dynamicLabels].filter((text) => !(text in UZ_TEXT))
+    expect(missing, 'нет перевода').toEqual([])
   })
 
   it('в словаре нет записей, которых больше нет в коде', () => {
     // Иначе словарь обрастает мусором, и непонятно, что ещё живо.
-    const used = new Set([...literalCalls().keys(), ...Object.values(EXERCISE_TITLES)])
+    const used = new Set([...literalCalls().keys(), ...dynamicLabels])
     const stale = Object.keys(UZ_TEXT).filter((text) => !used.has(text))
     expect(stale, 'лишнее в словаре').toEqual([])
   })

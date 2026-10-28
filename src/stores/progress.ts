@@ -142,6 +142,9 @@ export interface SessionOutcome {
   answers: number
 }
 
+/** Подписи столбиков прочности. Снаружи — чтобы проверка словаря их видела. */
+export const INTERVAL_BUCKET_LABELS = ['До недели', 'До трёх недель', 'Три недели и дольше'] as const
+
 export const useProgressStore = defineStore('progress', () => {
   const data = ref<ProgressData>(read())
 
@@ -342,9 +345,9 @@ export const useProgressStore = defineStore('progress', () => {
    * в середину, где они закрашены как ещё не выученные.
    */
   const INTERVAL_BUCKETS = [
-    { label: 'До недели', upto: 7 },
-    { label: 'До трёх недель', upto: LEARNED_INTERVAL },
-    { label: 'Три недели и дольше', upto: Infinity },
+    { label: INTERVAL_BUCKET_LABELS[0], upto: 7 },
+    { label: INTERVAL_BUCKET_LABELS[1], upto: LEARNED_INTERVAL },
+    { label: INTERVAL_BUCKET_LABELS[2], upto: Infinity },
   ]
 
   /** Сколько фраз на каком перерыве — вместо прежней разбивки по коробкам. */
