@@ -1,0 +1,1029 @@
+{
+  "chapter": "small-talk",
+  "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Erkin muloqot",
+  "lessons": {
+    "Начало разговора": "Suhbat boshlash",
+    "Разговор о дне": "Kun haqida suhbat",
+    "Работа и учёба": "Ish va oʻqish",
+    "Хобби и свободное время": "Mashgʻulotlar va boʻsh vaqt",
+    "Планы на выходные": "Dam olish kunlari rejalari",
+    "Еда и напитки": "Ovqat va ichimliklar",
+    "Путешествия и места": "Sayohat va joylar",
+    "Погода": "Ob-havo",
+    "Семья и друзья": "Oila va doʻstlar",
+    "Развлечения и культура": "Koʻngilochar tadbirlar va madaniyat",
+    "Комплименты": "Iltifotlar",
+    "Поддержание разговора": "Suhbatni davom ettirish",
+    "Разговор о прошлом": "Oʻtmish haqida suhbat",
+    "Надежды на будущее": "Kelajakka umidlar",
+    "Общественные мероприятия": "Ijtimoiy tadbirlar",
+    "Лёгкий юмор": "Yengil hazil",
+    "Знакомство с новыми людьми": "Yangi odamlar bilan tanishish",
+    "Естественные реакции": "Tabiiy munosabatlar",
+    "Завершение беседы": "Suhbatni yakunlash",
+    "Частые вопросы": "Koʻp beriladigan savollar"
+  },
+  "entries": [
+    {
+      "en": "Hi, how's your day going?",
+      "ru": "Привет, как проходит твой день?",
+      "uz": "Salom, kuningiz qanday oʻtyapti?"
+    },
+    {
+      "en": "Have we met before?",
+      "ru": "Мы раньше встречались?",
+      "uz": "Biz avval uchrashganmidik?"
+    },
+    {
+      "en": "I don't think we've been introduced.",
+      "ru": "Кажется, нас ещё не представили друг другу.",
+      "uz": "Bizni hali tanishtirishmagan shekilli."
+    },
+    {
+      "en": "Mind if I join you?",
+      "ru": "Не возражаешь, если я присоединюсь?",
+      "uz": "Sizga qoʻshilsam boʻladimi?"
+    },
+    {
+      "en": "Is this seat taken?",
+      "ru": "Это место занято?",
+      "uz": "Bu joy bandmi?"
+    },
+    {
+      "en": "How do you know everyone here?",
+      "ru": "Откуда ты всех здесь знаешь?",
+      "uz": "Bu yerdagilarning hammasini qayerdan bilasiz?"
+    },
+    {
+      "en": "It's quite busy here today.",
+      "ru": "Сегодня здесь довольно людно.",
+      "uz": "Bugun bu yerda ancha gavjum."
+    },
+    {
+      "en": "What brings you here?",
+      "ru": "Что привело тебя сюда?",
+      "uz": "Bu yerga nima sabab bilan keldingiz?"
+    },
+    {
+      "en": "Have you been here long?",
+      "ru": "Ты давно здесь?",
+      "uz": "Bu yerda uzoq boʻldingizmi?"
+    },
+    {
+      "en": "It's nice to finally meet you.",
+      "ru": "Приятно наконец познакомиться.",
+      "uz": "Nihoyat tanishganimizdan xursandman."
+    },
+    {
+      "en": "How's your day been?",
+      "ru": "Как прошёл твой день?",
+      "uz": "Kuningiz qanday oʻtdi?"
+    },
+    {
+      "en": "It's been a busy day.",
+      "ru": "День был насыщенным.",
+      "uz": "Kun sertashvish boʻldi."
+    },
+    {
+      "en": "I've had a pretty good day.",
+      "ru": "День прошёл довольно хорошо.",
+      "uz": "Kunim ancha yaxshi oʻtdi."
+    },
+    {
+      "en": "Anything interesting happen today?",
+      "ru": "Сегодня произошло что-нибудь интересное?",
+      "uz": "Bugun qiziq biror narsa boʻldimi?"
+    },
+    {
+      "en": "It's been one of those days.",
+      "ru": "Сегодня был один из тех непростых дней.",
+      "uz": "Bugun oʻsha qiyin kunlardan biri boʻldi."
+    },
+    {
+      "en": "I'm looking forward to the weekend.",
+      "ru": "Я жду не дождусь выходных.",
+      "uz": "Dam olish kunlarini intiqlik bilan kutyapman."
+    },
+    {
+      "en": "Today went by so quickly.",
+      "ru": "Сегодняшний день пролетел так быстро.",
+      "uz": "Bugungi kun juda tez oʻtib ketdi."
+    },
+    {
+      "en": "I could use a little break.",
+      "ru": "Мне бы не помешал небольшой перерыв.",
+      "uz": "Menga bir oz tanaffus kerak edi."
+    },
+    {
+      "en": "It's finally time to relax.",
+      "ru": "Наконец-то можно отдохнуть.",
+      "uz": "Nihoyat dam olish vaqti keldi."
+    },
+    {
+      "en": "How's your week going so far?",
+      "ru": "Как проходит твоя неделя?",
+      "uz": "Haftangiz hozircha qanday oʻtyapti?"
+    },
+    {
+      "en": "How's work going?",
+      "ru": "Как дела на работе?",
+      "uz": "Ish qalay?"
+    },
+    {
+      "en": "What are you working on these days?",
+      "ru": "Над чем ты сейчас работаешь?",
+      "uz": "Hozir nima ustida ishlayapsiz?"
+    },
+    {
+      "en": "How long have you been doing that?",
+      "ru": "Как давно ты этим занимаешься?",
+      "uz": "Bu ish bilan qancha vaqtdan beri shugʻullanasiz?"
+    },
+    {
+      "en": "Do you enjoy what you do?",
+      "ru": "Тебе нравится то, чем ты занимаешься?",
+      "uz": "Qilayotgan ishingiz sizga yoqadimi?"
+    },
+    {
+      "en": "How's your course going?",
+      "ru": "Как проходит твой курс?",
+      "uz": "Kursingiz qanday ketyapti?"
+    },
+    {
+      "en": "Have you been busy lately?",
+      "ru": "Ты в последнее время занят(а)?",
+      "uz": "Soʻnggi paytlarda bandmisiz?"
+    },
+    {
+      "en": "What's the best part of your job?",
+      "ru": "Что тебе больше всего нравится в работе?",
+      "uz": "Ishingizning eng yaxshi tomoni nima?"
+    },
+    {
+      "en": "I'm learning something new at the moment.",
+      "ru": "Сейчас я изучаю кое-что новое.",
+      "uz": "Hozir men yangi bir narsani oʻrganyapman."
+    },
+    {
+      "en": "That sounds like an interesting job.",
+      "ru": "Звучит как интересная работа.",
+      "uz": "Qiziqarli ishga oʻxshaydi."
+    },
+    {
+      "en": "I hope work isn't too stressful.",
+      "ru": "Надеюсь, работа не слишком утомительная.",
+      "uz": "Umid qilamanki, ish juda charchatmayapti."
+    },
+    {
+      "en": "What do you do for fun?",
+      "ru": "Чем ты занимаешься для удовольствия?",
+      "uz": "Koʻngilxushlik uchun nima qilasiz?"
+    },
+    {
+      "en": "What do you like doing in your free time?",
+      "ru": "Что ты любишь делать в свободное время?",
+      "uz": "Boʻsh vaqtingizda nima qilishni yoqtirasiz?"
+    },
+    {
+      "en": "Have you picked up any new hobbies?",
+      "ru": "У тебя появились новые увлечения?",
+      "uz": "Yangi mashgʻulotlar paydo boʻldimi?"
+    },
+    {
+      "en": "I'm really into music.",
+      "ru": "Я очень увлекаюсь музыкой.",
+      "uz": "Men musiqaga juda qiziqaman."
+    },
+    {
+      "en": "Do you play any sports?",
+      "ru": "Ты занимаешься каким-нибудь спортом?",
+      "uz": "Biror sport turi bilan shugʻullanasizmi?"
+    },
+    {
+      "en": "I like trying new things.",
+      "ru": "Мне нравится пробовать новое.",
+      "uz": "Menga yangi narsalarni sinab koʻrish yoqadi."
+    },
+    {
+      "en": "What kind of books do you read?",
+      "ru": "Какие книги ты читаешь?",
+      "uz": "Qanday kitoblar oʻqiysiz?"
+    },
+    {
+      "en": "Have you seen any good films lately?",
+      "ru": "Ты недавно смотрел(а) хорошие фильмы?",
+      "uz": "Soʻnggi paytlarda yaxshi film koʻrdingizmi?"
+    },
+    {
+      "en": "I spend a lot of time outdoors.",
+      "ru": "Я много времени провожу на свежем воздухе.",
+      "uz": "Men koʻp vaqtimni ochiq havoda oʻtkazaman."
+    },
+    {
+      "en": "That sounds like a fun hobby.",
+      "ru": "Звучит как интересное увлечение.",
+      "uz": "Qiziqarli mashgʻulotga oʻxshaydi."
+    },
+    {
+      "en": "Any plans for the weekend?",
+      "ru": "Есть планы на выходные?",
+      "uz": "Dam olish kunlariga rejangiz bormi?"
+    },
+    {
+      "en": "I'm keeping it low-key this weekend.",
+      "ru": "В эти выходные я планирую спокойно отдохнуть.",
+      "uz": "Bu dam olish kunlarini tinchgina oʻtkazmoqchiman."
+    },
+    {
+      "en": "I'm meeting some friends.",
+      "ru": "Я встречаюсь с друзьями.",
+      "uz": "Doʻstlarim bilan uchrashaman."
+    },
+    {
+      "en": "We're thinking of going out.",
+      "ru": "Мы думаем куда-нибудь сходить.",
+      "uz": "Biz biror joyga chiqmoqchimiz."
+    },
+    {
+      "en": "Do you want to do something together?",
+      "ru": "Хочешь что-нибудь сделать вместе?",
+      "uz": "Birgalikda biror narsa qilmaymizmi?"
+    },
+    {
+      "en": "I haven't made any plans yet.",
+      "ru": "Я ещё ничего не запланировал(а).",
+      "uz": "Men hali hech narsa rejalashtirmadim."
+    },
+    {
+      "en": "Hopefully, the weather will be nice.",
+      "ru": "Надеюсь, погода будет хорошей.",
+      "uz": "Umid qilamanki, ob-havo yaxshi boʻladi."
+    },
+    {
+      "en": "I'm planning to catch up on sleep.",
+      "ru": "Планирую отоспаться.",
+      "uz": "Yaxshilab uxlab olmoqchiman."
+    },
+    {
+      "en": "That sounds like a good way to spend the weekend.",
+      "ru": "Звучит как хороший способ провести выходные.",
+      "uz": "Dam olish kunlarini oʻtkazishning yaxshi usuliga oʻxshaydi."
+    },
+    {
+      "en": "Enjoy your weekend!",
+      "ru": "Хороших выходных!",
+      "uz": "Dam olish kunlaringiz yaxshi oʻtsin!"
+    },
+    {
+      "en": "Have you tried this place before?",
+      "ru": "Ты раньше бывал(а) в этом месте?",
+      "uz": "Bu yerga avval kelganmidingiz?"
+    },
+    {
+      "en": "What's your go-to coffee order?",
+      "ru": "Какой кофе ты обычно заказываешь?",
+      "uz": "Odatda qanday qahva buyurtirasiz?"
+    },
+    {
+      "en": "Do you have a favourite restaurant?",
+      "ru": "У тебя есть любимый ресторан?",
+      "uz": "Sevimli restoraningiz bormi?"
+    },
+    {
+      "en": "I'm always up for good food.",
+      "ru": "Я всегда не против вкусно поесть.",
+      "uz": "Men doim mazali taomdan boʻsh kelmayman."
+    },
+    {
+      "en": "That smells amazing.",
+      "ru": "Пахнет потрясающе.",
+      "uz": "Hidi ajoyib."
+    },
+    {
+      "en": "What would you recommend here?",
+      "ru": "Что бы ты здесь посоветовал(а)?",
+      "uz": "Bu yerda nimani tavsiya qilasiz?"
+    },
+    {
+      "en": "I'm trying to eat a bit healthier.",
+      "ru": "Я стараюсь питаться немного полезнее.",
+      "uz": "Men biroz sogʻlomroq ovqatlanishga harakat qilyapman."
+    },
+    {
+      "en": "Do you prefer tea or coffee?",
+      "ru": "Ты предпочитаешь чай или кофе?",
+      "uz": "Choyni afzal koʻrasizmi yoki qahvani?"
+    },
+    {
+      "en": "We should try that place sometime.",
+      "ru": "Нам стоит как-нибудь попробовать то место.",
+      "uz": "Qachondir oʻsha joyni sinab koʻrishimiz kerak."
+    },
+    {
+      "en": "This is exactly what I needed.",
+      "ru": "Это именно то, что мне было нужно.",
+      "uz": "Bu aynan menga kerak boʻlgan narsa edi."
+    },
+    {
+      "en": "Have you travelled anywhere recently?",
+      "ru": "Ты недавно куда-нибудь ездил(а)?",
+      "uz": "Soʻnggi paytlarda biror joyga sayohat qildingizmi?"
+    },
+    {
+      "en": "What's your favourite place you've visited?",
+      "ru": "Какое место из посещённых тебе понравилось больше всего?",
+      "uz": "Borgan joylaringizdan qaysi biri eng yoqqan?"
+    },
+    {
+      "en": "I'd love to visit that place.",
+      "ru": "Я бы с удовольствием посетил(а) это место.",
+      "uz": "Men oʻsha joyga borishni juda xohlardim."
+    },
+    {
+      "en": "Do you travel often?",
+      "ru": "Ты часто путешествуешь?",
+      "uz": "Tez-tez sayohat qilasizmi?"
+    },
+    {
+      "en": "What's it like living here?",
+      "ru": "Каково это — жить здесь?",
+      "uz": "Bu yerda yashash qanday?"
+    },
+    {
+      "en": "Is there much to do around here?",
+      "ru": "Здесь есть чем заняться?",
+      "uz": "Bu atrofda qiladigan ish koʻpmi?"
+    },
+    {
+      "en": "I still have so many places to see.",
+      "ru": "Мне ещё столько мест нужно увидеть.",
+      "uz": "Hali koʻrishim kerak boʻlgan joylar juda koʻp."
+    },
+    {
+      "en": "I prefer travelling in the off-season.",
+      "ru": "Я предпочитаю путешествовать не в сезон.",
+      "uz": "Men mavsumdan tashqari sayohat qilishni afzal koʻraman."
+    },
+    {
+      "en": "What's the best trip you've ever taken?",
+      "ru": "Какая поездка была лучшей в твоей жизни?",
+      "uz": "Hayotingizdagi eng yaxshi sayohat qaysi edi?"
+    },
+    {
+      "en": "I'd recommend it to anyone.",
+      "ru": "Я бы порекомендовал(а) это всем.",
+      "uz": "Men buni hammaga tavsiya qilgan boʻlardim."
+    },
+    {
+      "en": "Lovely weather we're having.",
+      "ru": "Какая прекрасная у нас погода.",
+      "uz": "Ob-havo ajoyib-a."
+    },
+    {
+      "en": "It's a bit chilly today.",
+      "ru": "Сегодня немного прохладно.",
+      "uz": "Bugun biroz salqin."
+    },
+    {
+      "en": "It's warmer than I expected.",
+      "ru": "Теплее, чем я ожидал(а).",
+      "uz": "Kutganimdan iliqroq ekan."
+    },
+    {
+      "en": "Looks like it's going to rain.",
+      "ru": "Похоже, будет дождь.",
+      "uz": "Yomgʻir yogʻadiganga oʻxshaydi."
+    },
+    {
+      "en": "I hope it clears up soon.",
+      "ru": "Надеюсь, скоро прояснится.",
+      "uz": "Umid qilamanki, tez orada ochiladi."
+    },
+    {
+      "en": "The weather has been all over the place.",
+      "ru": "Погода в последнее время постоянно меняется.",
+      "uz": "Ob-havo soʻnggi paytlarda juda oʻzgaruvchan."
+    },
+    {
+      "en": "It's perfect weather for a walk.",
+      "ru": "Идеальная погода для прогулки.",
+      "uz": "Sayr qilish uchun ajoyib ob-havo."
+    },
+    {
+      "en": "I can't believe how hot it is.",
+      "ru": "Не могу поверить, как жарко.",
+      "uz": "Bu qadar issiq boʻlishiga ishonib boʻlmaydi."
+    },
+    {
+      "en": "At least it's not too windy.",
+      "ru": "По крайней мере, не слишком ветрено.",
+      "uz": "Hech boʻlmasa shamol kuchli emas."
+    },
+    {
+      "en": "I love this time of year.",
+      "ru": "Я люблю это время года.",
+      "uz": "Men yilning shu faslini yaxshi koʻraman."
+    },
+    {
+      "en": "How's your family doing?",
+      "ru": "Как поживает твоя семья?",
+      "uz": "Oilangiz qalay?"
+    },
+    {
+      "en": "Do you have any brothers or sisters?",
+      "ru": "У тебя есть братья или сёстры?",
+      "uz": "Aka-uka yoki opa-singillaringiz bormi?"
+    },
+    {
+      "en": "Are you close to your family?",
+      "ru": "Ты близок / близка со своей семьёй?",
+      "uz": "Oilangiz bilan yaqinmisiz?"
+    },
+    {
+      "en": "How did you two meet?",
+      "ru": "Как вы познакомились?",
+      "uz": "Ikkovingiz qanday tanishgansiz?"
+    },
+    {
+      "en": "We go way back.",
+      "ru": "Мы знакомы очень давно.",
+      "uz": "Biz juda qadimdan tanishmiz."
+    },
+    {
+      "en": "I haven't seen them in ages.",
+      "ru": "Я их целую вечность не видел(а).",
+      "uz": "Men ularni ancha vaqtdan beri koʻrmaganman."
+    },
+    {
+      "en": "We try to get together regularly.",
+      "ru": "Мы стараемся регулярно встречаться.",
+      "uz": "Biz muntazam uchrashib turishga harakat qilamiz."
+    },
+    {
+      "en": "Your friend seems really nice.",
+      "ru": "Твой друг кажется очень приятным человеком.",
+      "uz": "Doʻstingiz juda yoqimli odamga oʻxshaydi."
+    },
+    {
+      "en": "Please say hello to your family for me.",
+      "ru": "Передавай привет своей семье.",
+      "uz": "Oilangizga mendan salom ayting."
+    },
+    {
+      "en": "It's always good to catch up with old friends.",
+      "ru": "Всегда приятно повидаться со старыми друзьями.",
+      "uz": "Eski doʻstlar bilan koʻrishish doim yoqimli."
+    },
+    {
+      "en": "Have you watched anything good lately?",
+      "ru": "Ты недавно смотрел(а) что-нибудь интересное?",
+      "uz": "Soʻnggi paytlarda yaxshi biror narsa koʻrdingizmi?"
+    },
+    {
+      "en": "What kind of music are you into?",
+      "ru": "Какую музыку ты любишь?",
+      "uz": "Qanday musiqani yoqtirasiz?"
+    },
+    {
+      "en": "Have you heard of this band?",
+      "ru": "Ты слышал(а) об этой группе?",
+      "uz": "Bu guruh haqida eshitganmisiz?"
+    },
+    {
+      "en": "I've been listening to them a lot.",
+      "ru": "Я много их слушаю в последнее время.",
+      "uz": "Men ularni soʻnggi paytlarda koʻp tinglayapman."
+    },
+    {
+      "en": "That show is really popular right now.",
+      "ru": "Это шоу сейчас очень популярно.",
+      "uz": "Bu koʻrsatuv hozir juda mashhur."
+    },
+    {
+      "en": "I'm thinking of going to a concert.",
+      "ru": "Думаю сходить на концерт.",
+      "uz": "Konsertga borsammikan deb oʻylayapman."
+    },
+    {
+      "en": "Do you prefer films or series?",
+      "ru": "Ты предпочитаешь фильмы или сериалы?",
+      "uz": "Filmlarni afzal koʻrasizmi yoki seriallarni?"
+    },
+    {
+      "en": "The ending caught me by surprise.",
+      "ru": "Концовка меня удивила.",
+      "uz": "Yakuni meni hayratda qoldirdi."
+    },
+    {
+      "en": "I couldn't stop watching.",
+      "ru": "Я не мог(ла) оторваться от просмотра.",
+      "uz": "Koʻrishdan toʻxtay olmadim."
+    },
+    {
+      "en": "We should check it out sometime.",
+      "ru": "Нам стоит как-нибудь это посмотреть / посетить.",
+      "uz": "Qachondir buni koʻrishimiz kerak."
+    },
+    {
+      "en": "I like your style.",
+      "ru": "Мне нравится твой стиль.",
+      "uz": "Uslubingiz menga yoqadi."
+    },
+    {
+      "en": "That's a great jacket.",
+      "ru": "Отличная куртка.",
+      "uz": "Kurtkangiz juda chiroyli."
+    },
+    {
+      "en": "You have a great sense of humour.",
+      "ru": "У тебя отличное чувство юмора.",
+      "uz": "Sizda ajoyib hazil tuygʻusi bor."
+    },
+    {
+      "en": "You always know what to say.",
+      "ru": "Ты всегда знаешь, что сказать.",
+      "uz": "Siz doim nima deyishni bilasiz."
+    },
+    {
+      "en": "You make this look easy.",
+      "ru": "У тебя это выглядит легко.",
+      "uz": "Sizda bu oson koʻrinadi."
+    },
+    {
+      "en": "That's a really good idea.",
+      "ru": "Это действительно хорошая идея.",
+      "uz": "Bu rostdan ham yaxshi fikr."
+    },
+    {
+      "en": "You have great taste in music.",
+      "ru": "У тебя отличный музыкальный вкус.",
+      "uz": "Sizning musiqiy didingiz ajoyib."
+    },
+    {
+      "en": "It's always fun talking to you.",
+      "ru": "С тобой всегда интересно разговаривать.",
+      "uz": "Siz bilan suhbatlashish doim qiziq."
+    },
+    {
+      "en": "You look well-rested.",
+      "ru": "Ты выглядишь отдохнувшим / отдохнувшей.",
+      "uz": "Siz dam olgandek koʻrinasiz."
+    },
+    {
+      "en": "I love your positive attitude.",
+      "ru": "Мне нравится твой позитивный настрой.",
+      "uz": "Sizning ijobiy kayfiyatingiz menga yoqadi."
+    },
+    {
+      "en": "How about you?",
+      "ru": "А ты?",
+      "uz": "Oʻzingiz-chi?"
+    },
+    {
+      "en": "What happened next?",
+      "ru": "Что было дальше?",
+      "uz": "Keyin nima boʻldi?"
+    },
+    {
+      "en": "Tell me more about that.",
+      "ru": "Расскажи мне об этом подробнее.",
+      "uz": "Bu haqda batafsilroq gapirib bering."
+    },
+    {
+      "en": "Really? How come?",
+      "ru": "Правда? Почему так?",
+      "uz": "Rostdanmi? Nega unday?"
+    },
+    {
+      "en": "What was that like?",
+      "ru": "Каково это было?",
+      "uz": "Bu qanday edi?"
+    },
+    {
+      "en": "And how did you feel about it?",
+      "ru": "И что ты по этому поводу почувствовал(а)?",
+      "uz": "Bu haqda oʻzingiz nima his qildingiz?"
+    },
+    {
+      "en": "That reminds me of something.",
+      "ru": "Это напоминает мне кое-что.",
+      "uz": "Bu menga bir narsani eslatdi."
+    },
+    {
+      "en": "I know exactly what you mean.",
+      "ru": "Я прекрасно понимаю, что ты имеешь в виду.",
+      "uz": "Nima demoqchi ekaningizni juda yaxshi tushunaman."
+    },
+    {
+      "en": "No kidding!",
+      "ru": "Вот это да! / Не шутишь!",
+      "uz": "Qoʻyavering-e!"
+    },
+    {
+      "en": "So, what happened in the end?",
+      "ru": "Так чем всё закончилось?",
+      "uz": "Xoʻsh, oxiri nima boʻldi?"
+    },
+    {
+      "en": "What were you like as a child?",
+      "ru": "Каким / какой ты был(а) в детстве?",
+      "uz": "Bolaligingizda qanday edingiz?"
+    },
+    {
+      "en": "I used to do that all the time.",
+      "ru": "Раньше я постоянно так делал(а).",
+      "uz": "Men ilgari doim shunday qilardim."
+    },
+    {
+      "en": "I haven't thought about that in years.",
+      "ru": "Я не вспоминал(а) об этом много лет.",
+      "uz": "Men bu haqda yillar davomida oʻylamagan ekanman."
+    },
+    {
+      "en": "That brings back memories.",
+      "ru": "Это навевает воспоминания.",
+      "uz": "Bu xotiralarni uygʻotadi."
+    },
+    {
+      "en": "Those were the days.",
+      "ru": "Были времена.",
+      "uz": "Zoʻr kunlar edi-da."
+    },
+    {
+      "en": "I remember it like it was yesterday.",
+      "ru": "Я помню это как будто вчера.",
+      "uz": "Men buni xuddi kechagidek eslayman."
+    },
+    {
+      "en": "We had so much fun back then.",
+      "ru": "Тогда мы так весело проводили время.",
+      "uz": "Oʻshanda juda zoʻr vaqt oʻtkazardik."
+    },
+    {
+      "en": "How has it changed since then?",
+      "ru": "Как это изменилось с тех пор?",
+      "uz": "Oʻshandan beri bu qanday oʻzgardi?"
+    },
+    {
+      "en": "I learned a lot from that experience.",
+      "ru": "Я многому научился / научилась благодаря этому опыту.",
+      "uz": "Men bu tajribadan koʻp narsa oʻrgandim."
+    },
+    {
+      "en": "I'd love to do that again someday.",
+      "ru": "Я бы хотел(а) когда-нибудь повторить это.",
+      "uz": "Men buni qachondir yana qilishni xohlardim."
+    },
+    {
+      "en": "What are you looking forward to?",
+      "ru": "Чего ты ждёшь с нетерпением?",
+      "uz": "Nimani intiqlik bilan kutyapsiz?"
+    },
+    {
+      "en": "I hope to travel more next year.",
+      "ru": "Надеюсь больше путешествовать в следующем году.",
+      "uz": "Kelgusi yili koʻproq sayohat qilsam deyman."
+    },
+    {
+      "en": "I'd like to learn another language.",
+      "ru": "Я хотел(а) бы выучить ещё один язык.",
+      "uz": "Men yana bir tilni oʻrganmoqchiman."
+    },
+    {
+      "en": "Let's see what the future brings.",
+      "ru": "Посмотрим, что принесёт будущее.",
+      "uz": "Kelajak nima keltirishini koʻramiz."
+    },
+    {
+      "en": "I have a few things planned.",
+      "ru": "У меня запланировано несколько дел.",
+      "uz": "Mening bir nechta rejam bor."
+    },
+    {
+      "en": "I'm excited about what's next.",
+      "ru": "Я с интересом жду того, что будет дальше.",
+      "uz": "Keyin nima boʻlishi meni qiziqtiryapti."
+    },
+    {
+      "en": "One day, I'd love to...",
+      "ru": "Однажды я бы хотел(а)...",
+      "uz": "Qachondir men ... qilsam deyman."
+    },
+    {
+      "en": "I'm working toward that goal.",
+      "ru": "Я двигаюсь к этой цели.",
+      "uz": "Men shu maqsad sari harakat qilyapman."
+    },
+    {
+      "en": "Hopefully, things will work out.",
+      "ru": "Надеюсь, всё сложится удачно.",
+      "uz": "Umid qilamanki, hammasi yaxshi boʻladi."
+    },
+    {
+      "en": "That gives me something to look forward to.",
+      "ru": "Теперь мне есть чего ждать.",
+      "uz": "Endi menda kutadigan narsa paydo boʻldi."
+    },
+    {
+      "en": "How do you know the host?",
+      "ru": "Откуда ты знаешь хозяина / организатора?",
+      "uz": "Mezbonni qayerdan bilasiz?"
+    },
+    {
+      "en": "Have you tried the snacks?",
+      "ru": "Ты пробовал(а) закуски?",
+      "uz": "Gazaklarni tatib koʻrdingizmi?"
+    },
+    {
+      "en": "It's a great turnout.",
+      "ru": "Пришло много людей.",
+      "uz": "Juda koʻp odam kelibdi."
+    },
+    {
+      "en": "The place looks amazing.",
+      "ru": "Место выглядит потрясающе.",
+      "uz": "Joy ajoyib koʻrinyapti."
+    },
+    {
+      "en": "Are you enjoying yourself?",
+      "ru": "Тебе нравится проводить здесь время?",
+      "uz": "Sizga yoqyaptimi?"
+    },
+    {
+      "en": "Would you like something to drink?",
+      "ru": "Хочешь что-нибудь выпить?",
+      "uz": "Biror narsa ichasizmi?"
+    },
+    {
+      "en": "I should mingle a bit.",
+      "ru": "Мне стоит немного пообщаться с другими.",
+      "uz": "Men boshqalar bilan ham gaplashib kelay."
+    },
+    {
+      "en": "Thanks for having me.",
+      "ru": "Спасибо, что пригласили.",
+      "uz": "Taklif qilganingiz uchun rahmat."
+    },
+    {
+      "en": "I don't want to keep you.",
+      "ru": "Не хочу задерживать тебя.",
+      "uz": "Sizni ushlab qolmoqchi emasman."
+    },
+    {
+      "en": "Let's catch up again soon.",
+      "ru": "Давай скоро снова встретимся и поболтаем.",
+      "uz": "Tez orada yana koʻrishaylik."
+    },
+    {
+      "en": "You must be joking.",
+      "ru": "Ты, должно быть, шутишь.",
+      "uz": "Siz hazillashyapsiz shekilli."
+    },
+    {
+      "en": "Well, that was unexpected.",
+      "ru": "Ну, этого я не ожидал(а).",
+      "uz": "Xoʻsh, bunisi kutilmagan boʻldi."
+    },
+    {
+      "en": "At least we can laugh about it now.",
+      "ru": "По крайней мере, теперь мы можем над этим посмеяться.",
+      "uz": "Hech boʻlmasa endi bunga kulsak boʻladi."
+    },
+    {
+      "en": "I'm not even surprised.",
+      "ru": "Я даже не удивлён(а).",
+      "uz": "Men hatto hayron ham boʻlmadim."
+    },
+    {
+      "en": "That's one way to put it.",
+      "ru": "Можно и так сказать.",
+      "uz": "Bunday deyish ham mumkin."
+    },
+    {
+      "en": "You read my mind.",
+      "ru": "Ты читаешь мои мысли.",
+      "uz": "Siz mening fikrimni oʻqidingiz."
+    },
+    {
+      "en": "Great minds think alike.",
+      "ru": "У великих умов мысли сходятся.",
+      "uz": "Aqlli odamlarning fikri bir joydan chiqadi."
+    },
+    {
+      "en": "I walked right into that one.",
+      "ru": "Сам(а) напросился / напросилась.",
+      "uz": "Oʻzim soʻrab oldim-da."
+    },
+    {
+      "en": "I'll take that as a compliment.",
+      "ru": "Буду считать это комплиментом.",
+      "uz": "Buni iltifot deb qabul qilaman."
+    },
+    {
+      "en": "Well, that's awkward.",
+      "ru": "Ну, неловко получилось.",
+      "uz": "Xoʻsh, noqulay boʻldi."
+    },
+    {
+      "en": "What do you like to be called?",
+      "ru": "Как к тебе лучше обращаться?",
+      "uz": "Sizga qanday murojaat qilsam boʻladi?"
+    },
+    {
+      "en": "What brought you to this event?",
+      "ru": "Что привело тебя на это мероприятие?",
+      "uz": "Sizni bu tadbirga nima olib keldi?"
+    },
+    {
+      "en": "Are you from around here?",
+      "ru": "Ты местный / местная?",
+      "uz": "Shu atrofdanmisiz?"
+    },
+    {
+      "en": "What line of work are you in?",
+      "ru": "В какой сфере ты работаешь?",
+      "uz": "Qaysi sohada ishlaysiz?"
+    },
+    {
+      "en": "How do you spend most of your time?",
+      "ru": "Чем ты обычно занимаешься?",
+      "uz": "Vaqtingizning koʻp qismini nimaga sarflaysiz?"
+    },
+    {
+      "en": "It's been great getting to know you.",
+      "ru": "Было здорово познакомиться с тобой поближе.",
+      "uz": "Siz bilan yaqinroq tanishganim juda yaxshi boʻldi."
+    },
+    {
+      "en": "Do you use social media much?",
+      "ru": "Ты часто пользуешься соцсетями?",
+      "uz": "Ijtimoiy tarmoqlardan koʻp foydalanasizmi?"
+    },
+    {
+      "en": "Would you like to stay in touch?",
+      "ru": "Хочешь оставаться на связи?",
+      "uz": "Aloqada boʻlib turishni xohlaysizmi?"
+    },
+    {
+      "en": "I think we'd get along well.",
+      "ru": "Думаю, мы бы хорошо поладили.",
+      "uz": "Menimcha, biz yaxshi chiqishardik."
+    },
+    {
+      "en": "I hope we run into each other again.",
+      "ru": "Надеюсь, мы ещё встретимся.",
+      "uz": "Umid qilamanki, yana uchrashamiz."
+    },
+    {
+      "en": "Oh, I see.",
+      "ru": "А, понятно.",
+      "uz": "Ha, tushunarli."
+    },
+    {
+      "en": "That makes sense.",
+      "ru": "В этом есть смысл.",
+      "uz": "Bunda mantiq bor."
+    },
+    {
+      "en": "Fair enough.",
+      "ru": "Ладно, справедливо.",
+      "uz": "Mayli, adolatli."
+    },
+    {
+      "en": "Good for you!",
+      "ru": "Рад(а) за тебя!",
+      "uz": "Qoyil sizga!"
+    },
+    {
+      "en": "Lucky you!",
+      "ru": "Повезло тебе!",
+      "uz": "Omadingiz bor ekan!"
+    },
+    {
+      "en": "That's a shame.",
+      "ru": "Как жаль.",
+      "uz": "Afsus."
+    },
+    {
+      "en": "What a coincidence!",
+      "ru": "Какое совпадение!",
+      "uz": "Qanday tasodif!"
+    },
+    {
+      "en": "I can imagine.",
+      "ru": "Могу себе представить.",
+      "uz": "Tasavvur qila olaman."
+    },
+    {
+      "en": "I know the feeling.",
+      "ru": "Знакомое чувство.",
+      "uz": "Bu tuygʻu menga tanish."
+    },
+    {
+      "en": "You never know.",
+      "ru": "Кто знает.",
+      "uz": "Kim biladi deysiz."
+    },
+    {
+      "en": "I should let you get back to it.",
+      "ru": "Не буду тебя больше отвлекать.",
+      "uz": "Ishingizga qaytishingizga xalaqit bermay."
+    },
+    {
+      "en": "It was nice chatting with you.",
+      "ru": "Было приятно поболтать с тобой.",
+      "uz": "Siz bilan suhbatlashganim yoqdi."
+    },
+    {
+      "en": "I need to catch up with someone.",
+      "ru": "Мне нужно поговорить ещё с одним человеком.",
+      "uz": "Men yana bir odam bilan gaplashishim kerak."
+    },
+    {
+      "en": "Let's talk again soon.",
+      "ru": "Давай скоро снова поговорим.",
+      "uz": "Tez orada yana gaplashaylik."
+    },
+    {
+      "en": "I won't keep you any longer.",
+      "ru": "Не буду больше тебя задерживать.",
+      "uz": "Sizni endi ushlab turmayman."
+    },
+    {
+      "en": "Enjoy the rest of your evening.",
+      "ru": "Приятного продолжения вечера.",
+      "uz": "Kechangizning qolgan qismi yaxshi oʻtsin."
+    },
+    {
+      "en": "I'll see you around.",
+      "ru": "Ещё увидимся.",
+      "uz": "Yana koʻrishamiz."
+    },
+    {
+      "en": "Let's grab coffee sometime.",
+      "ru": "Давай как-нибудь выпьем кофе.",
+      "uz": "Qachondir qahva ichgani boraylik."
+    },
+    {
+      "en": "Give me a shout sometime.",
+      "ru": "Как-нибудь напиши или позвони мне.",
+      "uz": "Qachondir xabar qiling."
+    },
+    {
+      "en": "Take it easy.",
+      "ru": "Не перенапрягайся / береги себя.",
+      "uz": "Oʻzingizni asrang."
+    },
+    {
+      "en": "What's been keeping you busy?",
+      "ru": "Чем ты был(а) занят(а) в последнее время?",
+      "uz": "Soʻnggi paytlarda nima bilan bandsiz?"
+    },
+    {
+      "en": "Have you got anything planned for tomorrow?",
+      "ru": "У тебя есть планы на завтра?",
+      "uz": "Ertangi kunga rejangiz bormi?"
+    },
+    {
+      "en": "What's your favourite way to relax?",
+      "ru": "Как ты больше всего любишь отдыхать?",
+      "uz": "Dam olishning qaysi usulini koʻproq yoqtirasiz?"
+    },
+    {
+      "en": "Have you always lived here?",
+      "ru": "Ты всегда здесь жил(а)?",
+      "uz": "Siz doim shu yerda yashaganmisiz?"
+    },
+    {
+      "en": "What's something you're looking forward to?",
+      "ru": "Чего ты ждёшь с нетерпением?",
+      "uz": "Intiqlik bilan kutayotgan narsangiz nima?"
+    },
+    {
+      "en": "What's the best thing about your week?",
+      "ru": "Что было лучшим на этой неделе?",
+      "uz": "Bu haftaning eng yaxshi tomoni nima boʻldi?"
+    },
+    {
+      "en": "Have you discovered anything interesting lately?",
+      "ru": "Ты недавно открыл(а) для себя что-нибудь интересное?",
+      "uz": "Soʻnggi paytlarda qiziqarli biror narsa kashf qildingizmi?"
+    },
+    {
+      "en": "What's your usual weekend like?",
+      "ru": "Как обычно проходят твои выходные?",
+      "uz": "Dam olish kunlaringiz odatda qanday oʻtadi?"
+    },
+    {
+      "en": "What would you do if you had a free day?",
+      "ru": "Что бы ты сделал(а), если бы у тебя был свободный день?",
+      "uz": "Agar bir kun boʻsh boʻlsangiz, nima qilardingiz?"
+    },
+    {
+      "en": "Anything else exciting going on?",
+      "ru": "Происходит ещё что-нибудь интересное?",
+      "uz": "Yana qiziqarli biror narsa boʻlyaptimi?"
+    }
+  ]
+}

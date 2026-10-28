@@ -40,11 +40,13 @@
       "kind": "phrases",
       "title": {
         "en": "Small Talk",
-        "ru": "Непринуждённое общение"
+        "ru": "Непринуждённое общение",
+        "uz": "Erkin muloqot"
       },
       "file": "chapters/small-talk.json",
       "lessonCount": 20,
-      "phraseCount": 200
+      "phraseCount": 200,
+      "translatedUz": true
     },
     {
       "id": "questions-requests",

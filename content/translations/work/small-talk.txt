@@ -1,0 +1,200 @@
+phrase|Hi, how's your day going?||Привет, как проходит твой день?|Salom, kuningiz qanday oʻtyapti?
+phrase|Have we met before?||Мы раньше встречались?|Biz avval uchrashganmidik?
+phrase|I don't think we've been introduced.||Кажется, нас ещё не представили друг другу.|Bizni hali tanishtirishmagan shekilli.
+phrase|Mind if I join you?||Не возражаешь, если я присоединюсь?|Sizga qoʻshilsam boʻladimi?
+phrase|Is this seat taken?||Это место занято?|Bu joy bandmi?
+phrase|How do you know everyone here?||Откуда ты всех здесь знаешь?|Bu yerdagilarning hammasini qayerdan bilasiz?
+phrase|It's quite busy here today.||Сегодня здесь довольно людно.|Bugun bu yerda ancha gavjum.
+phrase|What brings you here?||Что привело тебя сюда?|Bu yerga nima sabab bilan keldingiz?
+phrase|Have you been here long?||Ты давно здесь?|Bu yerda uzoq boʻldingizmi?
+phrase|It's nice to finally meet you.||Приятно наконец познакомиться.|Nihoyat tanishganimizdan xursandman.
+phrase|How's your day been?||Как прошёл твой день?|Kuningiz qanday oʻtdi?
+phrase|It's been a busy day.||День был насыщенным.|Kun sertashvish boʻldi.
+phrase|I've had a pretty good day.||День прошёл довольно хорошо.|Kunim ancha yaxshi oʻtdi.
+phrase|Anything interesting happen today?||Сегодня произошло что-нибудь интересное?|Bugun qiziq biror narsa boʻldimi?
+phrase|It's been one of those days.||Сегодня был один из тех непростых дней.|Bugun oʻsha qiyin kunlardan biri boʻldi.
+phrase|I'm looking forward to the weekend.||Я жду не дождусь выходных.|Dam olish kunlarini intiqlik bilan kutyapman.
+phrase|Today went by so quickly.||Сегодняшний день пролетел так быстро.|Bugungi kun juda tez oʻtib ketdi.
+phrase|I could use a little break.||Мне бы не помешал небольшой перерыв.|Menga bir oz tanaffus kerak edi.
+phrase|It's finally time to relax.||Наконец-то можно отдохнуть.|Nihoyat dam olish vaqti keldi.
+phrase|How's your week going so far?||Как проходит твоя неделя?|Haftangiz hozircha qanday oʻtyapti?
+phrase|How's work going?||Как дела на работе?|Ish qalay?
+phrase|What are you working on these days?||Над чем ты сейчас работаешь?|Hozir nima ustida ishlayapsiz?
+phrase|How long have you been doing that?||Как давно ты этим занимаешься?|Bu ish bilan qancha vaqtdan beri shugʻullanasiz?
+phrase|Do you enjoy what you do?||Тебе нравится то, чем ты занимаешься?|Qilayotgan ishingiz sizga yoqadimi?
+phrase|How's your course going?||Как проходит твой курс?|Kursingiz qanday ketyapti?
+phrase|Have you been busy lately?||Ты в последнее время занят(а)?|Soʻnggi paytlarda bandmisiz?
+phrase|What's the best part of your job?||Что тебе больше всего нравится в работе?|Ishingizning eng yaxshi tomoni nima?
+phrase|I'm learning something new at the moment.||Сейчас я изучаю кое-что новое.|Hozir men yangi bir narsani oʻrganyapman.
+phrase|That sounds like an interesting job.||Звучит как интересная работа.|Qiziqarli ishga oʻxshaydi.
+phrase|I hope work isn't too stressful.||Надеюсь, работа не слишком утомительная.|Umid qilamanki, ish juda charchatmayapti.
+phrase|What do you do for fun?||Чем ты занимаешься для удовольствия?|Koʻngilxushlik uchun nima qilasiz?
+phrase|What do you like doing in your free time?||Что ты любишь делать в свободное время?|Boʻsh vaqtingizda nima qilishni yoqtirasiz?
+phrase|Have you picked up any new hobbies?||У тебя появились новые увлечения?|Yangi mashgʻulotlar paydo boʻldimi?
+phrase|I'm really into music.||Я очень увлекаюсь музыкой.|Men musiqaga juda qiziqaman.
+phrase|Do you play any sports?||Ты занимаешься каким-нибудь спортом?|Biror sport turi bilan shugʻullanasizmi?
+phrase|I like trying new things.||Мне нравится пробовать новое.|Menga yangi narsalarni sinab koʻrish yoqadi.
+phrase|What kind of books do you read?||Какие книги ты читаешь?|Qanday kitoblar oʻqiysiz?
+phrase|Have you seen any good films lately?||Ты недавно смотрел(а) хорошие фильмы?|Soʻnggi paytlarda yaxshi film koʻrdingizmi?
+phrase|I spend a lot of time outdoors.||Я много времени провожу на свежем воздухе.|Men koʻp vaqtimni ochiq havoda oʻtkazaman.
+phrase|That sounds like a fun hobby.||Звучит как интересное увлечение.|Qiziqarli mashgʻulotga oʻxshaydi.
+phrase|Any plans for the weekend?||Есть планы на выходные?|Dam olish kunlariga rejangiz bormi?
+phrase|I'm keeping it low-key this weekend.||В эти выходные я планирую спокойно отдохнуть.|Bu dam olish kunlarini tinchgina oʻtkazmoqchiman.
+phrase|I'm meeting some friends.||Я встречаюсь с друзьями.|Doʻstlarim bilan uchrashaman.
+phrase|We're thinking of going out.||Мы думаем куда-нибудь сходить.|Biz biror joyga chiqmoqchimiz.
+phrase|Do you want to do something together?||Хочешь что-нибудь сделать вместе?|Birgalikda biror narsa qilmaymizmi?
+phrase|I haven't made any plans yet.||Я ещё ничего не запланировал(а).|Men hali hech narsa rejalashtirmadim.
+phrase|Hopefully, the weather will be nice.||Надеюсь, погода будет хорошей.|Umid qilamanki, ob-havo yaxshi boʻladi.
+phrase|I'm planning to catch up on sleep.||Планирую отоспаться.|Yaxshilab uxlab olmoqchiman.
+phrase|That sounds like a good way to spend the weekend.||Звучит как хороший способ провести выходные.|Dam olish kunlarini oʻtkazishning yaxshi usuliga oʻxshaydi.
+phrase|Enjoy your weekend!||Хороших выходных!|Dam olish kunlaringiz yaxshi oʻtsin!
+phrase|Have you tried this place before?||Ты раньше бывал(а) в этом месте?|Bu yerga avval kelganmidingiz?
+phrase|What's your go-to coffee order?||Какой кофе ты обычно заказываешь?|Odatda qanday qahva buyurtirasiz?
+phrase|Do you have a favourite restaurant?||У тебя есть любимый ресторан?|Sevimli restoraningiz bormi?
+phrase|I'm always up for good food.||Я всегда не против вкусно поесть.|Men doim mazali taomdan boʻsh kelmayman.
+phrase|That smells amazing.||Пахнет потрясающе.|Hidi ajoyib.
+phrase|What would you recommend here?||Что бы ты здесь посоветовал(а)?|Bu yerda nimani tavsiya qilasiz?
+phrase|I'm trying to eat a bit healthier.||Я стараюсь питаться немного полезнее.|Men biroz sogʻlomroq ovqatlanishga harakat qilyapman.
+phrase|Do you prefer tea or coffee?||Ты предпочитаешь чай или кофе?|Choyni afzal koʻrasizmi yoki qahvani?
+phrase|We should try that place sometime.||Нам стоит как-нибудь попробовать то место.|Qachondir oʻsha joyni sinab koʻrishimiz kerak.
+phrase|This is exactly what I needed.||Это именно то, что мне было нужно.|Bu aynan menga kerak boʻlgan narsa edi.
+phrase|Have you travelled anywhere recently?||Ты недавно куда-нибудь ездил(а)?|Soʻnggi paytlarda biror joyga sayohat qildingizmi?
+phrase|What's your favourite place you've visited?||Какое место из посещённых тебе понравилось больше всего?|Borgan joylaringizdan qaysi biri eng yoqqan?
+phrase|I'd love to visit that place.||Я бы с удовольствием посетил(а) это место.|Men oʻsha joyga borishni juda xohlardim.
+phrase|Do you travel often?||Ты часто путешествуешь?|Tez-tez sayohat qilasizmi?
+phrase|What's it like living here?||Каково это — жить здесь?|Bu yerda yashash qanday?
+phrase|Is there much to do around here?||Здесь есть чем заняться?|Bu atrofda qiladigan ish koʻpmi?
+phrase|I still have so many places to see.||Мне ещё столько мест нужно увидеть.|Hali koʻrishim kerak boʻlgan joylar juda koʻp.
+phrase|I prefer travelling in the off-season.||Я предпочитаю путешествовать не в сезон.|Men mavsumdan tashqari sayohat qilishni afzal koʻraman.
+phrase|What's the best trip you've ever taken?||Какая поездка была лучшей в твоей жизни?|Hayotingizdagi eng yaxshi sayohat qaysi edi?
+phrase|I'd recommend it to anyone.||Я бы порекомендовал(а) это всем.|Men buni hammaga tavsiya qilgan boʻlardim.
+phrase|Lovely weather we're having.||Какая прекрасная у нас погода.|Ob-havo ajoyib-a.
+phrase|It's a bit chilly today.||Сегодня немного прохладно.|Bugun biroz salqin.
+phrase|It's warmer than I expected.||Теплее, чем я ожидал(а).|Kutganimdan iliqroq ekan.
+phrase|Looks like it's going to rain.||Похоже, будет дождь.|Yomgʻir yogʻadiganga oʻxshaydi.
+phrase|I hope it clears up soon.||Надеюсь, скоро прояснится.|Umid qilamanki, tez orada ochiladi.
+phrase|The weather has been all over the place.||Погода в последнее время постоянно меняется.|Ob-havo soʻnggi paytlarda juda oʻzgaruvchan.
+phrase|It's perfect weather for a walk.||Идеальная погода для прогулки.|Sayr qilish uchun ajoyib ob-havo.
+phrase|I can't believe how hot it is.||Не могу поверить, как жарко.|Bu qadar issiq boʻlishiga ishonib boʻlmaydi.
+phrase|At least it's not too windy.||По крайней мере, не слишком ветрено.|Hech boʻlmasa shamol kuchli emas.
+phrase|I love this time of year.||Я люблю это время года.|Men yilning shu faslini yaxshi koʻraman.
+phrase|How's your family doing?||Как поживает твоя семья?|Oilangiz qalay?
+phrase|Do you have any brothers or sisters?||У тебя есть братья или сёстры?|Aka-uka yoki opa-singillaringiz bormi?
+phrase|Are you close to your family?||Ты близок / близка со своей семьёй?|Oilangiz bilan yaqinmisiz?
+phrase|How did you two meet?||Как вы познакомились?|Ikkovingiz qanday tanishgansiz?
+phrase|We go way back.||Мы знакомы очень давно.|Biz juda qadimdan tanishmiz.
+phrase|I haven't seen them in ages.||Я их целую вечность не видел(а).|Men ularni ancha vaqtdan beri koʻrmaganman.
+phrase|We try to get together regularly.||Мы стараемся регулярно встречаться.|Biz muntazam uchrashib turishga harakat qilamiz.
+phrase|Your friend seems really nice.||Твой друг кажется очень приятным человеком.|Doʻstingiz juda yoqimli odamga oʻxshaydi.
+phrase|Please say hello to your family for me.||Передавай привет своей семье.|Oilangizga mendan salom ayting.
+phrase|It's always good to catch up with old friends.||Всегда приятно повидаться со старыми друзьями.|Eski doʻstlar bilan koʻrishish doim yoqimli.
+phrase|Have you watched anything good lately?||Ты недавно смотрел(а) что-нибудь интересное?|Soʻnggi paytlarda yaxshi biror narsa koʻrdingizmi?
+phrase|What kind of music are you into?||Какую музыку ты любишь?|Qanday musiqani yoqtirasiz?
+phrase|Have you heard of this band?||Ты слышал(а) об этой группе?|Bu guruh haqida eshitganmisiz?
+phrase|I've been listening to them a lot.||Я много их слушаю в последнее время.|Men ularni soʻnggi paytlarda koʻp tinglayapman.
+phrase|That show is really popular right now.||Это шоу сейчас очень популярно.|Bu koʻrsatuv hozir juda mashhur.
+phrase|I'm thinking of going to a concert.||Думаю сходить на концерт.|Konsertga borsammikan deb oʻylayapman.
+phrase|Do you prefer films or series?||Ты предпочитаешь фильмы или сериалы?|Filmlarni afzal koʻrasizmi yoki seriallarni?
+phrase|The ending caught me by surprise.||Концовка меня удивила.|Yakuni meni hayratda qoldirdi.
+phrase|I couldn't stop watching.||Я не мог(ла) оторваться от просмотра.|Koʻrishdan toʻxtay olmadim.
+phrase|We should check it out sometime.||Нам стоит как-нибудь это посмотреть / посетить.|Qachondir buni koʻrishimiz kerak.
+phrase|I like your style.||Мне нравится твой стиль.|Uslubingiz menga yoqadi.
+phrase|That's a great jacket.||Отличная куртка.|Kurtkangiz juda chiroyli.
+phrase|You have a great sense of humour.||У тебя отличное чувство юмора.|Sizda ajoyib hazil tuygʻusi bor.
+phrase|You always know what to say.||Ты всегда знаешь, что сказать.|Siz doim nima deyishni bilasiz.
+phrase|You make this look easy.||У тебя это выглядит легко.|Sizda bu oson koʻrinadi.
+phrase|That's a really good idea.||Это действительно хорошая идея.|Bu rostdan ham yaxshi fikr.
+phrase|You have great taste in music.||У тебя отличный музыкальный вкус.|Sizning musiqiy didingiz ajoyib.
+phrase|It's always fun talking to you.||С тобой всегда интересно разговаривать.|Siz bilan suhbatlashish doim qiziq.
+phrase|You look well-rested.||Ты выглядишь отдохнувшим / отдохнувшей.|Siz dam olgandek koʻrinasiz.
+phrase|I love your positive attitude.||Мне нравится твой позитивный настрой.|Sizning ijobiy kayfiyatingiz menga yoqadi.
+phrase|How about you?||А ты?|Oʻzingiz-chi?
+phrase|What happened next?||Что было дальше?|Keyin nima boʻldi?
+phrase|Tell me more about that.||Расскажи мне об этом подробнее.|Bu haqda batafsilroq gapirib bering.
+phrase|Really? How come?||Правда? Почему так?|Rostdanmi? Nega unday?
+phrase|What was that like?||Каково это было?|Bu qanday edi?
+phrase|And how did you feel about it?||И что ты по этому поводу почувствовал(а)?|Bu haqda oʻzingiz nima his qildingiz?
+phrase|That reminds me of something.||Это напоминает мне кое-что.|Bu menga bir narsani eslatdi.
+phrase|I know exactly what you mean.||Я прекрасно понимаю, что ты имеешь в виду.|Nima demoqchi ekaningizni juda yaxshi tushunaman.
+phrase|No kidding!||Вот это да! / Не шутишь!|Qoʻyavering-e!
+phrase|So, what happened in the end?||Так чем всё закончилось?|Xoʻsh, oxiri nima boʻldi?
+phrase|What were you like as a child?||Каким / какой ты был(а) в детстве?|Bolaligingizda qanday edingiz?
+phrase|I used to do that all the time.||Раньше я постоянно так делал(а).|Men ilgari doim shunday qilardim.
+phrase|I haven't thought about that in years.||Я не вспоминал(а) об этом много лет.|Men bu haqda yillar davomida oʻylamagan ekanman.
+phrase|That brings back memories.||Это навевает воспоминания.|Bu xotiralarni uygʻotadi.
+phrase|Those were the days.||Были времена.|Zoʻr kunlar edi-da.
+phrase|I remember it like it was yesterday.||Я помню это как будто вчера.|Men buni xuddi kechagidek eslayman.
+phrase|We had so much fun back then.||Тогда мы так весело проводили время.|Oʻshanda juda zoʻr vaqt oʻtkazardik.
+phrase|How has it changed since then?||Как это изменилось с тех пор?|Oʻshandan beri bu qanday oʻzgardi?
+phrase|I learned a lot from that experience.||Я многому научился / научилась благодаря этому опыту.|Men bu tajribadan koʻp narsa oʻrgandim.
+phrase|I'd love to do that again someday.||Я бы хотел(а) когда-нибудь повторить это.|Men buni qachondir yana qilishni xohlardim.
+phrase|What are you looking forward to?||Чего ты ждёшь с нетерпением?|Nimani intiqlik bilan kutyapsiz?
+phrase|I hope to travel more next year.||Надеюсь больше путешествовать в следующем году.|Kelgusi yili koʻproq sayohat qilsam deyman.
+phrase|I'd like to learn another language.||Я хотел(а) бы выучить ещё один язык.|Men yana bir tilni oʻrganmoqchiman.
+phrase|Let's see what the future brings.||Посмотрим, что принесёт будущее.|Kelajak nima keltirishini koʻramiz.
+phrase|I have a few things planned.||У меня запланировано несколько дел.|Mening bir nechta rejam bor.
+phrase|I'm excited about what's next.||Я с интересом жду того, что будет дальше.|Keyin nima boʻlishi meni qiziqtiryapti.
+phrase|One day, I'd love to...||Однажды я бы хотел(а)...|Qachondir men ... qilsam deyman.
+phrase|I'm working toward that goal.||Я двигаюсь к этой цели.|Men shu maqsad sari harakat qilyapman.
+phrase|Hopefully, things will work out.||Надеюсь, всё сложится удачно.|Umid qilamanki, hammasi yaxshi boʻladi.
+phrase|That gives me something to look forward to.||Теперь мне есть чего ждать.|Endi menda kutadigan narsa paydo boʻldi.
+phrase|How do you know the host?||Откуда ты знаешь хозяина / организатора?|Mezbonni qayerdan bilasiz?
+phrase|Have you tried the snacks?||Ты пробовал(а) закуски?|Gazaklarni tatib koʻrdingizmi?
+phrase|It's a great turnout.||Пришло много людей.|Juda koʻp odam kelibdi.
+phrase|The place looks amazing.||Место выглядит потрясающе.|Joy ajoyib koʻrinyapti.
+phrase|Are you enjoying yourself?||Тебе нравится проводить здесь время?|Sizga yoqyaptimi?
+phrase|Would you like something to drink?||Хочешь что-нибудь выпить?|Biror narsa ichasizmi?
+phrase|I should mingle a bit.||Мне стоит немного пообщаться с другими.|Men boshqalar bilan ham gaplashib kelay.
+phrase|Thanks for having me.||Спасибо, что пригласили.|Taklif qilganingiz uchun rahmat.
+phrase|I don't want to keep you.||Не хочу задерживать тебя.|Sizni ushlab qolmoqchi emasman.
+phrase|Let's catch up again soon.||Давай скоро снова встретимся и поболтаем.|Tez orada yana koʻrishaylik.
+phrase|You must be joking.||Ты, должно быть, шутишь.|Siz hazillashyapsiz shekilli.
+phrase|Well, that was unexpected.||Ну, этого я не ожидал(а).|Xoʻsh, bunisi kutilmagan boʻldi.
+phrase|At least we can laugh about it now.||По крайней мере, теперь мы можем над этим посмеяться.|Hech boʻlmasa endi bunga kulsak boʻladi.
+phrase|I'm not even surprised.||Я даже не удивлён(а).|Men hatto hayron ham boʻlmadim.
+phrase|That's one way to put it.||Можно и так сказать.|Bunday deyish ham mumkin.
+phrase|You read my mind.||Ты читаешь мои мысли.|Siz mening fikrimni oʻqidingiz.
+phrase|Great minds think alike.||У великих умов мысли сходятся.|Aqlli odamlarning fikri bir joydan chiqadi.
+phrase|I walked right into that one.||Сам(а) напросился / напросилась.|Oʻzim soʻrab oldim-da.
+phrase|I'll take that as a compliment.||Буду считать это комплиментом.|Buni iltifot deb qabul qilaman.
+phrase|Well, that's awkward.||Ну, неловко получилось.|Xoʻsh, noqulay boʻldi.
+phrase|What do you like to be called?||Как к тебе лучше обращаться?|Sizga qanday murojaat qilsam boʻladi?
+phrase|What brought you to this event?||Что привело тебя на это мероприятие?|Sizni bu tadbirga nima olib keldi?
+phrase|Are you from around here?||Ты местный / местная?|Shu atrofdanmisiz?
+phrase|What line of work are you in?||В какой сфере ты работаешь?|Qaysi sohada ishlaysiz?
+phrase|How do you spend most of your time?||Чем ты обычно занимаешься?|Vaqtingizning koʻp qismini nimaga sarflaysiz?
+phrase|It's been great getting to know you.||Было здорово познакомиться с тобой поближе.|Siz bilan yaqinroq tanishganim juda yaxshi boʻldi.
+phrase|Do you use social media much?||Ты часто пользуешься соцсетями?|Ijtimoiy tarmoqlardan koʻp foydalanasizmi?
+phrase|Would you like to stay in touch?||Хочешь оставаться на связи?|Aloqada boʻlib turishni xohlaysizmi?
+phrase|I think we'd get along well.||Думаю, мы бы хорошо поладили.|Menimcha, biz yaxshi chiqishardik.
+phrase|I hope we run into each other again.||Надеюсь, мы ещё встретимся.|Umid qilamanki, yana uchrashamiz.
+phrase|Oh, I see.||А, понятно.|Ha, tushunarli.
+phrase|That makes sense.||В этом есть смысл.|Bunda mantiq bor.
+phrase|Fair enough.||Ладно, справедливо.|Mayli, adolatli.
+phrase|Good for you!||Рад(а) за тебя!|Qoyil sizga!
+phrase|Lucky you!||Повезло тебе!|Omadingiz bor ekan!
+phrase|That's a shame.||Как жаль.|Afsus.
+phrase|What a coincidence!||Какое совпадение!|Qanday tasodif!
+phrase|I can imagine.||Могу себе представить.|Tasavvur qila olaman.
+phrase|I know the feeling.||Знакомое чувство.|Bu tuygʻu menga tanish.
+phrase|You never know.||Кто знает.|Kim biladi deysiz.
+phrase|I should let you get back to it.||Не буду тебя больше отвлекать.|Ishingizga qaytishingizga xalaqit bermay.
+phrase|It was nice chatting with you.||Было приятно поболтать с тобой.|Siz bilan suhbatlashganim yoqdi.
+phrase|I need to catch up with someone.||Мне нужно поговорить ещё с одним человеком.|Men yana bir odam bilan gaplashishim kerak.
+phrase|Let's talk again soon.||Давай скоро снова поговорим.|Tez orada yana gaplashaylik.
+phrase|I won't keep you any longer.||Не буду больше тебя задерживать.|Sizni endi ushlab turmayman.
+phrase|Enjoy the rest of your evening.||Приятного продолжения вечера.|Kechangizning qolgan qismi yaxshi oʻtsin.
+phrase|I'll see you around.||Ещё увидимся.|Yana koʻrishamiz.
+phrase|Let's grab coffee sometime.||Давай как-нибудь выпьем кофе.|Qachondir qahva ichgani boraylik.
+phrase|Give me a shout sometime.||Как-нибудь напиши или позвони мне.|Qachondir xabar qiling.
+phrase|Take it easy.||Не перенапрягайся / береги себя.|Oʻzingizni asrang.
+phrase|What's been keeping you busy?||Чем ты был(а) занят(а) в последнее время?|Soʻnggi paytlarda nima bilan bandsiz?
+phrase|Have you got anything planned for tomorrow?||У тебя есть планы на завтра?|Ertangi kunga rejangiz bormi?
+phrase|What's your favourite way to relax?||Как ты больше всего любишь отдыхать?|Dam olishning qaysi usulini koʻproq yoqtirasiz?
+phrase|Have you always lived here?||Ты всегда здесь жил(а)?|Siz doim shu yerda yashaganmisiz?
+phrase|What's something you're looking forward to?||Чего ты ждёшь с нетерпением?|Intiqlik bilan kutayotgan narsangiz nima?
+phrase|What's the best thing about your week?||Что было лучшим на этой неделе?|Bu haftaning eng yaxshi tomoni nima boʻldi?
+phrase|Have you discovered anything interesting lately?||Ты недавно открыл(а) для себя что-нибудь интересное?|Soʻnggi paytlarda qiziqarli biror narsa kashf qildingizmi?
+phrase|What's your usual weekend like?||Как обычно проходят твои выходные?|Dam olish kunlaringiz odatda qanday oʻtadi?
+phrase|What would you do if you had a free day?||Что бы ты сделал(а), если бы у тебя был свободный день?|Agar bir kun boʻsh boʻlsangiz, nima qilardingiz?
+phrase|Anything else exciting going on?||Происходит ещё что-нибудь интересное?|Yana qiziqarli biror narsa boʻlyaptimi?
