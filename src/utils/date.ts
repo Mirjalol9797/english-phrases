@@ -46,6 +46,30 @@ export function isDayKey(value: unknown): value is DayKey {
 }
 
 /** «15 октября» — для подписи, когда подойдёт следующее повторение. */
-export function formatDay(key: DayKey): string {
-  return fromDayKey(key).toLocaleDateString('ru-RU', { day: 'numeric', month: 'long' })
+export function formatDay(key: DayKey, language: 'ru' | 'uz' = 'ru'): string {
+  const date = fromDayKey(key)
+  // Узбекская дата пишется числом и месяцем через дефис: «20-oktabr».
+  if (language === 'uz') {
+    return `${date.getDate()}-${UZ_MONTHS[date.getMonth()]}`
+  }
+  return date.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long' })
 }
+
+/**
+ * Месяцы по-узбекски. Берём своим списком, а не через toLocaleDateString:
+ * локаль uz есть не во всех браузерах, и там, где её нет, вышла бы английская.
+ */
+const UZ_MONTHS = [
+  'yanvar',
+  'fevral',
+  'mart',
+  'aprel',
+  'may',
+  'iyun',
+  'iyul',
+  'avgust',
+  'sentabr',
+  'oktabr',
+  'noyabr',
+  'dekabr',
+]

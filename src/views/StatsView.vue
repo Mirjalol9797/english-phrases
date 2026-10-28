@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { useSettingsStore } from '@/stores/settings'
 import { useI18n, nounOf } from '@/i18n'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
@@ -9,6 +10,7 @@ import StatusMessage from '@/components/StatusMessage.vue'
 import { addDays, formatDay, today, weekdayOf, type DayKey } from '@/utils/date'
 import { LEARNED_INTERVAL } from '@/utils/sm2'
 
+const settings = useSettingsStore()
 const { t, plural } = useI18n()
 
 /** Календарь занятий: 18 недель назад — примерно четыре месяца, помещается в ширину экрана. */
@@ -136,7 +138,7 @@ const chapters = computed(() =>
               :style="cell.future ? undefined : cellStyle(cell.answers)"
               :title="
                 t('{day} — {what}', {
-                  day: formatDay(cell.day),
+                  day: formatDay(cell.day, settings.language),
                   what: cell.answers ? plural(cell.answers, 'answer') : t('не занимались'),
                 })
               "
@@ -205,7 +207,7 @@ const chapters = computed(() =>
       </template>
 
       <p v-if="progress.nextDueDay" class="mt-6 sm:mt-8 text-sm text-muted">
-        {{ t('Ближайшее повторение — {day}.', { day: formatDay(progress.nextDueDay) }) }}
+        {{ t('Ближайшее повторение — {day}.', { day: formatDay(progress.nextDueDay, settings.language) }) }}
       </p>
     </template>
   </section>

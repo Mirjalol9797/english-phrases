@@ -157,7 +157,7 @@ useDocumentTitle(() =>
         }}
       </p>
       <p v-if="nextReview" class="mt-1 text-sm text-muted">
-        {{ t('Следующее повторение — {day}.', { day: formatDay(nextReview) }) }}
+        {{ t('Следующее повторение — {day}.', { day: formatDay(nextReview, settings.language) }) }}
       </p>
 
       <ol v-if="mistakenPhrases.length" class="mt-4 sm:mt-5 divide-y divide-line border-y border-line">

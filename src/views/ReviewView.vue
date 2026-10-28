@@ -215,7 +215,7 @@ function onFinish(sessionResults: StepResult[]) {
         <template v-if="due.length === 0">
           <p class="mt-4 text-muted">{{ t('Сегодня повторять нечего.') }}</p>
           <p v-if="progress.nextDueDay" class="mt-1 text-muted">
-            {{ t('Следующее повторение — {day}.', { day: formatDay(progress.nextDueDay) }) }}
+            {{ t('Следующее повторение — {day}.', { day: formatDay(progress.nextDueDay, settings.language) }) }}
           </p>
           <RouterLink to="/chapters" class="btn-primary mt-5 sm:mt-6">{{ t('Учить новое') }}</RouterLink>
         </template>

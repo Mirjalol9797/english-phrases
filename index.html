@@ -9,9 +9,13 @@
     <meta name="description" content="Изучение английских фраз по урокам с повторением" />
     <title>English Phrases</title>
     <script>
-      // Тему выбираем до первой отрисовки, иначе при тёмной теме мелькнёт светлый фон.
-      // Ключ хранилища совпадает с src/stores/settings.ts, цвета — с --paper в src/styles/main.css.
+      // Тему и язык выбираем до первой отрисовки: иначе при тёмной теме мелькнёт
+      // светлый фон, а при узбекском — русская разметка страницы.
+      // Ключи хранилища совпадают с src/stores/settings.ts, цвета — с --paper в src/styles/main.css.
       ;(function () {
+        try {
+          if (localStorage.getItem('english-phrases:language') === 'uz') document.documentElement.lang = 'uz'
+        } catch (e) {}
         var choice = 'system'
         try {
           choice = localStorage.getItem('english-phrases:theme') || 'system'
