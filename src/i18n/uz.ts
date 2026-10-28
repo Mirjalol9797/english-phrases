@@ -142,4 +142,54 @@ export const UZ_TEXT: Record<string, string> = {
   'Выберите перевод': 'Tarjimani tanlang',
   'Выберите английскую фразу': 'Inglizcha iborani tanlang',
   'Произнести фразу': 'Iborani talaffuz qilish',
+
+  // 2.7 — итоги занятия
+  'Урок': 'Dars',
+  'Урок: {title}': 'Dars: {title}',
+  'Часть {n} из {total} пройдена': '{total} qismdan {n}-qismi bajarildi',
+  'Урок пройден': 'Dars bajarildi',
+  '{done} из {total}': '{total} dan {done} tasi',
+  'Без единой ошибки.': 'Birorta ham xato yoʻq.',
+  'Стоит повторить {items}.': '{items} takrorlagan maʼqul.',
+  'Следующее повторение — {day}.': 'Keyingi takrorlash — {day}.',
+  'Повторить ошибки': 'Xatolarni takrorlash',
+  'Следующая часть': 'Keyingi qism',
+  'Пройти часть заново': 'Qismni qaytadan oʻtish',
+  'Пройти заново': 'Qaytadan oʻtish',
+  'К уроку': 'Darsga',
+  'К главе': 'Bobga',
+
+  // 2.8 — повторение
+  'Здесь появятся фразы, которые пора освежить. Система сама решает когда: чем увереннее отвечаете, тем реже спрашивает — от следующего дня до трёх недель.':
+    'Bu yerda yangilash vaqti kelgan iboralar paydo boʻladi. Qachonligini tizim oʻzi hal qiladi: qanchalik ishonchli javob bersangiz, shunchalik kam soʻraydi — ertangi kundan uch haftagacha.',
+  'Начать первый урок': 'Birinchi darsni boshlash',
+  'Глава для повторения': 'Takrorlash uchun bob',
+  'Сегодня повторять нечего.': 'Bugun takrorlaydigan narsa yoʻq.',
+  'Учить новое': 'Yangisini oʻrganish',
+  'Пора повторить {items}.': '{items} takrorlash vaqti keldi.',
+  'За один заход — {n}.': 'Bir martada — {n} ta.',
+  'Начать повторение': 'Takrorlashni boshlash',
+  'Слева — нынешний перерыв: через столько дней фраза вернётся, если ответить верно.':
+    'Chapda — hozirgi tanaffus: toʻgʻri javob bersangiz, ibora shuncha kundan keyin qaytadi.',
+  'Трудные': 'Qiyinlari',
+  'Глава для трудных': 'Qiyinlari uchun bob',
+  'Здесь ошибались чаще всего — {items} в этой главе.':
+    'Bu yerda eng koʻp xato qilingan — shu bobda {items}.',
+  'Здесь ошибались чаще всего — {items}.': 'Bu yerda eng koʻp xato qilingan — {items}.',
+  'Показаны самые трудные {n}, заход тоже из них.':
+    'Eng qiyin {n} tasi koʻrsatilgan, mashgʻulot ham shulardan.',
+  'Повторить трудные': 'Qiyinlarini takrorlash',
+  'Слева — на скольких занятиях из пройденных была ошибка. Запись уходит отсюда после двух верных ответов подряд; новая ошибка возвращает её обратно.':
+    'Chapda — oʻtilgan mashgʻulotlarning nechtasida xato boʻlgani. Yozuv ketma-ket ikkita toʻgʻri javobdan soʻng bu yerdan chiqadi; yangi xato uni qaytaradi.',
+
+  // 2.9 — словарь
+  'Поиск по фразам': 'Iboralar boʻyicha qidiruv',
+  'Фраза на английском или русском': 'Inglizcha yoki ruscha ibora',
+  'Очистить поиск': 'Qidiruvni tozalash',
+  'Глава': 'Bob',
+  'Найдено {items}': '{items} topildi',
+  'Ничего не нашлось': 'Hech narsa topilmadi',
+  'Попробуйте другое слово или уберите фильтр по главе — поиск идёт и по английскому тексту, и по переводу.':
+    'Boshqa soʻzni sinab koʻring yoki bob filtrini olib tashlang — qidiruv ham inglizcha matn, ham tarjima boʻyicha boradi.',
+  'Показать ещё {n}': 'Yana {n} tasini koʻrsatish',
 }

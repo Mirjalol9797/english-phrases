@@ -8,7 +8,7 @@ export const SESSION_SIZE_OPTIONS: { value: number; label: string }[] = [
   { value: 5, label: '5' },
   { value: 10, label: '10' },
   { value: 15, label: '15' },
-  { value: 0, label: 'Весь урок' },
+  { value: 0, label: 'Весь урок' },  // переводится на экране настроек
 ]
 
 export const DEFAULT_SESSION_SIZE = 10

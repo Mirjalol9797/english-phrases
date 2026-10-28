@@ -17,7 +17,7 @@ import { useSpeech } from '@/composables/useSpeech'
 import type { Phrase } from '@/types/content'
 import type { ExerciseKind, PracticeStep, StepResult } from '@/types/practice'
 
-const { plural } = useI18n()
+const { t, plural } = useI18n()
 
 const props = defineProps<{ lessonId: string }>()
 
@@ -121,7 +121,9 @@ function onFinish(sessionResults: StepResult[]) {
   results.value = sessionResults
 }
 
-useDocumentTitle(() => (ctx.value ? `Урок: ${ctx.value.lesson.title.ru}` : 'Урок'))
+useDocumentTitle(() =>
+  ctx.value ? t('Урок: {title}', { title: ctx.value.lesson.title.ru }) : t('Урок'),
+)
 </script>
 
 <template>
@@ -138,20 +140,24 @@ useDocumentTitle(() => (ctx.value ? `Урок: ${ctx.value.lesson.title.ru}` : '
 
     <div v-else class="mt-5 sm:mt-6">
       <p class="text-sm text-muted">
-        {{ split ? `Часть ${partIndex + 1} из ${parts.length} пройдена` : 'Урок пройден' }}
+        {{
+          split
+            ? t('Часть {n} из {total} пройдена', { n: partIndex + 1, total: parts.length })
+            : t('Урок пройден')
+        }}
       </p>
       <h1 class="mt-2 text-[clamp(1.5rem,6vw,2.5rem)] leading-tight font-semibold">
-        <span class="marker">{{ correctCount }} из {{ results?.length ?? 0 }}</span>
+        <span class="marker">{{ t('{done} из {total}', { done: correctCount, total: results?.length ?? 0 }) }}</span>
       </h1>
       <p class="mt-3 text-muted">
         {{
           mistakenPhrases.length === 0
-            ? 'Без единой ошибки.'
-            : `Стоит повторить ${plural(mistakenPhrases.length, 'phraseAcc')}.`
+            ? t('Без единой ошибки.')
+            : t('Стоит повторить {items}.', { items: plural(mistakenPhrases.length, 'phraseAcc') })
         }}
       </p>
       <p v-if="nextReview" class="mt-1 text-sm text-muted">
-        Следующее повторение — {{ formatDay(nextReview) }}.
+        {{ t('Следующее повторение — {day}.', { day: formatDay(nextReview) }) }}
       </p>
 
       <ol v-if="mistakenPhrases.length" class="mt-4 sm:mt-5 divide-y divide-line border-y border-line">
@@ -168,23 +174,23 @@ useDocumentTitle(() => (ctx.value ? `Урок: ${ctx.value.lesson.title.ru}` : '
           class="btn-primary"
           @click="repeatMistakes(wrongAnswers.map(({ phrase, kind }) => ({ phrase, kind })))"
         >
-          Повторить ошибки
+          {{ t('Повторить ошибки') }}
         </button>
         <RouterLink
           v-if="hasNextPart"
           :to="`/lessons/${ctx.lesson.id}/practice?part=${partIndex + 2}`"
           class="btn-quiet"
         >
-          Следующая часть
+          {{ t('Следующая часть') }}
         </RouterLink>
         <button type="button" class="btn-quiet" @click="startCurrentPart">
-          {{ split ? 'Пройти часть заново' : 'Пройти заново' }}
+          {{ split ? t('Пройти часть заново') : t('Пройти заново') }}
         </button>
         <RouterLink v-if="!hasNextPart && ctx.next" :to="`/lessons/${ctx.next.id}/practice`" class="btn-quiet">
-          Следующий урок
+          {{ t('Следующий урок') }}
         </RouterLink>
-        <RouterLink :to="`/lessons/${ctx.lesson.id}`" class="btn-quiet">К уроку</RouterLink>
-        <RouterLink :to="`/chapters/${ctx.chapter.id}`" class="btn-quiet">К главе</RouterLink>
+        <RouterLink :to="`/lessons/${ctx.lesson.id}`" class="btn-quiet">{{ t('К уроку') }}</RouterLink>
+        <RouterLink :to="`/chapters/${ctx.chapter.id}`" class="btn-quiet">{{ t('К главе') }}</RouterLink>
       </div>
     </div>
   </section>

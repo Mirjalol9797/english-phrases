@@ -6,16 +6,18 @@ import type { ChapterFilterOption } from '@/components/ChapterFilter.vue'
  *
  * Какие главы показывать и в каком порядке — решает вызывающий: словарю нужны
  * все, включая пустые, а повторению только те, где сегодня есть что делать.
+ * Подпись «все главы» тоже приходит снаружи: утилита языка не знает.
  */
 export function chapterFilters(
   entries: readonly { chapterId: string }[],
   chapters: readonly { id: string; title: string }[],
+  allLabel: string,
 ): ChapterFilterOption[] {
   const counts = new Map<string, number>()
   for (const entry of entries) counts.set(entry.chapterId, (counts.get(entry.chapterId) ?? 0) + 1)
 
   return [
-    { id: '', title: 'Все главы', count: entries.length },
+    { id: '', title: allLabel, count: entries.length },
     ...chapters.map((chapter) => ({
       id: chapter.id,
       title: chapter.title,

@@ -17,7 +17,7 @@ import { formatDay, today } from '@/utils/date'
 import type { Phrase } from '@/types/content'
 import type { PracticeStep, StepResult } from '@/types/practice'
 
-const { plural } = useI18n()
+const { t, plural } = useI18n()
 
 /** За один заход повторяем не больше: длинная очередь отпугивает сильнее, чем помогает. */
 const BATCH_SIZE = 20
@@ -38,7 +38,7 @@ const stages = computed(() =>
   ),
 )
 
-useDocumentTitle(() => 'Повторение')
+useDocumentTitle(() => t('Повторение'))
 
 /**
  * Грузим только те главы, фразы которых сегодня понадобятся: к повторению
@@ -133,8 +133,8 @@ const chapterTitles = computed(() =>
 )
 
 /** Главы, в которых есть что повторять, и отдельно — в которых есть трудные. */
-const dueFilters = computed(() => byLoad(chapterFilters(dueAll.value, chapterTitles.value)))
-const hardFilters = computed(() => byLoad(chapterFilters(hardAll.value, chapterTitles.value)))
+const dueFilters = computed(() => byLoad(chapterFilters(dueAll.value, chapterTitles.value, t('Все главы'))))
+const hardFilters = computed(() => byLoad(chapterFilters(hardAll.value, chapterTitles.value, t('Все главы'))))
 
 // Глава могла кончиться, пока шло занятие: тогда фильтр снимаем, иначе экран
 // выглядел бы пустым без видимой причины.
@@ -183,47 +183,52 @@ function onFinish(sessionResults: StepResult[]) {
       v-if="running"
       :steps="steps"
       exit-to="/review"
-      card-label="Повторение"
+      :card-label="t('Повторение')"
       @phrase-done="onPhraseDone"
       @finish="onFinish"
     />
 
     <section v-else>
-      <h1 class="text-xl sm:text-2xl font-semibold">Повторение</h1>
+      <h1 class="text-xl sm:text-2xl font-semibold">{{ t('Повторение') }}</h1>
 
       <!-- Итог только что законченного захода. -->
       <p v-if="results" class="mt-3">
-        <span class="marker text-lg font-medium">{{ correctCount }} из {{ results.length }}</span>
+        <span class="marker text-lg font-medium">{{ t('{done} из {total}', { done: correctCount, total: results.length }) }}</span>
       </p>
 
       <template v-if="progress.startedCount === 0">
         <p class="mt-3 max-w-prose text-muted">
-          Здесь появятся фразы, которые пора освежить. Система сама решает когда: чем увереннее
-          отвечаете, тем реже спрашивает — от следующего дня до трёх недель.
+          {{
+            t(
+              'Здесь появятся фразы, которые пора освежить. Система сама решает когда: чем увереннее отвечаете, тем реже спрашивает — от следующего дня до трёх недель.',
+            )
+          }}
         </p>
-        <RouterLink to="/chapters" class="btn-primary mt-5 sm:mt-6">Начать первый урок</RouterLink>
+        <RouterLink to="/chapters" class="btn-primary mt-5 sm:mt-6">{{ t('Начать первый урок') }}</RouterLink>
       </template>
 
       <template v-else>
         <!-- К повторению приходит всё вперемешку: фразы, слова и глаголы.
              Чип сужает заход до одной главы — это разные занятия. -->
-        <ChapterFilter v-model="dueChapter" :options="dueFilters" label="Глава для повторения" class="mt-4" />
+        <ChapterFilter v-model="dueChapter" :options="dueFilters" :label="t('Глава для повторения')" class="mt-4" />
 
         <template v-if="due.length === 0">
-          <p class="mt-4 text-muted">Сегодня повторять нечего.</p>
+          <p class="mt-4 text-muted">{{ t('Сегодня повторять нечего.') }}</p>
           <p v-if="progress.nextDueDay" class="mt-1 text-muted">
-            Следующее повторение — {{ formatDay(progress.nextDueDay) }}.
+            {{ t('Следующее повторение — {day}.', { day: formatDay(progress.nextDueDay) }) }}
           </p>
-          <RouterLink to="/chapters" class="btn-primary mt-5 sm:mt-6">Учить новое</RouterLink>
+          <RouterLink to="/chapters" class="btn-primary mt-5 sm:mt-6">{{ t('Учить новое') }}</RouterLink>
         </template>
 
         <template v-else>
           <p class="mt-4 text-muted">
-            Пора повторить {{ plural(due.length, dueNoun) }}.
-            <template v-if="due.length > BATCH_SIZE">За один заход — {{ BATCH_SIZE }}.</template>
+            {{ t('Пора повторить {items}.', { items: plural(due.length, dueNoun) }) }}
+            <template v-if="due.length > BATCH_SIZE">
+              {{ t('За один заход — {n}.', { n: BATCH_SIZE }) }}
+            </template>
           </p>
 
-          <button type="button" class="btn-primary mt-5 sm:mt-6" @click="startReview">Начать повторение</button>
+          <button type="button" class="btn-primary mt-5 sm:mt-6" @click="startReview">{{ t('Начать повторение') }}</button>
 
           <ol class="mt-6 sm:mt-8 divide-y divide-line border-y border-line">
             <li
@@ -245,7 +250,7 @@ function onFinish(sessionResults: StepResult[]) {
             </li>
           </ol>
           <p class="mt-3 text-sm text-muted">
-            Слева — нынешний перерыв: через столько дней фраза вернётся, если ответить верно.
+            {{ t('Слева — нынешний перерыв: через столько дней фраза вернётся, если ответить верно.') }}
           </p>
         </template>
       </template>
@@ -253,24 +258,33 @@ function onFinish(sessionResults: StepResult[]) {
       <!-- Трудные живут своей жизнью: это список за всё время, а не очередь
            на сегодня. Поэтому у них свой выбор главы и своя кнопка. -->
       <template v-if="hardAll.length">
-        <h2 class="mt-8 sm:mt-10 text-lg font-semibold">Трудные</h2>
-        <ChapterFilter v-model="hardChapter" :options="hardFilters" label="Глава для трудных" class="mt-3" />
+        <h2 class="mt-8 sm:mt-10 text-lg font-semibold">{{ t('Трудные') }}</h2>
+        <ChapterFilter v-model="hardChapter" :options="hardFilters" :label="t('Глава для трудных')" class="mt-3" />
         <p class="mt-3 text-sm text-muted">
           <template v-if="hardChapter">
-            Здесь ошибались чаще всего — {{ plural(hardInChapter.length, hardNoun) }} в этой главе.
+            {{
+              t('Здесь ошибались чаще всего — {items} в этой главе.', {
+                items: plural(hardInChapter.length, hardNoun),
+              })
+            }}
           </template>
           <template v-else>
-            Здесь ошибались чаще всего — {{ plural(hardInChapter.length, hardNoun) }}.
+            {{ t('Здесь ошибались чаще всего — {items}.', { items: plural(hardInChapter.length, hardNoun) }) }}
           </template>
           <template v-if="hardInChapter.length > BATCH_SIZE">
-            Показаны самые трудные {{ BATCH_SIZE }}, заход тоже из них.
+            {{ t('Показаны самые трудные {n}, заход тоже из них.', { n: BATCH_SIZE }) }}
           </template>
         </p>
-        <button type="button" class="btn-primary mt-4" @click="startHard">Повторить трудные</button>
+        <button type="button" class="btn-primary mt-4" @click="startHard">{{ t('Повторить трудные') }}</button>
         <ol class="mt-5 sm:mt-6 divide-y divide-line border-y border-line">
           <li v-for="entry in hardEntries" :key="entry.phrase.id" class="flex items-baseline gap-3 py-2 sm:py-3">
             <span class="w-14 shrink-0 text-xs text-bad tabular-nums">
-              {{ progress.get(entry.phrase.id)?.wrong }} из {{ progress.get(entry.phrase.id)?.seen }}
+              {{
+                t('{done} из {total}', {
+                  done: progress.get(entry.phrase.id)?.wrong ?? 0,
+                  total: progress.get(entry.phrase.id)?.seen ?? 0,
+                })
+              }}
             </span>
             <span class="min-w-0 flex-1">
               <span lang="en" class="block font-serif text-base leading-snug sm:text-lg">{{ entry.phrase.en }}</span>
@@ -282,8 +296,11 @@ function onFinish(sessionResults: StepResult[]) {
           </li>
         </ol>
         <p class="mt-3 text-sm text-muted">
-          Слева — на скольких занятиях из пройденных была ошибка. Запись уходит отсюда после
-          двух верных ответов подряд; новая ошибка возвращает её обратно.
+          {{
+            t(
+              'Слева — на скольких занятиях из пройденных была ошибка. Запись уходит отсюда после двух верных ответов подряд; новая ошибка возвращает её обратно.',
+            )
+          }}
         </p>
       </template>
     </section>

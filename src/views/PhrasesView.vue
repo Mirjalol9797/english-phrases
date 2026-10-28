@@ -13,7 +13,7 @@ import AppIcon from '@/components/AppIcon.vue'
 import { englishSearchText, normalizeSearch } from '@/utils/search'
 import type { Phrase } from '@/types/content'
 
-const { plural } = useI18n()
+const { t, plural } = useI18n()
 
 /** Фраза вместе с главой и уроком и заранее нормализованным текстом для поиска. */
 interface SearchEntry {
@@ -33,7 +33,7 @@ const content = useContentStore()
 const route = useRoute()
 const router = useRouter()
 
-useDocumentTitle(() => 'Словарь')
+useDocumentTitle(() => t('Словарь'))
 
 const queryParam = (name: string) => (typeof route.query[name] === 'string' ? route.query[name] : '')
 
@@ -84,6 +84,7 @@ const filters = computed(() =>
   chapterFilters(
     matched.value,
     (chapters.value ?? []).map((chapter) => ({ id: chapter.id, title: chapter.title.en })),
+    t('Все главы'),
   ),
 )
 
@@ -117,7 +118,7 @@ watch(
 
 <template>
   <section>
-    <h1 class="text-xl sm:text-2xl font-semibold">Словарь</h1>
+    <h1 class="text-xl sm:text-2xl font-semibold">{{ t('Словарь') }}</h1>
 
     <div class="relative mt-4">
       <AppIcon name="search" :size="20" class="pointer-events-none absolute top-1/2 left-4 -translate-y-1/2 text-muted" />
@@ -126,14 +127,14 @@ watch(
         type="search"
         autocomplete="off"
         spellcheck="false"
-        aria-label="Поиск по фразам"
-        placeholder="Фраза на английском или русском"
+        :aria-label="t('Поиск по фразам')"
+        :placeholder="t('Фраза на английском или русском')"
         class="search-field w-full rounded-full border border-line bg-surface py-3 pr-12 pl-12 text-base placeholder:text-muted"
       />
       <button
         v-if="query"
         type="button"
-        aria-label="Очистить поиск"
+        :aria-label="t('Очистить поиск')"
         class="absolute top-1/2 right-2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full text-muted hover:text-ink"
         @click="query = ''"
       >
@@ -146,10 +147,14 @@ watch(
     <StatusMessage v-if="loading || error" :loading="loading" :error="error" @retry="reload" />
 
     <template v-else-if="chapters">
-      <ChapterFilter v-model="chapterId" :options="filters" label="Глава" class="mt-4" />
+      <ChapterFilter v-model="chapterId" :options="filters" :label="t('Глава')" class="mt-4" />
 
       <p class="mt-4 text-sm text-muted" role="status" aria-live="polite">
-        {{ results.length ? `Найдено ${plural(results.length, 'match')}` : 'Ничего не нашлось' }}
+        {{
+          results.length
+            ? t('Найдено {items}', { items: plural(results.length, 'match') })
+            : t('Ничего не нашлось')
+        }}
       </p>
 
       <ol v-if="shown.length" class="mt-2 divide-y divide-line border-y border-line">
@@ -168,12 +173,16 @@ watch(
       </ol>
 
       <p v-else class="mt-2 max-w-prose text-muted">
-        Попробуйте другое слово или уберите фильтр по главе — поиск идёт и по английскому тексту, и по переводу.
+        {{
+          t(
+            'Попробуйте другое слово или уберите фильтр по главе — поиск идёт и по английскому тексту, и по переводу.',
+          )
+        }}
       </p>
 
       <div v-if="results.length > shown.length" class="mt-4 sm:mt-5">
         <button type="button" class="btn-quiet" @click="visible += PAGE_SIZE">
-          Показать ещё {{ Math.min(PAGE_SIZE, results.length - shown.length) }}
+          {{ t('Показать ещё {n}', { n: Math.min(PAGE_SIZE, results.length - shown.length) }) }}
         </button>
       </div>
     </template>
