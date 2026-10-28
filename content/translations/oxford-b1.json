@@ -2401,6 +2401,1206 @@
           "uz": "Janglar qanday toʻsatdan boshlangan boʻlsa, shunday toʻsatdan toʻxtadi."
         }
       ]
+    },
+    {
+      "en": "brave",
+      "pos": "adj.",
+      "ru": "храбрый",
+      "uz": "jasur",
+      "examples": [
+        {
+          "en": "The firefighter was very brave.",
+          "uz": "Oʻt oʻchiruvchi juda jasur edi."
+        },
+        {
+          "en": "It was a brave decision that could easily have ended his career.",
+          "uz": "Bu jasur qaror edi va u bemalol uning faoliyatiga nuqta qoʻyishi mumkin edi."
+        }
+      ]
+    },
+    {
+      "en": "spot",
+      "pos": "n.",
+      "ru": "пятно; место",
+      "uz": "dogʻ; joy",
+      "examples": [
+        {
+          "en": "There's a spot on your shirt.",
+          "uz": "Koʻylagingizda dogʻ bor."
+        },
+        {
+          "en": "They'd found a quiet spot that nobody else seemed to know.",
+          "uz": "Ular boshqa hech kim bilmaydiganga oʻxshagan tinch joy topishgandi."
+        }
+      ]
+    },
+    {
+      "en": "hurry",
+      "pos": "n., v.",
+      "ru": "спешка; спешить",
+      "uz": "shoshilish; shoshilmoq",
+      "examples": [
+        {
+          "en": "Hurry up! We're late.",
+          "uz": "Shoshiling! Biz kechikyapmiz."
+        },
+        {
+          "en": "It was done in a hurry, which is why it has to be done again.",
+          "uz": "Bu shosha-pisha qilindi, shuning uchun uni qaytadan qilish kerak."
+        }
+      ]
+    },
+    {
+      "en": "strongly",
+      "pos": "adv.",
+      "ru": "сильно, решительно",
+      "uz": "qatʼiy, kuchli ravishda",
+      "examples": [
+        {
+          "en": "I strongly disagree.",
+          "uz": "Men qatʼiy rozi emasman."
+        },
+        {
+          "en": "I'd strongly advise getting this in writing.",
+          "uz": "Buni yozma olib qoʻyishni qatʼiy maslahat berardim."
+        }
+      ]
+    },
+    {
+      "en": "despite",
+      "pos": "prep.",
+      "ru": "несмотря на",
+      "uz": "...ga qaramay",
+      "examples": [
+        {
+          "en": "Despite the rain, we went out.",
+          "uz": "Yomgʻirga qaramay, biz tashqariga chiqdik."
+        },
+        {
+          "en": "Despite everything that was said, nothing was actually changed.",
+          "uz": "Aytilgan hamma gapga qaramay, aslida hech narsa oʻzgartirilmadi."
+        }
+      ]
+    },
+    {
+      "en": "pull",
+      "pos": "n.",
+      "ru": "рывок, тяга",
+      "uz": "tortish, tortqi",
+      "examples": [
+        {
+          "en": "Give the rope a pull.",
+          "uz": "Arqonni bir tortib qoʻying."
+        },
+        {
+          "en": "The pull of the old way of doing things is stronger than any policy.",
+          "uz": "Eski usulning tortqisi har qanday siyosatdan kuchliroq."
+        }
+      ]
+    },
+    {
+      "en": "determined",
+      "pos": "adj.",
+      "ru": "решительный, полный решимости",
+      "uz": "qatʼiyatli",
+      "examples": [
+        {
+          "en": "She is determined to win.",
+          "uz": "U yutishga qatʼiy qaror qilgan."
+        },
+        {
+          "en": "She was determined to see it through, whatever it cost her.",
+          "uz": "U nimaga tushsa ham, buni oxiriga yetkazishga qatʼiyatli edi."
+        }
+      ]
+    },
+    {
+      "en": "robot",
+      "pos": "n.",
+      "ru": "робот",
+      "uz": "robot",
+      "examples": [
+        {
+          "en": "Robots can do many jobs.",
+          "uz": "Robotlar koʻp ishni qila oladi."
+        },
+        {
+          "en": "The robots do the dull part and people still do the hard part.",
+          "uz": "Robotlar zerikarli qismini qiladi, qiyin qismini esa hamon odamlar bajaradi."
+        }
+      ]
+    },
+    {
+      "en": "wonder",
+      "pos": "v., n.",
+      "ru": "интересоваться, задаваться вопросом; чудо",
+      "uz": "qiziqmoq, oʻylamoq; moʻjiza",
+      "examples": [
+        {
+          "en": "I wonder what he's doing now.",
+          "uz": "Qiziq, u hozir nima qilyapti ekan."
+        },
+        {
+          "en": "I often wonder what would have happened if we'd waited.",
+          "uz": "Agar kutganimizda nima boʻlardi ekan deb tez-tez oʻylayman."
+        }
+      ]
+    },
+    {
+      "en": "printing",
+      "pos": "n.",
+      "ru": "печать",
+      "uz": "chop etish",
+      "examples": [
+        {
+          "en": "Printing photos is cheap here.",
+          "uz": "Bu yerda surat chop etish arzon."
+        },
+        {
+          "en": "The printing was delayed because somebody changed one word.",
+          "uz": "Chop etish kechiktirildi, chunki kimdir bitta soʻzni oʻzgartirdi."
+        }
+      ]
+    },
+    {
+      "en": "fixed",
+      "pos": "adj.",
+      "ru": "фиксированный",
+      "uz": "belgilangan",
+      "examples": [
+        {
+          "en": "The price is fixed.",
+          "uz": "Narx belgilangan."
+        },
+        {
+          "en": "The price is fixed, which means it only ever moves upwards.",
+          "uz": "Narx belgilangan, bu esa u faqat yuqoriga qarab oʻzgaradi degani."
+        }
+      ]
+    },
+    {
+      "en": "freeze",
+      "pos": "v.",
+      "ru": "замерзать, замораживать",
+      "uz": "muzlamoq, muzlatmoq",
+      "examples": [
+        {
+          "en": "Water freezes at zero degrees.",
+          "uz": "Suv nol darajada muzlaydi."
+        },
+        {
+          "en": "Wages have been frozen for three years while prices have not.",
+          "uz": "Maoshlar uch yildan beri muzlatilgan, narxlar esa yoʻq."
+        }
+      ]
+    },
+    {
+      "en": "throat",
+      "pos": "n.",
+      "ru": "горло",
+      "uz": "tomoq",
+      "examples": [
+        {
+          "en": "I have a sore throat.",
+          "uz": "Tomogʻim ogʻriyapti."
+        },
+        {
+          "en": "He'd had a sore throat for a fortnight and kept talking anyway.",
+          "uz": "Uning tomogʻi ikki hafta ogʻridi va u baribir gapiraverdi."
+        }
+      ]
+    },
+    {
+      "en": "painful",
+      "pos": "adj.",
+      "ru": "болезненный",
+      "uz": "ogʻriqli",
+      "examples": [
+        {
+          "en": "The injection was painful.",
+          "uz": "Ukol ogʻriqli boʻldi."
+        },
+        {
+          "en": "It was a painful conversation that should have happened sooner.",
+          "uz": "Bu ogʻriqli suhbat edi va u ancha oldin boʻlishi kerak edi."
+        }
+      ]
+    },
+    {
+      "en": "laboratory",
+      "pos": "n.",
+      "ru": "лаборатория",
+      "uz": "laboratoriya",
+      "examples": [
+        {
+          "en": "She works in a laboratory.",
+          "uz": "U laboratoriyada ishlaydi."
+        },
+        {
+          "en": "The laboratory results arrived after the patient had recovered.",
+          "uz": "Laboratoriya natijalari bemor tuzalganidan keyin keldi."
+        }
+      ]
+    },
+    {
+      "en": "gather",
+      "pos": "v.",
+      "ru": "собирать(ся)",
+      "uz": "toʻplamoq, yigʻilmoq",
+      "examples": [
+        {
+          "en": "People gathered in the square.",
+          "uz": "Odamlar maydonga yigʻildi."
+        },
+        {
+          "en": "Evidence had been gathering for months before anyone acted on it.",
+          "uz": "Dalillar kimdir chora koʻrgunicha oylab toʻplanib kelgandi."
+        }
+      ]
+    },
+    {
+      "en": "plot",
+      "pos": "n.",
+      "ru": "сюжет",
+      "uz": "syujet",
+      "examples": [
+        {
+          "en": "The film has a simple plot.",
+          "uz": "Filmning syujeti oddiy."
+        },
+        {
+          "en": "The plot made no sense, and the film was wonderful anyway.",
+          "uz": "Syujet hech qanday maʼnoga ega emasdi va film baribir ajoyib edi."
+        }
+      ]
+    },
+    {
+      "en": "daily",
+      "pos": "adv.",
+      "ru": "ежедневно",
+      "uz": "har kuni",
+      "examples": [
+        {
+          "en": "The museum is open daily.",
+          "uz": "Muzey har kuni ochiq."
+        },
+        {
+          "en": "The figures are updated daily and have been wrong since Tuesday.",
+          "uz": "Raqamlar har kuni yangilanadi va seshanbadan beri notoʻgʻri."
+        }
+      ]
+    },
+    {
+      "en": "religious",
+      "pos": "adj.",
+      "ru": "религиозный",
+      "uz": "diniy",
+      "examples": [
+        {
+          "en": "Navruz is not a religious holiday.",
+          "uz": "Navroʻz diniy bayram emas."
+        },
+        {
+          "en": "The holiday is religious in origin and entirely secular in practice.",
+          "uz": "Bayram kelib chiqishi boʻyicha diniy va amalda butunlay dunyoviy."
+        }
+      ]
+    },
+    {
+      "en": "reflect",
+      "pos": "v.",
+      "ru": "отражать",
+      "uz": "aks ettirmoq",
+      "examples": [
+        {
+          "en": "The lake reflects the mountains.",
+          "uz": "Koʻl togʻlarni aks ettiradi."
+        },
+        {
+          "en": "The figures reflect the method of counting more than reality.",
+          "uz": "Raqamlar voqelikdan koʻra sanash usulini aks ettiradi."
+        }
+      ]
+    },
+    {
+      "en": "statue",
+      "pos": "n.",
+      "ru": "статуя",
+      "uz": "yodgorlik haykali",
+      "examples": [
+        {
+          "en": "There is a statue in the square.",
+          "uz": "Maydonda yodgorlik haykali bor."
+        },
+        {
+          "en": "The statue was put up in a hurry and is wrong in two details.",
+          "uz": "Haykal shosha-pisha oʻrnatilgan va ikki tafsilotda xato."
+        }
+      ]
+    },
+    {
+      "en": "shelf",
+      "pos": "n.",
+      "ru": "полка",
+      "uz": "javon",
+      "examples": [
+        {
+          "en": "Put the book on the shelf.",
+          "uz": "Kitobni javonga qoʻying."
+        },
+        {
+          "en": "The report has been on the shelf since the spring.",
+          "uz": "Hisobot bahordan beri javonda yotibdi."
+        }
+      ]
+    },
+    {
+      "en": "empty",
+      "pos": "v.",
+      "ru": "опустошать",
+      "uz": "boʻshatmoq",
+      "examples": [
+        {
+          "en": "Empty your pockets, please.",
+          "uz": "Iltimos, choʻntaklaringizni boʻshating."
+        },
+        {
+          "en": "The building emptied within a year of the announcement.",
+          "uz": "Eʼlondan keyin bir yil ichida bino boʻshab qoldi."
+        }
+      ]
+    },
+    {
+      "en": "technical",
+      "pos": "adj.",
+      "ru": "технический",
+      "uz": "texnik",
+      "examples": [
+        {
+          "en": "We had a technical problem.",
+          "uz": "Bizda texnik muammo boʻldi."
+        },
+        {
+          "en": "It was described as a technical problem, which it very much wasn't.",
+          "uz": "Bu texnik muammo deb tasvirlandi, aslida esa unday emasdi."
+        }
+      ]
+    },
+    {
+      "en": "princess",
+      "pos": "n.",
+      "ru": "принцесса",
+      "uz": "malika",
+      "examples": [
+        {
+          "en": "My daughter loves princess stories.",
+          "uz": "Qizim malika haqidagi ertaklarni yaxshi koʻradi."
+        },
+        {
+          "en": "The princess in the story does rather more than wait.",
+          "uz": "Ertakdagi malika kutib oʻtirishdan koʻra ancha koʻproq ish qiladi."
+        }
+      ]
+    },
+    {
+      "en": "receipt",
+      "pos": "n.",
+      "ru": "чек, квитанция",
+      "uz": "chek, kvitansiya",
+      "examples": [
+        {
+          "en": "Keep your receipt.",
+          "uz": "Chekingizni saqlang."
+        },
+        {
+          "en": "Keep the receipt; without it they won't even talk to you.",
+          "uz": "Chekni saqlang; usiz ular siz bilan hatto gaplashmaydi."
+        }
+      ]
+    },
+    {
+      "en": "request",
+      "pos": "v.",
+      "ru": "просить",
+      "uz": "soʻramoq",
+      "examples": [
+        {
+          "en": "You can request a vegetarian meal.",
+          "uz": "Siz vegetarian taom soʻrashingiz mumkin."
+        },
+        {
+          "en": "We requested the figures in March and received them in October.",
+          "uz": "Biz raqamlarni martda soʻradik va oktabrda oldik."
+        }
+      ]
+    },
+    {
+      "en": "aged",
+      "pos": "adj.",
+      "ru": "в возрасте",
+      "uz": "... yoshdagi",
+      "examples": [
+        {
+          "en": "The class is for children aged 6 to 10.",
+          "uz": "Mashgʻulot 6 dan 10 yoshgacha bolalar uchun."
+        },
+        {
+          "en": "The scheme is open to anyone aged sixteen and over.",
+          "uz": "Dastur oʻn olti va undan katta yoshdagi har kimga ochiq."
+        }
+      ]
+    },
+    {
+      "en": "mud",
+      "pos": "n.",
+      "ru": "грязь",
+      "uz": "loy",
+      "examples": [
+        {
+          "en": "My boots are covered in mud.",
+          "uz": "Etiklarim loyga belangan."
+        },
+        {
+          "en": "The site was so deep in mud that nothing could be moved.",
+          "uz": "Maydoncha shunchalik loy ediki, hech narsani qimirlatib boʻlmasdi."
+        }
+      ]
+    },
+    {
+      "en": "meanwhile",
+      "pos": "adv.",
+      "ru": "тем временем",
+      "uz": "shu orada",
+      "examples": [
+        {
+          "en": "I cooked dinner. Meanwhile, my brother cleaned the room.",
+          "uz": "Men kechki ovqat tayyorladim. Shu orada akam xonani yigʻishtirdi."
+        },
+        {
+          "en": "Meanwhile, the people who actually do the work heard nothing.",
+          "uz": "Shu orada ishni aslida bajaradigan odamlar hech narsa eshitmadi."
+        }
+      ]
+    },
+    {
+      "en": "frighten",
+      "pos": "v.",
+      "ru": "пугать",
+      "uz": "qoʻrqitmoq",
+      "examples": [
+        {
+          "en": "The noise frightened the baby.",
+          "uz": "Shovqin chaqaloqni qoʻrqitdi."
+        },
+        {
+          "en": "What frightens me is how normal all this has started to seem.",
+          "uz": "Meni qoʻrqitadigani — bularning hammasi qanchalik odatiy koʻrina boshlagani."
+        }
+      ]
+    },
+    {
+      "en": "talent",
+      "pos": "n.",
+      "ru": "талант",
+      "uz": "isteʼdod",
+      "examples": [
+        {
+          "en": "She has a talent for music.",
+          "uz": "Uning musiqaga isteʼdodi bor."
+        },
+        {
+          "en": "Talent leaves quietly, usually long before anyone notices.",
+          "uz": "Isteʼdod jimgina ketadi, odatda kimdir sezishidan ancha oldin."
+        }
+      ]
+    },
+    {
+      "en": "commercial",
+      "pos": "adj., n.",
+      "ru": "коммерческий; реклама (на ТВ)",
+      "uz": "tijorat; reklama roligi",
+      "examples": [
+        {
+          "en": "There are too many commercials on TV.",
+          "uz": "Televizorda reklama roliklari juda koʻp."
+        },
+        {
+          "en": "The commercial pressure was never mentioned in the official reasons.",
+          "uz": "Tijorat bosimi rasmiy sabablarda umuman tilga olinmadi."
+        }
+      ]
+    },
+    {
+      "en": "earthquake",
+      "pos": "n.",
+      "ru": "землетрясение",
+      "uz": "zilzila",
+      "examples": [
+        {
+          "en": "There was an earthquake last night.",
+          "uz": "Kecha kechasi zilzila boʻldi."
+        },
+        {
+          "en": "The earthquake was small, and the damage was caused by the panic.",
+          "uz": "Zilzila kuchsiz edi va zararni vahima keltirib chiqardi."
+        }
+      ]
+    },
+    {
+      "en": "qualify",
+      "pos": "v.",
+      "ru": "получать квалификацию; проходить отбор",
+      "uz": "malaka olmoq; saralanib oʻtmoq",
+      "examples": [
+        {
+          "en": "Our team qualified for the final.",
+          "uz": "Jamoamiz finalga saralanib oʻtdi."
+        },
+        {
+          "en": "She qualified in a year that produced almost no jobs.",
+          "uz": "U deyarli ish oʻrni boʻlmagan yilda malaka oldi."
+        }
+      ]
+    },
+    {
+      "en": "producer",
+      "pos": "n.",
+      "ru": "продюсер; производитель",
+      "uz": "prodyuser; ishlab chiqaruvchi",
+      "examples": [
+        {
+          "en": "He is a film producer.",
+          "uz": "U kino prodyuseri."
+        },
+        {
+          "en": "The producer pulled out two weeks before filming began.",
+          "uz": "Prodyuser suratga olish boshlanishidan ikki hafta oldin chiqib ketdi."
+        }
+      ]
+    },
+    {
+      "en": "retired",
+      "pos": "adj.",
+      "ru": "на пенсии",
+      "uz": "nafaqadagi",
+      "examples": [
+        {
+          "en": "My grandparents are retired.",
+          "uz": "Buvim va bobom nafaqada."
+        },
+        {
+          "en": "Half the volunteers are retired teachers.",
+          "uz": "Koʻngillilarning yarmi nafaqadagi oʻqituvchilar."
+        }
+      ]
+    },
+    {
+      "en": "celebration",
+      "pos": "n.",
+      "ru": "празднование",
+      "uz": "nishonlash, bayram",
+      "examples": [
+        {
+          "en": "There was a big celebration after the wedding.",
+          "uz": "Toʻydan keyin katta bayram boʻldi."
+        },
+        {
+          "en": "The celebration was cancelled and nobody was told why.",
+          "uz": "Bayram bekor qilindi va sababini hech kimga aytishmadi."
+        }
+      ]
+    },
+    {
+      "en": "force",
+      "pos": "n., v.",
+      "ru": "сила; заставлять",
+      "uz": "zoʻrlik, kuch; majburlamoq",
+      "examples": [
+        {
+          "en": "Nobody forced you to come.",
+          "uz": "Sizni hech kim kelishga majburlamadi."
+        },
+        {
+          "en": "Nobody forced them to sign; they simply weren't told the terms.",
+          "uz": "Ularni hech kim imzolashga majburlamadi; ularga shartlar aytilmadi, xolos."
+        }
+      ]
+    },
+    {
+      "en": "safety",
+      "pos": "n.",
+      "ru": "безопасность",
+      "uz": "xavfsizlik",
+      "examples": [
+        {
+          "en": "Safety comes first.",
+          "uz": "Xavfsizlik birinchi oʻrinda."
+        },
+        {
+          "en": "Safety was mentioned in every document and funded in none.",
+          "uz": "Xavfsizlik har bir hujjatda tilga olindi va hech qayerda moliyalashtirilmadi."
+        }
+      ]
+    },
+    {
+      "en": "mad",
+      "pos": "adj.",
+      "ru": "сумасшедший; злой",
+      "uz": "telba; jahli chiqqan",
+      "examples": [
+        {
+          "en": "Are you mad?",
+          "uz": "Telba boʻldingizmi?"
+        },
+        {
+          "en": "It sounds mad, and it's the only thing that has ever worked.",
+          "uz": "Bu telbalikdek eshitiladi va bu hozirgacha ishlagan yagona narsa."
+        }
+      ]
+    },
+    {
+      "en": "indoors",
+      "pos": "adv.",
+      "ru": "в помещении",
+      "uz": "ichkarida",
+      "examples": [
+        {
+          "en": "Stay indoors when it's this hot.",
+          "uz": "Bunchalik issiqda ichkarida turing."
+        },
+        {
+          "en": "People here stay indoors from noon until about four.",
+          "uz": "Bu yerdagi odamlar tushdan toʻrtlargacha ichkarida boʻlishadi."
+        }
+      ]
+    },
+    {
+      "en": "exchange",
+      "pos": "n., v.",
+      "ru": "обмен; обменивать",
+      "uz": "almashuv; almashtirmoq",
+      "examples": [
+        {
+          "en": "Can I exchange this shirt?",
+          "uz": "Bu koʻylakni almashtirsam boʻladimi?"
+        },
+        {
+          "en": "In exchange for the land they got a promise and nothing in writing.",
+          "uz": "Yer evaziga ular vaʼda oldilar va hech qanday yozma hujjat olmadilar."
+        }
+      ]
+    },
+    {
+      "en": "symptom",
+      "pos": "n.",
+      "ru": "симптом",
+      "uz": "alomat",
+      "examples": [
+        {
+          "en": "What are your symptoms?",
+          "uz": "Alomatlaringiz qanday?"
+        },
+        {
+          "en": "The delays are a symptom, not the illness.",
+          "uz": "Kechikishlar — alomat, kasallikning oʻzi emas."
+        }
+      ]
+    },
+    {
+      "en": "basis",
+      "pos": "n.",
+      "ru": "основа",
+      "uz": "asos",
+      "examples": [
+        {
+          "en": "I go to the gym on a regular basis.",
+          "uz": "Men sport zaliga muntazam asosda boraman."
+        },
+        {
+          "en": "We've been working on the basis that the funding is secure.",
+          "uz": "Biz mablagʻ kafolatlangan degan asosda ishlab kelyapmiz."
+        }
+      ]
+    },
+    {
+      "en": "attach",
+      "pos": "v.",
+      "ru": "прикреплять",
+      "uz": "biriktirmoq",
+      "examples": [
+        {
+          "en": "I've attached the file to the email.",
+          "uz": "Men faylni elektron xatga biriktirdim."
+        },
+        {
+          "en": "He'd attached the wrong file and nobody noticed for a week.",
+          "uz": "U notoʻgʻri faylni biriktirgandi va buni bir hafta hech kim sezmadi."
+        }
+      ]
+    },
+    {
+      "en": "mental",
+      "pos": "adj.",
+      "ru": "психический, умственный",
+      "uz": "ruhiy, aqliy",
+      "examples": [
+        {
+          "en": "Mental health is very important.",
+          "uz": "Ruhiy salomatlik juda muhim."
+        },
+        {
+          "en": "The mental cost of that year is still being paid.",
+          "uz": "Oʻsha yilning ruhiy bahosi hamon toʻlanmoqda."
+        }
+      ]
+    },
+    {
+      "en": "substance",
+      "pos": "n.",
+      "ru": "вещество",
+      "uz": "modda",
+      "examples": [
+        {
+          "en": "This substance is dangerous.",
+          "uz": "Bu modda xavfli."
+        },
+        {
+          "en": "The speech had plenty of style and very little substance.",
+          "uz": "Nutqda uslub koʻp va mazmun juda kam edi."
+        }
+      ]
+    },
+    {
+      "en": "countryside",
+      "pos": "n.",
+      "ru": "сельская местность",
+      "uz": "qishloq joyi",
+      "examples": [
+        {
+          "en": "I love the peace of the countryside.",
+          "uz": "Men qishloq joyining osoyishtaligini yaxshi koʻraman."
+        },
+        {
+          "en": "The countryside here empties out between September and May.",
+          "uz": "Bu yerdagi qishloq joyi sentabr bilan may oraligʻida boʻshab qoladi."
+        }
+      ]
+    },
+    {
+      "en": "market",
+      "pos": "v.",
+      "ru": "продвигать на рынке",
+      "uz": "bozorga chiqarmoq",
+      "examples": [
+        {
+          "en": "They market their products online.",
+          "uz": "Ular mahsulotlarini onlayn sotadi."
+        },
+        {
+          "en": "The product was marketed to people who had no use for it.",
+          "uz": "Mahsulot unga ehtiyoji boʻlmagan odamlarga targʻib qilindi."
+        }
+      ]
+    },
+    {
+      "en": "frightened",
+      "pos": "adj.",
+      "ru": "испуганный",
+      "uz": "qoʻrqib ketgan",
+      "examples": [
+        {
+          "en": "She was frightened of the dog.",
+          "uz": "U itdan qoʻrqardi."
+        },
+        {
+          "en": "People are frightened of saying the obvious thing out loud.",
+          "uz": "Odamlar oshkor narsani ovoz chiqarib aytishdan qoʻrqishadi."
+        }
+      ]
+    },
+    {
+      "en": "pack",
+      "pos": "n.",
+      "ru": "пачка, упаковка; рюкзак",
+      "uz": "paket; ryukzak",
+      "examples": [
+        {
+          "en": "I bought a pack of biscuits.",
+          "uz": "Men bir paket pechenye oldim."
+        },
+        {
+          "en": "He carried everything he owned in one pack for a year.",
+          "uz": "U bir yil bor-yoʻgʻini bitta ryukzakda koʻtarib yurdi."
+        }
+      ]
+    },
+    {
+      "en": "admit",
+      "pos": "v.",
+      "ru": "признавать",
+      "uz": "tan olmoq",
+      "examples": [
+        {
+          "en": "He admitted his mistake.",
+          "uz": "U xatosini tan oldi."
+        },
+        {
+          "en": "It took them two years to admit what was obvious from the first week.",
+          "uz": "Birinchi haftadanoq oshkor boʻlgan narsani tan olishga ularga ikki yil ketdi."
+        }
+      ]
+    },
+    {
+      "en": "sex",
+      "pos": "n.",
+      "ru": "пол; секс",
+      "uz": "jins; jinsiy aloqa",
+      "examples": [
+        {
+          "en": "Please write your name, age and sex.",
+          "uz": "Iltimos, ismingiz, yoshingiz va jinsingizni yozing."
+        },
+        {
+          "en": "The form asks for your sex and then never uses the answer.",
+          "uz": "Blankda jinsingiz soʻraladi va keyin javob umuman ishlatilmaydi."
+        }
+      ]
+    },
+    {
+      "en": "successfully",
+      "pos": "adv.",
+      "ru": "успешно",
+      "uz": "muvaffaqiyatli",
+      "examples": [
+        {
+          "en": "He successfully passed the test.",
+          "uz": "U testdan muvaffaqiyatli oʻtdi."
+        },
+        {
+          "en": "They successfully avoided answering for almost a year.",
+          "uz": "Ular deyarli bir yil javob berishdan muvaffaqiyatli qochib yurishdi."
+        }
+      ]
+    },
+    {
+      "en": "upon",
+      "pos": "prep.",
+      "ru": "на, по (формальное)",
+      "uz": "ustida, ...da (rasmiy)",
+      "examples": [
+        {
+          "en": "Once upon a time, there lived a king.",
+          "uz": "Bir bor ekan, bir yoʻq ekan, bir qirol yashagan ekan."
+        },
+        {
+          "en": "Upon arrival you'll be asked for documents nobody mentioned.",
+          "uz": "Yetib kelganingizda sizdan hech kim tilga olmagan hujjatlar soʻraladi."
+        }
+      ]
+    },
+    {
+      "en": "experienced",
+      "pos": "adj.",
+      "ru": "опытный",
+      "uz": "tajribali",
+      "examples": [
+        {
+          "en": "We need an experienced teacher.",
+          "uz": "Bizga tajribali oʻqituvchi kerak."
+        },
+        {
+          "en": "The most experienced person in the room was never asked anything.",
+          "uz": "Xonadagi eng tajribali odamdan hech narsa soʻralmadi."
+        }
+      ]
+    },
+    {
+      "en": "translation",
+      "pos": "n.",
+      "ru": "перевод",
+      "uz": "tarjima",
+      "examples": [
+        {
+          "en": "The translation is not correct.",
+          "uz": "Tarjima toʻgʻri emas."
+        },
+        {
+          "en": "The translation is accurate and completely misses the tone.",
+          "uz": "Tarjima aniq va ohangni butunlay yoʻqotgan."
+        }
+      ]
+    },
+    {
+      "en": "vote",
+      "pos": "n., v.",
+      "ru": "голос; голосовать",
+      "uz": "ovoz; ovoz bermoq",
+      "examples": [
+        {
+          "en": "Did you vote in the election?",
+          "uz": "Saylovda ovoz berdingizmi?"
+        },
+        {
+          "en": "They voted on it twice and got opposite results.",
+          "uz": "Ular bu boʻyicha ikki marta ovoz berishdi va qarama-qarshi natija olishdi."
+        }
+      ]
+    },
+    {
+      "en": "atmosphere",
+      "pos": "n.",
+      "ru": "атмосфера",
+      "uz": "muhit, atmosfera",
+      "examples": [
+        {
+          "en": "The cafe has a nice atmosphere.",
+          "uz": "Kafening muhiti yoqimli."
+        },
+        {
+          "en": "The atmosphere in the room changed the moment he walked in.",
+          "uz": "U kirgan zahoti xonadagi muhit oʻzgardi."
+        }
+      ]
+    },
+    {
+      "en": "competitive",
+      "pos": "adj.",
+      "ru": "конкурентный, соревновательный",
+      "uz": "raqobatbardosh",
+      "examples": [
+        {
+          "en": "Football is a very competitive sport.",
+          "uz": "Futbol juda raqobatli sport."
+        },
+        {
+          "en": "The market is competitive in theory and controlled by three firms in practice.",
+          "uz": "Bozor nazariy jihatdan raqobatbardosh va amalda uchta firma nazoratida."
+        }
+      ]
+    },
+    {
+      "en": "relation",
+      "pos": "n.",
+      "ru": "отношение, связь; родственник",
+      "uz": "aloqa, bogʻliqlik; qarindosh",
+      "examples": [
+        {
+          "en": "There's no relation between the two events.",
+          "uz": "Ikki voqea oʻrtasida hech qanday bogʻliqlik yoʻq."
+        },
+        {
+          "en": "The price bears no relation to what the thing actually costs.",
+          "uz": "Narxning narsaning haqiqiy qiymatiga hech qanday aloqasi yoʻq."
+        }
+      ]
+    },
+    {
+      "en": "announce",
+      "pos": "v.",
+      "ru": "объявлять",
+      "uz": "eʼlon qilmoq",
+      "examples": [
+        {
+          "en": "They announced their engagement.",
+          "uz": "Ular unashtirilganini eʼlon qilishdi."
+        },
+        {
+          "en": "The closure was announced on the last working day before the holidays.",
+          "uz": "Yopilish bayramlardan oldingi oxirgi ish kunida eʼlon qilindi."
+        }
+      ]
+    },
+    {
+      "en": "leaf",
+      "pos": "n.",
+      "ru": "лист (растения)",
+      "uz": "barg",
+      "examples": [
+        {
+          "en": "The leaves turn yellow in autumn.",
+          "uz": "Kuzda barglar sargʻayadi."
+        },
+        {
+          "en": "The leaves came down three weeks earlier than usual.",
+          "uz": "Barglar odatdagidan uch hafta erta toʻkildi."
+        }
+      ]
+    },
+    {
+      "en": "political",
+      "pos": "adj.",
+      "ru": "политический",
+      "uz": "siyosiy",
+      "examples": [
+        {
+          "en": "They had a political discussion.",
+          "uz": "Ular siyosiy muhokama qilishdi."
+        },
+        {
+          "en": "The decision was political and everyone pretended it was technical.",
+          "uz": "Qaror siyosiy edi va hamma uni texnik deb koʻrsatdi."
+        }
+      ]
+    },
+    {
+      "en": "remind",
+      "pos": "v.",
+      "ru": "напоминать",
+      "uz": "eslatmoq",
+      "examples": [
+        {
+          "en": "Remind me to call my mother.",
+          "uz": "Onamga qoʻngʻiroq qilishni menga eslating."
+        },
+        {
+          "en": "This reminds me of a mistake we made five years ago.",
+          "uz": "Bu menga besh yil oldin qilgan xatomizni eslatadi."
+        }
+      ]
+    },
+    {
+      "en": "drum",
+      "pos": "n.",
+      "ru": "барабан",
+      "uz": "nogʻora, baraban",
+      "examples": [
+        {
+          "en": "He plays the drums in a band.",
+          "uz": "U guruhda baraban chaladi."
+        },
+        {
+          "en": "He'd played the drums badly for years and loved every minute.",
+          "uz": "U yillar davomida barabanni yomon chaldi va har daqiqasini yaxshi koʻrdi."
+        }
+      ]
+    },
+    {
+      "en": "perfectly",
+      "pos": "adv.",
+      "ru": "идеально, совершенно",
+      "uz": "mukammal",
+      "examples": [
+        {
+          "en": "You speak English perfectly.",
+          "uz": "Siz ingliz tilida mukammal gapirasiz."
+        },
+        {
+          "en": "The arrangement worked perfectly for everybody except the customer.",
+          "uz": "Tartib mijozdan boshqa hamma uchun mukammal ishladi."
+        }
+      ]
+    },
+    {
+      "en": "stadium",
+      "pos": "n.",
+      "ru": "стадион",
+      "uz": "stadion",
+      "examples": [
+        {
+          "en": "The stadium was full.",
+          "uz": "Stadion toʻla edi."
+        },
+        {
+          "en": "The stadium was built for an event that was later moved.",
+          "uz": "Stadion keyinchalik boshqa joyga koʻchirilgan tadbir uchun qurilgandi."
+        }
+      ]
+    },
+    {
+      "en": "trade",
+      "pos": "n., v.",
+      "ru": "торговля; торговать",
+      "uz": "savdo; savdo qilmoq",
+      "examples": [
+        {
+          "en": "Trade between the two countries is growing.",
+          "uz": "Ikki mamlakat oʻrtasidagi savdo oʻsmoqda."
+        },
+        {
+          "en": "Trade between the two regions collapsed after the border closed.",
+          "uz": "Chegara yopilgach, ikki mintaqa oʻrtasidagi savdo barbod boʻldi."
+        }
+      ]
+    },
+    {
+      "en": "tight",
+      "pos": "adj.",
+      "ru": "тесный, узкий",
+      "uz": "tor, tang",
+      "examples": [
+        {
+          "en": "These shoes are too tight.",
+          "uz": "Bu oyoq kiyim juda tor."
+        },
+        {
+          "en": "The deadline was tight and became impossible after the change.",
+          "uz": "Muddat tang edi va oʻzgarishdan keyin imkonsiz boʻlib qoldi."
+        }
+      ]
+    },
+    {
+      "en": "agreement",
+      "pos": "n.",
+      "ru": "соглашение, согласие",
+      "uz": "kelishuv",
+      "examples": [
+        {
+          "en": "They signed an agreement.",
+          "uz": "Ular kelishuvni imzolashdi."
+        },
+        {
+          "en": "The agreement was reached in an afternoon and unravelled over a year.",
+          "uz": "Kelishuvga bir kun ichida erishildi va u bir yil davomida yemirildi."
+        }
+      ]
+    },
+    {
+      "en": "hurricane",
+      "pos": "n.",
+      "ru": "ураган",
+      "uz": "dovul",
+      "examples": [
+        {
+          "en": "The hurricane destroyed many houses.",
+          "uz": "Dovul koʻp uyni vayron qildi."
+        },
+        {
+          "en": "The hurricane season has grown longer over the past twenty years.",
+          "uz": "Dovul mavsumi soʻnggi yigirma yilda uzayib bordi."
+        }
+      ]
+    },
+    {
+      "en": "represent",
+      "pos": "v.",
+      "ru": "представлять (кого-то)",
+      "uz": "vakillik qilmoq",
+      "examples": [
+        {
+          "en": "She represented her country at the Olympics.",
+          "uz": "U Olimpiadada oʻz mamlakatiga vakillik qildi."
+        },
+        {
+          "en": "Nobody in the room represented the people being discussed.",
+          "uz": "Xonadagi hech kim muhokama qilinayotgan odamlarga vakillik qilmasdi."
+        }
+      ]
+    },
+    {
+      "en": "worth",
+      "pos": "adj.",
+      "ru": "стоящий (be worth)",
+      "uz": "arziydigan",
+      "examples": [
+        {
+          "en": "The film is worth watching.",
+          "uz": "Film koʻrishga arziydi."
+        },
+        {
+          "en": "It's worth reading the appendix, where the real news is.",
+          "uz": "Ilovani oʻqishga arziydi, asl yangilik oʻsha yerda."
+        }
+      ]
     }
   ]
 }
