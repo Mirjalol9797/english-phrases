@@ -1,0 +1,1029 @@
+{
+  "chapter": "phone-messaging",
+  "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Telefon va yozishma",
+  "lessons": {
+    "Начало звонка": "Qoʻngʻiroq boshlanishi",
+    "Звонки": "Qoʻngʻiroqlar",
+    "Плохая связь": "Aloqa yomonligi",
+    "Оставление сообщений": "Xabar qoldirish",
+    "Текстовые сообщения": "Matnli xabarlar",
+    "Договорённости по телефону": "Telefon orqali kelishuvlar",
+    "Видеозвонки": "Videoqoʻngʻiroqlar",
+    "Настройки телефона и батарея": "Telefon sozlamalari va batareya",
+    "Рабочие звонки": "Ishdagi qoʻngʻiroqlar",
+    "Вежливая переписка": "Xushmuomala yozishma",
+    "Групповые чаты": "Guruh chatlari",
+    "Отправка фото и файлов": "Surat va fayl yuborish",
+    "Подтверждение информации": "Maʼlumotni tasdiqlash",
+    "Пропущенные звонки": "Javobsiz qoʻngʻiroqlar",
+    "Завершение звонка": "Qoʻngʻiroqni yakunlash",
+    "Статус и доступность": "Holat va aloqadagi vaqt",
+    "Конфиденциальность и ошибки": "Maxfiylik va xatolar",
+    "Поддержка по телефону": "Telefon orqali yordam",
+    "Сообщения друзьям": "Doʻstlarga xabarlar",
+    "Частые фразы в переписке": "Yozishmadagi keng tarqalgan iboralar"
+  },
+  "entries": [
+    {
+      "en": "Hi, it's me.",
+      "ru": "Привет, это я.",
+      "uz": "Salom, bu men."
+    },
+    {
+      "en": "Is now a good time to talk?",
+      "ru": "Сейчас удобно говорить?",
+      "uz": "Hozir gaplashish qulaymi?"
+    },
+    {
+      "en": "Can you talk for a minute?",
+      "ru": "Можешь поговорить минутку?",
+      "uz": "Bir daqiqa gaplasha olasizmi?"
+    },
+    {
+      "en": "Am I calling at a bad time?",
+      "ru": "Я не вовремя звоню?",
+      "uz": "Notoʻgʻri vaqtda qoʻngʻiroq qilyapmanmi?"
+    },
+    {
+      "en": "I just wanted to check in.",
+      "ru": "Я просто хотел(а) узнать, как ты.",
+      "uz": "Shunchaki hol-ahvolingizni bilmoqchi edim."
+    },
+    {
+      "en": "I thought I'd give you a call.",
+      "ru": "Я подумал(а), что позвоню тебе.",
+      "uz": "Sizga qoʻngʻiroq qilay dedim."
+    },
+    {
+      "en": "Can you hear me okay?",
+      "ru": "Ты меня нормально слышишь?",
+      "uz": "Meni yaxshi eshityapsizmi?"
+    },
+    {
+      "en": "Sorry, I missed your call.",
+      "ru": "Извини, я пропустил(а) твой звонок.",
+      "uz": "Kechirasiz, qoʻngʻirogʻingizni oʻtkazib yuboribman."
+    },
+    {
+      "en": "Thanks for calling me back.",
+      "ru": "Спасибо, что перезвонил(а).",
+      "uz": "Qayta qoʻngʻiroq qilganingiz uchun rahmat."
+    },
+    {
+      "en": "What's up?",
+      "ru": "Что случилось? / Как дела?",
+      "uz": "Nima gap?"
+    },
+    {
+      "en": "Could I speak to Alex, please?",
+      "ru": "Можно поговорить с Алексом, пожалуйста?",
+      "uz": "Iltimos, Aleks bilan gaplashsam boʻladimi?"
+    },
+    {
+      "en": "Who's calling, please?",
+      "ru": "Кто звонит, пожалуйста?",
+      "uz": "Kim qoʻngʻiroq qilyapti?"
+    },
+    {
+      "en": "Please hold for a moment.",
+      "ru": "Пожалуйста, подождите минутку.",
+      "uz": "Iltimos, bir daqiqa kutib turing."
+    },
+    {
+      "en": "I'll put you through.",
+      "ru": "Я соединю вас.",
+      "uz": "Sizni ulayman."
+    },
+    {
+      "en": "Could you call back later?",
+      "ru": "Не могли бы вы перезвонить позже?",
+      "uz": "Keyinroq qayta qoʻngʻiroq qila olasizmi?"
+    },
+    {
+      "en": "The line is busy.",
+      "ru": "Линия занята.",
+      "uz": "Liniya band."
+    },
+    {
+      "en": "I think we got disconnected.",
+      "ru": "Кажется, связь прервалась.",
+      "uz": "Aloqa uzilib qoldi shekilli."
+    },
+    {
+      "en": "I'll call you right back.",
+      "ru": "Я сейчас же перезвоню.",
+      "uz": "Hozir qayta qoʻngʻiroq qilaman."
+    },
+    {
+      "en": "Can I leave a message?",
+      "ru": "Могу я оставить сообщение?",
+      "uz": "Xabar qoldirsam boʻladimi?"
+    },
+    {
+      "en": "Could you ask them to call me?",
+      "ru": "Не могли бы вы попросить их мне позвонить?",
+      "uz": "Ularga menga qoʻngʻiroq qilishni aytib qoʻya olasizmi?"
+    },
+    {
+      "en": "You're breaking up.",
+      "ru": "Тебя плохо слышно, связь прерывается.",
+      "uz": "Ovozingiz uzilib-uzilib kelyapti."
+    },
+    {
+      "en": "I can barely hear you.",
+      "ru": "Я едва тебя слышу.",
+      "uz": "Sizni zoʻrgʻa eshityapman."
+    },
+    {
+      "en": "The signal is weak.",
+      "ru": "Слабый сигнал.",
+      "uz": "Signal kuchsiz."
+    },
+    {
+      "en": "Could you move somewhere quieter?",
+      "ru": "Можешь перейти в более тихое место?",
+      "uz": "Tinchroq joyga oʻta olasizmi?"
+    },
+    {
+      "en": "There's a lot of background noise.",
+      "ru": "Много фонового шума.",
+      "uz": "Fonda shovqin koʻp."
+    },
+    {
+      "en": "Your voice keeps cutting out.",
+      "ru": "Твой голос постоянно пропадает.",
+      "uz": "Ovozingiz tinmay uzilyapti."
+    },
+    {
+      "en": "Let me call you back from another phone.",
+      "ru": "Позволь перезвонить с другого телефона.",
+      "uz": "Boshqa telefondan qayta qoʻngʻiroq qilay."
+    },
+    {
+      "en": "I think the connection is unstable.",
+      "ru": "Кажется, соединение нестабильное.",
+      "uz": "Aloqa barqaror emas shekilli."
+    },
+    {
+      "en": "Can you hear me now?",
+      "ru": "Теперь ты меня слышишь?",
+      "uz": "Endi eshityapsizmi?"
+    },
+    {
+      "en": "Let's switch to a video call.",
+      "ru": "Давай перейдём на видеозвонок.",
+      "uz": "Keling, videoqoʻngʻiroqqa oʻtaylik."
+    },
+    {
+      "en": "Please leave a message after the beep.",
+      "ru": "Оставьте сообщение после сигнала.",
+      "uz": "Signaldan keyin xabar qoldiring."
+    },
+    {
+      "en": "I just called to let you know...",
+      "ru": "Я просто позвонил(а), чтобы сообщить...",
+      "uz": "Shunchaki xabar berish uchun qoʻngʻiroq qildim..."
+    },
+    {
+      "en": "Could you pass on a message?",
+      "ru": "Не могли бы вы передать сообщение?",
+      "uz": "Xabarni yetkazib qoʻya olasizmi?"
+    },
+    {
+      "en": "Please tell them I called.",
+      "ru": "Пожалуйста, скажите им, что я звонил(а).",
+      "uz": "Iltimos, ularga qoʻngʻiroq qilganimni ayting."
+    },
+    {
+      "en": "I'll try again later.",
+      "ru": "Я попробую ещё раз позже.",
+      "uz": "Keyinroq yana urinib koʻraman."
+    },
+    {
+      "en": "I couldn't reach you.",
+      "ru": "Я не смог(ла) до тебя дозвониться.",
+      "uz": "Sizga dozvon qila olmadim."
+    },
+    {
+      "en": "I left you a voicemail.",
+      "ru": "Я оставил(а) тебе голосовое сообщение.",
+      "uz": "Sizga ovozli xabar qoldirdim."
+    },
+    {
+      "en": "Did you get my message?",
+      "ru": "Ты получил(а) моё сообщение?",
+      "uz": "Xabarimni oldingizmi?"
+    },
+    {
+      "en": "Please call me when you can.",
+      "ru": "Позвони мне, когда сможешь.",
+      "uz": "Imkoningiz boʻlganda menga qoʻngʻiroq qiling."
+    },
+    {
+      "en": "It's nothing urgent.",
+      "ru": "Это не срочно.",
+      "uz": "Bu shoshilinch emas."
+    },
+    {
+      "en": "I'll text you the details.",
+      "ru": "Я напишу тебе подробности.",
+      "uz": "Tafsilotlarini yozib yuboraman."
+    },
+    {
+      "en": "Did you see my text?",
+      "ru": "Ты видел(а) моё сообщение?",
+      "uz": "Xabarimni koʻrdingizmi?"
+    },
+    {
+      "en": "Sorry, I just saw this.",
+      "ru": "Извини, я только сейчас это увидел(а).",
+      "uz": "Kechirasiz, buni endi koʻrdim."
+    },
+    {
+      "en": "I'll reply in a minute.",
+      "ru": "Я отвечу через минуту.",
+      "uz": "Bir daqiqadan keyin javob beraman."
+    },
+    {
+      "en": "Can you send that again?",
+      "ru": "Можешь отправить это ещё раз?",
+      "uz": "Buni qayta yuborib bera olasizmi?"
+    },
+    {
+      "en": "I sent it by mistake.",
+      "ru": "Я отправил(а) это по ошибке.",
+      "uz": "Buni adashib yuboribman."
+    },
+    {
+      "en": "Please check your messages.",
+      "ru": "Пожалуйста, проверь сообщения.",
+      "uz": "Iltimos, xabarlaringizni tekshiring."
+    },
+    {
+      "en": "I'll message you later.",
+      "ru": "Я напишу тебе позже.",
+      "uz": "Keyinroq yozaman."
+    },
+    {
+      "en": "I haven't heard back from them.",
+      "ru": "Они мне пока не ответили.",
+      "uz": "Ulardan hali javob kelmadi."
+    },
+    {
+      "en": "Thanks for the heads-up.",
+      "ru": "Спасибо, что предупредил(а).",
+      "uz": "Ogohlantirganingiz uchun rahmat."
+    },
+    {
+      "en": "Are we still on for tonight?",
+      "ru": "Наши планы на сегодняшний вечер в силе?",
+      "uz": "Bugun kechqurungi rejamiz kuchidami?"
+    },
+    {
+      "en": "What time should I call you?",
+      "ru": "Во сколько мне тебе позвонить?",
+      "uz": "Sizga soat nechada qoʻngʻiroq qilay?"
+    },
+    {
+      "en": "I'll send you the address.",
+      "ru": "Я отправлю тебе адрес.",
+      "uz": "Manzilni yuboraman."
+    },
+    {
+      "en": "Can you share your location?",
+      "ru": "Можешь поделиться геолокацией?",
+      "uz": "Joylashuvingizni ulasha olasizmi?"
+    },
+    {
+      "en": "Let's confirm the details by text.",
+      "ru": "Давай подтвердим детали сообщением.",
+      "uz": "Keling, tafsilotlarni xabar orqali tasdiqlaylik."
+    },
+    {
+      "en": "I'll let you know when I'm leaving.",
+      "ru": "Я сообщу тебе, когда выйду.",
+      "uz": "Chiqayotganimda xabar beraman."
+    },
+    {
+      "en": "I'm running a little late.",
+      "ru": "Я немного опаздываю.",
+      "uz": "Men biroz kechikyapman."
+    },
+    {
+      "en": "I'll be there in ten minutes.",
+      "ru": "Я буду там через десять минут.",
+      "uz": "Oʻn daqiqada yetib boraman."
+    },
+    {
+      "en": "Something came up; can we reschedule?",
+      "ru": "Возникли обстоятельства; можем перенести?",
+      "uz": "Ish chiqib qoldi; boshqa vaqtga koʻchira olamizmi?"
+    },
+    {
+      "en": "Call me when you're on your way.",
+      "ru": "Позвони мне, когда будешь в пути.",
+      "uz": "Yoʻlga chiqqaningizda qoʻngʻiroq qiling."
+    },
+    {
+      "en": "Can you turn your camera on?",
+      "ru": "Можешь включить камеру?",
+      "uz": "Kamerangizni yoqa olasizmi?"
+    },
+    {
+      "en": "Your camera is frozen.",
+      "ru": "Твоё изображение зависло.",
+      "uz": "Tasviringiz qotib qoldi."
+    },
+    {
+      "en": "You're on mute.",
+      "ru": "У тебя выключен микрофон.",
+      "uz": "Mikrofoningiz oʻchiq."
+    },
+    {
+      "en": "I can't see your screen.",
+      "ru": "Я не вижу твой экран.",
+      "uz": "Ekraningizni koʻra olmayapman."
+    },
+    {
+      "en": "Could you share the link?",
+      "ru": "Можешь поделиться ссылкой?",
+      "uz": "Havolani ulasha olasizmi?"
+    },
+    {
+      "en": "I'll join in a moment.",
+      "ru": "Я подключусь через минуту.",
+      "uz": "Bir daqiqadan keyin qoʻshilaman."
+    },
+    {
+      "en": "Let's turn off our cameras to save bandwidth.",
+      "ru": "Давайте выключим камеры, чтобы снизить нагрузку на интернет.",
+      "uz": "Keling, internetga yuk kamaysin uchun kameralarni oʻchiraylik."
+    },
+    {
+      "en": "The video is lagging.",
+      "ru": "Видео тормозит.",
+      "uz": "Video sekinlashyapti."
+    },
+    {
+      "en": "Can you hear the audio?",
+      "ru": "Ты слышишь звук?",
+      "uz": "Ovozni eshityapsizmi?"
+    },
+    {
+      "en": "I'll reconnect to the meeting.",
+      "ru": "Я переподключусь к встрече.",
+      "uz": "Uchrashuvga qayta ulanaman."
+    },
+    {
+      "en": "My phone is about to die.",
+      "ru": "У меня сейчас разрядится телефон.",
+      "uz": "Telefonim hozir oʻchib qoladi."
+    },
+    {
+      "en": "Do you have a charger?",
+      "ru": "У тебя есть зарядное устройство?",
+      "uz": "Quvvatlagichingiz bormi?"
+    },
+    {
+      "en": "I need to put my phone on silent.",
+      "ru": "Мне нужно поставить телефон на беззвучный режим.",
+      "uz": "Telefonimni ovozsiz rejimga qoʻyishim kerak."
+    },
+    {
+      "en": "My phone won't turn on.",
+      "ru": "Мой телефон не включается.",
+      "uz": "Telefonim yonmayapti."
+    },
+    {
+      "en": "I can't unlock my phone.",
+      "ru": "Я не могу разблокировать телефон.",
+      "uz": "Telefonimni ocha olmayapman."
+    },
+    {
+      "en": "The app keeps crashing.",
+      "ru": "Приложение постоянно вылетает.",
+      "uz": "Ilova tinmay yopilib ketyapti."
+    },
+    {
+      "en": "I need to update my phone.",
+      "ru": "Мне нужно обновить телефон.",
+      "uz": "Telefonimni yangilashim kerak."
+    },
+    {
+      "en": "Could you connect me to the Wi-Fi?",
+      "ru": "Можешь подключить меня к Wi-Fi?",
+      "uz": "Meni Wi-Fi tarmogʻiga ulab bera olasizmi?"
+    },
+    {
+      "en": "I forgot my passcode.",
+      "ru": "Я забыл(а) код доступа.",
+      "uz": "Parolimni unutdim."
+    },
+    {
+      "en": "My storage is full.",
+      "ru": "У меня заполнена память.",
+      "uz": "Xotiram toʻlib ketdi."
+    },
+    {
+      "en": "I'm calling about the meeting.",
+      "ru": "Я звоню по поводу встречи.",
+      "uz": "Men uchrashuv boʻyicha qoʻngʻiroq qilyapman."
+    },
+    {
+      "en": "Could we discuss this over the phone?",
+      "ru": "Можем обсудить это по телефону?",
+      "uz": "Buni telefon orqali muhokama qila olamizmi?"
+    },
+    {
+      "en": "I'll send the documents after our call.",
+      "ru": "Я отправлю документы после звонка.",
+      "uz": "Qoʻngʻiroqdan keyin hujjatlarni yuboraman."
+    },
+    {
+      "en": "Let me check and call you back.",
+      "ru": "Позволь проверить и перезвонить.",
+      "uz": "Tekshirib koʻray-da, qayta qoʻngʻiroq qilay."
+    },
+    {
+      "en": "Could you repeat the last point?",
+      "ru": "Не могли бы вы повторить последний пункт?",
+      "uz": "Oxirgi fikrni takrorlay olasizmi?"
+    },
+    {
+      "en": "I'll put that in an email.",
+      "ru": "Я напишу об этом в электронном письме.",
+      "uz": "Buni elektron xatda yozaman."
+    },
+    {
+      "en": "Thanks for taking my call.",
+      "ru": "Спасибо, что ответили на звонок.",
+      "uz": "Qoʻngʻirogʻimga javob berganingiz uchun rahmat."
+    },
+    {
+      "en": "I have another call coming in.",
+      "ru": "Мне поступает другой звонок.",
+      "uz": "Menga boshqa qoʻngʻiroq kelyapti."
+    },
+    {
+      "en": "Can we keep this brief?",
+      "ru": "Можем говорить кратко?",
+      "uz": "Qisqa qilsak boʻladimi?"
+    },
+    {
+      "en": "I'll follow up by email.",
+      "ru": "Я продолжу общение по электронной почте.",
+      "uz": "Elektron pochta orqali davom ettiraman."
+    },
+    {
+      "en": "Sorry to message you so late.",
+      "ru": "Извини, что пишу так поздно.",
+      "uz": "Shuncha kech yozganim uchun uzr."
+    },
+    {
+      "en": "When you have a moment, could you reply?",
+      "ru": "Когда будет минутка, можешь ответить?",
+      "uz": "Imkoningiz boʻlganda javob bera olasizmi?"
+    },
+    {
+      "en": "No rush to reply.",
+      "ru": "Не торопись с ответом.",
+      "uz": "Javob berishga shoshilmang."
+    },
+    {
+      "en": "Thanks for getting back to me.",
+      "ru": "Спасибо, что ответил(а).",
+      "uz": "Javob berganingiz uchun rahmat."
+    },
+    {
+      "en": "I appreciate the quick response.",
+      "ru": "Благодарю за быстрый ответ.",
+      "uz": "Tez javob berganingiz uchun minnatdorman."
+    },
+    {
+      "en": "Just checking whether you saw this.",
+      "ru": "Просто уточняю, видел(а) ли ты это.",
+      "uz": "Shunchaki buni koʻrdingizmi deb soʻrayapman."
+    },
+    {
+      "en": "Please let me know when you can.",
+      "ru": "Пожалуйста, дай знать, когда сможешь.",
+      "uz": "Imkoningiz boʻlganda, iltimos, xabar bering."
+    },
+    {
+      "en": "Sorry for the multiple messages.",
+      "ru": "Извини за несколько сообщений подряд.",
+      "uz": "Ketma-ket xabar yozganim uchun uzr."
+    },
+    {
+      "en": "I hope I'm not disturbing you.",
+      "ru": "Надеюсь, я тебя не отвлекаю.",
+      "uz": "Umid qilamanki, bezovta qilmayapman."
+    },
+    {
+      "en": "Thanks for your time.",
+      "ru": "Спасибо за твоё время.",
+      "uz": "Vaqtingiz uchun rahmat."
+    },
+    {
+      "en": "I'll add you to the group.",
+      "ru": "Я добавлю тебя в группу.",
+      "uz": "Sizni guruhga qoʻshaman."
+    },
+    {
+      "en": "Please check the pinned message.",
+      "ru": "Пожалуйста, проверь закреплённое сообщение.",
+      "uz": "Iltimos, qadalgan xabarni koʻring."
+    },
+    {
+      "en": "I'll share it with the group.",
+      "ru": "Я поделюсь этим с группой.",
+      "uz": "Buni guruh bilan ulashaman."
+    },
+    {
+      "en": "Can everyone see this?",
+      "ru": "Все это видят?",
+      "uz": "Buni hamma koʻryaptimi?"
+    },
+    {
+      "en": "Let's keep the chat on topic.",
+      "ru": "Давайте придерживаться темы в чате.",
+      "uz": "Keling, chatda mavzudan chetga chiqmaylik."
+    },
+    {
+      "en": "I'll send the files here.",
+      "ru": "Я отправлю файлы сюда.",
+      "uz": "Fayllarni shu yerga yuboraman."
+    },
+    {
+      "en": "Please don't forget to reply.",
+      "ru": "Пожалуйста, не забудьте ответить.",
+      "uz": "Iltimos, javob berishni unutmang."
+    },
+    {
+      "en": "I'll mute this chat for a while.",
+      "ru": "Я ненадолго отключу уведомления этого чата.",
+      "uz": "Bu chatni bir muddat ovozsiz qilaman."
+    },
+    {
+      "en": "Who can help with this?",
+      "ru": "Кто может с этим помочь?",
+      "uz": "Bunga kim yordam bera oladi?"
+    },
+    {
+      "en": "Thanks, everyone, for the updates.",
+      "ru": "Спасибо всем за обновления.",
+      "uz": "Yangiliklar uchun hammangizga rahmat."
+    },
+    {
+      "en": "I'll send you the photo.",
+      "ru": "Я отправлю тебе фотографию.",
+      "uz": "Sizga suratni yuboraman."
+    },
+    {
+      "en": "The file is too large to send.",
+      "ru": "Файл слишком большой для отправки.",
+      "uz": "Fayl yuborish uchun juda katta."
+    },
+    {
+      "en": "Can you open the attachment?",
+      "ru": "Можешь открыть вложение?",
+      "uz": "Ilovani ocha olasizmi?"
+    },
+    {
+      "en": "I'll upload it to the shared folder.",
+      "ru": "Я загружу это в общую папку.",
+      "uz": "Buni umumiy papkaga yuklayman."
+    },
+    {
+      "en": "Here's the link.",
+      "ru": "Вот ссылка.",
+      "uz": "Mana havola."
+    },
+    {
+      "en": "Let me know if it doesn't open.",
+      "ru": "Дай знать, если не открывается.",
+      "uz": "Ochilmasa, menga xabar bering."
+    },
+    {
+      "en": "I sent the wrong file.",
+      "ru": "Я отправил(а) не тот файл.",
+      "uz": "Men notoʻgʻri faylni yuboribman."
+    },
+    {
+      "en": "Could you send it in PDF format?",
+      "ru": "Можешь отправить это в формате PDF?",
+      "uz": "Buni PDF koʻrinishida yuborib bera olasizmi?"
+    },
+    {
+      "en": "The download is taking a while.",
+      "ru": "Загрузка занимает некоторое время.",
+      "uz": "Yuklab olish biroz vaqt olyapti."
+    },
+    {
+      "en": "I've shared access with you.",
+      "ru": "Я предоставил(а) тебе доступ.",
+      "uz": "Sizga ruxsat berdim."
+    },
+    {
+      "en": "Can you confirm the time?",
+      "ru": "Можешь подтвердить время?",
+      "uz": "Vaqtni tasdiqlay olasizmi?"
+    },
+    {
+      "en": "Just to make sure, we're meeting at six.",
+      "ru": "Чтобы уточнить, мы встречаемся в шесть.",
+      "uz": "Aniqlik uchun: biz oltida uchrashamiz."
+    },
+    {
+      "en": "Did I get the address right?",
+      "ru": "Я правильно записал(а) адрес?",
+      "uz": "Manzilni toʻgʻri yozib oldimmi?"
+    },
+    {
+      "en": "I'll repeat that back to you.",
+      "ru": "Я повторю это для проверки.",
+      "uz": "Buni tekshirish uchun qaytarib aytaman."
+    },
+    {
+      "en": "Could you spell your name?",
+      "ru": "Можете произнести ваше имя по буквам?",
+      "uz": "Ismingizni harflab ayta olasizmi?"
+    },
+    {
+      "en": "Let me read that message again.",
+      "ru": "Позволь перечитать сообщение.",
+      "uz": "Xabarni qayta oʻqib chiqay."
+    },
+    {
+      "en": "I got your details.",
+      "ru": "Я получил(а) твои данные.",
+      "uz": "Maʼlumotlaringizni oldim."
+    },
+    {
+      "en": "Thanks for confirming.",
+      "ru": "Спасибо за подтверждение.",
+      "uz": "Tasdiqlaganingiz uchun rahmat."
+    },
+    {
+      "en": "I'll double-check and let you know.",
+      "ru": "Я перепроверю и сообщу тебе.",
+      "uz": "Qayta tekshirib, sizga xabar beraman."
+    },
+    {
+      "en": "Everything is confirmed.",
+      "ru": "Всё подтверждено.",
+      "uz": "Hammasi tasdiqlandi."
+    },
+    {
+      "en": "I saw your missed call.",
+      "ru": "Я увидел(а) твой пропущенный звонок.",
+      "uz": "Javobsiz qoʻngʻirogʻingizni koʻrdim."
+    },
+    {
+      "en": "Sorry I couldn't answer.",
+      "ru": "Извини, я не смог(ла) ответить.",
+      "uz": "Kechirasiz, javob bera olmadim."
+    },
+    {
+      "en": "I was in a meeting.",
+      "ru": "Я был(а) на встрече.",
+      "uz": "Men uchrashuvda edim."
+    },
+    {
+      "en": "I tried calling you earlier.",
+      "ru": "Я пытался / пыталась позвонить тебе раньше.",
+      "uz": "Sizga avvalroq qoʻngʻiroq qilmoqchi boʻlgandim."
+    },
+    {
+      "en": "When would be a good time to call?",
+      "ru": "Когда лучше позвонить?",
+      "uz": "Qachon qoʻngʻiroq qilsam maʼqul boʻladi?"
+    },
+    {
+      "en": "I'll call as soon as I'm free.",
+      "ru": "Я позвоню, как только освобожусь.",
+      "uz": "Boʻshashim bilan qoʻngʻiroq qilaman."
+    },
+    {
+      "en": "I couldn't get through.",
+      "ru": "Я не смог(ла) дозвониться.",
+      "uz": "Men dozvon qila olmadim."
+    },
+    {
+      "en": "Please try me again in an hour.",
+      "ru": "Попробуй позвонить мне снова через час.",
+      "uz": "Bir soatdan keyin yana urinib koʻring."
+    },
+    {
+      "en": "I was away from my phone.",
+      "ru": "Меня не было рядом с телефоном.",
+      "uz": "Men telefondan uzoqda edim."
+    },
+    {
+      "en": "Thanks for calling back.",
+      "ru": "Спасибо, что перезвонил(а).",
+      "uz": "Qayta qoʻngʻiroq qilganingiz uchun rahmat."
+    },
+    {
+      "en": "I won't keep you any longer.",
+      "ru": "Не буду больше тебя задерживать.",
+      "uz": "Sizni endi ushlab turmayman."
+    },
+    {
+      "en": "I should let you go.",
+      "ru": "Не буду тебя больше задерживать.",
+      "uz": "Sizga xalaqit bermay endi."
+    },
+    {
+      "en": "Thanks for the call.",
+      "ru": "Спасибо за звонок.",
+      "uz": "Qoʻngʻiroq uchun rahmat."
+    },
+    {
+      "en": "It was good talking to you.",
+      "ru": "Было приятно поговорить с тобой.",
+      "uz": "Siz bilan suhbatlashganim yoqdi."
+    },
+    {
+      "en": "I'll talk to you soon.",
+      "ru": "Скоро поговорим.",
+      "uz": "Tez orada gaplashamiz."
+    },
+    {
+      "en": "Speak to you later.",
+      "ru": "Поговорим позже.",
+      "uz": "Keyinroq gaplashamiz."
+    },
+    {
+      "en": "I'll be in touch.",
+      "ru": "Я буду на связи.",
+      "uz": "Aloqada boʻlaman."
+    },
+    {
+      "en": "Take care and talk soon.",
+      "ru": "Береги себя, скоро поговорим.",
+      "uz": "Oʻzingizni ehtiyot qiling, tez orada gaplashamiz."
+    },
+    {
+      "en": "I'll send you a message after this.",
+      "ru": "Я напишу тебе после этого.",
+      "uz": "Shundan keyin sizga xabar yozaman."
+    },
+    {
+      "en": "Bye for now.",
+      "ru": "Пока.",
+      "uz": "Hozircha xayr."
+    },
+    {
+      "en": "Are you online?",
+      "ru": "Ты в сети?",
+      "uz": "Tarmoqdamisiz?"
+    },
+    {
+      "en": "I was away from my phone.",
+      "ru": "Меня не было у телефона.",
+      "uz": "Men telefonimning yonida yoʻq edim."
+    },
+    {
+      "en": "I'll be offline for a while.",
+      "ru": "Меня некоторое время не будет в сети.",
+      "uz": "Men bir muddat tarmoqda boʻlmayman."
+    },
+    {
+      "en": "I just came online.",
+      "ru": "Я только что появился / появилась в сети.",
+      "uz": "Men endigina tarmoqqa kirdim."
+    },
+    {
+      "en": "Sorry, I didn't see the notification.",
+      "ru": "Извини, я не увидел(а) уведомление.",
+      "uz": "Kechirasiz, bildirishnomani koʻrmadim."
+    },
+    {
+      "en": "My notifications are turned off.",
+      "ru": "У меня отключены уведомления.",
+      "uz": "Mening bildirishnomalarim oʻchiq."
+    },
+    {
+      "en": "I'll check when I'm back online.",
+      "ru": "Я проверю, когда снова буду в сети.",
+      "uz": "Tarmoqqa qaytganimda koʻraman."
+    },
+    {
+      "en": "I may not reply right away.",
+      "ru": "Я могу ответить не сразу.",
+      "uz": "Men darhol javob bera olmasligim mumkin."
+    },
+    {
+      "en": "I'm available now.",
+      "ru": "Я сейчас на связи.",
+      "uz": "Men hozir aloqadaman."
+    },
+    {
+      "en": "Message me whenever you need.",
+      "ru": "Пиши мне, когда понадобится.",
+      "uz": "Kerak boʻlganda menga yozing."
+    },
+    {
+      "en": "I sent that to the wrong person.",
+      "ru": "Я отправил(а) это не тому человеку.",
+      "uz": "Men buni notoʻgʻri odamga yuboribman."
+    },
+    {
+      "en": "Please delete my last message.",
+      "ru": "Пожалуйста, удали моё последнее сообщение.",
+      "uz": "Iltimos, oxirgi xabarimni oʻchiring."
+    },
+    {
+      "en": "I didn't mean to send that.",
+      "ru": "Я не хотел(а) это отправлять.",
+      "uz": "Men buni yuborishni xohlamagandim."
+    },
+    {
+      "en": "Was that message meant for me?",
+      "ru": "Это сообщение было адресовано мне?",
+      "uz": "Oʻsha xabar menga moʻljallanganmidi?"
+    },
+    {
+      "en": "Please don't share this message.",
+      "ru": "Пожалуйста, не пересылай это сообщение.",
+      "uz": "Iltimos, bu xabarni tarqatmang."
+    },
+    {
+      "en": "I accidentally deleted the chat.",
+      "ru": "Я случайно удалил(а) чат.",
+      "uz": "Men chatni tasodifan oʻchirib yuboribman."
+    },
+    {
+      "en": "Can you resend the attachment?",
+      "ru": "Можешь отправить вложение повторно?",
+      "uz": "Ilovani qayta yuborib bera olasizmi?"
+    },
+    {
+      "en": "I can't find our conversation.",
+      "ru": "Я не могу найти нашу переписку.",
+      "uz": "Yozishmalarimizni topa olmayapman."
+    },
+    {
+      "en": "I'll back up my contacts.",
+      "ru": "Я сделаю резервную копию контактов.",
+      "uz": "Kontaktlarimning zaxira nusxasini olaman."
+    },
+    {
+      "en": "Let's discuss this privately.",
+      "ru": "Давай обсудим это лично.",
+      "uz": "Keling, buni shaxsiy suhbatda muhokama qilaylik."
+    },
+    {
+      "en": "I'm calling about an issue with my account.",
+      "ru": "Я звоню по поводу проблемы с аккаунтом.",
+      "uz": "Men hisobimdagi muammo boʻyicha qoʻngʻiroq qilyapman."
+    },
+    {
+      "en": "Could you verify my details?",
+      "ru": "Не могли бы вы проверить мои данные?",
+      "uz": "Maʼlumotlarimni tekshira olasizmi?"
+    },
+    {
+      "en": "Could you explain the next steps?",
+      "ru": "Можете объяснить следующие шаги?",
+      "uz": "Keyingi qadamlarni tushuntira olasizmi?"
+    },
+    {
+      "en": "How long will this take to resolve?",
+      "ru": "Сколько времени займёт решение проблемы?",
+      "uz": "Buni hal qilish qancha vaqt oladi?"
+    },
+    {
+      "en": "Could I speak to a supervisor?",
+      "ru": "Могу я поговорить с руководителем?",
+      "uz": "Rahbar bilan gaplashsam boʻladimi?"
+    },
+    {
+      "en": "Please give me a reference number.",
+      "ru": "Пожалуйста, дайте мне номер обращения.",
+      "uz": "Iltimos, menga murojaat raqamini bering."
+    },
+    {
+      "en": "I'd like to report a problem.",
+      "ru": "Я хотел(а) бы сообщить о проблеме.",
+      "uz": "Men muammo haqida xabar bermoqchiman."
+    },
+    {
+      "en": "Thank you for looking into this.",
+      "ru": "Спасибо, что разбираетесь с этим.",
+      "uz": "Bu masalani koʻrib chiqayotganingiz uchun rahmat."
+    },
+    {
+      "en": "Could you send confirmation by email?",
+      "ru": "Можете отправить подтверждение по электронной почте?",
+      "uz": "Tasdiqnomani elektron pochta orqali yuborib bera olasizmi?"
+    },
+    {
+      "en": "I'll wait for your update.",
+      "ru": "Я буду ждать вашего сообщения.",
+      "uz": "Xabaringizni kutaman."
+    },
+    {
+      "en": "Are you around?",
+      "ru": "Ты поблизости? / Ты свободен(на)?",
+      "uz": "Yaqin atrofdamisiz?"
+    },
+    {
+      "en": "Fancy meeting up later?",
+      "ru": "Хочешь встретиться позже?",
+      "uz": "Keyinroq uchrashmaymizmi?"
+    },
+    {
+      "en": "I'm on my way now.",
+      "ru": "Я уже в пути.",
+      "uz": "Men hozir yoʻldaman."
+    },
+    {
+      "en": "Save me a seat.",
+      "ru": "Займи мне место.",
+      "uz": "Menga joy band qilib qoʻying."
+    },
+    {
+      "en": "I'm running a few minutes late.",
+      "ru": "Я опоздаю на несколько минут.",
+      "uz": "Men bir necha daqiqa kechikyapman."
+    },
+    {
+      "en": "Send me a photo when you get there.",
+      "ru": "Отправь фото, когда доберёшься.",
+      "uz": "Yetib borganingizda surat yuboring."
+    },
+    {
+      "en": "That was fun yesterday.",
+      "ru": "Вчера было весело.",
+      "uz": "Kecha zoʻr boʻldi."
+    },
+    {
+      "en": "Thanks for the invite!",
+      "ru": "Спасибо за приглашение!",
+      "uz": "Taklif uchun rahmat!"
+    },
+    {
+      "en": "Let me know when you're home.",
+      "ru": "Дай знать, когда будешь дома.",
+      "uz": "Uyga yetganingizda xabar bering."
+    },
+    {
+      "en": "We should do this again soon.",
+      "ru": "Нам стоит скоро повторить.",
+      "uz": "Buni tez orada yana takrorlashimiz kerak."
+    },
+    {
+      "en": "FYI — for your information.",
+      "ru": "К сведению.",
+      "uz": "FYI — maʼlumot uchun."
+    },
+    {
+      "en": "ASAP — as soon as possible.",
+      "ru": "Как можно скорее.",
+      "uz": "ASAP — imkon qadar tezroq."
+    },
+    {
+      "en": "BTW — by the way.",
+      "ru": "Кстати.",
+      "uz": "BTW — aytgancha."
+    },
+    {
+      "en": "No worries.",
+      "ru": "Не переживай; ничего страшного.",
+      "uz": "Hechqisi yoʻq."
+    },
+    {
+      "en": "Sounds good to me.",
+      "ru": "Меня это устраивает.",
+      "uz": "Menga toʻgʻri keladi."
+    },
+    {
+      "en": "Got it.",
+      "ru": "Понял(а).",
+      "uz": "Tushundim."
+    },
+    {
+      "en": "Will do.",
+      "ru": "Сделаю.",
+      "uz": "Qilaman."
+    },
+    {
+      "en": "Talk soon.",
+      "ru": "Скоро поговорим.",
+      "uz": "Tez orada gaplashamiz."
+    },
+    {
+      "en": "Thanks in advance.",
+      "ru": "Заранее спасибо.",
+      "uz": "Oldindan rahmat."
+    },
+    {
+      "en": "Let me know.",
+      "ru": "Дай мне знать.",
+      "uz": "Menga xabar bering."
+    }
+  ]
+}

@@ -85,11 +85,13 @@
       "kind": "phrases",
       "title": {
         "en": "Phone & Messaging",
-        "ru": "Звонки и переписка"
+        "ru": "Звонки и переписка",
+        "uz": "Telefon va yozishma"
       },
       "file": "chapters/phone-messaging.json",
       "lessonCount": 20,
-      "phraseCount": 200
+      "phraseCount": 200,
+      "translatedUz": true
     },
     {
       "id": "travel-english",

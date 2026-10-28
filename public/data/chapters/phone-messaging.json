@@ -5,7 +5,8 @@
   "kind": "phrases",
   "title": {
     "en": "Phone & Messaging",
-    "ru": "Звонки и переписка"
+    "ru": "Звонки и переписка",
+    "uz": "Telefon va yozishma"
   },
   "lessons": [
     {
@@ -13,58 +14,69 @@
       "order": 1,
       "title": {
         "en": "Starting a call",
-        "ru": "Начало звонка"
+        "ru": "Начало звонка",
+        "uz": "Qoʻngʻiroq boshlanishi"
       },
       "phrases": [
         {
           "id": "PM001",
           "en": "Hi, it's me.",
-          "ru": "Привет, это я."
+          "ru": "Привет, это я.",
+          "uz": "Salom, bu men."
         },
         {
           "id": "PM002",
           "en": "Is now a good time to talk?",
-          "ru": "Сейчас удобно говорить?"
+          "ru": "Сейчас удобно говорить?",
+          "uz": "Hozir gaplashish qulaymi?"
         },
         {
           "id": "PM003",
           "en": "Can you talk for a minute?",
-          "ru": "Можешь поговорить минутку?"
+          "ru": "Можешь поговорить минутку?",
+          "uz": "Bir daqiqa gaplasha olasizmi?"
         },
         {
           "id": "PM004",
           "en": "Am I calling at a bad time?",
-          "ru": "Я не вовремя звоню?"
+          "ru": "Я не вовремя звоню?",
+          "uz": "Notoʻgʻri vaqtda qoʻngʻiroq qilyapmanmi?"
         },
         {
           "id": "PM005",
           "en": "I just wanted to check in.",
-          "ru": "Я просто хотел(а) узнать, как ты."
+          "ru": "Я просто хотел(а) узнать, как ты.",
+          "uz": "Shunchaki hol-ahvolingizni bilmoqchi edim."
         },
         {
           "id": "PM006",
           "en": "I thought I'd give you a call.",
-          "ru": "Я подумал(а), что позвоню тебе."
+          "ru": "Я подумал(а), что позвоню тебе.",
+          "uz": "Sizga qoʻngʻiroq qilay dedim."
         },
         {
           "id": "PM007",
           "en": "Can you hear me okay?",
-          "ru": "Ты меня нормально слышишь?"
+          "ru": "Ты меня нормально слышишь?",
+          "uz": "Meni yaxshi eshityapsizmi?"
         },
         {
           "id": "PM008",
           "en": "Sorry, I missed your call.",
-          "ru": "Извини, я пропустил(а) твой звонок."
+          "ru": "Извини, я пропустил(а) твой звонок.",
+          "uz": "Kechirasiz, qoʻngʻirogʻingizni oʻtkazib yuboribman."
         },
         {
           "id": "PM009",
           "en": "Thanks for calling me back.",
-          "ru": "Спасибо, что перезвонил(а)."
+          "ru": "Спасибо, что перезвонил(а).",
+          "uz": "Qayta qoʻngʻiroq qilganingiz uchun rahmat."
         },
         {
           "id": "PM010",
           "en": "What's up?",
-          "ru": "Что случилось? / Как дела?"
+          "ru": "Что случилось? / Как дела?",
+          "uz": "Nima gap?"
         }
       ]
     },
@@ -73,58 +85,69 @@
       "order": 2,
       "title": {
         "en": "Making and answering calls",
-        "ru": "Звонки"
+        "ru": "Звонки",
+        "uz": "Qoʻngʻiroqlar"
       },
       "phrases": [
         {
           "id": "PM011",
           "en": "Could I speak to Alex, please?",
-          "ru": "Можно поговорить с Алексом, пожалуйста?"
+          "ru": "Можно поговорить с Алексом, пожалуйста?",
+          "uz": "Iltimos, Aleks bilan gaplashsam boʻladimi?"
         },
         {
           "id": "PM012",
           "en": "Who's calling, please?",
-          "ru": "Кто звонит, пожалуйста?"
+          "ru": "Кто звонит, пожалуйста?",
+          "uz": "Kim qoʻngʻiroq qilyapti?"
         },
         {
           "id": "PM013",
           "en": "Please hold for a moment.",
-          "ru": "Пожалуйста, подождите минутку."
+          "ru": "Пожалуйста, подождите минутку.",
+          "uz": "Iltimos, bir daqiqa kutib turing."
         },
         {
           "id": "PM014",
           "en": "I'll put you through.",
-          "ru": "Я соединю вас."
+          "ru": "Я соединю вас.",
+          "uz": "Sizni ulayman."
         },
         {
           "id": "PM015",
           "en": "Could you call back later?",
-          "ru": "Не могли бы вы перезвонить позже?"
+          "ru": "Не могли бы вы перезвонить позже?",
+          "uz": "Keyinroq qayta qoʻngʻiroq qila olasizmi?"
         },
         {
           "id": "PM016",
           "en": "The line is busy.",
-          "ru": "Линия занята."
+          "ru": "Линия занята.",
+          "uz": "Liniya band."
         },
         {
           "id": "PM017",
           "en": "I think we got disconnected.",
-          "ru": "Кажется, связь прервалась."
+          "ru": "Кажется, связь прервалась.",
+          "uz": "Aloqa uzilib qoldi shekilli."
         },
         {
           "id": "PM018",
           "en": "I'll call you right back.",
-          "ru": "Я сейчас же перезвоню."
+          "ru": "Я сейчас же перезвоню.",
+          "uz": "Hozir qayta qoʻngʻiroq qilaman."
         },
         {
           "id": "PM019",
           "en": "Can I leave a message?",
-          "ru": "Могу я оставить сообщение?"
+          "ru": "Могу я оставить сообщение?",
+          "uz": "Xabar qoldirsam boʻladimi?"
         },
         {
           "id": "PM020",
           "en": "Could you ask them to call me?",
-          "ru": "Не могли бы вы попросить их мне позвонить?"
+          "ru": "Не могли бы вы попросить их мне позвонить?",
+          "uz": "Ularga menga qoʻngʻiroq qilishni aytib qoʻya olasizmi?"
         }
       ]
     },
@@ -133,58 +156,69 @@
       "order": 3,
       "title": {
         "en": "Poor connection",
-        "ru": "Плохая связь"
+        "ru": "Плохая связь",
+        "uz": "Aloqa yomonligi"
       },
       "phrases": [
         {
           "id": "PM021",
           "en": "You're breaking up.",
-          "ru": "Тебя плохо слышно, связь прерывается."
+          "ru": "Тебя плохо слышно, связь прерывается.",
+          "uz": "Ovozingiz uzilib-uzilib kelyapti."
         },
         {
           "id": "PM022",
           "en": "I can barely hear you.",
-          "ru": "Я едва тебя слышу."
+          "ru": "Я едва тебя слышу.",
+          "uz": "Sizni zoʻrgʻa eshityapman."
         },
         {
           "id": "PM023",
           "en": "The signal is weak.",
-          "ru": "Слабый сигнал."
+          "ru": "Слабый сигнал.",
+          "uz": "Signal kuchsiz."
         },
         {
           "id": "PM024",
           "en": "Could you move somewhere quieter?",
-          "ru": "Можешь перейти в более тихое место?"
+          "ru": "Можешь перейти в более тихое место?",
+          "uz": "Tinchroq joyga oʻta olasizmi?"
         },
         {
           "id": "PM025",
           "en": "There's a lot of background noise.",
-          "ru": "Много фонового шума."
+          "ru": "Много фонового шума.",
+          "uz": "Fonda shovqin koʻp."
         },
         {
           "id": "PM026",
           "en": "Your voice keeps cutting out.",
-          "ru": "Твой голос постоянно пропадает."
+          "ru": "Твой голос постоянно пропадает.",
+          "uz": "Ovozingiz tinmay uzilyapti."
         },
         {
           "id": "PM027",
           "en": "Let me call you back from another phone.",
-          "ru": "Позволь перезвонить с другого телефона."
+          "ru": "Позволь перезвонить с другого телефона.",
+          "uz": "Boshqa telefondan qayta qoʻngʻiroq qilay."
         },
         {
           "id": "PM028",
           "en": "I think the connection is unstable.",
-          "ru": "Кажется, соединение нестабильное."
+          "ru": "Кажется, соединение нестабильное.",
+          "uz": "Aloqa barqaror emas shekilli."
         },
         {
           "id": "PM029",
           "en": "Can you hear me now?",
-          "ru": "Теперь ты меня слышишь?"
+          "ru": "Теперь ты меня слышишь?",
+          "uz": "Endi eshityapsizmi?"
         },
         {
           "id": "PM030",
           "en": "Let's switch to a video call.",
-          "ru": "Давай перейдём на видеозвонок."
+          "ru": "Давай перейдём на видеозвонок.",
+          "uz": "Keling, videoqoʻngʻiroqqa oʻtaylik."
         }
       ]
     },
@@ -193,58 +227,69 @@
       "order": 4,
       "title": {
         "en": "Leaving messages",
-        "ru": "Оставление сообщений"
+        "ru": "Оставление сообщений",
+        "uz": "Xabar qoldirish"
       },
       "phrases": [
         {
           "id": "PM031",
           "en": "Please leave a message after the beep.",
-          "ru": "Оставьте сообщение после сигнала."
+          "ru": "Оставьте сообщение после сигнала.",
+          "uz": "Signaldan keyin xabar qoldiring."
         },
         {
           "id": "PM032",
           "en": "I just called to let you know...",
-          "ru": "Я просто позвонил(а), чтобы сообщить..."
+          "ru": "Я просто позвонил(а), чтобы сообщить...",
+          "uz": "Shunchaki xabar berish uchun qoʻngʻiroq qildim..."
         },
         {
           "id": "PM033",
           "en": "Could you pass on a message?",
-          "ru": "Не могли бы вы передать сообщение?"
+          "ru": "Не могли бы вы передать сообщение?",
+          "uz": "Xabarni yetkazib qoʻya olasizmi?"
         },
         {
           "id": "PM034",
           "en": "Please tell them I called.",
-          "ru": "Пожалуйста, скажите им, что я звонил(а)."
+          "ru": "Пожалуйста, скажите им, что я звонил(а).",
+          "uz": "Iltimos, ularga qoʻngʻiroq qilganimni ayting."
         },
         {
           "id": "PM035",
           "en": "I'll try again later.",
-          "ru": "Я попробую ещё раз позже."
+          "ru": "Я попробую ещё раз позже.",
+          "uz": "Keyinroq yana urinib koʻraman."
         },
         {
           "id": "PM036",
           "en": "I couldn't reach you.",
-          "ru": "Я не смог(ла) до тебя дозвониться."
+          "ru": "Я не смог(ла) до тебя дозвониться.",
+          "uz": "Sizga dozvon qila olmadim."
         },
         {
           "id": "PM037",
           "en": "I left you a voicemail.",
-          "ru": "Я оставил(а) тебе голосовое сообщение."
+          "ru": "Я оставил(а) тебе голосовое сообщение.",
+          "uz": "Sizga ovozli xabar qoldirdim."
         },
         {
           "id": "PM038",
           "en": "Did you get my message?",
-          "ru": "Ты получил(а) моё сообщение?"
+          "ru": "Ты получил(а) моё сообщение?",
+          "uz": "Xabarimni oldingizmi?"
         },
         {
           "id": "PM039",
           "en": "Please call me when you can.",
-          "ru": "Позвони мне, когда сможешь."
+          "ru": "Позвони мне, когда сможешь.",
+          "uz": "Imkoningiz boʻlganda menga qoʻngʻiroq qiling."
         },
         {
           "id": "PM040",
           "en": "It's nothing urgent.",
-          "ru": "Это не срочно."
+          "ru": "Это не срочно.",
+          "uz": "Bu shoshilinch emas."
         }
       ]
     },
@@ -253,58 +298,69 @@
       "order": 5,
       "title": {
         "en": "Text messages",
-        "ru": "Текстовые сообщения"
+        "ru": "Текстовые сообщения",
+        "uz": "Matnli xabarlar"
       },
       "phrases": [
         {
           "id": "PM041",
           "en": "I'll text you the details.",
-          "ru": "Я напишу тебе подробности."
+          "ru": "Я напишу тебе подробности.",
+          "uz": "Tafsilotlarini yozib yuboraman."
         },
         {
           "id": "PM042",
           "en": "Did you see my text?",
-          "ru": "Ты видел(а) моё сообщение?"
+          "ru": "Ты видел(а) моё сообщение?",
+          "uz": "Xabarimni koʻrdingizmi?"
         },
         {
           "id": "PM043",
           "en": "Sorry, I just saw this.",
-          "ru": "Извини, я только сейчас это увидел(а)."
+          "ru": "Извини, я только сейчас это увидел(а).",
+          "uz": "Kechirasiz, buni endi koʻrdim."
         },
         {
           "id": "PM044",
           "en": "I'll reply in a minute.",
-          "ru": "Я отвечу через минуту."
+          "ru": "Я отвечу через минуту.",
+          "uz": "Bir daqiqadan keyin javob beraman."
         },
         {
           "id": "PM045",
           "en": "Can you send that again?",
-          "ru": "Можешь отправить это ещё раз?"
+          "ru": "Можешь отправить это ещё раз?",
+          "uz": "Buni qayta yuborib bera olasizmi?"
         },
         {
           "id": "PM046",
           "en": "I sent it by mistake.",
-          "ru": "Я отправил(а) это по ошибке."
+          "ru": "Я отправил(а) это по ошибке.",
+          "uz": "Buni adashib yuboribman."
         },
         {
           "id": "PM047",
           "en": "Please check your messages.",
-          "ru": "Пожалуйста, проверь сообщения."
+          "ru": "Пожалуйста, проверь сообщения.",
+          "uz": "Iltimos, xabarlaringizni tekshiring."
         },
         {
           "id": "PM048",
           "en": "I'll message you later.",
-          "ru": "Я напишу тебе позже."
+          "ru": "Я напишу тебе позже.",
+          "uz": "Keyinroq yozaman."
         },
         {
           "id": "PM049",
           "en": "I haven't heard back from them.",
-          "ru": "Они мне пока не ответили."
+          "ru": "Они мне пока не ответили.",
+          "uz": "Ulardan hali javob kelmadi."
         },
         {
           "id": "PM050",
           "en": "Thanks for the heads-up.",
-          "ru": "Спасибо, что предупредил(а)."
+          "ru": "Спасибо, что предупредил(а).",
+          "uz": "Ogohlantirganingiz uchun rahmat."
         }
       ]
     },
@@ -313,58 +369,69 @@
       "order": 6,
       "title": {
         "en": "Making plans by phone",
-        "ru": "Договорённости по телефону"
+        "ru": "Договорённости по телефону",
+        "uz": "Telefon orqali kelishuvlar"
       },
       "phrases": [
         {
           "id": "PM051",
           "en": "Are we still on for tonight?",
-          "ru": "Наши планы на сегодняшний вечер в силе?"
+          "ru": "Наши планы на сегодняшний вечер в силе?",
+          "uz": "Bugun kechqurungi rejamiz kuchidami?"
         },
         {
           "id": "PM052",
           "en": "What time should I call you?",
-          "ru": "Во сколько мне тебе позвонить?"
+          "ru": "Во сколько мне тебе позвонить?",
+          "uz": "Sizga soat nechada qoʻngʻiroq qilay?"
         },
         {
           "id": "PM053",
           "en": "I'll send you the address.",
-          "ru": "Я отправлю тебе адрес."
+          "ru": "Я отправлю тебе адрес.",
+          "uz": "Manzilni yuboraman."
         },
         {
           "id": "PM054",
           "en": "Can you share your location?",
-          "ru": "Можешь поделиться геолокацией?"
+          "ru": "Можешь поделиться геолокацией?",
+          "uz": "Joylashuvingizni ulasha olasizmi?"
         },
         {
           "id": "PM055",
           "en": "Let's confirm the details by text.",
-          "ru": "Давай подтвердим детали сообщением."
+          "ru": "Давай подтвердим детали сообщением.",
+          "uz": "Keling, tafsilotlarni xabar orqali tasdiqlaylik."
         },
         {
           "id": "PM056",
           "en": "I'll let you know when I'm leaving.",
-          "ru": "Я сообщу тебе, когда выйду."
+          "ru": "Я сообщу тебе, когда выйду.",
+          "uz": "Chiqayotganimda xabar beraman."
         },
         {
           "id": "PM057",
           "en": "I'm running a little late.",
-          "ru": "Я немного опаздываю."
+          "ru": "Я немного опаздываю.",
+          "uz": "Men biroz kechikyapman."
         },
         {
           "id": "PM058",
           "en": "I'll be there in ten minutes.",
-          "ru": "Я буду там через десять минут."
+          "ru": "Я буду там через десять минут.",
+          "uz": "Oʻn daqiqada yetib boraman."
         },
         {
           "id": "PM059",
           "en": "Something came up; can we reschedule?",
-          "ru": "Возникли обстоятельства; можем перенести?"
+          "ru": "Возникли обстоятельства; можем перенести?",
+          "uz": "Ish chiqib qoldi; boshqa vaqtga koʻchira olamizmi?"
         },
         {
           "id": "PM060",
           "en": "Call me when you're on your way.",
-          "ru": "Позвони мне, когда будешь в пути."
+          "ru": "Позвони мне, когда будешь в пути.",
+          "uz": "Yoʻlga chiqqaningizda qoʻngʻiroq qiling."
         }
       ]
     },
@@ -373,58 +440,69 @@
       "order": 7,
       "title": {
         "en": "Video calls",
-        "ru": "Видеозвонки"
+        "ru": "Видеозвонки",
+        "uz": "Videoqoʻngʻiroqlar"
       },
       "phrases": [
         {
           "id": "PM061",
           "en": "Can you turn your camera on?",
-          "ru": "Можешь включить камеру?"
+          "ru": "Можешь включить камеру?",
+          "uz": "Kamerangizni yoqa olasizmi?"
         },
         {
           "id": "PM062",
           "en": "Your camera is frozen.",
-          "ru": "Твоё изображение зависло."
+          "ru": "Твоё изображение зависло.",
+          "uz": "Tasviringiz qotib qoldi."
         },
         {
           "id": "PM063",
           "en": "You're on mute.",
-          "ru": "У тебя выключен микрофон."
+          "ru": "У тебя выключен микрофон.",
+          "uz": "Mikrofoningiz oʻchiq."
         },
         {
           "id": "PM064",
           "en": "I can't see your screen.",
-          "ru": "Я не вижу твой экран."
+          "ru": "Я не вижу твой экран.",
+          "uz": "Ekraningizni koʻra olmayapman."
         },
         {
           "id": "PM065",
           "en": "Could you share the link?",
-          "ru": "Можешь поделиться ссылкой?"
+          "ru": "Можешь поделиться ссылкой?",
+          "uz": "Havolani ulasha olasizmi?"
         },
         {
           "id": "PM066",
           "en": "I'll join in a moment.",
-          "ru": "Я подключусь через минуту."
+          "ru": "Я подключусь через минуту.",
+          "uz": "Bir daqiqadan keyin qoʻshilaman."
         },
         {
           "id": "PM067",
           "en": "Let's turn off our cameras to save bandwidth.",
-          "ru": "Давайте выключим камеры, чтобы снизить нагрузку на интернет."
+          "ru": "Давайте выключим камеры, чтобы снизить нагрузку на интернет.",
+          "uz": "Keling, internetga yuk kamaysin uchun kameralarni oʻchiraylik."
         },
         {
           "id": "PM068",
           "en": "The video is lagging.",
-          "ru": "Видео тормозит."
+          "ru": "Видео тормозит.",
+          "uz": "Video sekinlashyapti."
         },
         {
           "id": "PM069",
           "en": "Can you hear the audio?",
-          "ru": "Ты слышишь звук?"
+          "ru": "Ты слышишь звук?",
+          "uz": "Ovozni eshityapsizmi?"
         },
         {
           "id": "PM070",
           "en": "I'll reconnect to the meeting.",
-          "ru": "Я переподключусь к встрече."
+          "ru": "Я переподключусь к встрече.",
+          "uz": "Uchrashuvga qayta ulanaman."
         }
       ]
     },
@@ -433,58 +511,69 @@
       "order": 8,
       "title": {
         "en": "Phone settings and battery",
-        "ru": "Настройки телефона и батарея"
+        "ru": "Настройки телефона и батарея",
+        "uz": "Telefon sozlamalari va batareya"
       },
       "phrases": [
         {
           "id": "PM071",
           "en": "My phone is about to die.",
-          "ru": "У меня сейчас разрядится телефон."
+          "ru": "У меня сейчас разрядится телефон.",
+          "uz": "Telefonim hozir oʻchib qoladi."
         },
         {
           "id": "PM072",
           "en": "Do you have a charger?",
-          "ru": "У тебя есть зарядное устройство?"
+          "ru": "У тебя есть зарядное устройство?",
+          "uz": "Quvvatlagichingiz bormi?"
         },
         {
           "id": "PM073",
           "en": "I need to put my phone on silent.",
-          "ru": "Мне нужно поставить телефон на беззвучный режим."
+          "ru": "Мне нужно поставить телефон на беззвучный режим.",
+          "uz": "Telefonimni ovozsiz rejimga qoʻyishim kerak."
         },
         {
           "id": "PM074",
           "en": "My phone won't turn on.",
-          "ru": "Мой телефон не включается."
+          "ru": "Мой телефон не включается.",
+          "uz": "Telefonim yonmayapti."
         },
         {
           "id": "PM075",
           "en": "I can't unlock my phone.",
-          "ru": "Я не могу разблокировать телефон."
+          "ru": "Я не могу разблокировать телефон.",
+          "uz": "Telefonimni ocha olmayapman."
         },
         {
           "id": "PM076",
           "en": "The app keeps crashing.",
-          "ru": "Приложение постоянно вылетает."
+          "ru": "Приложение постоянно вылетает.",
+          "uz": "Ilova tinmay yopilib ketyapti."
         },
         {
           "id": "PM077",
           "en": "I need to update my phone.",
-          "ru": "Мне нужно обновить телефон."
+          "ru": "Мне нужно обновить телефон.",
+          "uz": "Telefonimni yangilashim kerak."
         },
         {
           "id": "PM078",
           "en": "Could you connect me to the Wi-Fi?",
-          "ru": "Можешь подключить меня к Wi-Fi?"
+          "ru": "Можешь подключить меня к Wi-Fi?",
+          "uz": "Meni Wi-Fi tarmogʻiga ulab bera olasizmi?"
         },
         {
           "id": "PM079",
           "en": "I forgot my passcode.",
-          "ru": "Я забыл(а) код доступа."
+          "ru": "Я забыл(а) код доступа.",
+          "uz": "Parolimni unutdim."
         },
         {
           "id": "PM080",
           "en": "My storage is full.",
-          "ru": "У меня заполнена память."
+          "ru": "У меня заполнена память.",
+          "uz": "Xotiram toʻlib ketdi."
         }
       ]
     },
@@ -493,58 +582,69 @@
       "order": 9,
       "title": {
         "en": "Work calls",
-        "ru": "Рабочие звонки"
+        "ru": "Рабочие звонки",
+        "uz": "Ishdagi qoʻngʻiroqlar"
       },
       "phrases": [
         {
           "id": "PM081",
           "en": "I'm calling about the meeting.",
-          "ru": "Я звоню по поводу встречи."
+          "ru": "Я звоню по поводу встречи.",
+          "uz": "Men uchrashuv boʻyicha qoʻngʻiroq qilyapman."
         },
         {
           "id": "PM082",
           "en": "Could we discuss this over the phone?",
-          "ru": "Можем обсудить это по телефону?"
+          "ru": "Можем обсудить это по телефону?",
+          "uz": "Buni telefon orqali muhokama qila olamizmi?"
         },
         {
           "id": "PM083",
           "en": "I'll send the documents after our call.",
-          "ru": "Я отправлю документы после звонка."
+          "ru": "Я отправлю документы после звонка.",
+          "uz": "Qoʻngʻiroqdan keyin hujjatlarni yuboraman."
         },
         {
           "id": "PM084",
           "en": "Let me check and call you back.",
-          "ru": "Позволь проверить и перезвонить."
+          "ru": "Позволь проверить и перезвонить.",
+          "uz": "Tekshirib koʻray-da, qayta qoʻngʻiroq qilay."
         },
         {
           "id": "PM085",
           "en": "Could you repeat the last point?",
-          "ru": "Не могли бы вы повторить последний пункт?"
+          "ru": "Не могли бы вы повторить последний пункт?",
+          "uz": "Oxirgi fikrni takrorlay olasizmi?"
         },
         {
           "id": "PM086",
           "en": "I'll put that in an email.",
-          "ru": "Я напишу об этом в электронном письме."
+          "ru": "Я напишу об этом в электронном письме.",
+          "uz": "Buni elektron xatda yozaman."
         },
         {
           "id": "PM087",
           "en": "Thanks for taking my call.",
-          "ru": "Спасибо, что ответили на звонок."
+          "ru": "Спасибо, что ответили на звонок.",
+          "uz": "Qoʻngʻirogʻimga javob berganingiz uchun rahmat."
         },
         {
           "id": "PM088",
           "en": "I have another call coming in.",
-          "ru": "Мне поступает другой звонок."
+          "ru": "Мне поступает другой звонок.",
+          "uz": "Menga boshqa qoʻngʻiroq kelyapti."
         },
         {
           "id": "PM089",
           "en": "Can we keep this brief?",
-          "ru": "Можем говорить кратко?"
+          "ru": "Можем говорить кратко?",
+          "uz": "Qisqa qilsak boʻladimi?"
         },
         {
           "id": "PM090",
           "en": "I'll follow up by email.",
-          "ru": "Я продолжу общение по электронной почте."
+          "ru": "Я продолжу общение по электронной почте.",
+          "uz": "Elektron pochta orqali davom ettiraman."
         }
       ]
     },
@@ -553,58 +653,69 @@
       "order": 10,
       "title": {
         "en": "Polite messaging",
-        "ru": "Вежливая переписка"
+        "ru": "Вежливая переписка",
+        "uz": "Xushmuomala yozishma"
       },
       "phrases": [
         {
           "id": "PM091",
           "en": "Sorry to message you so late.",
-          "ru": "Извини, что пишу так поздно."
+          "ru": "Извини, что пишу так поздно.",
+          "uz": "Shuncha kech yozganim uchun uzr."
         },
         {
           "id": "PM092",
           "en": "When you have a moment, could you reply?",
-          "ru": "Когда будет минутка, можешь ответить?"
+          "ru": "Когда будет минутка, можешь ответить?",
+          "uz": "Imkoningiz boʻlganda javob bera olasizmi?"
         },
         {
           "id": "PM093",
           "en": "No rush to reply.",
-          "ru": "Не торопись с ответом."
+          "ru": "Не торопись с ответом.",
+          "uz": "Javob berishga shoshilmang."
         },
         {
           "id": "PM094",
           "en": "Thanks for getting back to me.",
-          "ru": "Спасибо, что ответил(а)."
+          "ru": "Спасибо, что ответил(а).",
+          "uz": "Javob berganingiz uchun rahmat."
         },
         {
           "id": "PM095",
           "en": "I appreciate the quick response.",
-          "ru": "Благодарю за быстрый ответ."
+          "ru": "Благодарю за быстрый ответ.",
+          "uz": "Tez javob berganingiz uchun minnatdorman."
         },
         {
           "id": "PM096",
           "en": "Just checking whether you saw this.",
-          "ru": "Просто уточняю, видел(а) ли ты это."
+          "ru": "Просто уточняю, видел(а) ли ты это.",
+          "uz": "Shunchaki buni koʻrdingizmi deb soʻrayapman."
         },
         {
           "id": "PM097",
           "en": "Please let me know when you can.",
-          "ru": "Пожалуйста, дай знать, когда сможешь."
+          "ru": "Пожалуйста, дай знать, когда сможешь.",
+          "uz": "Imkoningiz boʻlganda, iltimos, xabar bering."
         },
         {
           "id": "PM098",
           "en": "Sorry for the multiple messages.",
-          "ru": "Извини за несколько сообщений подряд."
+          "ru": "Извини за несколько сообщений подряд.",
+          "uz": "Ketma-ket xabar yozganim uchun uzr."
         },
         {
           "id": "PM099",
           "en": "I hope I'm not disturbing you.",
-          "ru": "Надеюсь, я тебя не отвлекаю."
+          "ru": "Надеюсь, я тебя не отвлекаю.",
+          "uz": "Umid qilamanki, bezovta qilmayapman."
         },
         {
           "id": "PM100",
           "en": "Thanks for your time.",
-          "ru": "Спасибо за твоё время."
+          "ru": "Спасибо за твоё время.",
+          "uz": "Vaqtingiz uchun rahmat."
         }
       ]
     },
@@ -613,58 +724,69 @@
       "order": 11,
       "title": {
         "en": "Group chats",
-        "ru": "Групповые чаты"
+        "ru": "Групповые чаты",
+        "uz": "Guruh chatlari"
       },
       "phrases": [
         {
           "id": "PM101",
           "en": "I'll add you to the group.",
-          "ru": "Я добавлю тебя в группу."
+          "ru": "Я добавлю тебя в группу.",
+          "uz": "Sizni guruhga qoʻshaman."
         },
         {
           "id": "PM102",
           "en": "Please check the pinned message.",
-          "ru": "Пожалуйста, проверь закреплённое сообщение."
+          "ru": "Пожалуйста, проверь закреплённое сообщение.",
+          "uz": "Iltimos, qadalgan xabarni koʻring."
         },
         {
           "id": "PM103",
           "en": "I'll share it with the group.",
-          "ru": "Я поделюсь этим с группой."
+          "ru": "Я поделюсь этим с группой.",
+          "uz": "Buni guruh bilan ulashaman."
         },
         {
           "id": "PM104",
           "en": "Can everyone see this?",
-          "ru": "Все это видят?"
+          "ru": "Все это видят?",
+          "uz": "Buni hamma koʻryaptimi?"
         },
         {
           "id": "PM105",
           "en": "Let's keep the chat on topic.",
-          "ru": "Давайте придерживаться темы в чате."
+          "ru": "Давайте придерживаться темы в чате.",
+          "uz": "Keling, chatda mavzudan chetga chiqmaylik."
         },
         {
           "id": "PM106",
           "en": "I'll send the files here.",
-          "ru": "Я отправлю файлы сюда."
+          "ru": "Я отправлю файлы сюда.",
+          "uz": "Fayllarni shu yerga yuboraman."
         },
         {
           "id": "PM107",
           "en": "Please don't forget to reply.",
-          "ru": "Пожалуйста, не забудьте ответить."
+          "ru": "Пожалуйста, не забудьте ответить.",
+          "uz": "Iltimos, javob berishni unutmang."
         },
         {
           "id": "PM108",
           "en": "I'll mute this chat for a while.",
-          "ru": "Я ненадолго отключу уведомления этого чата."
+          "ru": "Я ненадолго отключу уведомления этого чата.",
+          "uz": "Bu chatni bir muddat ovozsiz qilaman."
         },
         {
           "id": "PM109",
           "en": "Who can help with this?",
-          "ru": "Кто может с этим помочь?"
+          "ru": "Кто может с этим помочь?",
+          "uz": "Bunga kim yordam bera oladi?"
         },
         {
           "id": "PM110",
           "en": "Thanks, everyone, for the updates.",
-          "ru": "Спасибо всем за обновления."
+          "ru": "Спасибо всем за обновления.",
+          "uz": "Yangiliklar uchun hammangizga rahmat."
         }
       ]
     },
@@ -673,58 +795,69 @@
       "order": 12,
       "title": {
         "en": "Sharing photos and files",
-        "ru": "Отправка фото и файлов"
+        "ru": "Отправка фото и файлов",
+        "uz": "Surat va fayl yuborish"
       },
       "phrases": [
         {
           "id": "PM111",
           "en": "I'll send you the photo.",
-          "ru": "Я отправлю тебе фотографию."
+          "ru": "Я отправлю тебе фотографию.",
+          "uz": "Sizga suratni yuboraman."
         },
         {
           "id": "PM112",
           "en": "The file is too large to send.",
-          "ru": "Файл слишком большой для отправки."
+          "ru": "Файл слишком большой для отправки.",
+          "uz": "Fayl yuborish uchun juda katta."
         },
         {
           "id": "PM113",
           "en": "Can you open the attachment?",
-          "ru": "Можешь открыть вложение?"
+          "ru": "Можешь открыть вложение?",
+          "uz": "Ilovani ocha olasizmi?"
         },
         {
           "id": "PM114",
           "en": "I'll upload it to the shared folder.",
-          "ru": "Я загружу это в общую папку."
+          "ru": "Я загружу это в общую папку.",
+          "uz": "Buni umumiy papkaga yuklayman."
         },
         {
           "id": "PM115",
           "en": "Here's the link.",
-          "ru": "Вот ссылка."
+          "ru": "Вот ссылка.",
+          "uz": "Mana havola."
         },
         {
           "id": "PM116",
           "en": "Let me know if it doesn't open.",
-          "ru": "Дай знать, если не открывается."
+          "ru": "Дай знать, если не открывается.",
+          "uz": "Ochilmasa, menga xabar bering."
         },
         {
           "id": "PM117",
           "en": "I sent the wrong file.",
-          "ru": "Я отправил(а) не тот файл."
+          "ru": "Я отправил(а) не тот файл.",
+          "uz": "Men notoʻgʻri faylni yuboribman."
         },
         {
           "id": "PM118",
           "en": "Could you send it in PDF format?",
-          "ru": "Можешь отправить это в формате PDF?"
+          "ru": "Можешь отправить это в формате PDF?",
+          "uz": "Buni PDF koʻrinishida yuborib bera olasizmi?"
         },
         {
           "id": "PM119",
           "en": "The download is taking a while.",
-          "ru": "Загрузка занимает некоторое время."
+          "ru": "Загрузка занимает некоторое время.",
+          "uz": "Yuklab olish biroz vaqt olyapti."
         },
         {
           "id": "PM120",
           "en": "I've shared access with you.",
-          "ru": "Я предоставил(а) тебе доступ."
+          "ru": "Я предоставил(а) тебе доступ.",
+          "uz": "Sizga ruxsat berdim."
         }
       ]
     },
@@ -733,58 +866,69 @@
       "order": 13,
       "title": {
         "en": "Confirming information",
-        "ru": "Подтверждение информации"
+        "ru": "Подтверждение информации",
+        "uz": "Maʼlumotni tasdiqlash"
       },
       "phrases": [
         {
           "id": "PM121",
           "en": "Can you confirm the time?",
-          "ru": "Можешь подтвердить время?"
+          "ru": "Можешь подтвердить время?",
+          "uz": "Vaqtni tasdiqlay olasizmi?"
         },
         {
           "id": "PM122",
           "en": "Just to make sure, we're meeting at six.",
-          "ru": "Чтобы уточнить, мы встречаемся в шесть."
+          "ru": "Чтобы уточнить, мы встречаемся в шесть.",
+          "uz": "Aniqlik uchun: biz oltida uchrashamiz."
         },
         {
           "id": "PM123",
           "en": "Did I get the address right?",
-          "ru": "Я правильно записал(а) адрес?"
+          "ru": "Я правильно записал(а) адрес?",
+          "uz": "Manzilni toʻgʻri yozib oldimmi?"
         },
         {
           "id": "PM124",
           "en": "I'll repeat that back to you.",
-          "ru": "Я повторю это для проверки."
+          "ru": "Я повторю это для проверки.",
+          "uz": "Buni tekshirish uchun qaytarib aytaman."
         },
         {
           "id": "PM125",
           "en": "Could you spell your name?",
-          "ru": "Можете произнести ваше имя по буквам?"
+          "ru": "Можете произнести ваше имя по буквам?",
+          "uz": "Ismingizni harflab ayta olasizmi?"
         },
         {
           "id": "PM126",
           "en": "Let me read that message again.",
-          "ru": "Позволь перечитать сообщение."
+          "ru": "Позволь перечитать сообщение.",
+          "uz": "Xabarni qayta oʻqib chiqay."
         },
         {
           "id": "PM127",
           "en": "I got your details.",
-          "ru": "Я получил(а) твои данные."
+          "ru": "Я получил(а) твои данные.",
+          "uz": "Maʼlumotlaringizni oldim."
         },
         {
           "id": "PM128",
           "en": "Thanks for confirming.",
-          "ru": "Спасибо за подтверждение."
+          "ru": "Спасибо за подтверждение.",
+          "uz": "Tasdiqlaganingiz uchun rahmat."
         },
         {
           "id": "PM129",
           "en": "I'll double-check and let you know.",
-          "ru": "Я перепроверю и сообщу тебе."
+          "ru": "Я перепроверю и сообщу тебе.",
+          "uz": "Qayta tekshirib, sizga xabar beraman."
         },
         {
           "id": "PM130",
           "en": "Everything is confirmed.",
-          "ru": "Всё подтверждено."
+          "ru": "Всё подтверждено.",
+          "uz": "Hammasi tasdiqlandi."
         }
       ]
     },
@@ -793,58 +937,69 @@
       "order": 14,
       "title": {
         "en": "Missed calls and callbacks",
-        "ru": "Пропущенные звонки"
+        "ru": "Пропущенные звонки",
+        "uz": "Javobsiz qoʻngʻiroqlar"
       },
       "phrases": [
         {
           "id": "PM131",
           "en": "I saw your missed call.",
-          "ru": "Я увидел(а) твой пропущенный звонок."
+          "ru": "Я увидел(а) твой пропущенный звонок.",
+          "uz": "Javobsiz qoʻngʻirogʻingizni koʻrdim."
         },
         {
           "id": "PM132",
           "en": "Sorry I couldn't answer.",
-          "ru": "Извини, я не смог(ла) ответить."
+          "ru": "Извини, я не смог(ла) ответить.",
+          "uz": "Kechirasiz, javob bera olmadim."
         },
         {
           "id": "PM133",
           "en": "I was in a meeting.",
-          "ru": "Я был(а) на встрече."
+          "ru": "Я был(а) на встрече.",
+          "uz": "Men uchrashuvda edim."
         },
         {
           "id": "PM134",
           "en": "I tried calling you earlier.",
-          "ru": "Я пытался / пыталась позвонить тебе раньше."
+          "ru": "Я пытался / пыталась позвонить тебе раньше.",
+          "uz": "Sizga avvalroq qoʻngʻiroq qilmoqchi boʻlgandim."
         },
         {
           "id": "PM135",
           "en": "When would be a good time to call?",
-          "ru": "Когда лучше позвонить?"
+          "ru": "Когда лучше позвонить?",
+          "uz": "Qachon qoʻngʻiroq qilsam maʼqul boʻladi?"
         },
         {
           "id": "PM136",
           "en": "I'll call as soon as I'm free.",
-          "ru": "Я позвоню, как только освобожусь."
+          "ru": "Я позвоню, как только освобожусь.",
+          "uz": "Boʻshashim bilan qoʻngʻiroq qilaman."
         },
         {
           "id": "PM137",
           "en": "I couldn't get through.",
-          "ru": "Я не смог(ла) дозвониться."
+          "ru": "Я не смог(ла) дозвониться.",
+          "uz": "Men dozvon qila olmadim."
         },
         {
           "id": "PM138",
           "en": "Please try me again in an hour.",
-          "ru": "Попробуй позвонить мне снова через час."
+          "ru": "Попробуй позвонить мне снова через час.",
+          "uz": "Bir soatdan keyin yana urinib koʻring."
         },
         {
           "id": "PM139",
           "en": "I was away from my phone.",
-          "ru": "Меня не было рядом с телефоном."
+          "ru": "Меня не было рядом с телефоном.",
+          "uz": "Men telefondan uzoqda edim."
         },
         {
           "id": "PM140",
           "en": "Thanks for calling back.",
-          "ru": "Спасибо, что перезвонил(а)."
+          "ru": "Спасибо, что перезвонил(а).",
+          "uz": "Qayta qoʻngʻiroq qilganingiz uchun rahmat."
         }
       ]
     },
@@ -853,58 +1008,69 @@
       "order": 15,
       "title": {
         "en": "Ending a call",
-        "ru": "Завершение звонка"
+        "ru": "Завершение звонка",
+        "uz": "Qoʻngʻiroqni yakunlash"
       },
       "phrases": [
         {
           "id": "PM141",
           "en": "I won't keep you any longer.",
-          "ru": "Не буду больше тебя задерживать."
+          "ru": "Не буду больше тебя задерживать.",
+          "uz": "Sizni endi ushlab turmayman."
         },
         {
           "id": "PM142",
           "en": "I should let you go.",
-          "ru": "Не буду тебя больше задерживать."
+          "ru": "Не буду тебя больше задерживать.",
+          "uz": "Sizga xalaqit bermay endi."
         },
         {
           "id": "PM143",
           "en": "Thanks for the call.",
-          "ru": "Спасибо за звонок."
+          "ru": "Спасибо за звонок.",
+          "uz": "Qoʻngʻiroq uchun rahmat."
         },
         {
           "id": "PM144",
           "en": "It was good talking to you.",
-          "ru": "Было приятно поговорить с тобой."
+          "ru": "Было приятно поговорить с тобой.",
+          "uz": "Siz bilan suhbatlashganim yoqdi."
         },
         {
           "id": "PM145",
           "en": "I'll talk to you soon.",
-          "ru": "Скоро поговорим."
+          "ru": "Скоро поговорим.",
+          "uz": "Tez orada gaplashamiz."
         },
         {
           "id": "PM146",
           "en": "Speak to you later.",
-          "ru": "Поговорим позже."
+          "ru": "Поговорим позже.",
+          "uz": "Keyinroq gaplashamiz."
         },
         {
           "id": "PM147",
           "en": "I'll be in touch.",
-          "ru": "Я буду на связи."
+          "ru": "Я буду на связи.",
+          "uz": "Aloqada boʻlaman."
         },
         {
           "id": "PM148",
           "en": "Take care and talk soon.",
-          "ru": "Береги себя, скоро поговорим."
+          "ru": "Береги себя, скоро поговорим.",
+          "uz": "Oʻzingizni ehtiyot qiling, tez orada gaplashamiz."
         },
         {
           "id": "PM149",
           "en": "I'll send you a message after this.",
-          "ru": "Я напишу тебе после этого."
+          "ru": "Я напишу тебе после этого.",
+          "uz": "Shundan keyin sizga xabar yozaman."
         },
         {
           "id": "PM150",
           "en": "Bye for now.",
-          "ru": "Пока."
+          "ru": "Пока.",
+          "uz": "Hozircha xayr."
         }
       ]
     },
@@ -913,58 +1079,69 @@
       "order": 16,
       "title": {
         "en": "Online status and availability",
-        "ru": "Статус и доступность"
+        "ru": "Статус и доступность",
+        "uz": "Holat va aloqadagi vaqt"
       },
       "phrases": [
         {
           "id": "PM151",
           "en": "Are you online?",
-          "ru": "Ты в сети?"
+          "ru": "Ты в сети?",
+          "uz": "Tarmoqdamisiz?"
         },
         {
           "id": "PM152",
           "en": "I was away from my phone.",
-          "ru": "Меня не было у телефона."
+          "ru": "Меня не было у телефона.",
+          "uz": "Men telefonimning yonida yoʻq edim."
         },
         {
           "id": "PM153",
           "en": "I'll be offline for a while.",
-          "ru": "Меня некоторое время не будет в сети."
+          "ru": "Меня некоторое время не будет в сети.",
+          "uz": "Men bir muddat tarmoqda boʻlmayman."
         },
         {
           "id": "PM154",
           "en": "I just came online.",
-          "ru": "Я только что появился / появилась в сети."
+          "ru": "Я только что появился / появилась в сети.",
+          "uz": "Men endigina tarmoqqa kirdim."
         },
         {
           "id": "PM155",
           "en": "Sorry, I didn't see the notification.",
-          "ru": "Извини, я не увидел(а) уведомление."
+          "ru": "Извини, я не увидел(а) уведомление.",
+          "uz": "Kechirasiz, bildirishnomani koʻrmadim."
         },
         {
           "id": "PM156",
           "en": "My notifications are turned off.",
-          "ru": "У меня отключены уведомления."
+          "ru": "У меня отключены уведомления.",
+          "uz": "Mening bildirishnomalarim oʻchiq."
         },
         {
           "id": "PM157",
           "en": "I'll check when I'm back online.",
-          "ru": "Я проверю, когда снова буду в сети."
+          "ru": "Я проверю, когда снова буду в сети.",
+          "uz": "Tarmoqqa qaytganimda koʻraman."
         },
         {
           "id": "PM158",
           "en": "I may not reply right away.",
-          "ru": "Я могу ответить не сразу."
+          "ru": "Я могу ответить не сразу.",
+          "uz": "Men darhol javob bera olmasligim mumkin."
         },
         {
           "id": "PM159",
           "en": "I'm available now.",
-          "ru": "Я сейчас на связи."
+          "ru": "Я сейчас на связи.",
+          "uz": "Men hozir aloqadaman."
         },
         {
           "id": "PM160",
           "en": "Message me whenever you need.",
-          "ru": "Пиши мне, когда понадобится."
+          "ru": "Пиши мне, когда понадобится.",
+          "uz": "Kerak boʻlganda menga yozing."
         }
       ]
     },
@@ -973,58 +1150,69 @@
       "order": 17,
       "title": {
         "en": "Privacy and mistakes",
-        "ru": "Конфиденциальность и ошибки"
+        "ru": "Конфиденциальность и ошибки",
+        "uz": "Maxfiylik va xatolar"
       },
       "phrases": [
         {
           "id": "PM161",
           "en": "I sent that to the wrong person.",
-          "ru": "Я отправил(а) это не тому человеку."
+          "ru": "Я отправил(а) это не тому человеку.",
+          "uz": "Men buni notoʻgʻri odamga yuboribman."
         },
         {
           "id": "PM162",
           "en": "Please delete my last message.",
-          "ru": "Пожалуйста, удали моё последнее сообщение."
+          "ru": "Пожалуйста, удали моё последнее сообщение.",
+          "uz": "Iltimos, oxirgi xabarimni oʻchiring."
         },
         {
           "id": "PM163",
           "en": "I didn't mean to send that.",
-          "ru": "Я не хотел(а) это отправлять."
+          "ru": "Я не хотел(а) это отправлять.",
+          "uz": "Men buni yuborishni xohlamagandim."
         },
         {
           "id": "PM164",
           "en": "Was that message meant for me?",
-          "ru": "Это сообщение было адресовано мне?"
+          "ru": "Это сообщение было адресовано мне?",
+          "uz": "Oʻsha xabar menga moʻljallanganmidi?"
         },
         {
           "id": "PM165",
           "en": "Please don't share this message.",
-          "ru": "Пожалуйста, не пересылай это сообщение."
+          "ru": "Пожалуйста, не пересылай это сообщение.",
+          "uz": "Iltimos, bu xabarni tarqatmang."
         },
         {
           "id": "PM166",
           "en": "I accidentally deleted the chat.",
-          "ru": "Я случайно удалил(а) чат."
+          "ru": "Я случайно удалил(а) чат.",
+          "uz": "Men chatni tasodifan oʻchirib yuboribman."
         },
         {
           "id": "PM167",
           "en": "Can you resend the attachment?",
-          "ru": "Можешь отправить вложение повторно?"
+          "ru": "Можешь отправить вложение повторно?",
+          "uz": "Ilovani qayta yuborib bera olasizmi?"
         },
         {
           "id": "PM168",
           "en": "I can't find our conversation.",
-          "ru": "Я не могу найти нашу переписку."
+          "ru": "Я не могу найти нашу переписку.",
+          "uz": "Yozishmalarimizni topa olmayapman."
         },
         {
           "id": "PM169",
           "en": "I'll back up my contacts.",
-          "ru": "Я сделаю резервную копию контактов."
+          "ru": "Я сделаю резервную копию контактов.",
+          "uz": "Kontaktlarimning zaxira nusxasini olaman."
         },
         {
           "id": "PM170",
           "en": "Let's discuss this privately.",
-          "ru": "Давай обсудим это лично."
+          "ru": "Давай обсудим это лично.",
+          "uz": "Keling, buni shaxsiy suhbatda muhokama qilaylik."
         }
       ]
     },
@@ -1033,58 +1221,69 @@
       "order": 18,
       "title": {
         "en": "Customer support by phone",
-        "ru": "Поддержка по телефону"
+        "ru": "Поддержка по телефону",
+        "uz": "Telefon orqali yordam"
       },
       "phrases": [
         {
           "id": "PM171",
           "en": "I'm calling about an issue with my account.",
-          "ru": "Я звоню по поводу проблемы с аккаунтом."
+          "ru": "Я звоню по поводу проблемы с аккаунтом.",
+          "uz": "Men hisobimdagi muammo boʻyicha qoʻngʻiroq qilyapman."
         },
         {
           "id": "PM172",
           "en": "Could you verify my details?",
-          "ru": "Не могли бы вы проверить мои данные?"
+          "ru": "Не могли бы вы проверить мои данные?",
+          "uz": "Maʼlumotlarimni tekshira olasizmi?"
         },
         {
           "id": "PM173",
           "en": "Could you explain the next steps?",
-          "ru": "Можете объяснить следующие шаги?"
+          "ru": "Можете объяснить следующие шаги?",
+          "uz": "Keyingi qadamlarni tushuntira olasizmi?"
         },
         {
           "id": "PM174",
           "en": "How long will this take to resolve?",
-          "ru": "Сколько времени займёт решение проблемы?"
+          "ru": "Сколько времени займёт решение проблемы?",
+          "uz": "Buni hal qilish qancha vaqt oladi?"
         },
         {
           "id": "PM175",
           "en": "Could I speak to a supervisor?",
-          "ru": "Могу я поговорить с руководителем?"
+          "ru": "Могу я поговорить с руководителем?",
+          "uz": "Rahbar bilan gaplashsam boʻladimi?"
         },
         {
           "id": "PM176",
           "en": "Please give me a reference number.",
-          "ru": "Пожалуйста, дайте мне номер обращения."
+          "ru": "Пожалуйста, дайте мне номер обращения.",
+          "uz": "Iltimos, menga murojaat raqamini bering."
         },
         {
           "id": "PM177",
           "en": "I'd like to report a problem.",
-          "ru": "Я хотел(а) бы сообщить о проблеме."
+          "ru": "Я хотел(а) бы сообщить о проблеме.",
+          "uz": "Men muammo haqida xabar bermoqchiman."
         },
         {
           "id": "PM178",
           "en": "Thank you for looking into this.",
-          "ru": "Спасибо, что разбираетесь с этим."
+          "ru": "Спасибо, что разбираетесь с этим.",
+          "uz": "Bu masalani koʻrib chiqayotganingiz uchun rahmat."
         },
         {
           "id": "PM179",
           "en": "Could you send confirmation by email?",
-          "ru": "Можете отправить подтверждение по электронной почте?"
+          "ru": "Можете отправить подтверждение по электронной почте?",
+          "uz": "Tasdiqnomani elektron pochta orqali yuborib bera olasizmi?"
         },
         {
           "id": "PM180",
           "en": "I'll wait for your update.",
-          "ru": "Я буду ждать вашего сообщения."
+          "ru": "Я буду ждать вашего сообщения.",
+          "uz": "Xabaringizni kutaman."
         }
       ]
     },
@@ -1093,58 +1292,69 @@
       "order": 19,
       "title": {
         "en": "Social messaging",
-        "ru": "Сообщения друзьям"
+        "ru": "Сообщения друзьям",
+        "uz": "Doʻstlarga xabarlar"
       },
       "phrases": [
         {
           "id": "PM181",
           "en": "Are you around?",
-          "ru": "Ты поблизости? / Ты свободен(на)?"
+          "ru": "Ты поблизости? / Ты свободен(на)?",
+          "uz": "Yaqin atrofdamisiz?"
         },
         {
           "id": "PM182",
           "en": "Fancy meeting up later?",
-          "ru": "Хочешь встретиться позже?"
+          "ru": "Хочешь встретиться позже?",
+          "uz": "Keyinroq uchrashmaymizmi?"
         },
         {
           "id": "PM183",
           "en": "I'm on my way now.",
-          "ru": "Я уже в пути."
+          "ru": "Я уже в пути.",
+          "uz": "Men hozir yoʻldaman."
         },
         {
           "id": "PM184",
           "en": "Save me a seat.",
-          "ru": "Займи мне место."
+          "ru": "Займи мне место.",
+          "uz": "Menga joy band qilib qoʻying."
         },
         {
           "id": "PM185",
           "en": "I'm running a few minutes late.",
-          "ru": "Я опоздаю на несколько минут."
+          "ru": "Я опоздаю на несколько минут.",
+          "uz": "Men bir necha daqiqa kechikyapman."
         },
         {
           "id": "PM186",
           "en": "Send me a photo when you get there.",
-          "ru": "Отправь фото, когда доберёшься."
+          "ru": "Отправь фото, когда доберёшься.",
+          "uz": "Yetib borganingizda surat yuboring."
         },
         {
           "id": "PM187",
           "en": "That was fun yesterday.",
-          "ru": "Вчера было весело."
+          "ru": "Вчера было весело.",
+          "uz": "Kecha zoʻr boʻldi."
         },
         {
           "id": "PM188",
           "en": "Thanks for the invite!",
-          "ru": "Спасибо за приглашение!"
+          "ru": "Спасибо за приглашение!",
+          "uz": "Taklif uchun rahmat!"
         },
         {
           "id": "PM189",
           "en": "Let me know when you're home.",
-          "ru": "Дай знать, когда будешь дома."
+          "ru": "Дай знать, когда будешь дома.",
+          "uz": "Uyga yetganingizda xabar bering."
         },
         {
           "id": "PM190",
           "en": "We should do this again soon.",
-          "ru": "Нам стоит скоро повторить."
+          "ru": "Нам стоит скоро повторить.",
+          "uz": "Buni tez orada yana takrorlashimiz kerak."
         }
       ]
     },
@@ -1153,58 +1363,69 @@
       "order": 20,
       "title": {
         "en": "Common messaging abbreviations and phrases",
-        "ru": "Частые фразы в переписке"
+        "ru": "Частые фразы в переписке",
+        "uz": "Yozishmadagi keng tarqalgan iboralar"
       },
       "phrases": [
         {
           "id": "PM191",
           "en": "FYI — for your information.",
-          "ru": "К сведению."
+          "ru": "К сведению.",
+          "uz": "FYI — maʼlumot uchun."
         },
         {
           "id": "PM192",
           "en": "ASAP — as soon as possible.",
-          "ru": "Как можно скорее."
+          "ru": "Как можно скорее.",
+          "uz": "ASAP — imkon qadar tezroq."
         },
         {
           "id": "PM193",
           "en": "BTW — by the way.",
-          "ru": "Кстати."
+          "ru": "Кстати.",
+          "uz": "BTW — aytgancha."
         },
         {
           "id": "PM194",
           "en": "No worries.",
-          "ru": "Не переживай; ничего страшного."
+          "ru": "Не переживай; ничего страшного.",
+          "uz": "Hechqisi yoʻq."
         },
         {
           "id": "PM195",
           "en": "Sounds good to me.",
-          "ru": "Меня это устраивает."
+          "ru": "Меня это устраивает.",
+          "uz": "Menga toʻgʻri keladi."
         },
         {
           "id": "PM196",
           "en": "Got it.",
-          "ru": "Понял(а)."
+          "ru": "Понял(а).",
+          "uz": "Tushundim."
         },
         {
           "id": "PM197",
           "en": "Will do.",
-          "ru": "Сделаю."
+          "ru": "Сделаю.",
+          "uz": "Qilaman."
         },
         {
           "id": "PM198",
           "en": "Talk soon.",
-          "ru": "Скоро поговорим."
+          "ru": "Скоро поговорим.",
+          "uz": "Tez orada gaplashamiz."
         },
         {
           "id": "PM199",
           "en": "Thanks in advance.",
-          "ru": "Заранее спасибо."
+          "ru": "Заранее спасибо.",
+          "uz": "Oldindan rahmat."
         },
         {
           "id": "PM200",
           "en": "Let me know.",
-          "ru": "Дай мне знать."
+          "ru": "Дай мне знать.",
+          "uz": "Menga xabar bering."
         }
       ]
     }

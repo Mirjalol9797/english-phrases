@@ -1,0 +1,200 @@
+phrase|Hi, it's me.||Привет, это я.|Salom, bu men.
+phrase|Is now a good time to talk?||Сейчас удобно говорить?|Hozir gaplashish qulaymi?
+phrase|Can you talk for a minute?||Можешь поговорить минутку?|Bir daqiqa gaplasha olasizmi?
+phrase|Am I calling at a bad time?||Я не вовремя звоню?|Notoʻgʻri vaqtda qoʻngʻiroq qilyapmanmi?
+phrase|I just wanted to check in.||Я просто хотел(а) узнать, как ты.|Shunchaki hol-ahvolingizni bilmoqchi edim.
+phrase|I thought I'd give you a call.||Я подумал(а), что позвоню тебе.|Sizga qoʻngʻiroq qilay dedim.
+phrase|Can you hear me okay?||Ты меня нормально слышишь?|Meni yaxshi eshityapsizmi?
+phrase|Sorry, I missed your call.||Извини, я пропустил(а) твой звонок.|Kechirasiz, qoʻngʻirogʻingizni oʻtkazib yuboribman.
+phrase|Thanks for calling me back.||Спасибо, что перезвонил(а).|Qayta qoʻngʻiroq qilganingiz uchun rahmat.
+phrase|What's up?||Что случилось? / Как дела?|Nima gap?
+phrase|Could I speak to Alex, please?||Можно поговорить с Алексом, пожалуйста?|Iltimos, Aleks bilan gaplashsam boʻladimi?
+phrase|Who's calling, please?||Кто звонит, пожалуйста?|Kim qoʻngʻiroq qilyapti?
+phrase|Please hold for a moment.||Пожалуйста, подождите минутку.|Iltimos, bir daqiqa kutib turing.
+phrase|I'll put you through.||Я соединю вас.|Sizni ulayman.
+phrase|Could you call back later?||Не могли бы вы перезвонить позже?|Keyinroq qayta qoʻngʻiroq qila olasizmi?
+phrase|The line is busy.||Линия занята.|Liniya band.
+phrase|I think we got disconnected.||Кажется, связь прервалась.|Aloqa uzilib qoldi shekilli.
+phrase|I'll call you right back.||Я сейчас же перезвоню.|Hozir qayta qoʻngʻiroq qilaman.
+phrase|Can I leave a message?||Могу я оставить сообщение?|Xabar qoldirsam boʻladimi?
+phrase|Could you ask them to call me?||Не могли бы вы попросить их мне позвонить?|Ularga menga qoʻngʻiroq qilishni aytib qoʻya olasizmi?
+phrase|You're breaking up.||Тебя плохо слышно, связь прерывается.|Ovozingiz uzilib-uzilib kelyapti.
+phrase|I can barely hear you.||Я едва тебя слышу.|Sizni zoʻrgʻa eshityapman.
+phrase|The signal is weak.||Слабый сигнал.|Signal kuchsiz.
+phrase|Could you move somewhere quieter?||Можешь перейти в более тихое место?|Tinchroq joyga oʻta olasizmi?
+phrase|There's a lot of background noise.||Много фонового шума.|Fonda shovqin koʻp.
+phrase|Your voice keeps cutting out.||Твой голос постоянно пропадает.|Ovozingiz tinmay uzilyapti.
+phrase|Let me call you back from another phone.||Позволь перезвонить с другого телефона.|Boshqa telefondan qayta qoʻngʻiroq qilay.
+phrase|I think the connection is unstable.||Кажется, соединение нестабильное.|Aloqa barqaror emas shekilli.
+phrase|Can you hear me now?||Теперь ты меня слышишь?|Endi eshityapsizmi?
+phrase|Let's switch to a video call.||Давай перейдём на видеозвонок.|Keling, videoqoʻngʻiroqqa oʻtaylik.
+phrase|Please leave a message after the beep.||Оставьте сообщение после сигнала.|Signaldan keyin xabar qoldiring.
+phrase|I just called to let you know...||Я просто позвонил(а), чтобы сообщить...|Shunchaki xabar berish uchun qoʻngʻiroq qildim...
+phrase|Could you pass on a message?||Не могли бы вы передать сообщение?|Xabarni yetkazib qoʻya olasizmi?
+phrase|Please tell them I called.||Пожалуйста, скажите им, что я звонил(а).|Iltimos, ularga qoʻngʻiroq qilganimni ayting.
+phrase|I'll try again later.||Я попробую ещё раз позже.|Keyinroq yana urinib koʻraman.
+phrase|I couldn't reach you.||Я не смог(ла) до тебя дозвониться.|Sizga dozvon qila olmadim.
+phrase|I left you a voicemail.||Я оставил(а) тебе голосовое сообщение.|Sizga ovozli xabar qoldirdim.
+phrase|Did you get my message?||Ты получил(а) моё сообщение?|Xabarimni oldingizmi?
+phrase|Please call me when you can.||Позвони мне, когда сможешь.|Imkoningiz boʻlganda menga qoʻngʻiroq qiling.
+phrase|It's nothing urgent.||Это не срочно.|Bu shoshilinch emas.
+phrase|I'll text you the details.||Я напишу тебе подробности.|Tafsilotlarini yozib yuboraman.
+phrase|Did you see my text?||Ты видел(а) моё сообщение?|Xabarimni koʻrdingizmi?
+phrase|Sorry, I just saw this.||Извини, я только сейчас это увидел(а).|Kechirasiz, buni endi koʻrdim.
+phrase|I'll reply in a minute.||Я отвечу через минуту.|Bir daqiqadan keyin javob beraman.
+phrase|Can you send that again?||Можешь отправить это ещё раз?|Buni qayta yuborib bera olasizmi?
+phrase|I sent it by mistake.||Я отправил(а) это по ошибке.|Buni adashib yuboribman.
+phrase|Please check your messages.||Пожалуйста, проверь сообщения.|Iltimos, xabarlaringizni tekshiring.
+phrase|I'll message you later.||Я напишу тебе позже.|Keyinroq yozaman.
+phrase|I haven't heard back from them.||Они мне пока не ответили.|Ulardan hali javob kelmadi.
+phrase|Thanks for the heads-up.||Спасибо, что предупредил(а).|Ogohlantirganingiz uchun rahmat.
+phrase|Are we still on for tonight?||Наши планы на сегодняшний вечер в силе?|Bugun kechqurungi rejamiz kuchidami?
+phrase|What time should I call you?||Во сколько мне тебе позвонить?|Sizga soat nechada qoʻngʻiroq qilay?
+phrase|I'll send you the address.||Я отправлю тебе адрес.|Manzilni yuboraman.
+phrase|Can you share your location?||Можешь поделиться геолокацией?|Joylashuvingizni ulasha olasizmi?
+phrase|Let's confirm the details by text.||Давай подтвердим детали сообщением.|Keling, tafsilotlarni xabar orqali tasdiqlaylik.
+phrase|I'll let you know when I'm leaving.||Я сообщу тебе, когда выйду.|Chiqayotganimda xabar beraman.
+phrase|I'm running a little late.||Я немного опаздываю.|Men biroz kechikyapman.
+phrase|I'll be there in ten minutes.||Я буду там через десять минут.|Oʻn daqiqada yetib boraman.
+phrase|Something came up; can we reschedule?||Возникли обстоятельства; можем перенести?|Ish chiqib qoldi; boshqa vaqtga koʻchira olamizmi?
+phrase|Call me when you're on your way.||Позвони мне, когда будешь в пути.|Yoʻlga chiqqaningizda qoʻngʻiroq qiling.
+phrase|Can you turn your camera on?||Можешь включить камеру?|Kamerangizni yoqa olasizmi?
+phrase|Your camera is frozen.||Твоё изображение зависло.|Tasviringiz qotib qoldi.
+phrase|You're on mute.||У тебя выключен микрофон.|Mikrofoningiz oʻchiq.
+phrase|I can't see your screen.||Я не вижу твой экран.|Ekraningizni koʻra olmayapman.
+phrase|Could you share the link?||Можешь поделиться ссылкой?|Havolani ulasha olasizmi?
+phrase|I'll join in a moment.||Я подключусь через минуту.|Bir daqiqadan keyin qoʻshilaman.
+phrase|Let's turn off our cameras to save bandwidth.||Давайте выключим камеры, чтобы снизить нагрузку на интернет.|Keling, internetga yuk kamaysin uchun kameralarni oʻchiraylik.
+phrase|The video is lagging.||Видео тормозит.|Video sekinlashyapti.
+phrase|Can you hear the audio?||Ты слышишь звук?|Ovozni eshityapsizmi?
+phrase|I'll reconnect to the meeting.||Я переподключусь к встрече.|Uchrashuvga qayta ulanaman.
+phrase|My phone is about to die.||У меня сейчас разрядится телефон.|Telefonim hozir oʻchib qoladi.
+phrase|Do you have a charger?||У тебя есть зарядное устройство?|Quvvatlagichingiz bormi?
+phrase|I need to put my phone on silent.||Мне нужно поставить телефон на беззвучный режим.|Telefonimni ovozsiz rejimga qoʻyishim kerak.
+phrase|My phone won't turn on.||Мой телефон не включается.|Telefonim yonmayapti.
+phrase|I can't unlock my phone.||Я не могу разблокировать телефон.|Telefonimni ocha olmayapman.
+phrase|The app keeps crashing.||Приложение постоянно вылетает.|Ilova tinmay yopilib ketyapti.
+phrase|I need to update my phone.||Мне нужно обновить телефон.|Telefonimni yangilashim kerak.
+phrase|Could you connect me to the Wi-Fi?||Можешь подключить меня к Wi-Fi?|Meni Wi-Fi tarmogʻiga ulab bera olasizmi?
+phrase|I forgot my passcode.||Я забыл(а) код доступа.|Parolimni unutdim.
+phrase|My storage is full.||У меня заполнена память.|Xotiram toʻlib ketdi.
+phrase|I'm calling about the meeting.||Я звоню по поводу встречи.|Men uchrashuv boʻyicha qoʻngʻiroq qilyapman.
+phrase|Could we discuss this over the phone?||Можем обсудить это по телефону?|Buni telefon orqali muhokama qila olamizmi?
+phrase|I'll send the documents after our call.||Я отправлю документы после звонка.|Qoʻngʻiroqdan keyin hujjatlarni yuboraman.
+phrase|Let me check and call you back.||Позволь проверить и перезвонить.|Tekshirib koʻray-da, qayta qoʻngʻiroq qilay.
+phrase|Could you repeat the last point?||Не могли бы вы повторить последний пункт?|Oxirgi fikrni takrorlay olasizmi?
+phrase|I'll put that in an email.||Я напишу об этом в электронном письме.|Buni elektron xatda yozaman.
+phrase|Thanks for taking my call.||Спасибо, что ответили на звонок.|Qoʻngʻirogʻimga javob berganingiz uchun rahmat.
+phrase|I have another call coming in.||Мне поступает другой звонок.|Menga boshqa qoʻngʻiroq kelyapti.
+phrase|Can we keep this brief?||Можем говорить кратко?|Qisqa qilsak boʻladimi?
+phrase|I'll follow up by email.||Я продолжу общение по электронной почте.|Elektron pochta orqali davom ettiraman.
+phrase|Sorry to message you so late.||Извини, что пишу так поздно.|Shuncha kech yozganim uchun uzr.
+phrase|When you have a moment, could you reply?||Когда будет минутка, можешь ответить?|Imkoningiz boʻlganda javob bera olasizmi?
+phrase|No rush to reply.||Не торопись с ответом.|Javob berishga shoshilmang.
+phrase|Thanks for getting back to me.||Спасибо, что ответил(а).|Javob berganingiz uchun rahmat.
+phrase|I appreciate the quick response.||Благодарю за быстрый ответ.|Tez javob berganingiz uchun minnatdorman.
+phrase|Just checking whether you saw this.||Просто уточняю, видел(а) ли ты это.|Shunchaki buni koʻrdingizmi deb soʻrayapman.
+phrase|Please let me know when you can.||Пожалуйста, дай знать, когда сможешь.|Imkoningiz boʻlganda, iltimos, xabar bering.
+phrase|Sorry for the multiple messages.||Извини за несколько сообщений подряд.|Ketma-ket xabar yozganim uchun uzr.
+phrase|I hope I'm not disturbing you.||Надеюсь, я тебя не отвлекаю.|Umid qilamanki, bezovta qilmayapman.
+phrase|Thanks for your time.||Спасибо за твоё время.|Vaqtingiz uchun rahmat.
+phrase|I'll add you to the group.||Я добавлю тебя в группу.|Sizni guruhga qoʻshaman.
+phrase|Please check the pinned message.||Пожалуйста, проверь закреплённое сообщение.|Iltimos, qadalgan xabarni koʻring.
+phrase|I'll share it with the group.||Я поделюсь этим с группой.|Buni guruh bilan ulashaman.
+phrase|Can everyone see this?||Все это видят?|Buni hamma koʻryaptimi?
+phrase|Let's keep the chat on topic.||Давайте придерживаться темы в чате.|Keling, chatda mavzudan chetga chiqmaylik.
+phrase|I'll send the files here.||Я отправлю файлы сюда.|Fayllarni shu yerga yuboraman.
+phrase|Please don't forget to reply.||Пожалуйста, не забудьте ответить.|Iltimos, javob berishni unutmang.
+phrase|I'll mute this chat for a while.||Я ненадолго отключу уведомления этого чата.|Bu chatni bir muddat ovozsiz qilaman.
+phrase|Who can help with this?||Кто может с этим помочь?|Bunga kim yordam bera oladi?
+phrase|Thanks, everyone, for the updates.||Спасибо всем за обновления.|Yangiliklar uchun hammangizga rahmat.
+phrase|I'll send you the photo.||Я отправлю тебе фотографию.|Sizga suratni yuboraman.
+phrase|The file is too large to send.||Файл слишком большой для отправки.|Fayl yuborish uchun juda katta.
+phrase|Can you open the attachment?||Можешь открыть вложение?|Ilovani ocha olasizmi?
+phrase|I'll upload it to the shared folder.||Я загружу это в общую папку.|Buni umumiy papkaga yuklayman.
+phrase|Here's the link.||Вот ссылка.|Mana havola.
+phrase|Let me know if it doesn't open.||Дай знать, если не открывается.|Ochilmasa, menga xabar bering.
+phrase|I sent the wrong file.||Я отправил(а) не тот файл.|Men notoʻgʻri faylni yuboribman.
+phrase|Could you send it in PDF format?||Можешь отправить это в формате PDF?|Buni PDF koʻrinishida yuborib bera olasizmi?
+phrase|The download is taking a while.||Загрузка занимает некоторое время.|Yuklab olish biroz vaqt olyapti.
+phrase|I've shared access with you.||Я предоставил(а) тебе доступ.|Sizga ruxsat berdim.
+phrase|Can you confirm the time?||Можешь подтвердить время?|Vaqtni tasdiqlay olasizmi?
+phrase|Just to make sure, we're meeting at six.||Чтобы уточнить, мы встречаемся в шесть.|Aniqlik uchun: biz oltida uchrashamiz.
+phrase|Did I get the address right?||Я правильно записал(а) адрес?|Manzilni toʻgʻri yozib oldimmi?
+phrase|I'll repeat that back to you.||Я повторю это для проверки.|Buni tekshirish uchun qaytarib aytaman.
+phrase|Could you spell your name?||Можете произнести ваше имя по буквам?|Ismingizni harflab ayta olasizmi?
+phrase|Let me read that message again.||Позволь перечитать сообщение.|Xabarni qayta oʻqib chiqay.
+phrase|I got your details.||Я получил(а) твои данные.|Maʼlumotlaringizni oldim.
+phrase|Thanks for confirming.||Спасибо за подтверждение.|Tasdiqlaganingiz uchun rahmat.
+phrase|I'll double-check and let you know.||Я перепроверю и сообщу тебе.|Qayta tekshirib, sizga xabar beraman.
+phrase|Everything is confirmed.||Всё подтверждено.|Hammasi tasdiqlandi.
+phrase|I saw your missed call.||Я увидел(а) твой пропущенный звонок.|Javobsiz qoʻngʻirogʻingizni koʻrdim.
+phrase|Sorry I couldn't answer.||Извини, я не смог(ла) ответить.|Kechirasiz, javob bera olmadim.
+phrase|I was in a meeting.||Я был(а) на встрече.|Men uchrashuvda edim.
+phrase|I tried calling you earlier.||Я пытался / пыталась позвонить тебе раньше.|Sizga avvalroq qoʻngʻiroq qilmoqchi boʻlgandim.
+phrase|When would be a good time to call?||Когда лучше позвонить?|Qachon qoʻngʻiroq qilsam maʼqul boʻladi?
+phrase|I'll call as soon as I'm free.||Я позвоню, как только освобожусь.|Boʻshashim bilan qoʻngʻiroq qilaman.
+phrase|I couldn't get through.||Я не смог(ла) дозвониться.|Men dozvon qila olmadim.
+phrase|Please try me again in an hour.||Попробуй позвонить мне снова через час.|Bir soatdan keyin yana urinib koʻring.
+phrase|I was away from my phone.||Меня не было рядом с телефоном.|Men telefondan uzoqda edim.
+phrase|Thanks for calling back.||Спасибо, что перезвонил(а).|Qayta qoʻngʻiroq qilganingiz uchun rahmat.
+phrase|I won't keep you any longer.||Не буду больше тебя задерживать.|Sizni endi ushlab turmayman.
+phrase|I should let you go.||Не буду тебя больше задерживать.|Sizga xalaqit bermay endi.
+phrase|Thanks for the call.||Спасибо за звонок.|Qoʻngʻiroq uchun rahmat.
+phrase|It was good talking to you.||Было приятно поговорить с тобой.|Siz bilan suhbatlashganim yoqdi.
+phrase|I'll talk to you soon.||Скоро поговорим.|Tez orada gaplashamiz.
+phrase|Speak to you later.||Поговорим позже.|Keyinroq gaplashamiz.
+phrase|I'll be in touch.||Я буду на связи.|Aloqada boʻlaman.
+phrase|Take care and talk soon.||Береги себя, скоро поговорим.|Oʻzingizni ehtiyot qiling, tez orada gaplashamiz.
+phrase|I'll send you a message after this.||Я напишу тебе после этого.|Shundan keyin sizga xabar yozaman.
+phrase|Bye for now.||Пока.|Hozircha xayr.
+phrase|Are you online?||Ты в сети?|Tarmoqdamisiz?
+phrase|I was away from my phone.||Меня не было у телефона.|Men telefonimning yonida yoʻq edim.
+phrase|I'll be offline for a while.||Меня некоторое время не будет в сети.|Men bir muddat tarmoqda boʻlmayman.
+phrase|I just came online.||Я только что появился / появилась в сети.|Men endigina tarmoqqa kirdim.
+phrase|Sorry, I didn't see the notification.||Извини, я не увидел(а) уведомление.|Kechirasiz, bildirishnomani koʻrmadim.
+phrase|My notifications are turned off.||У меня отключены уведомления.|Mening bildirishnomalarim oʻchiq.
+phrase|I'll check when I'm back online.||Я проверю, когда снова буду в сети.|Tarmoqqa qaytganimda koʻraman.
+phrase|I may not reply right away.||Я могу ответить не сразу.|Men darhol javob bera olmasligim mumkin.
+phrase|I'm available now.||Я сейчас на связи.|Men hozir aloqadaman.
+phrase|Message me whenever you need.||Пиши мне, когда понадобится.|Kerak boʻlganda menga yozing.
+phrase|I sent that to the wrong person.||Я отправил(а) это не тому человеку.|Men buni notoʻgʻri odamga yuboribman.
+phrase|Please delete my last message.||Пожалуйста, удали моё последнее сообщение.|Iltimos, oxirgi xabarimni oʻchiring.
+phrase|I didn't mean to send that.||Я не хотел(а) это отправлять.|Men buni yuborishni xohlamagandim.
+phrase|Was that message meant for me?||Это сообщение было адресовано мне?|Oʻsha xabar menga moʻljallanganmidi?
+phrase|Please don't share this message.||Пожалуйста, не пересылай это сообщение.|Iltimos, bu xabarni tarqatmang.
+phrase|I accidentally deleted the chat.||Я случайно удалил(а) чат.|Men chatni tasodifan oʻchirib yuboribman.
+phrase|Can you resend the attachment?||Можешь отправить вложение повторно?|Ilovani qayta yuborib bera olasizmi?
+phrase|I can't find our conversation.||Я не могу найти нашу переписку.|Yozishmalarimizni topa olmayapman.
+phrase|I'll back up my contacts.||Я сделаю резервную копию контактов.|Kontaktlarimning zaxira nusxasini olaman.
+phrase|Let's discuss this privately.||Давай обсудим это лично.|Keling, buni shaxsiy suhbatda muhokama qilaylik.
+phrase|I'm calling about an issue with my account.||Я звоню по поводу проблемы с аккаунтом.|Men hisobimdagi muammo boʻyicha qoʻngʻiroq qilyapman.
+phrase|Could you verify my details?||Не могли бы вы проверить мои данные?|Maʼlumotlarimni tekshira olasizmi?
+phrase|Could you explain the next steps?||Можете объяснить следующие шаги?|Keyingi qadamlarni tushuntira olasizmi?
+phrase|How long will this take to resolve?||Сколько времени займёт решение проблемы?|Buni hal qilish qancha vaqt oladi?
+phrase|Could I speak to a supervisor?||Могу я поговорить с руководителем?|Rahbar bilan gaplashsam boʻladimi?
+phrase|Please give me a reference number.||Пожалуйста, дайте мне номер обращения.|Iltimos, menga murojaat raqamini bering.
+phrase|I'd like to report a problem.||Я хотел(а) бы сообщить о проблеме.|Men muammo haqida xabar bermoqchiman.
+phrase|Thank you for looking into this.||Спасибо, что разбираетесь с этим.|Bu masalani koʻrib chiqayotganingiz uchun rahmat.
+phrase|Could you send confirmation by email?||Можете отправить подтверждение по электронной почте?|Tasdiqnomani elektron pochta orqali yuborib bera olasizmi?
+phrase|I'll wait for your update.||Я буду ждать вашего сообщения.|Xabaringizni kutaman.
+phrase|Are you around?||Ты поблизости? / Ты свободен(на)?|Yaqin atrofdamisiz?
+phrase|Fancy meeting up later?||Хочешь встретиться позже?|Keyinroq uchrashmaymizmi?
+phrase|I'm on my way now.||Я уже в пути.|Men hozir yoʻldaman.
+phrase|Save me a seat.||Займи мне место.|Menga joy band qilib qoʻying.
+phrase|I'm running a few minutes late.||Я опоздаю на несколько минут.|Men bir necha daqiqa kechikyapman.
+phrase|Send me a photo when you get there.||Отправь фото, когда доберёшься.|Yetib borganingizda surat yuboring.
+phrase|That was fun yesterday.||Вчера было весело.|Kecha zoʻr boʻldi.
+phrase|Thanks for the invite!||Спасибо за приглашение!|Taklif uchun rahmat!
+phrase|Let me know when you're home.||Дай знать, когда будешь дома.|Uyga yetganingizda xabar bering.
+phrase|We should do this again soon.||Нам стоит скоро повторить.|Buni tez orada yana takrorlashimiz kerak.
+phrase|FYI — for your information.||К сведению.|FYI — maʼlumot uchun.
+phrase|ASAP — as soon as possible.||Как можно скорее.|ASAP — imkon qadar tezroq.
+phrase|BTW — by the way.||Кстати.|BTW — aytgancha.
+phrase|No worries.||Не переживай; ничего страшного.|Hechqisi yoʻq.
+phrase|Sounds good to me.||Меня это устраивает.|Menga toʻgʻri keladi.
+phrase|Got it.||Понял(а).|Tushundim.
+phrase|Will do.||Сделаю.|Qilaman.
+phrase|Talk soon.||Скоро поговорим.|Tez orada gaplashamiz.
+phrase|Thanks in advance.||Заранее спасибо.|Oldindan rahmat.
+phrase|Let me know.||Дай мне знать.|Menga xabar bering.
