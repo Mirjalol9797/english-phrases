@@ -86,6 +86,9 @@ function pools() {
     near: current.lesson.phrases,
     far: current.chapter.lessons.flatMap((lesson) => lesson.phrases),
     stages: stages.value,
+    // Без этого и вопрос, и варианты строились бы по-русски: у buildPractice
+    // язык по умолчанию русский, а узбекский перевод лежит рядом, в той же фразе.
+    language: settings.language,
   }
 }
 

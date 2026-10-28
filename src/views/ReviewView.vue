@@ -157,6 +157,8 @@ function start(batch: Phrase[]) {
     near: batch,
     far: allPhrases.value,
     stages: stages.value,
+    // См. PracticeView: без языка повторение шло бы по-русски.
+    language: settings.language,
   })
   running.value = true
 }

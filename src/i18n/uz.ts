@@ -35,7 +35,7 @@ export const UZ_TEXT: Record<string, string> = {
   // 2.1 — переключатель языка
   'Язык': 'Til',
   'Язык интерфейса': 'Interfeys tili',
-  'Переводы, которых ещё нет, остаются на русском.': 'Hali tarjima qilinmagani ruscha qoladi.',
+  'Язык меняется сразу: и интерфейс, и переводы фраз.': 'Til darhol oʻzgaradi: interfeys ham, iboralar tarjimasi ham.',
 
   // 2.2 — шапка и общие части
   'Основная навигация': 'Asosiy menyu',
