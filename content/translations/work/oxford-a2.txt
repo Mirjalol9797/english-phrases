@@ -2248,3 +2248,228 @@ example|dead|adj.|The battery was dead, which is why nobody could reach him.|Bat
 phrase|past|adv.|мимо|yonidan oʻtib
 example|past|adv.|We walked past the school.|Biz maktab yonidan oʻtdik.
 example|past|adv.|Two buses went past without stopping.|Ikkita avtobus toʻxtamay yonimizdan oʻtib ketdi.
+phrase|coast|n.|побережье|sohil
+example|coast|n.|We drove along the coast.|Biz sohil boʻylab haydadik.
+example|coast|n.|The coast road is beautiful and completely impassable in winter.|Sohil yoʻli goʻzal va qishda butunlay yura boʻlmaydigan holga keladi.
+phrase|farm|v.|заниматься сельским хозяйством|dehqonchilik qilmoq
+example|farm|v.|His family has farmed this land for years.|Uning oilasi bu yerda yillar davomida dehqonchilik qilib keladi.
+example|farm|v.|They've farmed this valley for longer than the records go back.|Ular bu vodiyda yozuvlar boshlanganidan ham uzoqroq vaqtdan beri dehqonchilik qiladi.
+phrase|boss|n.|начальник|boshliq
+example|boss|n.|My boss is very strict.|Boshligʻim juda qatʼiy.
+example|boss|n.|Her boss took the credit and left her with the work.|Boshligʻi eʼtirofni oʻziga oldi va ishni unga qoldirdi.
+phrase|biology|n.|биология|biologiya
+example|biology|n.|I want to study biology.|Men biologiyani oʻqimoqchiman.
+example|biology|n.|She'd studied biology and ended up working in finance.|U biologiyani oʻqigan va oxiri moliya sohasida ishlab qolgan.
+phrase|land|v.|приземляться|qoʻnmoq
+example|land|v.|The plane landed on time.|Samolyot oʻz vaqtida qoʻndi.
+example|land|v.|The plane landed two hours late at an airport nobody had mentioned.|Samolyot hech kim tilga olmagan aeroportga ikki soat kechikib qoʻndi.
+phrase|physical|adj.|физический|jismoniy
+example|physical|adj.|Physical activity is important.|Jismoniy faollik muhim.
+example|physical|adj.|The physical work is the easy part; the waiting is not.|Jismoniy ish oson qismi; kutish esa yoʻq.
+phrase|sauce|n.|соус|sous
+example|sauce|n.|Do you want tomato sauce?|Pomidor sousi xohlaysizmi?
+example|sauce|n.|The sauce needs to reduce for at least an hour.|Sous kamida bir soat qaynab quyulishi kerak.
+phrase|frog|n.|лягушка|baqa
+example|frog|n.|A frog jumped into the water.|Baqa suvga sakradi.
+example|frog|n.|The frogs start up at dusk and go on until well after midnight.|Baqalar qorongʻi tushganda boshlaydi va yarim tundan ancha keyingacha davom etadi.
+phrase|search|n., v.|поиск; искать|qidiruv; qidirmoq
+example|search|n., v.|I searched the internet for information.|Men maʼlumotni internetdan qidirdim.
+example|search|n., v.|The search took three days and ended where it had started.|Qidiruv uch kun oldi va boshlangan joyida tugadi.
+phrase|hope|n.|надежда|umid
+example|hope|n.|Don't lose hope.|Umidni yoʻqotmang.
+example|hope|n.|There's still hope, though less of it than there was in May.|Hali umid bor, garchi maydagidan kamroq boʻlsa ham.
+phrase|close|adj.|близкий|yaqin
+example|close|adj.|They are close friends.|Ular yaqin doʻstlar.
+example|close|adj.|They'd been close friends until money came between them.|Pul oralariga tushgunicha ular yaqin doʻst edi.
+phrase|term|n.|семестр; термин|semestr; atama
+example|term|n.|The new term starts in September.|Yangi semestr sentabrda boshlanadi.
+example|term|n.|The term means something quite different in the two countries.|Atama ikki mamlakatda butunlay boshqa maʼno anglatadi.
+phrase|badly|adv.|плохо|yomon
+example|badly|adv.|He played badly today.|U bugun yomon oʻynadi.
+example|badly|adv.|The project was badly planned from the very first week.|Loyiha eng birinchi haftadanoq yomon rejalashtirilgandi.
+phrase|attend|v.|посещать|qatnashmoq
+example|attend|v.|I attend English classes.|Men ingliz tili darslariga qatnayman.
+example|attend|v.|Only half the people who said they'd attend actually came.|Qatnashaman deganlarning atigi yarmi haqiqatan ham keldi.
+phrase|case|n.|случай; чехол|holat; gʻilof
+example|case|n.|In that case, let's go tomorrow.|Unday boʻlsa, ertaga boramiz.
+example|case|n.|In this case the rule simply doesn't apply.|Bu holatda qoida shunchaki amal qilmaydi.
+phrase|yours|pron.|твой, ваш (без существительного)|sizniki
+example|yours|pron.|Is this pen yours?|Bu ruchka siznikimi?
+example|yours|pron.|The choice is yours, and so are the consequences.|Tanlov sizniki va oqibatlari ham sizniki.
+phrase|public|adj., n.|общественный; публика|jamoat; omma
+example|public|adj., n.|Is there public transport here?|Bu yerda jamoat transporti bormi?
+example|public|adj., n.|The public had not been told, and found out from a leak.|Omma xabardor qilinmagandi va bu haqda sizib chiqqan maʼlumotdan bilib oldi.
+phrase|route|n.|маршрут|marshrut
+example|route|n.|What's the best route to the airport?|Aeroportga eng yaxshi marshrut qaysi?
+example|route|n.|The new route is shorter and takes about twice as long.|Yangi marshrut qisqaroq va taxminan ikki baravar koʻp vaqt oladi.
+phrase|kid|n.|ребёнок (разг.)|bola (ogʻzaki)
+example|kid|n.|The kids are playing outside.|Bolalar tashqarida oʻynashyapti.
+example|kid|n.|The kids worked it out in ten minutes while we argued.|Biz bahslashayotganimizda bolalar buni oʻn daqiqada hal qilishdi.
+phrase|fail|v.|не справиться, провалить|uddalay olmaslik, yiqilmoq
+example|fail|v.|He failed his driving test.|U haydovchilik imtihonidan yiqildi.
+example|fail|v.|The plan failed for reasons that had been obvious from the start.|Reja boshidanoq koʻrinib turgan sabablarga koʻra barbod boʻldi.
+phrase|sky|n.|небо|osmon
+example|sky|n.|The sky is clear today.|Bugun osmon ochiq.
+example|sky|n.|The sky had gone the colour it goes before hail.|Osmon doʻl yogʻishidan oldingi rangga kirgandi.
+phrase|stupid|adj.|глупый|ahmoqona
+example|stupid|adj.|That was a stupid mistake.|Bu ahmoqona xato edi.
+example|stupid|adj.|It wasn't a stupid question; it was the only sensible one.|Bu ahmoqona savol emasdi; bu yagona oqilona savol edi.
+phrase|wait|n.|ожидание|kutish
+example|wait|n.|We had a long wait at the airport.|Biz aeroportda uzoq kutdik.
+example|wait|n.|The wait was longer than the appointment itself.|Kutish qabulning oʻzidan uzoqroq davom etdi.
+phrase|race|n., v.|гонка, забег; соревноваться|poyga; poygada qatnashmoq
+example|race|n., v.|He won the race.|U poygada gʻolib chiqdi.
+example|race|n., v.|She won the race by less than a second.|U poygada bir soniyadan kam farq bilan gʻolib boʻldi.
+phrase|disaster|n.|бедствие, катастрофа|falokat
+example|disaster|n.|The trip was a disaster.|Sayohat falokat boʻldi.
+example|disaster|n.|The launch was a disaster that everyone had predicted and nobody prevented.|Taqdimot hamma bashorat qilgan va hech kim oldini olmagan falokat boʻldi.
+phrase|cooker|n.|плита|plita
+example|cooker|n.|Put the pot on the cooker.|Qozonni plitaga qoʻying.
+example|cooker|n.|The cooker is older than I am and works better than the new one.|Plita mendan ham eski va yangisidan yaxshiroq ishlaydi.
+phrase|curly|adj.|кудрявый|jingalak
+example|curly|adj.|She has curly hair.|Uning sochi jingalak.
+example|curly|adj.|Her hair had been straight as a child and turned curly later.|Bolaligida sochi tekis boʻlgan va keyinroq jingalak boʻlib qolgan.
+phrase|anyway|adv.|в любом случае; всё равно|baribir, har holda
+example|anyway|adv.|It was raining, but we went anyway.|Yomgʻir yogʻayotgandi, lekin biz baribir chiqdik.
+example|anyway|adv.|We'd been warned it wouldn't work, and we tried it anyway.|Bizni ishlamaydi deb ogohlantirishgandi va biz baribir sinab koʻrdik.
+phrase|tidy|adj., v.|аккуратный; убирать|ozoda; yigʻishtirmoq
+example|tidy|adj., v.|Tidy your room!|Xonangizni yigʻishtiring!
+example|tidy|adj., v.|His desk was tidy because he never actually did anything at it.|Uning stoli ozoda edi, chunki u unda aslida hech narsa qilmasdi.
+phrase|headache|n.|головная боль|bosh ogʻrigʻi
+example|headache|n.|I have a terrible headache.|Boshim dahshatli ogʻriyapti.
+example|headache|n.|The whole thing turned into a headache nobody had budgeted for.|Butun ish hech kim byudjetga kiritmagan bosh ogʻrigʻiga aylandi.
+phrase|god|n.|бог|xudo
+example|god|n.|Thank God you're safe!|Xudoga shukur, omonsiz!
+example|god|n.|For God's sake, somebody tell them before they sign.|Xudo haqqi, ular imzolashdan oldin kimdir aytsin.
+phrase|burn|v.|гореть, жечь|yonmoq, kuydirmoq
+example|burn|v.|Be careful, don't burn yourself.|Ehtiyot boʻling, kuyib qolmang.
+example|burn|v.|The papers had been burned long before anyone came looking for them.|Qogʻozlar kimdir ularni qidirib kelishidan ancha oldin yoqib yuborilgandi.
+phrase|crazy|adj.|сумасшедший|aqldan ozgan
+example|crazy|adj.|That's a crazy idea!|Bu aqldan ozgan gʻoya!
+example|crazy|adj.|It sounded crazy at the time and turned out to be exactly right.|Oʻshanda bu telbalikdek tuyulgandi va aynan toʻgʻri boʻlib chiqdi.
+phrase|arrangement|n.|договорённость, план|kelishuv, reja
+example|arrangement|n.|We made an arrangement to meet at six.|Biz oltida uchrashishga kelishdik.
+example|arrangement|n.|The arrangement suited everyone until the money stopped coming.|Kelishuv pul kelishi toʻxtagunicha hammaga maʼqul edi.
+phrase|lemon|n.|лимон|limon
+example|lemon|n.|I drink tea with lemon.|Men choyni limon bilan ichaman.
+example|lemon|n.|A little lemon does more for the dish than any amount of salt.|Bir oz limon taomga har qanday tuzdan koʻra koʻproq foyda beradi.
+phrase|salary|n.|зарплата|oylik maosh
+example|salary|n.|She has a good salary.|Uning oylik maoshi yaxshi.
+example|salary|n.|His salary hadn't changed since he was promoted, which he only noticed later.|Uning maoshi lavozimi koʻtarilganidan beri oʻzgarmagandi, buni u keyinroq sezdi.
+phrase|kill|v.|убивать|oʻldirmoq
+example|kill|v.|Smoking can kill you.|Chekish sizni oʻldirishi mumkin.
+example|kill|v.|The project wasn't killed; it was simply never funded.|Loyiha oʻldirilmadi; unga shunchaki hech qachon mablagʻ ajratilmadi.
+phrase|heavy|adj.|тяжёлый|ogʻir
+example|heavy|adj.|This box is very heavy.|Bu quti juda ogʻir.
+example|heavy|adj.|Traffic was heavy enough to add an hour to the journey.|Tirbandlik yoʻlga bir soat qoʻshadigan darajada ogʻir edi.
+phrase|voice|n.|голос|ovoz
+example|voice|n.|She has a beautiful voice.|Uning ovozi goʻzal.
+example|voice|n.|She lowered her voice, and everyone leaned in to hear.|U ovozini pasaytirdi va hamma eshitish uchun engashdi.
+phrase|network|n.|сеть|tarmoq
+example|network|n.|The phone network is down.|Telefon tarmogʻi ishlamayapti.
+example|network|n.|The whole network went down for six hours on a Monday morning.|Butun tarmoq dushanba kuni ertalab olti soat ishlamay qoldi.
+phrase|between|adv.|между (наречие)|oraliqda
+example|between|adv.|Two houses with a garden between.|Oraliqda bogʻ boʻlgan ikkita uy.
+example|between|adv.|There were two long silences with an argument in between.|Ikki uzoq sukunat boʻldi, oraliqda esa bahs.
+phrase|reach|v.|достигать, дотягиваться|yetib bormoq, yetmoq
+example|reach|v.|We reached the top of the mountain.|Biz togʻ choʻqqisiga yetib bordik.
+example|reach|v.|We'd reached an agreement before anyone thought to check the budget.|Kimdir byudjetni tekshirishni oʻylagunicha biz kelishuvga yetib bordik.
+phrase|themselves|pron.|себя, сами (о них)|oʻzlari
+example|themselves|pron.|They did it themselves.|Ular buni oʻzlari qilishdi.
+example|themselves|pron.|They'd caused the problem themselves and blamed the weather.|Muammoni oʻzlari keltirib chiqargandi va ob-havoni ayblashdi.
+phrase|site|n.|сайт; место, площадка|sayt; maydoncha
+example|site|n.|Visit our site for more information.|Batafsil maʼlumot uchun saytimizga kiring.
+example|site|n.|Work on the site stopped when the money ran out.|Pul tugaganda maydonchadagi ish toʻxtadi.
+phrase|silver|n., adj.|серебро; серебряный|kumush
+example|silver|n., adj.|She wears a silver ring.|U kumush uzuk taqadi.
+example|silver|n., adj.|The silver had gone black from years in a damp cupboard.|Kumush nam shkafda yillab turib qorayib ketgandi.
+phrase|evidence|n.|доказательство|dalil, isbot
+example|evidence|n.|There is no evidence.|Hech qanday dalil yoʻq.
+example|evidence|n.|There's plenty of evidence, and none of it points the same way.|Dalil yetarlicha koʻp va ularning hech biri bir tomonni koʻrsatmaydi.
+phrase|attack|n., v.|нападение; нападать|hujum; hujum qilmoq
+example|attack|n., v.|The dog attacked a cat.|It mushukka hujum qildi.
+example|attack|n., v.|The policy has been attacked from both sides, which may mean it's balanced.|Siyosat ikki tomondan ham tanqid ostida, bu esa uning muvozanatli ekanini bildirishi mumkin.
+phrase|spoon|n.|ложка|qoshiq
+example|spoon|n.|I need a spoon for my soup.|Menga shoʻrva uchun qoshiq kerak.
+example|spoon|n.|He ate the whole thing with a spoon, standing by the window.|U hammasini qoshiq bilan, deraza yonida turib yedi.
+phrase|included|adj.|включённый|kiritilgan
+example|included|adj.|Breakfast is included.|Nonushta narxga kiritilgan.
+example|included|adj.|Delivery is included, though they make you ask.|Yetkazib berish narxga kiritilgan, garchi buni soʻratib olishsa ham.
+phrase|sleep|n.|сон|uyqu
+example|sleep|n.|I need more sleep.|Menga koʻproq uyqu kerak.
+example|sleep|n.|A bad night's sleep affects judgement more than people admit.|Yomon uyqu mulohazaga odamlar tan olganidan koʻproq taʼsir qiladi.
+phrase|enter|v.|входить; вводить|kirmoq; kiritmoq
+example|enter|v.|Enter your password.|Parolingizni kiriting.
+example|enter|v.|Nobody is allowed to enter the building without a pass.|Ruxsatnomasiz binoga kirish taqiqlanadi.
+phrase|truck|n.|грузовик|gruzovik, yuk mashinasi
+example|truck|n.|A big truck stopped outside.|Tashqarida katta gruzovik toʻxtadi.
+example|truck|n.|The trucks start at five, which is why nobody sleeps past five.|Gruzoviklar beshda boshlaydi, shuning uchun hech kim beshdan keyin uxlamaydi.
+phrase|use|n.|использование|foydalanish
+example|use|n.|This app is free to use.|Bu ilovadan foydalanish bepul.
+example|use|n.|The use of the building has changed four times since it was built.|Bino qurilganidan beri undan foydalanish toʻrt marta oʻzgardi.
+phrase|medical|adj.|медицинский|tibbiy
+example|medical|adj.|She is a medical student.|U tibbiyot talabasi.
+example|medical|adj.|Medical advice has changed twice on this in ten years.|Bu boʻyicha tibbiy tavsiyalar oʻn yilda ikki marta oʻzgardi.
+phrase|roof|n.|крыша|tom
+example|roof|n.|The cat is on the roof.|Mushuk tomda.
+example|roof|n.|The roof had been leaking for two winters before it was mended.|Tom taʼmirlangunicha ikki qish suv oqizib turgandi.
+phrase|as|adv., conj.|так же; когда; так как|shunday; ...ganda; chunki
+example|as|adv., conj.|As it was late, we took a taxi.|Kech boʻlgani uchun biz taksida ketdik.
+example|as|adv., conj.|As we hadn't heard anything, we assumed the answer was no.|Hech qanday xabar eshitmaganimiz uchun javob yoʻq deb oʻyladik.
+phrase|pronounce|v.|произносить|talaffuz qilmoq
+example|pronounce|v.|How do you pronounce this word?|Bu soʻzni qanday talaffuz qilasiz?
+example|pronounce|v.|Nobody could pronounce the name, so everyone used initials.|Hech kim bu nomni talaffuz qila olmadi, shuning uchun hamma bosh harflardan foydalandi.
+phrase|position|n.|положение, позиция; должность|holat; lavozim
+example|position|n.|Sit in a comfortable position.|Qulay holatda oʻtiring.
+example|position|n.|She'd been offered the position twice and turned it down twice.|Unga bu lavozim ikki marta taklif qilingan va u ikki marta rad etgan.
+phrase|explanation|n.|объяснение|izoh, tushuntirish
+example|explanation|n.|Thanks for the clear explanation.|Aniq tushuntirganingiz uchun rahmat.
+example|explanation|n.|The explanation they gave raised more questions than it answered.|Ular bergan izoh javob berganidan koʻra koʻproq savol tugʻdirdi.
+phrase|attractive|adj.|привлекательный|jozibali
+example|attractive|adj.|She is a very attractive woman.|U juda jozibali ayol.
+example|attractive|adj.|The offer looked attractive until we read the conditions.|Taklif shartlarni oʻqigunimizcha jozibali koʻrinardi.
+phrase|book|v.|бронировать|band qilmoq
+example|book|v.|I booked a table for two.|Men ikki kishilik stol band qildim.
+example|book|v.|We'd booked the room months before and they still lost the reservation.|Biz xonani oylar oldin band qilgandik va ular baribir bronni yoʻqotishdi.
+phrase|architect|n.|архитектор|meʼmor
+example|architect|n.|My uncle is an architect.|Amakim meʼmor.
+example|architect|n.|The architect had never seen the site before the plans were drawn.|Meʼmor chizmalar chizilgunicha maydonchani hech koʻrmagandi.
+phrase|degree|n.|степень; градус|daraja; gradus
+example|degree|n.|It's 30 degrees today.|Bugun 30 daraja.
+example|degree|n.|She has a degree in a subject that didn't exist when she started.|Uning u boshlaganda mavjud boʻlmagan fan boʻyicha ilmiy darajasi bor.
+phrase|destroy|v.|разрушать|vayron qilmoq
+example|destroy|v.|The fire destroyed the house.|Yongʻin uyni vayron qildi.
+example|destroy|v.|The fire destroyed records that had been kept for over a century.|Yongʻin bir asrdan ortiq saqlangan yozuvlarni yoʻq qildi.
+phrase|whole|adj.|весь, целый|butun, yaxlit
+example|whole|adj.|I ate the whole pizza.|Men butun pitsani yedim.
+example|whole|adj.|The whole thing could have been sorted out in one conversation.|Butun masalani bitta suhbatda hal qilish mumkin edi.
+phrase|soap|n.|мыло|sovun
+example|soap|n.|Wash your hands with soap.|Qoʻlingizni sovun bilan yuving.
+example|soap|n.|Washing your hands with soap does more than most medicine.|Qoʻlni sovun bilan yuvish koʻp doridan koʻra koʻproq foyda beradi.
+phrase|program|n.|программа (компьютерная)|dastur
+example|program|n.|This program is easy to use.|Bu dasturdan foydalanish oson.
+example|program|n.|The program had been written by one person who left years ago.|Dasturni yillar oldin ketib qolgan bitta odam yozgandi.
+phrase|all|adv.|совсем, полностью|butunlay, tamomila
+example|all|adv.|She was all alone.|U butunlay yolgʻiz edi.
+example|all|adv.|By the end she was all but certain she had made the wrong choice.|Oxirida u notoʻgʻri tanlov qilganiga deyarli tamomila ishonch hosil qilgandi.
+phrase|communicate|v.|общаться|muloqot qilmoq
+example|communicate|v.|We communicate in English.|Biz ingliz tilida muloqot qilamiz.
+example|communicate|v.|The two departments barely communicate, which explains everything.|Ikki boʻlim deyarli muloqot qilmaydi, bu esa hamma narsani tushuntiradi.
+phrase|tool|n.|инструмент|asbob
+example|tool|n.|You need the right tools for the job.|Ish uchun toʻgʻri asboblar kerak.
+example|tool|n.|A good tool doesn't make up for not knowing what you're doing.|Yaxshi asbob nima qilayotganingizni bilmaslikning oʻrnini bosmaydi.
+phrase|per|prep.|в, за (на единицу)|har biriga, ...iga
+example|per|prep.|He earns 20 dollars per hour.|U soatiga 20 dollar ishlaydi.
+example|per|prep.|The charge works out at nearly fifty pounds per person.|Toʻlov har bir kishiga qariyb ellik funtni tashkil qiladi.
+phrase|narrow|adj.|узкий|tor
+example|narrow|adj.|The street is very narrow.|Koʻcha juda tor.
+example|narrow|adj.|The street is too narrow for two cars to pass.|Koʻcha ikkita mashina oʻtishi uchun juda tor.
+phrase|desert|n.|пустыня|choʻl
+example|desert|n.|The Kyzylkum is a big desert.|Qizilqum — katta choʻl.
+example|desert|n.|The desert gets surprisingly cold once the sun has gone down.|Quyosh botgandan keyin choʻl hayratlanarli darajada sovib ketadi.
+phrase|church|n.|церковь|cherkov
+example|church|n.|There is an old church in the town.|Shaharchada eski cherkov bor.
+example|church|n.|The church is the only building in the village older than the road.|Cherkov qishloqda yoʻldan ham eski yagona bino.
+phrase|focus|v., n.|сосредотачиваться; фокус|diqqatni qaratmoq; fokus
+example|focus|v., n.|Focus on your studies.|Oʻqishingizga diqqatni qarating.
+example|focus|v., n.|We need to focus on the one problem we can actually solve.|Biz haqiqatan hal qila oladigan yagona muammoga diqqatni qaratishimiz kerak.
