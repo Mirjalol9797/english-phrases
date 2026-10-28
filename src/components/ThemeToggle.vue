@@ -2,12 +2,15 @@
 import { computed } from 'vue'
 import { useSettingsStore } from '@/stores/settings'
 import AppIcon from './AppIcon.vue'
+import { useI18n } from '@/i18n'
+
+const { t } = useI18n()
 
 // Иконка показывает тему, на которую переключит нажатие.
 const settings = useSettingsStore()
 
 const next = computed(() => (settings.resolvedTheme === 'dark' ? 'light' : 'dark'))
-const label = computed(() => (next.value === 'dark' ? 'Включить тёмную тему' : 'Включить светлую тему'))
+const label = computed(() => (next.value === 'dark' ? t('Включить тёмную тему') : t('Включить светлую тему')))
 </script>
 
 <template>

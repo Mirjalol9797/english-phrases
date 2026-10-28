@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
 import AppIcon, { type IconName } from './AppIcon.vue'
+import { useI18n } from '@/i18n'
+
+const { t } = useI18n()
 
 defineProps<{ variant?: 'top' | 'bottom' }>()
 
@@ -13,11 +16,11 @@ interface NavItem {
 }
 
 const items: NavItem[] = [
-  { to: '/', label: 'Главная', icon: 'home', match: (p) => p === '/' },
-  { to: '/chapters', label: 'Главы', icon: 'book', match: (p) => p.startsWith('/chapters') || p.startsWith('/lessons') },
-  { to: '/review', label: 'Повторение', icon: 'repeat', match: (p) => p.startsWith('/review') },
-  { to: '/phrases', label: 'Словарь', icon: 'search', match: (p) => p.startsWith('/phrases') },
-  { to: '/settings', label: 'Настройки', icon: 'sliders', match: (p) => p.startsWith('/settings') || p.startsWith('/stats') },
+  { to: '/', label: t('Главная'), icon: 'home', match: (p) => p === '/' },
+  { to: '/chapters', label: t('Главы'), icon: 'book', match: (p) => p.startsWith('/chapters') || p.startsWith('/lessons') },
+  { to: '/review', label: t('Повторение'), icon: 'repeat', match: (p) => p.startsWith('/review') },
+  { to: '/phrases', label: t('Словарь'), icon: 'search', match: (p) => p.startsWith('/phrases') },
+  { to: '/settings', label: t('Настройки'), icon: 'sliders', match: (p) => p.startsWith('/settings') || p.startsWith('/stats') },
 ]
 
 const route = useRoute()
@@ -26,7 +29,7 @@ const route = useRoute()
 <template>
   <nav
     v-if="variant === 'bottom'"
-    aria-label="Основная навигация"
+    :aria-label="t('Основная навигация')"
     class="bottom-nav fixed inset-x-0 bottom-0 z-20 border-t border-line bg-surface"
   >
     <ul class="mx-auto grid max-w-3xl grid-cols-5">
@@ -49,7 +52,7 @@ const route = useRoute()
     </ul>
   </nav>
 
-  <nav v-else aria-label="Основная навигация">
+  <nav v-else :aria-label="t('Основная навигация')">
     <ul class="flex items-center gap-1">
       <li v-for="item in items" :key="item.to">
         <RouterLink
