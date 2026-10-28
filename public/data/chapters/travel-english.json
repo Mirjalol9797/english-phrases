@@ -5,7 +5,8 @@
   "kind": "phrases",
   "title": {
     "en": "Travel English",
-    "ru": "Английский для путешествий"
+    "ru": "Английский для путешествий",
+    "uz": "Sayohat ingliz tili"
   },
   "lessons": [
     {
@@ -13,58 +14,69 @@
       "order": 1,
       "title": {
         "en": "Planning a trip",
-        "ru": "Планирование поездки"
+        "ru": "Планирование поездки",
+        "uz": "Sayohatni rejalashtirish"
       },
       "phrases": [
         {
           "id": "TE001",
           "en": "I'm planning a trip.",
-          "ru": "Я планирую поездку."
+          "ru": "Я планирую поездку.",
+          "uz": "Men sayohat rejalashtiryapman."
         },
         {
           "id": "TE002",
           "en": "Where would you recommend going?",
-          "ru": "Куда вы посоветовали бы поехать?"
+          "ru": "Куда вы посоветовали бы поехать?",
+          "uz": "Qayerga borishni tavsiya qilasiz?"
         },
         {
           "id": "TE003",
           "en": "What's the best time to visit?",
-          "ru": "Когда лучше всего приезжать?"
+          "ru": "Когда лучше всего приезжать?",
+          "uz": "Qachon borish eng maʼqul?"
         },
         {
           "id": "TE004",
           "en": "How many days should I stay?",
-          "ru": "Сколько дней мне стоит остаться?"
+          "ru": "Сколько дней мне стоит остаться?",
+          "uz": "Necha kun qolishim kerak?"
         },
         {
           "id": "TE005",
           "en": "I'd like to travel on a budget.",
-          "ru": "Я хотел(а) бы путешествовать экономно."
+          "ru": "Я хотел(а) бы путешествовать экономно.",
+          "uz": "Men tejamkor sayohat qilmoqchiman."
         },
         {
           "id": "TE006",
           "en": "Is it easy to get around?",
-          "ru": "Там легко передвигаться?"
+          "ru": "Там легко передвигаться?",
+          "uz": "U yerda yurish osonmi?"
         },
         {
           "id": "TE007",
           "en": "What should I pack?",
-          "ru": "Что мне взять с собой?"
+          "ru": "Что мне взять с собой?",
+          "uz": "Oʻzim bilan nima olishim kerak?"
         },
         {
           "id": "TE008",
           "en": "Do I need a visa?",
-          "ru": "Мне нужна виза?"
+          "ru": "Мне нужна виза?",
+          "uz": "Menga viza kerakmi?"
         },
         {
           "id": "TE009",
           "en": "I'd like to book in advance.",
-          "ru": "Я хотел(а) бы забронировать заранее."
+          "ru": "Я хотел(а) бы забронировать заранее.",
+          "uz": "Oldindan band qilmoqchiman."
         },
         {
           "id": "TE010",
           "en": "Could you recommend some places to visit?",
-          "ru": "Можете порекомендовать места для посещения?"
+          "ru": "Можете порекомендовать места для посещения?",
+          "uz": "Borishga arziydigan joylarni tavsiya qila olasizmi?"
         }
       ]
     },
@@ -73,58 +85,69 @@
       "order": 2,
       "title": {
         "en": "At the airport",
-        "ru": "В аэропорту"
+        "ru": "В аэропорту",
+        "uz": "Aeroportda"
       },
       "phrases": [
         {
           "id": "TE011",
           "en": "Where is the check-in desk?",
-          "ru": "Где стойка регистрации?"
+          "ru": "Где стойка регистрации?",
+          "uz": "Roʻyxatdan oʻtish joyi qayerda?"
         },
         {
           "id": "TE012",
           "en": "I'd like to check in for my flight.",
-          "ru": "Я хотел(а) бы зарегистрироваться на рейс."
+          "ru": "Я хотел(а) бы зарегистрироваться на рейс.",
+          "uz": "Reysimga roʻyxatdan oʻtmoqchiman."
         },
         {
           "id": "TE013",
           "en": "Can I see your passport, please?",
-          "ru": "Можно ваш паспорт, пожалуйста?"
+          "ru": "Можно ваш паспорт, пожалуйста?",
+          "uz": "Iltimos, pasportingizni koʻrsam boʻladimi?"
         },
         {
           "id": "TE014",
           "en": "Where is the security check?",
-          "ru": "Где пункт досмотра?"
+          "ru": "Где пункт досмотра?",
+          "uz": "Xavfsizlik nazorati qayerda?"
         },
         {
           "id": "TE015",
           "en": "Has the gate changed?",
-          "ru": "Выход на посадку изменился?"
+          "ru": "Выход на посадку изменился?",
+          "uz": "Chiqish darvozasi oʻzgardimi?"
         },
         {
           "id": "TE016",
           "en": "What time does boarding start?",
-          "ru": "Во сколько начинается посадка?"
+          "ru": "Во сколько начинается посадка?",
+          "uz": "Samolyotga chiqish necha soatda boshlanadi?"
         },
         {
           "id": "TE017",
           "en": "My flight has been delayed.",
-          "ru": "Мой рейс задержали."
+          "ru": "Мой рейс задержали.",
+          "uz": "Reysim kechiktirildi."
         },
         {
           "id": "TE018",
           "en": "Where can I collect my luggage?",
-          "ru": "Где я могу получить багаж?"
+          "ru": "Где я могу получить багаж?",
+          "uz": "Yukimni qayerdan olsam boʻladi?"
         },
         {
           "id": "TE019",
           "en": "My bag hasn't arrived.",
-          "ru": "Моя сумка не прибыла."
+          "ru": "Моя сумка не прибыла.",
+          "uz": "Sumkam yetib kelmadi."
         },
         {
           "id": "TE020",
           "en": "Is this the queue for passport control?",
-          "ru": "Это очередь на паспортный контроль?"
+          "ru": "Это очередь на паспортный контроль?",
+          "uz": "Bu pasport nazorati navbatimi?"
         }
       ]
     },
@@ -133,58 +156,69 @@
       "order": 3,
       "title": {
         "en": "On the plane",
-        "ru": "В самолёте"
+        "ru": "В самолёте",
+        "uz": "Samolyotda"
       },
       "phrases": [
         {
           "id": "TE021",
           "en": "Could I have a window seat?",
-          "ru": "Можно мне место у окна?"
+          "ru": "Можно мне место у окна?",
+          "uz": "Deraza yonidagi joyni olsam boʻladimi?"
         },
         {
           "id": "TE022",
           "en": "Where is my seat?",
-          "ru": "Где моё место?"
+          "ru": "Где моё место?",
+          "uz": "Mening joyim qayerda?"
         },
         {
           "id": "TE023",
           "en": "Could you help me with my bag?",
-          "ru": "Не могли бы вы помочь с моей сумкой?"
+          "ru": "Не могли бы вы помочь с моей сумкой?",
+          "uz": "Sumkamni koʻtarishga yordam bera olasizmi?"
         },
         {
           "id": "TE024",
           "en": "Could I have some water, please?",
-          "ru": "Можно мне воды, пожалуйста?"
+          "ru": "Можно мне воды, пожалуйста?",
+          "uz": "Iltimos, menga suv bersangiz?"
         },
         {
           "id": "TE025",
           "en": "Is this seat taken?",
-          "ru": "Это место занято?"
+          "ru": "Это место занято?",
+          "uz": "Bu joy bandmi?"
         },
         {
           "id": "TE026",
           "en": "How long is the flight?",
-          "ru": "Сколько длится полёт?"
+          "ru": "Сколько длится полёт?",
+          "uz": "Parvoz qancha davom etadi?"
         },
         {
           "id": "TE027",
           "en": "When will we land?",
-          "ru": "Когда мы приземлимся?"
+          "ru": "Когда мы приземлимся?",
+          "uz": "Qachon qoʻnamiz?"
         },
         {
           "id": "TE028",
           "en": "Could I have a blanket?",
-          "ru": "Можно мне одеяло?"
+          "ru": "Можно мне одеяло?",
+          "uz": "Menga adyol bersangiz boʻladimi?"
         },
         {
           "id": "TE029",
           "en": "Where is the restroom?",
-          "ru": "Где туалет?"
+          "ru": "Где туалет?",
+          "uz": "Hojatxona qayerda?"
         },
         {
           "id": "TE030",
           "en": "Please let me know when we arrive.",
-          "ru": "Пожалуйста, сообщите мне, когда мы прибудем."
+          "ru": "Пожалуйста, сообщите мне, когда мы прибудем.",
+          "uz": "Iltimos, yetib borganimizda menga ayting."
         }
       ]
     },
@@ -193,58 +227,69 @@
       "order": 4,
       "title": {
         "en": "Immigration and customs",
-        "ru": "Паспортный контроль и таможня"
+        "ru": "Паспортный контроль и таможня",
+        "uz": "Pasport nazorati va bojxona"
       },
       "phrases": [
         {
           "id": "TE031",
           "en": "What is the purpose of your visit?",
-          "ru": "Какова цель вашего визита?"
+          "ru": "Какова цель вашего визита?",
+          "uz": "Tashrifingiz maqsadi nima?"
         },
         {
           "id": "TE032",
           "en": "I'm here on holiday.",
-          "ru": "Я приехал(а) в отпуск."
+          "ru": "Я приехал(а) в отпуск.",
+          "uz": "Men taʼtilga keldim."
         },
         {
           "id": "TE033",
           "en": "I'm staying for a week.",
-          "ru": "Я остаюсь на неделю."
+          "ru": "Я остаюсь на неделю.",
+          "uz": "Men bir haftaga qolaman."
         },
         {
           "id": "TE034",
           "en": "Where will you be staying?",
-          "ru": "Где вы будете проживать?"
+          "ru": "Где вы будете проживать?",
+          "uz": "Qayerda turasiz?"
         },
         {
           "id": "TE035",
           "en": "Here's my hotel reservation.",
-          "ru": "Вот бронь моего отеля."
+          "ru": "Вот бронь моего отеля.",
+          "uz": "Mana mehmonxona bronim."
         },
         {
           "id": "TE036",
           "en": "I have a return ticket.",
-          "ru": "У меня есть билет обратно."
+          "ru": "У меня есть билет обратно.",
+          "uz": "Menda qaytish chiptasi bor."
         },
         {
           "id": "TE037",
           "en": "Do I need to declare anything?",
-          "ru": "Мне нужно что-нибудь декларировать?"
+          "ru": "Мне нужно что-нибудь декларировать?",
+          "uz": "Biror narsani deklaratsiya qilishim kerakmi?"
         },
         {
           "id": "TE038",
           "en": "I'm travelling with my family.",
-          "ru": "Я путешествую с семьёй."
+          "ru": "Я путешествую с семьёй.",
+          "uz": "Men oilam bilan sayohat qilyapman."
         },
         {
           "id": "TE039",
           "en": "This is my first visit.",
-          "ru": "Я здесь впервые."
+          "ru": "Я здесь впервые.",
+          "uz": "Bu mening birinchi tashrifim."
         },
         {
           "id": "TE040",
           "en": "How long can I stay?",
-          "ru": "Как долго я могу здесь находиться?"
+          "ru": "Как долго я могу здесь находиться?",
+          "uz": "Qancha vaqt qola olaman?"
         }
       ]
     },
@@ -253,58 +298,69 @@
       "order": 5,
       "title": {
         "en": "At the hotel",
-        "ru": "В отеле"
+        "ru": "В отеле",
+        "uz": "Mehmonxonada"
       },
       "phrases": [
         {
           "id": "TE041",
           "en": "I have a reservation.",
-          "ru": "У меня есть бронирование."
+          "ru": "У меня есть бронирование.",
+          "uz": "Menda bron bor."
         },
         {
           "id": "TE042",
           "en": "I'd like to check in.",
-          "ru": "Я хотел(а) бы заселиться."
+          "ru": "Я хотел(а) бы заселиться.",
+          "uz": "Men joylashmoqchiman."
         },
         {
           "id": "TE043",
           "en": "Could I see the room first?",
-          "ru": "Можно сначала посмотреть номер?"
+          "ru": "Можно сначала посмотреть номер?",
+          "uz": "Avval xonani koʻrsam boʻladimi?"
         },
         {
           "id": "TE044",
           "en": "What time is check-out?",
-          "ru": "Во сколько нужно выехать?"
+          "ru": "Во сколько нужно выехать?",
+          "uz": "Chiqish vaqti soat nechada?"
         },
         {
           "id": "TE045",
           "en": "Is breakfast included?",
-          "ru": "Завтрак включён?"
+          "ru": "Завтрак включён?",
+          "uz": "Nonushta narxga kiradimi?"
         },
         {
           "id": "TE046",
           "en": "The air conditioning isn't working.",
-          "ru": "Кондиционер не работает."
+          "ru": "Кондиционер не работает.",
+          "uz": "Konditsioner ishlamayapti."
         },
         {
           "id": "TE047",
           "en": "Could I get an extra towel?",
-          "ru": "Можно дополнительное полотенце?"
+          "ru": "Можно дополнительное полотенце?",
+          "uz": "Qoʻshimcha sochiq olsam boʻladimi?"
         },
         {
           "id": "TE048",
           "en": "Is Wi-Fi available?",
-          "ru": "Есть ли Wi-Fi?"
+          "ru": "Есть ли Wi-Fi?",
+          "uz": "Wi-Fi bormi?"
         },
         {
           "id": "TE049",
           "en": "Could you call a taxi for me?",
-          "ru": "Не могли бы вы вызвать мне такси?"
+          "ru": "Не могли бы вы вызвать мне такси?",
+          "uz": "Menga taksi chaqirib bera olasizmi?"
         },
         {
           "id": "TE050",
           "en": "I'd like to check out, please.",
-          "ru": "Я хотел(а) бы выехать из отеля."
+          "ru": "Я хотел(а) бы выехать из отеля.",
+          "uz": "Men mehmonxonadan chiqmoqchiman."
         }
       ]
     },
@@ -313,58 +369,69 @@
       "order": 6,
       "title": {
         "en": "Getting around",
-        "ru": "Передвижение по городу"
+        "ru": "Передвижение по городу",
+        "uz": "Shahar boʻylab yurish"
       },
       "phrases": [
         {
           "id": "TE051",
           "en": "How do I get to the city centre?",
-          "ru": "Как добраться до центра города?"
+          "ru": "Как добраться до центра города?",
+          "uz": "Shahar markaziga qanday boraman?"
         },
         {
           "id": "TE052",
           "en": "Is it within walking distance?",
-          "ru": "До этого можно дойти пешком?"
+          "ru": "До этого можно дойти пешком?",
+          "uz": "U yerga piyoda borsa boʻladimi?"
         },
         {
           "id": "TE053",
           "en": "Which bus should I take?",
-          "ru": "На какой автобус мне сесть?"
+          "ru": "На какой автобус мне сесть?",
+          "uz": "Qaysi avtobusga chiqishim kerak?"
         },
         {
           "id": "TE054",
           "en": "Where is the nearest metro station?",
-          "ru": "Где ближайшая станция метро?"
+          "ru": "Где ближайшая станция метро?",
+          "uz": "Eng yaqin metro bekati qayerda?"
         },
         {
           "id": "TE055",
           "en": "Does this bus go to the airport?",
-          "ru": "Этот автобус едет в аэропорт?"
+          "ru": "Этот автобус едет в аэропорт?",
+          "uz": "Bu avtobus aeroportga boradimi?"
         },
         {
           "id": "TE056",
           "en": "Where can I buy a ticket?",
-          "ru": "Где можно купить билет?"
+          "ru": "Где можно купить билет?",
+          "uz": "Chiptani qayerdan sotib olsam boʻladi?"
         },
         {
           "id": "TE057",
           "en": "How many stops is it?",
-          "ru": "Сколько это остановок?"
+          "ru": "Сколько это остановок?",
+          "uz": "Necha bekat?"
         },
         {
           "id": "TE058",
           "en": "Could you show me on the map?",
-          "ru": "Можете показать мне на карте?"
+          "ru": "Можете показать мне на карте?",
+          "uz": "Xaritada koʻrsata olasizmi?"
         },
         {
           "id": "TE059",
           "en": "I think we're going the wrong way.",
-          "ru": "Кажется, мы едем не туда."
+          "ru": "Кажется, мы едем не туда.",
+          "uz": "Menimcha, biz notoʻgʻri ketyapmiz."
         },
         {
           "id": "TE060",
           "en": "How long will it take to get there?",
-          "ru": "Сколько времени займёт дорога туда?"
+          "ru": "Сколько времени займёт дорога туда?",
+          "uz": "U yerga yetib borish qancha vaqt oladi?"
         }
       ]
     },
@@ -373,58 +440,69 @@
       "order": 7,
       "title": {
         "en": "Taxi and rides",
-        "ru": "Такси и поездки"
+        "ru": "Такси и поездки",
+        "uz": "Taksi va safarlar"
       },
       "phrases": [
         {
           "id": "TE061",
           "en": "Could you take me to this address?",
-          "ru": "Отвезите меня, пожалуйста, по этому адресу."
+          "ru": "Отвезите меня, пожалуйста, по этому адресу.",
+          "uz": "Iltimos, meni shu manzilga olib bora olasizmi?"
         },
         {
           "id": "TE062",
           "en": "How much will it cost?",
-          "ru": "Сколько это будет стоить?"
+          "ru": "Сколько это будет стоить?",
+          "uz": "Bu qancha turadi?"
         },
         {
           "id": "TE063",
           "en": "Could you use the meter, please?",
-          "ru": "Пожалуйста, включите счётчик."
+          "ru": "Пожалуйста, включите счётчик.",
+          "uz": "Iltimos, hisoblagichni yoqing."
         },
         {
           "id": "TE064",
           "en": "Please drop me off here.",
-          "ru": "Высадите меня здесь, пожалуйста."
+          "ru": "Высадите меня здесь, пожалуйста.",
+          "uz": "Iltimos, meni shu yerda tushiring."
         },
         {
           "id": "TE065",
           "en": "Can you stop near the entrance?",
-          "ru": "Можете остановиться у входа?"
+          "ru": "Можете остановиться у входа?",
+          "uz": "Kirish yonida toʻxtay olasizmi?"
         },
         {
           "id": "TE066",
           "en": "I have a booking under this name.",
-          "ru": "У меня заказ на это имя."
+          "ru": "У меня заказ на это имя.",
+          "uz": "Menda shu ismga bron bor."
         },
         {
           "id": "TE067",
           "en": "Is this the right car?",
-          "ru": "Это нужная машина?"
+          "ru": "Это нужная машина?",
+          "uz": "Bu kerakli mashinami?"
         },
         {
           "id": "TE068",
           "en": "Could you put the luggage in the trunk?",
-          "ru": "Не могли бы вы положить багаж в багажник?"
+          "ru": "Не могли бы вы положить багаж в багажник?",
+          "uz": "Yukni bagajnikka solib bera olasizmi?"
         },
         {
           "id": "TE069",
           "en": "There's a lot of traffic.",
-          "ru": "На дороге большие пробки."
+          "ru": "На дороге большие пробки.",
+          "uz": "Yoʻlda tirbandlik koʻp."
         },
         {
           "id": "TE070",
           "en": "Please let me out at the next corner.",
-          "ru": "Высадите меня на следующем углу, пожалуйста."
+          "ru": "Высадите меня на следующем углу, пожалуйста.",
+          "uz": "Iltimos, meni keyingi burchakda tushiring."
         }
       ]
     },
@@ -433,58 +511,69 @@
       "order": 8,
       "title": {
         "en": "Restaurants and cafés",
-        "ru": "Рестораны и кафе"
+        "ru": "Рестораны и кафе",
+        "uz": "Restoran va kafelar"
       },
       "phrases": [
         {
           "id": "TE071",
           "en": "A table for two, please.",
-          "ru": "Столик на двоих, пожалуйста."
+          "ru": "Столик на двоих, пожалуйста.",
+          "uz": "Iltimos, ikki kishilik stol."
         },
         {
           "id": "TE072",
           "en": "Could I see the menu?",
-          "ru": "Можно посмотреть меню?"
+          "ru": "Можно посмотреть меню?",
+          "uz": "Menyuni koʻrsam boʻladimi?"
         },
         {
           "id": "TE073",
           "en": "What do you recommend?",
-          "ru": "Что вы рекомендуете?"
+          "ru": "Что вы рекомендуете?",
+          "uz": "Nimani tavsiya qilasiz?"
         },
         {
           "id": "TE074",
           "en": "I'd like to order now.",
-          "ru": "Я хотел(а) бы сделать заказ."
+          "ru": "Я хотел(а) бы сделать заказ.",
+          "uz": "Men hozir buyurtma bermoqchiman."
         },
         {
           "id": "TE075",
           "en": "Does this contain nuts?",
-          "ru": "В этом есть орехи?"
+          "ru": "В этом есть орехи?",
+          "uz": "Buning tarkibida yongʻoq bormi?"
         },
         {
           "id": "TE076",
           "en": "I'm allergic to ...",
-          "ru": "У меня аллергия на ..."
+          "ru": "У меня аллергия на ...",
+          "uz": "Menda ... ga allergiya bor."
         },
         {
           "id": "TE077",
           "en": "Could we have some tap water?",
-          "ru": "Можно нам обычной воды из-под крана?"
+          "ru": "Можно нам обычной воды из-под крана?",
+          "uz": "Bizga oddiy suv bera olasizmi?"
         },
         {
           "id": "TE078",
           "en": "Could I have this without onions?",
-          "ru": "Можно это без лука?"
+          "ru": "Можно это без лука?",
+          "uz": "Buni piyozsiz olsam boʻladimi?"
         },
         {
           "id": "TE079",
           "en": "Can we have the bill, please?",
-          "ru": "Можно счёт, пожалуйста?"
+          "ru": "Можно счёт, пожалуйста?",
+          "uz": "Iltimos, hisobni olsak boʻladimi?"
         },
         {
           "id": "TE080",
           "en": "Can I pay by card?",
-          "ru": "Можно оплатить картой?"
+          "ru": "Можно оплатить картой?",
+          "uz": "Karta bilan toʻlasam boʻladimi?"
         }
       ]
     },
@@ -493,58 +582,69 @@
       "order": 9,
       "title": {
         "en": "Shopping",
-        "ru": "Покупки"
+        "ru": "Покупки",
+        "uz": "Xaridlar"
       },
       "phrases": [
         {
           "id": "TE081",
           "en": "How much is this?",
-          "ru": "Сколько это стоит?"
+          "ru": "Сколько это стоит?",
+          "uz": "Bu qancha turadi?"
         },
         {
           "id": "TE082",
           "en": "Do you have this in another size?",
-          "ru": "Есть это в другом размере?"
+          "ru": "Есть это в другом размере?",
+          "uz": "Buning boshqa oʻlchami bormi?"
         },
         {
           "id": "TE083",
           "en": "Can I try it on?",
-          "ru": "Можно примерить?"
+          "ru": "Можно примерить?",
+          "uz": "Kiyib koʻrsam boʻladimi?"
         },
         {
           "id": "TE084",
           "en": "Where are the fitting rooms?",
-          "ru": "Где примерочные?"
+          "ru": "Где примерочные?",
+          "uz": "Kiyinish xonalari qayerda?"
         },
         {
           "id": "TE085",
           "en": "Is there a discount?",
-          "ru": "Есть скидка?"
+          "ru": "Есть скидка?",
+          "uz": "Chegirma bormi?"
         },
         {
           "id": "TE086",
           "en": "I'm just looking, thank you.",
-          "ru": "Я просто смотрю, спасибо."
+          "ru": "Я просто смотрю, спасибо.",
+          "uz": "Shunchaki koʻryapman, rahmat."
         },
         {
           "id": "TE087",
           "en": "I'll take it.",
-          "ru": "Я это возьму."
+          "ru": "Я это возьму.",
+          "uz": "Men buni olaman."
         },
         {
           "id": "TE088",
           "en": "Could I get a receipt?",
-          "ru": "Можно чек?"
+          "ru": "Можно чек?",
+          "uz": "Chek olsam boʻladimi?"
         },
         {
           "id": "TE089",
           "en": "Can I return this if it doesn't fit?",
-          "ru": "Можно вернуть это, если не подойдёт?"
+          "ru": "Можно вернуть это, если не подойдёт?",
+          "uz": "Agar toʻgʻri kelmasa, buni qaytarsam boʻladimi?"
         },
         {
           "id": "TE090",
           "en": "Do you accept cash?",
-          "ru": "Вы принимаете наличные?"
+          "ru": "Вы принимаете наличные?",
+          "uz": "Naqd pul qabul qilasizmi?"
         }
       ]
     },
@@ -553,58 +653,69 @@
       "order": 10,
       "title": {
         "en": "Asking for directions",
-        "ru": "Как спросить дорогу"
+        "ru": "Как спросить дорогу",
+        "uz": "Yoʻlni qanday soʻrash"
       },
       "phrases": [
         {
           "id": "TE091",
           "en": "Excuse me, could you help me?",
-          "ru": "Извините, не могли бы вы мне помочь?"
+          "ru": "Извините, не могли бы вы мне помочь?",
+          "uz": "Kechirasiz, menga yordam bera olasizmi?"
         },
         {
           "id": "TE092",
           "en": "How can I get to the museum?",
-          "ru": "Как мне добраться до музея?"
+          "ru": "Как мне добраться до музея?",
+          "uz": "Muzeyga qanday boraman?"
         },
         {
           "id": "TE093",
           "en": "Is it far from here?",
-          "ru": "Это далеко отсюда?"
+          "ru": "Это далеко отсюда?",
+          "uz": "Bu yerdan uzoqmi?"
         },
         {
           "id": "TE094",
           "en": "Turn left at the traffic lights.",
-          "ru": "Поверните налево на светофоре."
+          "ru": "Поверните налево на светофоре.",
+          "uz": "Svetoforda chapga buriling."
         },
         {
           "id": "TE095",
           "en": "Go straight ahead.",
-          "ru": "Идите прямо."
+          "ru": "Идите прямо.",
+          "uz": "Toʻgʻriga yuring."
         },
         {
           "id": "TE096",
           "en": "It's next to the bank.",
-          "ru": "Это рядом с банком."
+          "ru": "Это рядом с банком.",
+          "uz": "Bu bankning yonida."
         },
         {
           "id": "TE097",
           "en": "It's opposite the station.",
-          "ru": "Это напротив станции."
+          "ru": "Это напротив станции.",
+          "uz": "Bu bekatning roʻparasida."
         },
         {
           "id": "TE098",
           "en": "You can't miss it.",
-          "ru": "Вы не сможете это пропустить."
+          "ru": "Вы не сможете это пропустить.",
+          "uz": "Uni adashib oʻtib ketmaysiz."
         },
         {
           "id": "TE099",
           "en": "Could you point it out on the map?",
-          "ru": "Можете показать это на карте?"
+          "ru": "Можете показать это на карте?",
+          "uz": "Buni xaritada koʻrsata olasizmi?"
         },
         {
           "id": "TE100",
           "en": "I think I've taken a wrong turn.",
-          "ru": "Кажется, я не туда повернул(а)."
+          "ru": "Кажется, я не туда повернул(а).",
+          "uz": "Menimcha, men notoʻgʻri burildim."
         }
       ]
     },
@@ -613,58 +724,69 @@
       "order": 11,
       "title": {
         "en": "Sightseeing",
-        "ru": "Достопримечательности"
+        "ru": "Достопримечательности",
+        "uz": "Diqqatga sazovor joylar"
       },
       "phrases": [
         {
           "id": "TE101",
           "en": "What are the must-see places here?",
-          "ru": "Какие места здесь обязательно нужно увидеть?"
+          "ru": "Какие места здесь обязательно нужно увидеть?",
+          "uz": "Bu yerda albatta koʻrish kerak boʻlgan joylar qaysi?"
         },
         {
           "id": "TE102",
           "en": "Is there an entrance fee?",
-          "ru": "Есть плата за вход?"
+          "ru": "Есть плата за вход?",
+          "uz": "Kirish haqi bormi?"
         },
         {
           "id": "TE103",
           "en": "What time does it open?",
-          "ru": "Во сколько это открывается?"
+          "ru": "Во сколько это открывается?",
+          "uz": "U necha soatda ochiladi?"
         },
         {
           "id": "TE104",
           "en": "Can I take photos here?",
-          "ru": "Можно здесь фотографировать?"
+          "ru": "Можно здесь фотографировать?",
+          "uz": "Bu yerda surat olsam boʻladimi?"
         },
         {
           "id": "TE105",
           "en": "Is there a guided tour?",
-          "ru": "Есть экскурсия с гидом?"
+          "ru": "Есть экскурсия с гидом?",
+          "uz": "Gid bilan ekskursiya bormi?"
         },
         {
           "id": "TE106",
           "en": "How long does the tour last?",
-          "ru": "Сколько длится экскурсия?"
+          "ru": "Сколько длится экскурсия?",
+          "uz": "Ekskursiya qancha davom etadi?"
         },
         {
           "id": "TE107",
           "en": "Could you take a photo of us?",
-          "ru": "Не могли бы вы сфотографировать нас?"
+          "ru": "Не могли бы вы сфотографировать нас?",
+          "uz": "Bizni suratga olib bera olasizmi?"
         },
         {
           "id": "TE108",
           "en": "What's the history behind this place?",
-          "ru": "Какова история этого места?"
+          "ru": "Какова история этого места?",
+          "uz": "Bu joyning tarixi qanday?"
         },
         {
           "id": "TE109",
           "en": "Where can I get tickets?",
-          "ru": "Где можно купить билеты?"
+          "ru": "Где можно купить билеты?",
+          "uz": "Chiptalarni qayerdan olsam boʻladi?"
         },
         {
           "id": "TE110",
           "en": "Is it worth visiting?",
-          "ru": "Стоит ли это посетить?"
+          "ru": "Стоит ли это посетить?",
+          "uz": "Buni koʻrishga arziydimi?"
         }
       ]
     },
@@ -673,58 +795,69 @@
       "order": 12,
       "title": {
         "en": "Booking tickets",
-        "ru": "Бронирование билетов"
+        "ru": "Бронирование билетов",
+        "uz": "Chipta band qilish"
       },
       "phrases": [
         {
           "id": "TE111",
           "en": "I'd like to book two tickets.",
-          "ru": "Я хотел(а) бы забронировать два билета."
+          "ru": "Я хотел(а) бы забронировать два билета.",
+          "uz": "Men ikkita chipta band qilmoqchiman."
         },
         {
           "id": "TE112",
           "en": "Are there any seats available?",
-          "ru": "Есть свободные места?"
+          "ru": "Есть свободные места?",
+          "uz": "Boʻsh joylar bormi?"
         },
         {
           "id": "TE113",
           "en": "Is it a one-way or return ticket?",
-          "ru": "Это билет в одну сторону или туда-обратно?"
+          "ru": "Это билет в одну сторону или туда-обратно?",
+          "uz": "Bu bir tomonlama chiptami yoki borish-qaytishmi?"
         },
         {
           "id": "TE114",
           "en": "Can I change the date?",
-          "ru": "Можно изменить дату?"
+          "ru": "Можно изменить дату?",
+          "uz": "Sanani oʻzgartirsam boʻladimi?"
         },
         {
           "id": "TE115",
           "en": "Is the ticket refundable?",
-          "ru": "Билет можно вернуть?"
+          "ru": "Билет можно вернуть?",
+          "uz": "Chiptani qaytarib boʻladimi?"
         },
         {
           "id": "TE116",
           "en": "What time does it depart?",
-          "ru": "Во сколько отправление?"
+          "ru": "Во сколько отправление?",
+          "uz": "U necha soatda joʻnaydi?"
         },
         {
           "id": "TE117",
           "en": "Which platform does it leave from?",
-          "ru": "С какой платформы он отправляется?"
+          "ru": "С какой платформы он отправляется?",
+          "uz": "U qaysi perrondan joʻnaydi?"
         },
         {
           "id": "TE118",
           "en": "Can I book online?",
-          "ru": "Можно забронировать онлайн?"
+          "ru": "Можно забронировать онлайн?",
+          "uz": "Onlayn band qilsam boʻladimi?"
         },
         {
           "id": "TE119",
           "en": "Could you print my ticket?",
-          "ru": "Не могли бы вы распечатать мой билет?"
+          "ru": "Не могли бы вы распечатать мой билет?",
+          "uz": "Chiptamni chop etib bera olasizmi?"
         },
         {
           "id": "TE120",
           "en": "Is there a student discount?",
-          "ru": "Есть скидка для студентов?"
+          "ru": "Есть скидка для студентов?",
+          "uz": "Talabalar uchun chegirma bormi?"
         }
       ]
     },
@@ -733,58 +866,69 @@
       "order": 13,
       "title": {
         "en": "Money and payments",
-        "ru": "Деньги и оплата"
+        "ru": "Деньги и оплата",
+        "uz": "Pul va toʻlov"
       },
       "phrases": [
         {
           "id": "TE121",
           "en": "Where can I exchange money?",
-          "ru": "Где можно обменять деньги?"
+          "ru": "Где можно обменять деньги?",
+          "uz": "Pulni qayerda almashtirsam boʻladi?"
         },
         {
           "id": "TE122",
           "en": "What's the exchange rate?",
-          "ru": "Какой обменный курс?"
+          "ru": "Какой обменный курс?",
+          "uz": "Valyuta kursi qanday?"
         },
         {
           "id": "TE123",
           "en": "Are there any fees?",
-          "ru": "Есть какие-нибудь комиссии?"
+          "ru": "Есть какие-нибудь комиссии?",
+          "uz": "Biror komissiya bormi?"
         },
         {
           "id": "TE124",
           "en": "Can I pay in cash?",
-          "ru": "Можно оплатить наличными?"
+          "ru": "Можно оплатить наличными?",
+          "uz": "Naqd pulda toʻlasam boʻladimi?"
         },
         {
           "id": "TE125",
           "en": "My card was declined.",
-          "ru": "Мою карту отклонили."
+          "ru": "Мою карту отклонили.",
+          "uz": "Mening kartam rad etildi."
         },
         {
           "id": "TE126",
           "en": "Where is the nearest ATM?",
-          "ru": "Где ближайший банкомат?"
+          "ru": "Где ближайший банкомат?",
+          "uz": "Eng yaqin bankomat qayerda?"
         },
         {
           "id": "TE127",
           "en": "Could I have a smaller bill?",
-          "ru": "Можно купюру поменьше?"
+          "ru": "Можно купюру поменьше?",
+          "uz": "Maydaroq pul bersangiz boʻladimi?"
         },
         {
           "id": "TE128",
           "en": "Do you accept foreign currency?",
-          "ru": "Вы принимаете иностранную валюту?"
+          "ru": "Вы принимаете иностранную валюту?",
+          "uz": "Chet el valyutasini qabul qilasizmi?"
         },
         {
           "id": "TE129",
           "en": "I think I've been charged twice.",
-          "ru": "Кажется, с меня списали деньги дважды."
+          "ru": "Кажется, с меня списали деньги дважды.",
+          "uz": "Mendan ikki marta pul yechilgan shekilli."
         },
         {
           "id": "TE130",
           "en": "Could you check the total?",
-          "ru": "Не могли бы вы проверить итоговую сумму?"
+          "ru": "Не могли бы вы проверить итоговую сумму?",
+          "uz": "Umumiy summani tekshira olasizmi?"
         }
       ]
     },
@@ -793,58 +937,69 @@
       "order": 14,
       "title": {
         "en": "Internet and phone",
-        "ru": "Интернет и телефон"
+        "ru": "Интернет и телефон",
+        "uz": "Internet va telefon"
       },
       "phrases": [
         {
           "id": "TE131",
           "en": "Is there free Wi-Fi here?",
-          "ru": "Здесь есть бесплатный Wi-Fi?"
+          "ru": "Здесь есть бесплатный Wi-Fi?",
+          "uz": "Bu yerda bepul Wi-Fi bormi?"
         },
         {
           "id": "TE132",
           "en": "What's the Wi-Fi password?",
-          "ru": "Какой пароль от Wi-Fi?"
+          "ru": "Какой пароль от Wi-Fi?",
+          "uz": "Wi-Fi paroli qanday?"
         },
         {
           "id": "TE133",
           "en": "I need to buy a local SIM card.",
-          "ru": "Мне нужно купить местную SIM-карту."
+          "ru": "Мне нужно купить местную SIM-карту.",
+          "uz": "Menga mahalliy SIM-karta sotib olish kerak."
         },
         {
           "id": "TE134",
           "en": "Does my phone work here?",
-          "ru": "Мой телефон здесь работает?"
+          "ru": "Мой телефон здесь работает?",
+          "uz": "Telefonim bu yerda ishlaydimi?"
         },
         {
           "id": "TE135",
           "en": "Where can I charge my phone?",
-          "ru": "Где можно зарядить телефон?"
+          "ru": "Где можно зарядить телефон?",
+          "uz": "Telefonimni qayerda quvvatlasam boʻladi?"
         },
         {
           "id": "TE136",
           "en": "My battery is almost dead.",
-          "ru": "У меня почти разрядился телефон."
+          "ru": "У меня почти разрядился телефон.",
+          "uz": "Batareyam deyarli tugadi."
         },
         {
           "id": "TE137",
           "en": "I can't get a signal.",
-          "ru": "У меня нет сигнала."
+          "ru": "У меня нет сигнала.",
+          "uz": "Menda signal yoʻq."
         },
         {
           "id": "TE138",
           "en": "Could you send me the location?",
-          "ru": "Можете отправить мне геолокацию?"
+          "ru": "Можете отправить мне геолокацию?",
+          "uz": "Menga joylashuvni yuborib bera olasizmi?"
         },
         {
           "id": "TE139",
           "en": "I'll message you when I arrive.",
-          "ru": "Я напишу тебе, когда приеду."
+          "ru": "Я напишу тебе, когда приеду.",
+          "uz": "Yetib borganimda sizga yozaman."
         },
         {
           "id": "TE140",
           "en": "Is there a place to charge my laptop?",
-          "ru": "Есть где зарядить ноутбук?"
+          "ru": "Есть где зарядить ноутбук?",
+          "uz": "Noutbukni quvvatlaydigan joy bormi?"
         }
       ]
     },
@@ -853,58 +1008,69 @@
       "order": 15,
       "title": {
         "en": "Emergencies and health",
-        "ru": "Чрезвычайные ситуации и здоровье"
+        "ru": "Чрезвычайные ситуации и здоровье",
+        "uz": "Favqulodda vaziyatlar va salomatlik"
       },
       "phrases": [
         {
           "id": "TE141",
           "en": "I need help.",
-          "ru": "Мне нужна помощь."
+          "ru": "Мне нужна помощь.",
+          "uz": "Menga yordam kerak."
         },
         {
           "id": "TE142",
           "en": "Please call an ambulance.",
-          "ru": "Пожалуйста, вызовите скорую помощь."
+          "ru": "Пожалуйста, вызовите скорую помощь.",
+          "uz": "Iltimos, tez yordam chaqiring."
         },
         {
           "id": "TE143",
           "en": "Where is the nearest hospital?",
-          "ru": "Где ближайшая больница?"
+          "ru": "Где ближайшая больница?",
+          "uz": "Eng yaqin shifoxona qayerda?"
         },
         {
           "id": "TE144",
           "en": "I need to see a doctor.",
-          "ru": "Мне нужно обратиться к врачу."
+          "ru": "Мне нужно обратиться к врачу.",
+          "uz": "Menga shifokorga koʻrinish kerak."
         },
         {
           "id": "TE145",
           "en": "I've lost my passport.",
-          "ru": "Я потерял(а) паспорт."
+          "ru": "Я потерял(а) паспорт.",
+          "uz": "Men pasportimni yoʻqotib qoʻydim."
         },
         {
           "id": "TE146",
           "en": "My bag has been stolen.",
-          "ru": "У меня украли сумку."
+          "ru": "У меня украли сумку.",
+          "uz": "Mening sumkam oʻgʻirlandi."
         },
         {
           "id": "TE147",
           "en": "Could you call the police?",
-          "ru": "Не могли бы вы вызвать полицию?"
+          "ru": "Не могли бы вы вызвать полицию?",
+          "uz": "Politsiyani chaqira olasizmi?"
         },
         {
           "id": "TE148",
           "en": "Is there a pharmacy nearby?",
-          "ru": "Рядом есть аптека?"
+          "ru": "Рядом есть аптека?",
+          "uz": "Yaqin atrofda dorixona bormi?"
         },
         {
           "id": "TE149",
           "en": "I don't feel well.",
-          "ru": "Я плохо себя чувствую."
+          "ru": "Я плохо себя чувствую.",
+          "uz": "Oʻzimni yaxshi his qilmayapman."
         },
         {
           "id": "TE150",
           "en": "Can you help me contact my embassy?",
-          "ru": "Поможете связаться с моим посольством?"
+          "ru": "Поможете связаться с моим посольством?",
+          "uz": "Elchixonam bilan bogʻlanishga yordam bera olasizmi?"
         }
       ]
     },
@@ -913,58 +1079,69 @@
       "order": 16,
       "title": {
         "en": "Weather and clothing",
-        "ru": "Погода и одежда"
+        "ru": "Погода и одежда",
+        "uz": "Ob-havo va kiyim"
       },
       "phrases": [
         {
           "id": "TE151",
           "en": "What's the weather like today?",
-          "ru": "Какая сегодня погода?"
+          "ru": "Какая сегодня погода?",
+          "uz": "Bugun ob-havo qanday?"
         },
         {
           "id": "TE152",
           "en": "It looks like rain.",
-          "ru": "Похоже, будет дождь."
+          "ru": "Похоже, будет дождь.",
+          "uz": "Yomgʻir yogʻadiganga oʻxshaydi."
         },
         {
           "id": "TE153",
           "en": "It's much colder than I expected.",
-          "ru": "Здесь намного холоднее, чем я ожидал(а)."
+          "ru": "Здесь намного холоднее, чем я ожидал(а).",
+          "uz": "Bu yer men kutganimdan ancha sovuq."
         },
         {
           "id": "TE154",
           "en": "Do I need a jacket?",
-          "ru": "Мне нужна куртка?"
+          "ru": "Мне нужна куртка?",
+          "uz": "Menga kurtka kerakmi?"
         },
         {
           "id": "TE155",
           "en": "It's really hot today.",
-          "ru": "Сегодня очень жарко."
+          "ru": "Сегодня очень жарко.",
+          "uz": "Bugun juda issiq."
         },
         {
           "id": "TE156",
           "en": "Is it usually windy here?",
-          "ru": "Здесь обычно ветрено?"
+          "ru": "Здесь обычно ветрено?",
+          "uz": "Bu yerda odatda shamol boʻladimi?"
         },
         {
           "id": "TE157",
           "en": "I didn't bring an umbrella.",
-          "ru": "Я не взял(а) зонт."
+          "ru": "Я не взял(а) зонт.",
+          "uz": "Men soyabon olmabman."
         },
         {
           "id": "TE158",
           "en": "Where can I buy a warm sweater?",
-          "ru": "Где можно купить тёплый свитер?"
+          "ru": "Где можно купить тёплый свитер?",
+          "uz": "Issiq svitarni qayerdan sotib olsam boʻladi?"
         },
         {
           "id": "TE159",
           "en": "The weather is perfect for walking.",
-          "ru": "Погода идеальна для прогулки."
+          "ru": "Погода идеальна для прогулки.",
+          "uz": "Sayr qilish uchun ob-havo ideal."
         },
         {
           "id": "TE160",
           "en": "Is the forecast reliable?",
-          "ru": "Прогноз погоды точный?"
+          "ru": "Прогноз погоды точный?",
+          "uz": "Ob-havo bashorati ishonchlimi?"
         }
       ]
     },
@@ -973,58 +1150,69 @@
       "order": 17,
       "title": {
         "en": "Meeting people",
-        "ru": "Знакомство в поездке"
+        "ru": "Знакомство в поездке",
+        "uz": "Sayohatda tanishish"
       },
       "phrases": [
         {
           "id": "TE161",
           "en": "Is this your first time here?",
-          "ru": "Вы здесь впервые?"
+          "ru": "Вы здесь впервые?",
+          "uz": "Bu yerga birinchi marta kelyapsizmi?"
         },
         {
           "id": "TE162",
           "en": "Where are you travelling from?",
-          "ru": "Откуда вы приехали?"
+          "ru": "Откуда вы приехали?",
+          "uz": "Qayerdan kelyapsiz?"
         },
         {
           "id": "TE163",
           "en": "Are you travelling alone?",
-          "ru": "Вы путешествуете один / одна?"
+          "ru": "Вы путешествуете один / одна?",
+          "uz": "Yolgʻiz sayohat qilyapsizmi?"
         },
         {
           "id": "TE164",
           "en": "How long are you staying?",
-          "ru": "Как долго вы здесь останетесь?"
+          "ru": "Как долго вы здесь останетесь?",
+          "uz": "Qancha vaqt qolasiz?"
         },
         {
           "id": "TE165",
           "en": "Have you visited this place before?",
-          "ru": "Вы уже посещали это место?"
+          "ru": "Вы уже посещали это место?",
+          "uz": "Bu joyga avval kelganmidingiz?"
         },
         {
           "id": "TE166",
           "en": "Do you know any good local restaurants?",
-          "ru": "Вы знаете хорошие местные рестораны?"
+          "ru": "Вы знаете хорошие местные рестораны?",
+          "uz": "Yaxshi mahalliy restoranlarni bilasizmi?"
         },
         {
           "id": "TE167",
           "en": "Would you mind taking a photo?",
-          "ru": "Не могли бы вы сделать фото?"
+          "ru": "Не могли бы вы сделать фото?",
+          "uz": "Surat olib bera olasizmi?"
         },
         {
           "id": "TE168",
           "en": "It's been nice talking to you.",
-          "ru": "Было приятно с вами поговорить."
+          "ru": "Было приятно с вами поговорить.",
+          "uz": "Siz bilan suhbatlashganim yoqdi."
         },
         {
           "id": "TE169",
           "en": "Enjoy the rest of your trip.",
-          "ru": "Приятного продолжения поездки."
+          "ru": "Приятного продолжения поездки.",
+          "uz": "Sayohatingizning qolgan qismi yaxshi oʻtsin."
         },
         {
           "id": "TE170",
           "en": "Have a safe journey.",
-          "ru": "Счастливого пути."
+          "ru": "Счастливого пути.",
+          "uz": "Yoʻlingiz bexatar boʻlsin."
         }
       ]
     },
@@ -1033,58 +1221,69 @@
       "order": 18,
       "title": {
         "en": "Problems with bookings",
-        "ru": "Проблемы с бронированием"
+        "ru": "Проблемы с бронированием",
+        "uz": "Bron bilan bogʻliq muammolar"
       },
       "phrases": [
         {
           "id": "TE171",
           "en": "I can't find my reservation.",
-          "ru": "Я не могу найти своё бронирование."
+          "ru": "Я не могу найти своё бронирование.",
+          "uz": "Men bronimni topa olmayapman."
         },
         {
           "id": "TE172",
           "en": "The booking is under my name.",
-          "ru": "Бронирование оформлено на моё имя."
+          "ru": "Бронирование оформлено на моё имя.",
+          "uz": "Bron mening ismimga rasmiylashtirilgan."
         },
         {
           "id": "TE173",
           "en": "I booked the wrong date.",
-          "ru": "Я забронировал(а) неправильную дату."
+          "ru": "Я забронировал(а) неправильную дату.",
+          "uz": "Men notoʻgʻri sanani band qilibman."
         },
         {
           "id": "TE174",
           "en": "Could you change my room?",
-          "ru": "Не могли бы вы поменять мой номер?"
+          "ru": "Не могли бы вы поменять мой номер?",
+          "uz": "Xonamni almashtira olasizmi?"
         },
         {
           "id": "TE175",
           "en": "I was charged more than expected.",
-          "ru": "С меня взяли больше, чем я ожидал(а)."
+          "ru": "С меня взяли больше, чем я ожидал(а).",
+          "uz": "Mendan kutganimdan koʻproq pul olindi."
         },
         {
           "id": "TE176",
           "en": "My reservation has been cancelled.",
-          "ru": "Моё бронирование отменили."
+          "ru": "Моё бронирование отменили.",
+          "uz": "Mening bronim bekor qilinibdi."
         },
         {
           "id": "TE177",
           "en": "Could you check the booking details?",
-          "ru": "Не могли бы вы проверить детали бронирования?"
+          "ru": "Не могли бы вы проверить детали бронирования?",
+          "uz": "Bron tafsilotlarini tekshira olasizmi?"
         },
         {
           "id": "TE178",
           "en": "I didn't receive a confirmation email.",
-          "ru": "Я не получил(а) письмо с подтверждением."
+          "ru": "Я не получил(а) письмо с подтверждением.",
+          "uz": "Men tasdiqlovchi xat olmadim."
         },
         {
           "id": "TE179",
           "en": "What are my options?",
-          "ru": "Какие у меня есть варианты?"
+          "ru": "Какие у меня есть варианты?",
+          "uz": "Mening qanday imkoniyatlarim bor?"
         },
         {
           "id": "TE180",
           "en": "Could you help me sort this out?",
-          "ru": "Не могли бы вы помочь мне с этим разобраться?"
+          "ru": "Не могли бы вы помочь мне с этим разобраться?",
+          "uz": "Buni hal qilishga yordam bera olasizmi?"
         }
       ]
     },
@@ -1093,58 +1292,69 @@
       "order": 19,
       "title": {
         "en": "Nature and outdoor activities",
-        "ru": "Природа и активный отдых"
+        "ru": "Природа и активный отдых",
+        "uz": "Tabiat va faol dam olish"
       },
       "phrases": [
         {
           "id": "TE181",
           "en": "Is there a hiking trail nearby?",
-          "ru": "Рядом есть туристическая тропа?"
+          "ru": "Рядом есть туристическая тропа?",
+          "uz": "Yaqin atrofda piyoda yurish soʻqmogʻi bormi?"
         },
         {
           "id": "TE182",
           "en": "How difficult is the route?",
-          "ru": "Насколько сложный маршрут?"
+          "ru": "Насколько сложный маршрут?",
+          "uz": "Yoʻnalish qanchalik qiyin?"
         },
         {
           "id": "TE183",
           "en": "How long does the hike take?",
-          "ru": "Сколько времени занимает поход?"
+          "ru": "Сколько времени занимает поход?",
+          "uz": "Yurish qancha vaqt oladi?"
         },
         {
           "id": "TE184",
           "en": "Do I need special equipment?",
-          "ru": "Мне нужно специальное снаряжение?"
+          "ru": "Мне нужно специальное снаряжение?",
+          "uz": "Menga maxsus jihoz kerakmi?"
         },
         {
           "id": "TE185",
           "en": "Is it safe to swim here?",
-          "ru": "Здесь безопасно плавать?"
+          "ru": "Здесь безопасно плавать?",
+          "uz": "Bu yerda suzish xavfsizmi?"
         },
         {
           "id": "TE186",
           "en": "Where can we rent bicycles?",
-          "ru": "Где можно взять велосипеды напрокат?"
+          "ru": "Где можно взять велосипеды напрокат?",
+          "uz": "Velosipedlarni qayerdan ijaraga olsak boʻladi?"
         },
         {
           "id": "TE187",
           "en": "Let's take a break here.",
-          "ru": "Давайте здесь передохнём."
+          "ru": "Давайте здесь передохнём.",
+          "uz": "Keling, shu yerda dam olaylik."
         },
         {
           "id": "TE188",
           "en": "Don't forget to bring water.",
-          "ru": "Не забудь взять воду."
+          "ru": "Не забудь взять воду.",
+          "uz": "Suv olishni unutmang."
         },
         {
           "id": "TE189",
           "en": "What's the best viewpoint?",
-          "ru": "Где лучшая смотровая площадка?"
+          "ru": "Где лучшая смотровая площадка?",
+          "uz": "Eng yaxshi manzara qayerdan koʻrinadi?"
         },
         {
           "id": "TE190",
           "en": "We should head back before dark.",
-          "ru": "Нам стоит вернуться до темноты."
+          "ru": "Нам стоит вернуться до темноты.",
+          "uz": "Qorongʻi tushmasdan qaytishimiz kerak."
         }
       ]
     },
@@ -1153,58 +1363,69 @@
       "order": 20,
       "title": {
         "en": "Leaving and returning",
-        "ru": "Отъезд и возвращение"
+        "ru": "Отъезд и возвращение",
+        "uz": "Joʻnash va qaytish"
       },
       "phrases": [
         {
           "id": "TE191",
           "en": "What time should we leave?",
-          "ru": "Во сколько нам следует выехать?"
+          "ru": "Во сколько нам следует выехать?",
+          "uz": "Soat nechada chiqishimiz kerak?"
         },
         {
           "id": "TE192",
           "en": "I need to pack my bags.",
-          "ru": "Мне нужно собрать вещи."
+          "ru": "Мне нужно собрать вещи.",
+          "uz": "Menga yuklarimni yigʻish kerak."
         },
         {
           "id": "TE193",
           "en": "Could I leave my luggage here?",
-          "ru": "Можно оставить здесь багаж?"
+          "ru": "Можно оставить здесь багаж?",
+          "uz": "Yukimni shu yerda qoldirsam boʻladimi?"
         },
         {
           "id": "TE194",
           "en": "Where is the departure entrance?",
-          "ru": "Где вход на отправление?"
+          "ru": "Где вход на отправление?",
+          "uz": "Joʻnash kirish joyi qayerda?"
         },
         {
           "id": "TE195",
           "en": "I need to get to the station.",
-          "ru": "Мне нужно добраться до станции."
+          "ru": "Мне нужно добраться до станции.",
+          "uz": "Menga bekatga yetib borish kerak."
         },
         {
           "id": "TE196",
           "en": "Is there a shuttle to the airport?",
-          "ru": "Есть шаттл до аэропорта?"
+          "ru": "Есть шаттл до аэропорта?",
+          "uz": "Aeroportga shattl bormi?"
         },
         {
           "id": "TE197",
           "en": "I had a wonderful time.",
-          "ru": "Я прекрасно провёл / провела время."
+          "ru": "Я прекрасно провёл / провела время.",
+          "uz": "Men ajoyib vaqt oʻtkazdim."
         },
         {
           "id": "TE198",
           "en": "I'll definitely come back.",
-          "ru": "Я обязательно вернусь."
+          "ru": "Я обязательно вернусь.",
+          "uz": "Men albatta yana kelaman."
         },
         {
           "id": "TE199",
           "en": "Thanks for making this trip special.",
-          "ru": "Спасибо, что сделали эту поездку особенной."
+          "ru": "Спасибо, что сделали эту поездку особенной.",
+          "uz": "Bu sayohatni alohida qilganingiz uchun rahmat."
         },
         {
           "id": "TE200",
           "en": "I'm ready to head home.",
-          "ru": "Я готов(а) отправляться домой."
+          "ru": "Я готов(а) отправляться домой.",
+          "uz": "Men uyga qaytishga tayyorman."
         }
       ]
     }

@@ -100,11 +100,13 @@
       "kind": "phrases",
       "title": {
         "en": "Travel English",
-        "ru": "Английский для путешествий"
+        "ru": "Английский для путешествий",
+        "uz": "Sayohat ingliz tili"
       },
       "file": "chapters/travel-english.json",
       "lessonCount": 20,
-      "phraseCount": 200
+      "phraseCount": 200,
+      "translatedUz": true
     },
     {
       "id": "work-english",

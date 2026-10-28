@@ -1,0 +1,200 @@
+phrase|I'm planning a trip.||Я планирую поездку.|Men sayohat rejalashtiryapman.
+phrase|Where would you recommend going?||Куда вы посоветовали бы поехать?|Qayerga borishni tavsiya qilasiz?
+phrase|What's the best time to visit?||Когда лучше всего приезжать?|Qachon borish eng maʼqul?
+phrase|How many days should I stay?||Сколько дней мне стоит остаться?|Necha kun qolishim kerak?
+phrase|I'd like to travel on a budget.||Я хотел(а) бы путешествовать экономно.|Men tejamkor sayohat qilmoqchiman.
+phrase|Is it easy to get around?||Там легко передвигаться?|U yerda yurish osonmi?
+phrase|What should I pack?||Что мне взять с собой?|Oʻzim bilan nima olishim kerak?
+phrase|Do I need a visa?||Мне нужна виза?|Menga viza kerakmi?
+phrase|I'd like to book in advance.||Я хотел(а) бы забронировать заранее.|Oldindan band qilmoqchiman.
+phrase|Could you recommend some places to visit?||Можете порекомендовать места для посещения?|Borishga arziydigan joylarni tavsiya qila olasizmi?
+phrase|Where is the check-in desk?||Где стойка регистрации?|Roʻyxatdan oʻtish joyi qayerda?
+phrase|I'd like to check in for my flight.||Я хотел(а) бы зарегистрироваться на рейс.|Reysimga roʻyxatdan oʻtmoqchiman.
+phrase|Can I see your passport, please?||Можно ваш паспорт, пожалуйста?|Iltimos, pasportingizni koʻrsam boʻladimi?
+phrase|Where is the security check?||Где пункт досмотра?|Xavfsizlik nazorati qayerda?
+phrase|Has the gate changed?||Выход на посадку изменился?|Chiqish darvozasi oʻzgardimi?
+phrase|What time does boarding start?||Во сколько начинается посадка?|Samolyotga chiqish necha soatda boshlanadi?
+phrase|My flight has been delayed.||Мой рейс задержали.|Reysim kechiktirildi.
+phrase|Where can I collect my luggage?||Где я могу получить багаж?|Yukimni qayerdan olsam boʻladi?
+phrase|My bag hasn't arrived.||Моя сумка не прибыла.|Sumkam yetib kelmadi.
+phrase|Is this the queue for passport control?||Это очередь на паспортный контроль?|Bu pasport nazorati navbatimi?
+phrase|Could I have a window seat?||Можно мне место у окна?|Deraza yonidagi joyni olsam boʻladimi?
+phrase|Where is my seat?||Где моё место?|Mening joyim qayerda?
+phrase|Could you help me with my bag?||Не могли бы вы помочь с моей сумкой?|Sumkamni koʻtarishga yordam bera olasizmi?
+phrase|Could I have some water, please?||Можно мне воды, пожалуйста?|Iltimos, menga suv bersangiz?
+phrase|Is this seat taken?||Это место занято?|Bu joy bandmi?
+phrase|How long is the flight?||Сколько длится полёт?|Parvoz qancha davom etadi?
+phrase|When will we land?||Когда мы приземлимся?|Qachon qoʻnamiz?
+phrase|Could I have a blanket?||Можно мне одеяло?|Menga adyol bersangiz boʻladimi?
+phrase|Where is the restroom?||Где туалет?|Hojatxona qayerda?
+phrase|Please let me know when we arrive.||Пожалуйста, сообщите мне, когда мы прибудем.|Iltimos, yetib borganimizda menga ayting.
+phrase|What is the purpose of your visit?||Какова цель вашего визита?|Tashrifingiz maqsadi nima?
+phrase|I'm here on holiday.||Я приехал(а) в отпуск.|Men taʼtilga keldim.
+phrase|I'm staying for a week.||Я остаюсь на неделю.|Men bir haftaga qolaman.
+phrase|Where will you be staying?||Где вы будете проживать?|Qayerda turasiz?
+phrase|Here's my hotel reservation.||Вот бронь моего отеля.|Mana mehmonxona bronim.
+phrase|I have a return ticket.||У меня есть билет обратно.|Menda qaytish chiptasi bor.
+phrase|Do I need to declare anything?||Мне нужно что-нибудь декларировать?|Biror narsani deklaratsiya qilishim kerakmi?
+phrase|I'm travelling with my family.||Я путешествую с семьёй.|Men oilam bilan sayohat qilyapman.
+phrase|This is my first visit.||Я здесь впервые.|Bu mening birinchi tashrifim.
+phrase|How long can I stay?||Как долго я могу здесь находиться?|Qancha vaqt qola olaman?
+phrase|I have a reservation.||У меня есть бронирование.|Menda bron bor.
+phrase|I'd like to check in.||Я хотел(а) бы заселиться.|Men joylashmoqchiman.
+phrase|Could I see the room first?||Можно сначала посмотреть номер?|Avval xonani koʻrsam boʻladimi?
+phrase|What time is check-out?||Во сколько нужно выехать?|Chiqish vaqti soat nechada?
+phrase|Is breakfast included?||Завтрак включён?|Nonushta narxga kiradimi?
+phrase|The air conditioning isn't working.||Кондиционер не работает.|Konditsioner ishlamayapti.
+phrase|Could I get an extra towel?||Можно дополнительное полотенце?|Qoʻshimcha sochiq olsam boʻladimi?
+phrase|Is Wi-Fi available?||Есть ли Wi-Fi?|Wi-Fi bormi?
+phrase|Could you call a taxi for me?||Не могли бы вы вызвать мне такси?|Menga taksi chaqirib bera olasizmi?
+phrase|I'd like to check out, please.||Я хотел(а) бы выехать из отеля.|Men mehmonxonadan chiqmoqchiman.
+phrase|How do I get to the city centre?||Как добраться до центра города?|Shahar markaziga qanday boraman?
+phrase|Is it within walking distance?||До этого можно дойти пешком?|U yerga piyoda borsa boʻladimi?
+phrase|Which bus should I take?||На какой автобус мне сесть?|Qaysi avtobusga chiqishim kerak?
+phrase|Where is the nearest metro station?||Где ближайшая станция метро?|Eng yaqin metro bekati qayerda?
+phrase|Does this bus go to the airport?||Этот автобус едет в аэропорт?|Bu avtobus aeroportga boradimi?
+phrase|Where can I buy a ticket?||Где можно купить билет?|Chiptani qayerdan sotib olsam boʻladi?
+phrase|How many stops is it?||Сколько это остановок?|Necha bekat?
+phrase|Could you show me on the map?||Можете показать мне на карте?|Xaritada koʻrsata olasizmi?
+phrase|I think we're going the wrong way.||Кажется, мы едем не туда.|Menimcha, biz notoʻgʻri ketyapmiz.
+phrase|How long will it take to get there?||Сколько времени займёт дорога туда?|U yerga yetib borish qancha vaqt oladi?
+phrase|Could you take me to this address?||Отвезите меня, пожалуйста, по этому адресу.|Iltimos, meni shu manzilga olib bora olasizmi?
+phrase|How much will it cost?||Сколько это будет стоить?|Bu qancha turadi?
+phrase|Could you use the meter, please?||Пожалуйста, включите счётчик.|Iltimos, hisoblagichni yoqing.
+phrase|Please drop me off here.||Высадите меня здесь, пожалуйста.|Iltimos, meni shu yerda tushiring.
+phrase|Can you stop near the entrance?||Можете остановиться у входа?|Kirish yonida toʻxtay olasizmi?
+phrase|I have a booking under this name.||У меня заказ на это имя.|Menda shu ismga bron bor.
+phrase|Is this the right car?||Это нужная машина?|Bu kerakli mashinami?
+phrase|Could you put the luggage in the trunk?||Не могли бы вы положить багаж в багажник?|Yukni bagajnikka solib bera olasizmi?
+phrase|There's a lot of traffic.||На дороге большие пробки.|Yoʻlda tirbandlik koʻp.
+phrase|Please let me out at the next corner.||Высадите меня на следующем углу, пожалуйста.|Iltimos, meni keyingi burchakda tushiring.
+phrase|A table for two, please.||Столик на двоих, пожалуйста.|Iltimos, ikki kishilik stol.
+phrase|Could I see the menu?||Можно посмотреть меню?|Menyuni koʻrsam boʻladimi?
+phrase|What do you recommend?||Что вы рекомендуете?|Nimani tavsiya qilasiz?
+phrase|I'd like to order now.||Я хотел(а) бы сделать заказ.|Men hozir buyurtma bermoqchiman.
+phrase|Does this contain nuts?||В этом есть орехи?|Buning tarkibida yongʻoq bormi?
+phrase|I'm allergic to ...||У меня аллергия на ...|Menda ... ga allergiya bor.
+phrase|Could we have some tap water?||Можно нам обычной воды из-под крана?|Bizga oddiy suv bera olasizmi?
+phrase|Could I have this without onions?||Можно это без лука?|Buni piyozsiz olsam boʻladimi?
+phrase|Can we have the bill, please?||Можно счёт, пожалуйста?|Iltimos, hisobni olsak boʻladimi?
+phrase|Can I pay by card?||Можно оплатить картой?|Karta bilan toʻlasam boʻladimi?
+phrase|How much is this?||Сколько это стоит?|Bu qancha turadi?
+phrase|Do you have this in another size?||Есть это в другом размере?|Buning boshqa oʻlchami bormi?
+phrase|Can I try it on?||Можно примерить?|Kiyib koʻrsam boʻladimi?
+phrase|Where are the fitting rooms?||Где примерочные?|Kiyinish xonalari qayerda?
+phrase|Is there a discount?||Есть скидка?|Chegirma bormi?
+phrase|I'm just looking, thank you.||Я просто смотрю, спасибо.|Shunchaki koʻryapman, rahmat.
+phrase|I'll take it.||Я это возьму.|Men buni olaman.
+phrase|Could I get a receipt?||Можно чек?|Chek olsam boʻladimi?
+phrase|Can I return this if it doesn't fit?||Можно вернуть это, если не подойдёт?|Agar toʻgʻri kelmasa, buni qaytarsam boʻladimi?
+phrase|Do you accept cash?||Вы принимаете наличные?|Naqd pul qabul qilasizmi?
+phrase|Excuse me, could you help me?||Извините, не могли бы вы мне помочь?|Kechirasiz, menga yordam bera olasizmi?
+phrase|How can I get to the museum?||Как мне добраться до музея?|Muzeyga qanday boraman?
+phrase|Is it far from here?||Это далеко отсюда?|Bu yerdan uzoqmi?
+phrase|Turn left at the traffic lights.||Поверните налево на светофоре.|Svetoforda chapga buriling.
+phrase|Go straight ahead.||Идите прямо.|Toʻgʻriga yuring.
+phrase|It's next to the bank.||Это рядом с банком.|Bu bankning yonida.
+phrase|It's opposite the station.||Это напротив станции.|Bu bekatning roʻparasida.
+phrase|You can't miss it.||Вы не сможете это пропустить.|Uni adashib oʻtib ketmaysiz.
+phrase|Could you point it out on the map?||Можете показать это на карте?|Buni xaritada koʻrsata olasizmi?
+phrase|I think I've taken a wrong turn.||Кажется, я не туда повернул(а).|Menimcha, men notoʻgʻri burildim.
+phrase|What are the must-see places here?||Какие места здесь обязательно нужно увидеть?|Bu yerda albatta koʻrish kerak boʻlgan joylar qaysi?
+phrase|Is there an entrance fee?||Есть плата за вход?|Kirish haqi bormi?
+phrase|What time does it open?||Во сколько это открывается?|U necha soatda ochiladi?
+phrase|Can I take photos here?||Можно здесь фотографировать?|Bu yerda surat olsam boʻladimi?
+phrase|Is there a guided tour?||Есть экскурсия с гидом?|Gid bilan ekskursiya bormi?
+phrase|How long does the tour last?||Сколько длится экскурсия?|Ekskursiya qancha davom etadi?
+phrase|Could you take a photo of us?||Не могли бы вы сфотографировать нас?|Bizni suratga olib bera olasizmi?
+phrase|What's the history behind this place?||Какова история этого места?|Bu joyning tarixi qanday?
+phrase|Where can I get tickets?||Где можно купить билеты?|Chiptalarni qayerdan olsam boʻladi?
+phrase|Is it worth visiting?||Стоит ли это посетить?|Buni koʻrishga arziydimi?
+phrase|I'd like to book two tickets.||Я хотел(а) бы забронировать два билета.|Men ikkita chipta band qilmoqchiman.
+phrase|Are there any seats available?||Есть свободные места?|Boʻsh joylar bormi?
+phrase|Is it a one-way or return ticket?||Это билет в одну сторону или туда-обратно?|Bu bir tomonlama chiptami yoki borish-qaytishmi?
+phrase|Can I change the date?||Можно изменить дату?|Sanani oʻzgartirsam boʻladimi?
+phrase|Is the ticket refundable?||Билет можно вернуть?|Chiptani qaytarib boʻladimi?
+phrase|What time does it depart?||Во сколько отправление?|U necha soatda joʻnaydi?
+phrase|Which platform does it leave from?||С какой платформы он отправляется?|U qaysi perrondan joʻnaydi?
+phrase|Can I book online?||Можно забронировать онлайн?|Onlayn band qilsam boʻladimi?
+phrase|Could you print my ticket?||Не могли бы вы распечатать мой билет?|Chiptamni chop etib bera olasizmi?
+phrase|Is there a student discount?||Есть скидка для студентов?|Talabalar uchun chegirma bormi?
+phrase|Where can I exchange money?||Где можно обменять деньги?|Pulni qayerda almashtirsam boʻladi?
+phrase|What's the exchange rate?||Какой обменный курс?|Valyuta kursi qanday?
+phrase|Are there any fees?||Есть какие-нибудь комиссии?|Biror komissiya bormi?
+phrase|Can I pay in cash?||Можно оплатить наличными?|Naqd pulda toʻlasam boʻladimi?
+phrase|My card was declined.||Мою карту отклонили.|Mening kartam rad etildi.
+phrase|Where is the nearest ATM?||Где ближайший банкомат?|Eng yaqin bankomat qayerda?
+phrase|Could I have a smaller bill?||Можно купюру поменьше?|Maydaroq pul bersangiz boʻladimi?
+phrase|Do you accept foreign currency?||Вы принимаете иностранную валюту?|Chet el valyutasini qabul qilasizmi?
+phrase|I think I've been charged twice.||Кажется, с меня списали деньги дважды.|Mendan ikki marta pul yechilgan shekilli.
+phrase|Could you check the total?||Не могли бы вы проверить итоговую сумму?|Umumiy summani tekshira olasizmi?
+phrase|Is there free Wi-Fi here?||Здесь есть бесплатный Wi-Fi?|Bu yerda bepul Wi-Fi bormi?
+phrase|What's the Wi-Fi password?||Какой пароль от Wi-Fi?|Wi-Fi paroli qanday?
+phrase|I need to buy a local SIM card.||Мне нужно купить местную SIM-карту.|Menga mahalliy SIM-karta sotib olish kerak.
+phrase|Does my phone work here?||Мой телефон здесь работает?|Telefonim bu yerda ishlaydimi?
+phrase|Where can I charge my phone?||Где можно зарядить телефон?|Telefonimni qayerda quvvatlasam boʻladi?
+phrase|My battery is almost dead.||У меня почти разрядился телефон.|Batareyam deyarli tugadi.
+phrase|I can't get a signal.||У меня нет сигнала.|Menda signal yoʻq.
+phrase|Could you send me the location?||Можете отправить мне геолокацию?|Menga joylashuvni yuborib bera olasizmi?
+phrase|I'll message you when I arrive.||Я напишу тебе, когда приеду.|Yetib borganimda sizga yozaman.
+phrase|Is there a place to charge my laptop?||Есть где зарядить ноутбук?|Noutbukni quvvatlaydigan joy bormi?
+phrase|I need help.||Мне нужна помощь.|Menga yordam kerak.
+phrase|Please call an ambulance.||Пожалуйста, вызовите скорую помощь.|Iltimos, tez yordam chaqiring.
+phrase|Where is the nearest hospital?||Где ближайшая больница?|Eng yaqin shifoxona qayerda?
+phrase|I need to see a doctor.||Мне нужно обратиться к врачу.|Menga shifokorga koʻrinish kerak.
+phrase|I've lost my passport.||Я потерял(а) паспорт.|Men pasportimni yoʻqotib qoʻydim.
+phrase|My bag has been stolen.||У меня украли сумку.|Mening sumkam oʻgʻirlandi.
+phrase|Could you call the police?||Не могли бы вы вызвать полицию?|Politsiyani chaqira olasizmi?
+phrase|Is there a pharmacy nearby?||Рядом есть аптека?|Yaqin atrofda dorixona bormi?
+phrase|I don't feel well.||Я плохо себя чувствую.|Oʻzimni yaxshi his qilmayapman.
+phrase|Can you help me contact my embassy?||Поможете связаться с моим посольством?|Elchixonam bilan bogʻlanishga yordam bera olasizmi?
+phrase|What's the weather like today?||Какая сегодня погода?|Bugun ob-havo qanday?
+phrase|It looks like rain.||Похоже, будет дождь.|Yomgʻir yogʻadiganga oʻxshaydi.
+phrase|It's much colder than I expected.||Здесь намного холоднее, чем я ожидал(а).|Bu yer men kutganimdan ancha sovuq.
+phrase|Do I need a jacket?||Мне нужна куртка?|Menga kurtka kerakmi?
+phrase|It's really hot today.||Сегодня очень жарко.|Bugun juda issiq.
+phrase|Is it usually windy here?||Здесь обычно ветрено?|Bu yerda odatda shamol boʻladimi?
+phrase|I didn't bring an umbrella.||Я не взял(а) зонт.|Men soyabon olmabman.
+phrase|Where can I buy a warm sweater?||Где можно купить тёплый свитер?|Issiq svitarni qayerdan sotib olsam boʻladi?
+phrase|The weather is perfect for walking.||Погода идеальна для прогулки.|Sayr qilish uchun ob-havo ideal.
+phrase|Is the forecast reliable?||Прогноз погоды точный?|Ob-havo bashorati ishonchlimi?
+phrase|Is this your first time here?||Вы здесь впервые?|Bu yerga birinchi marta kelyapsizmi?
+phrase|Where are you travelling from?||Откуда вы приехали?|Qayerdan kelyapsiz?
+phrase|Are you travelling alone?||Вы путешествуете один / одна?|Yolgʻiz sayohat qilyapsizmi?
+phrase|How long are you staying?||Как долго вы здесь останетесь?|Qancha vaqt qolasiz?
+phrase|Have you visited this place before?||Вы уже посещали это место?|Bu joyga avval kelganmidingiz?
+phrase|Do you know any good local restaurants?||Вы знаете хорошие местные рестораны?|Yaxshi mahalliy restoranlarni bilasizmi?
+phrase|Would you mind taking a photo?||Не могли бы вы сделать фото?|Surat olib bera olasizmi?
+phrase|It's been nice talking to you.||Было приятно с вами поговорить.|Siz bilan suhbatlashganim yoqdi.
+phrase|Enjoy the rest of your trip.||Приятного продолжения поездки.|Sayohatingizning qolgan qismi yaxshi oʻtsin.
+phrase|Have a safe journey.||Счастливого пути.|Yoʻlingiz bexatar boʻlsin.
+phrase|I can't find my reservation.||Я не могу найти своё бронирование.|Men bronimni topa olmayapman.
+phrase|The booking is under my name.||Бронирование оформлено на моё имя.|Bron mening ismimga rasmiylashtirilgan.
+phrase|I booked the wrong date.||Я забронировал(а) неправильную дату.|Men notoʻgʻri sanani band qilibman.
+phrase|Could you change my room?||Не могли бы вы поменять мой номер?|Xonamni almashtira olasizmi?
+phrase|I was charged more than expected.||С меня взяли больше, чем я ожидал(а).|Mendan kutganimdan koʻproq pul olindi.
+phrase|My reservation has been cancelled.||Моё бронирование отменили.|Mening bronim bekor qilinibdi.
+phrase|Could you check the booking details?||Не могли бы вы проверить детали бронирования?|Bron tafsilotlarini tekshira olasizmi?
+phrase|I didn't receive a confirmation email.||Я не получил(а) письмо с подтверждением.|Men tasdiqlovchi xat olmadim.
+phrase|What are my options?||Какие у меня есть варианты?|Mening qanday imkoniyatlarim bor?
+phrase|Could you help me sort this out?||Не могли бы вы помочь мне с этим разобраться?|Buni hal qilishga yordam bera olasizmi?
+phrase|Is there a hiking trail nearby?||Рядом есть туристическая тропа?|Yaqin atrofda piyoda yurish soʻqmogʻi bormi?
+phrase|How difficult is the route?||Насколько сложный маршрут?|Yoʻnalish qanchalik qiyin?
+phrase|How long does the hike take?||Сколько времени занимает поход?|Yurish qancha vaqt oladi?
+phrase|Do I need special equipment?||Мне нужно специальное снаряжение?|Menga maxsus jihoz kerakmi?
+phrase|Is it safe to swim here?||Здесь безопасно плавать?|Bu yerda suzish xavfsizmi?
+phrase|Where can we rent bicycles?||Где можно взять велосипеды напрокат?|Velosipedlarni qayerdan ijaraga olsak boʻladi?
+phrase|Let's take a break here.||Давайте здесь передохнём.|Keling, shu yerda dam olaylik.
+phrase|Don't forget to bring water.||Не забудь взять воду.|Suv olishni unutmang.
+phrase|What's the best viewpoint?||Где лучшая смотровая площадка?|Eng yaxshi manzara qayerdan koʻrinadi?
+phrase|We should head back before dark.||Нам стоит вернуться до темноты.|Qorongʻi tushmasdan qaytishimiz kerak.
+phrase|What time should we leave?||Во сколько нам следует выехать?|Soat nechada chiqishimiz kerak?
+phrase|I need to pack my bags.||Мне нужно собрать вещи.|Menga yuklarimni yigʻish kerak.
+phrase|Could I leave my luggage here?||Можно оставить здесь багаж?|Yukimni shu yerda qoldirsam boʻladimi?
+phrase|Where is the departure entrance?||Где вход на отправление?|Joʻnash kirish joyi qayerda?
+phrase|I need to get to the station.||Мне нужно добраться до станции.|Menga bekatga yetib borish kerak.
+phrase|Is there a shuttle to the airport?||Есть шаттл до аэропорта?|Aeroportga shattl bormi?
+phrase|I had a wonderful time.||Я прекрасно провёл / провела время.|Men ajoyib vaqt oʻtkazdim.
+phrase|I'll definitely come back.||Я обязательно вернусь.|Men albatta yana kelaman.
+phrase|Thanks for making this trip special.||Спасибо, что сделали эту поездку особенной.|Bu sayohatni alohida qilganingiz uchun rahmat.
+phrase|I'm ready to head home.||Я готов(а) отправляться домой.|Men uyga qaytishga tayyorman.

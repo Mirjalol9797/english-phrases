@@ -1,0 +1,1029 @@
+{
+  "chapter": "travel-english",
+  "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Sayohat ingliz tili",
+  "lessons": {
+    "Планирование поездки": "Sayohatni rejalashtirish",
+    "В аэропорту": "Aeroportda",
+    "В самолёте": "Samolyotda",
+    "Паспортный контроль и таможня": "Pasport nazorati va bojxona",
+    "В отеле": "Mehmonxonada",
+    "Передвижение по городу": "Shahar boʻylab yurish",
+    "Такси и поездки": "Taksi va safarlar",
+    "Рестораны и кафе": "Restoran va kafelar",
+    "Покупки": "Xaridlar",
+    "Как спросить дорогу": "Yoʻlni qanday soʻrash",
+    "Достопримечательности": "Diqqatga sazovor joylar",
+    "Бронирование билетов": "Chipta band qilish",
+    "Деньги и оплата": "Pul va toʻlov",
+    "Интернет и телефон": "Internet va telefon",
+    "Чрезвычайные ситуации и здоровье": "Favqulodda vaziyatlar va salomatlik",
+    "Погода и одежда": "Ob-havo va kiyim",
+    "Знакомство в поездке": "Sayohatda tanishish",
+    "Проблемы с бронированием": "Bron bilan bogʻliq muammolar",
+    "Природа и активный отдых": "Tabiat va faol dam olish",
+    "Отъезд и возвращение": "Joʻnash va qaytish"
+  },
+  "entries": [
+    {
+      "en": "I'm planning a trip.",
+      "ru": "Я планирую поездку.",
+      "uz": "Men sayohat rejalashtiryapman."
+    },
+    {
+      "en": "Where would you recommend going?",
+      "ru": "Куда вы посоветовали бы поехать?",
+      "uz": "Qayerga borishni tavsiya qilasiz?"
+    },
+    {
+      "en": "What's the best time to visit?",
+      "ru": "Когда лучше всего приезжать?",
+      "uz": "Qachon borish eng maʼqul?"
+    },
+    {
+      "en": "How many days should I stay?",
+      "ru": "Сколько дней мне стоит остаться?",
+      "uz": "Necha kun qolishim kerak?"
+    },
+    {
+      "en": "I'd like to travel on a budget.",
+      "ru": "Я хотел(а) бы путешествовать экономно.",
+      "uz": "Men tejamkor sayohat qilmoqchiman."
+    },
+    {
+      "en": "Is it easy to get around?",
+      "ru": "Там легко передвигаться?",
+      "uz": "U yerda yurish osonmi?"
+    },
+    {
+      "en": "What should I pack?",
+      "ru": "Что мне взять с собой?",
+      "uz": "Oʻzim bilan nima olishim kerak?"
+    },
+    {
+      "en": "Do I need a visa?",
+      "ru": "Мне нужна виза?",
+      "uz": "Menga viza kerakmi?"
+    },
+    {
+      "en": "I'd like to book in advance.",
+      "ru": "Я хотел(а) бы забронировать заранее.",
+      "uz": "Oldindan band qilmoqchiman."
+    },
+    {
+      "en": "Could you recommend some places to visit?",
+      "ru": "Можете порекомендовать места для посещения?",
+      "uz": "Borishga arziydigan joylarni tavsiya qila olasizmi?"
+    },
+    {
+      "en": "Where is the check-in desk?",
+      "ru": "Где стойка регистрации?",
+      "uz": "Roʻyxatdan oʻtish joyi qayerda?"
+    },
+    {
+      "en": "I'd like to check in for my flight.",
+      "ru": "Я хотел(а) бы зарегистрироваться на рейс.",
+      "uz": "Reysimga roʻyxatdan oʻtmoqchiman."
+    },
+    {
+      "en": "Can I see your passport, please?",
+      "ru": "Можно ваш паспорт, пожалуйста?",
+      "uz": "Iltimos, pasportingizni koʻrsam boʻladimi?"
+    },
+    {
+      "en": "Where is the security check?",
+      "ru": "Где пункт досмотра?",
+      "uz": "Xavfsizlik nazorati qayerda?"
+    },
+    {
+      "en": "Has the gate changed?",
+      "ru": "Выход на посадку изменился?",
+      "uz": "Chiqish darvozasi oʻzgardimi?"
+    },
+    {
+      "en": "What time does boarding start?",
+      "ru": "Во сколько начинается посадка?",
+      "uz": "Samolyotga chiqish necha soatda boshlanadi?"
+    },
+    {
+      "en": "My flight has been delayed.",
+      "ru": "Мой рейс задержали.",
+      "uz": "Reysim kechiktirildi."
+    },
+    {
+      "en": "Where can I collect my luggage?",
+      "ru": "Где я могу получить багаж?",
+      "uz": "Yukimni qayerdan olsam boʻladi?"
+    },
+    {
+      "en": "My bag hasn't arrived.",
+      "ru": "Моя сумка не прибыла.",
+      "uz": "Sumkam yetib kelmadi."
+    },
+    {
+      "en": "Is this the queue for passport control?",
+      "ru": "Это очередь на паспортный контроль?",
+      "uz": "Bu pasport nazorati navbatimi?"
+    },
+    {
+      "en": "Could I have a window seat?",
+      "ru": "Можно мне место у окна?",
+      "uz": "Deraza yonidagi joyni olsam boʻladimi?"
+    },
+    {
+      "en": "Where is my seat?",
+      "ru": "Где моё место?",
+      "uz": "Mening joyim qayerda?"
+    },
+    {
+      "en": "Could you help me with my bag?",
+      "ru": "Не могли бы вы помочь с моей сумкой?",
+      "uz": "Sumkamni koʻtarishga yordam bera olasizmi?"
+    },
+    {
+      "en": "Could I have some water, please?",
+      "ru": "Можно мне воды, пожалуйста?",
+      "uz": "Iltimos, menga suv bersangiz?"
+    },
+    {
+      "en": "Is this seat taken?",
+      "ru": "Это место занято?",
+      "uz": "Bu joy bandmi?"
+    },
+    {
+      "en": "How long is the flight?",
+      "ru": "Сколько длится полёт?",
+      "uz": "Parvoz qancha davom etadi?"
+    },
+    {
+      "en": "When will we land?",
+      "ru": "Когда мы приземлимся?",
+      "uz": "Qachon qoʻnamiz?"
+    },
+    {
+      "en": "Could I have a blanket?",
+      "ru": "Можно мне одеяло?",
+      "uz": "Menga adyol bersangiz boʻladimi?"
+    },
+    {
+      "en": "Where is the restroom?",
+      "ru": "Где туалет?",
+      "uz": "Hojatxona qayerda?"
+    },
+    {
+      "en": "Please let me know when we arrive.",
+      "ru": "Пожалуйста, сообщите мне, когда мы прибудем.",
+      "uz": "Iltimos, yetib borganimizda menga ayting."
+    },
+    {
+      "en": "What is the purpose of your visit?",
+      "ru": "Какова цель вашего визита?",
+      "uz": "Tashrifingiz maqsadi nima?"
+    },
+    {
+      "en": "I'm here on holiday.",
+      "ru": "Я приехал(а) в отпуск.",
+      "uz": "Men taʼtilga keldim."
+    },
+    {
+      "en": "I'm staying for a week.",
+      "ru": "Я остаюсь на неделю.",
+      "uz": "Men bir haftaga qolaman."
+    },
+    {
+      "en": "Where will you be staying?",
+      "ru": "Где вы будете проживать?",
+      "uz": "Qayerda turasiz?"
+    },
+    {
+      "en": "Here's my hotel reservation.",
+      "ru": "Вот бронь моего отеля.",
+      "uz": "Mana mehmonxona bronim."
+    },
+    {
+      "en": "I have a return ticket.",
+      "ru": "У меня есть билет обратно.",
+      "uz": "Menda qaytish chiptasi bor."
+    },
+    {
+      "en": "Do I need to declare anything?",
+      "ru": "Мне нужно что-нибудь декларировать?",
+      "uz": "Biror narsani deklaratsiya qilishim kerakmi?"
+    },
+    {
+      "en": "I'm travelling with my family.",
+      "ru": "Я путешествую с семьёй.",
+      "uz": "Men oilam bilan sayohat qilyapman."
+    },
+    {
+      "en": "This is my first visit.",
+      "ru": "Я здесь впервые.",
+      "uz": "Bu mening birinchi tashrifim."
+    },
+    {
+      "en": "How long can I stay?",
+      "ru": "Как долго я могу здесь находиться?",
+      "uz": "Qancha vaqt qola olaman?"
+    },
+    {
+      "en": "I have a reservation.",
+      "ru": "У меня есть бронирование.",
+      "uz": "Menda bron bor."
+    },
+    {
+      "en": "I'd like to check in.",
+      "ru": "Я хотел(а) бы заселиться.",
+      "uz": "Men joylashmoqchiman."
+    },
+    {
+      "en": "Could I see the room first?",
+      "ru": "Можно сначала посмотреть номер?",
+      "uz": "Avval xonani koʻrsam boʻladimi?"
+    },
+    {
+      "en": "What time is check-out?",
+      "ru": "Во сколько нужно выехать?",
+      "uz": "Chiqish vaqti soat nechada?"
+    },
+    {
+      "en": "Is breakfast included?",
+      "ru": "Завтрак включён?",
+      "uz": "Nonushta narxga kiradimi?"
+    },
+    {
+      "en": "The air conditioning isn't working.",
+      "ru": "Кондиционер не работает.",
+      "uz": "Konditsioner ishlamayapti."
+    },
+    {
+      "en": "Could I get an extra towel?",
+      "ru": "Можно дополнительное полотенце?",
+      "uz": "Qoʻshimcha sochiq olsam boʻladimi?"
+    },
+    {
+      "en": "Is Wi-Fi available?",
+      "ru": "Есть ли Wi-Fi?",
+      "uz": "Wi-Fi bormi?"
+    },
+    {
+      "en": "Could you call a taxi for me?",
+      "ru": "Не могли бы вы вызвать мне такси?",
+      "uz": "Menga taksi chaqirib bera olasizmi?"
+    },
+    {
+      "en": "I'd like to check out, please.",
+      "ru": "Я хотел(а) бы выехать из отеля.",
+      "uz": "Men mehmonxonadan chiqmoqchiman."
+    },
+    {
+      "en": "How do I get to the city centre?",
+      "ru": "Как добраться до центра города?",
+      "uz": "Shahar markaziga qanday boraman?"
+    },
+    {
+      "en": "Is it within walking distance?",
+      "ru": "До этого можно дойти пешком?",
+      "uz": "U yerga piyoda borsa boʻladimi?"
+    },
+    {
+      "en": "Which bus should I take?",
+      "ru": "На какой автобус мне сесть?",
+      "uz": "Qaysi avtobusga chiqishim kerak?"
+    },
+    {
+      "en": "Where is the nearest metro station?",
+      "ru": "Где ближайшая станция метро?",
+      "uz": "Eng yaqin metro bekati qayerda?"
+    },
+    {
+      "en": "Does this bus go to the airport?",
+      "ru": "Этот автобус едет в аэропорт?",
+      "uz": "Bu avtobus aeroportga boradimi?"
+    },
+    {
+      "en": "Where can I buy a ticket?",
+      "ru": "Где можно купить билет?",
+      "uz": "Chiptani qayerdan sotib olsam boʻladi?"
+    },
+    {
+      "en": "How many stops is it?",
+      "ru": "Сколько это остановок?",
+      "uz": "Necha bekat?"
+    },
+    {
+      "en": "Could you show me on the map?",
+      "ru": "Можете показать мне на карте?",
+      "uz": "Xaritada koʻrsata olasizmi?"
+    },
+    {
+      "en": "I think we're going the wrong way.",
+      "ru": "Кажется, мы едем не туда.",
+      "uz": "Menimcha, biz notoʻgʻri ketyapmiz."
+    },
+    {
+      "en": "How long will it take to get there?",
+      "ru": "Сколько времени займёт дорога туда?",
+      "uz": "U yerga yetib borish qancha vaqt oladi?"
+    },
+    {
+      "en": "Could you take me to this address?",
+      "ru": "Отвезите меня, пожалуйста, по этому адресу.",
+      "uz": "Iltimos, meni shu manzilga olib bora olasizmi?"
+    },
+    {
+      "en": "How much will it cost?",
+      "ru": "Сколько это будет стоить?",
+      "uz": "Bu qancha turadi?"
+    },
+    {
+      "en": "Could you use the meter, please?",
+      "ru": "Пожалуйста, включите счётчик.",
+      "uz": "Iltimos, hisoblagichni yoqing."
+    },
+    {
+      "en": "Please drop me off here.",
+      "ru": "Высадите меня здесь, пожалуйста.",
+      "uz": "Iltimos, meni shu yerda tushiring."
+    },
+    {
+      "en": "Can you stop near the entrance?",
+      "ru": "Можете остановиться у входа?",
+      "uz": "Kirish yonida toʻxtay olasizmi?"
+    },
+    {
+      "en": "I have a booking under this name.",
+      "ru": "У меня заказ на это имя.",
+      "uz": "Menda shu ismga bron bor."
+    },
+    {
+      "en": "Is this the right car?",
+      "ru": "Это нужная машина?",
+      "uz": "Bu kerakli mashinami?"
+    },
+    {
+      "en": "Could you put the luggage in the trunk?",
+      "ru": "Не могли бы вы положить багаж в багажник?",
+      "uz": "Yukni bagajnikka solib bera olasizmi?"
+    },
+    {
+      "en": "There's a lot of traffic.",
+      "ru": "На дороге большие пробки.",
+      "uz": "Yoʻlda tirbandlik koʻp."
+    },
+    {
+      "en": "Please let me out at the next corner.",
+      "ru": "Высадите меня на следующем углу, пожалуйста.",
+      "uz": "Iltimos, meni keyingi burchakda tushiring."
+    },
+    {
+      "en": "A table for two, please.",
+      "ru": "Столик на двоих, пожалуйста.",
+      "uz": "Iltimos, ikki kishilik stol."
+    },
+    {
+      "en": "Could I see the menu?",
+      "ru": "Можно посмотреть меню?",
+      "uz": "Menyuni koʻrsam boʻladimi?"
+    },
+    {
+      "en": "What do you recommend?",
+      "ru": "Что вы рекомендуете?",
+      "uz": "Nimani tavsiya qilasiz?"
+    },
+    {
+      "en": "I'd like to order now.",
+      "ru": "Я хотел(а) бы сделать заказ.",
+      "uz": "Men hozir buyurtma bermoqchiman."
+    },
+    {
+      "en": "Does this contain nuts?",
+      "ru": "В этом есть орехи?",
+      "uz": "Buning tarkibida yongʻoq bormi?"
+    },
+    {
+      "en": "I'm allergic to ...",
+      "ru": "У меня аллергия на ...",
+      "uz": "Menda ... ga allergiya bor."
+    },
+    {
+      "en": "Could we have some tap water?",
+      "ru": "Можно нам обычной воды из-под крана?",
+      "uz": "Bizga oddiy suv bera olasizmi?"
+    },
+    {
+      "en": "Could I have this without onions?",
+      "ru": "Можно это без лука?",
+      "uz": "Buni piyozsiz olsam boʻladimi?"
+    },
+    {
+      "en": "Can we have the bill, please?",
+      "ru": "Можно счёт, пожалуйста?",
+      "uz": "Iltimos, hisobni olsak boʻladimi?"
+    },
+    {
+      "en": "Can I pay by card?",
+      "ru": "Можно оплатить картой?",
+      "uz": "Karta bilan toʻlasam boʻladimi?"
+    },
+    {
+      "en": "How much is this?",
+      "ru": "Сколько это стоит?",
+      "uz": "Bu qancha turadi?"
+    },
+    {
+      "en": "Do you have this in another size?",
+      "ru": "Есть это в другом размере?",
+      "uz": "Buning boshqa oʻlchami bormi?"
+    },
+    {
+      "en": "Can I try it on?",
+      "ru": "Можно примерить?",
+      "uz": "Kiyib koʻrsam boʻladimi?"
+    },
+    {
+      "en": "Where are the fitting rooms?",
+      "ru": "Где примерочные?",
+      "uz": "Kiyinish xonalari qayerda?"
+    },
+    {
+      "en": "Is there a discount?",
+      "ru": "Есть скидка?",
+      "uz": "Chegirma bormi?"
+    },
+    {
+      "en": "I'm just looking, thank you.",
+      "ru": "Я просто смотрю, спасибо.",
+      "uz": "Shunchaki koʻryapman, rahmat."
+    },
+    {
+      "en": "I'll take it.",
+      "ru": "Я это возьму.",
+      "uz": "Men buni olaman."
+    },
+    {
+      "en": "Could I get a receipt?",
+      "ru": "Можно чек?",
+      "uz": "Chek olsam boʻladimi?"
+    },
+    {
+      "en": "Can I return this if it doesn't fit?",
+      "ru": "Можно вернуть это, если не подойдёт?",
+      "uz": "Agar toʻgʻri kelmasa, buni qaytarsam boʻladimi?"
+    },
+    {
+      "en": "Do you accept cash?",
+      "ru": "Вы принимаете наличные?",
+      "uz": "Naqd pul qabul qilasizmi?"
+    },
+    {
+      "en": "Excuse me, could you help me?",
+      "ru": "Извините, не могли бы вы мне помочь?",
+      "uz": "Kechirasiz, menga yordam bera olasizmi?"
+    },
+    {
+      "en": "How can I get to the museum?",
+      "ru": "Как мне добраться до музея?",
+      "uz": "Muzeyga qanday boraman?"
+    },
+    {
+      "en": "Is it far from here?",
+      "ru": "Это далеко отсюда?",
+      "uz": "Bu yerdan uzoqmi?"
+    },
+    {
+      "en": "Turn left at the traffic lights.",
+      "ru": "Поверните налево на светофоре.",
+      "uz": "Svetoforda chapga buriling."
+    },
+    {
+      "en": "Go straight ahead.",
+      "ru": "Идите прямо.",
+      "uz": "Toʻgʻriga yuring."
+    },
+    {
+      "en": "It's next to the bank.",
+      "ru": "Это рядом с банком.",
+      "uz": "Bu bankning yonida."
+    },
+    {
+      "en": "It's opposite the station.",
+      "ru": "Это напротив станции.",
+      "uz": "Bu bekatning roʻparasida."
+    },
+    {
+      "en": "You can't miss it.",
+      "ru": "Вы не сможете это пропустить.",
+      "uz": "Uni adashib oʻtib ketmaysiz."
+    },
+    {
+      "en": "Could you point it out on the map?",
+      "ru": "Можете показать это на карте?",
+      "uz": "Buni xaritada koʻrsata olasizmi?"
+    },
+    {
+      "en": "I think I've taken a wrong turn.",
+      "ru": "Кажется, я не туда повернул(а).",
+      "uz": "Menimcha, men notoʻgʻri burildim."
+    },
+    {
+      "en": "What are the must-see places here?",
+      "ru": "Какие места здесь обязательно нужно увидеть?",
+      "uz": "Bu yerda albatta koʻrish kerak boʻlgan joylar qaysi?"
+    },
+    {
+      "en": "Is there an entrance fee?",
+      "ru": "Есть плата за вход?",
+      "uz": "Kirish haqi bormi?"
+    },
+    {
+      "en": "What time does it open?",
+      "ru": "Во сколько это открывается?",
+      "uz": "U necha soatda ochiladi?"
+    },
+    {
+      "en": "Can I take photos here?",
+      "ru": "Можно здесь фотографировать?",
+      "uz": "Bu yerda surat olsam boʻladimi?"
+    },
+    {
+      "en": "Is there a guided tour?",
+      "ru": "Есть экскурсия с гидом?",
+      "uz": "Gid bilan ekskursiya bormi?"
+    },
+    {
+      "en": "How long does the tour last?",
+      "ru": "Сколько длится экскурсия?",
+      "uz": "Ekskursiya qancha davom etadi?"
+    },
+    {
+      "en": "Could you take a photo of us?",
+      "ru": "Не могли бы вы сфотографировать нас?",
+      "uz": "Bizni suratga olib bera olasizmi?"
+    },
+    {
+      "en": "What's the history behind this place?",
+      "ru": "Какова история этого места?",
+      "uz": "Bu joyning tarixi qanday?"
+    },
+    {
+      "en": "Where can I get tickets?",
+      "ru": "Где можно купить билеты?",
+      "uz": "Chiptalarni qayerdan olsam boʻladi?"
+    },
+    {
+      "en": "Is it worth visiting?",
+      "ru": "Стоит ли это посетить?",
+      "uz": "Buni koʻrishga arziydimi?"
+    },
+    {
+      "en": "I'd like to book two tickets.",
+      "ru": "Я хотел(а) бы забронировать два билета.",
+      "uz": "Men ikkita chipta band qilmoqchiman."
+    },
+    {
+      "en": "Are there any seats available?",
+      "ru": "Есть свободные места?",
+      "uz": "Boʻsh joylar bormi?"
+    },
+    {
+      "en": "Is it a one-way or return ticket?",
+      "ru": "Это билет в одну сторону или туда-обратно?",
+      "uz": "Bu bir tomonlama chiptami yoki borish-qaytishmi?"
+    },
+    {
+      "en": "Can I change the date?",
+      "ru": "Можно изменить дату?",
+      "uz": "Sanani oʻzgartirsam boʻladimi?"
+    },
+    {
+      "en": "Is the ticket refundable?",
+      "ru": "Билет можно вернуть?",
+      "uz": "Chiptani qaytarib boʻladimi?"
+    },
+    {
+      "en": "What time does it depart?",
+      "ru": "Во сколько отправление?",
+      "uz": "U necha soatda joʻnaydi?"
+    },
+    {
+      "en": "Which platform does it leave from?",
+      "ru": "С какой платформы он отправляется?",
+      "uz": "U qaysi perrondan joʻnaydi?"
+    },
+    {
+      "en": "Can I book online?",
+      "ru": "Можно забронировать онлайн?",
+      "uz": "Onlayn band qilsam boʻladimi?"
+    },
+    {
+      "en": "Could you print my ticket?",
+      "ru": "Не могли бы вы распечатать мой билет?",
+      "uz": "Chiptamni chop etib bera olasizmi?"
+    },
+    {
+      "en": "Is there a student discount?",
+      "ru": "Есть скидка для студентов?",
+      "uz": "Talabalar uchun chegirma bormi?"
+    },
+    {
+      "en": "Where can I exchange money?",
+      "ru": "Где можно обменять деньги?",
+      "uz": "Pulni qayerda almashtirsam boʻladi?"
+    },
+    {
+      "en": "What's the exchange rate?",
+      "ru": "Какой обменный курс?",
+      "uz": "Valyuta kursi qanday?"
+    },
+    {
+      "en": "Are there any fees?",
+      "ru": "Есть какие-нибудь комиссии?",
+      "uz": "Biror komissiya bormi?"
+    },
+    {
+      "en": "Can I pay in cash?",
+      "ru": "Можно оплатить наличными?",
+      "uz": "Naqd pulda toʻlasam boʻladimi?"
+    },
+    {
+      "en": "My card was declined.",
+      "ru": "Мою карту отклонили.",
+      "uz": "Mening kartam rad etildi."
+    },
+    {
+      "en": "Where is the nearest ATM?",
+      "ru": "Где ближайший банкомат?",
+      "uz": "Eng yaqin bankomat qayerda?"
+    },
+    {
+      "en": "Could I have a smaller bill?",
+      "ru": "Можно купюру поменьше?",
+      "uz": "Maydaroq pul bersangiz boʻladimi?"
+    },
+    {
+      "en": "Do you accept foreign currency?",
+      "ru": "Вы принимаете иностранную валюту?",
+      "uz": "Chet el valyutasini qabul qilasizmi?"
+    },
+    {
+      "en": "I think I've been charged twice.",
+      "ru": "Кажется, с меня списали деньги дважды.",
+      "uz": "Mendan ikki marta pul yechilgan shekilli."
+    },
+    {
+      "en": "Could you check the total?",
+      "ru": "Не могли бы вы проверить итоговую сумму?",
+      "uz": "Umumiy summani tekshira olasizmi?"
+    },
+    {
+      "en": "Is there free Wi-Fi here?",
+      "ru": "Здесь есть бесплатный Wi-Fi?",
+      "uz": "Bu yerda bepul Wi-Fi bormi?"
+    },
+    {
+      "en": "What's the Wi-Fi password?",
+      "ru": "Какой пароль от Wi-Fi?",
+      "uz": "Wi-Fi paroli qanday?"
+    },
+    {
+      "en": "I need to buy a local SIM card.",
+      "ru": "Мне нужно купить местную SIM-карту.",
+      "uz": "Menga mahalliy SIM-karta sotib olish kerak."
+    },
+    {
+      "en": "Does my phone work here?",
+      "ru": "Мой телефон здесь работает?",
+      "uz": "Telefonim bu yerda ishlaydimi?"
+    },
+    {
+      "en": "Where can I charge my phone?",
+      "ru": "Где можно зарядить телефон?",
+      "uz": "Telefonimni qayerda quvvatlasam boʻladi?"
+    },
+    {
+      "en": "My battery is almost dead.",
+      "ru": "У меня почти разрядился телефон.",
+      "uz": "Batareyam deyarli tugadi."
+    },
+    {
+      "en": "I can't get a signal.",
+      "ru": "У меня нет сигнала.",
+      "uz": "Menda signal yoʻq."
+    },
+    {
+      "en": "Could you send me the location?",
+      "ru": "Можете отправить мне геолокацию?",
+      "uz": "Menga joylashuvni yuborib bera olasizmi?"
+    },
+    {
+      "en": "I'll message you when I arrive.",
+      "ru": "Я напишу тебе, когда приеду.",
+      "uz": "Yetib borganimda sizga yozaman."
+    },
+    {
+      "en": "Is there a place to charge my laptop?",
+      "ru": "Есть где зарядить ноутбук?",
+      "uz": "Noutbukni quvvatlaydigan joy bormi?"
+    },
+    {
+      "en": "I need help.",
+      "ru": "Мне нужна помощь.",
+      "uz": "Menga yordam kerak."
+    },
+    {
+      "en": "Please call an ambulance.",
+      "ru": "Пожалуйста, вызовите скорую помощь.",
+      "uz": "Iltimos, tez yordam chaqiring."
+    },
+    {
+      "en": "Where is the nearest hospital?",
+      "ru": "Где ближайшая больница?",
+      "uz": "Eng yaqin shifoxona qayerda?"
+    },
+    {
+      "en": "I need to see a doctor.",
+      "ru": "Мне нужно обратиться к врачу.",
+      "uz": "Menga shifokorga koʻrinish kerak."
+    },
+    {
+      "en": "I've lost my passport.",
+      "ru": "Я потерял(а) паспорт.",
+      "uz": "Men pasportimni yoʻqotib qoʻydim."
+    },
+    {
+      "en": "My bag has been stolen.",
+      "ru": "У меня украли сумку.",
+      "uz": "Mening sumkam oʻgʻirlandi."
+    },
+    {
+      "en": "Could you call the police?",
+      "ru": "Не могли бы вы вызвать полицию?",
+      "uz": "Politsiyani chaqira olasizmi?"
+    },
+    {
+      "en": "Is there a pharmacy nearby?",
+      "ru": "Рядом есть аптека?",
+      "uz": "Yaqin atrofda dorixona bormi?"
+    },
+    {
+      "en": "I don't feel well.",
+      "ru": "Я плохо себя чувствую.",
+      "uz": "Oʻzimni yaxshi his qilmayapman."
+    },
+    {
+      "en": "Can you help me contact my embassy?",
+      "ru": "Поможете связаться с моим посольством?",
+      "uz": "Elchixonam bilan bogʻlanishga yordam bera olasizmi?"
+    },
+    {
+      "en": "What's the weather like today?",
+      "ru": "Какая сегодня погода?",
+      "uz": "Bugun ob-havo qanday?"
+    },
+    {
+      "en": "It looks like rain.",
+      "ru": "Похоже, будет дождь.",
+      "uz": "Yomgʻir yogʻadiganga oʻxshaydi."
+    },
+    {
+      "en": "It's much colder than I expected.",
+      "ru": "Здесь намного холоднее, чем я ожидал(а).",
+      "uz": "Bu yer men kutganimdan ancha sovuq."
+    },
+    {
+      "en": "Do I need a jacket?",
+      "ru": "Мне нужна куртка?",
+      "uz": "Menga kurtka kerakmi?"
+    },
+    {
+      "en": "It's really hot today.",
+      "ru": "Сегодня очень жарко.",
+      "uz": "Bugun juda issiq."
+    },
+    {
+      "en": "Is it usually windy here?",
+      "ru": "Здесь обычно ветрено?",
+      "uz": "Bu yerda odatda shamol boʻladimi?"
+    },
+    {
+      "en": "I didn't bring an umbrella.",
+      "ru": "Я не взял(а) зонт.",
+      "uz": "Men soyabon olmabman."
+    },
+    {
+      "en": "Where can I buy a warm sweater?",
+      "ru": "Где можно купить тёплый свитер?",
+      "uz": "Issiq svitarni qayerdan sotib olsam boʻladi?"
+    },
+    {
+      "en": "The weather is perfect for walking.",
+      "ru": "Погода идеальна для прогулки.",
+      "uz": "Sayr qilish uchun ob-havo ideal."
+    },
+    {
+      "en": "Is the forecast reliable?",
+      "ru": "Прогноз погоды точный?",
+      "uz": "Ob-havo bashorati ishonchlimi?"
+    },
+    {
+      "en": "Is this your first time here?",
+      "ru": "Вы здесь впервые?",
+      "uz": "Bu yerga birinchi marta kelyapsizmi?"
+    },
+    {
+      "en": "Where are you travelling from?",
+      "ru": "Откуда вы приехали?",
+      "uz": "Qayerdan kelyapsiz?"
+    },
+    {
+      "en": "Are you travelling alone?",
+      "ru": "Вы путешествуете один / одна?",
+      "uz": "Yolgʻiz sayohat qilyapsizmi?"
+    },
+    {
+      "en": "How long are you staying?",
+      "ru": "Как долго вы здесь останетесь?",
+      "uz": "Qancha vaqt qolasiz?"
+    },
+    {
+      "en": "Have you visited this place before?",
+      "ru": "Вы уже посещали это место?",
+      "uz": "Bu joyga avval kelganmidingiz?"
+    },
+    {
+      "en": "Do you know any good local restaurants?",
+      "ru": "Вы знаете хорошие местные рестораны?",
+      "uz": "Yaxshi mahalliy restoranlarni bilasizmi?"
+    },
+    {
+      "en": "Would you mind taking a photo?",
+      "ru": "Не могли бы вы сделать фото?",
+      "uz": "Surat olib bera olasizmi?"
+    },
+    {
+      "en": "It's been nice talking to you.",
+      "ru": "Было приятно с вами поговорить.",
+      "uz": "Siz bilan suhbatlashganim yoqdi."
+    },
+    {
+      "en": "Enjoy the rest of your trip.",
+      "ru": "Приятного продолжения поездки.",
+      "uz": "Sayohatingizning qolgan qismi yaxshi oʻtsin."
+    },
+    {
+      "en": "Have a safe journey.",
+      "ru": "Счастливого пути.",
+      "uz": "Yoʻlingiz bexatar boʻlsin."
+    },
+    {
+      "en": "I can't find my reservation.",
+      "ru": "Я не могу найти своё бронирование.",
+      "uz": "Men bronimni topa olmayapman."
+    },
+    {
+      "en": "The booking is under my name.",
+      "ru": "Бронирование оформлено на моё имя.",
+      "uz": "Bron mening ismimga rasmiylashtirilgan."
+    },
+    {
+      "en": "I booked the wrong date.",
+      "ru": "Я забронировал(а) неправильную дату.",
+      "uz": "Men notoʻgʻri sanani band qilibman."
+    },
+    {
+      "en": "Could you change my room?",
+      "ru": "Не могли бы вы поменять мой номер?",
+      "uz": "Xonamni almashtira olasizmi?"
+    },
+    {
+      "en": "I was charged more than expected.",
+      "ru": "С меня взяли больше, чем я ожидал(а).",
+      "uz": "Mendan kutganimdan koʻproq pul olindi."
+    },
+    {
+      "en": "My reservation has been cancelled.",
+      "ru": "Моё бронирование отменили.",
+      "uz": "Mening bronim bekor qilinibdi."
+    },
+    {
+      "en": "Could you check the booking details?",
+      "ru": "Не могли бы вы проверить детали бронирования?",
+      "uz": "Bron tafsilotlarini tekshira olasizmi?"
+    },
+    {
+      "en": "I didn't receive a confirmation email.",
+      "ru": "Я не получил(а) письмо с подтверждением.",
+      "uz": "Men tasdiqlovchi xat olmadim."
+    },
+    {
+      "en": "What are my options?",
+      "ru": "Какие у меня есть варианты?",
+      "uz": "Mening qanday imkoniyatlarim bor?"
+    },
+    {
+      "en": "Could you help me sort this out?",
+      "ru": "Не могли бы вы помочь мне с этим разобраться?",
+      "uz": "Buni hal qilishga yordam bera olasizmi?"
+    },
+    {
+      "en": "Is there a hiking trail nearby?",
+      "ru": "Рядом есть туристическая тропа?",
+      "uz": "Yaqin atrofda piyoda yurish soʻqmogʻi bormi?"
+    },
+    {
+      "en": "How difficult is the route?",
+      "ru": "Насколько сложный маршрут?",
+      "uz": "Yoʻnalish qanchalik qiyin?"
+    },
+    {
+      "en": "How long does the hike take?",
+      "ru": "Сколько времени занимает поход?",
+      "uz": "Yurish qancha vaqt oladi?"
+    },
+    {
+      "en": "Do I need special equipment?",
+      "ru": "Мне нужно специальное снаряжение?",
+      "uz": "Menga maxsus jihoz kerakmi?"
+    },
+    {
+      "en": "Is it safe to swim here?",
+      "ru": "Здесь безопасно плавать?",
+      "uz": "Bu yerda suzish xavfsizmi?"
+    },
+    {
+      "en": "Where can we rent bicycles?",
+      "ru": "Где можно взять велосипеды напрокат?",
+      "uz": "Velosipedlarni qayerdan ijaraga olsak boʻladi?"
+    },
+    {
+      "en": "Let's take a break here.",
+      "ru": "Давайте здесь передохнём.",
+      "uz": "Keling, shu yerda dam olaylik."
+    },
+    {
+      "en": "Don't forget to bring water.",
+      "ru": "Не забудь взять воду.",
+      "uz": "Suv olishni unutmang."
+    },
+    {
+      "en": "What's the best viewpoint?",
+      "ru": "Где лучшая смотровая площадка?",
+      "uz": "Eng yaxshi manzara qayerdan koʻrinadi?"
+    },
+    {
+      "en": "We should head back before dark.",
+      "ru": "Нам стоит вернуться до темноты.",
+      "uz": "Qorongʻi tushmasdan qaytishimiz kerak."
+    },
+    {
+      "en": "What time should we leave?",
+      "ru": "Во сколько нам следует выехать?",
+      "uz": "Soat nechada chiqishimiz kerak?"
+    },
+    {
+      "en": "I need to pack my bags.",
+      "ru": "Мне нужно собрать вещи.",
+      "uz": "Menga yuklarimni yigʻish kerak."
+    },
+    {
+      "en": "Could I leave my luggage here?",
+      "ru": "Можно оставить здесь багаж?",
+      "uz": "Yukimni shu yerda qoldirsam boʻladimi?"
+    },
+    {
+      "en": "Where is the departure entrance?",
+      "ru": "Где вход на отправление?",
+      "uz": "Joʻnash kirish joyi qayerda?"
+    },
+    {
+      "en": "I need to get to the station.",
+      "ru": "Мне нужно добраться до станции.",
+      "uz": "Menga bekatga yetib borish kerak."
+    },
+    {
+      "en": "Is there a shuttle to the airport?",
+      "ru": "Есть шаттл до аэропорта?",
+      "uz": "Aeroportga shattl bormi?"
+    },
+    {
+      "en": "I had a wonderful time.",
+      "ru": "Я прекрасно провёл / провела время.",
+      "uz": "Men ajoyib vaqt oʻtkazdim."
+    },
+    {
+      "en": "I'll definitely come back.",
+      "ru": "Я обязательно вернусь.",
+      "uz": "Men albatta yana kelaman."
+    },
+    {
+      "en": "Thanks for making this trip special.",
+      "ru": "Спасибо, что сделали эту поездку особенной.",
+      "uz": "Bu sayohatni alohida qilganingiz uchun rahmat."
+    },
+    {
+      "en": "I'm ready to head home.",
+      "ru": "Я готов(а) отправляться домой.",
+      "uz": "Men uyga qaytishga tayyorman."
+    }
+  ]
+}
