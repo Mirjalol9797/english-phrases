@@ -70,11 +70,13 @@
       "kind": "phrases",
       "title": {
         "en": "Opinions & Feelings",
-        "ru": "Мнения и чувства"
+        "ru": "Мнения и чувства",
+        "uz": "Fikr va his-tuygʻular"
       },
       "file": "chapters/opinions-feelings.json",
       "lessonCount": 20,
-      "phraseCount": 200
+      "phraseCount": 200,
+      "translatedUz": true
     },
     {
       "id": "phone-messaging",

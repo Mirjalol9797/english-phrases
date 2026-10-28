@@ -1,0 +1,1029 @@
+{
+  "chapter": "opinions-feelings",
+  "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Fikr va his-tuygʻular",
+  "lessons": {
+    "Выражение мнения": "Fikr bildirish",
+    "Согласие с мнением": "Fikrga qoʻshilish",
+    "Вежливое несогласие": "Xushmuomala rad etish",
+    "Счастье и радость": "Baxt va quvonch",
+    "Грусть и разочарование": "Gʻamginlik va hafsala pirligi",
+    "Тревога и стресс": "Xavotir va asabiylik",
+    "Уверенность и мотивация": "Ishonch va ragʻbat",
+    "Нравится и предпочтения": "Yoqish va afzalliklar",
+    "Удивление и растерянность": "Hayrat va dovdirash",
+    "Сочувствие и сопереживание": "Hamdardlik va hamdardlik bildirish",
+    "Раздражение и злость": "Asabiylashish va gʻazab",
+    "Облегчение и благодарность": "Yengillik va minnatdorchilik",
+    "Надежда и неопределённость": "Umid va noaniqlik",
+    "Сожаление и размышления": "Afsus va mushohada",
+    "Личные границы и потребности": "Shaxsiy chegaralar va ehtiyojlar",
+    "Описание настроения": "Kayfiyatni tasvirlash",
+    "Оценка ситуаций": "Vaziyatlarga baho berish",
+    "Поддержка других": "Boshqalarni qoʻllab-quvvatlash",
+    "Личные ценности": "Shaxsiy qadriyatlar",
+    "Смешанные чувства": "Qorishiq tuygʻular"
+  },
+  "entries": [
+    {
+      "en": "I think...",
+      "ru": "Я думаю...",
+      "uz": "Menimcha..."
+    },
+    {
+      "en": "In my opinion...",
+      "ru": "По моему мнению...",
+      "uz": "Mening fikrimcha..."
+    },
+    {
+      "en": "Personally, I believe...",
+      "ru": "Лично я считаю...",
+      "uz": "Shaxsan men hisoblaymanki..."
+    },
+    {
+      "en": "As far as I'm concerned...",
+      "ru": "Что касается меня...",
+      "uz": "Menga kelsak..."
+    },
+    {
+      "en": "The way I see it...",
+      "ru": "На мой взгляд...",
+      "uz": "Mening nazarimda..."
+    },
+    {
+      "en": "If you ask me...",
+      "ru": "Если спросишь меня...",
+      "uz": "Mendan soʻrasangiz..."
+    },
+    {
+      "en": "From my point of view...",
+      "ru": "С моей точки зрения...",
+      "uz": "Mening nuqtayi nazarimdan..."
+    },
+    {
+      "en": "I tend to think that...",
+      "ru": "Я склонен / склонна думать, что...",
+      "uz": "Men shunday oʻylashga moyilman..."
+    },
+    {
+      "en": "My feeling is that...",
+      "ru": "У меня такое ощущение, что...",
+      "uz": "Menda shunday tuygʻu borki..."
+    },
+    {
+      "en": "I'd say that...",
+      "ru": "Я бы сказал(а), что...",
+      "uz": "Men shuni aytgan boʻlardimki..."
+    },
+    {
+      "en": "I completely agree.",
+      "ru": "Я полностью согласен / согласна.",
+      "uz": "Men toʻliq roziman."
+    },
+    {
+      "en": "That's exactly how I feel.",
+      "ru": "Я чувствую точно так же.",
+      "uz": "Men ham xuddi shunday his qilyapman."
+    },
+    {
+      "en": "You've put it perfectly.",
+      "ru": "Ты прекрасно это выразил(а).",
+      "uz": "Siz buni juda yaxshi ifodaladingiz."
+    },
+    {
+      "en": "I couldn't agree more.",
+      "ru": "Полностью согласен / согласна.",
+      "uz": "Bundan koʻra koʻproq rozi boʻla olmasdim."
+    },
+    {
+      "en": "I feel the same way.",
+      "ru": "Я чувствую то же самое.",
+      "uz": "Men ham xuddi shunday his qilyapman."
+    },
+    {
+      "en": "That's a very good point.",
+      "ru": "Это очень хорошее замечание.",
+      "uz": "Bu juda yaxshi fikr."
+    },
+    {
+      "en": "I was thinking the same thing.",
+      "ru": "Я думал(а) о том же.",
+      "uz": "Men ham shu haqda oʻylayotgandim."
+    },
+    {
+      "en": "You've got that right.",
+      "ru": "Ты совершенно прав(а).",
+      "uz": "Siz mutlaqo haqsiz."
+    },
+    {
+      "en": "I'm on the same page.",
+      "ru": "Я придерживаюсь того же мнения.",
+      "uz": "Men ham shu fikrdaman."
+    },
+    {
+      "en": "I see it the same way.",
+      "ru": "Я вижу это так же.",
+      "uz": "Men ham buni shunday koʻraman."
+    },
+    {
+      "en": "I see your point, but...",
+      "ru": "Я понимаю твою точку зрения, но...",
+      "uz": "Fikringizni tushunaman, lekin..."
+    },
+    {
+      "en": "I'm not sure I see it that way.",
+      "ru": "Не уверен(а), что вижу это так же.",
+      "uz": "Men buni shunday koʻryapmanmi, bilmadim."
+    },
+    {
+      "en": "I have a slightly different view.",
+      "ru": "У меня немного другое мнение.",
+      "uz": "Mening fikrim biroz boshqacharoq."
+    },
+    {
+      "en": "I respectfully disagree.",
+      "ru": "Позволю себе не согласиться.",
+      "uz": "Hurmat bilan, men rozi emasman."
+    },
+    {
+      "en": "That may be true, but...",
+      "ru": "Возможно, это правда, но...",
+      "uz": "Bu rost boʻlishi mumkin, lekin..."
+    },
+    {
+      "en": "I understand where you're coming from.",
+      "ru": "Я понимаю, почему ты так считаешь.",
+      "uz": "Nega shunday deyayotganingizni tushunaman."
+    },
+    {
+      "en": "I'm afraid I have to disagree.",
+      "ru": "Боюсь, мне придётся не согласиться.",
+      "uz": "Afsuski, men rozi boʻla olmayman."
+    },
+    {
+      "en": "I wouldn't put it that way.",
+      "ru": "Я бы не стал(а) так это формулировать.",
+      "uz": "Men buni bunday ifodalamagan boʻlardim."
+    },
+    {
+      "en": "There may be another way to look at it.",
+      "ru": "Возможно, на это можно посмотреть иначе.",
+      "uz": "Bunga boshqacha qarash ham mumkindir."
+    },
+    {
+      "en": "Let's look at both sides.",
+      "ru": "Давайте рассмотрим обе стороны.",
+      "uz": "Keling, ikkala tomonni ham koʻrib chiqaylik."
+    },
+    {
+      "en": "I'm really happy about it.",
+      "ru": "Я очень этому рад(а).",
+      "uz": "Men bundan juda xursandman."
+    },
+    {
+      "en": "I'm over the moon.",
+      "ru": "Я на седьмом небе от счастья.",
+      "uz": "Men osmonda uchib yuribman."
+    },
+    {
+      "en": "That made my day.",
+      "ru": "Это сделало мой день.",
+      "uz": "Bu kunimni yorugʻ qildi."
+    },
+    {
+      "en": "I'm so excited!",
+      "ru": "Я так рад(а)!",
+      "uz": "Men juda hayajondaman!"
+    },
+    {
+      "en": "I couldn't be happier.",
+      "ru": "Я не могу быть счастливее.",
+      "uz": "Bundan koʻra baxtliroq boʻla olmasdim."
+    },
+    {
+      "en": "I'm thrilled about the news.",
+      "ru": "Я в восторге от этой новости.",
+      "uz": "Men bu yangilikdan juda xursandman."
+    },
+    {
+      "en": "What a wonderful surprise!",
+      "ru": "Какой чудесный сюрприз!",
+      "uz": "Qanday ajoyib kutilmagan hodisa!"
+    },
+    {
+      "en": "I'm glad it worked out.",
+      "ru": "Я рад(а), что всё получилось.",
+      "uz": "Hammasi yaxshi tugaganidan xursandman."
+    },
+    {
+      "en": "I'm pleased with the result.",
+      "ru": "Я доволен / довольна результатом.",
+      "uz": "Men natijadan mamnunman."
+    },
+    {
+      "en": "This is exactly what I hoped for.",
+      "ru": "Это именно то, на что я надеялся / надеялась.",
+      "uz": "Bu aynan men umid qilgan narsa."
+    },
+    {
+      "en": "I'm feeling a bit down.",
+      "ru": "Я немного подавлен(а).",
+      "uz": "Kayfiyatim biroz tushib ketdi."
+    },
+    {
+      "en": "That's disappointing.",
+      "ru": "Это разочаровывает.",
+      "uz": "Bu hafsalani pir qiladi."
+    },
+    {
+      "en": "I was hoping for something else.",
+      "ru": "Я надеялся / надеялась на другое.",
+      "uz": "Men boshqacha boʻlishiga umid qilgandim."
+    },
+    {
+      "en": "I'm really upset about it.",
+      "ru": "Я очень расстроен(а) из-за этого.",
+      "uz": "Men bundan juda xafaman."
+    },
+    {
+      "en": "It's hard to accept.",
+      "ru": "Это трудно принять.",
+      "uz": "Buni qabul qilish qiyin."
+    },
+    {
+      "en": "I wish things were different.",
+      "ru": "Жаль, что всё не иначе.",
+      "uz": "Hammasi boshqacha boʻlganida edi."
+    },
+    {
+      "en": "That didn't go as I expected.",
+      "ru": "Всё прошло не так, как я ожидал(а).",
+      "uz": "Bu men kutgandek boʻlmadi."
+    },
+    {
+      "en": "I feel let down.",
+      "ru": "Я чувствую себя обманутым / обманутой.",
+      "uz": "Oʻzimni aldangandek his qilyapman."
+    },
+    {
+      "en": "It's a shame it didn't work out.",
+      "ru": "Жаль, что не получилось.",
+      "uz": "Natija chiqmagani achinarli."
+    },
+    {
+      "en": "I need some time to process this.",
+      "ru": "Мне нужно время, чтобы это осмыслить.",
+      "uz": "Buni hazm qilishimga biroz vaqt kerak."
+    },
+    {
+      "en": "I'm a little worried.",
+      "ru": "Я немного волнуюсь.",
+      "uz": "Men biroz xavotirdaman."
+    },
+    {
+      "en": "This is stressing me out.",
+      "ru": "Это вызывает у меня стресс.",
+      "uz": "Bu meni asabiylashtiryapti."
+    },
+    {
+      "en": "I have a lot on my mind.",
+      "ru": "У меня много мыслей и забот.",
+      "uz": "Boshimda oʻy koʻp."
+    },
+    {
+      "en": "I'm feeling overwhelmed.",
+      "ru": "Я чувствую себя перегруженным / перегруженной.",
+      "uz": "Oʻzimni holdan toygandek his qilyapman."
+    },
+    {
+      "en": "I'm not sure what to do.",
+      "ru": "Я не знаю, что делать.",
+      "uz": "Nima qilishimni bilmayman."
+    },
+    {
+      "en": "I'm worried about the outcome.",
+      "ru": "Я беспокоюсь об исходе.",
+      "uz": "Natijadan xavotirdaman."
+    },
+    {
+      "en": "I need to clear my head.",
+      "ru": "Мне нужно проветрить голову.",
+      "uz": "Boshimni tiniqlashtirib olishim kerak."
+    },
+    {
+      "en": "It's been a stressful week.",
+      "ru": "Это была напряжённая неделя.",
+      "uz": "Bu hafta sertashvish boʻldi."
+    },
+    {
+      "en": "I'm trying not to overthink it.",
+      "ru": "Я стараюсь не накручивать себя.",
+      "uz": "Buni ortiqcha oʻylamaslikka harakat qilyapman."
+    },
+    {
+      "en": "I hope everything goes smoothly.",
+      "ru": "Надеюсь, всё пройдёт гладко.",
+      "uz": "Umid qilamanki, hammasi silliq oʻtadi."
+    },
+    {
+      "en": "I believe in myself.",
+      "ru": "Я верю в себя.",
+      "uz": "Men oʻzimga ishonaman."
+    },
+    {
+      "en": "I'm ready to give it a try.",
+      "ru": "Я готов(а) попробовать.",
+      "uz": "Men sinab koʻrishga tayyorman."
+    },
+    {
+      "en": "I feel confident about this.",
+      "ru": "Я уверен(а) в этом.",
+      "uz": "Bunga ishonchim komil."
+    },
+    {
+      "en": "I'm determined to succeed.",
+      "ru": "Я полон / полна решимости добиться успеха.",
+      "uz": "Men muvaffaqiyatga erishishga qatʼiy qaror qilganman."
+    },
+    {
+      "en": "I'm making progress.",
+      "ru": "Я продвигаюсь вперёд.",
+      "uz": "Men oldinga siljiyapman."
+    },
+    {
+      "en": "I won't give up easily.",
+      "ru": "Я не сдамся так легко.",
+      "uz": "Men osongina taslim boʻlmayman."
+    },
+    {
+      "en": "I'm proud of how far I've come.",
+      "ru": "Я горжусь тем, как далеко продвинулся / продвинулась.",
+      "uz": "Shu yergacha kelganimdan faxrlanaman."
+    },
+    {
+      "en": "I know I can improve.",
+      "ru": "Я знаю, что могу стать лучше.",
+      "uz": "Men yaxshilanishim mumkinligini bilaman."
+    },
+    {
+      "en": "I'm willing to learn.",
+      "ru": "Я готов(а) учиться.",
+      "uz": "Men oʻrganishga tayyorman."
+    },
+    {
+      "en": "Every step counts.",
+      "ru": "Каждый шаг важен.",
+      "uz": "Har bir qadam muhim."
+    },
+    {
+      "en": "I'm really fond of it.",
+      "ru": "Мне это очень нравится.",
+      "uz": "Bu menga juda yoqadi."
+    },
+    {
+      "en": "It's one of my favourites.",
+      "ru": "Это одно из моих любимых.",
+      "uz": "Bu mening sevimlilarimdan biri."
+    },
+    {
+      "en": "I'm not particularly keen on it.",
+      "ru": "Я не особо этим увлекаюсь.",
+      "uz": "Men bunga unchalik qiziqmayman."
+    },
+    {
+      "en": "I'd much rather do something else.",
+      "ru": "Я бы гораздо больше предпочёл / предпочла заняться чем-то другим.",
+      "uz": "Men boshqa ish bilan shugʻullanishni afzal koʻrardim."
+    },
+    {
+      "en": "It really appeals to me.",
+      "ru": "Это мне очень нравится.",
+      "uz": "Bu meni juda oʻziga tortadi."
+    },
+    {
+      "en": "I'm quite interested in that.",
+      "ru": "Мне это довольно интересно.",
+      "uz": "Bu menga ancha qiziq."
+    },
+    {
+      "en": "It's not really my style.",
+      "ru": "Это не совсем мой стиль.",
+      "uz": "Bu unchalik mening uslubim emas."
+    },
+    {
+      "en": "I have a soft spot for it.",
+      "ru": "У меня к этому особая любовь.",
+      "uz": "Menda bunga alohida mehr bor."
+    },
+    {
+      "en": "I can see the appeal.",
+      "ru": "Я понимаю, чем это привлекает.",
+      "uz": "Nega yoqishini tushunaman."
+    },
+    {
+      "en": "I prefer quality over quantity.",
+      "ru": "Я предпочитаю качество количеству.",
+      "uz": "Men miqdordan koʻra sifatni afzal koʻraman."
+    },
+    {
+      "en": "I didn't expect that at all.",
+      "ru": "Я совсем этого не ожидал(а).",
+      "uz": "Men buni mutlaqo kutmagandim."
+    },
+    {
+      "en": "That caught me off guard.",
+      "ru": "Это застало меня врасплох.",
+      "uz": "Bu men uchun butunlay kutilmagan boʻldi."
+    },
+    {
+      "en": "I'm honestly surprised.",
+      "ru": "Честно говоря, я удивлён(а).",
+      "uz": "Rostini aytsam, hayronman."
+    },
+    {
+      "en": "I'm a bit confused.",
+      "ru": "Я немного растерян(а).",
+      "uz": "Men biroz dovdirab qoldim."
+    },
+    {
+      "en": "I don't know what to make of it.",
+      "ru": "Я не знаю, как к этому относиться.",
+      "uz": "Bunga qanday munosabat bildirishni bilmayman."
+    },
+    {
+      "en": "That came out of nowhere.",
+      "ru": "Это произошло совершенно неожиданно.",
+      "uz": "Bu butunlay kutilmaganda yuz berdi."
+    },
+    {
+      "en": "I'm trying to make sense of it.",
+      "ru": "Я пытаюсь в этом разобраться.",
+      "uz": "Men buni tushunishga harakat qilyapman."
+    },
+    {
+      "en": "I never saw that coming.",
+      "ru": "Я никогда бы этого не ожидал(а).",
+      "uz": "Men buni hech kutmagandim."
+    },
+    {
+      "en": "That's hard to believe.",
+      "ru": "В это трудно поверить.",
+      "uz": "Bunga ishonish qiyin."
+    },
+    {
+      "en": "I'm not sure what to think.",
+      "ru": "Я не знаю, что и думать.",
+      "uz": "Nima deb oʻylashni bilmayman."
+    },
+    {
+      "en": "I'm sorry you're going through this.",
+      "ru": "Мне жаль, что тебе приходится через это проходить.",
+      "uz": "Bunday ahvolga tushganingiz uchun afsusdaman."
+    },
+    {
+      "en": "That sounds really difficult.",
+      "ru": "Звучит действительно непросто.",
+      "uz": "Bu rostdan ham qiyin tuyuladi."
+    },
+    {
+      "en": "I can understand why you feel that way.",
+      "ru": "Я понимаю, почему ты так себя чувствуешь.",
+      "uz": "Nega bunday his qilayotganingizni tushunaman."
+    },
+    {
+      "en": "You have every right to feel that way.",
+      "ru": "Ты вполне вправе так себя чувствовать.",
+      "uz": "Siz bunday his qilishga toʻliq haqlisiz."
+    },
+    {
+      "en": "I'm here if you need to talk.",
+      "ru": "Я рядом, если тебе нужно поговорить.",
+      "uz": "Gaplashish kerak boʻlsa, men yoningizdaman."
+    },
+    {
+      "en": "That must have been upsetting.",
+      "ru": "Это, должно быть, тебя расстроило.",
+      "uz": "Bu sizni xafa qilgan boʻlsa kerak."
+    },
+    {
+      "en": "I can imagine how hard that is.",
+      "ru": "Могу представить, как это тяжело.",
+      "uz": "Bu qanchalik ogʻir ekanini tasavvur qila olaman."
+    },
+    {
+      "en": "You don't have to handle it alone.",
+      "ru": "Тебе не нужно справляться с этим в одиночку.",
+      "uz": "Bunga yolgʻiz oʻzingiz bardosh berishingiz shart emas."
+    },
+    {
+      "en": "I hope things get easier soon.",
+      "ru": "Надеюсь, скоро станет легче.",
+      "uz": "Umid qilamanki, tez orada yengillashadi."
+    },
+    {
+      "en": "I'm thinking of you.",
+      "ru": "Я думаю о тебе.",
+      "uz": "Men siz haqingizda oʻylayapman."
+    },
+    {
+      "en": "I'm getting frustrated.",
+      "ru": "Я начинаю раздражаться.",
+      "uz": "Asabim buzila boshladi."
+    },
+    {
+      "en": "This is really annoying.",
+      "ru": "Это действительно раздражает.",
+      "uz": "Bu rostdan ham asabni buzadi."
+    },
+    {
+      "en": "I've had enough of this.",
+      "ru": "С меня хватит.",
+      "uz": "Menga shuncha yetadi."
+    },
+    {
+      "en": "I'm upset about what happened.",
+      "ru": "Я расстроен(а) из-за произошедшего.",
+      "uz": "Men boʻlgan voqeadan xafaman."
+    },
+    {
+      "en": "That wasn't fair.",
+      "ru": "Это было несправедливо.",
+      "uz": "Bu adolatdan emas edi."
+    },
+    {
+      "en": "I need a moment to cool off.",
+      "ru": "Мне нужно немного времени, чтобы остыть.",
+      "uz": "Menga sovib olish uchun bir oz vaqt kerak."
+    },
+    {
+      "en": "I don't appreciate being treated like that.",
+      "ru": "Мне не нравится, когда со мной так обращаются.",
+      "uz": "Men bilan bunday muomala qilinishi menga yoqmaydi."
+    },
+    {
+      "en": "This is not what we agreed on.",
+      "ru": "Мы договаривались не об этом.",
+      "uz": "Biz bunga kelishmagan edik."
+    },
+    {
+      "en": "I'm trying to stay calm.",
+      "ru": "Я стараюсь сохранять спокойствие.",
+      "uz": "Men xotirjam boʻlishga harakat qilyapman."
+    },
+    {
+      "en": "Let's talk when we've both calmed down.",
+      "ru": "Давай поговорим, когда оба успокоимся.",
+      "uz": "Keling, ikkalamiz ham tinchlanganimizda gaplashaylik."
+    },
+    {
+      "en": "What a relief!",
+      "ru": "Какое облегчение!",
+      "uz": "Qanday yengillik!"
+    },
+    {
+      "en": "I'm so glad that's over.",
+      "ru": "Я так рад(а), что это закончилось.",
+      "uz": "Bu tugaganidan juda xursandman."
+    },
+    {
+      "en": "I can finally relax.",
+      "ru": "Наконец-то я могу расслабиться.",
+      "uz": "Nihoyat dam ola olaman."
+    },
+    {
+      "en": "That takes a weight off my shoulders.",
+      "ru": "С души будто камень упал.",
+      "uz": "Yelkamdan togʻ agʻdarildi."
+    },
+    {
+      "en": "I'm grateful for your support.",
+      "ru": "Я благодарен / благодарна за твою поддержку.",
+      "uz": "Qoʻllab-quvvatlaganingiz uchun minnatdorman."
+    },
+    {
+      "en": "I really appreciate what you did.",
+      "ru": "Я очень ценю то, что ты сделал(а).",
+      "uz": "Qilgan ishingizni juda qadrlayman."
+    },
+    {
+      "en": "I don't know what I'd do without you.",
+      "ru": "Не знаю, что бы я делал(а) без тебя.",
+      "uz": "Siz boʻlmasangiz nima qilardim, bilmayman."
+    },
+    {
+      "en": "That means a lot to me.",
+      "ru": "Это очень много для меня значит.",
+      "uz": "Bu men uchun juda katta maʼnoga ega."
+    },
+    {
+      "en": "I'm thankful things worked out.",
+      "ru": "Я благодарен / благодарна, что всё получилось.",
+      "uz": "Hammasi yaxshi boʻlganidan minnatdorman."
+    },
+    {
+      "en": "I feel much more at ease now.",
+      "ru": "Теперь я чувствую себя гораздо спокойнее.",
+      "uz": "Endi oʻzimni ancha xotirjam his qilyapman."
+    },
+    {
+      "en": "I'm hopeful about the future.",
+      "ru": "Я с надеждой смотрю в будущее.",
+      "uz": "Men kelajakka umid bilan qarayman."
+    },
+    {
+      "en": "Hopefully, it'll work out.",
+      "ru": "Надеюсь, всё получится.",
+      "uz": "Umid qilamanki, hammasi yaxshi boʻladi."
+    },
+    {
+      "en": "I have a good feeling about this.",
+      "ru": "У меня хорошее предчувствие насчёт этого.",
+      "uz": "Menda bu haqda yaxshi tuygʻu bor."
+    },
+    {
+      "en": "Only time will tell.",
+      "ru": "Только время покажет.",
+      "uz": "Buni faqat vaqt koʻrsatadi."
+    },
+    {
+      "en": "I'm keeping my fingers crossed.",
+      "ru": "Надеюсь на лучшее.",
+      "uz": "Yaxshilikka umid qilyapman."
+    },
+    {
+      "en": "I'm not sure how it'll turn out.",
+      "ru": "Я не уверен(а), чем всё закончится.",
+      "uz": "Qanday tugashini bilmayman."
+    },
+    {
+      "en": "Let's hope for the best.",
+      "ru": "Будем надеяться на лучшее.",
+      "uz": "Keling, eng yaxshisiga umid qilaylik."
+    },
+    {
+      "en": "I'm trying to stay positive.",
+      "ru": "Я стараюсь сохранять позитивный настрой.",
+      "uz": "Men ijobiy qarashga harakat qilyapman."
+    },
+    {
+      "en": "Anything is possible.",
+      "ru": "Всё возможно.",
+      "uz": "Hamma narsa mumkin."
+    },
+    {
+      "en": "We'll see what happens.",
+      "ru": "Посмотрим, что будет.",
+      "uz": "Nima boʻlishini koʻramiz."
+    },
+    {
+      "en": "I wish I'd done things differently.",
+      "ru": "Жаль, что я поступил(а) иначе не тогда.",
+      "uz": "Boshqacha qilganimda edi."
+    },
+    {
+      "en": "I regret saying that.",
+      "ru": "Я жалею, что сказал(а) это.",
+      "uz": "Buni aytganimga afsuslanaman."
+    },
+    {
+      "en": "Looking back, I understand now.",
+      "ru": "Оглядываясь назад, теперь я понимаю.",
+      "uz": "Orqaga qarasam, endi tushunaman."
+    },
+    {
+      "en": "I learned my lesson.",
+      "ru": "Я извлёк / извлекла урок.",
+      "uz": "Men saboq oldim."
+    },
+    {
+      "en": "I should have thought it through.",
+      "ru": "Мне следовало всё обдумать.",
+      "uz": "Yaxshilab oʻylab koʻrishim kerak edi."
+    },
+    {
+      "en": "I don't want to make the same mistake.",
+      "ru": "Я не хочу повторять ту же ошибку.",
+      "uz": "Men oʻsha xatoni takrorlashni xohlamayman."
+    },
+    {
+      "en": "There's no point dwelling on it.",
+      "ru": "Нет смысла зацикливаться на этом.",
+      "uz": "Bunga oʻralashib qolishning maʼnosi yoʻq."
+    },
+    {
+      "en": "I could have handled it better.",
+      "ru": "Я мог(ла) бы справиться с этим лучше.",
+      "uz": "Men bu bilan yaxshiroq ish tutishim mumkin edi."
+    },
+    {
+      "en": "I need to forgive myself.",
+      "ru": "Мне нужно простить себя.",
+      "uz": "Men oʻzimni kechirishim kerak."
+    },
+    {
+      "en": "At least I know better now.",
+      "ru": "По крайней мере, теперь я знаю лучше.",
+      "uz": "Hech boʻlmasa endi bilib oldim."
+    },
+    {
+      "en": "I need some time to myself.",
+      "ru": "Мне нужно немного побыть одному / одной.",
+      "uz": "Menga bir oz yolgʻiz qolish kerak."
+    },
+    {
+      "en": "I'm not comfortable with that.",
+      "ru": "Мне это некомфортно.",
+      "uz": "Men bundan noqulay ahvoldaman."
+    },
+    {
+      "en": "I'd rather not talk about it.",
+      "ru": "Я бы предпочёл / предпочла не говорить об этом.",
+      "uz": "Bu haqda gaplashmasam deyman."
+    },
+    {
+      "en": "I need a little space.",
+      "ru": "Мне нужно немного личного пространства.",
+      "uz": "Menga bir oz shaxsiy makon kerak."
+    },
+    {
+      "en": "Please respect my decision.",
+      "ru": "Пожалуйста, уважай моё решение.",
+      "uz": "Iltimos, qarorimni hurmat qiling."
+    },
+    {
+      "en": "I'm not ready to discuss this.",
+      "ru": "Я пока не готов(а) это обсуждать.",
+      "uz": "Men buni muhokama qilishga tayyor emasman."
+    },
+    {
+      "en": "I need to focus on myself.",
+      "ru": "Мне нужно сосредоточиться на себе.",
+      "uz": "Men oʻzimga eʼtibor qaratishim kerak."
+    },
+    {
+      "en": "That doesn't work for me.",
+      "ru": "Меня это не устраивает.",
+      "uz": "Bu menga toʻgʻri kelmaydi."
+    },
+    {
+      "en": "I'd appreciate some honesty.",
+      "ru": "Я был(а) бы признателен / признательна за честность.",
+      "uz": "Samimiylik uchun minnatdor boʻlardim."
+    },
+    {
+      "en": "I want to be clear about how I feel.",
+      "ru": "Я хочу ясно объяснить, что чувствую.",
+      "uz": "Nima his qilayotganimni aniq aytmoqchiman."
+    },
+    {
+      "en": "I'm in a great mood.",
+      "ru": "У меня отличное настроение.",
+      "uz": "Kayfiyatim ajoyib."
+    },
+    {
+      "en": "I'm not feeling myself today.",
+      "ru": "Сегодня я сам(а) не свой / не своя.",
+      "uz": "Bugun oʻzimni oʻzimdek his qilmayapman."
+    },
+    {
+      "en": "I'm feeling a bit off.",
+      "ru": "Я чувствую себя немного не в своей тарелке.",
+      "uz": "Oʻzimni biroz gʻalati his qilyapman."
+    },
+    {
+      "en": "I'm in two minds about it.",
+      "ru": "Я сомневаюсь, как поступить.",
+      "uz": "Qanday qilishni bilmay ikkilanyapman."
+    },
+    {
+      "en": "I'm feeling optimistic.",
+      "ru": "Я настроен(а) оптимистично.",
+      "uz": "Men umidvorman."
+    },
+    {
+      "en": "I'm in a reflective mood.",
+      "ru": "Я настроен(а) на размышления.",
+      "uz": "Men mushohadaga berilgan kayfiyatdaman."
+    },
+    {
+      "en": "I'm feeling restless.",
+      "ru": "Мне не сидится на месте.",
+      "uz": "Oʻzimni qoʻyarga joy topa olmayapman."
+    },
+    {
+      "en": "I'm in a better place now.",
+      "ru": "Сейчас моё состояние намного лучше.",
+      "uz": "Hozir ahvolim ancha yaxshi."
+    },
+    {
+      "en": "I'm emotionally drained.",
+      "ru": "Я эмоционально истощён(а).",
+      "uz": "Men ruhan holdan toyganman."
+    },
+    {
+      "en": "I'm feeling recharged.",
+      "ru": "Я чувствую, что восстановил(а) силы.",
+      "uz": "Oʻzimni tetiklashgandek his qilyapman."
+    },
+    {
+      "en": "That seems reasonable.",
+      "ru": "Это кажется разумным.",
+      "uz": "Bu maʼqul koʻrinadi."
+    },
+    {
+      "en": "I find that hard to accept.",
+      "ru": "Мне трудно это принять.",
+      "uz": "Buni qabul qilish menga qiyin."
+    },
+    {
+      "en": "It doesn't feel right to me.",
+      "ru": "Мне кажется, это неправильно.",
+      "uz": "Menga bu notoʻgʻridek tuyuladi."
+    },
+    {
+      "en": "That's a fair assessment.",
+      "ru": "Это справедливая оценка.",
+      "uz": "Bu adolatli baho."
+    },
+    {
+      "en": "I think it's worth the risk.",
+      "ru": "Думаю, риск того стоит.",
+      "uz": "Menimcha, bu tavakkalga arziydi."
+    },
+    {
+      "en": "I'm not convinced it's necessary.",
+      "ru": "Я не уверен(а), что это необходимо.",
+      "uz": "Bu zarur ekaniga ishonchim komil emas."
+    },
+    {
+      "en": "That sounds promising.",
+      "ru": "Это звучит многообещающе.",
+      "uz": "Bu umidli tuyuladi."
+    },
+    {
+      "en": "I see a few potential problems.",
+      "ru": "Я вижу несколько возможных проблем.",
+      "uz": "Men bir nechta mumkin boʻlgan muammoni koʻryapman."
+    },
+    {
+      "en": "It could go either way.",
+      "ru": "Всё может сложиться по-разному.",
+      "uz": "Bu u yoqqa ham, bu yoqqa ham burilishi mumkin."
+    },
+    {
+      "en": "Overall, I'm satisfied with it.",
+      "ru": "В целом я этим доволен / довольна.",
+      "uz": "Umuman olganda, men bundan mamnunman."
+    },
+    {
+      "en": "I know you've got this.",
+      "ru": "Я знаю, что у тебя всё получится.",
+      "uz": "Bilaman, sizning qoʻlingizdan keladi."
+    },
+    {
+      "en": "You should give yourself credit.",
+      "ru": "Тебе стоит отдать себе должное.",
+      "uz": "Oʻzingizga ham haqqingizni berishingiz kerak."
+    },
+    {
+      "en": "You've come a long way.",
+      "ru": "Ты далеко продвинулся / продвинулась.",
+      "uz": "Siz uzoq yoʻlni bosib oʻtdingiz."
+    },
+    {
+      "en": "Don't be too hard on yourself.",
+      "ru": "Не будь слишком строг(а) к себе.",
+      "uz": "Oʻzingizga haddan tashqari qattiqqoʻllik qilmang."
+    },
+    {
+      "en": "It's okay to make mistakes.",
+      "ru": "Ошибаться — это нормально.",
+      "uz": "Xato qilish normal holat."
+    },
+    {
+      "en": "I'm proud of your effort.",
+      "ru": "Я горжусь твоими усилиями.",
+      "uz": "Men sizning sayʼ-harakatingizdan faxrlanaman."
+    },
+    {
+      "en": "You deserve a chance.",
+      "ru": "Ты заслуживаешь шанса.",
+      "uz": "Siz imkoniyatga loyiqsiz."
+    },
+    {
+      "en": "Keep believing in yourself.",
+      "ru": "Продолжай верить в себя.",
+      "uz": "Oʻzingizga ishonishda davom eting."
+    },
+    {
+      "en": "You're doing better than you think.",
+      "ru": "У тебя получается лучше, чем ты думаешь.",
+      "uz": "Sizda oʻzingiz oʻylaganingizdan yaxshiroq chiqyapti."
+    },
+    {
+      "en": "I'm cheering you on.",
+      "ru": "Я болею за тебя.",
+      "uz": "Men sizni qoʻllab-quvvatlayman."
+    },
+    {
+      "en": "Honesty matters to me.",
+      "ru": "Честность для меня важна.",
+      "uz": "Samimiylik men uchun muhim."
+    },
+    {
+      "en": "I value your opinion.",
+      "ru": "Я ценю твоё мнение.",
+      "uz": "Men fikringizni qadrlayman."
+    },
+    {
+      "en": "I'd rather be honest.",
+      "ru": "Я предпочитаю быть честным / честной.",
+      "uz": "Men rostgoʻy boʻlishni afzal koʻraman."
+    },
+    {
+      "en": "Trust takes time to build.",
+      "ru": "Доверие требует времени.",
+      "uz": "Ishonch qurish uchun vaqt kerak."
+    },
+    {
+      "en": "I believe in treating people fairly.",
+      "ru": "Я верю, что с людьми нужно обращаться справедливо.",
+      "uz": "Men odamlarga adolatli munosabatda boʻlish kerak deb hisoblayman."
+    },
+    {
+      "en": "Family comes first for me.",
+      "ru": "Для меня семья на первом месте.",
+      "uz": "Men uchun oila birinchi oʻrinda."
+    },
+    {
+      "en": "I try to keep an open mind.",
+      "ru": "Я стараюсь быть открытым / открытой к разным мнениям.",
+      "uz": "Men turli fikrlarga ochiq boʻlishga harakat qilaman."
+    },
+    {
+      "en": "I stand by my decision.",
+      "ru": "Я придерживаюсь своего решения.",
+      "uz": "Men qarorimda qolaman."
+    },
+    {
+      "en": "It's important to me to keep my word.",
+      "ru": "Для меня важно держать слово.",
+      "uz": "Soʻzimda turish men uchun muhim."
+    },
+    {
+      "en": "I respect people who are genuine.",
+      "ru": "Я уважаю искренних людей.",
+      "uz": "Men samimiy odamlarni hurmat qilaman."
+    },
+    {
+      "en": "I have mixed feelings about it.",
+      "ru": "У меня неоднозначные чувства по этому поводу.",
+      "uz": "Bu haqda fikrim ikkiga boʻlingan."
+    },
+    {
+      "en": "Part of me is excited, but part of me is nervous.",
+      "ru": "Одна часть меня радуется, а другая волнуется.",
+      "uz": "Bir tomonim xursand, ikkinchi tomonim xavotirda."
+    },
+    {
+      "en": "I'm happy, but also a little sad.",
+      "ru": "Я рад(а), но немного грустно.",
+      "uz": "Men xursandman, lekin biroz gʻamginman ham."
+    },
+    {
+      "en": "I don't know whether to laugh or cry.",
+      "ru": "Не знаю, смеяться или плакать.",
+      "uz": "Kulishnimi yoki yigʻlashnimi, bilmayman."
+    },
+    {
+      "en": "It's bittersweet.",
+      "ru": "Это одновременно радостно и грустно.",
+      "uz": "Bu ham shirin, ham achchiq."
+    },
+    {
+      "en": "I'm torn between two choices.",
+      "ru": "Я разрываюсь между двумя вариантами.",
+      "uz": "Men ikki tanlov orasida qolib ketdim."
+    },
+    {
+      "en": "I'm excited and scared at the same time.",
+      "ru": "Я одновременно рад(а) и боюсь.",
+      "uz": "Men bir vaqtning oʻzida ham xursandman, ham qoʻrqyapman."
+    },
+    {
+      "en": "It's hard to explain how I feel.",
+      "ru": "Трудно объяснить, что я чувствую.",
+      "uz": "Nima his qilayotganimni tushuntirish qiyin."
+    },
+    {
+      "en": "I feel relieved but exhausted.",
+      "ru": "Я чувствую облегчение, но при этом истощён(а).",
+      "uz": "Oʻzimni yengil, lekin holdan toygan his qilyapman."
+    },
+    {
+      "en": "I'm still trying to sort out my feelings.",
+      "ru": "Я всё ещё пытаюсь разобраться в своих чувствах.",
+      "uz": "Men hali ham his-tuygʻularimni tartibga solishga harakat qilyapman."
+    }
+  ]
+}

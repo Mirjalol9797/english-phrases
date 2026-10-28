@@ -5,7 +5,8 @@
   "kind": "phrases",
   "title": {
     "en": "Opinions & Feelings",
-    "ru": "Мнения и чувства"
+    "ru": "Мнения и чувства",
+    "uz": "Fikr va his-tuygʻular"
   },
   "lessons": [
     {
@@ -13,58 +14,69 @@
       "order": 1,
       "title": {
         "en": "Giving an opinion",
-        "ru": "Выражение мнения"
+        "ru": "Выражение мнения",
+        "uz": "Fikr bildirish"
       },
       "phrases": [
         {
           "id": "OF001",
           "en": "I think...",
-          "ru": "Я думаю..."
+          "ru": "Я думаю...",
+          "uz": "Menimcha..."
         },
         {
           "id": "OF002",
           "en": "In my opinion...",
-          "ru": "По моему мнению..."
+          "ru": "По моему мнению...",
+          "uz": "Mening fikrimcha..."
         },
         {
           "id": "OF003",
           "en": "Personally, I believe...",
-          "ru": "Лично я считаю..."
+          "ru": "Лично я считаю...",
+          "uz": "Shaxsan men hisoblaymanki..."
         },
         {
           "id": "OF004",
           "en": "As far as I'm concerned...",
-          "ru": "Что касается меня..."
+          "ru": "Что касается меня...",
+          "uz": "Menga kelsak..."
         },
         {
           "id": "OF005",
           "en": "The way I see it...",
-          "ru": "На мой взгляд..."
+          "ru": "На мой взгляд...",
+          "uz": "Mening nazarimda..."
         },
         {
           "id": "OF006",
           "en": "If you ask me...",
-          "ru": "Если спросишь меня..."
+          "ru": "Если спросишь меня...",
+          "uz": "Mendan soʻrasangiz..."
         },
         {
           "id": "OF007",
           "en": "From my point of view...",
-          "ru": "С моей точки зрения..."
+          "ru": "С моей точки зрения...",
+          "uz": "Mening nuqtayi nazarimdan..."
         },
         {
           "id": "OF008",
           "en": "I tend to think that...",
-          "ru": "Я склонен / склонна думать, что..."
+          "ru": "Я склонен / склонна думать, что...",
+          "uz": "Men shunday oʻylashga moyilman..."
         },
         {
           "id": "OF009",
           "en": "My feeling is that...",
-          "ru": "У меня такое ощущение, что..."
+          "ru": "У меня такое ощущение, что...",
+          "uz": "Menda shunday tuygʻu borki..."
         },
         {
           "id": "OF010",
           "en": "I'd say that...",
-          "ru": "Я бы сказал(а), что..."
+          "ru": "Я бы сказал(а), что...",
+          "uz": "Men shuni aytgan boʻlardimki..."
         }
       ]
     },
@@ -73,58 +85,69 @@
       "order": 2,
       "title": {
         "en": "Agreeing with opinions",
-        "ru": "Согласие с мнением"
+        "ru": "Согласие с мнением",
+        "uz": "Fikrga qoʻshilish"
       },
       "phrases": [
         {
           "id": "OF011",
           "en": "I completely agree.",
-          "ru": "Я полностью согласен / согласна."
+          "ru": "Я полностью согласен / согласна.",
+          "uz": "Men toʻliq roziman."
         },
         {
           "id": "OF012",
           "en": "That's exactly how I feel.",
-          "ru": "Я чувствую точно так же."
+          "ru": "Я чувствую точно так же.",
+          "uz": "Men ham xuddi shunday his qilyapman."
         },
         {
           "id": "OF013",
           "en": "You've put it perfectly.",
-          "ru": "Ты прекрасно это выразил(а)."
+          "ru": "Ты прекрасно это выразил(а).",
+          "uz": "Siz buni juda yaxshi ifodaladingiz."
         },
         {
           "id": "OF014",
           "en": "I couldn't agree more.",
-          "ru": "Полностью согласен / согласна."
+          "ru": "Полностью согласен / согласна.",
+          "uz": "Bundan koʻra koʻproq rozi boʻla olmasdim."
         },
         {
           "id": "OF015",
           "en": "I feel the same way.",
-          "ru": "Я чувствую то же самое."
+          "ru": "Я чувствую то же самое.",
+          "uz": "Men ham xuddi shunday his qilyapman."
         },
         {
           "id": "OF016",
           "en": "That's a very good point.",
-          "ru": "Это очень хорошее замечание."
+          "ru": "Это очень хорошее замечание.",
+          "uz": "Bu juda yaxshi fikr."
         },
         {
           "id": "OF017",
           "en": "I was thinking the same thing.",
-          "ru": "Я думал(а) о том же."
+          "ru": "Я думал(а) о том же.",
+          "uz": "Men ham shu haqda oʻylayotgandim."
         },
         {
           "id": "OF018",
           "en": "You've got that right.",
-          "ru": "Ты совершенно прав(а)."
+          "ru": "Ты совершенно прав(а).",
+          "uz": "Siz mutlaqo haqsiz."
         },
         {
           "id": "OF019",
           "en": "I'm on the same page.",
-          "ru": "Я придерживаюсь того же мнения."
+          "ru": "Я придерживаюсь того же мнения.",
+          "uz": "Men ham shu fikrdaman."
         },
         {
           "id": "OF020",
           "en": "I see it the same way.",
-          "ru": "Я вижу это так же."
+          "ru": "Я вижу это так же.",
+          "uz": "Men ham buni shunday koʻraman."
         }
       ]
     },
@@ -133,58 +156,69 @@
       "order": 3,
       "title": {
         "en": "Disagreeing politely",
-        "ru": "Вежливое несогласие"
+        "ru": "Вежливое несогласие",
+        "uz": "Xushmuomala rad etish"
       },
       "phrases": [
         {
           "id": "OF021",
           "en": "I see your point, but...",
-          "ru": "Я понимаю твою точку зрения, но..."
+          "ru": "Я понимаю твою точку зрения, но...",
+          "uz": "Fikringizni tushunaman, lekin..."
         },
         {
           "id": "OF022",
           "en": "I'm not sure I see it that way.",
-          "ru": "Не уверен(а), что вижу это так же."
+          "ru": "Не уверен(а), что вижу это так же.",
+          "uz": "Men buni shunday koʻryapmanmi, bilmadim."
         },
         {
           "id": "OF023",
           "en": "I have a slightly different view.",
-          "ru": "У меня немного другое мнение."
+          "ru": "У меня немного другое мнение.",
+          "uz": "Mening fikrim biroz boshqacharoq."
         },
         {
           "id": "OF024",
           "en": "I respectfully disagree.",
-          "ru": "Позволю себе не согласиться."
+          "ru": "Позволю себе не согласиться.",
+          "uz": "Hurmat bilan, men rozi emasman."
         },
         {
           "id": "OF025",
           "en": "That may be true, but...",
-          "ru": "Возможно, это правда, но..."
+          "ru": "Возможно, это правда, но...",
+          "uz": "Bu rost boʻlishi mumkin, lekin..."
         },
         {
           "id": "OF026",
           "en": "I understand where you're coming from.",
-          "ru": "Я понимаю, почему ты так считаешь."
+          "ru": "Я понимаю, почему ты так считаешь.",
+          "uz": "Nega shunday deyayotganingizni tushunaman."
         },
         {
           "id": "OF027",
           "en": "I'm afraid I have to disagree.",
-          "ru": "Боюсь, мне придётся не согласиться."
+          "ru": "Боюсь, мне придётся не согласиться.",
+          "uz": "Afsuski, men rozi boʻla olmayman."
         },
         {
           "id": "OF028",
           "en": "I wouldn't put it that way.",
-          "ru": "Я бы не стал(а) так это формулировать."
+          "ru": "Я бы не стал(а) так это формулировать.",
+          "uz": "Men buni bunday ifodalamagan boʻlardim."
         },
         {
           "id": "OF029",
           "en": "There may be another way to look at it.",
-          "ru": "Возможно, на это можно посмотреть иначе."
+          "ru": "Возможно, на это можно посмотреть иначе.",
+          "uz": "Bunga boshqacha qarash ham mumkindir."
         },
         {
           "id": "OF030",
           "en": "Let's look at both sides.",
-          "ru": "Давайте рассмотрим обе стороны."
+          "ru": "Давайте рассмотрим обе стороны.",
+          "uz": "Keling, ikkala tomonni ham koʻrib chiqaylik."
         }
       ]
     },
@@ -193,58 +227,69 @@
       "order": 4,
       "title": {
         "en": "Happiness and excitement",
-        "ru": "Счастье и радость"
+        "ru": "Счастье и радость",
+        "uz": "Baxt va quvonch"
       },
       "phrases": [
         {
           "id": "OF031",
           "en": "I'm really happy about it.",
-          "ru": "Я очень этому рад(а)."
+          "ru": "Я очень этому рад(а).",
+          "uz": "Men bundan juda xursandman."
         },
         {
           "id": "OF032",
           "en": "I'm over the moon.",
-          "ru": "Я на седьмом небе от счастья."
+          "ru": "Я на седьмом небе от счастья.",
+          "uz": "Men osmonda uchib yuribman."
         },
         {
           "id": "OF033",
           "en": "That made my day.",
-          "ru": "Это сделало мой день."
+          "ru": "Это сделало мой день.",
+          "uz": "Bu kunimni yorugʻ qildi."
         },
         {
           "id": "OF034",
           "en": "I'm so excited!",
-          "ru": "Я так рад(а)!"
+          "ru": "Я так рад(а)!",
+          "uz": "Men juda hayajondaman!"
         },
         {
           "id": "OF035",
           "en": "I couldn't be happier.",
-          "ru": "Я не могу быть счастливее."
+          "ru": "Я не могу быть счастливее.",
+          "uz": "Bundan koʻra baxtliroq boʻla olmasdim."
         },
         {
           "id": "OF036",
           "en": "I'm thrilled about the news.",
-          "ru": "Я в восторге от этой новости."
+          "ru": "Я в восторге от этой новости.",
+          "uz": "Men bu yangilikdan juda xursandman."
         },
         {
           "id": "OF037",
           "en": "What a wonderful surprise!",
-          "ru": "Какой чудесный сюрприз!"
+          "ru": "Какой чудесный сюрприз!",
+          "uz": "Qanday ajoyib kutilmagan hodisa!"
         },
         {
           "id": "OF038",
           "en": "I'm glad it worked out.",
-          "ru": "Я рад(а), что всё получилось."
+          "ru": "Я рад(а), что всё получилось.",
+          "uz": "Hammasi yaxshi tugaganidan xursandman."
         },
         {
           "id": "OF039",
           "en": "I'm pleased with the result.",
-          "ru": "Я доволен / довольна результатом."
+          "ru": "Я доволен / довольна результатом.",
+          "uz": "Men natijadan mamnunman."
         },
         {
           "id": "OF040",
           "en": "This is exactly what I hoped for.",
-          "ru": "Это именно то, на что я надеялся / надеялась."
+          "ru": "Это именно то, на что я надеялся / надеялась.",
+          "uz": "Bu aynan men umid qilgan narsa."
         }
       ]
     },
@@ -253,58 +298,69 @@
       "order": 5,
       "title": {
         "en": "Sadness and disappointment",
-        "ru": "Грусть и разочарование"
+        "ru": "Грусть и разочарование",
+        "uz": "Gʻamginlik va hafsala pirligi"
       },
       "phrases": [
         {
           "id": "OF041",
           "en": "I'm feeling a bit down.",
-          "ru": "Я немного подавлен(а)."
+          "ru": "Я немного подавлен(а).",
+          "uz": "Kayfiyatim biroz tushib ketdi."
         },
         {
           "id": "OF042",
           "en": "That's disappointing.",
-          "ru": "Это разочаровывает."
+          "ru": "Это разочаровывает.",
+          "uz": "Bu hafsalani pir qiladi."
         },
         {
           "id": "OF043",
           "en": "I was hoping for something else.",
-          "ru": "Я надеялся / надеялась на другое."
+          "ru": "Я надеялся / надеялась на другое.",
+          "uz": "Men boshqacha boʻlishiga umid qilgandim."
         },
         {
           "id": "OF044",
           "en": "I'm really upset about it.",
-          "ru": "Я очень расстроен(а) из-за этого."
+          "ru": "Я очень расстроен(а) из-за этого.",
+          "uz": "Men bundan juda xafaman."
         },
         {
           "id": "OF045",
           "en": "It's hard to accept.",
-          "ru": "Это трудно принять."
+          "ru": "Это трудно принять.",
+          "uz": "Buni qabul qilish qiyin."
         },
         {
           "id": "OF046",
           "en": "I wish things were different.",
-          "ru": "Жаль, что всё не иначе."
+          "ru": "Жаль, что всё не иначе.",
+          "uz": "Hammasi boshqacha boʻlganida edi."
         },
         {
           "id": "OF047",
           "en": "That didn't go as I expected.",
-          "ru": "Всё прошло не так, как я ожидал(а)."
+          "ru": "Всё прошло не так, как я ожидал(а).",
+          "uz": "Bu men kutgandek boʻlmadi."
         },
         {
           "id": "OF048",
           "en": "I feel let down.",
-          "ru": "Я чувствую себя обманутым / обманутой."
+          "ru": "Я чувствую себя обманутым / обманутой.",
+          "uz": "Oʻzimni aldangandek his qilyapman."
         },
         {
           "id": "OF049",
           "en": "It's a shame it didn't work out.",
-          "ru": "Жаль, что не получилось."
+          "ru": "Жаль, что не получилось.",
+          "uz": "Natija chiqmagani achinarli."
         },
         {
           "id": "OF050",
           "en": "I need some time to process this.",
-          "ru": "Мне нужно время, чтобы это осмыслить."
+          "ru": "Мне нужно время, чтобы это осмыслить.",
+          "uz": "Buni hazm qilishimga biroz vaqt kerak."
         }
       ]
     },
@@ -313,58 +369,69 @@
       "order": 6,
       "title": {
         "en": "Worry and stress",
-        "ru": "Тревога и стресс"
+        "ru": "Тревога и стресс",
+        "uz": "Xavotir va asabiylik"
       },
       "phrases": [
         {
           "id": "OF051",
           "en": "I'm a little worried.",
-          "ru": "Я немного волнуюсь."
+          "ru": "Я немного волнуюсь.",
+          "uz": "Men biroz xavotirdaman."
         },
         {
           "id": "OF052",
           "en": "This is stressing me out.",
-          "ru": "Это вызывает у меня стресс."
+          "ru": "Это вызывает у меня стресс.",
+          "uz": "Bu meni asabiylashtiryapti."
         },
         {
           "id": "OF053",
           "en": "I have a lot on my mind.",
-          "ru": "У меня много мыслей и забот."
+          "ru": "У меня много мыслей и забот.",
+          "uz": "Boshimda oʻy koʻp."
         },
         {
           "id": "OF054",
           "en": "I'm feeling overwhelmed.",
-          "ru": "Я чувствую себя перегруженным / перегруженной."
+          "ru": "Я чувствую себя перегруженным / перегруженной.",
+          "uz": "Oʻzimni holdan toygandek his qilyapman."
         },
         {
           "id": "OF055",
           "en": "I'm not sure what to do.",
-          "ru": "Я не знаю, что делать."
+          "ru": "Я не знаю, что делать.",
+          "uz": "Nima qilishimni bilmayman."
         },
         {
           "id": "OF056",
           "en": "I'm worried about the outcome.",
-          "ru": "Я беспокоюсь об исходе."
+          "ru": "Я беспокоюсь об исходе.",
+          "uz": "Natijadan xavotirdaman."
         },
         {
           "id": "OF057",
           "en": "I need to clear my head.",
-          "ru": "Мне нужно проветрить голову."
+          "ru": "Мне нужно проветрить голову.",
+          "uz": "Boshimni tiniqlashtirib olishim kerak."
         },
         {
           "id": "OF058",
           "en": "It's been a stressful week.",
-          "ru": "Это была напряжённая неделя."
+          "ru": "Это была напряжённая неделя.",
+          "uz": "Bu hafta sertashvish boʻldi."
         },
         {
           "id": "OF059",
           "en": "I'm trying not to overthink it.",
-          "ru": "Я стараюсь не накручивать себя."
+          "ru": "Я стараюсь не накручивать себя.",
+          "uz": "Buni ortiqcha oʻylamaslikka harakat qilyapman."
         },
         {
           "id": "OF060",
           "en": "I hope everything goes smoothly.",
-          "ru": "Надеюсь, всё пройдёт гладко."
+          "ru": "Надеюсь, всё пройдёт гладко.",
+          "uz": "Umid qilamanki, hammasi silliq oʻtadi."
         }
       ]
     },
@@ -373,58 +440,69 @@
       "order": 7,
       "title": {
         "en": "Confidence and motivation",
-        "ru": "Уверенность и мотивация"
+        "ru": "Уверенность и мотивация",
+        "uz": "Ishonch va ragʻbat"
       },
       "phrases": [
         {
           "id": "OF061",
           "en": "I believe in myself.",
-          "ru": "Я верю в себя."
+          "ru": "Я верю в себя.",
+          "uz": "Men oʻzimga ishonaman."
         },
         {
           "id": "OF062",
           "en": "I'm ready to give it a try.",
-          "ru": "Я готов(а) попробовать."
+          "ru": "Я готов(а) попробовать.",
+          "uz": "Men sinab koʻrishga tayyorman."
         },
         {
           "id": "OF063",
           "en": "I feel confident about this.",
-          "ru": "Я уверен(а) в этом."
+          "ru": "Я уверен(а) в этом.",
+          "uz": "Bunga ishonchim komil."
         },
         {
           "id": "OF064",
           "en": "I'm determined to succeed.",
-          "ru": "Я полон / полна решимости добиться успеха."
+          "ru": "Я полон / полна решимости добиться успеха.",
+          "uz": "Men muvaffaqiyatga erishishga qatʼiy qaror qilganman."
         },
         {
           "id": "OF065",
           "en": "I'm making progress.",
-          "ru": "Я продвигаюсь вперёд."
+          "ru": "Я продвигаюсь вперёд.",
+          "uz": "Men oldinga siljiyapman."
         },
         {
           "id": "OF066",
           "en": "I won't give up easily.",
-          "ru": "Я не сдамся так легко."
+          "ru": "Я не сдамся так легко.",
+          "uz": "Men osongina taslim boʻlmayman."
         },
         {
           "id": "OF067",
           "en": "I'm proud of how far I've come.",
-          "ru": "Я горжусь тем, как далеко продвинулся / продвинулась."
+          "ru": "Я горжусь тем, как далеко продвинулся / продвинулась.",
+          "uz": "Shu yergacha kelganimdan faxrlanaman."
         },
         {
           "id": "OF068",
           "en": "I know I can improve.",
-          "ru": "Я знаю, что могу стать лучше."
+          "ru": "Я знаю, что могу стать лучше.",
+          "uz": "Men yaxshilanishim mumkinligini bilaman."
         },
         {
           "id": "OF069",
           "en": "I'm willing to learn.",
-          "ru": "Я готов(а) учиться."
+          "ru": "Я готов(а) учиться.",
+          "uz": "Men oʻrganishga tayyorman."
         },
         {
           "id": "OF070",
           "en": "Every step counts.",
-          "ru": "Каждый шаг важен."
+          "ru": "Каждый шаг важен.",
+          "uz": "Har bir qadam muhim."
         }
       ]
     },
@@ -433,58 +511,69 @@
       "order": 8,
       "title": {
         "en": "Likes and preferences",
-        "ru": "Нравится и предпочтения"
+        "ru": "Нравится и предпочтения",
+        "uz": "Yoqish va afzalliklar"
       },
       "phrases": [
         {
           "id": "OF071",
           "en": "I'm really fond of it.",
-          "ru": "Мне это очень нравится."
+          "ru": "Мне это очень нравится.",
+          "uz": "Bu menga juda yoqadi."
         },
         {
           "id": "OF072",
           "en": "It's one of my favourites.",
-          "ru": "Это одно из моих любимых."
+          "ru": "Это одно из моих любимых.",
+          "uz": "Bu mening sevimlilarimdan biri."
         },
         {
           "id": "OF073",
           "en": "I'm not particularly keen on it.",
-          "ru": "Я не особо этим увлекаюсь."
+          "ru": "Я не особо этим увлекаюсь.",
+          "uz": "Men bunga unchalik qiziqmayman."
         },
         {
           "id": "OF074",
           "en": "I'd much rather do something else.",
-          "ru": "Я бы гораздо больше предпочёл / предпочла заняться чем-то другим."
+          "ru": "Я бы гораздо больше предпочёл / предпочла заняться чем-то другим.",
+          "uz": "Men boshqa ish bilan shugʻullanishni afzal koʻrardim."
         },
         {
           "id": "OF075",
           "en": "It really appeals to me.",
-          "ru": "Это мне очень нравится."
+          "ru": "Это мне очень нравится.",
+          "uz": "Bu meni juda oʻziga tortadi."
         },
         {
           "id": "OF076",
           "en": "I'm quite interested in that.",
-          "ru": "Мне это довольно интересно."
+          "ru": "Мне это довольно интересно.",
+          "uz": "Bu menga ancha qiziq."
         },
         {
           "id": "OF077",
           "en": "It's not really my style.",
-          "ru": "Это не совсем мой стиль."
+          "ru": "Это не совсем мой стиль.",
+          "uz": "Bu unchalik mening uslubim emas."
         },
         {
           "id": "OF078",
           "en": "I have a soft spot for it.",
-          "ru": "У меня к этому особая любовь."
+          "ru": "У меня к этому особая любовь.",
+          "uz": "Menda bunga alohida mehr bor."
         },
         {
           "id": "OF079",
           "en": "I can see the appeal.",
-          "ru": "Я понимаю, чем это привлекает."
+          "ru": "Я понимаю, чем это привлекает.",
+          "uz": "Nega yoqishini tushunaman."
         },
         {
           "id": "OF080",
           "en": "I prefer quality over quantity.",
-          "ru": "Я предпочитаю качество количеству."
+          "ru": "Я предпочитаю качество количеству.",
+          "uz": "Men miqdordan koʻra sifatni afzal koʻraman."
         }
       ]
     },
@@ -493,58 +582,69 @@
       "order": 9,
       "title": {
         "en": "Surprise and confusion",
-        "ru": "Удивление и растерянность"
+        "ru": "Удивление и растерянность",
+        "uz": "Hayrat va dovdirash"
       },
       "phrases": [
         {
           "id": "OF081",
           "en": "I didn't expect that at all.",
-          "ru": "Я совсем этого не ожидал(а)."
+          "ru": "Я совсем этого не ожидал(а).",
+          "uz": "Men buni mutlaqo kutmagandim."
         },
         {
           "id": "OF082",
           "en": "That caught me off guard.",
-          "ru": "Это застало меня врасплох."
+          "ru": "Это застало меня врасплох.",
+          "uz": "Bu men uchun butunlay kutilmagan boʻldi."
         },
         {
           "id": "OF083",
           "en": "I'm honestly surprised.",
-          "ru": "Честно говоря, я удивлён(а)."
+          "ru": "Честно говоря, я удивлён(а).",
+          "uz": "Rostini aytsam, hayronman."
         },
         {
           "id": "OF084",
           "en": "I'm a bit confused.",
-          "ru": "Я немного растерян(а)."
+          "ru": "Я немного растерян(а).",
+          "uz": "Men biroz dovdirab qoldim."
         },
         {
           "id": "OF085",
           "en": "I don't know what to make of it.",
-          "ru": "Я не знаю, как к этому относиться."
+          "ru": "Я не знаю, как к этому относиться.",
+          "uz": "Bunga qanday munosabat bildirishni bilmayman."
         },
         {
           "id": "OF086",
           "en": "That came out of nowhere.",
-          "ru": "Это произошло совершенно неожиданно."
+          "ru": "Это произошло совершенно неожиданно.",
+          "uz": "Bu butunlay kutilmaganda yuz berdi."
         },
         {
           "id": "OF087",
           "en": "I'm trying to make sense of it.",
-          "ru": "Я пытаюсь в этом разобраться."
+          "ru": "Я пытаюсь в этом разобраться.",
+          "uz": "Men buni tushunishga harakat qilyapman."
         },
         {
           "id": "OF088",
           "en": "I never saw that coming.",
-          "ru": "Я никогда бы этого не ожидал(а)."
+          "ru": "Я никогда бы этого не ожидал(а).",
+          "uz": "Men buni hech kutmagandim."
         },
         {
           "id": "OF089",
           "en": "That's hard to believe.",
-          "ru": "В это трудно поверить."
+          "ru": "В это трудно поверить.",
+          "uz": "Bunga ishonish qiyin."
         },
         {
           "id": "OF090",
           "en": "I'm not sure what to think.",
-          "ru": "Я не знаю, что и думать."
+          "ru": "Я не знаю, что и думать.",
+          "uz": "Nima deb oʻylashni bilmayman."
         }
       ]
     },
@@ -553,58 +653,69 @@
       "order": 10,
       "title": {
         "en": "Sympathy and empathy",
-        "ru": "Сочувствие и сопереживание"
+        "ru": "Сочувствие и сопереживание",
+        "uz": "Hamdardlik va hamdardlik bildirish"
       },
       "phrases": [
         {
           "id": "OF091",
           "en": "I'm sorry you're going through this.",
-          "ru": "Мне жаль, что тебе приходится через это проходить."
+          "ru": "Мне жаль, что тебе приходится через это проходить.",
+          "uz": "Bunday ahvolga tushganingiz uchun afsusdaman."
         },
         {
           "id": "OF092",
           "en": "That sounds really difficult.",
-          "ru": "Звучит действительно непросто."
+          "ru": "Звучит действительно непросто.",
+          "uz": "Bu rostdan ham qiyin tuyuladi."
         },
         {
           "id": "OF093",
           "en": "I can understand why you feel that way.",
-          "ru": "Я понимаю, почему ты так себя чувствуешь."
+          "ru": "Я понимаю, почему ты так себя чувствуешь.",
+          "uz": "Nega bunday his qilayotganingizni tushunaman."
         },
         {
           "id": "OF094",
           "en": "You have every right to feel that way.",
-          "ru": "Ты вполне вправе так себя чувствовать."
+          "ru": "Ты вполне вправе так себя чувствовать.",
+          "uz": "Siz bunday his qilishga toʻliq haqlisiz."
         },
         {
           "id": "OF095",
           "en": "I'm here if you need to talk.",
-          "ru": "Я рядом, если тебе нужно поговорить."
+          "ru": "Я рядом, если тебе нужно поговорить.",
+          "uz": "Gaplashish kerak boʻlsa, men yoningizdaman."
         },
         {
           "id": "OF096",
           "en": "That must have been upsetting.",
-          "ru": "Это, должно быть, тебя расстроило."
+          "ru": "Это, должно быть, тебя расстроило.",
+          "uz": "Bu sizni xafa qilgan boʻlsa kerak."
         },
         {
           "id": "OF097",
           "en": "I can imagine how hard that is.",
-          "ru": "Могу представить, как это тяжело."
+          "ru": "Могу представить, как это тяжело.",
+          "uz": "Bu qanchalik ogʻir ekanini tasavvur qila olaman."
         },
         {
           "id": "OF098",
           "en": "You don't have to handle it alone.",
-          "ru": "Тебе не нужно справляться с этим в одиночку."
+          "ru": "Тебе не нужно справляться с этим в одиночку.",
+          "uz": "Bunga yolgʻiz oʻzingiz bardosh berishingiz shart emas."
         },
         {
           "id": "OF099",
           "en": "I hope things get easier soon.",
-          "ru": "Надеюсь, скоро станет легче."
+          "ru": "Надеюсь, скоро станет легче.",
+          "uz": "Umid qilamanki, tez orada yengillashadi."
         },
         {
           "id": "OF100",
           "en": "I'm thinking of you.",
-          "ru": "Я думаю о тебе."
+          "ru": "Я думаю о тебе.",
+          "uz": "Men siz haqingizda oʻylayapman."
         }
       ]
     },
@@ -613,58 +724,69 @@
       "order": 11,
       "title": {
         "en": "Frustration and anger",
-        "ru": "Раздражение и злость"
+        "ru": "Раздражение и злость",
+        "uz": "Asabiylashish va gʻazab"
       },
       "phrases": [
         {
           "id": "OF101",
           "en": "I'm getting frustrated.",
-          "ru": "Я начинаю раздражаться."
+          "ru": "Я начинаю раздражаться.",
+          "uz": "Asabim buzila boshladi."
         },
         {
           "id": "OF102",
           "en": "This is really annoying.",
-          "ru": "Это действительно раздражает."
+          "ru": "Это действительно раздражает.",
+          "uz": "Bu rostdan ham asabni buzadi."
         },
         {
           "id": "OF103",
           "en": "I've had enough of this.",
-          "ru": "С меня хватит."
+          "ru": "С меня хватит.",
+          "uz": "Menga shuncha yetadi."
         },
         {
           "id": "OF104",
           "en": "I'm upset about what happened.",
-          "ru": "Я расстроен(а) из-за произошедшего."
+          "ru": "Я расстроен(а) из-за произошедшего.",
+          "uz": "Men boʻlgan voqeadan xafaman."
         },
         {
           "id": "OF105",
           "en": "That wasn't fair.",
-          "ru": "Это было несправедливо."
+          "ru": "Это было несправедливо.",
+          "uz": "Bu adolatdan emas edi."
         },
         {
           "id": "OF106",
           "en": "I need a moment to cool off.",
-          "ru": "Мне нужно немного времени, чтобы остыть."
+          "ru": "Мне нужно немного времени, чтобы остыть.",
+          "uz": "Menga sovib olish uchun bir oz vaqt kerak."
         },
         {
           "id": "OF107",
           "en": "I don't appreciate being treated like that.",
-          "ru": "Мне не нравится, когда со мной так обращаются."
+          "ru": "Мне не нравится, когда со мной так обращаются.",
+          "uz": "Men bilan bunday muomala qilinishi menga yoqmaydi."
         },
         {
           "id": "OF108",
           "en": "This is not what we agreed on.",
-          "ru": "Мы договаривались не об этом."
+          "ru": "Мы договаривались не об этом.",
+          "uz": "Biz bunga kelishmagan edik."
         },
         {
           "id": "OF109",
           "en": "I'm trying to stay calm.",
-          "ru": "Я стараюсь сохранять спокойствие."
+          "ru": "Я стараюсь сохранять спокойствие.",
+          "uz": "Men xotirjam boʻlishga harakat qilyapman."
         },
         {
           "id": "OF110",
           "en": "Let's talk when we've both calmed down.",
-          "ru": "Давай поговорим, когда оба успокоимся."
+          "ru": "Давай поговорим, когда оба успокоимся.",
+          "uz": "Keling, ikkalamiz ham tinchlanganimizda gaplashaylik."
         }
       ]
     },
@@ -673,58 +795,69 @@
       "order": 12,
       "title": {
         "en": "Relief and gratitude",
-        "ru": "Облегчение и благодарность"
+        "ru": "Облегчение и благодарность",
+        "uz": "Yengillik va minnatdorchilik"
       },
       "phrases": [
         {
           "id": "OF111",
           "en": "What a relief!",
-          "ru": "Какое облегчение!"
+          "ru": "Какое облегчение!",
+          "uz": "Qanday yengillik!"
         },
         {
           "id": "OF112",
           "en": "I'm so glad that's over.",
-          "ru": "Я так рад(а), что это закончилось."
+          "ru": "Я так рад(а), что это закончилось.",
+          "uz": "Bu tugaganidan juda xursandman."
         },
         {
           "id": "OF113",
           "en": "I can finally relax.",
-          "ru": "Наконец-то я могу расслабиться."
+          "ru": "Наконец-то я могу расслабиться.",
+          "uz": "Nihoyat dam ola olaman."
         },
         {
           "id": "OF114",
           "en": "That takes a weight off my shoulders.",
-          "ru": "С души будто камень упал."
+          "ru": "С души будто камень упал.",
+          "uz": "Yelkamdan togʻ agʻdarildi."
         },
         {
           "id": "OF115",
           "en": "I'm grateful for your support.",
-          "ru": "Я благодарен / благодарна за твою поддержку."
+          "ru": "Я благодарен / благодарна за твою поддержку.",
+          "uz": "Qoʻllab-quvvatlaganingiz uchun minnatdorman."
         },
         {
           "id": "OF116",
           "en": "I really appreciate what you did.",
-          "ru": "Я очень ценю то, что ты сделал(а)."
+          "ru": "Я очень ценю то, что ты сделал(а).",
+          "uz": "Qilgan ishingizni juda qadrlayman."
         },
         {
           "id": "OF117",
           "en": "I don't know what I'd do without you.",
-          "ru": "Не знаю, что бы я делал(а) без тебя."
+          "ru": "Не знаю, что бы я делал(а) без тебя.",
+          "uz": "Siz boʻlmasangiz nima qilardim, bilmayman."
         },
         {
           "id": "OF118",
           "en": "That means a lot to me.",
-          "ru": "Это очень много для меня значит."
+          "ru": "Это очень много для меня значит.",
+          "uz": "Bu men uchun juda katta maʼnoga ega."
         },
         {
           "id": "OF119",
           "en": "I'm thankful things worked out.",
-          "ru": "Я благодарен / благодарна, что всё получилось."
+          "ru": "Я благодарен / благодарна, что всё получилось.",
+          "uz": "Hammasi yaxshi boʻlganidan minnatdorman."
         },
         {
           "id": "OF120",
           "en": "I feel much more at ease now.",
-          "ru": "Теперь я чувствую себя гораздо спокойнее."
+          "ru": "Теперь я чувствую себя гораздо спокойнее.",
+          "uz": "Endi oʻzimni ancha xotirjam his qilyapman."
         }
       ]
     },
@@ -733,58 +866,69 @@
       "order": 13,
       "title": {
         "en": "Hope and uncertainty",
-        "ru": "Надежда и неопределённость"
+        "ru": "Надежда и неопределённость",
+        "uz": "Umid va noaniqlik"
       },
       "phrases": [
         {
           "id": "OF121",
           "en": "I'm hopeful about the future.",
-          "ru": "Я с надеждой смотрю в будущее."
+          "ru": "Я с надеждой смотрю в будущее.",
+          "uz": "Men kelajakka umid bilan qarayman."
         },
         {
           "id": "OF122",
           "en": "Hopefully, it'll work out.",
-          "ru": "Надеюсь, всё получится."
+          "ru": "Надеюсь, всё получится.",
+          "uz": "Umid qilamanki, hammasi yaxshi boʻladi."
         },
         {
           "id": "OF123",
           "en": "I have a good feeling about this.",
-          "ru": "У меня хорошее предчувствие насчёт этого."
+          "ru": "У меня хорошее предчувствие насчёт этого.",
+          "uz": "Menda bu haqda yaxshi tuygʻu bor."
         },
         {
           "id": "OF124",
           "en": "Only time will tell.",
-          "ru": "Только время покажет."
+          "ru": "Только время покажет.",
+          "uz": "Buni faqat vaqt koʻrsatadi."
         },
         {
           "id": "OF125",
           "en": "I'm keeping my fingers crossed.",
-          "ru": "Надеюсь на лучшее."
+          "ru": "Надеюсь на лучшее.",
+          "uz": "Yaxshilikka umid qilyapman."
         },
         {
           "id": "OF126",
           "en": "I'm not sure how it'll turn out.",
-          "ru": "Я не уверен(а), чем всё закончится."
+          "ru": "Я не уверен(а), чем всё закончится.",
+          "uz": "Qanday tugashini bilmayman."
         },
         {
           "id": "OF127",
           "en": "Let's hope for the best.",
-          "ru": "Будем надеяться на лучшее."
+          "ru": "Будем надеяться на лучшее.",
+          "uz": "Keling, eng yaxshisiga umid qilaylik."
         },
         {
           "id": "OF128",
           "en": "I'm trying to stay positive.",
-          "ru": "Я стараюсь сохранять позитивный настрой."
+          "ru": "Я стараюсь сохранять позитивный настрой.",
+          "uz": "Men ijobiy qarashga harakat qilyapman."
         },
         {
           "id": "OF129",
           "en": "Anything is possible.",
-          "ru": "Всё возможно."
+          "ru": "Всё возможно.",
+          "uz": "Hamma narsa mumkin."
         },
         {
           "id": "OF130",
           "en": "We'll see what happens.",
-          "ru": "Посмотрим, что будет."
+          "ru": "Посмотрим, что будет.",
+          "uz": "Nima boʻlishini koʻramiz."
         }
       ]
     },
@@ -793,58 +937,69 @@
       "order": 14,
       "title": {
         "en": "Regret and reflection",
-        "ru": "Сожаление и размышления"
+        "ru": "Сожаление и размышления",
+        "uz": "Afsus va mushohada"
       },
       "phrases": [
         {
           "id": "OF131",
           "en": "I wish I'd done things differently.",
-          "ru": "Жаль, что я поступил(а) иначе не тогда."
+          "ru": "Жаль, что я поступил(а) иначе не тогда.",
+          "uz": "Boshqacha qilganimda edi."
         },
         {
           "id": "OF132",
           "en": "I regret saying that.",
-          "ru": "Я жалею, что сказал(а) это."
+          "ru": "Я жалею, что сказал(а) это.",
+          "uz": "Buni aytganimga afsuslanaman."
         },
         {
           "id": "OF133",
           "en": "Looking back, I understand now.",
-          "ru": "Оглядываясь назад, теперь я понимаю."
+          "ru": "Оглядываясь назад, теперь я понимаю.",
+          "uz": "Orqaga qarasam, endi tushunaman."
         },
         {
           "id": "OF134",
           "en": "I learned my lesson.",
-          "ru": "Я извлёк / извлекла урок."
+          "ru": "Я извлёк / извлекла урок.",
+          "uz": "Men saboq oldim."
         },
         {
           "id": "OF135",
           "en": "I should have thought it through.",
-          "ru": "Мне следовало всё обдумать."
+          "ru": "Мне следовало всё обдумать.",
+          "uz": "Yaxshilab oʻylab koʻrishim kerak edi."
         },
         {
           "id": "OF136",
           "en": "I don't want to make the same mistake.",
-          "ru": "Я не хочу повторять ту же ошибку."
+          "ru": "Я не хочу повторять ту же ошибку.",
+          "uz": "Men oʻsha xatoni takrorlashni xohlamayman."
         },
         {
           "id": "OF137",
           "en": "There's no point dwelling on it.",
-          "ru": "Нет смысла зацикливаться на этом."
+          "ru": "Нет смысла зацикливаться на этом.",
+          "uz": "Bunga oʻralashib qolishning maʼnosi yoʻq."
         },
         {
           "id": "OF138",
           "en": "I could have handled it better.",
-          "ru": "Я мог(ла) бы справиться с этим лучше."
+          "ru": "Я мог(ла) бы справиться с этим лучше.",
+          "uz": "Men bu bilan yaxshiroq ish tutishim mumkin edi."
         },
         {
           "id": "OF139",
           "en": "I need to forgive myself.",
-          "ru": "Мне нужно простить себя."
+          "ru": "Мне нужно простить себя.",
+          "uz": "Men oʻzimni kechirishim kerak."
         },
         {
           "id": "OF140",
           "en": "At least I know better now.",
-          "ru": "По крайней мере, теперь я знаю лучше."
+          "ru": "По крайней мере, теперь я знаю лучше.",
+          "uz": "Hech boʻlmasa endi bilib oldim."
         }
       ]
     },
@@ -853,58 +1008,69 @@
       "order": 15,
       "title": {
         "en": "Boundaries and needs",
-        "ru": "Личные границы и потребности"
+        "ru": "Личные границы и потребности",
+        "uz": "Shaxsiy chegaralar va ehtiyojlar"
       },
       "phrases": [
         {
           "id": "OF141",
           "en": "I need some time to myself.",
-          "ru": "Мне нужно немного побыть одному / одной."
+          "ru": "Мне нужно немного побыть одному / одной.",
+          "uz": "Menga bir oz yolgʻiz qolish kerak."
         },
         {
           "id": "OF142",
           "en": "I'm not comfortable with that.",
-          "ru": "Мне это некомфортно."
+          "ru": "Мне это некомфортно.",
+          "uz": "Men bundan noqulay ahvoldaman."
         },
         {
           "id": "OF143",
           "en": "I'd rather not talk about it.",
-          "ru": "Я бы предпочёл / предпочла не говорить об этом."
+          "ru": "Я бы предпочёл / предпочла не говорить об этом.",
+          "uz": "Bu haqda gaplashmasam deyman."
         },
         {
           "id": "OF144",
           "en": "I need a little space.",
-          "ru": "Мне нужно немного личного пространства."
+          "ru": "Мне нужно немного личного пространства.",
+          "uz": "Menga bir oz shaxsiy makon kerak."
         },
         {
           "id": "OF145",
           "en": "Please respect my decision.",
-          "ru": "Пожалуйста, уважай моё решение."
+          "ru": "Пожалуйста, уважай моё решение.",
+          "uz": "Iltimos, qarorimni hurmat qiling."
         },
         {
           "id": "OF146",
           "en": "I'm not ready to discuss this.",
-          "ru": "Я пока не готов(а) это обсуждать."
+          "ru": "Я пока не готов(а) это обсуждать.",
+          "uz": "Men buni muhokama qilishga tayyor emasman."
         },
         {
           "id": "OF147",
           "en": "I need to focus on myself.",
-          "ru": "Мне нужно сосредоточиться на себе."
+          "ru": "Мне нужно сосредоточиться на себе.",
+          "uz": "Men oʻzimga eʼtibor qaratishim kerak."
         },
         {
           "id": "OF148",
           "en": "That doesn't work for me.",
-          "ru": "Меня это не устраивает."
+          "ru": "Меня это не устраивает.",
+          "uz": "Bu menga toʻgʻri kelmaydi."
         },
         {
           "id": "OF149",
           "en": "I'd appreciate some honesty.",
-          "ru": "Я был(а) бы признателен / признательна за честность."
+          "ru": "Я был(а) бы признателен / признательна за честность.",
+          "uz": "Samimiylik uchun minnatdor boʻlardim."
         },
         {
           "id": "OF150",
           "en": "I want to be clear about how I feel.",
-          "ru": "Я хочу ясно объяснить, что чувствую."
+          "ru": "Я хочу ясно объяснить, что чувствую.",
+          "uz": "Nima his qilayotganimni aniq aytmoqchiman."
         }
       ]
     },
@@ -913,58 +1079,69 @@
       "order": 16,
       "title": {
         "en": "Describing mood",
-        "ru": "Описание настроения"
+        "ru": "Описание настроения",
+        "uz": "Kayfiyatni tasvirlash"
       },
       "phrases": [
         {
           "id": "OF151",
           "en": "I'm in a great mood.",
-          "ru": "У меня отличное настроение."
+          "ru": "У меня отличное настроение.",
+          "uz": "Kayfiyatim ajoyib."
         },
         {
           "id": "OF152",
           "en": "I'm not feeling myself today.",
-          "ru": "Сегодня я сам(а) не свой / не своя."
+          "ru": "Сегодня я сам(а) не свой / не своя.",
+          "uz": "Bugun oʻzimni oʻzimdek his qilmayapman."
         },
         {
           "id": "OF153",
           "en": "I'm feeling a bit off.",
-          "ru": "Я чувствую себя немного не в своей тарелке."
+          "ru": "Я чувствую себя немного не в своей тарелке.",
+          "uz": "Oʻzimni biroz gʻalati his qilyapman."
         },
         {
           "id": "OF154",
           "en": "I'm in two minds about it.",
-          "ru": "Я сомневаюсь, как поступить."
+          "ru": "Я сомневаюсь, как поступить.",
+          "uz": "Qanday qilishni bilmay ikkilanyapman."
         },
         {
           "id": "OF155",
           "en": "I'm feeling optimistic.",
-          "ru": "Я настроен(а) оптимистично."
+          "ru": "Я настроен(а) оптимистично.",
+          "uz": "Men umidvorman."
         },
         {
           "id": "OF156",
           "en": "I'm in a reflective mood.",
-          "ru": "Я настроен(а) на размышления."
+          "ru": "Я настроен(а) на размышления.",
+          "uz": "Men mushohadaga berilgan kayfiyatdaman."
         },
         {
           "id": "OF157",
           "en": "I'm feeling restless.",
-          "ru": "Мне не сидится на месте."
+          "ru": "Мне не сидится на месте.",
+          "uz": "Oʻzimni qoʻyarga joy topa olmayapman."
         },
         {
           "id": "OF158",
           "en": "I'm in a better place now.",
-          "ru": "Сейчас моё состояние намного лучше."
+          "ru": "Сейчас моё состояние намного лучше.",
+          "uz": "Hozir ahvolim ancha yaxshi."
         },
         {
           "id": "OF159",
           "en": "I'm emotionally drained.",
-          "ru": "Я эмоционально истощён(а)."
+          "ru": "Я эмоционально истощён(а).",
+          "uz": "Men ruhan holdan toyganman."
         },
         {
           "id": "OF160",
           "en": "I'm feeling recharged.",
-          "ru": "Я чувствую, что восстановил(а) силы."
+          "ru": "Я чувствую, что восстановил(а) силы.",
+          "uz": "Oʻzimni tetiklashgandek his qilyapman."
         }
       ]
     },
@@ -973,58 +1150,69 @@
       "order": 17,
       "title": {
         "en": "Judging situations",
-        "ru": "Оценка ситуаций"
+        "ru": "Оценка ситуаций",
+        "uz": "Vaziyatlarga baho berish"
       },
       "phrases": [
         {
           "id": "OF161",
           "en": "That seems reasonable.",
-          "ru": "Это кажется разумным."
+          "ru": "Это кажется разумным.",
+          "uz": "Bu maʼqul koʻrinadi."
         },
         {
           "id": "OF162",
           "en": "I find that hard to accept.",
-          "ru": "Мне трудно это принять."
+          "ru": "Мне трудно это принять.",
+          "uz": "Buni qabul qilish menga qiyin."
         },
         {
           "id": "OF163",
           "en": "It doesn't feel right to me.",
-          "ru": "Мне кажется, это неправильно."
+          "ru": "Мне кажется, это неправильно.",
+          "uz": "Menga bu notoʻgʻridek tuyuladi."
         },
         {
           "id": "OF164",
           "en": "That's a fair assessment.",
-          "ru": "Это справедливая оценка."
+          "ru": "Это справедливая оценка.",
+          "uz": "Bu adolatli baho."
         },
         {
           "id": "OF165",
           "en": "I think it's worth the risk.",
-          "ru": "Думаю, риск того стоит."
+          "ru": "Думаю, риск того стоит.",
+          "uz": "Menimcha, bu tavakkalga arziydi."
         },
         {
           "id": "OF166",
           "en": "I'm not convinced it's necessary.",
-          "ru": "Я не уверен(а), что это необходимо."
+          "ru": "Я не уверен(а), что это необходимо.",
+          "uz": "Bu zarur ekaniga ishonchim komil emas."
         },
         {
           "id": "OF167",
           "en": "That sounds promising.",
-          "ru": "Это звучит многообещающе."
+          "ru": "Это звучит многообещающе.",
+          "uz": "Bu umidli tuyuladi."
         },
         {
           "id": "OF168",
           "en": "I see a few potential problems.",
-          "ru": "Я вижу несколько возможных проблем."
+          "ru": "Я вижу несколько возможных проблем.",
+          "uz": "Men bir nechta mumkin boʻlgan muammoni koʻryapman."
         },
         {
           "id": "OF169",
           "en": "It could go either way.",
-          "ru": "Всё может сложиться по-разному."
+          "ru": "Всё может сложиться по-разному.",
+          "uz": "Bu u yoqqa ham, bu yoqqa ham burilishi mumkin."
         },
         {
           "id": "OF170",
           "en": "Overall, I'm satisfied with it.",
-          "ru": "В целом я этим доволен / довольна."
+          "ru": "В целом я этим доволен / довольна.",
+          "uz": "Umuman olganda, men bundan mamnunman."
         }
       ]
     },
@@ -1033,58 +1221,69 @@
       "order": 18,
       "title": {
         "en": "Encouraging others",
-        "ru": "Поддержка других"
+        "ru": "Поддержка других",
+        "uz": "Boshqalarni qoʻllab-quvvatlash"
       },
       "phrases": [
         {
           "id": "OF171",
           "en": "I know you've got this.",
-          "ru": "Я знаю, что у тебя всё получится."
+          "ru": "Я знаю, что у тебя всё получится.",
+          "uz": "Bilaman, sizning qoʻlingizdan keladi."
         },
         {
           "id": "OF172",
           "en": "You should give yourself credit.",
-          "ru": "Тебе стоит отдать себе должное."
+          "ru": "Тебе стоит отдать себе должное.",
+          "uz": "Oʻzingizga ham haqqingizni berishingiz kerak."
         },
         {
           "id": "OF173",
           "en": "You've come a long way.",
-          "ru": "Ты далеко продвинулся / продвинулась."
+          "ru": "Ты далеко продвинулся / продвинулась.",
+          "uz": "Siz uzoq yoʻlni bosib oʻtdingiz."
         },
         {
           "id": "OF174",
           "en": "Don't be too hard on yourself.",
-          "ru": "Не будь слишком строг(а) к себе."
+          "ru": "Не будь слишком строг(а) к себе.",
+          "uz": "Oʻzingizga haddan tashqari qattiqqoʻllik qilmang."
         },
         {
           "id": "OF175",
           "en": "It's okay to make mistakes.",
-          "ru": "Ошибаться — это нормально."
+          "ru": "Ошибаться — это нормально.",
+          "uz": "Xato qilish normal holat."
         },
         {
           "id": "OF176",
           "en": "I'm proud of your effort.",
-          "ru": "Я горжусь твоими усилиями."
+          "ru": "Я горжусь твоими усилиями.",
+          "uz": "Men sizning sayʼ-harakatingizdan faxrlanaman."
         },
         {
           "id": "OF177",
           "en": "You deserve a chance.",
-          "ru": "Ты заслуживаешь шанса."
+          "ru": "Ты заслуживаешь шанса.",
+          "uz": "Siz imkoniyatga loyiqsiz."
         },
         {
           "id": "OF178",
           "en": "Keep believing in yourself.",
-          "ru": "Продолжай верить в себя."
+          "ru": "Продолжай верить в себя.",
+          "uz": "Oʻzingizga ishonishda davom eting."
         },
         {
           "id": "OF179",
           "en": "You're doing better than you think.",
-          "ru": "У тебя получается лучше, чем ты думаешь."
+          "ru": "У тебя получается лучше, чем ты думаешь.",
+          "uz": "Sizda oʻzingiz oʻylaganingizdan yaxshiroq chiqyapti."
         },
         {
           "id": "OF180",
           "en": "I'm cheering you on.",
-          "ru": "Я болею за тебя."
+          "ru": "Я болею за тебя.",
+          "uz": "Men sizni qoʻllab-quvvatlayman."
         }
       ]
     },
@@ -1093,58 +1292,69 @@
       "order": 19,
       "title": {
         "en": "Personal values",
-        "ru": "Личные ценности"
+        "ru": "Личные ценности",
+        "uz": "Shaxsiy qadriyatlar"
       },
       "phrases": [
         {
           "id": "OF181",
           "en": "Honesty matters to me.",
-          "ru": "Честность для меня важна."
+          "ru": "Честность для меня важна.",
+          "uz": "Samimiylik men uchun muhim."
         },
         {
           "id": "OF182",
           "en": "I value your opinion.",
-          "ru": "Я ценю твоё мнение."
+          "ru": "Я ценю твоё мнение.",
+          "uz": "Men fikringizni qadrlayman."
         },
         {
           "id": "OF183",
           "en": "I'd rather be honest.",
-          "ru": "Я предпочитаю быть честным / честной."
+          "ru": "Я предпочитаю быть честным / честной.",
+          "uz": "Men rostgoʻy boʻlishni afzal koʻraman."
         },
         {
           "id": "OF184",
           "en": "Trust takes time to build.",
-          "ru": "Доверие требует времени."
+          "ru": "Доверие требует времени.",
+          "uz": "Ishonch qurish uchun vaqt kerak."
         },
         {
           "id": "OF185",
           "en": "I believe in treating people fairly.",
-          "ru": "Я верю, что с людьми нужно обращаться справедливо."
+          "ru": "Я верю, что с людьми нужно обращаться справедливо.",
+          "uz": "Men odamlarga adolatli munosabatda boʻlish kerak deb hisoblayman."
         },
         {
           "id": "OF186",
           "en": "Family comes first for me.",
-          "ru": "Для меня семья на первом месте."
+          "ru": "Для меня семья на первом месте.",
+          "uz": "Men uchun oila birinchi oʻrinda."
         },
         {
           "id": "OF187",
           "en": "I try to keep an open mind.",
-          "ru": "Я стараюсь быть открытым / открытой к разным мнениям."
+          "ru": "Я стараюсь быть открытым / открытой к разным мнениям.",
+          "uz": "Men turli fikrlarga ochiq boʻlishga harakat qilaman."
         },
         {
           "id": "OF188",
           "en": "I stand by my decision.",
-          "ru": "Я придерживаюсь своего решения."
+          "ru": "Я придерживаюсь своего решения.",
+          "uz": "Men qarorimda qolaman."
         },
         {
           "id": "OF189",
           "en": "It's important to me to keep my word.",
-          "ru": "Для меня важно держать слово."
+          "ru": "Для меня важно держать слово.",
+          "uz": "Soʻzimda turish men uchun muhim."
         },
         {
           "id": "OF190",
           "en": "I respect people who are genuine.",
-          "ru": "Я уважаю искренних людей."
+          "ru": "Я уважаю искренних людей.",
+          "uz": "Men samimiy odamlarni hurmat qilaman."
         }
       ]
     },
@@ -1153,58 +1363,69 @@
       "order": 20,
       "title": {
         "en": "Mixed feelings",
-        "ru": "Смешанные чувства"
+        "ru": "Смешанные чувства",
+        "uz": "Qorishiq tuygʻular"
       },
       "phrases": [
         {
           "id": "OF191",
           "en": "I have mixed feelings about it.",
-          "ru": "У меня неоднозначные чувства по этому поводу."
+          "ru": "У меня неоднозначные чувства по этому поводу.",
+          "uz": "Bu haqda fikrim ikkiga boʻlingan."
         },
         {
           "id": "OF192",
           "en": "Part of me is excited, but part of me is nervous.",
-          "ru": "Одна часть меня радуется, а другая волнуется."
+          "ru": "Одна часть меня радуется, а другая волнуется.",
+          "uz": "Bir tomonim xursand, ikkinchi tomonim xavotirda."
         },
         {
           "id": "OF193",
           "en": "I'm happy, but also a little sad.",
-          "ru": "Я рад(а), но немного грустно."
+          "ru": "Я рад(а), но немного грустно.",
+          "uz": "Men xursandman, lekin biroz gʻamginman ham."
         },
         {
           "id": "OF194",
           "en": "I don't know whether to laugh or cry.",
-          "ru": "Не знаю, смеяться или плакать."
+          "ru": "Не знаю, смеяться или плакать.",
+          "uz": "Kulishnimi yoki yigʻlashnimi, bilmayman."
         },
         {
           "id": "OF195",
           "en": "It's bittersweet.",
-          "ru": "Это одновременно радостно и грустно."
+          "ru": "Это одновременно радостно и грустно.",
+          "uz": "Bu ham shirin, ham achchiq."
         },
         {
           "id": "OF196",
           "en": "I'm torn between two choices.",
-          "ru": "Я разрываюсь между двумя вариантами."
+          "ru": "Я разрываюсь между двумя вариантами.",
+          "uz": "Men ikki tanlov orasida qolib ketdim."
         },
         {
           "id": "OF197",
           "en": "I'm excited and scared at the same time.",
-          "ru": "Я одновременно рад(а) и боюсь."
+          "ru": "Я одновременно рад(а) и боюсь.",
+          "uz": "Men bir vaqtning oʻzida ham xursandman, ham qoʻrqyapman."
         },
         {
           "id": "OF198",
           "en": "It's hard to explain how I feel.",
-          "ru": "Трудно объяснить, что я чувствую."
+          "ru": "Трудно объяснить, что я чувствую.",
+          "uz": "Nima his qilayotganimni tushuntirish qiyin."
         },
         {
           "id": "OF199",
           "en": "I feel relieved but exhausted.",
-          "ru": "Я чувствую облегчение, но при этом истощён(а)."
+          "ru": "Я чувствую облегчение, но при этом истощён(а).",
+          "uz": "Oʻzimni yengil, lekin holdan toygan his qilyapman."
         },
         {
           "id": "OF200",
           "en": "I'm still trying to sort out my feelings.",
-          "ru": "Я всё ещё пытаюсь разобраться в своих чувствах."
+          "ru": "Я всё ещё пытаюсь разобраться в своих чувствах.",
+          "uz": "Men hali ham his-tuygʻularimni tartibga solishga harakat qilyapman."
         }
       ]
     }

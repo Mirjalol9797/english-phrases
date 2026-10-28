@@ -1,0 +1,200 @@
+phrase|I think...||Я думаю...|Menimcha...
+phrase|In my opinion...||По моему мнению...|Mening fikrimcha...
+phrase|Personally, I believe...||Лично я считаю...|Shaxsan men hisoblaymanki...
+phrase|As far as I'm concerned...||Что касается меня...|Menga kelsak...
+phrase|The way I see it...||На мой взгляд...|Mening nazarimda...
+phrase|If you ask me...||Если спросишь меня...|Mendan soʻrasangiz...
+phrase|From my point of view...||С моей точки зрения...|Mening nuqtayi nazarimdan...
+phrase|I tend to think that...||Я склонен / склонна думать, что...|Men shunday oʻylashga moyilman...
+phrase|My feeling is that...||У меня такое ощущение, что...|Menda shunday tuygʻu borki...
+phrase|I'd say that...||Я бы сказал(а), что...|Men shuni aytgan boʻlardimki...
+phrase|I completely agree.||Я полностью согласен / согласна.|Men toʻliq roziman.
+phrase|That's exactly how I feel.||Я чувствую точно так же.|Men ham xuddi shunday his qilyapman.
+phrase|You've put it perfectly.||Ты прекрасно это выразил(а).|Siz buni juda yaxshi ifodaladingiz.
+phrase|I couldn't agree more.||Полностью согласен / согласна.|Bundan koʻra koʻproq rozi boʻla olmasdim.
+phrase|I feel the same way.||Я чувствую то же самое.|Men ham xuddi shunday his qilyapman.
+phrase|That's a very good point.||Это очень хорошее замечание.|Bu juda yaxshi fikr.
+phrase|I was thinking the same thing.||Я думал(а) о том же.|Men ham shu haqda oʻylayotgandim.
+phrase|You've got that right.||Ты совершенно прав(а).|Siz mutlaqo haqsiz.
+phrase|I'm on the same page.||Я придерживаюсь того же мнения.|Men ham shu fikrdaman.
+phrase|I see it the same way.||Я вижу это так же.|Men ham buni shunday koʻraman.
+phrase|I see your point, but...||Я понимаю твою точку зрения, но...|Fikringizni tushunaman, lekin...
+phrase|I'm not sure I see it that way.||Не уверен(а), что вижу это так же.|Men buni shunday koʻryapmanmi, bilmadim.
+phrase|I have a slightly different view.||У меня немного другое мнение.|Mening fikrim biroz boshqacharoq.
+phrase|I respectfully disagree.||Позволю себе не согласиться.|Hurmat bilan, men rozi emasman.
+phrase|That may be true, but...||Возможно, это правда, но...|Bu rost boʻlishi mumkin, lekin...
+phrase|I understand where you're coming from.||Я понимаю, почему ты так считаешь.|Nega shunday deyayotganingizni tushunaman.
+phrase|I'm afraid I have to disagree.||Боюсь, мне придётся не согласиться.|Afsuski, men rozi boʻla olmayman.
+phrase|I wouldn't put it that way.||Я бы не стал(а) так это формулировать.|Men buni bunday ifodalamagan boʻlardim.
+phrase|There may be another way to look at it.||Возможно, на это можно посмотреть иначе.|Bunga boshqacha qarash ham mumkindir.
+phrase|Let's look at both sides.||Давайте рассмотрим обе стороны.|Keling, ikkala tomonni ham koʻrib chiqaylik.
+phrase|I'm really happy about it.||Я очень этому рад(а).|Men bundan juda xursandman.
+phrase|I'm over the moon.||Я на седьмом небе от счастья.|Men osmonda uchib yuribman.
+phrase|That made my day.||Это сделало мой день.|Bu kunimni yorugʻ qildi.
+phrase|I'm so excited!||Я так рад(а)!|Men juda hayajondaman!
+phrase|I couldn't be happier.||Я не могу быть счастливее.|Bundan koʻra baxtliroq boʻla olmasdim.
+phrase|I'm thrilled about the news.||Я в восторге от этой новости.|Men bu yangilikdan juda xursandman.
+phrase|What a wonderful surprise!||Какой чудесный сюрприз!|Qanday ajoyib kutilmagan hodisa!
+phrase|I'm glad it worked out.||Я рад(а), что всё получилось.|Hammasi yaxshi tugaganidan xursandman.
+phrase|I'm pleased with the result.||Я доволен / довольна результатом.|Men natijadan mamnunman.
+phrase|This is exactly what I hoped for.||Это именно то, на что я надеялся / надеялась.|Bu aynan men umid qilgan narsa.
+phrase|I'm feeling a bit down.||Я немного подавлен(а).|Kayfiyatim biroz tushib ketdi.
+phrase|That's disappointing.||Это разочаровывает.|Bu hafsalani pir qiladi.
+phrase|I was hoping for something else.||Я надеялся / надеялась на другое.|Men boshqacha boʻlishiga umid qilgandim.
+phrase|I'm really upset about it.||Я очень расстроен(а) из-за этого.|Men bundan juda xafaman.
+phrase|It's hard to accept.||Это трудно принять.|Buni qabul qilish qiyin.
+phrase|I wish things were different.||Жаль, что всё не иначе.|Hammasi boshqacha boʻlganida edi.
+phrase|That didn't go as I expected.||Всё прошло не так, как я ожидал(а).|Bu men kutgandek boʻlmadi.
+phrase|I feel let down.||Я чувствую себя обманутым / обманутой.|Oʻzimni aldangandek his qilyapman.
+phrase|It's a shame it didn't work out.||Жаль, что не получилось.|Natija chiqmagani achinarli.
+phrase|I need some time to process this.||Мне нужно время, чтобы это осмыслить.|Buni hazm qilishimga biroz vaqt kerak.
+phrase|I'm a little worried.||Я немного волнуюсь.|Men biroz xavotirdaman.
+phrase|This is stressing me out.||Это вызывает у меня стресс.|Bu meni asabiylashtiryapti.
+phrase|I have a lot on my mind.||У меня много мыслей и забот.|Boshimda oʻy koʻp.
+phrase|I'm feeling overwhelmed.||Я чувствую себя перегруженным / перегруженной.|Oʻzimni holdan toygandek his qilyapman.
+phrase|I'm not sure what to do.||Я не знаю, что делать.|Nima qilishimni bilmayman.
+phrase|I'm worried about the outcome.||Я беспокоюсь об исходе.|Natijadan xavotirdaman.
+phrase|I need to clear my head.||Мне нужно проветрить голову.|Boshimni tiniqlashtirib olishim kerak.
+phrase|It's been a stressful week.||Это была напряжённая неделя.|Bu hafta sertashvish boʻldi.
+phrase|I'm trying not to overthink it.||Я стараюсь не накручивать себя.|Buni ortiqcha oʻylamaslikka harakat qilyapman.
+phrase|I hope everything goes smoothly.||Надеюсь, всё пройдёт гладко.|Umid qilamanki, hammasi silliq oʻtadi.
+phrase|I believe in myself.||Я верю в себя.|Men oʻzimga ishonaman.
+phrase|I'm ready to give it a try.||Я готов(а) попробовать.|Men sinab koʻrishga tayyorman.
+phrase|I feel confident about this.||Я уверен(а) в этом.|Bunga ishonchim komil.
+phrase|I'm determined to succeed.||Я полон / полна решимости добиться успеха.|Men muvaffaqiyatga erishishga qatʼiy qaror qilganman.
+phrase|I'm making progress.||Я продвигаюсь вперёд.|Men oldinga siljiyapman.
+phrase|I won't give up easily.||Я не сдамся так легко.|Men osongina taslim boʻlmayman.
+phrase|I'm proud of how far I've come.||Я горжусь тем, как далеко продвинулся / продвинулась.|Shu yergacha kelganimdan faxrlanaman.
+phrase|I know I can improve.||Я знаю, что могу стать лучше.|Men yaxshilanishim mumkinligini bilaman.
+phrase|I'm willing to learn.||Я готов(а) учиться.|Men oʻrganishga tayyorman.
+phrase|Every step counts.||Каждый шаг важен.|Har bir qadam muhim.
+phrase|I'm really fond of it.||Мне это очень нравится.|Bu menga juda yoqadi.
+phrase|It's one of my favourites.||Это одно из моих любимых.|Bu mening sevimlilarimdan biri.
+phrase|I'm not particularly keen on it.||Я не особо этим увлекаюсь.|Men bunga unchalik qiziqmayman.
+phrase|I'd much rather do something else.||Я бы гораздо больше предпочёл / предпочла заняться чем-то другим.|Men boshqa ish bilan shugʻullanishni afzal koʻrardim.
+phrase|It really appeals to me.||Это мне очень нравится.|Bu meni juda oʻziga tortadi.
+phrase|I'm quite interested in that.||Мне это довольно интересно.|Bu menga ancha qiziq.
+phrase|It's not really my style.||Это не совсем мой стиль.|Bu unchalik mening uslubim emas.
+phrase|I have a soft spot for it.||У меня к этому особая любовь.|Menda bunga alohida mehr bor.
+phrase|I can see the appeal.||Я понимаю, чем это привлекает.|Nega yoqishini tushunaman.
+phrase|I prefer quality over quantity.||Я предпочитаю качество количеству.|Men miqdordan koʻra sifatni afzal koʻraman.
+phrase|I didn't expect that at all.||Я совсем этого не ожидал(а).|Men buni mutlaqo kutmagandim.
+phrase|That caught me off guard.||Это застало меня врасплох.|Bu men uchun butunlay kutilmagan boʻldi.
+phrase|I'm honestly surprised.||Честно говоря, я удивлён(а).|Rostini aytsam, hayronman.
+phrase|I'm a bit confused.||Я немного растерян(а).|Men biroz dovdirab qoldim.
+phrase|I don't know what to make of it.||Я не знаю, как к этому относиться.|Bunga qanday munosabat bildirishni bilmayman.
+phrase|That came out of nowhere.||Это произошло совершенно неожиданно.|Bu butunlay kutilmaganda yuz berdi.
+phrase|I'm trying to make sense of it.||Я пытаюсь в этом разобраться.|Men buni tushunishga harakat qilyapman.
+phrase|I never saw that coming.||Я никогда бы этого не ожидал(а).|Men buni hech kutmagandim.
+phrase|That's hard to believe.||В это трудно поверить.|Bunga ishonish qiyin.
+phrase|I'm not sure what to think.||Я не знаю, что и думать.|Nima deb oʻylashni bilmayman.
+phrase|I'm sorry you're going through this.||Мне жаль, что тебе приходится через это проходить.|Bunday ahvolga tushganingiz uchun afsusdaman.
+phrase|That sounds really difficult.||Звучит действительно непросто.|Bu rostdan ham qiyin tuyuladi.
+phrase|I can understand why you feel that way.||Я понимаю, почему ты так себя чувствуешь.|Nega bunday his qilayotganingizni tushunaman.
+phrase|You have every right to feel that way.||Ты вполне вправе так себя чувствовать.|Siz bunday his qilishga toʻliq haqlisiz.
+phrase|I'm here if you need to talk.||Я рядом, если тебе нужно поговорить.|Gaplashish kerak boʻlsa, men yoningizdaman.
+phrase|That must have been upsetting.||Это, должно быть, тебя расстроило.|Bu sizni xafa qilgan boʻlsa kerak.
+phrase|I can imagine how hard that is.||Могу представить, как это тяжело.|Bu qanchalik ogʻir ekanini tasavvur qila olaman.
+phrase|You don't have to handle it alone.||Тебе не нужно справляться с этим в одиночку.|Bunga yolgʻiz oʻzingiz bardosh berishingiz shart emas.
+phrase|I hope things get easier soon.||Надеюсь, скоро станет легче.|Umid qilamanki, tez orada yengillashadi.
+phrase|I'm thinking of you.||Я думаю о тебе.|Men siz haqingizda oʻylayapman.
+phrase|I'm getting frustrated.||Я начинаю раздражаться.|Asabim buzila boshladi.
+phrase|This is really annoying.||Это действительно раздражает.|Bu rostdan ham asabni buzadi.
+phrase|I've had enough of this.||С меня хватит.|Menga shuncha yetadi.
+phrase|I'm upset about what happened.||Я расстроен(а) из-за произошедшего.|Men boʻlgan voqeadan xafaman.
+phrase|That wasn't fair.||Это было несправедливо.|Bu adolatdan emas edi.
+phrase|I need a moment to cool off.||Мне нужно немного времени, чтобы остыть.|Menga sovib olish uchun bir oz vaqt kerak.
+phrase|I don't appreciate being treated like that.||Мне не нравится, когда со мной так обращаются.|Men bilan bunday muomala qilinishi menga yoqmaydi.
+phrase|This is not what we agreed on.||Мы договаривались не об этом.|Biz bunga kelishmagan edik.
+phrase|I'm trying to stay calm.||Я стараюсь сохранять спокойствие.|Men xotirjam boʻlishga harakat qilyapman.
+phrase|Let's talk when we've both calmed down.||Давай поговорим, когда оба успокоимся.|Keling, ikkalamiz ham tinchlanganimizda gaplashaylik.
+phrase|What a relief!||Какое облегчение!|Qanday yengillik!
+phrase|I'm so glad that's over.||Я так рад(а), что это закончилось.|Bu tugaganidan juda xursandman.
+phrase|I can finally relax.||Наконец-то я могу расслабиться.|Nihoyat dam ola olaman.
+phrase|That takes a weight off my shoulders.||С души будто камень упал.|Yelkamdan togʻ agʻdarildi.
+phrase|I'm grateful for your support.||Я благодарен / благодарна за твою поддержку.|Qoʻllab-quvvatlaganingiz uchun minnatdorman.
+phrase|I really appreciate what you did.||Я очень ценю то, что ты сделал(а).|Qilgan ishingizni juda qadrlayman.
+phrase|I don't know what I'd do without you.||Не знаю, что бы я делал(а) без тебя.|Siz boʻlmasangiz nima qilardim, bilmayman.
+phrase|That means a lot to me.||Это очень много для меня значит.|Bu men uchun juda katta maʼnoga ega.
+phrase|I'm thankful things worked out.||Я благодарен / благодарна, что всё получилось.|Hammasi yaxshi boʻlganidan minnatdorman.
+phrase|I feel much more at ease now.||Теперь я чувствую себя гораздо спокойнее.|Endi oʻzimni ancha xotirjam his qilyapman.
+phrase|I'm hopeful about the future.||Я с надеждой смотрю в будущее.|Men kelajakka umid bilan qarayman.
+phrase|Hopefully, it'll work out.||Надеюсь, всё получится.|Umid qilamanki, hammasi yaxshi boʻladi.
+phrase|I have a good feeling about this.||У меня хорошее предчувствие насчёт этого.|Menda bu haqda yaxshi tuygʻu bor.
+phrase|Only time will tell.||Только время покажет.|Buni faqat vaqt koʻrsatadi.
+phrase|I'm keeping my fingers crossed.||Надеюсь на лучшее.|Yaxshilikka umid qilyapman.
+phrase|I'm not sure how it'll turn out.||Я не уверен(а), чем всё закончится.|Qanday tugashini bilmayman.
+phrase|Let's hope for the best.||Будем надеяться на лучшее.|Keling, eng yaxshisiga umid qilaylik.
+phrase|I'm trying to stay positive.||Я стараюсь сохранять позитивный настрой.|Men ijobiy qarashga harakat qilyapman.
+phrase|Anything is possible.||Всё возможно.|Hamma narsa mumkin.
+phrase|We'll see what happens.||Посмотрим, что будет.|Nima boʻlishini koʻramiz.
+phrase|I wish I'd done things differently.||Жаль, что я поступил(а) иначе не тогда.|Boshqacha qilganimda edi.
+phrase|I regret saying that.||Я жалею, что сказал(а) это.|Buni aytganimga afsuslanaman.
+phrase|Looking back, I understand now.||Оглядываясь назад, теперь я понимаю.|Orqaga qarasam, endi tushunaman.
+phrase|I learned my lesson.||Я извлёк / извлекла урок.|Men saboq oldim.
+phrase|I should have thought it through.||Мне следовало всё обдумать.|Yaxshilab oʻylab koʻrishim kerak edi.
+phrase|I don't want to make the same mistake.||Я не хочу повторять ту же ошибку.|Men oʻsha xatoni takrorlashni xohlamayman.
+phrase|There's no point dwelling on it.||Нет смысла зацикливаться на этом.|Bunga oʻralashib qolishning maʼnosi yoʻq.
+phrase|I could have handled it better.||Я мог(ла) бы справиться с этим лучше.|Men bu bilan yaxshiroq ish tutishim mumkin edi.
+phrase|I need to forgive myself.||Мне нужно простить себя.|Men oʻzimni kechirishim kerak.
+phrase|At least I know better now.||По крайней мере, теперь я знаю лучше.|Hech boʻlmasa endi bilib oldim.
+phrase|I need some time to myself.||Мне нужно немного побыть одному / одной.|Menga bir oz yolgʻiz qolish kerak.
+phrase|I'm not comfortable with that.||Мне это некомфортно.|Men bundan noqulay ahvoldaman.
+phrase|I'd rather not talk about it.||Я бы предпочёл / предпочла не говорить об этом.|Bu haqda gaplashmasam deyman.
+phrase|I need a little space.||Мне нужно немного личного пространства.|Menga bir oz shaxsiy makon kerak.
+phrase|Please respect my decision.||Пожалуйста, уважай моё решение.|Iltimos, qarorimni hurmat qiling.
+phrase|I'm not ready to discuss this.||Я пока не готов(а) это обсуждать.|Men buni muhokama qilishga tayyor emasman.
+phrase|I need to focus on myself.||Мне нужно сосредоточиться на себе.|Men oʻzimga eʼtibor qaratishim kerak.
+phrase|That doesn't work for me.||Меня это не устраивает.|Bu menga toʻgʻri kelmaydi.
+phrase|I'd appreciate some honesty.||Я был(а) бы признателен / признательна за честность.|Samimiylik uchun minnatdor boʻlardim.
+phrase|I want to be clear about how I feel.||Я хочу ясно объяснить, что чувствую.|Nima his qilayotganimni aniq aytmoqchiman.
+phrase|I'm in a great mood.||У меня отличное настроение.|Kayfiyatim ajoyib.
+phrase|I'm not feeling myself today.||Сегодня я сам(а) не свой / не своя.|Bugun oʻzimni oʻzimdek his qilmayapman.
+phrase|I'm feeling a bit off.||Я чувствую себя немного не в своей тарелке.|Oʻzimni biroz gʻalati his qilyapman.
+phrase|I'm in two minds about it.||Я сомневаюсь, как поступить.|Qanday qilishni bilmay ikkilanyapman.
+phrase|I'm feeling optimistic.||Я настроен(а) оптимистично.|Men umidvorman.
+phrase|I'm in a reflective mood.||Я настроен(а) на размышления.|Men mushohadaga berilgan kayfiyatdaman.
+phrase|I'm feeling restless.||Мне не сидится на месте.|Oʻzimni qoʻyarga joy topa olmayapman.
+phrase|I'm in a better place now.||Сейчас моё состояние намного лучше.|Hozir ahvolim ancha yaxshi.
+phrase|I'm emotionally drained.||Я эмоционально истощён(а).|Men ruhan holdan toyganman.
+phrase|I'm feeling recharged.||Я чувствую, что восстановил(а) силы.|Oʻzimni tetiklashgandek his qilyapman.
+phrase|That seems reasonable.||Это кажется разумным.|Bu maʼqul koʻrinadi.
+phrase|I find that hard to accept.||Мне трудно это принять.|Buni qabul qilish menga qiyin.
+phrase|It doesn't feel right to me.||Мне кажется, это неправильно.|Menga bu notoʻgʻridek tuyuladi.
+phrase|That's a fair assessment.||Это справедливая оценка.|Bu adolatli baho.
+phrase|I think it's worth the risk.||Думаю, риск того стоит.|Menimcha, bu tavakkalga arziydi.
+phrase|I'm not convinced it's necessary.||Я не уверен(а), что это необходимо.|Bu zarur ekaniga ishonchim komil emas.
+phrase|That sounds promising.||Это звучит многообещающе.|Bu umidli tuyuladi.
+phrase|I see a few potential problems.||Я вижу несколько возможных проблем.|Men bir nechta mumkin boʻlgan muammoni koʻryapman.
+phrase|It could go either way.||Всё может сложиться по-разному.|Bu u yoqqa ham, bu yoqqa ham burilishi mumkin.
+phrase|Overall, I'm satisfied with it.||В целом я этим доволен / довольна.|Umuman olganda, men bundan mamnunman.
+phrase|I know you've got this.||Я знаю, что у тебя всё получится.|Bilaman, sizning qoʻlingizdan keladi.
+phrase|You should give yourself credit.||Тебе стоит отдать себе должное.|Oʻzingizga ham haqqingizni berishingiz kerak.
+phrase|You've come a long way.||Ты далеко продвинулся / продвинулась.|Siz uzoq yoʻlni bosib oʻtdingiz.
+phrase|Don't be too hard on yourself.||Не будь слишком строг(а) к себе.|Oʻzingizga haddan tashqari qattiqqoʻllik qilmang.
+phrase|It's okay to make mistakes.||Ошибаться — это нормально.|Xato qilish normal holat.
+phrase|I'm proud of your effort.||Я горжусь твоими усилиями.|Men sizning sayʼ-harakatingizdan faxrlanaman.
+phrase|You deserve a chance.||Ты заслуживаешь шанса.|Siz imkoniyatga loyiqsiz.
+phrase|Keep believing in yourself.||Продолжай верить в себя.|Oʻzingizga ishonishda davom eting.
+phrase|You're doing better than you think.||У тебя получается лучше, чем ты думаешь.|Sizda oʻzingiz oʻylaganingizdan yaxshiroq chiqyapti.
+phrase|I'm cheering you on.||Я болею за тебя.|Men sizni qoʻllab-quvvatlayman.
+phrase|Honesty matters to me.||Честность для меня важна.|Samimiylik men uchun muhim.
+phrase|I value your opinion.||Я ценю твоё мнение.|Men fikringizni qadrlayman.
+phrase|I'd rather be honest.||Я предпочитаю быть честным / честной.|Men rostgoʻy boʻlishni afzal koʻraman.
+phrase|Trust takes time to build.||Доверие требует времени.|Ishonch qurish uchun vaqt kerak.
+phrase|I believe in treating people fairly.||Я верю, что с людьми нужно обращаться справедливо.|Men odamlarga adolatli munosabatda boʻlish kerak deb hisoblayman.
+phrase|Family comes first for me.||Для меня семья на первом месте.|Men uchun oila birinchi oʻrinda.
+phrase|I try to keep an open mind.||Я стараюсь быть открытым / открытой к разным мнениям.|Men turli fikrlarga ochiq boʻlishga harakat qilaman.
+phrase|I stand by my decision.||Я придерживаюсь своего решения.|Men qarorimda qolaman.
+phrase|It's important to me to keep my word.||Для меня важно держать слово.|Soʻzimda turish men uchun muhim.
+phrase|I respect people who are genuine.||Я уважаю искренних людей.|Men samimiy odamlarni hurmat qilaman.
+phrase|I have mixed feelings about it.||У меня неоднозначные чувства по этому поводу.|Bu haqda fikrim ikkiga boʻlingan.
+phrase|Part of me is excited, but part of me is nervous.||Одна часть меня радуется, а другая волнуется.|Bir tomonim xursand, ikkinchi tomonim xavotirda.
+phrase|I'm happy, but also a little sad.||Я рад(а), но немного грустно.|Men xursandman, lekin biroz gʻamginman ham.
+phrase|I don't know whether to laugh or cry.||Не знаю, смеяться или плакать.|Kulishnimi yoki yigʻlashnimi, bilmayman.
+phrase|It's bittersweet.||Это одновременно радостно и грустно.|Bu ham shirin, ham achchiq.
+phrase|I'm torn between two choices.||Я разрываюсь между двумя вариантами.|Men ikki tanlov orasida qolib ketdim.
+phrase|I'm excited and scared at the same time.||Я одновременно рад(а) и боюсь.|Men bir vaqtning oʻzida ham xursandman, ham qoʻrqyapman.
+phrase|It's hard to explain how I feel.||Трудно объяснить, что я чувствую.|Nima his qilayotganimni tushuntirish qiyin.
+phrase|I feel relieved but exhausted.||Я чувствую облегчение, но при этом истощён(а).|Oʻzimni yengil, lekin holdan toygan his qilyapman.
+phrase|I'm still trying to sort out my feelings.||Я всё ещё пытаюсь разобраться в своих чувствах.|Men hali ham his-tuygʻularimni tartibga solishga harakat qilyapman.
