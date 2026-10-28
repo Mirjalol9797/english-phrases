@@ -9,7 +9,7 @@ import StatusMessage from '@/components/StatusMessage.vue'
 import AppIcon from '@/components/AppIcon.vue'
 import { isLearned } from '@/utils/sm2'
 
-const { plural } = useI18n()
+const { t, plural } = useI18n()
 
 const props = defineProps<{ chapterId: string }>()
 const content = useContentStore()
@@ -50,7 +50,7 @@ useDocumentTitle(() => chapter.value?.title.en)
 <template>
   <RouterLink to="/chapters" class="link-back">
     <AppIcon name="chevron-left" :size="18" />
-    Все главы
+    {{ t('Все главы') }}
   </RouterLink>
 
   <StatusMessage v-if="loading || error" :loading="loading" :error="error" :not-found="notFound" @retry="reload" />
@@ -78,14 +78,14 @@ useDocumentTitle(() => chapter.value?.title.en)
           <span
             v-if="stat(lesson.id).total > 0 && stat(lesson.id).learned === stat(lesson.id).total"
             class="shrink-0 text-ok"
-            title="Урок выучен"
+            :title="t('Урок выучен')"
           >
             <AppIcon name="check" :size="18" />
           </span>
           <span
             v-else-if="stat(lesson.id).started"
             class="shrink-0 text-xs text-muted tabular-nums"
-            :title="`Пройдено ${stat(lesson.id).started} из ${stat(lesson.id).total}`"
+            :title="t('Пройдено {done} из {total}', { done: stat(lesson.id).started, total: stat(lesson.id).total })"
           >
             {{ stat(lesson.id).started }}/{{ stat(lesson.id).total }}
           </span>

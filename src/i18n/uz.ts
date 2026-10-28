@@ -75,4 +75,31 @@ export const UZ_TEXT: Record<string, string> = {
   'Положите Word-файлы с фразами в папку content/source и выполните':
     'Iboralar yozilgan Word fayllarini content/source papkasiga qoʻying va quyidagini bajaring:',
   'Добавлено {done} из {total}': '{total} tadan {done} tasi qoʻshilgan',
+
+  // 2.4 — главы и глава
+  'Все главы': 'Barcha boblar',
+  '{count} фраз и выражений': '{count} ta ibora va soʻz birikmasi',
+  'Добавлено {done} из {total}, всего {count}.': '{total} tadan {done} tasi qoʻshilgan, jami {count}.',
+  'Каждая глава разбита на уроки, в уроке от пяти до двадцати записей.':
+    'Har bir bob darslarga boʻlingan, bir darsda besh tadan yigirma tagacha yozuv bor.',
+  'начато {started}, выучено {learned}': 'boshlangan {started}, oʻrganilgan {learned}',
+  'Пока не добавлена': 'Hali qoʻshilmagan',
+  'Урок выучен': 'Dars oʻrganildi',
+  'Пройдено {done} из {total}': '{total} tadan {done} tasi bajarildi',
+
+  // 2.5 — урок
+  'Урок {n} из {total}': '{total} tadan {n}-dars',
+  'Часть {n} из {total}': '{total} qismdan {n}-qismi',
+  'Часть {n}': '{n}-qism',
+  'Начать урок': 'Darsni boshlash',
+  'карточки и {stages}.': 'kartochkalar va {stages}.',
+  'На сегодня новых фраз хватит — взяли {done} из {total}. Так материал успевает улечься.':
+    'Bugunga yangi iboralar yetarli: {total} tadan {done} tasi olindi. Shunda material joylashib ulguradi.',
+  'Повторить пройденное': 'Oʻtilganni takrorlash',
+  'или изменить предел в': 'yoki chegarani oʻzgartirish —',
+  'настройках': 'sozlamalarda',
+  'Новых сегодня: {done} из {total}.': 'Bugungi yangilar: {done} / {total}.',
+  'Соседние уроки': 'Qoʻshni darslar',
+  'Предыдущий урок': 'Oldingi dars',
+  'Следующий урок': 'Keyingi dars',
 }

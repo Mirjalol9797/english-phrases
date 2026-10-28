@@ -13,7 +13,7 @@ import { isPartStarted, nextPartIndex, splitIntoParts } from '@/utils/parts'
 import { availableStages } from '@/utils/practice'
 import { useSpeech } from '@/composables/useSpeech'
 
-const { plural } = useI18n()
+const { t, plural } = useI18n()
 
 const props = defineProps<{ lessonId: string }>()
 const content = useContentStore()
@@ -69,14 +69,14 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
   </RouterLink>
   <RouterLink v-else to="/chapters" class="link-back">
     <AppIcon name="chevron-left" :size="18" />
-    Все главы
+    {{ t('Все главы') }}
   </RouterLink>
 
   <StatusMessage v-if="loading || error" :loading="loading" :error="error" :not-found="notFound" @retry="reload" />
 
   <article v-else-if="ctx">
     <header class="mt-4">
-      <p class="text-sm text-muted">Урок {{ ctx.lesson.order }} из {{ ctx.chapter.lessons.length }}</p>
+      <p class="text-sm text-muted">{{ t('Урок {n} из {total}', { n: ctx.lesson.order, total: ctx.chapter.lessons.length }) }}</p>
       <h1 lang="en" class="mt-1 font-serif text-2xl sm:text-[2rem] leading-tight font-semibold">
         <span class="marker">{{ ctx.lesson.title.en }}</span>
       </h1>
@@ -85,27 +85,26 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
 
     <div class="mt-4 sm:mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
       <RouterLink v-if="!blockedByLimit" :to="practiceLink(nextPart)" class="btn-primary">
-        {{ split ? `Часть ${nextPart + 1} из ${parts.length}` : 'Начать урок' }}
+        {{ split ? t('Часть {n} из {total}', { n: nextPart + 1, total: parts.length }) : t('Начать урок') }}
       </RouterLink>
       <button v-else type="button" class="btn-primary" disabled>
-        {{ split ? `Часть ${nextPart + 1} из ${parts.length}` : 'Начать урок' }}
+        {{ split ? t('Часть {n} из {total}', { n: nextPart + 1, total: parts.length }) : t('Начать урок') }}
       </button>
       <p class="text-sm text-muted">
         {{ plural(parts[nextPart]?.length ?? 0, nounOf(ctx.chapter.kind)) }}:
-        карточки и {{ plural(stageCount, 'stage') }}.
+        {{ t('карточки и {stages}.', { stages: plural(stageCount, 'stage') }) }}
       </p>
     </div>
 
     <!-- Дневной предел новых фраз. Пройденное повторять можно всегда. -->
     <p v-if="blockedByLimit" class="mt-3 max-w-prose text-sm text-muted">
-      На сегодня новых фраз хватит — взяли {{ progress.newToday }} из {{ settings.dailyNewLimit }}.
-      Так материал успевает улечься.
-      <RouterLink to="/review" class="text-accent underline underline-offset-4">Повторить пройденное</RouterLink>
-      или изменить предел в
-      <RouterLink to="/settings" class="text-accent underline underline-offset-4">настройках</RouterLink>.
+      {{ t('На сегодня новых фраз хватит — взяли {done} из {total}. Так материал успевает улечься.', { done: progress.newToday, total: settings.dailyNewLimit }) }}
+      <RouterLink to="/review" class="text-accent underline underline-offset-4">{{ t('Повторить пройденное') }}</RouterLink>
+      {{ t('или изменить предел в') }}
+      <RouterLink to="/settings" class="text-accent underline underline-offset-4">{{ t('настройках') }}</RouterLink>.
     </p>
     <p v-else-if="newInPart > 0 && settings.dailyNewLimit > 0" class="mt-3 text-sm text-muted">
-      Новых сегодня: {{ progress.newToday }} из {{ settings.dailyNewLimit }}.
+      {{ t('Новых сегодня: {done} из {total}.', { done: progress.newToday, total: settings.dailyNewLimit }) }}
     </p>
 
     <!-- Выбор части. Нужен, только если урок длиннее размера занятия. -->
@@ -120,7 +119,7 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
               : 'border-line text-muted hover:text-ink'
           "
         >
-          Часть {{ index + 1 }}
+          {{ t('Часть {n}', { n: index + 1 }) }}
           <span class="tabular-nums opacity-70">{{ part.length }}</span>
           <AppIcon v-if="isPartStarted(part, started)" name="check" :size="15" class="text-ok" />
         </RouterLink>
@@ -131,13 +130,13 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
       <PhraseItem v-for="phrase in ctx.lesson.phrases" :key="phrase.id" :phrase="phrase" />
     </ol>
 
-    <nav aria-label="Соседние уроки" class="mt-5 sm:mt-6 grid gap-3 sm:grid-cols-2">
+    <nav :aria-label="t('Соседние уроки')" class="mt-5 sm:mt-6 grid gap-3 sm:grid-cols-2">
       <RouterLink
         v-if="ctx.previous"
         :to="`/lessons/${ctx.previous.id}`"
         class="rounded-xl border border-line px-4 py-3 hover:border-muted"
       >
-        <span class="block text-sm text-muted">Предыдущий урок</span>
+        <span class="block text-sm text-muted">{{ t('Предыдущий урок') }}</span>
         <span lang="en" class="block font-serif text-lg">{{ ctx.previous.title.en }}</span>
       </RouterLink>
       <RouterLink
@@ -145,7 +144,7 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
         :to="`/lessons/${ctx.next.id}`"
         class="rounded-xl border border-line px-4 py-3 text-right hover:border-muted sm:col-start-2"
       >
-        <span class="block text-sm text-muted">Следующий урок</span>
+        <span class="block text-sm text-muted">{{ t('Следующий урок') }}</span>
         <span lang="en" class="block font-serif text-lg">{{ ctx.next.title.en }}</span>
       </RouterLink>
     </nav>

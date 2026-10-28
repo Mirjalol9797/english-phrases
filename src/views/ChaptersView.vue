@@ -8,7 +8,7 @@ import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import AppIcon from '@/components/AppIcon.vue'
 
-const { plural } = useI18n()
+const { t, plural } = useI18n()
 
 const content = useContentStore()
 const progress = useProgressStore()
@@ -17,7 +17,7 @@ const progress = useProgressStore()
 function counts(chapterId: string) {
   return progress.countsByChapter[chapterId] ?? null
 }
-useDocumentTitle(() => 'Главы')
+useDocumentTitle(() => t('Главы'))
 
 const { data: index, loading, error, reload } = useAsyncData(
   () => 'chapters',
@@ -30,7 +30,7 @@ const hasExpressions = computed(() => index.value?.chapters.some((c) => c.kind =
 const total = computed(() => {
   if (!index.value) return ''
   const count = index.value.totalPhrases
-  return hasExpressions.value ? `${count} фраз и выражений` : plural(count, 'phrase')
+  return hasExpressions.value ? t('{count} фраз и выражений', { count }) : plural(count, 'phrase')
 })
 
 /** Номера глав, которые запланированы, но ещё не добавлены. */
@@ -46,10 +46,10 @@ const emptySlots = computed(() => {
   <StatusMessage v-if="loading || error" :loading="loading" :error="error" @retry="reload" />
 
   <section v-else-if="index">
-    <h1 class="text-xl sm:text-2xl font-semibold">Главы</h1>
+    <h1 class="text-xl sm:text-2xl font-semibold">{{ t('Главы') }}</h1>
     <p class="mt-2 max-w-prose text-muted">
-      Добавлено {{ index.chapters.length }} из {{ index.plannedChapters }}, всего {{ total }}.
-      Каждая глава разбита на уроки, в уроке от пяти до двадцати записей.
+      {{ t('Добавлено {done} из {total}, всего {count}.', { done: index.chapters.length, total: index.plannedChapters, count: total }) }}
+      {{ t('Каждая глава разбита на уроки, в уроке от пяти до двадцати записей.') }}
     </p>
 
     <ol class="mt-4 sm:mt-5 divide-y divide-line border-y border-line">
@@ -65,7 +65,7 @@ const emptySlots = computed(() => {
               {{ plural(chapter.lessonCount, 'lesson') }},
               {{ plural(chapter.phraseCount, nounOf(chapter.kind)) }}
               <template v-if="counts(chapter.id)">
-                · начато {{ counts(chapter.id)!.started }}, выучено {{ counts(chapter.id)!.learned }}
+                · {{ t('начато {started}, выучено {learned}', { started: counts(chapter.id)!.started, learned: counts(chapter.id)!.learned }) }}
               </template>
             </span>
           </span>
@@ -74,7 +74,7 @@ const emptySlots = computed(() => {
       </li>
       <li v-for="number in emptySlots" :key="`empty-${number}`" class="flex items-center gap-4 py-3 sm:py-4 text-muted">
         <span class="w-7 shrink-0 text-right font-serif text-xl sm:text-2xl tabular-nums opacity-60">{{ number }}</span>
-        <span>Пока не добавлена</span>
+        <span>{{ t('Пока не добавлена') }}</span>
       </li>
     </ol>
   </section>
