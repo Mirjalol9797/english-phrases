@@ -2,6 +2,7 @@ import { defineStore } from 'pinia'
 import { computed, ref, watch } from 'vue'
 import { DEFAULT_SESSION_SIZE, isSessionSize } from '@/utils/parts'
 import { EXERCISE_ORDER, EXERCISE_TITLES } from '@/utils/practice'
+import type { Language } from '@/i18n'
 import type { ExerciseKind } from '@/types/practice'
 
 export type ThemeChoice = 'system' | 'light' | 'dark'
@@ -20,6 +21,7 @@ const RATE_KEY = 'english-phrases:rate'
 const SESSION_SIZE_KEY = 'english-phrases:session-size'
 const DAILY_NEW_KEY = 'english-phrases:daily-new'
 const STAGES_KEY = 'english-phrases:stages'
+const LANGUAGE_KEY = 'english-phrases:language'
 
 /** Скорость речи. Медленнее единицы учебные фразы заметно проще разобрать на слух. */
 export const RATE_MIN = 0.6
@@ -52,6 +54,15 @@ function readStoredTheme(): ThemeChoice {
     return isThemeChoice(saved) ? saved : 'system'
   } catch {
     return 'system'
+  }
+}
+
+/** Выбранный язык. Незнакомое значение из старой или чужой копии — русский. */
+function readStoredLanguage(): Language {
+  try {
+    return localStorage.getItem(LANGUAGE_KEY) === 'uz' ? 'uz' : 'ru'
+  } catch {
+    return 'ru'
   }
 }
 
@@ -169,6 +180,26 @@ export const useSettingsStore = defineStore('settings', () => {
     }
   })
 
+  /**
+   * Язык интерфейса и переводов. По умолчанию русский: проект начинался с него,
+   * и у тех, кто уже пользуется, ничего не должно поменяться само собой.
+   */
+  const language = ref<Language>(readStoredLanguage())
+
+  watch(
+    language,
+    (choice) => {
+      // Лишнее для перевода, но нужное для чтения вслух и переносов слов.
+      document.documentElement.lang = choice
+      try {
+        localStorage.setItem(LANGUAGE_KEY, choice)
+      } catch {
+        // Не запомнили выбор — приложение всё равно работает.
+      }
+    },
+    { immediate: true },
+  )
+
   /** Автоозвучка карточек в занятии. Кнопку повтора выключение не трогает. */
   const speechEnabled = ref(readStoredSpeech())
 
@@ -257,5 +288,5 @@ export const useSettingsStore = defineStore('settings', () => {
     theme.value = resolvedTheme.value === 'dark' ? 'light' : 'dark'
   }
 
-  return { theme, resolvedTheme, speechEnabled, voiceName, speechRate, sessionSize, dailyNewLimit, enabledStages, isStageEnabled, toggleStage, setTheme, toggleTheme }
+  return { language, theme, resolvedTheme, speechEnabled, voiceName, speechRate, sessionSize, dailyNewLimit, enabledStages, isStageEnabled, toggleStage, setTheme, toggleTheme }
 })

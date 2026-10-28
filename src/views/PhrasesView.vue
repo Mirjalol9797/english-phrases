@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
+import { useI18n } from '@/i18n'
 import { useRoute, useRouter } from 'vue-router'
 import { useContentStore } from '@/stores/content'
 import { useAsyncData } from '@/composables/useAsyncData'
@@ -10,8 +11,9 @@ import { chapterFilters } from '@/utils/filters'
 import PhraseItem from '@/components/PhraseItem.vue'
 import AppIcon from '@/components/AppIcon.vue'
 import { englishSearchText, normalizeSearch } from '@/utils/search'
-import { plural, MATCH_FORMS } from '@/utils/plural'
 import type { Phrase } from '@/types/content'
+
+const { plural } = useI18n()
 
 /** Фраза вместе с главой и уроком и заранее нормализованным текстом для поиска. */
 interface SearchEntry {
@@ -147,7 +149,7 @@ watch(
       <ChapterFilter v-model="chapterId" :options="filters" label="Глава" class="mt-4" />
 
       <p class="mt-4 text-sm text-muted" role="status" aria-live="polite">
-        {{ results.length ? `Найдено ${plural(results.length, MATCH_FORMS)}` : 'Ничего не нашлось' }}
+        {{ results.length ? `Найдено ${plural(results.length, 'match')}` : 'Ничего не нашлось' }}
       </p>
 
       <ol v-if="shown.length" class="mt-2 divide-y divide-line border-y border-line">

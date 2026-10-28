@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, shallowRef, watch, type Ref } from 'vue'
+import { useI18n, nounOf, type Noun } from '@/i18n'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
 import { useSettingsStore } from '@/stores/settings'
@@ -12,16 +13,15 @@ import { byLoad, chapterFilters } from '@/utils/filters'
 import PracticeSession from '@/components/practice/PracticeSession.vue'
 import { buildReview } from '@/utils/practice'
 import { toOutcomes } from '@/utils/session'
-import { plural, itemForms, ENTRY_FORMS } from '@/utils/plural'
 import { formatDay, today } from '@/utils/date'
-import { plural as pluralOf } from '@/utils/plural'
 import type { Phrase } from '@/types/content'
 import type { PracticeStep, StepResult } from '@/types/practice'
+
+const { plural } = useI18n()
 
 /** За один заход повторяем не больше: длинная очередь отпугивает сильнее, чем помогает. */
 const BATCH_SIZE = 20
 
-const DAY_FORMS: [string, string, string] = ['день', 'дня', 'дней']
 
 const content = useContentStore()
 const progress = useProgressStore()
@@ -120,13 +120,13 @@ const titleOf = computed(() => {
  * Как называть то, что повторяем. В одной главе это фразы, слова или глаголы,
  * а во всех сразу — вперемешку, и общее слово им «запись».
  */
-function formsFor(chapter: string) {
+function nounFor(chapter: string): Noun {
   const found = (chapters.value ?? []).find((c) => c.id === chapter)
-  return found ? itemForms(found.kind) : ENTRY_FORMS
+  return found ? nounOf(found.kind) : 'entry'
 }
 
-const dueForms = computed(() => formsFor(dueChapter.value))
-const hardForms = computed(() => formsFor(hardChapter.value))
+const dueNoun = computed(() => nounFor(dueChapter.value))
+const hardNoun = computed(() => nounFor(hardChapter.value))
 
 const chapterTitles = computed(() =>
   (chapters.value ?? []).map((chapter) => ({ id: chapter.id, title: chapter.title.en })),
@@ -219,7 +219,7 @@ function onFinish(sessionResults: StepResult[]) {
 
         <template v-else>
           <p class="mt-4 text-muted">
-            Пора повторить {{ plural(due.length, dueForms) }}.
+            Пора повторить {{ plural(due.length, dueNoun) }}.
             <template v-if="due.length > BATCH_SIZE">За один заход — {{ BATCH_SIZE }}.</template>
           </p>
 
@@ -232,7 +232,7 @@ function onFinish(sessionResults: StepResult[]) {
               class="flex items-baseline gap-3 py-2 sm:py-3"
             >
               <span class="w-16 shrink-0 text-xs text-muted tabular-nums">
-                {{ pluralOf(progress.get(entry.phrase.id)?.interval ?? 0, DAY_FORMS) }}
+                {{ plural(progress.get(entry.phrase.id)?.interval ?? 0, 'day') }}
               </span>
               <span class="min-w-0 flex-1">
                 <span lang="en" class="block font-serif text-lg leading-snug">{{ entry.phrase.en }}</span>
@@ -257,10 +257,10 @@ function onFinish(sessionResults: StepResult[]) {
         <ChapterFilter v-model="hardChapter" :options="hardFilters" label="Глава для трудных" class="mt-3" />
         <p class="mt-3 text-sm text-muted">
           <template v-if="hardChapter">
-            Здесь ошибались чаще всего — {{ plural(hardInChapter.length, hardForms) }} в этой главе.
+            Здесь ошибались чаще всего — {{ plural(hardInChapter.length, hardNoun) }} в этой главе.
           </template>
           <template v-else>
-            Здесь ошибались чаще всего — {{ plural(hardInChapter.length, hardForms) }}.
+            Здесь ошибались чаще всего — {{ plural(hardInChapter.length, hardNoun) }}.
           </template>
           <template v-if="hardInChapter.length > BATCH_SIZE">
             Показаны самые трудные {{ BATCH_SIZE }}, заход тоже из них.

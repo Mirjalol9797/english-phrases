@@ -1,13 +1,15 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { useI18n, nounOf } from '@/i18n'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
 import { useAsyncData } from '@/composables/useAsyncData'
 import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import AppIcon from '@/components/AppIcon.vue'
-import { plural, itemForms, LESSON_FORMS } from '@/utils/plural'
 import { isLearned } from '@/utils/sm2'
+
+const { plural } = useI18n()
 
 const props = defineProps<{ chapterId: string }>()
 const content = useContentStore()
@@ -58,7 +60,7 @@ useDocumentTitle(() => chapter.value?.title.en)
       <h1 lang="en" class="font-serif text-2xl sm:text-[2rem] leading-tight font-semibold">{{ chapter.title.en }}</h1>
       <p class="mt-1 text-lg text-muted">{{ chapter.title.ru }}</p>
       <p class="mt-3 text-sm text-muted">
-        {{ plural(chapter.lessons.length, LESSON_FORMS) }}, {{ plural(phraseCount, itemForms(chapter.kind)) }}
+        {{ plural(chapter.lessons.length, 'lesson') }}, {{ plural(phraseCount, nounOf(chapter.kind)) }}
       </p>
     </header>
 

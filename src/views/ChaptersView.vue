@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { useI18n, nounOf } from '@/i18n'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
 import { useAsyncData } from '@/composables/useAsyncData'
 import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import AppIcon from '@/components/AppIcon.vue'
-import { plural, itemForms, LESSON_FORMS, PHRASE_FORMS } from '@/utils/plural'
+
+const { plural } = useI18n()
 
 const content = useContentStore()
 const progress = useProgressStore()
@@ -28,7 +30,7 @@ const hasExpressions = computed(() => index.value?.chapters.some((c) => c.kind =
 const total = computed(() => {
   if (!index.value) return ''
   const count = index.value.totalPhrases
-  return hasExpressions.value ? `${count} фраз и выражений` : plural(count, PHRASE_FORMS)
+  return hasExpressions.value ? `${count} фраз и выражений` : plural(count, 'phrase')
 })
 
 /** Номера глав, которые запланированы, но ещё не добавлены. */
@@ -60,8 +62,8 @@ const emptySlots = computed(() => {
             </span>
             <span class="block text-muted">{{ chapter.title.ru }}</span>
             <span class="mt-1 block text-sm text-muted">
-              {{ plural(chapter.lessonCount, LESSON_FORMS) }},
-              {{ plural(chapter.phraseCount, itemForms(chapter.kind)) }}
+              {{ plural(chapter.lessonCount, 'lesson') }},
+              {{ plural(chapter.phraseCount, nounOf(chapter.kind)) }}
               <template v-if="counts(chapter.id)">
                 · начато {{ counts(chapter.id)!.started }}, выучено {{ counts(chapter.id)!.learned }}
               </template>

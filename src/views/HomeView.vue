@@ -1,13 +1,15 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { useI18n, nounOf } from '@/i18n'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
 import { useSettingsStore } from '@/stores/settings'
 import { useAsyncData } from '@/composables/useAsyncData'
 import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
-import { plural, itemForms, PHRASE_FORMS } from '@/utils/plural'
 import type { ChapterSummary } from '@/types/content'
+
+const { plural } = useI18n()
 
 const content = useContentStore()
 const progress = useProgressStore()
@@ -48,7 +50,6 @@ const featured = computed(() => data.value?.nextLesson?.phrases.find((p) => !pro
 
 const dueCount = computed(() => progress.dueIds().length)
 
-const DAY_FORMS: [string, string, string] = ['день', 'дня', 'дней']
 </script>
 
 <template>
@@ -58,14 +59,14 @@ const DAY_FORMS: [string, string, string] = ['день', 'дня', 'дней']
     <!-- Сводка прогресса. Показываем, только когда уже есть что показывать. -->
     <div v-if="progress.startedCount > 0" class="flex flex-wrap items-center gap-x-5 gap-y-1 pb-6 text-sm">
       <span v-if="progress.streak > 0">
-        Серия <span class="font-medium">{{ plural(progress.streak, DAY_FORMS) }}</span>
+        Серия <span class="font-medium">{{ plural(progress.streak, 'day') }}</span>
       </span>
       <span class="text-muted">Выучено {{ progress.learnedCount }} из {{ progress.startedCount }}</span>
       <span v-if="settings.dailyNewLimit > 0" class="text-muted">
         Новых сегодня {{ progress.newToday }} из {{ settings.dailyNewLimit }}
       </span>
       <RouterLink v-if="dueCount" to="/review" class="text-accent underline underline-offset-4">
-        Повторить {{ plural(dueCount, PHRASE_FORMS) }}
+        Повторить {{ plural(dueCount, 'phrase') }}
       </RouterLink>
     </div>
 
@@ -112,7 +113,7 @@ const DAY_FORMS: [string, string, string] = ['день', 'дня', 'дней']
               </span>
               <span class="block text-sm text-muted">{{ chapter.title.ru }}</span>
             </span>
-            <span class="shrink-0 text-sm text-muted">{{ plural(chapter.phraseCount, itemForms(chapter.kind)) }}</span>
+            <span class="shrink-0 text-sm text-muted">{{ plural(chapter.phraseCount, nounOf(chapter.kind)) }}</span>
           </RouterLink>
         </li>
       </ul>

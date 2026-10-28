@@ -2,9 +2,10 @@ import type { Phrase } from '@/types/content'
 
 /**
  * Поиск по фразам. Текст сравнивается в нижнем регистре, а разные апострофы
- * (’ ‘ ʼ ` ´) приводятся к обычному ', иначе «I’m» не найдётся по запросу «I'm».
+ * (’ ‘ ʼ ʻ ` ´) приводятся к обычному ', иначе «I’m» не найдётся по запросу «I'm»,
+ * а узбекское «lugʻat» — по «lug'at».
  */
-const APOSTROPHES = /[’‘‛ʼ`´]/g
+const APOSTROPHES = /[’‘‛ʼʻ`´]/g
 
 export function normalizeSearch(text: string): string {
   return text.replace(APOSTROPHES, "'").toLowerCase()

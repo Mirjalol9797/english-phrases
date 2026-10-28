@@ -1,13 +1,15 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { useI18n, nounOf } from '@/i18n'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
 import { useAsyncData } from '@/composables/useAsyncData'
 import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
-import { plural, itemForms } from '@/utils/plural'
 import { addDays, formatDay, today, weekdayOf, type DayKey } from '@/utils/date'
 import { LEARNED_INTERVAL } from '@/utils/sm2'
+
+const { plural } = useI18n()
 
 /** Календарь занятий: 18 недель назад — примерно четыре месяца, помещается в ширину экрана. */
 const WEEKS = 18
@@ -22,8 +24,6 @@ const { data: index, loading, error, reload } = useAsyncData(
   () => content.loadIndex(),
 )
 
-const DAY_FORMS: [string, string, string] = ['день', 'дня', 'дней']
-const ANSWER_FORMS: [string, string, string] = ['ответ', 'ответа', 'ответов']
 
 /** Недели календаря, каждая — семь дней с понедельника. Последний столбец кончается сегодня. */
 const calendar = computed(() => {
@@ -96,7 +96,7 @@ const chapters = computed(() =>
         <div class="rounded-xl border border-line px-4 py-3">
           <dt class="text-sm text-muted">Дней занятий</dt>
           <dd class="mt-1 text-xl sm:text-2xl font-semibold tabular-nums">{{ progress.activeDays }}</dd>
-          <dd class="text-xs text-muted">{{ plural(progress.totalAnswers, ANSWER_FORMS) }}</dd>
+          <dd class="text-xs text-muted">{{ plural(progress.totalAnswers, 'answer') }}</dd>
         </div>
         <div class="rounded-xl border border-line px-4 py-3">
           <dt class="text-sm text-muted">Трудных</dt>
@@ -129,7 +129,7 @@ const chapters = computed(() =>
               class="h-3.5 w-3.5 rounded-sm"
               :class="cell.future ? 'opacity-0' : ''"
               :style="cell.future ? undefined : cellStyle(cell.answers)"
-              :title="`${formatDay(cell.day)} — ${cell.answers ? plural(cell.answers, ANSWER_FORMS) : 'не занимались'}`"
+              :title="`${formatDay(cell.day)} — ${cell.answers ? plural(cell.answers, 'answer') : 'не занимались'}`"
             />
           </div>
         </div>
@@ -139,7 +139,7 @@ const chapters = computed(() =>
       <h2 class="mt-6 sm:mt-8 text-lg font-semibold">Прочность</h2>
       <p class="mt-1 text-sm text-muted">
         Перерыв у каждой фразы свой: отвечаете верно — он растёт, ошибаетесь — возвращается к двум дням.
-        Выученной фраза считается с перерыва в {{ plural(LEARNED_INTERVAL, DAY_FORMS) }}.
+        Выученной фраза считается с перерыва в {{ plural(LEARNED_INTERVAL, 'day') }}.
       </p>
       <ol class="mt-3 space-y-2">
         <li v-for="bucket in progress.intervalBuckets" :key="bucket.label" class="flex items-center gap-3">
@@ -173,7 +173,7 @@ const chapters = computed(() =>
               <div class="h-full bg-ok" :style="{ width: `${(chapter.learned / chapter.phraseCount) * 100}%` }" />
             </div>
             <p class="mt-1 text-xs text-muted">
-              выучено {{ chapter.learned }}, начато {{ plural(chapter.started, itemForms(chapter.kind)) }}
+              выучено {{ chapter.learned }}, начато {{ plural(chapter.started, nounOf(chapter.kind)) }}
             </p>
           </li>
         </ol>

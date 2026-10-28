@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, shallowRef, watch } from 'vue'
+import { useI18n } from '@/i18n'
 import { useRoute } from 'vue-router'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
@@ -10,12 +11,13 @@ import StatusMessage from '@/components/StatusMessage.vue'
 import PracticeSession from '@/components/practice/PracticeSession.vue'
 import { buildPractice, buildRepeat } from '@/utils/practice'
 import { toOutcomes } from '@/utils/session'
-import { plural } from '@/utils/plural'
 import { formatDay } from '@/utils/date'
 import { splitIntoParts } from '@/utils/parts'
 import { useSpeech } from '@/composables/useSpeech'
 import type { Phrase } from '@/types/content'
 import type { ExerciseKind, PracticeStep, StepResult } from '@/types/practice'
+
+const { plural } = useI18n()
 
 const props = defineProps<{ lessonId: string }>()
 
@@ -35,7 +37,6 @@ const stages = computed(() =>
   ),
 )
 
-const REPEAT_FORMS: [string, string, string] = ['фразу', 'фразы', 'фраз']
 
 const { data: ctx, loading, error, notFound, reload } = useAsyncData(
   () => props.lessonId,
@@ -146,7 +147,7 @@ useDocumentTitle(() => (ctx.value ? `Урок: ${ctx.value.lesson.title.ru}` : '
         {{
           mistakenPhrases.length === 0
             ? 'Без единой ошибки.'
-            : `Стоит повторить ${plural(mistakenPhrases.length, REPEAT_FORMS)}.`
+            : `Стоит повторить ${plural(mistakenPhrases.length, 'phraseAcc')}.`
         }}
       </p>
       <p v-if="nextReview" class="mt-1 text-sm text-muted">

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, useTemplateRef } from 'vue'
+import { useI18n } from '@/i18n'
 import {
   useSettingsStore,
   THEME_OPTIONS,
@@ -14,9 +15,10 @@ import { useProgressStore } from '@/stores/progress'
 import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import { useSpeech } from '@/composables/useSpeech'
 import AppIcon, { type IconName } from '@/components/AppIcon.vue'
-import { plural, PHRASE_FORMS } from '@/utils/plural'
 import { SESSION_SIZE_OPTIONS } from '@/utils/parts'
 import { today } from '@/utils/date'
+
+const { plural } = useI18n()
 
 useDocumentTitle(() => 'Настройки')
 
@@ -68,7 +70,7 @@ async function load(event: Event) {
   message.value =
     restored === null
       ? { text: 'Не похоже на резервную копию этого приложения. Прогресс не тронут.', bad: true }
-      : { text: `Восстановлено ${plural(restored, PHRASE_FORMS)}.` }
+      : { text: `Восстановлено ${plural(restored, 'phrase')}.` }
 }
 
 function reset() {
@@ -213,7 +215,7 @@ function reset() {
     <p class="mt-3 text-muted">
       <template v-if="progress.startedCount === 0">Занятий ещё не было.</template>
       <template v-else>
-        Начато {{ plural(progress.startedCount, PHRASE_FORMS) }}, выучено {{ progress.learnedCount }}.
+        Начато {{ plural(progress.startedCount, 'phrase') }}, выучено {{ progress.learnedCount }}.
       </template>
     </p>
     <p class="mt-1 max-w-prose text-sm text-muted">

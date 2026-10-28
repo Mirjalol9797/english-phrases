@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { useI18n, nounOf } from '@/i18n'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
 import { useSettingsStore } from '@/stores/settings'
@@ -8,10 +9,11 @@ import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import PhraseItem from '@/components/PhraseItem.vue'
 import AppIcon from '@/components/AppIcon.vue'
-import { plural, itemForms, STAGE_FORMS } from '@/utils/plural'
 import { isPartStarted, nextPartIndex, splitIntoParts } from '@/utils/parts'
 import { availableStages } from '@/utils/practice'
 import { useSpeech } from '@/composables/useSpeech'
+
+const { plural } = useI18n()
 
 const props = defineProps<{ lessonId: string }>()
 const content = useContentStore()
@@ -89,8 +91,8 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
         {{ split ? `Часть ${nextPart + 1} из ${parts.length}` : 'Начать урок' }}
       </button>
       <p class="text-sm text-muted">
-        {{ plural(parts[nextPart]?.length ?? 0, itemForms(ctx.chapter.kind)) }}:
-        карточки и {{ plural(stageCount, STAGE_FORMS) }}.
+        {{ plural(parts[nextPart]?.length ?? 0, nounOf(ctx.chapter.kind)) }}:
+        карточки и {{ plural(stageCount, 'stage') }}.
       </p>
     </div>
 

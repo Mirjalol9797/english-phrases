@@ -1,6 +1,5 @@
 import { describe, expect, it } from 'vitest'
 import { highlight, normalizeSearch, englishSearchText } from './search'
-import { plural, itemForms, PHRASE_FORMS, LESSON_FORMS, EXPRESSION_FORMS, WORD_FORMS } from './plural'
 
 describe('normalizeSearch', () => {
   it('не различает регистр', () => {
@@ -60,30 +59,10 @@ describe('highlight', () => {
   })
 })
 
-describe('plural', () => {
-  it('склоняет по-русски', () => {
-    expect(plural(1, PHRASE_FORMS)).toBe('1 фраза')
-    expect(plural(2, PHRASE_FORMS)).toBe('2 фразы')
-    expect(plural(5, PHRASE_FORMS)).toBe('5 фраз')
-    expect(plural(21, PHRASE_FORMS)).toBe('21 фраза')
-    expect(plural(0, PHRASE_FORMS)).toBe('0 фраз')
-  })
-
-  it('знает про исключения второго десятка', () => {
-    expect(plural(11, PHRASE_FORMS)).toBe('11 фраз')
-    expect(plural(12, PHRASE_FORMS)).toBe('12 фраз')
-    expect(plural(14, PHRASE_FORMS)).toBe('14 фраз')
-    expect(plural(111, PHRASE_FORMS)).toBe('111 фраз')
-    expect(plural(101, LESSON_FORMS)).toBe('101 урок')
-  })
-
-  it('выбирает слово по виду главы', () => {
-    expect(itemForms('phrases')).toBe(PHRASE_FORMS)
-    expect(itemForms('expressions')).toBe(EXPRESSION_FORMS)
-    expect(itemForms('words')).toBe(WORD_FORMS)
-    expect(plural(330, itemForms('expressions'))).toBe('330 выражений')
-    expect(plural(900, itemForms('words'))).toBe('900 слов')
-    expect(plural(1, itemForms('words'))).toBe('1 слово')
+describe('узбекский апостроф', () => {
+  it('oʻ и gʻ находятся по обычному апострофу', () => {
+    expect(normalizeSearch('lugʻat')).toBe("lug'at")
+    expect(normalizeSearch('Oʻzbekcha')).toBe("o'zbekcha")
   })
 })
 
