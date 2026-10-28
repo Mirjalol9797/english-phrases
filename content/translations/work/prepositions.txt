@@ -1,0 +1,236 @@
+phrase|in the morning||утром|ertalab
+example|in the morning||I study English in the morning.|Men ertalab ingliz tili oʻrganaman.
+phrase|in the evening||вечером|kechqurun
+example|in the evening||We watch TV in the evening.|Biz kechqurun televizor koʻramiz.
+phrase|in the room||в комнате|xonada
+example|in the room||The children are in the room.|Bolalar xonada.
+phrase|in a hurry||в спешке|shosha-pisha
+example|in a hurry||I'm in a hurry.|Men shoshyapman.
+phrase|in fact||на самом деле|aslida
+example|in fact||In fact, I don't know him.|Aslida, men uni tanimayman.
+phrase|in the future||в будущем|kelajakda
+example|in the future||I want to travel more in the future.|Men kelajakda koʻproq sayohat qilmoqchiman.
+phrase|in two days||через два дня|ikki kundan keyin
+example|in two days||The course starts in two days.|Kurs ikki kundan keyin boshlanadi.
+phrase|interested in||интересоваться чем-либо|biror narsaga qiziqmoq
+example|interested in||I'm interested in technology.|Men texnologiyaga qiziqaman.
+phrase|believe in||верить в|ishonmoq
+example|believe in||I believe in you.|Men sizga ishonaman.
+phrase|in English||на английском языке|ingliz tilida
+example|in English||Can you say it in English?|Buni ingliz tilida ayta olasizmi?
+phrase|on the table||на столе|stolda
+example|on the table||Your keys are on the table.|Kalitlaringiz stolda.
+phrase|on Monday||в понедельник|dushanba kuni
+example|on Monday||I have an English lesson on Monday.|Dushanba kuni ingliz tili darsim bor.
+phrase|on time||вовремя|oʻz vaqtida
+example|on time||Please arrive on time.|Iltimos, oʻz vaqtida keling.
+phrase|on the way||по пути|yoʻl-yoʻlakay
+example|on the way||I'll buy bread on the way home.|Uyga ketayotib yoʻl-yoʻlakay non olaman.
+phrase|on the bus||в автобусе|avtobusda
+example|on the bus||I met her on the bus.|Men u bilan avtobusda uchrashdim.
+phrase|on the phone||по телефону|telefonda
+example|on the phone||I'm on the phone right now.|Men hozir telefonda gaplashyapman.
+phrase|on TV||по телевизору|televizorda
+example|on TV||I saw it on TV.|Men buni televizorda koʻrdim.
+phrase|on sale||на распродаже; со скидкой|chegirmada
+example|on sale||These shoes are on sale.|Bu oyoq kiyim chegirmada.
+phrase|on holiday||в отпуске|taʼtilda
+example|on holiday||They're on holiday this week.|Ular bu hafta taʼtilda.
+phrase|depend on||зависеть от|bogʻliq boʻlmoq
+example|depend on||It depends on the weather.|Bu ob-havoga bogʻliq.
+phrase|at seven o'clock||в семь часов|soat yettida
+example|at seven o'clock||I get up at seven o'clock.|Men soat yettida turaman.
+phrase|at night||ночью|kechasi
+example|at night||I sometimes work at night.|Men baʼzan kechasi ishlayman.
+phrase|at home||дома|uyda
+example|at home||I'm at home now.|Men hozir uydaman.
+phrase|at work||на работе|ishda
+example|at work||My father is at work.|Otam ishda.
+phrase|at school||в школе; на занятиях|maktabda
+example|at school||The children are at school.|Bolalar maktabda.
+phrase|at the bus stop||на автобусной остановке|avtobus bekatida
+example|at the bus stop||I'll meet you at the bus stop.|Men sizni avtobus bekatida kutaman.
+phrase|at first||сначала|avvaliga
+example|at first||At first, the task was difficult.|Avvaliga vazifa qiyin edi.
+phrase|at the moment||в данный момент|ayni paytda
+example|at the moment||I'm busy at the moment.|Men ayni paytda bandman.
+phrase|good at||хорошо уметь что-либо|biror narsani yaxshi uddalamoq
+example|good at||She's good at maths.|U matematikani yaxshi biladi.
+phrase|look at||смотреть на|qaramoq
+example|look at||Look at this picture.|Bu suratga qarang.
+phrase|for you||для тебя|siz uchun
+example|for you||This gift is for you.|Bu sovgʻa siz uchun.
+phrase|for example||например|masalan
+example|for example||For example, you can start with this book.|Masalan, shu kitobdan boshlashingiz mumkin.
+phrase|for a week||в течение недели|bir hafta davomida
+example|for a week||I'm staying here for a week.|Men bu yerda bir hafta qolaman.
+phrase|for two hours||в течение двух часов|ikki soat davomida
+example|for two hours||We waited for two hours.|Biz ikki soat kutdik.
+phrase|for the first time||впервые|birinchi marta
+example|for the first time||I'm visiting Samarkand for the first time.|Men Samarqandga birinchi marta kelyapman.
+phrase|thank you for||спасибо за|... uchun rahmat
+example|thank you for||Thank you for your help.|Yordamingiz uchun rahmat.
+phrase|wait for||ждать кого-либо или чего-либо|kimnidir yoki nimanidir kutmoq
+example|wait for||I'm waiting for the bus.|Men avtobus kutyapman.
+phrase|look for||искать|qidirmoq
+example|look for||I'm looking for my keys.|Men kalitlarimni qidiryapman.
+phrase|ready for||готовый к чему-либо|biror narsaga tayyor
+example|ready for||Are you ready for the test?|Testga tayyormisiz?
+phrase|ask for||просить что-либо|biror narsa soʻramoq
+example|ask for||You can ask for help.|Siz yordam soʻrashingiz mumkin.
+phrase|go to work||идти на работу|ishga bormoq
+example|go to work||I go to work by bus.|Men ishga avtobusda boraman.
+phrase|go to bed||ложиться спать|uxlashga yotmoq
+example|go to bed||I go to bed at eleven.|Men soat oʻn birda uxlashga yotaman.
+phrase|listen to||слушать|tinglamoq
+example|listen to||I listen to music every day.|Men har kuni musiqa tinglayman.
+phrase|talk to||разговаривать с|bilan gaplashmoq
+example|talk to||I need to talk to you.|Men siz bilan gaplashishim kerak.
+phrase|write to||писать кому-либо|kimgadir xat yozmoq
+example|write to||I wrote to my friend yesterday.|Men kecha doʻstimga xat yozdim.
+phrase|give it to me||дай это мне|buni menga bering
+example|give it to me||Please give it to me.|Iltimos, buni menga bering.
+phrase|welcome to||добро пожаловать в|... ga xush kelibsiz
+example|welcome to||Welcome to our school.|Maktabimizga xush kelibsiz.
+phrase|next to||рядом с|yonida
+example|next to||The bank is next to the shop.|Bank doʻkon yonida.
+phrase|from Monday to Friday||с понедельника по пятницу|dushanbadan jumagacha
+example|from Monday to Friday||I work from Monday to Friday.|Men dushanbadan jumagacha ishlayman.
+phrase|want to learn||хотеть учиться|oʻrganishni xohlamoq
+example|want to learn||I want to learn English.|Men ingliz tilini oʻrganmoqchiman.
+phrase|from Uzbekistan||из Узбекистана|Oʻzbekistondan
+example|from Uzbekistan||I'm from Uzbekistan.|Men Oʻzbekistondanman.
+phrase|from work||с работы|ishdan
+example|from work||I just got back from work.|Men endigina ishdan qaytdim.
+phrase|from home||из дома; от дома|uydan
+example|from home||I work from home twice a week.|Men haftada ikki marta uydan turib ishlayman.
+phrase|from 9 to 5||с девяти до пяти|toʻqqizdan beshgacha
+example|from 9 to 5||The office is open from 9 to 5.|Ofis toʻqqizdan beshgacha ochiq.
+phrase|a message from||сообщение от|...dan xabar
+example|a message from||I got a message from my teacher.|Men oʻqituvchimdan xabar oldim.
+phrase|different from||отличающийся от|...dan farq qiladigan
+example|different from||This version is different from the old one.|Bu versiya eskisidan farq qiladi.
+phrase|protect from||защищать от|...dan himoya qilmoq
+example|protect from||This jacket protects you from the cold.|Bu kurtka sizni sovuqdan himoya qiladi.
+phrase|borrow from||занимать у|...dan qarzga olmoq
+example|borrow from||Can I borrow a pen from you?|Sizdan ruchka olib tursam boʻladimi?
+phrase|with me||со мной|men bilan
+example|with me||Come with me, please.|Iltimos, men bilan yuring.
+phrase|with my family||с моей семьёй|oilam bilan
+example|with my family||I live with my family.|Men oilam bilan yashayman.
+phrase|with a friend||с другом|doʻst bilan
+example|with a friend||I went there with a friend.|Men u yerga doʻstim bilan bordim.
+phrase|a cup of tea with milk||чашка чая с молоком|sutli bir piyola choy
+example|a cup of tea with milk||I'd like tea with milk.|Menga sutli choy bering.
+phrase|help with||помогать с|...da yordam bermoq
+example|help with||Can you help me with my homework?|Uy vazifamda menga yordam bera olasizmi?
+phrase|agree with||соглашаться с|bilan rozi boʻlmoq
+example|agree with||I agree with you.|Men siz bilan roziman.
+phrase|deal with||иметь дело с; справляться с|...ni uddalamoq
+example|deal with||I can deal with this problem.|Men bu muammoni uddalay olaman.
+phrase|be careful with||быть осторожным с|...da ehtiyot boʻlmoq
+example|be careful with||Be careful with that glass.|Oʻsha stakanda ehtiyot boʻling.
+phrase|happy with||довольный чем-либо|biror narsadan mamnun
+example|happy with||I'm happy with the result.|Men natijadan mamnunman.
+phrase|talk with||разговаривать с|bilan suhbatlashmoq
+example|talk with||I talked with my manager.|Men rahbarim bilan suhbatlashdim.
+phrase|talk about||говорить о|haqida gapirmoq
+example|talk about||Let's talk about your plans.|Keling, rejalaringiz haqida gaplashamiz.
+phrase|think about||думать о|haqida oʻylamoq
+example|think about||I'm thinking about my future.|Men kelajagim haqida oʻylayapman.
+phrase|know about||знать о|haqida bilmoq
+example|know about||What do you know about this place?|Bu joy haqida nima bilasiz?
+phrase|learn about||узнавать о|haqida bilib olmoq
+example|learn about||We learned about the city at school.|Biz shahar haqida maktabda bilib oldik.
+phrase|worry about||беспокоиться о|haqida xavotirlanmoq
+example|worry about||Don't worry about me.|Men haqimda xavotirlanmang.
+phrase|excited about||быть в предвкушении|intiqlik bilan kutmoq
+example|excited about||I'm excited about the trip.|Men sayohatni intiqlik bilan kutyapman.
+phrase|about ten minutes||около десяти минут|taxminan oʻn daqiqa
+example|about ten minutes||It takes about ten minutes.|Bu taxminan oʻn daqiqa oladi.
+phrase|what about...?||как насчёт...?|...ga nima deysiz?
+example|what about...?||What about going for a walk?|Sayrga chiqishga nima deysiz?
+phrase|a cup of tea||чашка чая|bir piyola choy
+example|a cup of tea||I'd like a cup of tea.|Menga bir piyola choy bering.
+phrase|a lot of||много|koʻp
+example|a lot of||I have a lot of work today.|Bugun menda koʻp ish bor.
+phrase|a piece of||кусок; часть|bir boʻlak
+example|a piece of||Can I have a piece of cake?|Menga bir boʻlak tort bersangiz?
+phrase|one of my friends||один из моих друзей|doʻstlarimdan biri
+example|one of my friends||He's one of my best friends.|U mening eng yaqin doʻstlarimdan biri.
+phrase|kind of||вроде; своего рода|qandaydir; bir turdagi
+example|kind of||It's kind of strange.|Bu biroz gʻalati.
+phrase|afraid of||бояться|qoʻrqmoq
+example|afraid of||I'm afraid of spiders.|Men oʻrgimchaklardan qoʻrqaman.
+phrase|proud of||гордиться|faxrlanmoq
+example|proud of||I'm proud of you.|Men siz bilan faxrlanaman.
+phrase|because of||из-за|tufayli
+example|because of||The game was cancelled because of rain.|Oʻyin yomgʻir tufayli bekor qilindi.
+phrase|the end of the day||конец дня|kun oxiri
+example|the end of the day||I'll call you at the end of the day.|Men sizga kun oxirida qoʻngʻiroq qilaman.
+phrase|a friend of mine||мой друг|bir doʻstim
+example|a friend of mine||A friend of mine lives nearby.|Bir doʻstim yaqin atrofda yashaydi.
+phrase|by bus||на автобусе|avtobus bilan
+example|by bus||I go to work by bus.|Men ishga avtobusda boraman.
+phrase|by car||на машине|mashinada
+example|by car||We travelled by car.|Biz mashinada sayohat qildik.
+phrase|by train||на поезде|poyezdda
+example|by train||You can get there by train.|U yerga poyezdda borishingiz mumkin.
+phrase|by myself||самостоятельно; один|oʻzim mustaqil
+example|by myself||I did it by myself.|Men buni oʻzim qildim.
+phrase|by the way||кстати|aytgancha
+example|by the way||By the way, how's your brother?|Aytgancha, akangiz qalay?
+phrase|by hand||вручную|qoʻlda
+example|by hand||This bag is made by hand.|Bu sumka qoʻlda tikilgan.
+phrase|by mistake||по ошибке|adashib
+example|by mistake||I called you by mistake.|Men sizga adashib qoʻngʻiroq qildim.
+phrase|by Friday||к пятнице|jumagacha
+example|by Friday||Please finish this by Friday.|Iltimos, buni jumagacha tugating.
+phrase|written by||написанный кем-либо|kimdir tomonidan yozilgan
+example|written by||This book was written by a famous author.|Bu kitob mashhur muallif tomonidan yozilgan.
+phrase|without you||без тебя|sizsiz
+example|without you||I can't do this without you.|Men buni sizsiz qila olmayman.
+phrase|without a doubt||без сомнения|shubhasiz
+example|without a doubt||She is without a doubt the best person for the job.|U shubhasiz bu ish uchun eng mos odam.
+phrase|without permission||без разрешения|ruxsatsiz
+example|without permission||You can't enter without permission.|Ruxsatsiz kira olmaysiz.
+phrase|without any problems||без каких-либо проблем|hech qanday muammosiz
+example|without any problems||We finished the work without any problems.|Biz ishni hech qanday muammosiz tugatdik.
+phrase|go without||обходиться без|...siz kun koʻrmoq
+example|go without||I can't go without my phone.|Men telefonimsiz kun koʻra olmayman.
+phrase|coffee without sugar||кофе без сахара|shakarsiz qahva
+example|coffee without sugar||I'd like coffee without sugar.|Menga shakarsiz qahva bering.
+phrase|before work||до работы|ishdan oldin
+example|before work||I exercise before work.|Men ishdan oldin mashq qilaman.
+phrase|before lunch||до обеда|tushlikdan oldin
+example|before lunch||Let's finish this before lunch.|Keling, buni tushlikdan oldin tugatamiz.
+phrase|before you go||перед тем как ты уйдёшь|ketishingizdan oldin
+example|before you go||Call me before you go.|Ketishingizdan oldin menga qoʻngʻiroq qiling.
+phrase|the day before||накануне|bir kun oldin
+example|the day before||I saw him the day before.|Men uni bir kun oldin koʻrgandim.
+phrase|before long||вскоре|koʻp oʻtmay
+example|before long||You'll understand before long.|Koʻp oʻtmay tushunasiz.
+phrase|before and after||до и после|oldin va keyin
+example|before and after||Take a photo before and after.|Oldin va keyin surat oling.
+phrase|after work||после работы|ishdan keyin
+example|after work||Let's meet after work.|Keling, ishdan keyin uchrashamiz.
+phrase|after school||после школы|maktabdan keyin
+example|after school||I play football after school.|Men maktabdan keyin futbol oʻynayman.
+phrase|after lunch||после обеда|tushlikdan keyin
+example|after lunch||I'll call you after lunch.|Men sizga tushlikdan keyin qoʻngʻiroq qilaman.
+phrase|look after||заботиться о|qarab turmoq; gʻamxoʻrlik qilmoq
+example|look after||Can you look after my cat?|Mushugimga qarab tura olasizmi?
+phrase|soon after||вскоре после|...dan sal keyin
+example|soon after||He arrived soon after me.|U mendan sal keyin yetib keldi.
+phrase|day after day||день за днём|kundan-kunga
+example|day after day||She practised day after day.|U kundan-kunga mashq qildi.
+phrase|during the day||в течение дня|kun davomida
+example|during the day||I feel busy during the day.|Men kun davomida band boʻlaman.
+phrase|during the meeting||во время встречи|uchrashuv vaqtida
+example|during the meeting||Please don't use your phone during the meeting.|Iltimos, uchrashuv vaqtida telefoningizdan foydalanmang.
+phrase|during the night||в течение ночи|tun davomida
+example|during the night||It rained during the night.|Tun davomida yomgʻir yogʻdi.
+phrase|during the summer||летом; в течение лета|yoz davomida
+example|during the summer||We stayed with our grandparents during the summer.|Biz yoz davomida bobom va buvimnikida qoldik.
+phrase|during the lesson||во время урока|dars vaqtida
+example|during the lesson||Don't talk during the lesson.|Dars vaqtida gaplashmang.

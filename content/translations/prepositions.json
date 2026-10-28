@@ -1,0 +1,1304 @@
+{
+  "chapter": "prepositions",
+  "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "entries": [
+    {
+      "en": "in the morning",
+      "ru": "утром",
+      "uz": "ertalab",
+      "examples": [
+        {
+          "en": "I study English in the morning.",
+          "uz": "Men ertalab ingliz tili oʻrganaman."
+        }
+      ]
+    },
+    {
+      "en": "in the evening",
+      "ru": "вечером",
+      "uz": "kechqurun",
+      "examples": [
+        {
+          "en": "We watch TV in the evening.",
+          "uz": "Biz kechqurun televizor koʻramiz."
+        }
+      ]
+    },
+    {
+      "en": "in the room",
+      "ru": "в комнате",
+      "uz": "xonada",
+      "examples": [
+        {
+          "en": "The children are in the room.",
+          "uz": "Bolalar xonada."
+        }
+      ]
+    },
+    {
+      "en": "in a hurry",
+      "ru": "в спешке",
+      "uz": "shosha-pisha",
+      "examples": [
+        {
+          "en": "I'm in a hurry.",
+          "uz": "Men shoshyapman."
+        }
+      ]
+    },
+    {
+      "en": "in fact",
+      "ru": "на самом деле",
+      "uz": "aslida",
+      "examples": [
+        {
+          "en": "In fact, I don't know him.",
+          "uz": "Aslida, men uni tanimayman."
+        }
+      ]
+    },
+    {
+      "en": "in the future",
+      "ru": "в будущем",
+      "uz": "kelajakda",
+      "examples": [
+        {
+          "en": "I want to travel more in the future.",
+          "uz": "Men kelajakda koʻproq sayohat qilmoqchiman."
+        }
+      ]
+    },
+    {
+      "en": "in two days",
+      "ru": "через два дня",
+      "uz": "ikki kundan keyin",
+      "examples": [
+        {
+          "en": "The course starts in two days.",
+          "uz": "Kurs ikki kundan keyin boshlanadi."
+        }
+      ]
+    },
+    {
+      "en": "interested in",
+      "ru": "интересоваться чем-либо",
+      "uz": "biror narsaga qiziqmoq",
+      "examples": [
+        {
+          "en": "I'm interested in technology.",
+          "uz": "Men texnologiyaga qiziqaman."
+        }
+      ]
+    },
+    {
+      "en": "believe in",
+      "ru": "верить в",
+      "uz": "ishonmoq",
+      "examples": [
+        {
+          "en": "I believe in you.",
+          "uz": "Men sizga ishonaman."
+        }
+      ]
+    },
+    {
+      "en": "in English",
+      "ru": "на английском языке",
+      "uz": "ingliz tilida",
+      "examples": [
+        {
+          "en": "Can you say it in English?",
+          "uz": "Buni ingliz tilida ayta olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "on the table",
+      "ru": "на столе",
+      "uz": "stolda",
+      "examples": [
+        {
+          "en": "Your keys are on the table.",
+          "uz": "Kalitlaringiz stolda."
+        }
+      ]
+    },
+    {
+      "en": "on Monday",
+      "ru": "в понедельник",
+      "uz": "dushanba kuni",
+      "examples": [
+        {
+          "en": "I have an English lesson on Monday.",
+          "uz": "Dushanba kuni ingliz tili darsim bor."
+        }
+      ]
+    },
+    {
+      "en": "on time",
+      "ru": "вовремя",
+      "uz": "oʻz vaqtida",
+      "examples": [
+        {
+          "en": "Please arrive on time.",
+          "uz": "Iltimos, oʻz vaqtida keling."
+        }
+      ]
+    },
+    {
+      "en": "on the way",
+      "ru": "по пути",
+      "uz": "yoʻl-yoʻlakay",
+      "examples": [
+        {
+          "en": "I'll buy bread on the way home.",
+          "uz": "Uyga ketayotib yoʻl-yoʻlakay non olaman."
+        }
+      ]
+    },
+    {
+      "en": "on the bus",
+      "ru": "в автобусе",
+      "uz": "avtobusda",
+      "examples": [
+        {
+          "en": "I met her on the bus.",
+          "uz": "Men u bilan avtobusda uchrashdim."
+        }
+      ]
+    },
+    {
+      "en": "on the phone",
+      "ru": "по телефону",
+      "uz": "telefonda",
+      "examples": [
+        {
+          "en": "I'm on the phone right now.",
+          "uz": "Men hozir telefonda gaplashyapman."
+        }
+      ]
+    },
+    {
+      "en": "on TV",
+      "ru": "по телевизору",
+      "uz": "televizorda",
+      "examples": [
+        {
+          "en": "I saw it on TV.",
+          "uz": "Men buni televizorda koʻrdim."
+        }
+      ]
+    },
+    {
+      "en": "on sale",
+      "ru": "на распродаже; со скидкой",
+      "uz": "chegirmada",
+      "examples": [
+        {
+          "en": "These shoes are on sale.",
+          "uz": "Bu oyoq kiyim chegirmada."
+        }
+      ]
+    },
+    {
+      "en": "on holiday",
+      "ru": "в отпуске",
+      "uz": "taʼtilda",
+      "examples": [
+        {
+          "en": "They're on holiday this week.",
+          "uz": "Ular bu hafta taʼtilda."
+        }
+      ]
+    },
+    {
+      "en": "depend on",
+      "ru": "зависеть от",
+      "uz": "bogʻliq boʻlmoq",
+      "examples": [
+        {
+          "en": "It depends on the weather.",
+          "uz": "Bu ob-havoga bogʻliq."
+        }
+      ]
+    },
+    {
+      "en": "at seven o'clock",
+      "ru": "в семь часов",
+      "uz": "soat yettida",
+      "examples": [
+        {
+          "en": "I get up at seven o'clock.",
+          "uz": "Men soat yettida turaman."
+        }
+      ]
+    },
+    {
+      "en": "at night",
+      "ru": "ночью",
+      "uz": "kechasi",
+      "examples": [
+        {
+          "en": "I sometimes work at night.",
+          "uz": "Men baʼzan kechasi ishlayman."
+        }
+      ]
+    },
+    {
+      "en": "at home",
+      "ru": "дома",
+      "uz": "uyda",
+      "examples": [
+        {
+          "en": "I'm at home now.",
+          "uz": "Men hozir uydaman."
+        }
+      ]
+    },
+    {
+      "en": "at work",
+      "ru": "на работе",
+      "uz": "ishda",
+      "examples": [
+        {
+          "en": "My father is at work.",
+          "uz": "Otam ishda."
+        }
+      ]
+    },
+    {
+      "en": "at school",
+      "ru": "в школе; на занятиях",
+      "uz": "maktabda",
+      "examples": [
+        {
+          "en": "The children are at school.",
+          "uz": "Bolalar maktabda."
+        }
+      ]
+    },
+    {
+      "en": "at the bus stop",
+      "ru": "на автобусной остановке",
+      "uz": "avtobus bekatida",
+      "examples": [
+        {
+          "en": "I'll meet you at the bus stop.",
+          "uz": "Men sizni avtobus bekatida kutaman."
+        }
+      ]
+    },
+    {
+      "en": "at first",
+      "ru": "сначала",
+      "uz": "avvaliga",
+      "examples": [
+        {
+          "en": "At first, the task was difficult.",
+          "uz": "Avvaliga vazifa qiyin edi."
+        }
+      ]
+    },
+    {
+      "en": "at the moment",
+      "ru": "в данный момент",
+      "uz": "ayni paytda",
+      "examples": [
+        {
+          "en": "I'm busy at the moment.",
+          "uz": "Men ayni paytda bandman."
+        }
+      ]
+    },
+    {
+      "en": "good at",
+      "ru": "хорошо уметь что-либо",
+      "uz": "biror narsani yaxshi uddalamoq",
+      "examples": [
+        {
+          "en": "She's good at maths.",
+          "uz": "U matematikani yaxshi biladi."
+        }
+      ]
+    },
+    {
+      "en": "look at",
+      "ru": "смотреть на",
+      "uz": "qaramoq",
+      "examples": [
+        {
+          "en": "Look at this picture.",
+          "uz": "Bu suratga qarang."
+        }
+      ]
+    },
+    {
+      "en": "for you",
+      "ru": "для тебя",
+      "uz": "siz uchun",
+      "examples": [
+        {
+          "en": "This gift is for you.",
+          "uz": "Bu sovgʻa siz uchun."
+        }
+      ]
+    },
+    {
+      "en": "for example",
+      "ru": "например",
+      "uz": "masalan",
+      "examples": [
+        {
+          "en": "For example, you can start with this book.",
+          "uz": "Masalan, shu kitobdan boshlashingiz mumkin."
+        }
+      ]
+    },
+    {
+      "en": "for a week",
+      "ru": "в течение недели",
+      "uz": "bir hafta davomida",
+      "examples": [
+        {
+          "en": "I'm staying here for a week.",
+          "uz": "Men bu yerda bir hafta qolaman."
+        }
+      ]
+    },
+    {
+      "en": "for two hours",
+      "ru": "в течение двух часов",
+      "uz": "ikki soat davomida",
+      "examples": [
+        {
+          "en": "We waited for two hours.",
+          "uz": "Biz ikki soat kutdik."
+        }
+      ]
+    },
+    {
+      "en": "for the first time",
+      "ru": "впервые",
+      "uz": "birinchi marta",
+      "examples": [
+        {
+          "en": "I'm visiting Samarkand for the first time.",
+          "uz": "Men Samarqandga birinchi marta kelyapman."
+        }
+      ]
+    },
+    {
+      "en": "thank you for",
+      "ru": "спасибо за",
+      "uz": "... uchun rahmat",
+      "examples": [
+        {
+          "en": "Thank you for your help.",
+          "uz": "Yordamingiz uchun rahmat."
+        }
+      ]
+    },
+    {
+      "en": "wait for",
+      "ru": "ждать кого-либо или чего-либо",
+      "uz": "kimnidir yoki nimanidir kutmoq",
+      "examples": [
+        {
+          "en": "I'm waiting for the bus.",
+          "uz": "Men avtobus kutyapman."
+        }
+      ]
+    },
+    {
+      "en": "look for",
+      "ru": "искать",
+      "uz": "qidirmoq",
+      "examples": [
+        {
+          "en": "I'm looking for my keys.",
+          "uz": "Men kalitlarimni qidiryapman."
+        }
+      ]
+    },
+    {
+      "en": "ready for",
+      "ru": "готовый к чему-либо",
+      "uz": "biror narsaga tayyor",
+      "examples": [
+        {
+          "en": "Are you ready for the test?",
+          "uz": "Testga tayyormisiz?"
+        }
+      ]
+    },
+    {
+      "en": "ask for",
+      "ru": "просить что-либо",
+      "uz": "biror narsa soʻramoq",
+      "examples": [
+        {
+          "en": "You can ask for help.",
+          "uz": "Siz yordam soʻrashingiz mumkin."
+        }
+      ]
+    },
+    {
+      "en": "go to work",
+      "ru": "идти на работу",
+      "uz": "ishga bormoq",
+      "examples": [
+        {
+          "en": "I go to work by bus.",
+          "uz": "Men ishga avtobusda boraman."
+        }
+      ]
+    },
+    {
+      "en": "go to bed",
+      "ru": "ложиться спать",
+      "uz": "uxlashga yotmoq",
+      "examples": [
+        {
+          "en": "I go to bed at eleven.",
+          "uz": "Men soat oʻn birda uxlashga yotaman."
+        }
+      ]
+    },
+    {
+      "en": "listen to",
+      "ru": "слушать",
+      "uz": "tinglamoq",
+      "examples": [
+        {
+          "en": "I listen to music every day.",
+          "uz": "Men har kuni musiqa tinglayman."
+        }
+      ]
+    },
+    {
+      "en": "talk to",
+      "ru": "разговаривать с",
+      "uz": "bilan gaplashmoq",
+      "examples": [
+        {
+          "en": "I need to talk to you.",
+          "uz": "Men siz bilan gaplashishim kerak."
+        }
+      ]
+    },
+    {
+      "en": "write to",
+      "ru": "писать кому-либо",
+      "uz": "kimgadir xat yozmoq",
+      "examples": [
+        {
+          "en": "I wrote to my friend yesterday.",
+          "uz": "Men kecha doʻstimga xat yozdim."
+        }
+      ]
+    },
+    {
+      "en": "give it to me",
+      "ru": "дай это мне",
+      "uz": "buni menga bering",
+      "examples": [
+        {
+          "en": "Please give it to me.",
+          "uz": "Iltimos, buni menga bering."
+        }
+      ]
+    },
+    {
+      "en": "welcome to",
+      "ru": "добро пожаловать в",
+      "uz": "... ga xush kelibsiz",
+      "examples": [
+        {
+          "en": "Welcome to our school.",
+          "uz": "Maktabimizga xush kelibsiz."
+        }
+      ]
+    },
+    {
+      "en": "next to",
+      "ru": "рядом с",
+      "uz": "yonida",
+      "examples": [
+        {
+          "en": "The bank is next to the shop.",
+          "uz": "Bank doʻkon yonida."
+        }
+      ]
+    },
+    {
+      "en": "from Monday to Friday",
+      "ru": "с понедельника по пятницу",
+      "uz": "dushanbadan jumagacha",
+      "examples": [
+        {
+          "en": "I work from Monday to Friday.",
+          "uz": "Men dushanbadan jumagacha ishlayman."
+        }
+      ]
+    },
+    {
+      "en": "want to learn",
+      "ru": "хотеть учиться",
+      "uz": "oʻrganishni xohlamoq",
+      "examples": [
+        {
+          "en": "I want to learn English.",
+          "uz": "Men ingliz tilini oʻrganmoqchiman."
+        }
+      ]
+    },
+    {
+      "en": "from Uzbekistan",
+      "ru": "из Узбекистана",
+      "uz": "Oʻzbekistondan",
+      "examples": [
+        {
+          "en": "I'm from Uzbekistan.",
+          "uz": "Men Oʻzbekistondanman."
+        }
+      ]
+    },
+    {
+      "en": "from work",
+      "ru": "с работы",
+      "uz": "ishdan",
+      "examples": [
+        {
+          "en": "I just got back from work.",
+          "uz": "Men endigina ishdan qaytdim."
+        }
+      ]
+    },
+    {
+      "en": "from home",
+      "ru": "из дома; от дома",
+      "uz": "uydan",
+      "examples": [
+        {
+          "en": "I work from home twice a week.",
+          "uz": "Men haftada ikki marta uydan turib ishlayman."
+        }
+      ]
+    },
+    {
+      "en": "from 9 to 5",
+      "ru": "с девяти до пяти",
+      "uz": "toʻqqizdan beshgacha",
+      "examples": [
+        {
+          "en": "The office is open from 9 to 5.",
+          "uz": "Ofis toʻqqizdan beshgacha ochiq."
+        }
+      ]
+    },
+    {
+      "en": "a message from",
+      "ru": "сообщение от",
+      "uz": "...dan xabar",
+      "examples": [
+        {
+          "en": "I got a message from my teacher.",
+          "uz": "Men oʻqituvchimdan xabar oldim."
+        }
+      ]
+    },
+    {
+      "en": "different from",
+      "ru": "отличающийся от",
+      "uz": "...dan farq qiladigan",
+      "examples": [
+        {
+          "en": "This version is different from the old one.",
+          "uz": "Bu versiya eskisidan farq qiladi."
+        }
+      ]
+    },
+    {
+      "en": "protect from",
+      "ru": "защищать от",
+      "uz": "...dan himoya qilmoq",
+      "examples": [
+        {
+          "en": "This jacket protects you from the cold.",
+          "uz": "Bu kurtka sizni sovuqdan himoya qiladi."
+        }
+      ]
+    },
+    {
+      "en": "borrow from",
+      "ru": "занимать у",
+      "uz": "...dan qarzga olmoq",
+      "examples": [
+        {
+          "en": "Can I borrow a pen from you?",
+          "uz": "Sizdan ruchka olib tursam boʻladimi?"
+        }
+      ]
+    },
+    {
+      "en": "with me",
+      "ru": "со мной",
+      "uz": "men bilan",
+      "examples": [
+        {
+          "en": "Come with me, please.",
+          "uz": "Iltimos, men bilan yuring."
+        }
+      ]
+    },
+    {
+      "en": "with my family",
+      "ru": "с моей семьёй",
+      "uz": "oilam bilan",
+      "examples": [
+        {
+          "en": "I live with my family.",
+          "uz": "Men oilam bilan yashayman."
+        }
+      ]
+    },
+    {
+      "en": "with a friend",
+      "ru": "с другом",
+      "uz": "doʻst bilan",
+      "examples": [
+        {
+          "en": "I went there with a friend.",
+          "uz": "Men u yerga doʻstim bilan bordim."
+        }
+      ]
+    },
+    {
+      "en": "a cup of tea with milk",
+      "ru": "чашка чая с молоком",
+      "uz": "sutli bir piyola choy",
+      "examples": [
+        {
+          "en": "I'd like tea with milk.",
+          "uz": "Menga sutli choy bering."
+        }
+      ]
+    },
+    {
+      "en": "help with",
+      "ru": "помогать с",
+      "uz": "...da yordam bermoq",
+      "examples": [
+        {
+          "en": "Can you help me with my homework?",
+          "uz": "Uy vazifamda menga yordam bera olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "agree with",
+      "ru": "соглашаться с",
+      "uz": "bilan rozi boʻlmoq",
+      "examples": [
+        {
+          "en": "I agree with you.",
+          "uz": "Men siz bilan roziman."
+        }
+      ]
+    },
+    {
+      "en": "deal with",
+      "ru": "иметь дело с; справляться с",
+      "uz": "...ni uddalamoq",
+      "examples": [
+        {
+          "en": "I can deal with this problem.",
+          "uz": "Men bu muammoni uddalay olaman."
+        }
+      ]
+    },
+    {
+      "en": "be careful with",
+      "ru": "быть осторожным с",
+      "uz": "...da ehtiyot boʻlmoq",
+      "examples": [
+        {
+          "en": "Be careful with that glass.",
+          "uz": "Oʻsha stakanda ehtiyot boʻling."
+        }
+      ]
+    },
+    {
+      "en": "happy with",
+      "ru": "довольный чем-либо",
+      "uz": "biror narsadan mamnun",
+      "examples": [
+        {
+          "en": "I'm happy with the result.",
+          "uz": "Men natijadan mamnunman."
+        }
+      ]
+    },
+    {
+      "en": "talk with",
+      "ru": "разговаривать с",
+      "uz": "bilan suhbatlashmoq",
+      "examples": [
+        {
+          "en": "I talked with my manager.",
+          "uz": "Men rahbarim bilan suhbatlashdim."
+        }
+      ]
+    },
+    {
+      "en": "talk about",
+      "ru": "говорить о",
+      "uz": "haqida gapirmoq",
+      "examples": [
+        {
+          "en": "Let's talk about your plans.",
+          "uz": "Keling, rejalaringiz haqida gaplashamiz."
+        }
+      ]
+    },
+    {
+      "en": "think about",
+      "ru": "думать о",
+      "uz": "haqida oʻylamoq",
+      "examples": [
+        {
+          "en": "I'm thinking about my future.",
+          "uz": "Men kelajagim haqida oʻylayapman."
+        }
+      ]
+    },
+    {
+      "en": "know about",
+      "ru": "знать о",
+      "uz": "haqida bilmoq",
+      "examples": [
+        {
+          "en": "What do you know about this place?",
+          "uz": "Bu joy haqida nima bilasiz?"
+        }
+      ]
+    },
+    {
+      "en": "learn about",
+      "ru": "узнавать о",
+      "uz": "haqida bilib olmoq",
+      "examples": [
+        {
+          "en": "We learned about the city at school.",
+          "uz": "Biz shahar haqida maktabda bilib oldik."
+        }
+      ]
+    },
+    {
+      "en": "worry about",
+      "ru": "беспокоиться о",
+      "uz": "haqida xavotirlanmoq",
+      "examples": [
+        {
+          "en": "Don't worry about me.",
+          "uz": "Men haqimda xavotirlanmang."
+        }
+      ]
+    },
+    {
+      "en": "excited about",
+      "ru": "быть в предвкушении",
+      "uz": "intiqlik bilan kutmoq",
+      "examples": [
+        {
+          "en": "I'm excited about the trip.",
+          "uz": "Men sayohatni intiqlik bilan kutyapman."
+        }
+      ]
+    },
+    {
+      "en": "about ten minutes",
+      "ru": "около десяти минут",
+      "uz": "taxminan oʻn daqiqa",
+      "examples": [
+        {
+          "en": "It takes about ten minutes.",
+          "uz": "Bu taxminan oʻn daqiqa oladi."
+        }
+      ]
+    },
+    {
+      "en": "what about...?",
+      "ru": "как насчёт...?",
+      "uz": "...ga nima deysiz?",
+      "examples": [
+        {
+          "en": "What about going for a walk?",
+          "uz": "Sayrga chiqishga nima deysiz?"
+        }
+      ]
+    },
+    {
+      "en": "a cup of tea",
+      "ru": "чашка чая",
+      "uz": "bir piyola choy",
+      "examples": [
+        {
+          "en": "I'd like a cup of tea.",
+          "uz": "Menga bir piyola choy bering."
+        }
+      ]
+    },
+    {
+      "en": "a lot of",
+      "ru": "много",
+      "uz": "koʻp",
+      "examples": [
+        {
+          "en": "I have a lot of work today.",
+          "uz": "Bugun menda koʻp ish bor."
+        }
+      ]
+    },
+    {
+      "en": "a piece of",
+      "ru": "кусок; часть",
+      "uz": "bir boʻlak",
+      "examples": [
+        {
+          "en": "Can I have a piece of cake?",
+          "uz": "Menga bir boʻlak tort bersangiz?"
+        }
+      ]
+    },
+    {
+      "en": "one of my friends",
+      "ru": "один из моих друзей",
+      "uz": "doʻstlarimdan biri",
+      "examples": [
+        {
+          "en": "He's one of my best friends.",
+          "uz": "U mening eng yaqin doʻstlarimdan biri."
+        }
+      ]
+    },
+    {
+      "en": "kind of",
+      "ru": "вроде; своего рода",
+      "uz": "qandaydir; bir turdagi",
+      "examples": [
+        {
+          "en": "It's kind of strange.",
+          "uz": "Bu biroz gʻalati."
+        }
+      ]
+    },
+    {
+      "en": "afraid of",
+      "ru": "бояться",
+      "uz": "qoʻrqmoq",
+      "examples": [
+        {
+          "en": "I'm afraid of spiders.",
+          "uz": "Men oʻrgimchaklardan qoʻrqaman."
+        }
+      ]
+    },
+    {
+      "en": "proud of",
+      "ru": "гордиться",
+      "uz": "faxrlanmoq",
+      "examples": [
+        {
+          "en": "I'm proud of you.",
+          "uz": "Men siz bilan faxrlanaman."
+        }
+      ]
+    },
+    {
+      "en": "because of",
+      "ru": "из-за",
+      "uz": "tufayli",
+      "examples": [
+        {
+          "en": "The game was cancelled because of rain.",
+          "uz": "Oʻyin yomgʻir tufayli bekor qilindi."
+        }
+      ]
+    },
+    {
+      "en": "the end of the day",
+      "ru": "конец дня",
+      "uz": "kun oxiri",
+      "examples": [
+        {
+          "en": "I'll call you at the end of the day.",
+          "uz": "Men sizga kun oxirida qoʻngʻiroq qilaman."
+        }
+      ]
+    },
+    {
+      "en": "a friend of mine",
+      "ru": "мой друг",
+      "uz": "bir doʻstim",
+      "examples": [
+        {
+          "en": "A friend of mine lives nearby.",
+          "uz": "Bir doʻstim yaqin atrofda yashaydi."
+        }
+      ]
+    },
+    {
+      "en": "by bus",
+      "ru": "на автобусе",
+      "uz": "avtobus bilan",
+      "examples": [
+        {
+          "en": "I go to work by bus.",
+          "uz": "Men ishga avtobusda boraman."
+        }
+      ]
+    },
+    {
+      "en": "by car",
+      "ru": "на машине",
+      "uz": "mashinada",
+      "examples": [
+        {
+          "en": "We travelled by car.",
+          "uz": "Biz mashinada sayohat qildik."
+        }
+      ]
+    },
+    {
+      "en": "by train",
+      "ru": "на поезде",
+      "uz": "poyezdda",
+      "examples": [
+        {
+          "en": "You can get there by train.",
+          "uz": "U yerga poyezdda borishingiz mumkin."
+        }
+      ]
+    },
+    {
+      "en": "by myself",
+      "ru": "самостоятельно; один",
+      "uz": "oʻzim mustaqil",
+      "examples": [
+        {
+          "en": "I did it by myself.",
+          "uz": "Men buni oʻzim qildim."
+        }
+      ]
+    },
+    {
+      "en": "by the way",
+      "ru": "кстати",
+      "uz": "aytgancha",
+      "examples": [
+        {
+          "en": "By the way, how's your brother?",
+          "uz": "Aytgancha, akangiz qalay?"
+        }
+      ]
+    },
+    {
+      "en": "by hand",
+      "ru": "вручную",
+      "uz": "qoʻlda",
+      "examples": [
+        {
+          "en": "This bag is made by hand.",
+          "uz": "Bu sumka qoʻlda tikilgan."
+        }
+      ]
+    },
+    {
+      "en": "by mistake",
+      "ru": "по ошибке",
+      "uz": "adashib",
+      "examples": [
+        {
+          "en": "I called you by mistake.",
+          "uz": "Men sizga adashib qoʻngʻiroq qildim."
+        }
+      ]
+    },
+    {
+      "en": "by Friday",
+      "ru": "к пятнице",
+      "uz": "jumagacha",
+      "examples": [
+        {
+          "en": "Please finish this by Friday.",
+          "uz": "Iltimos, buni jumagacha tugating."
+        }
+      ]
+    },
+    {
+      "en": "written by",
+      "ru": "написанный кем-либо",
+      "uz": "kimdir tomonidan yozilgan",
+      "examples": [
+        {
+          "en": "This book was written by a famous author.",
+          "uz": "Bu kitob mashhur muallif tomonidan yozilgan."
+        }
+      ]
+    },
+    {
+      "en": "without you",
+      "ru": "без тебя",
+      "uz": "sizsiz",
+      "examples": [
+        {
+          "en": "I can't do this without you.",
+          "uz": "Men buni sizsiz qila olmayman."
+        }
+      ]
+    },
+    {
+      "en": "without a doubt",
+      "ru": "без сомнения",
+      "uz": "shubhasiz",
+      "examples": [
+        {
+          "en": "She is without a doubt the best person for the job.",
+          "uz": "U shubhasiz bu ish uchun eng mos odam."
+        }
+      ]
+    },
+    {
+      "en": "without permission",
+      "ru": "без разрешения",
+      "uz": "ruxsatsiz",
+      "examples": [
+        {
+          "en": "You can't enter without permission.",
+          "uz": "Ruxsatsiz kira olmaysiz."
+        }
+      ]
+    },
+    {
+      "en": "without any problems",
+      "ru": "без каких-либо проблем",
+      "uz": "hech qanday muammosiz",
+      "examples": [
+        {
+          "en": "We finished the work without any problems.",
+          "uz": "Biz ishni hech qanday muammosiz tugatdik."
+        }
+      ]
+    },
+    {
+      "en": "go without",
+      "ru": "обходиться без",
+      "uz": "...siz kun koʻrmoq",
+      "examples": [
+        {
+          "en": "I can't go without my phone.",
+          "uz": "Men telefonimsiz kun koʻra olmayman."
+        }
+      ]
+    },
+    {
+      "en": "coffee without sugar",
+      "ru": "кофе без сахара",
+      "uz": "shakarsiz qahva",
+      "examples": [
+        {
+          "en": "I'd like coffee without sugar.",
+          "uz": "Menga shakarsiz qahva bering."
+        }
+      ]
+    },
+    {
+      "en": "before work",
+      "ru": "до работы",
+      "uz": "ishdan oldin",
+      "examples": [
+        {
+          "en": "I exercise before work.",
+          "uz": "Men ishdan oldin mashq qilaman."
+        }
+      ]
+    },
+    {
+      "en": "before lunch",
+      "ru": "до обеда",
+      "uz": "tushlikdan oldin",
+      "examples": [
+        {
+          "en": "Let's finish this before lunch.",
+          "uz": "Keling, buni tushlikdan oldin tugatamiz."
+        }
+      ]
+    },
+    {
+      "en": "before you go",
+      "ru": "перед тем как ты уйдёшь",
+      "uz": "ketishingizdan oldin",
+      "examples": [
+        {
+          "en": "Call me before you go.",
+          "uz": "Ketishingizdan oldin menga qoʻngʻiroq qiling."
+        }
+      ]
+    },
+    {
+      "en": "the day before",
+      "ru": "накануне",
+      "uz": "bir kun oldin",
+      "examples": [
+        {
+          "en": "I saw him the day before.",
+          "uz": "Men uni bir kun oldin koʻrgandim."
+        }
+      ]
+    },
+    {
+      "en": "before long",
+      "ru": "вскоре",
+      "uz": "koʻp oʻtmay",
+      "examples": [
+        {
+          "en": "You'll understand before long.",
+          "uz": "Koʻp oʻtmay tushunasiz."
+        }
+      ]
+    },
+    {
+      "en": "before and after",
+      "ru": "до и после",
+      "uz": "oldin va keyin",
+      "examples": [
+        {
+          "en": "Take a photo before and after.",
+          "uz": "Oldin va keyin surat oling."
+        }
+      ]
+    },
+    {
+      "en": "after work",
+      "ru": "после работы",
+      "uz": "ishdan keyin",
+      "examples": [
+        {
+          "en": "Let's meet after work.",
+          "uz": "Keling, ishdan keyin uchrashamiz."
+        }
+      ]
+    },
+    {
+      "en": "after school",
+      "ru": "после школы",
+      "uz": "maktabdan keyin",
+      "examples": [
+        {
+          "en": "I play football after school.",
+          "uz": "Men maktabdan keyin futbol oʻynayman."
+        }
+      ]
+    },
+    {
+      "en": "after lunch",
+      "ru": "после обеда",
+      "uz": "tushlikdan keyin",
+      "examples": [
+        {
+          "en": "I'll call you after lunch.",
+          "uz": "Men sizga tushlikdan keyin qoʻngʻiroq qilaman."
+        }
+      ]
+    },
+    {
+      "en": "look after",
+      "ru": "заботиться о",
+      "uz": "qarab turmoq; gʻamxoʻrlik qilmoq",
+      "examples": [
+        {
+          "en": "Can you look after my cat?",
+          "uz": "Mushugimga qarab tura olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "soon after",
+      "ru": "вскоре после",
+      "uz": "...dan sal keyin",
+      "examples": [
+        {
+          "en": "He arrived soon after me.",
+          "uz": "U mendan sal keyin yetib keldi."
+        }
+      ]
+    },
+    {
+      "en": "day after day",
+      "ru": "день за днём",
+      "uz": "kundan-kunga",
+      "examples": [
+        {
+          "en": "She practised day after day.",
+          "uz": "U kundan-kunga mashq qildi."
+        }
+      ]
+    },
+    {
+      "en": "during the day",
+      "ru": "в течение дня",
+      "uz": "kun davomida",
+      "examples": [
+        {
+          "en": "I feel busy during the day.",
+          "uz": "Men kun davomida band boʻlaman."
+        }
+      ]
+    },
+    {
+      "en": "during the meeting",
+      "ru": "во время встречи",
+      "uz": "uchrashuv vaqtida",
+      "examples": [
+        {
+          "en": "Please don't use your phone during the meeting.",
+          "uz": "Iltimos, uchrashuv vaqtida telefoningizdan foydalanmang."
+        }
+      ]
+    },
+    {
+      "en": "during the night",
+      "ru": "в течение ночи",
+      "uz": "tun davomida",
+      "examples": [
+        {
+          "en": "It rained during the night.",
+          "uz": "Tun davomida yomgʻir yogʻdi."
+        }
+      ]
+    },
+    {
+      "en": "during the summer",
+      "ru": "летом; в течение лета",
+      "uz": "yoz davomida",
+      "examples": [
+        {
+          "en": "We stayed with our grandparents during the summer.",
+          "uz": "Biz yoz davomida bobom va buvimnikida qoldik."
+        }
+      ]
+    },
+    {
+      "en": "during the lesson",
+      "ru": "во время урока",
+      "uz": "dars vaqtida",
+      "examples": [
+        {
+          "en": "Don't talk during the lesson.",
+          "uz": "Dars vaqtida gaplashmang."
+        }
+      ]
+    }
+  ]
+}
