@@ -13,7 +13,7 @@ import AppIcon from '@/components/AppIcon.vue'
 import { englishSearchText, normalizeSearch } from '@/utils/search'
 import type { Phrase } from '@/types/content'
 
-const { t, plural } = useI18n()
+const { plural, t, tr } = useI18n()
 
 /** Фраза вместе с главой и уроком и заранее нормализованным текстом для поиска. */
 interface SearchEntry {
@@ -56,9 +56,9 @@ const entries = computed<SearchEntry[]>(() => {
           chapterId: chapter.id,
           chapterTitle: chapter.title.en,
           lessonId: lesson.id,
-          lessonTitle: lesson.title.ru,
+          lessonTitle: tr(lesson.title),
           en: normalizeSearch(englishSearchText(phrase)),
-          ru: normalizeSearch(phrase.ru),
+          ru: normalizeSearch(tr(phrase)),
         })
       }
     }

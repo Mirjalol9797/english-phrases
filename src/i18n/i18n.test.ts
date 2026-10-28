@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { nounOf, pluralize, translate } from './core'
+import { nounOf, pluralize, translate, translationOf } from './core'
 import { UZ_NOUNS, UZ_TEXT } from './uz'
 import { RU_NOUNS } from './ru'
 
@@ -94,5 +94,19 @@ describe('перевод', () => {
 
   it('без перевода остаётся русский: экран не ломается, пропуск виден', () => {
     expect(translate('Такой строки в словаре нет', 'uz')).toBe('Такой строки в словаре нет')
+  })
+})
+
+describe('перевод записи', () => {
+  it('по-русски берёт русский, даже когда есть узбекский', () => {
+    expect(translationOf({ ru: 'Привет!', uz: 'Salom!' }, 'ru')).toBe('Привет!')
+  })
+
+  it('по-узбекски берёт узбекский', () => {
+    expect(translationOf({ ru: 'Привет!', uz: 'Salom!' }, 'uz')).toBe('Salom!')
+  })
+
+  it('без узбекского остаётся русский: главы переводятся по одной', () => {
+    expect(translationOf({ ru: 'Привет!' }, 'uz')).toBe('Привет!')
   })
 })

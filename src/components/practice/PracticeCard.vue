@@ -2,6 +2,9 @@
 import { watch } from 'vue'
 import type { Phrase } from '@/types/content'
 import SpeakButton from './SpeakButton.vue'
+import { useI18n } from '@/i18n'
+
+const { tr } = useI18n()
 
 // Этап знакомства: фраза сразу вместе с переводом, проверять здесь нечего.
 const props = defineProps<{
@@ -36,7 +39,7 @@ watch(
 
     <!-- Часть речи есть только у слов: «n.», «prep., adv.». Перенос строки между
          переводом и ею дал бы лишний пробел, поэтому теги стоят вплотную. -->
-    <p class="mt-4 text-lg">{{ phrase.ru
+    <p class="mt-4 text-lg">{{ tr(phrase)
       }}<span v-if="phrase.pos" lang="en" class="font-serif text-sm text-muted">&nbsp;{{ phrase.pos }}</span></p>
 
     <p
@@ -45,7 +48,7 @@ watch(
       class="mt-4 border-l-2 border-line pl-3 text-sm text-muted"
     >
       <span lang="en" class="block font-serif">{{ example.en }}</span>
-      <span class="block">{{ example.ru }}</span>
+      <span class="block">{{ tr(example) }}</span>
     </p>
   </div>
 </template>

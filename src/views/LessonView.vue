@@ -13,7 +13,7 @@ import { isPartStarted, nextPartIndex, splitIntoParts } from '@/utils/parts'
 import { availableStages } from '@/utils/practice'
 import { useSpeech } from '@/composables/useSpeech'
 
-const { t, plural } = useI18n()
+const { plural, t, tr } = useI18n()
 
 const props = defineProps<{ lessonId: string }>()
 const content = useContentStore()
@@ -59,7 +59,7 @@ function practiceLink(index: number) {
   return split.value ? `${base}?part=${index + 1}` : base
 }
 
-useDocumentTitle(() => ctx.value?.lesson.title.ru)
+useDocumentTitle(() => (ctx.value ? tr(ctx.value.lesson.title) : undefined))
 </script>
 
 <template>
@@ -80,7 +80,7 @@ useDocumentTitle(() => ctx.value?.lesson.title.ru)
       <h1 lang="en" class="mt-1 font-serif text-2xl sm:text-[2rem] leading-tight font-semibold">
         <span class="marker">{{ ctx.lesson.title.en }}</span>
       </h1>
-      <p class="mt-1 text-lg text-muted">{{ ctx.lesson.title.ru }}</p>
+      <p class="mt-1 text-lg text-muted">{{ tr(ctx.lesson.title) }}</p>
     </header>
 
     <div class="mt-4 sm:mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">

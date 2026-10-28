@@ -1,6 +1,7 @@
 import type { Phrase } from '@/types/content'
 import type { ExerciseKind, PracticeStep } from '@/types/practice'
 import { normalizeAnswer } from './answer'
+import { translationOf, type Language } from '@/i18n/core'
 
 /** Вариантов в упражнении с выбором: правильный плюс три неверных. */
 const OPTION_COUNT = 4
@@ -84,15 +85,22 @@ function wrongOptions(
   return result
 }
 
-const toRu = (p: Phrase) => p.ru
 const toEn = (p: Phrase) => p.en
 
 /** Возвращает null, если этап для этой фразы невозможен (нечего собирать из одного слова). */
-function buildStep(phrase: Phrase, kind: ExerciseKind, near: Phrase[], far: Phrase[]): PracticeStep | null {
+function buildStep(
+  phrase: Phrase,
+  kind: ExerciseKind,
+  near: Phrase[],
+  far: Phrase[],
+  language: Language,
+): PracticeStep | null {
+  // Спрашиваем и принимаем перевод на том языке, который выбран.
+  const toTr = (p: Phrase) => translationOf(p, language)
   // «На слух» — тот же вопрос, что и в выборе перевода, только звучит, а не показан.
   if (kind === 'choice-ru' || kind === 'choice-en' || kind === 'listen') {
-    const answerOf = kind === 'choice-en' ? toEn : toRu
-    const promptOf = kind === 'choice-en' ? toRu : toEn
+    const answerOf = kind === 'choice-en' ? toEn : toTr
+    const promptOf = kind === 'choice-en' ? toTr : toEn
     const answer = answerOf(phrase)
     return {
       kind,
@@ -124,12 +132,12 @@ function buildStep(phrase: Phrase, kind: ExerciseKind, near: Phrase[], far: Phra
   // У одного перевода может быть несколько английских фраз: по вопросу «Привет!»
   // нельзя угадать, ждут Hi! или Hey!, поэтому принимаем любую из них.
   // Плюс варианты, записанные у самой фразы: «a» и «an» для статьи «a, an».
-  const prompt = normalizeAnswer(phrase.ru)
+  const prompt = normalizeAnswer(toTr(phrase))
   const accept = [
     ...new Set([
       phrase.en,
       ...(phrase.accept ?? []),
-      ...near.filter((p) => normalizeAnswer(p.ru) === prompt).map(toEn),
+      ...near.filter((p) => normalizeAnswer(toTr(p)) === prompt).map(toEn),
     ]),
   ]
   return { kind: 'typing', phrase, accept }
@@ -145,6 +153,11 @@ interface BuildOptions {
    * а «На слух» отпадает сам, если английского голоса нет или звук выключен.
    */
   stages?: ExerciseKind[]
+  /**
+   * На каком языке спрашивать перевод. Сборщик сам про настройки не знает:
+   * он чистый, и его тесты обходятся без хранилища.
+   */
+  language?: Language
 }
 
 /** Разрешённые этапы в их обычном порядке. Пустой список означает «все». */
@@ -159,8 +172,9 @@ function allowedStages(stages: ExerciseKind[] | undefined): ExerciseKind[] {
  * кроме неправильных глаголов.
  */
 export function availableStages(phrases: Phrase[], stages?: ExerciseKind[]): ExerciseKind[] {
+  // Язык здесь ни на что не влияет: проверяется только возможность этапа.
   return allowedStages(stages).filter((kind) =>
-    phrases.some((phrase) => buildStep(phrase, kind, [], []) !== null),
+    phrases.some((phrase) => buildStep(phrase, kind, [], [], 'ru') !== null),
   )
 }
 
@@ -172,12 +186,12 @@ export function buildPractice(
   phrases: Phrase[],
   options: BuildOptions & { withCards?: boolean },
 ): PracticeStep[] {
-  const { near, far, withCards = true } = options
+  const { near, far, withCards = true, language = 'ru' } = options
   const steps: PracticeStep[] = withCards ? phrases.map((phrase) => ({ kind: 'card', phrase })) : []
 
   for (const kind of allowedStages(options.stages)) {
     for (const phrase of shuffle(phrases)) {
-      const step = buildStep(phrase, kind, near, far)
+      const step = buildStep(phrase, kind, near, far, language)
       if (step) steps.push(step)
     }
   }
@@ -195,7 +209,7 @@ export function buildReview(
   levelOf: (phrase: Phrase) => number,
   options: BuildOptions,
 ): PracticeStep[] {
-  const { near, far } = options
+  const { near, far, language = 'ru' } = options
   const allowed = allowedStages(options.stages)
   const steps: PracticeStep[] = []
 
@@ -207,11 +221,11 @@ export function buildReview(
     // Сборка невозможна для однословных фраз. Тогда берём соседний этап —
     // сначала на ступень легче, потом сложнее: он ближе по трудности,
     // чем откат к самому началу шкалы.
-    let step = buildStep(phrase, allowed[index]!, near, far)
-    for (let i = index - 1; !step && i >= 0; i--) step = buildStep(phrase, allowed[i]!, near, far)
-    for (let i = index + 1; !step && i < allowed.length; i++) step = buildStep(phrase, allowed[i]!, near, far)
+    let step = buildStep(phrase, allowed[index]!, near, far, language)
+    for (let i = index - 1; !step && i >= 0; i--) step = buildStep(phrase, allowed[i]!, near, far, language)
+    for (let i = index + 1; !step && i < allowed.length; i++) step = buildStep(phrase, allowed[i]!, near, far, language)
 
-    steps.push(step ?? buildStep(phrase, 'choice-ru', near, far)!)
+    steps.push(step ?? buildStep(phrase, 'choice-ru', near, far, language)!)
   }
   return steps
 }
@@ -224,7 +238,7 @@ export function buildRepeat(
   mistakes: { phrase: Phrase; kind: ExerciseKind }[],
   options: BuildOptions,
 ): PracticeStep[] {
-  const { near, far } = options
+  const { near, far, language = 'ru' } = options
   const seen = new Set<string>()
   const steps: PracticeStep[] = []
 
@@ -234,7 +248,7 @@ export function buildRepeat(
       const key = `${mistake.phrase.id}:${kind}`
       if (seen.has(key)) continue
       seen.add(key)
-      const step = buildStep(mistake.phrase, kind, near, far)
+      const step = buildStep(mistake.phrase, kind, near, far, language)
       if (step) steps.push(step)
     }
   }

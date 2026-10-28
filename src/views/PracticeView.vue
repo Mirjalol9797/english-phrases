@@ -17,7 +17,7 @@ import { useSpeech } from '@/composables/useSpeech'
 import type { Phrase } from '@/types/content'
 import type { ExerciseKind, PracticeStep, StepResult } from '@/types/practice'
 
-const { t, plural } = useI18n()
+const { plural, t, tr } = useI18n()
 
 const props = defineProps<{ lessonId: string }>()
 
@@ -122,7 +122,7 @@ function onFinish(sessionResults: StepResult[]) {
 }
 
 useDocumentTitle(() =>
-  ctx.value ? t('Урок: {title}', { title: ctx.value.lesson.title.ru }) : t('Урок'),
+  ctx.value ? t('Урок: {title}', { title: tr(ctx.value.lesson.title) }) : t('Урок'),
 )
 </script>
 
@@ -163,7 +163,7 @@ useDocumentTitle(() =>
       <ol v-if="mistakenPhrases.length" class="mt-4 sm:mt-5 divide-y divide-line border-y border-line">
         <li v-for="phrase in mistakenPhrases" :key="phrase.id" class="py-2 sm:py-3">
           <p lang="en" class="font-serif text-lg leading-snug">{{ phrase.en }}</p>
-          <p class="mt-0.5 text-sm leading-snug text-muted">{{ phrase.ru }}</p>
+          <p class="mt-0.5 text-sm leading-snug text-muted">{{ tr(phrase) }}</p>
         </li>
       </ol>
 

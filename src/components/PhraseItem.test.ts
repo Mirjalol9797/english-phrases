@@ -1,10 +1,14 @@
 // @vitest-environment happy-dom
-import { afterEach, describe, expect, it } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+import { createPinia, setActivePinia } from 'pinia'
 import { enableAutoUnmount, mount } from '@vue/test-utils'
 import PhraseItem from './PhraseItem.vue'
 import type { Phrase } from '@/types/content'
 
 enableAutoUnmount(afterEach)
+
+// Строка словаря спрашивает язык у настроек, значит нужно живое хранилище.
+beforeEach(() => setActivePinia(createPinia()))
 
 const phrase: Phrase = { id: 'EE008', en: "How's it going?", ru: 'Как дела? / Как оно?' }
 

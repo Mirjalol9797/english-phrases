@@ -5,7 +5,7 @@ import { isSameAnswer } from '@/utils/answer'
 import { closestAnswer, diffWords } from '@/utils/diff'
 import { useI18n } from '@/i18n'
 
-const { t } = useI18n()
+const { t, tr } = useI18n()
 
 const props = defineProps<{ step: TypingStep }>()
 const emit = defineEmits<{ answer: [correct: boolean] }>()
@@ -40,7 +40,7 @@ function check() {
 <template>
   <div>
     <p class="text-sm text-muted">{{ t('Напишите по-английски') }}</p>
-    <p class="mt-3 text-[clamp(1.125rem,4vw,1.5rem)] leading-snug">{{ step.phrase.ru }}</p>
+    <p class="mt-3 text-[clamp(1.125rem,4vw,1.5rem)] leading-snug">{{ tr(step.phrase) }}</p>
 
     <form class="mt-4 sm:mt-5" @submit.prevent="check">
       <input

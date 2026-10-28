@@ -6,7 +6,7 @@ import { isSameAnswer } from '@/utils/answer'
 import SpeakButton from './SpeakButton.vue'
 import { useI18n } from '@/i18n'
 
-const { t } = useI18n()
+const { t, tr } = useI18n()
 
 const props = defineProps<{
   step: ChoiceStep
@@ -55,7 +55,7 @@ function stateClass(option: string) {
         class="flex-1 text-[clamp(1.25rem,5vw,2rem)] leading-tight"
         :class="askingTranslation ? 'font-serif font-semibold' : ''"
       >
-        {{ askingTranslation ? step.phrase.en : step.phrase.ru }}
+        {{ askingTranslation ? step.phrase.en : tr(step.phrase) }}
       </p>
       <SpeakButton
         v-if="askingTranslation"

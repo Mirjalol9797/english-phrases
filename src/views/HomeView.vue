@@ -9,7 +9,7 @@ import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import type { ChapterSummary } from '@/types/content'
 
-const { t, plural } = useI18n()
+const { plural, t, tr } = useI18n()
 
 const content = useContentStore()
 const progress = useProgressStore()
@@ -73,11 +73,11 @@ const dueCount = computed(() => progress.dueIds().length)
     </div>
 
     <section v-if="data.nextLesson && featured" class="pb-10">
-      <p class="text-muted">{{ t('Первая фраза урока «{title}»', { title: data.nextLesson.title.ru }) }}</p>
+      <p class="text-muted">{{ t('Первая фраза урока «{title}»', { title: tr(data.nextLesson.title) }) }}</p>
       <p lang="en" class="mt-4 font-serif text-[clamp(1.875rem,9vw,3.25rem)] leading-[1.15] font-semibold">
         <span class="marker">{{ featured.en }}</span>
       </p>
-      <p class="mt-3 text-lg text-muted">{{ featured.ru }}</p>
+      <p class="mt-3 text-lg text-muted">{{ tr(featured) }}</p>
       <div class="mt-5 sm:mt-6">
         <RouterLink :to="`/lessons/${data.nextLesson.id}`" class="btn-primary">
           {{ t('Открыть урок {n}', { n: data.nextLesson.order }) }}
@@ -113,7 +113,7 @@ const dueCount = computed(() => progress.dueIds().length)
               <span lang="en" class="block font-serif text-lg leading-snug group-hover:underline">
                 {{ chapter.title.en }}
               </span>
-              <span class="block text-sm text-muted">{{ chapter.title.ru }}</span>
+              <span class="block text-sm text-muted">{{ tr(chapter.title) }}</span>
             </span>
             <span class="shrink-0 text-sm text-muted">{{ plural(chapter.phraseCount, nounOf(chapter.kind)) }}</span>
           </RouterLink>

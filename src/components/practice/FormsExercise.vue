@@ -4,7 +4,7 @@ import type { FormsStep } from '@/types/practice'
 import { isSameAnswer } from '@/utils/answer'
 import { useI18n } from '@/i18n'
 
-const { t } = useI18n()
+const { t, tr } = useI18n()
 
 // Главное в неправильном глаголе — не перевод, а три формы. Здесь показана
 // первая и перевод, а вторую и третью нужно вспомнить самому.
@@ -49,7 +49,7 @@ function check() {
     <p lang="en" class="mt-3 font-serif text-[clamp(1.5rem,6vw,2.5rem)] leading-tight font-semibold">
       <span class="marker">{{ step.phrase.en }}</span>
     </p>
-    <p class="mt-1 text-muted">{{ step.phrase.ru }}</p>
+    <p class="mt-1 text-muted">{{ tr(step.phrase) }}</p>
 
     <form class="mt-4 sm:mt-5 grid gap-3 sm:grid-cols-2" @submit.prevent="check">
       <label class="block">

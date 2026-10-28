@@ -65,6 +65,16 @@ export function pluralize(count: number, noun: Noun, language: Language): string
   return `${count} ${form}`
 }
 
+/**
+ * Перевод записи или названия на выбранном языке.
+ *
+ * Пока узбекского нет, остаётся русский: главы переводятся по одной,
+ * и приложение должно работать на любой стадии.
+ */
+export function translationOf(text: { ru: string; uz?: string }, language: Language): string {
+  return language === 'uz' ? (text.uz ?? text.ru) : text.ru
+}
+
 /** Чем наполнена глава: «200 фраз», «330 выражений», «900 слов», «230 глаголов». */
 export function nounOf(kind: ChapterKind): Noun {
   if (kind === 'expressions') return 'expression'

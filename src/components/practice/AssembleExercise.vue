@@ -5,7 +5,7 @@ import type { AssembleStep } from '@/types/practice'
 import { isSameAnswer } from '@/utils/answer'
 import { useI18n } from '@/i18n'
 
-const { t } = useI18n()
+const { t, tr } = useI18n()
 
 const props = defineProps<{ step: AssembleStep }>()
 const emit = defineEmits<{ answer: [correct: boolean] }>()
@@ -49,7 +49,7 @@ function check() {
 <template>
   <div>
     <p class="text-sm text-muted">{{ t('Соберите фразу') }}</p>
-    <p class="mt-3 text-[clamp(1.125rem,4vw,1.5rem)] leading-snug">{{ step.phrase.ru }}</p>
+    <p class="mt-3 text-[clamp(1.125rem,4vw,1.5rem)] leading-snug">{{ tr(step.phrase) }}</p>
 
     <!-- Собранная фраза. Пустая строка держит высоту, чтобы кнопки не прыгали. -->
     <div

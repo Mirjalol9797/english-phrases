@@ -9,7 +9,7 @@ import StatusMessage from '@/components/StatusMessage.vue'
 import AppIcon from '@/components/AppIcon.vue'
 import { isLearned } from '@/utils/sm2'
 
-const { t, plural } = useI18n()
+const { plural, t, tr } = useI18n()
 
 const props = defineProps<{ chapterId: string }>()
 const content = useContentStore()
@@ -58,7 +58,7 @@ useDocumentTitle(() => chapter.value?.title.en)
   <section v-else-if="chapter">
     <header class="mt-4">
       <h1 lang="en" class="font-serif text-2xl sm:text-[2rem] leading-tight font-semibold">{{ chapter.title.en }}</h1>
-      <p class="mt-1 text-lg text-muted">{{ chapter.title.ru }}</p>
+      <p class="mt-1 text-lg text-muted">{{ tr(chapter.title) }}</p>
       <p class="mt-3 text-sm text-muted">
         {{ plural(chapter.lessons.length, 'lesson') }}, {{ plural(phraseCount, nounOf(chapter.kind)) }}
       </p>
@@ -72,7 +72,7 @@ useDocumentTitle(() => chapter.value?.title.en)
             <span lang="en" class="block font-serif text-base leading-snug group-hover:underline sm:text-lg">
               {{ lesson.title.en }}
             </span>
-            <span class="block text-sm text-muted">{{ lesson.title.ru }}</span>
+            <span class="block text-sm text-muted">{{ tr(lesson.title) }}</span>
           </span>
           <!-- Галочка, когда весь урок стал выученным. -->
           <span

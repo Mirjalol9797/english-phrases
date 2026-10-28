@@ -8,7 +8,7 @@ import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import AppIcon from '@/components/AppIcon.vue'
 
-const { t, plural } = useI18n()
+const { plural, t, tr } = useI18n()
 
 const content = useContentStore()
 const progress = useProgressStore()
@@ -60,7 +60,7 @@ const emptySlots = computed(() => {
             <span lang="en" class="block font-serif text-lg leading-snug group-hover:underline sm:text-xl">
               {{ chapter.title.en }}
             </span>
-            <span class="block text-muted">{{ chapter.title.ru }}</span>
+            <span class="block text-muted">{{ tr(chapter.title) }}</span>
             <span class="mt-1 block text-sm text-muted">
               {{ plural(chapter.lessonCount, 'lesson') }},
               {{ plural(chapter.phraseCount, nounOf(chapter.kind)) }}

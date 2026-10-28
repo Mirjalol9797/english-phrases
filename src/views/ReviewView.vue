@@ -17,7 +17,7 @@ import { formatDay, today } from '@/utils/date'
 import type { Phrase } from '@/types/content'
 import type { PracticeStep, StepResult } from '@/types/practice'
 
-const { t, plural } = useI18n()
+const { plural, t, tr } = useI18n()
 
 /** За один заход повторяем не больше: длинная очередь отпугивает сильнее, чем помогает. */
 const BATCH_SIZE = 20
@@ -241,7 +241,7 @@ function onFinish(sessionResults: StepResult[]) {
               </span>
               <span class="min-w-0 flex-1">
                 <span lang="en" class="block font-serif text-lg leading-snug">{{ entry.phrase.en }}</span>
-                <span class="block text-sm leading-snug text-muted">{{ entry.phrase.ru }}</span>
+                <span class="block text-sm leading-snug text-muted">{{ tr(entry.phrase) }}</span>
                 <!-- Когда главу не выбирали, по записи не видно, откуда она. -->
                 <span v-if="!dueChapter" lang="en" class="mt-0.5 block font-serif text-xs text-muted">
                   {{ titleOf.get(entry.chapterId) }}
@@ -288,7 +288,7 @@ function onFinish(sessionResults: StepResult[]) {
             </span>
             <span class="min-w-0 flex-1">
               <span lang="en" class="block font-serif text-base leading-snug sm:text-lg">{{ entry.phrase.en }}</span>
-              <span class="block text-sm leading-snug text-muted">{{ entry.phrase.ru }}</span>
+              <span class="block text-sm leading-snug text-muted">{{ tr(entry.phrase) }}</span>
               <span v-if="!hardChapter" lang="en" class="mt-0.5 block font-serif text-xs text-muted">
                 {{ titleOf.get(entry.chapterId) }}
               </span>
