@@ -31,13 +31,22 @@ export type Noun =
 /**
  * Перевод по самому русскому тексту: ключ словаря — русская строка.
  *
+ * Числа и названия подставляются в саму строку: t('Выучено {done} из {total}', …).
+ * Собирать фразу из кусков нельзя — в узбекском другой порядок слов, и «из»
+ * отдельным словом даёт «0 dan 12» вместо «12 tadan 0 tasi».
+ *
  * Выдумывать ключи вроде review.title не пришлось, и в шаблоне видно, что
  * там будет написано. Если перевода нет, остаётся русский — экран не ломается,
  * а пропуск находит проверка (см. i18n.test.ts).
  */
-export function translate(text: string, language: Language): string {
-  if (language === 'ru') return text
-  return UZ_TEXT[text] ?? text
+export function translate(
+  text: string,
+  language: Language,
+  values?: Record<string, string | number>,
+): string {
+  const template = language === 'ru' ? text : (UZ_TEXT[text] ?? text)
+  if (!values) return template
+  return template.replace(/\{(\w+)\}/g, (whole, key: string) => String(values[key] ?? whole))
 }
 
 /**

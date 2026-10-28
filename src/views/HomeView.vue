@@ -9,7 +9,7 @@ import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import type { ChapterSummary } from '@/types/content'
 
-const { plural } = useI18n()
+const { t, plural } = useI18n()
 
 const content = useContentStore()
 const progress = useProgressStore()
@@ -43,7 +43,7 @@ const sections = computed(() => {
     if (!groups.has(key)) groups.set(key, [])
     groups.get(key)!.push(chapter)
   }
-  return [...groups].map(([title, items]) => ({ title: title || 'Главы', items }))
+  return [...groups].map(([title, items]) => ({ title: title || t('Главы'), items }))
 })
 
 const featured = computed(() => data.value?.nextLesson?.phrases.find((p) => !progress.isStarted(p.id)) ?? data.value?.nextLesson?.phrases[0] ?? null)
@@ -59,34 +59,36 @@ const dueCount = computed(() => progress.dueIds().length)
     <!-- Сводка прогресса. Показываем, только когда уже есть что показывать. -->
     <div v-if="progress.startedCount > 0" class="flex flex-wrap items-center gap-x-5 gap-y-1 pb-6 text-sm">
       <span v-if="progress.streak > 0">
-        Серия <span class="font-medium">{{ plural(progress.streak, 'day') }}</span>
+        {{ t('Серия') }} <span class="font-medium">{{ plural(progress.streak, 'day') }}</span>
       </span>
-      <span class="text-muted">Выучено {{ progress.learnedCount }} из {{ progress.startedCount }}</span>
+      <span class="text-muted">
+        {{ t('Выучено {done} из {total}', { done: progress.learnedCount, total: progress.startedCount }) }}
+      </span>
       <span v-if="settings.dailyNewLimit > 0" class="text-muted">
-        Новых сегодня {{ progress.newToday }} из {{ settings.dailyNewLimit }}
+        {{ t('Новых сегодня {done} из {total}', { done: progress.newToday, total: settings.dailyNewLimit }) }}
       </span>
       <RouterLink v-if="dueCount" to="/review" class="text-accent underline underline-offset-4">
-        Повторить {{ plural(dueCount, 'phrase') }}
+        {{ t('Повторить') }} {{ plural(dueCount, 'phrase') }}
       </RouterLink>
     </div>
 
     <section v-if="data.nextLesson && featured" class="pb-10">
-      <p class="text-muted">Первая фраза урока «{{ data.nextLesson.title.ru }}»</p>
+      <p class="text-muted">{{ t('Первая фраза урока «{title}»', { title: data.nextLesson.title.ru }) }}</p>
       <p lang="en" class="mt-4 font-serif text-[clamp(1.875rem,9vw,3.25rem)] leading-[1.15] font-semibold">
         <span class="marker">{{ featured.en }}</span>
       </p>
       <p class="mt-3 text-lg text-muted">{{ featured.ru }}</p>
       <div class="mt-5 sm:mt-6">
         <RouterLink :to="`/lessons/${data.nextLesson.id}`" class="btn-primary">
-          Открыть урок {{ data.nextLesson.order }}
+          {{ t('Открыть урок {n}', { n: data.nextLesson.order }) }}
         </RouterLink>
       </div>
     </section>
 
     <section v-else class="pb-10">
-      <h1 class="text-xl sm:text-2xl font-semibold">Глав пока нет</h1>
+      <h1 class="text-xl sm:text-2xl font-semibold">{{ t('Глав пока нет') }}</h1>
       <p class="mt-3 max-w-prose text-muted">
-        Положите Word-файлы с фразами в папку content/source и выполните
+        {{ t('Положите Word-файлы с фразами в папку content/source и выполните') }}
         <code class="font-mono text-sm text-ink">yarn data:build</code>.
       </p>
     </section>
@@ -100,7 +102,7 @@ const dueCount = computed(() => progress.dueIds().length)
       <div class="flex items-baseline justify-between gap-4">
         <h2 class="text-lg font-semibold">{{ section.title }}</h2>
         <p v-if="sectionIndex === 0" class="text-sm text-muted">
-          Добавлено {{ data.index.chapters.length }} из {{ data.index.plannedChapters }}
+          {{ t('Добавлено {done} из {total}', { done: data.index.chapters.length, total: data.index.plannedChapters }) }}
         </p>
       </div>
       <ul class="mt-2 divide-y divide-line">

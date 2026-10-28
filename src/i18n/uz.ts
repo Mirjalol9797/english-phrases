@@ -62,4 +62,17 @@ export const UZ_TEXT: Record<string, string> = {
   'Перейти к главам': 'Boblarga oʻtish',
   'Включить тёмную тему': 'Tungi mavzuni yoqish',
   'Включить светлую тему': 'Kunduzgi mavzuni yoqish',
+
+  // 2.3 — главная
+  'Серия': 'Ketma-ketlik',
+  // Порядок слов в узбекском другой, поэтому числа подставляются внутрь строки.
+  'Выучено {done} из {total}': '{total} tadan {done} tasi oʻrganildi',
+  'Новых сегодня {done} из {total}': 'Bugungi yangilar: {done} / {total}',
+  'Повторить': 'Takrorlash',
+  'Первая фраза урока «{title}»': '«{title}» darsining birinchi iborasi',
+  'Открыть урок {n}': '{n}-darsni ochish',
+  'Глав пока нет': 'Hozircha boblar yoʻq',
+  'Положите Word-файлы с фразами в папку content/source и выполните':
+    'Iboralar yozilgan Word fayllarini content/source papkasiga qoʻying va quyidagini bajaring:',
+  'Добавлено {done} из {total}': '{total} tadan {done} tasi qoʻshilgan',
 }
