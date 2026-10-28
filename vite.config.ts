@@ -23,7 +23,11 @@ export default defineConfig({
       manifest: {
         name: 'English Phrases',
         short_name: 'Phrases',
-        description: 'Изучение английских фраз по урокам с повторением',
+        // У манифеста один язык на всех, а приложение говорит на двух.
+        // lang — язык по умолчанию, тот же, с которым приложение открывается
+        // в первый раз; описание даём на обоих, иначе половина тех, кто
+        // ставит приложение на телефон, не поймёт, что это.
+        description: 'Изучение английских фраз по урокам с повторением · Takrorlash bilan ingliz tili iboralarini oʻrganish',
         lang: 'ru',
         start_url: './',
         scope: './',
