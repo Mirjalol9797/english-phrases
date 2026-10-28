@@ -16,6 +16,9 @@
 //
 // Главам формата words можно дописать примеры посложнее — в content/examples/<id>.json.
 // Они не из PDF, поэтому хранятся отдельно и переживают любую пересборку.
+//
+// Узбекский перевод лежит в content/translations/<id>.json и прикладывается
+// поверх собранной главы — по той же причине.
 
 import { readFile, writeFile, readdir, mkdir, rm } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
@@ -26,11 +29,13 @@ import { parse } from 'node-html-parser'
 import { PHRASE_ID, PHRASES_PER_LESSON, prefixOf, validateChapters, printReport } from './lib/validate.mjs'
 import { parseWordsPdf, buildWordLessons } from './lib/words-pdf.mjs'
 import { parseVerbsDocx, splitStage } from './lib/verbs-docx.mjs'
+import { loadTranslation, applyTranslation } from './lib/translations.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const sourceDir = path.join(root, 'content', 'source')
 const configPath = path.join(root, 'content', 'chapters.config.json')
 const examplesDir = path.join(root, 'content', 'examples')
+const translationsDir = path.join(root, 'content', 'translations')
 const outDir = path.join(root, 'public', 'data')
 const chaptersOutDir = path.join(outDir, 'chapters')
 
@@ -355,6 +360,7 @@ async function main() {
 
   const chapters = []
   const fatal = []
+  const translationWarnings = []
   let nextOrder = Math.max(0, ...entries.map((e) => e.order ?? 0)) + 1
 
   for (const entry of entries) {
@@ -398,7 +404,7 @@ async function main() {
     const KINDS = { words: 'words', verbs: 'verbs', categories: 'expressions', lessons: 'phrases' }
     const kind = KINDS[format]
 
-    chapters.push({
+    const chapter = {
       id,
       order,
       prefix,
@@ -410,13 +416,21 @@ async function main() {
         id: `${prefix}-L${String(lesson.order).padStart(2, '0')}`,
         ...lesson,
       })),
-    })
+    }
+
+    // Перевод прикладывается поверх собранной главы: из .docx и .pdf его не взять,
+    // и пересборка не должна его стирать.
+    const applied = applyTranslation(chapter, await loadTranslation(translationsDir, id))
+    fatal.push(...applied.problems)
+    translationWarnings.push(...applied.warnings)
+    chapters.push(chapter)
   }
 
   chapters.sort((a, b) => a.order - b.order)
 
   const report = validateChapters(chapters, { plannedChapters })
   report.errors.unshift(...fatal)
+  report.warnings.push(...translationWarnings)
   printReport(report)
 
   if (report.errors.length > 0) {

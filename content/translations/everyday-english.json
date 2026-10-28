@@ -1,0 +1,20 @@
+{
+  "chapter": "everyday-english",
+  "note": "Узбекский перевод главы. Ключ записи — английский текст, часть речи и русский перевод: по ID нельзя, у слов он зависит от перемешивания уроков.",
+  "title": "Kundalik muloqot",
+  "lessons": {
+    "Приветствия": "Salomlashish"
+  },
+  "entries": [
+    { "en": "Hi!", "ru": "Привет!", "uz": "Salom!" },
+    { "en": "Hello!", "ru": "Здравствуйте! / Привет!", "uz": "Assalomu alaykum! / Salom!" },
+    { "en": "Hey!", "ru": "Привет!", "uz": "Hoy! / Salom!" },
+    { "en": "Good morning!", "ru": "Доброе утро!", "uz": "Xayrli tong!" },
+    { "en": "Good afternoon!", "ru": "Добрый день!", "uz": "Xayrli kun!" },
+    { "en": "Good evening!", "ru": "Добрый вечер!", "uz": "Xayrli kech!" },
+    { "en": "How are you?", "ru": "Как дела?", "uz": "Qalaysiz?" },
+    { "en": "How's it going?", "ru": "Как дела? / Как оно?", "uz": "Ishlar qalay?" },
+    { "en": "How have you been?", "ru": "Как ты поживал(а)?", "uz": "Qandaysiz, nima gaplar?" },
+    { "en": "It's nice to see you.", "ru": "Рад(а) тебя видеть.", "uz": "Sizni koʻrganimdan xursandman." }
+  ]
+}
