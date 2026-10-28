@@ -138,6 +138,23 @@ async function build(id) {
     'utf8',
   )
 
+  // Та же проверка, что в сборке данных, но сразу после каждой партии:
+  // у Oxford глава набирается дюжиной заходов, и узнать о совпадении в конце — поздно.
+  const byUz = new Map()
+  for (const entry of entries.values()) {
+    const key = entry.uz.trim().toLowerCase()
+    byUz.set(key, [...(byUz.get(key) ?? []), entry])
+  }
+  const sameUz = [...byUz.values()].filter(
+    (group) => group.length > 1 && new Set(group.map((e) => e.ru.trim().toLowerCase())).size > 1,
+  )
+  if (sameUz.length) {
+    console.log('ОДИНАКОВЫЙ УЗБЕКСКИЙ У РАЗНЫХ ЗАПИСЕЙ — сборка данных это не пропустит:')
+    for (const group of sameUz) {
+      console.log(`  «${group.map((e) => e.en).join('», «')}» → «${group[0].uz}»`)
+    }
+  }
+
   const phrases = rows.filter((r) => r.kind === 'phrase').length
   console.log(`${id}: собрано ${entries.size} записей, из них переведённых фраз ${translated} из ${phrases}`)
   if (translated < phrases) console.log(`осталось ${phrases - translated} — перевод возьмётся в данные, когда глава будет целиком`)
