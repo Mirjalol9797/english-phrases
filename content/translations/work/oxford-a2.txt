@@ -2473,3 +2473,144 @@ example|church|n.|The church is the only building in the village older than the 
 phrase|focus|v., n.|сосредотачиваться; фокус|diqqatni qaratmoq; fokus
 example|focus|v., n.|Focus on your studies.|Oʻqishingizga diqqatni qarating.
 example|focus|v., n.|We need to focus on the one problem we can actually solve.|Biz haqiqatan hal qila oladigan yagona muammoga diqqatni qaratishimiz kerak.
+phrase|tip|n.|совет; чаевые|maslahat; choychaqa
+example|tip|n.|Here's a useful tip.|Mana foydali maslahat.
+example|tip|n.|The best tip I ever got was to write things down immediately.|Men olgan eng yaxshi maslahat — narsalarni darhol yozib qoʻyish.
+phrase|further|adj.|дальнейший, дополнительный|keyingi, qoʻshimcha
+example|further|adj.|For further information, call us.|Qoʻshimcha maʼlumot uchun bizga qoʻngʻiroq qiling.
+example|further|adj.|No further action was taken, which surprised precisely nobody.|Hech qanday keyingi chora koʻrilmadi, bu esa hech kimni hayratda qoldirmadi.
+phrase|symbol|n.|символ|ramz
+example|symbol|n.|The dove is a symbol of peace.|Kaptar — tinchlik ramzi.
+example|symbol|n.|The building has become a symbol of something its architect never intended.|Bino meʼmori umuman koʻzlamagan narsaning ramziga aylandi.
+phrase|control|n., v.|контроль; управлять|nazorat; boshqarmoq
+example|control|n., v.|He lost control of the car.|U mashinani boshqara olmay qoldi.
+example|control|n., v.|The situation had been out of control for weeks before it was admitted.|Vaziyat tan olinishidan haftalar oldin nazoratdan chiqqandi.
+phrase|pollution|n.|загрязнение|ifloslanish
+example|pollution|n.|Air pollution is a big problem.|Havo ifloslanishi katta muammo.
+example|pollution|n.|Pollution in the river has halved since the factory closed.|Zavod yopilganidan beri daryodagi ifloslanish ikki baravar kamaydi.
+phrase|secret|adj., n.|секретный; секрет|sirli; sir
+example|secret|adj., n.|Can you keep a secret?|Sir saqlay olasizmi?
+example|secret|adj., n.|The secret had been kept for forty years by people who never met.|Sirni qirq yil davomida bir-birini hech koʻrmagan odamlar saqlab kelishdi.
+phrase|fear|n.|страх|qoʻrquv
+example|fear|n.|He has a fear of flying.|Unda uchishdan qoʻrquv bor.
+example|fear|n.|His fear of being wrong cost him more than any mistake would have.|Uning xato qilishdan qoʻrquvi unga har qanday xatodan koʻra qimmatroqqa tushdi.
+phrase|best|adv., n.|лучше всего; самое лучшее|eng yaxshi tarzda; eng yaxshisi
+example|best|adv., n.|I like this song best.|Menga bu qoʻshiq eng koʻp yoqadi.
+example|best|adv., n.|The best we can do is warn them and hope they listen.|Qila oladiganimizning eng yaxshisi — ularni ogohlantirish va quloq solishiga umid qilish.
+phrase|lead|v.|вести, руководить|boshqarmoq, yetaklamoq
+example|lead|v.|She leads a team of ten people.|U oʻn kishilik jamoani boshqaradi.
+example|lead|v.|She's been leading the team since the reorganisation.|U qayta tashkil qilinganidan beri jamoani boshqarib keladi.
+phrase|lake|n.|озеро|koʻl
+example|lake|n.|We swam in the lake.|Biz koʻlda choʻmildik.
+example|lake|n.|The lake has been shrinking every year since the river was diverted.|Daryo boshqa tomonga burilganidan beri koʻl har yili kichrayib boradi.
+phrase|crime|n.|преступление, преступность|jinoyat
+example|crime|n.|Crime is a big problem in some cities.|Baʼzi shaharlarda jinoyat katta muammo.
+example|crime|n.|Crime has fallen while the fear of it has risen.|Jinoyat kamaydi, undan qoʻrqish esa ortdi.
+phrase|later|adj.|более поздний|keyingi
+example|later|adj.|We took a later train.|Biz keyingi poyezdga chiqdik.
+example|later|adj.|A later version fixed the problem and introduced two more.|Keyingi versiya muammoni tuzatdi va yana ikkitasini keltirib chiqardi.
+phrase|shut|v., adj.|закрывать; закрытый|yopmoq; yopiq
+example|shut|v., adj.|Shut the door, please.|Iltimos, eshikni yoping.
+example|shut|v., adj.|The shop has been shut since the owner fell ill.|Egasi kasal boʻlib qolganidan beri doʻkon yopiq.
+phrase|employer|n.|работодатель|ish beruvchi
+example|employer|n.|My employer is very fair.|Mening ish beruvchim juda adolatli.
+example|employer|n.|A good employer is one you don't have to think about.|Yaxshi ish beruvchi — siz haqida oʻylashingiz shart boʻlmagan ish beruvchi.
+phrase|gift|n.|подарок|sovgʻa
+example|gift|n.|Thank you for the gift!|Sovgʻa uchun rahmat!
+example|gift|n.|The gift was returned unopened, which said more than a letter could.|Sovgʻa ochilmay qaytarildi, bu esa xatdan koʻra koʻproq narsani aytdi.
+phrase|owner|n.|владелец|egasi
+example|owner|n.|He is the owner of the cafe.|U kafening egasi.
+example|owner|n.|The new owners changed everything that made the place worth visiting.|Yangi egalar joyni borishga arziydigan qilgan hamma narsani oʻzgartirishdi.
+phrase|fun|adj.|весёлый|koʻngilli, qiziqarli
+example|fun|adj.|It was a fun day.|Qiziqarli kun boʻldi.
+example|fun|adj.|It was a fun evening right up until the bill arrived.|Hisob kelgunicha oqshom koʻngilli edi.
+phrase|act|v.|действовать; играть (роль)|harakat qilmoq; rol oʻynamoq
+example|act|v.|We must act quickly.|Biz tez harakat qilishimiz kerak.
+example|act|v.|If we don't act now, the choice will be made for us.|Agar hozir harakat qilmasak, tanlov biz uchun qilinadi.
+phrase|thinking|n.|мышление, размышление|fikrlash
+example|thinking|n.|We need some creative thinking.|Bizga ijodiy fikrlash kerak.
+example|thinking|n.|The thinking behind the plan was never explained to anyone.|Reja ortidagi fikrlash hech kimga tushuntirilmagandi.
+phrase|column|n.|колонка, столбец|ustun
+example|column|n.|Write the words in the first column.|Soʻzlarni birinchi ustunga yozing.
+example|column|n.|The figures in the last column don't add up to the total.|Oxirgi ustundagi raqamlar jamiga toʻgʻri kelmaydi.
+phrase|mostly|adv.|в основном|asosan
+example|mostly|adv.|The students are mostly girls.|Talabalar asosan qizlar.
+example|mostly|adv.|The complaints are mostly about things nobody can change.|Shikoyatlar asosan hech kim oʻzgartira olmaydigan narsalar haqida.
+phrase|allow|v.|разрешать|ruxsat bermoq
+example|allow|v.|Smoking is not allowed here.|Bu yerda chekishga ruxsat berilmaydi.
+example|allow|v.|We weren't allowed to see the figures until the decision had been taken.|Qaror qabul qilingunicha bizga raqamlarni koʻrishga ruxsat berilmadi.
+phrase|except|prep.|кроме|...dan tashqari
+example|except|prep.|Everyone came except Ali.|Alidan tashqari hamma keldi.
+example|except|prep.|Everything went to plan except the one thing we couldn't control.|Biz nazorat qila olmagan bitta narsadan tashqari hammasi reja boʻyicha ketdi.
+phrase|electronic|adj.|электронный|elektron
+example|electronic|adj.|This is an electronic dictionary.|Bu elektron lugʻat.
+example|electronic|adj.|Electronic records are easier to lose than paper ones, whatever people say.|Odamlar nima deyishsa ham, elektron yozuvlarni qogʻozdan koʻra oson yoʻqotish mumkin.
+phrase|factor|n.|фактор|omil
+example|factor|n.|Price is an important factor.|Narx muhim omil.
+example|factor|n.|Price turned out to be the least important factor of all.|Narx eng ahamiyatsiz omil boʻlib chiqdi.
+phrase|airline|n.|авиакомпания|aviakompaniya
+example|airline|n.|Which airline are you flying with?|Qaysi aviakompaniya bilan uchasiz?
+example|airline|n.|The airline refused to pay for the hotel, although the delay was theirs.|Kechikish ularning aybi boʻlsa ham, aviakompaniya mehmonxona uchun toʻlashdan bosh tortdi.
+phrase|disagree|v.|не соглашаться|rozi boʻlmaslik
+example|disagree|v.|I disagree with you.|Men siz bilan rozi emasman.
+example|disagree|v.|I disagree with almost everything he said and would defend his right to say it.|Men u aytgan deyarli hamma narsaga qoʻshilmayman va uning aytish huquqini himoya qilardim.
+phrase|reporter|n.|репортёр|muxbir
+example|reporter|n.|A reporter asked him questions.|Muxbir unga savollar berdi.
+example|reporter|n.|A reporter had been asking questions in the village for a week.|Muxbir bir hafta qishloqda savollar berib yurgandi.
+phrase|worst|adj.|худший|eng yomon
+example|worst|adj.|It was the worst day of my life.|Bu hayotimdagi eng yomon kun edi.
+example|worst|adj.|The worst part was that it had all been predicted.|Eng yomoni shuki, bularning hammasi bashorat qilingandi.
+phrase|feature|n.|особенность, функция|xususiyat, funksiya
+example|feature|n.|This phone has many new features.|Bu telefonda koʻp yangi funksiya bor.
+example|feature|n.|The feature everyone asked for was the one they removed.|Hamma soʻragan funksiya aynan ular olib tashlagani boʻldi.
+phrase|pack|v.|упаковывать, собирать (вещи)|yigʻishtirmoq, joylamoq
+example|pack|v.|I need to pack my suitcase.|Menga chamadonimni yigʻishtirish kerak.
+example|pack|v.|She'd packed in twenty minutes and left without saying goodbye.|U yigirma daqiqada yigʻishtirdi va xayrlashmay ketdi.
+phrase|track|n.|трасса; дорожка; трек|yoʻlak; trek
+example|track|n.|The runners are on the track.|Yuguruvchilar yoʻlakda.
+example|track|n.|We'd lost track of the time somewhere around midnight.|Biz yarim tunlar atrofida vaqtni hisobdan chiqarib qoʻygandik.
+phrase|rock|n.|рок (музыка)|rok musiqasi
+example|rock|n.|My dad likes rock music.|Dadam rok musiqasini yaxshi koʻradi.
+example|rock|n.|He'd listened to nothing but rock until he was about thirty.|U oʻttiz yoshigacha rokdan boshqa hech narsa tinglamagandi.
+phrase|alone|adj./adv.|один, в одиночестве|yolgʻiz
+example|alone|adj./adv.|He lives alone.|U yolgʻiz yashaydi.
+example|alone|adj./adv.|She'd rather work alone than explain herself to a committee.|U qoʻmitaga oʻzini tushuntirgandan koʻra yolgʻiz ishlashni afzal koʻrardi.
+phrase|storm|n.|буря, гроза|boʻron
+example|storm|n.|There was a big storm last night.|Kecha kechasi katta boʻron boʻldi.
+example|storm|n.|The storm did more damage in an hour than the whole winter had.|Boʻron bir soatda butun qish qilganidan koʻproq zarar yetkazdi.
+phrase|anywhere|adv., pron.|где-нибудь; где угодно|biror joyda, istalgan joyda
+example|anywhere|adv., pron.|I can't find my keys anywhere.|Men kalitlarimni hech qayerdan topa olmayapman.
+example|anywhere|adv., pron.|You won't find a better price anywhere in the city.|Shaharning hech bir joyidan bundan yaxshiroq narx topa olmaysiz.
+phrase|behave|v.|вести себя|oʻzini tutmoq
+example|behave|v.|The children behaved very well.|Bolalar oʻzini juda yaxshi tutishdi.
+example|behave|v.|He behaved as though the whole thing had been his idea.|U goʻyo butun ish uning gʻoyasi boʻlgandek tutdi oʻzini.
+phrase|condition|n.|состояние; условие|holat; shart
+example|condition|n.|The car is in good condition.|Mashina yaxshi holatda.
+example|condition|n.|They agreed, on condition that the work started immediately.|Ular ish darhol boshlanishi sharti bilan rozi boʻlishdi.
+phrase|loud|adj., adv.|громкий; громко|baland (ovoz)
+example|loud|adj., adv.|The music is too loud.|Musiqa juda baland.
+example|loud|adj., adv.|The complaints were loud, frequent and entirely ignored.|Shikoyatlar baland, tez-tez va butunlay eʼtiborsiz edi.
+phrase|discussion|n.|обсуждение|muhokama
+example|discussion|n.|We had a long discussion.|Bizning uzoq muhokamamiz boʻldi.
+example|discussion|n.|After a long discussion they agreed to discuss it again.|Uzoq muhokamadan keyin ular buni yana muhokama qilishga kelishdi.
+phrase|sign|n., v.|знак, вывеска; подписывать|belgi, lavha; imzolamoq
+example|sign|n., v.|Sign your name here.|Ismingizni shu yerga yozing.
+example|sign|n., v.|Don't sign anything you haven't read twice.|Ikki marta oʻqimagan hech narsani imzolamang.
+phrase|society|n.|общество|jamiyat
+example|society|n.|Technology changes society.|Texnologiya jamiyatni oʻzgartiradi.
+example|society|n.|A society is judged by how it treats the people it can ignore.|Jamiyat oʻzi eʼtiborsiz qoldira oladigan odamlarga munosabati bilan baholanadi.
+phrase|prison|n.|тюрьма|qamoqxona
+example|prison|n.|He spent two years in prison.|U ikki yil qamoqxonada oʻtirdi.
+example|prison|n.|He'd spent four years in prison for something he didn't do.|U qilmagan ishi uchun toʻrt yil qamoqxonada oʻtirgandi.
+phrase|creative|adj.|творческий|ijodiy
+example|creative|adj.|She is very creative.|U juda ijodiy.
+example|creative|adj.|The most creative part of the job is explaining why it's late.|Ishning eng ijodiy qismi — nega kechikkanini tushuntirish.
+phrase|involve|v.|включать в себя, вовлекать|oʻz ichiga olmoq, jalb qilmoq
+example|involve|v.|The job involves a lot of travel.|Ish koʻp safarni oʻz ichiga oladi.
+example|involve|v.|Nobody had explained how much travel the job would involve.|Ish qanchalik koʻp safarni oʻz ichiga olishini hech kim tushuntirmagandi.
+phrase|cartoon|n.|мультфильм; карикатура|multfilm; karikatura
+example|cartoon|n.|My son watches cartoons every day.|Oʻgʻlim har kuni multfilm koʻradi.
+example|cartoon|n.|The cartoon said in one drawing what the article took a page to say.|Karikatura bitta rasmda maqola bir sahifada aytgan narsani aytdi.
+phrase|brain|n.|мозг|miya
+example|brain|n.|The brain needs sleep.|Miyaga uyqu kerak.
+example|brain|n.|The brain uses more energy than any other organ in the body.|Miya tanadagi har qanday boshqa aʼzodan koʻproq energiya sarflaydi.

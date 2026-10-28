@@ -1,6 +1,97 @@
 {
   "chapter": "oxford-a2",
   "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Eng kerakli soʻzlar, A2 daraja",
+  "lessons": {
+    "Слова 1–10": "1–10-soʻzlar",
+    "Слова 11–20": "11–20-soʻzlar",
+    "Слова 21–30": "21–30-soʻzlar",
+    "Слова 31–40": "31–40-soʻzlar",
+    "Слова 41–50": "41–50-soʻzlar",
+    "Слова 51–60": "51–60-soʻzlar",
+    "Слова 61–70": "61–70-soʻzlar",
+    "Слова 71–80": "71–80-soʻzlar",
+    "Слова 81–90": "81–90-soʻzlar",
+    "Слова 91–100": "91–100-soʻzlar",
+    "Слова 101–110": "101–110-soʻzlar",
+    "Слова 111–120": "111–120-soʻzlar",
+    "Слова 121–130": "121–130-soʻzlar",
+    "Слова 131–140": "131–140-soʻzlar",
+    "Слова 141–150": "141–150-soʻzlar",
+    "Слова 151–160": "151–160-soʻzlar",
+    "Слова 161–170": "161–170-soʻzlar",
+    "Слова 171–180": "171–180-soʻzlar",
+    "Слова 181–190": "181–190-soʻzlar",
+    "Слова 191–200": "191–200-soʻzlar",
+    "Слова 201–210": "201–210-soʻzlar",
+    "Слова 211–220": "211–220-soʻzlar",
+    "Слова 221–230": "221–230-soʻzlar",
+    "Слова 231–240": "231–240-soʻzlar",
+    "Слова 241–250": "241–250-soʻzlar",
+    "Слова 251–260": "251–260-soʻzlar",
+    "Слова 261–270": "261–270-soʻzlar",
+    "Слова 271–280": "271–280-soʻzlar",
+    "Слова 281–290": "281–290-soʻzlar",
+    "Слова 291–300": "291–300-soʻzlar",
+    "Слова 301–310": "301–310-soʻzlar",
+    "Слова 311–320": "311–320-soʻzlar",
+    "Слова 321–330": "321–330-soʻzlar",
+    "Слова 331–340": "331–340-soʻzlar",
+    "Слова 341–350": "341–350-soʻzlar",
+    "Слова 351–360": "351–360-soʻzlar",
+    "Слова 361–370": "361–370-soʻzlar",
+    "Слова 371–380": "371–380-soʻzlar",
+    "Слова 381–390": "381–390-soʻzlar",
+    "Слова 391–400": "391–400-soʻzlar",
+    "Слова 401–410": "401–410-soʻzlar",
+    "Слова 411–420": "411–420-soʻzlar",
+    "Слова 421–430": "421–430-soʻzlar",
+    "Слова 431–440": "431–440-soʻzlar",
+    "Слова 441–450": "441–450-soʻzlar",
+    "Слова 451–460": "451–460-soʻzlar",
+    "Слова 461–470": "461–470-soʻzlar",
+    "Слова 471–480": "471–480-soʻzlar",
+    "Слова 481–490": "481–490-soʻzlar",
+    "Слова 491–500": "491–500-soʻzlar",
+    "Слова 501–510": "501–510-soʻzlar",
+    "Слова 511–520": "511–520-soʻzlar",
+    "Слова 521–530": "521–530-soʻzlar",
+    "Слова 531–540": "531–540-soʻzlar",
+    "Слова 541–550": "541–550-soʻzlar",
+    "Слова 551–560": "551–560-soʻzlar",
+    "Слова 561–570": "561–570-soʻzlar",
+    "Слова 571–580": "571–580-soʻzlar",
+    "Слова 581–590": "581–590-soʻzlar",
+    "Слова 591–600": "591–600-soʻzlar",
+    "Слова 601–610": "601–610-soʻzlar",
+    "Слова 611–620": "611–620-soʻzlar",
+    "Слова 621–630": "621–630-soʻzlar",
+    "Слова 631–640": "631–640-soʻzlar",
+    "Слова 641–650": "641–650-soʻzlar",
+    "Слова 651–660": "651–660-soʻzlar",
+    "Слова 661–670": "661–670-soʻzlar",
+    "Слова 671–680": "671–680-soʻzlar",
+    "Слова 681–690": "681–690-soʻzlar",
+    "Слова 691–700": "691–700-soʻzlar",
+    "Слова 701–710": "701–710-soʻzlar",
+    "Слова 711–720": "711–720-soʻzlar",
+    "Слова 721–730": "721–730-soʻzlar",
+    "Слова 731–740": "731–740-soʻzlar",
+    "Слова 741–750": "741–750-soʻzlar",
+    "Слова 751–760": "751–760-soʻzlar",
+    "Слова 761–770": "761–770-soʻzlar",
+    "Слова 771–780": "771–780-soʻzlar",
+    "Слова 781–790": "781–790-soʻzlar",
+    "Слова 791–800": "791–800-soʻzlar",
+    "Слова 801–809": "801–809-soʻzlar",
+    "Слова 810–818": "810–818-soʻzlar",
+    "Слова 819–827": "819–827-soʻzlar",
+    "Слова 828–836": "828–836-soʻzlar",
+    "Слова 837–845": "837–845-soʻzlar",
+    "Слова 846–854": "846–854-soʻzlar",
+    "Слова 855–863": "855–863-soʻzlar",
+    "Слова 864–872": "864–872-soʻzlar"
+  },
   "entries": [
     {
       "en": "hall",
@@ -13199,6 +13290,758 @@
         {
           "en": "We need to focus on the one problem we can actually solve.",
           "uz": "Biz haqiqatan hal qila oladigan yagona muammoga diqqatni qaratishimiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "tip",
+      "pos": "n.",
+      "ru": "совет; чаевые",
+      "uz": "maslahat; choychaqa",
+      "examples": [
+        {
+          "en": "Here's a useful tip.",
+          "uz": "Mana foydali maslahat."
+        },
+        {
+          "en": "The best tip I ever got was to write things down immediately.",
+          "uz": "Men olgan eng yaxshi maslahat — narsalarni darhol yozib qoʻyish."
+        }
+      ]
+    },
+    {
+      "en": "further",
+      "pos": "adj.",
+      "ru": "дальнейший, дополнительный",
+      "uz": "keyingi, qoʻshimcha",
+      "examples": [
+        {
+          "en": "For further information, call us.",
+          "uz": "Qoʻshimcha maʼlumot uchun bizga qoʻngʻiroq qiling."
+        },
+        {
+          "en": "No further action was taken, which surprised precisely nobody.",
+          "uz": "Hech qanday keyingi chora koʻrilmadi, bu esa hech kimni hayratda qoldirmadi."
+        }
+      ]
+    },
+    {
+      "en": "symbol",
+      "pos": "n.",
+      "ru": "символ",
+      "uz": "ramz",
+      "examples": [
+        {
+          "en": "The dove is a symbol of peace.",
+          "uz": "Kaptar — tinchlik ramzi."
+        },
+        {
+          "en": "The building has become a symbol of something its architect never intended.",
+          "uz": "Bino meʼmori umuman koʻzlamagan narsaning ramziga aylandi."
+        }
+      ]
+    },
+    {
+      "en": "control",
+      "pos": "n., v.",
+      "ru": "контроль; управлять",
+      "uz": "nazorat; boshqarmoq",
+      "examples": [
+        {
+          "en": "He lost control of the car.",
+          "uz": "U mashinani boshqara olmay qoldi."
+        },
+        {
+          "en": "The situation had been out of control for weeks before it was admitted.",
+          "uz": "Vaziyat tan olinishidan haftalar oldin nazoratdan chiqqandi."
+        }
+      ]
+    },
+    {
+      "en": "pollution",
+      "pos": "n.",
+      "ru": "загрязнение",
+      "uz": "ifloslanish",
+      "examples": [
+        {
+          "en": "Air pollution is a big problem.",
+          "uz": "Havo ifloslanishi katta muammo."
+        },
+        {
+          "en": "Pollution in the river has halved since the factory closed.",
+          "uz": "Zavod yopilganidan beri daryodagi ifloslanish ikki baravar kamaydi."
+        }
+      ]
+    },
+    {
+      "en": "secret",
+      "pos": "adj., n.",
+      "ru": "секретный; секрет",
+      "uz": "sirli; sir",
+      "examples": [
+        {
+          "en": "Can you keep a secret?",
+          "uz": "Sir saqlay olasizmi?"
+        },
+        {
+          "en": "The secret had been kept for forty years by people who never met.",
+          "uz": "Sirni qirq yil davomida bir-birini hech koʻrmagan odamlar saqlab kelishdi."
+        }
+      ]
+    },
+    {
+      "en": "fear",
+      "pos": "n.",
+      "ru": "страх",
+      "uz": "qoʻrquv",
+      "examples": [
+        {
+          "en": "He has a fear of flying.",
+          "uz": "Unda uchishdan qoʻrquv bor."
+        },
+        {
+          "en": "His fear of being wrong cost him more than any mistake would have.",
+          "uz": "Uning xato qilishdan qoʻrquvi unga har qanday xatodan koʻra qimmatroqqa tushdi."
+        }
+      ]
+    },
+    {
+      "en": "best",
+      "pos": "adv., n.",
+      "ru": "лучше всего; самое лучшее",
+      "uz": "eng yaxshi tarzda; eng yaxshisi",
+      "examples": [
+        {
+          "en": "I like this song best.",
+          "uz": "Menga bu qoʻshiq eng koʻp yoqadi."
+        },
+        {
+          "en": "The best we can do is warn them and hope they listen.",
+          "uz": "Qila oladiganimizning eng yaxshisi — ularni ogohlantirish va quloq solishiga umid qilish."
+        }
+      ]
+    },
+    {
+      "en": "lead",
+      "pos": "v.",
+      "ru": "вести, руководить",
+      "uz": "boshqarmoq, yetaklamoq",
+      "examples": [
+        {
+          "en": "She leads a team of ten people.",
+          "uz": "U oʻn kishilik jamoani boshqaradi."
+        },
+        {
+          "en": "She's been leading the team since the reorganisation.",
+          "uz": "U qayta tashkil qilinganidan beri jamoani boshqarib keladi."
+        }
+      ]
+    },
+    {
+      "en": "lake",
+      "pos": "n.",
+      "ru": "озеро",
+      "uz": "koʻl",
+      "examples": [
+        {
+          "en": "We swam in the lake.",
+          "uz": "Biz koʻlda choʻmildik."
+        },
+        {
+          "en": "The lake has been shrinking every year since the river was diverted.",
+          "uz": "Daryo boshqa tomonga burilganidan beri koʻl har yili kichrayib boradi."
+        }
+      ]
+    },
+    {
+      "en": "crime",
+      "pos": "n.",
+      "ru": "преступление, преступность",
+      "uz": "jinoyat",
+      "examples": [
+        {
+          "en": "Crime is a big problem in some cities.",
+          "uz": "Baʼzi shaharlarda jinoyat katta muammo."
+        },
+        {
+          "en": "Crime has fallen while the fear of it has risen.",
+          "uz": "Jinoyat kamaydi, undan qoʻrqish esa ortdi."
+        }
+      ]
+    },
+    {
+      "en": "later",
+      "pos": "adj.",
+      "ru": "более поздний",
+      "uz": "keyingi",
+      "examples": [
+        {
+          "en": "We took a later train.",
+          "uz": "Biz keyingi poyezdga chiqdik."
+        },
+        {
+          "en": "A later version fixed the problem and introduced two more.",
+          "uz": "Keyingi versiya muammoni tuzatdi va yana ikkitasini keltirib chiqardi."
+        }
+      ]
+    },
+    {
+      "en": "shut",
+      "pos": "v., adj.",
+      "ru": "закрывать; закрытый",
+      "uz": "yopmoq; yopiq",
+      "examples": [
+        {
+          "en": "Shut the door, please.",
+          "uz": "Iltimos, eshikni yoping."
+        },
+        {
+          "en": "The shop has been shut since the owner fell ill.",
+          "uz": "Egasi kasal boʻlib qolganidan beri doʻkon yopiq."
+        }
+      ]
+    },
+    {
+      "en": "employer",
+      "pos": "n.",
+      "ru": "работодатель",
+      "uz": "ish beruvchi",
+      "examples": [
+        {
+          "en": "My employer is very fair.",
+          "uz": "Mening ish beruvchim juda adolatli."
+        },
+        {
+          "en": "A good employer is one you don't have to think about.",
+          "uz": "Yaxshi ish beruvchi — siz haqida oʻylashingiz shart boʻlmagan ish beruvchi."
+        }
+      ]
+    },
+    {
+      "en": "gift",
+      "pos": "n.",
+      "ru": "подарок",
+      "uz": "sovgʻa",
+      "examples": [
+        {
+          "en": "Thank you for the gift!",
+          "uz": "Sovgʻa uchun rahmat!"
+        },
+        {
+          "en": "The gift was returned unopened, which said more than a letter could.",
+          "uz": "Sovgʻa ochilmay qaytarildi, bu esa xatdan koʻra koʻproq narsani aytdi."
+        }
+      ]
+    },
+    {
+      "en": "owner",
+      "pos": "n.",
+      "ru": "владелец",
+      "uz": "egasi",
+      "examples": [
+        {
+          "en": "He is the owner of the cafe.",
+          "uz": "U kafening egasi."
+        },
+        {
+          "en": "The new owners changed everything that made the place worth visiting.",
+          "uz": "Yangi egalar joyni borishga arziydigan qilgan hamma narsani oʻzgartirishdi."
+        }
+      ]
+    },
+    {
+      "en": "fun",
+      "pos": "adj.",
+      "ru": "весёлый",
+      "uz": "koʻngilli, qiziqarli",
+      "examples": [
+        {
+          "en": "It was a fun day.",
+          "uz": "Qiziqarli kun boʻldi."
+        },
+        {
+          "en": "It was a fun evening right up until the bill arrived.",
+          "uz": "Hisob kelgunicha oqshom koʻngilli edi."
+        }
+      ]
+    },
+    {
+      "en": "act",
+      "pos": "v.",
+      "ru": "действовать; играть (роль)",
+      "uz": "harakat qilmoq; rol oʻynamoq",
+      "examples": [
+        {
+          "en": "We must act quickly.",
+          "uz": "Biz tez harakat qilishimiz kerak."
+        },
+        {
+          "en": "If we don't act now, the choice will be made for us.",
+          "uz": "Agar hozir harakat qilmasak, tanlov biz uchun qilinadi."
+        }
+      ]
+    },
+    {
+      "en": "thinking",
+      "pos": "n.",
+      "ru": "мышление, размышление",
+      "uz": "fikrlash",
+      "examples": [
+        {
+          "en": "We need some creative thinking.",
+          "uz": "Bizga ijodiy fikrlash kerak."
+        },
+        {
+          "en": "The thinking behind the plan was never explained to anyone.",
+          "uz": "Reja ortidagi fikrlash hech kimga tushuntirilmagandi."
+        }
+      ]
+    },
+    {
+      "en": "column",
+      "pos": "n.",
+      "ru": "колонка, столбец",
+      "uz": "ustun",
+      "examples": [
+        {
+          "en": "Write the words in the first column.",
+          "uz": "Soʻzlarni birinchi ustunga yozing."
+        },
+        {
+          "en": "The figures in the last column don't add up to the total.",
+          "uz": "Oxirgi ustundagi raqamlar jamiga toʻgʻri kelmaydi."
+        }
+      ]
+    },
+    {
+      "en": "mostly",
+      "pos": "adv.",
+      "ru": "в основном",
+      "uz": "asosan",
+      "examples": [
+        {
+          "en": "The students are mostly girls.",
+          "uz": "Talabalar asosan qizlar."
+        },
+        {
+          "en": "The complaints are mostly about things nobody can change.",
+          "uz": "Shikoyatlar asosan hech kim oʻzgartira olmaydigan narsalar haqida."
+        }
+      ]
+    },
+    {
+      "en": "allow",
+      "pos": "v.",
+      "ru": "разрешать",
+      "uz": "ruxsat bermoq",
+      "examples": [
+        {
+          "en": "Smoking is not allowed here.",
+          "uz": "Bu yerda chekishga ruxsat berilmaydi."
+        },
+        {
+          "en": "We weren't allowed to see the figures until the decision had been taken.",
+          "uz": "Qaror qabul qilingunicha bizga raqamlarni koʻrishga ruxsat berilmadi."
+        }
+      ]
+    },
+    {
+      "en": "except",
+      "pos": "prep.",
+      "ru": "кроме",
+      "uz": "...dan tashqari",
+      "examples": [
+        {
+          "en": "Everyone came except Ali.",
+          "uz": "Alidan tashqari hamma keldi."
+        },
+        {
+          "en": "Everything went to plan except the one thing we couldn't control.",
+          "uz": "Biz nazorat qila olmagan bitta narsadan tashqari hammasi reja boʻyicha ketdi."
+        }
+      ]
+    },
+    {
+      "en": "electronic",
+      "pos": "adj.",
+      "ru": "электронный",
+      "uz": "elektron",
+      "examples": [
+        {
+          "en": "This is an electronic dictionary.",
+          "uz": "Bu elektron lugʻat."
+        },
+        {
+          "en": "Electronic records are easier to lose than paper ones, whatever people say.",
+          "uz": "Odamlar nima deyishsa ham, elektron yozuvlarni qogʻozdan koʻra oson yoʻqotish mumkin."
+        }
+      ]
+    },
+    {
+      "en": "factor",
+      "pos": "n.",
+      "ru": "фактор",
+      "uz": "omil",
+      "examples": [
+        {
+          "en": "Price is an important factor.",
+          "uz": "Narx muhim omil."
+        },
+        {
+          "en": "Price turned out to be the least important factor of all.",
+          "uz": "Narx eng ahamiyatsiz omil boʻlib chiqdi."
+        }
+      ]
+    },
+    {
+      "en": "airline",
+      "pos": "n.",
+      "ru": "авиакомпания",
+      "uz": "aviakompaniya",
+      "examples": [
+        {
+          "en": "Which airline are you flying with?",
+          "uz": "Qaysi aviakompaniya bilan uchasiz?"
+        },
+        {
+          "en": "The airline refused to pay for the hotel, although the delay was theirs.",
+          "uz": "Kechikish ularning aybi boʻlsa ham, aviakompaniya mehmonxona uchun toʻlashdan bosh tortdi."
+        }
+      ]
+    },
+    {
+      "en": "disagree",
+      "pos": "v.",
+      "ru": "не соглашаться",
+      "uz": "rozi boʻlmaslik",
+      "examples": [
+        {
+          "en": "I disagree with you.",
+          "uz": "Men siz bilan rozi emasman."
+        },
+        {
+          "en": "I disagree with almost everything he said and would defend his right to say it.",
+          "uz": "Men u aytgan deyarli hamma narsaga qoʻshilmayman va uning aytish huquqini himoya qilardim."
+        }
+      ]
+    },
+    {
+      "en": "reporter",
+      "pos": "n.",
+      "ru": "репортёр",
+      "uz": "muxbir",
+      "examples": [
+        {
+          "en": "A reporter asked him questions.",
+          "uz": "Muxbir unga savollar berdi."
+        },
+        {
+          "en": "A reporter had been asking questions in the village for a week.",
+          "uz": "Muxbir bir hafta qishloqda savollar berib yurgandi."
+        }
+      ]
+    },
+    {
+      "en": "worst",
+      "pos": "adj.",
+      "ru": "худший",
+      "uz": "eng yomon",
+      "examples": [
+        {
+          "en": "It was the worst day of my life.",
+          "uz": "Bu hayotimdagi eng yomon kun edi."
+        },
+        {
+          "en": "The worst part was that it had all been predicted.",
+          "uz": "Eng yomoni shuki, bularning hammasi bashorat qilingandi."
+        }
+      ]
+    },
+    {
+      "en": "feature",
+      "pos": "n.",
+      "ru": "особенность, функция",
+      "uz": "xususiyat, funksiya",
+      "examples": [
+        {
+          "en": "This phone has many new features.",
+          "uz": "Bu telefonda koʻp yangi funksiya bor."
+        },
+        {
+          "en": "The feature everyone asked for was the one they removed.",
+          "uz": "Hamma soʻragan funksiya aynan ular olib tashlagani boʻldi."
+        }
+      ]
+    },
+    {
+      "en": "pack",
+      "pos": "v.",
+      "ru": "упаковывать, собирать (вещи)",
+      "uz": "yigʻishtirmoq, joylamoq",
+      "examples": [
+        {
+          "en": "I need to pack my suitcase.",
+          "uz": "Menga chamadonimni yigʻishtirish kerak."
+        },
+        {
+          "en": "She'd packed in twenty minutes and left without saying goodbye.",
+          "uz": "U yigirma daqiqada yigʻishtirdi va xayrlashmay ketdi."
+        }
+      ]
+    },
+    {
+      "en": "track",
+      "pos": "n.",
+      "ru": "трасса; дорожка; трек",
+      "uz": "yoʻlak; trek",
+      "examples": [
+        {
+          "en": "The runners are on the track.",
+          "uz": "Yuguruvchilar yoʻlakda."
+        },
+        {
+          "en": "We'd lost track of the time somewhere around midnight.",
+          "uz": "Biz yarim tunlar atrofida vaqtni hisobdan chiqarib qoʻygandik."
+        }
+      ]
+    },
+    {
+      "en": "rock",
+      "pos": "n.",
+      "ru": "рок (музыка)",
+      "uz": "rok musiqasi",
+      "examples": [
+        {
+          "en": "My dad likes rock music.",
+          "uz": "Dadam rok musiqasini yaxshi koʻradi."
+        },
+        {
+          "en": "He'd listened to nothing but rock until he was about thirty.",
+          "uz": "U oʻttiz yoshigacha rokdan boshqa hech narsa tinglamagandi."
+        }
+      ]
+    },
+    {
+      "en": "alone",
+      "pos": "adj./adv.",
+      "ru": "один, в одиночестве",
+      "uz": "yolgʻiz",
+      "examples": [
+        {
+          "en": "He lives alone.",
+          "uz": "U yolgʻiz yashaydi."
+        },
+        {
+          "en": "She'd rather work alone than explain herself to a committee.",
+          "uz": "U qoʻmitaga oʻzini tushuntirgandan koʻra yolgʻiz ishlashni afzal koʻrardi."
+        }
+      ]
+    },
+    {
+      "en": "storm",
+      "pos": "n.",
+      "ru": "буря, гроза",
+      "uz": "boʻron",
+      "examples": [
+        {
+          "en": "There was a big storm last night.",
+          "uz": "Kecha kechasi katta boʻron boʻldi."
+        },
+        {
+          "en": "The storm did more damage in an hour than the whole winter had.",
+          "uz": "Boʻron bir soatda butun qish qilganidan koʻproq zarar yetkazdi."
+        }
+      ]
+    },
+    {
+      "en": "anywhere",
+      "pos": "adv., pron.",
+      "ru": "где-нибудь; где угодно",
+      "uz": "biror joyda, istalgan joyda",
+      "examples": [
+        {
+          "en": "I can't find my keys anywhere.",
+          "uz": "Men kalitlarimni hech qayerdan topa olmayapman."
+        },
+        {
+          "en": "You won't find a better price anywhere in the city.",
+          "uz": "Shaharning hech bir joyidan bundan yaxshiroq narx topa olmaysiz."
+        }
+      ]
+    },
+    {
+      "en": "behave",
+      "pos": "v.",
+      "ru": "вести себя",
+      "uz": "oʻzini tutmoq",
+      "examples": [
+        {
+          "en": "The children behaved very well.",
+          "uz": "Bolalar oʻzini juda yaxshi tutishdi."
+        },
+        {
+          "en": "He behaved as though the whole thing had been his idea.",
+          "uz": "U goʻyo butun ish uning gʻoyasi boʻlgandek tutdi oʻzini."
+        }
+      ]
+    },
+    {
+      "en": "condition",
+      "pos": "n.",
+      "ru": "состояние; условие",
+      "uz": "holat; shart",
+      "examples": [
+        {
+          "en": "The car is in good condition.",
+          "uz": "Mashina yaxshi holatda."
+        },
+        {
+          "en": "They agreed, on condition that the work started immediately.",
+          "uz": "Ular ish darhol boshlanishi sharti bilan rozi boʻlishdi."
+        }
+      ]
+    },
+    {
+      "en": "loud",
+      "pos": "adj., adv.",
+      "ru": "громкий; громко",
+      "uz": "baland (ovoz)",
+      "examples": [
+        {
+          "en": "The music is too loud.",
+          "uz": "Musiqa juda baland."
+        },
+        {
+          "en": "The complaints were loud, frequent and entirely ignored.",
+          "uz": "Shikoyatlar baland, tez-tez va butunlay eʼtiborsiz edi."
+        }
+      ]
+    },
+    {
+      "en": "discussion",
+      "pos": "n.",
+      "ru": "обсуждение",
+      "uz": "muhokama",
+      "examples": [
+        {
+          "en": "We had a long discussion.",
+          "uz": "Bizning uzoq muhokamamiz boʻldi."
+        },
+        {
+          "en": "After a long discussion they agreed to discuss it again.",
+          "uz": "Uzoq muhokamadan keyin ular buni yana muhokama qilishga kelishdi."
+        }
+      ]
+    },
+    {
+      "en": "sign",
+      "pos": "n., v.",
+      "ru": "знак, вывеска; подписывать",
+      "uz": "belgi, lavha; imzolamoq",
+      "examples": [
+        {
+          "en": "Sign your name here.",
+          "uz": "Ismingizni shu yerga yozing."
+        },
+        {
+          "en": "Don't sign anything you haven't read twice.",
+          "uz": "Ikki marta oʻqimagan hech narsani imzolamang."
+        }
+      ]
+    },
+    {
+      "en": "society",
+      "pos": "n.",
+      "ru": "общество",
+      "uz": "jamiyat",
+      "examples": [
+        {
+          "en": "Technology changes society.",
+          "uz": "Texnologiya jamiyatni oʻzgartiradi."
+        },
+        {
+          "en": "A society is judged by how it treats the people it can ignore.",
+          "uz": "Jamiyat oʻzi eʼtiborsiz qoldira oladigan odamlarga munosabati bilan baholanadi."
+        }
+      ]
+    },
+    {
+      "en": "prison",
+      "pos": "n.",
+      "ru": "тюрьма",
+      "uz": "qamoqxona",
+      "examples": [
+        {
+          "en": "He spent two years in prison.",
+          "uz": "U ikki yil qamoqxonada oʻtirdi."
+        },
+        {
+          "en": "He'd spent four years in prison for something he didn't do.",
+          "uz": "U qilmagan ishi uchun toʻrt yil qamoqxonada oʻtirgandi."
+        }
+      ]
+    },
+    {
+      "en": "creative",
+      "pos": "adj.",
+      "ru": "творческий",
+      "uz": "ijodiy",
+      "examples": [
+        {
+          "en": "She is very creative.",
+          "uz": "U juda ijodiy."
+        },
+        {
+          "en": "The most creative part of the job is explaining why it's late.",
+          "uz": "Ishning eng ijodiy qismi — nega kechikkanini tushuntirish."
+        }
+      ]
+    },
+    {
+      "en": "involve",
+      "pos": "v.",
+      "ru": "включать в себя, вовлекать",
+      "uz": "oʻz ichiga olmoq, jalb qilmoq",
+      "examples": [
+        {
+          "en": "The job involves a lot of travel.",
+          "uz": "Ish koʻp safarni oʻz ichiga oladi."
+        },
+        {
+          "en": "Nobody had explained how much travel the job would involve.",
+          "uz": "Ish qanchalik koʻp safarni oʻz ichiga olishini hech kim tushuntirmagandi."
+        }
+      ]
+    },
+    {
+      "en": "cartoon",
+      "pos": "n.",
+      "ru": "мультфильм; карикатура",
+      "uz": "multfilm; karikatura",
+      "examples": [
+        {
+          "en": "My son watches cartoons every day.",
+          "uz": "Oʻgʻlim har kuni multfilm koʻradi."
+        },
+        {
+          "en": "The cartoon said in one drawing what the article took a page to say.",
+          "uz": "Karikatura bitta rasmda maqola bir sahifada aytgan narsani aytdi."
+        }
+      ]
+    },
+    {
+      "en": "brain",
+      "pos": "n.",
+      "ru": "мозг",
+      "uz": "miya",
+      "examples": [
+        {
+          "en": "The brain needs sleep.",
+          "uz": "Miyaga uyqu kerak."
+        },
+        {
+          "en": "The brain uses more energy than any other organ in the body.",
+          "uz": "Miya tanadagi har qanday boshqa aʼzodan koʻproq energiya sarflaydi."
         }
       ]
     }
