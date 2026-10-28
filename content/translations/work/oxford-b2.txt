@@ -1228,7 +1228,7 @@ example|crop|n.|The crop failed for the second year, and nobody had any savings.
 phrase|calculate|v.|вычислять, подсчитывать|hisoblamoq
 example|calculate|v.|Calculate the total cost.|Umumiy xarajatni hisoblang.
 example|calculate|v.|Nobody had calculated what the delay would actually cost.|Kechikish aslida qanchaga tushishini hech kim hisoblamagandi.
-phrase|broad|adj.|широкий|keng
+phrase|broad|adj.|широкий|keng qamrovli
 example|broad|adj.|He has broad shoulders.|Uning yelkasi keng.
 example|broad|adj.|There's broad agreement on the problem and none on the solution.|Muammo boʻyicha keng kelishuv bor va yechim boʻyicha umuman yoʻq.
 phrase|way|adv.|намного (разг.)|ancha, juda
