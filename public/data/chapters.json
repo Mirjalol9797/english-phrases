@@ -238,11 +238,13 @@
       "group": "Oxford 3000",
       "title": {
         "en": "Oxford 3000 · B1",
-        "ru": "Самые нужные слова, уровень B1"
+        "ru": "Самые нужные слова, уровень B1",
+        "uz": "Eng kerakli soʻzlar, B1 daraja"
       },
       "file": "chapters/oxford-b1.json",
       "lessonCount": 81,
-      "phraseCount": 809
+      "phraseCount": 809,
+      "translatedUz": true
     },
     {
       "id": "oxford-b2",
