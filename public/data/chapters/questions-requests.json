@@ -5,7 +5,8 @@
   "kind": "phrases",
   "title": {
     "en": "Questions & Requests",
-    "ru": "Вопросы и просьбы"
+    "ru": "Вопросы и просьбы",
+    "uz": "Savollar va iltimoslar"
   },
   "lessons": [
     {
@@ -13,58 +14,69 @@
       "order": 1,
       "title": {
         "en": "Asking basic questions",
-        "ru": "Простые вопросы"
+        "ru": "Простые вопросы",
+        "uz": "Oddiy savollar"
       },
       "phrases": [
         {
           "id": "QR001",
           "en": "What is this?",
-          "ru": "Что это?"
+          "ru": "Что это?",
+          "uz": "Bu nima?"
         },
         {
           "id": "QR002",
           "en": "Who is that?",
-          "ru": "Кто это?"
+          "ru": "Кто это?",
+          "uz": "U kim?"
         },
         {
           "id": "QR003",
           "en": "Where are you going?",
-          "ru": "Куда ты идёшь?"
+          "ru": "Куда ты идёшь?",
+          "uz": "Qayerga ketyapsiz?"
         },
         {
           "id": "QR004",
           "en": "When does it start?",
-          "ru": "Когда это начинается?"
+          "ru": "Когда это начинается?",
+          "uz": "U qachon boshlanadi?"
         },
         {
           "id": "QR005",
           "en": "Why are you asking?",
-          "ru": "Почему ты спрашиваешь?"
+          "ru": "Почему ты спрашиваешь?",
+          "uz": "Nega soʻrayapsiz?"
         },
         {
           "id": "QR006",
           "en": "Which one do you prefer?",
-          "ru": "Какой из них ты предпочитаешь?"
+          "ru": "Какой из них ты предпочитаешь?",
+          "uz": "Qaysi birini afzal koʻrasiz?"
         },
         {
           "id": "QR007",
           "en": "How does it work?",
-          "ru": "Как это работает?"
+          "ru": "Как это работает?",
+          "uz": "Bu qanday ishlaydi?"
         },
         {
           "id": "QR008",
           "en": "How much does it cost?",
-          "ru": "Сколько это стоит?"
+          "ru": "Сколько это стоит?",
+          "uz": "Bu qancha turadi?"
         },
         {
           "id": "QR009",
           "en": "How long will it take?",
-          "ru": "Сколько времени это займёт?"
+          "ru": "Сколько времени это займёт?",
+          "uz": "Bu qancha vaqt oladi?"
         },
         {
           "id": "QR010",
           "en": "How often do you do that?",
-          "ru": "Как часто ты это делаешь?"
+          "ru": "Как часто ты это делаешь?",
+          "uz": "Buni qanchalik tez-tez qilasiz?"
         }
       ]
     },
@@ -73,58 +85,69 @@
       "order": 2,
       "title": {
         "en": "Asking for information",
-        "ru": "Запрос информации"
+        "ru": "Запрос информации",
+        "uz": "Maʼlumot soʻrash"
       },
       "phrases": [
         {
           "id": "QR011",
           "en": "Could you give me some information?",
-          "ru": "Не могли бы вы дать мне информацию?"
+          "ru": "Не могли бы вы дать мне информацию?",
+          "uz": "Menga biroz maʼlumot bera olasizmi?"
         },
         {
           "id": "QR012",
           "en": "Could you tell me more about it?",
-          "ru": "Не могли бы вы рассказать об этом подробнее?"
+          "ru": "Не могли бы вы рассказать об этом подробнее?",
+          "uz": "Bu haqda batafsilroq aytib bera olasizmi?"
         },
         {
           "id": "QR013",
           "en": "Where can I find more details?",
-          "ru": "Где я могу найти подробности?"
+          "ru": "Где я могу найти подробности?",
+          "uz": "Batafsil maʼlumotni qayerdan topsam boʻladi?"
         },
         {
           "id": "QR014",
           "en": "Do you know what time it opens?",
-          "ru": "Вы знаете, во сколько это открывается?"
+          "ru": "Вы знаете, во сколько это открывается?",
+          "uz": "Bu necha soatda ochilishini bilasizmi?"
         },
         {
           "id": "QR015",
           "en": "Could you explain how it works?",
-          "ru": "Не могли бы вы объяснить, как это работает?"
+          "ru": "Не могли бы вы объяснить, как это работает?",
+          "uz": "Bu qanday ishlashini tushuntira olasizmi?"
         },
         {
           "id": "QR016",
           "en": "Is there anything else I should know?",
-          "ru": "Есть ли ещё что-нибудь, что мне следует знать?"
+          "ru": "Есть ли ещё что-нибудь, что мне следует знать?",
+          "uz": "Yana bilishim kerak boʻlgan narsa bormi?"
         },
         {
           "id": "QR017",
           "en": "Could you clarify one thing?",
-          "ru": "Не могли бы вы кое-что уточнить?"
+          "ru": "Не могли бы вы кое-что уточнить?",
+          "uz": "Bir narsani aniqlashtira olasizmi?"
         },
         {
           "id": "QR018",
           "en": "What does this mean?",
-          "ru": "Что это означает?"
+          "ru": "Что это означает?",
+          "uz": "Bu nimani anglatadi?"
         },
         {
           "id": "QR019",
           "en": "Where did you hear that?",
-          "ru": "Где ты это услышал(а)?"
+          "ru": "Где ты это услышал(а)?",
+          "uz": "Buni qayerdan eshitdingiz?"
         },
         {
           "id": "QR020",
           "en": "Could you point me to the right source?",
-          "ru": "Не могли бы вы указать мне подходящий источник?"
+          "ru": "Не могли бы вы указать мне подходящий источник?",
+          "uz": "Menga kerakli manbani koʻrsata olasizmi?"
         }
       ]
     },
@@ -133,58 +156,69 @@
       "order": 3,
       "title": {
         "en": "Polite requests",
-        "ru": "Вежливые просьбы"
+        "ru": "Вежливые просьбы",
+        "uz": "Xushmuomala iltimoslar"
       },
       "phrases": [
         {
           "id": "QR021",
           "en": "Could you help me, please?",
-          "ru": "Не могли бы вы мне помочь?"
+          "ru": "Не могли бы вы мне помочь?",
+          "uz": "Iltimos, menga yordam bera olasizmi?"
         },
         {
           "id": "QR022",
           "en": "Would you mind opening the window?",
-          "ru": "Не могли бы вы открыть окно?"
+          "ru": "Не могли бы вы открыть окно?",
+          "uz": "Derazani ochib bera olasizmi?"
         },
         {
           "id": "QR023",
           "en": "Could I ask you a favour?",
-          "ru": "Можно попросить вас об услуге?"
+          "ru": "Можно попросить вас об услуге?",
+          "uz": "Sizdan bir iltimos qilsam boʻladimi?"
         },
         {
           "id": "QR024",
           "en": "Would it be possible to reschedule?",
-          "ru": "Можно ли перенести встречу?"
+          "ru": "Можно ли перенести встречу?",
+          "uz": "Uchrashuvni boshqa vaqtga koʻchirish mumkinmi?"
         },
         {
           "id": "QR025",
           "en": "Could you send it to me, please?",
-          "ru": "Не могли бы вы отправить это мне?"
+          "ru": "Не могли бы вы отправить это мне?",
+          "uz": "Iltimos, buni menga yuborib bera olasizmi?"
         },
         {
           "id": "QR026",
           "en": "Would you mind waiting a moment?",
-          "ru": "Не могли бы вы подождать минутку?"
+          "ru": "Не могли бы вы подождать минутку?",
+          "uz": "Bir daqiqa kutib tura olasizmi?"
         },
         {
           "id": "QR027",
           "en": "Could you speak a little more slowly?",
-          "ru": "Не могли бы вы говорить немного медленнее?"
+          "ru": "Не могли бы вы говорить немного медленнее?",
+          "uz": "Biroz sekinroq gapira olasizmi?"
         },
         {
           "id": "QR028",
           "en": "May I ask you a question?",
-          "ru": "Можно задать вам вопрос?"
+          "ru": "Можно задать вам вопрос?",
+          "uz": "Sizga bir savol bersam boʻladimi?"
         },
         {
           "id": "QR029",
           "en": "Could you show me how to do it?",
-          "ru": "Не могли бы вы показать, как это сделать?"
+          "ru": "Не могли бы вы показать, как это сделать?",
+          "uz": "Buni qanday qilishni koʻrsata olasizmi?"
         },
         {
           "id": "QR030",
           "en": "Would you be able to help tomorrow?",
-          "ru": "Вы смогли бы помочь завтра?"
+          "ru": "Вы смогли бы помочь завтра?",
+          "uz": "Ertaga yordam bera olasizmi?"
         }
       ]
     },
@@ -193,58 +227,69 @@
       "order": 4,
       "title": {
         "en": "Asking someone to repeat",
-        "ru": "Просьба повторить"
+        "ru": "Просьба повторить",
+        "uz": "Takrorlashni soʻrash"
       },
       "phrases": [
         {
           "id": "QR031",
           "en": "Could you repeat that, please?",
-          "ru": "Не могли бы вы повторить?"
+          "ru": "Не могли бы вы повторить?",
+          "uz": "Iltimos, buni takrorlay olasizmi?"
         },
         {
           "id": "QR032",
           "en": "Sorry, what was that?",
-          "ru": "Извините, что вы сказали?"
+          "ru": "Извините, что вы сказали?",
+          "uz": "Kechirasiz, nima dedingiz?"
         },
         {
           "id": "QR033",
           "en": "Could you say that one more time?",
-          "ru": "Не могли бы вы сказать это ещё раз?"
+          "ru": "Не могли бы вы сказать это ещё раз?",
+          "uz": "Buni yana bir marta ayta olasizmi?"
         },
         {
           "id": "QR034",
           "en": "I didn't quite catch that.",
-          "ru": "Я не совсем расслышал(а)."
+          "ru": "Я не совсем расслышал(а).",
+          "uz": "Men buni unchalik eshitmadim."
         },
         {
           "id": "QR035",
           "en": "Could you spell that for me?",
-          "ru": "Не могли бы вы произнести это по буквам?"
+          "ru": "Не могли бы вы произнести это по буквам?",
+          "uz": "Buni harflab ayta olasizmi?"
         },
         {
           "id": "QR036",
           "en": "Would you mind speaking up?",
-          "ru": "Не могли бы вы говорить громче?"
+          "ru": "Не могли бы вы говорить громче?",
+          "uz": "Balandroq gapira olasizmi?"
         },
         {
           "id": "QR037",
           "en": "Could you write it down?",
-          "ru": "Не могли бы вы это записать?"
+          "ru": "Не могли бы вы это записать?",
+          "uz": "Buni yozib bera olasizmi?"
         },
         {
           "id": "QR038",
           "en": "Did you say fifteen or fifty?",
-          "ru": "Вы сказали пятнадцать или пятьдесят?"
+          "ru": "Вы сказали пятнадцать или пятьдесят?",
+          "uz": "Oʻn besh dedingizmi yoki ellik?"
         },
         {
           "id": "QR039",
           "en": "Could you explain that in another way?",
-          "ru": "Не могли бы вы объяснить это по-другому?"
+          "ru": "Не могли бы вы объяснить это по-другому?",
+          "uz": "Buni boshqacha tushuntira olasizmi?"
         },
         {
           "id": "QR040",
           "en": "Let me make sure I heard you correctly.",
-          "ru": "Позвольте убедиться, что я правильно вас услышал(а)."
+          "ru": "Позвольте убедиться, что я правильно вас услышал(а).",
+          "uz": "Sizni toʻgʻri eshitganimga ishonch hosil qilay."
         }
       ]
     },
@@ -253,58 +298,69 @@
       "order": 5,
       "title": {
         "en": "Asking for directions",
-        "ru": "Вопросы о дороге"
+        "ru": "Вопросы о дороге",
+        "uz": "Yoʻl haqida savollar"
       },
       "phrases": [
         {
           "id": "QR041",
           "en": "How do I get there?",
-          "ru": "Как мне туда добраться?"
+          "ru": "Как мне туда добраться?",
+          "uz": "U yerga qanday boraman?"
         },
         {
           "id": "QR042",
           "en": "Which way should I go?",
-          "ru": "В какую сторону мне идти?"
+          "ru": "В какую сторону мне идти?",
+          "uz": "Qaysi tomonga borishim kerak?"
         },
         {
           "id": "QR043",
           "en": "Is it far from here?",
-          "ru": "Это далеко отсюда?"
+          "ru": "Это далеко отсюда?",
+          "uz": "Bu yerdan uzoqmi?"
         },
         {
           "id": "QR044",
           "en": "Could you show me on the map?",
-          "ru": "Не могли бы вы показать на карте?"
+          "ru": "Не могли бы вы показать на карте?",
+          "uz": "Xaritada koʻrsata olasizmi?"
         },
         {
           "id": "QR045",
           "en": "Where is the nearest bus stop?",
-          "ru": "Где ближайшая автобусная остановка?"
+          "ru": "Где ближайшая автобусная остановка?",
+          "uz": "Eng yaqin avtobus bekati qayerda?"
         },
         {
           "id": "QR046",
           "en": "Should I turn left or right?",
-          "ru": "Мне повернуть налево или направо?"
+          "ru": "Мне повернуть налево или направо?",
+          "uz": "Chapga burilaymi yoki oʻngga?"
         },
         {
           "id": "QR047",
           "en": "How many stops should I go?",
-          "ru": "Сколько остановок мне ехать?"
+          "ru": "Сколько остановок мне ехать?",
+          "uz": "Necha bekat yurishim kerak?"
         },
         {
           "id": "QR048",
           "en": "Can I walk there?",
-          "ru": "Я могу дойти туда пешком?"
+          "ru": "Я могу дойти туда пешком?",
+          "uz": "U yerga piyoda bora olamanmi?"
         },
         {
           "id": "QR049",
           "en": "Is this the right way?",
-          "ru": "Я иду в правильном направлении?"
+          "ru": "Я иду в правильном направлении?",
+          "uz": "Men toʻgʻri ketyapmanmi?"
         },
         {
           "id": "QR050",
           "en": "Could you tell me when to get off?",
-          "ru": "Не могли бы вы сказать, когда выходить?"
+          "ru": "Не могли бы вы сказать, когда выходить?",
+          "uz": "Qachon tushishimni ayta olasizmi?"
         }
       ]
     },
@@ -313,58 +369,69 @@
       "order": 6,
       "title": {
         "en": "Asking for permission",
-        "ru": "Просьба о разрешении"
+        "ru": "Просьба о разрешении",
+        "uz": "Ruxsat soʻrash"
       },
       "phrases": [
         {
           "id": "QR051",
           "en": "May I come in?",
-          "ru": "Можно войти?"
+          "ru": "Можно войти?",
+          "uz": "Kirsam boʻladimi?"
         },
         {
           "id": "QR052",
           "en": "Can I use your phone?",
-          "ru": "Можно воспользоваться твоим телефоном?"
+          "ru": "Можно воспользоваться твоим телефоном?",
+          "uz": "Telefoningizdan foydalansam boʻladimi?"
         },
         {
           "id": "QR053",
           "en": "Would it be okay if I left early?",
-          "ru": "Ничего, если я уйду пораньше?"
+          "ru": "Ничего, если я уйду пораньше?",
+          "uz": "Erta ketsam boʻladimi?"
         },
         {
           "id": "QR054",
           "en": "Do you mind if I sit here?",
-          "ru": "Ты не против, если я сяду здесь?"
+          "ru": "Ты не против, если я сяду здесь?",
+          "uz": "Bu yerga oʻtirsam, qarshi emasmisiz?"
         },
         {
           "id": "QR055",
           "en": "May I borrow this for a moment?",
-          "ru": "Можно одолжить это на минутку?"
+          "ru": "Можно одолжить это на минутку?",
+          "uz": "Buni bir daqiqaga olib tursam boʻladimi?"
         },
         {
           "id": "QR056",
           "en": "Is it all right if I bring a friend?",
-          "ru": "Ничего, если я приведу друга?"
+          "ru": "Ничего, если я приведу друга?",
+          "uz": "Doʻstimni olib kelsam boʻladimi?"
         },
         {
           "id": "QR057",
           "en": "Could I take a day off?",
-          "ru": "Могу я взять выходной?"
+          "ru": "Могу я взять выходной?",
+          "uz": "Bir kun dam olsam boʻladimi?"
         },
         {
           "id": "QR058",
           "en": "Would you mind if I opened the window?",
-          "ru": "Вы не возражаете, если я открою окно?"
+          "ru": "Вы не возражаете, если я открою окно?",
+          "uz": "Derazani ochsam, qarshi emasmisiz?"
         },
         {
           "id": "QR059",
           "en": "Am I allowed to park here?",
-          "ru": "Мне разрешено здесь парковаться?"
+          "ru": "Мне разрешено здесь парковаться?",
+          "uz": "Bu yerga toʻxtashga ruxsat bormi?"
         },
         {
           "id": "QR060",
           "en": "Can I ask you something personal?",
-          "ru": "Можно спросить тебя о личном?"
+          "ru": "Можно спросить тебя о личном?",
+          "uz": "Shaxsiy bir narsa soʻrasam boʻladimi?"
         }
       ]
     },
@@ -373,58 +440,69 @@
       "order": 7,
       "title": {
         "en": "Offering help",
-        "ru": "Предложение помощи"
+        "ru": "Предложение помощи",
+        "uz": "Yordam taklif qilish"
       },
       "phrases": [
         {
           "id": "QR061",
           "en": "Can I help you with that?",
-          "ru": "Могу я помочь тебе с этим?"
+          "ru": "Могу я помочь тебе с этим?",
+          "uz": "Bunda sizga yordam bera olamanmi?"
         },
         {
           "id": "QR062",
           "en": "Would you like a hand?",
-          "ru": "Тебе помочь?"
+          "ru": "Тебе помочь?",
+          "uz": "Yordam kerakmi?"
         },
         {
           "id": "QR063",
           "en": "Shall I carry that for you?",
-          "ru": "Мне понести это за тебя?"
+          "ru": "Мне понести это за тебя?",
+          "uz": "Buni koʻtarib beraymi?"
         },
         {
           "id": "QR064",
           "en": "Do you need any help?",
-          "ru": "Тебе нужна помощь?"
+          "ru": "Тебе нужна помощь?",
+          "uz": "Yordam kerakmi?"
         },
         {
           "id": "QR065",
           "en": "Can I get you anything?",
-          "ru": "Могу я тебе что-нибудь принести?"
+          "ru": "Могу я тебе что-нибудь принести?",
+          "uz": "Sizga biror narsa olib kelaymi?"
         },
         {
           "id": "QR066",
           "en": "Would you like me to call someone?",
-          "ru": "Хочешь, я кому-нибудь позвоню?"
+          "ru": "Хочешь, я кому-нибудь позвоню?",
+          "uz": "Birortasiga qoʻngʻiroq qilaymi?"
         },
         {
           "id": "QR067",
           "en": "Let me know if you need anything.",
-          "ru": "Дай знать, если что-нибудь понадобится."
+          "ru": "Дай знать, если что-нибудь понадобится.",
+          "uz": "Biror narsa kerak boʻlsa, ayting."
         },
         {
           "id": "QR068",
           "en": "Can I do anything to help?",
-          "ru": "Могу я чем-нибудь помочь?"
+          "ru": "Могу я чем-нибудь помочь?",
+          "uz": "Yordam berish uchun biror ish qila olamanmi?"
         },
         {
           "id": "QR069",
           "en": "Would it help if I came earlier?",
-          "ru": "Помогло бы, если бы я пришёл / пришла раньше?"
+          "ru": "Помогло бы, если бы я пришёл / пришла раньше?",
+          "uz": "Erta kelsam yordam boʻlarmidi?"
         },
         {
           "id": "QR070",
           "en": "I'll be happy to help.",
-          "ru": "Я буду рад(а) помочь."
+          "ru": "Я буду рад(а) помочь.",
+          "uz": "Yordam berishdan xursand boʻlaman."
         }
       ]
     },
@@ -433,58 +511,69 @@
       "order": 8,
       "title": {
         "en": "Asking for clarification",
-        "ru": "Уточняющие вопросы"
+        "ru": "Уточняющие вопросы",
+        "uz": "Aniqlashtiruvchi savollar"
       },
       "phrases": [
         {
           "id": "QR071",
           "en": "What exactly do you mean?",
-          "ru": "Что именно ты имеешь в виду?"
+          "ru": "Что именно ты имеешь в виду?",
+          "uz": "Aniq nimani nazarda tutyapsiz?"
         },
         {
           "id": "QR072",
           "en": "Could you be more specific?",
-          "ru": "Не могли бы вы уточнить?"
+          "ru": "Не могли бы вы уточнить?",
+          "uz": "Aniqroq ayta olasizmi?"
         },
         {
           "id": "QR073",
           "en": "Which part are you referring to?",
-          "ru": "Какую именно часть вы имеете в виду?"
+          "ru": "Какую именно часть вы имеете в виду?",
+          "uz": "Qaysi qismini nazarda tutyapsiz?"
         },
         {
           "id": "QR074",
           "en": "Do you mean this one?",
-          "ru": "Ты имеешь в виду вот этот?"
+          "ru": "Ты имеешь в виду вот этот?",
+          "uz": "Shunisini nazarda tutyapsizmi?"
         },
         {
           "id": "QR075",
           "en": "Could you give me an example?",
-          "ru": "Не могли бы вы привести пример?"
+          "ru": "Не могли бы вы привести пример?",
+          "uz": "Misol keltira olasizmi?"
         },
         {
           "id": "QR076",
           "en": "Are you saying that we need to wait?",
-          "ru": "Ты говоришь, что нам нужно подождать?"
+          "ru": "Ты говоришь, что нам нужно подождать?",
+          "uz": "Kutishimiz kerak demoqchimisiz?"
         },
         {
           "id": "QR077",
           "en": "Did I understand you correctly?",
-          "ru": "Я правильно тебя понял(а)?"
+          "ru": "Я правильно тебя понял(а)?",
+          "uz": "Sizni toʻgʻri tushundimmi?"
         },
         {
           "id": "QR078",
           "en": "Can you explain why?",
-          "ru": "Можешь объяснить почему?"
+          "ru": "Можешь объяснить почему?",
+          "uz": "Nega ekanini tushuntira olasizmi?"
         },
         {
           "id": "QR079",
           "en": "What do you mean by 'urgent'?",
-          "ru": "Что ты имеешь в виду под словом «срочно»?"
+          "ru": "Что ты имеешь в виду под словом «срочно»?",
+          "uz": "«Shoshilinch» deganda nimani nazarda tutyapsiz?"
         },
         {
           "id": "QR080",
           "en": "Could you clarify the last point?",
-          "ru": "Не могли бы вы уточнить последний пункт?"
+          "ru": "Не могли бы вы уточнить последний пункт?",
+          "uz": "Oxirgi fikrni aniqlashtira olasizmi?"
         }
       ]
     },
@@ -493,58 +582,69 @@
       "order": 9,
       "title": {
         "en": "Making requests at work",
-        "ru": "Просьбы на работе"
+        "ru": "Просьбы на работе",
+        "uz": "Ishdagi iltimoslar"
       },
       "phrases": [
         {
           "id": "QR081",
           "en": "Could you review this document?",
-          "ru": "Не могли бы вы проверить этот документ?"
+          "ru": "Не могли бы вы проверить этот документ?",
+          "uz": "Bu hujjatni koʻrib chiqa olasizmi?"
         },
         {
           "id": "QR082",
           "en": "Can you send me the latest version?",
-          "ru": "Можете отправить мне последнюю версию?"
+          "ru": "Можете отправить мне последнюю версию?",
+          "uz": "Menga oxirgi versiyasini yuborib bera olasizmi?"
         },
         {
           "id": "QR083",
           "en": "Could you finish this by Friday?",
-          "ru": "Не могли бы вы закончить это к пятнице?"
+          "ru": "Не могли бы вы закончить это к пятнице?",
+          "uz": "Buni juma kunigacha tugata olasizmi?"
         },
         {
           "id": "QR084",
           "en": "Would you mind checking these numbers?",
-          "ru": "Не могли бы вы проверить эти цифры?"
+          "ru": "Не могли бы вы проверить эти цифры?",
+          "uz": "Bu raqamlarni tekshirib bera olasizmi?"
         },
         {
           "id": "QR085",
           "en": "Can we move the meeting to tomorrow?",
-          "ru": "Можем перенести встречу на завтра?"
+          "ru": "Можем перенести встречу на завтра?",
+          "uz": "Uchrashuvni ertaga koʻchira olamizmi?"
         },
         {
           "id": "QR086",
           "en": "Could you keep me in the loop?",
-          "ru": "Не могли бы вы держать меня в курсе?"
+          "ru": "Не могли бы вы держать меня в курсе?",
+          "uz": "Meni xabardor qilib turasizmi?"
         },
         {
           "id": "QR087",
           "en": "Please let me know when it's ready.",
-          "ru": "Пожалуйста, сообщите, когда будет готово."
+          "ru": "Пожалуйста, сообщите, когда будет готово.",
+          "uz": "Tayyor boʻlganda, iltimos, xabar bering."
         },
         {
           "id": "QR088",
           "en": "Could you share the meeting notes?",
-          "ru": "Не могли бы вы поделиться заметками со встречи?"
+          "ru": "Не могли бы вы поделиться заметками со встречи?",
+          "uz": "Uchrashuv yozuvlarini ulasha olasizmi?"
         },
         {
           "id": "QR089",
           "en": "Would you be able to take this on?",
-          "ru": "Вы смогли бы взять это на себя?"
+          "ru": "Вы смогли бы взять это на себя?",
+          "uz": "Buni oʻz zimmangizga ola olasizmi?"
         },
         {
           "id": "QR090",
           "en": "Could you give me a quick update?",
-          "ru": "Не могли бы вы кратко сообщить новости?"
+          "ru": "Не могли бы вы кратко сообщить новости?",
+          "uz": "Qisqacha yangilik aytib bera olasizmi?"
         }
       ]
     },
@@ -553,58 +653,69 @@
       "order": 10,
       "title": {
         "en": "Requests in shops and cafés",
-        "ru": "Просьбы в магазинах и кафе"
+        "ru": "Просьбы в магазинах и кафе",
+        "uz": "Doʻkon va kafedagi iltimoslar"
       },
       "phrases": [
         {
           "id": "QR091",
           "en": "Could I see the menu, please?",
-          "ru": "Можно меню, пожалуйста?"
+          "ru": "Можно меню, пожалуйста?",
+          "uz": "Iltimos, menyuni koʻrsam boʻladimi?"
         },
         {
           "id": "QR092",
           "en": "Can I try this on?",
-          "ru": "Можно это примерить?"
+          "ru": "Можно это примерить?",
+          "uz": "Buni kiyib koʻrsam boʻladimi?"
         },
         {
           "id": "QR093",
           "en": "Could I have a receipt?",
-          "ru": "Можно чек?"
+          "ru": "Можно чек?",
+          "uz": "Chek olsam boʻladimi?"
         },
         {
           "id": "QR094",
           "en": "Would you bring us some water?",
-          "ru": "Не могли бы вы принести нам воды?"
+          "ru": "Не могли бы вы принести нам воды?",
+          "uz": "Bizga suv olib kela olasizmi?"
         },
         {
           "id": "QR095",
           "en": "Could I get this without sugar?",
-          "ru": "Можно это без сахара?"
+          "ru": "Можно это без сахара?",
+          "uz": "Buni shakarsiz olsam boʻladimi?"
         },
         {
           "id": "QR096",
           "en": "Can I pay by card?",
-          "ru": "Можно оплатить картой?"
+          "ru": "Можно оплатить картой?",
+          "uz": "Karta bilan toʻlasam boʻladimi?"
         },
         {
           "id": "QR097",
           "en": "Could you pack this to go?",
-          "ru": "Не могли бы вы упаковать это с собой?"
+          "ru": "Не могли бы вы упаковать это с собой?",
+          "uz": "Buni oʻzim bilan olib ketishga oʻrab bera olasizmi?"
         },
         {
           "id": "QR098",
           "en": "Do you have this in a larger size?",
-          "ru": "Есть это в большем размере?"
+          "ru": "Есть это в большем размере?",
+          "uz": "Buning kattaroq oʻlchami bormi?"
         },
         {
           "id": "QR099",
           "en": "Could I have a bag, please?",
-          "ru": "Можно пакет, пожалуйста?"
+          "ru": "Можно пакет, пожалуйста?",
+          "uz": "Iltimos, paket bersangiz?"
         },
         {
           "id": "QR100",
           "en": "Would you mind splitting the bill?",
-          "ru": "Не могли бы вы разделить счёт?"
+          "ru": "Не могли бы вы разделить счёт?",
+          "uz": "Hisobni boʻlib bera olasizmi?"
         }
       ]
     },
@@ -613,58 +724,69 @@
       "order": 11,
       "title": {
         "en": "Requests at home",
-        "ru": "Просьбы дома"
+        "ru": "Просьбы дома",
+        "uz": "Uydagi iltimoslar"
       },
       "phrases": [
         {
           "id": "QR101",
           "en": "Could you turn down the TV?",
-          "ru": "Не мог(ла) бы ты сделать телевизор потише?"
+          "ru": "Не мог(ла) бы ты сделать телевизор потише?",
+          "uz": "Televizorni pasaytira olasizmi?"
         },
         {
           "id": "QR102",
           "en": "Can you take out the rubbish?",
-          "ru": "Можешь вынести мусор?"
+          "ru": "Можешь вынести мусор?",
+          "uz": "Axlatni chiqarib tashlay olasizmi?"
         },
         {
           "id": "QR103",
           "en": "Would you mind washing the dishes?",
-          "ru": "Не мог(ла) бы ты помыть посуду?"
+          "ru": "Не мог(ла) бы ты помыть посуду?",
+          "uz": "Idishlarni yuvib bera olasizmi?"
         },
         {
           "id": "QR104",
           "en": "Could you close the door?",
-          "ru": "Не мог(ла) бы ты закрыть дверь?"
+          "ru": "Не мог(ла) бы ты закрыть дверь?",
+          "uz": "Eshikni yopa olasizmi?"
         },
         {
           "id": "QR105",
           "en": "Can you pick up some bread?",
-          "ru": "Можешь купить хлеба?"
+          "ru": "Можешь купить хлеба?",
+          "uz": "Non olib kela olasizmi?"
         },
         {
           "id": "QR106",
           "en": "Would you put this away?",
-          "ru": "Уберёшь это на место?"
+          "ru": "Уберёшь это на место?",
+          "uz": "Buni joyiga qoʻyasizmi?"
         },
         {
           "id": "QR107",
           "en": "Could you water the plants?",
-          "ru": "Не мог(ла) бы ты полить растения?"
+          "ru": "Не мог(ла) бы ты полить растения?",
+          "uz": "Gullarni sugʻora olasizmi?"
         },
         {
           "id": "QR108",
           "en": "Can you keep an eye on dinner?",
-          "ru": "Можешь присмотреть за ужином?"
+          "ru": "Можешь присмотреть за ужином?",
+          "uz": "Kechki ovqatga koʻz-quloq boʻla olasizmi?"
         },
         {
           "id": "QR109",
           "en": "Would you mind helping me tidy up?",
-          "ru": "Не мог(ла) бы ты помочь мне прибраться?"
+          "ru": "Не мог(ла) бы ты помочь мне прибраться?",
+          "uz": "Yigʻishtirishga yordam bera olasizmi?"
         },
         {
           "id": "QR110",
           "en": "Could you wake me up at seven?",
-          "ru": "Не мог(ла) бы ты разбудить меня в семь?"
+          "ru": "Не мог(ла) бы ты разбудить меня в семь?",
+          "uz": "Meni yettida uygʻota olasizmi?"
         }
       ]
     },
@@ -673,58 +795,69 @@
       "order": 12,
       "title": {
         "en": "Requests in public places",
-        "ru": "Просьбы в общественных местах"
+        "ru": "Просьбы в общественных местах",
+        "uz": "Jamoat joylaridagi iltimoslar"
       },
       "phrases": [
         {
           "id": "QR111",
           "en": "Could you take a photo of us?",
-          "ru": "Не могли бы вы сфотографировать нас?"
+          "ru": "Не могли бы вы сфотографировать нас?",
+          "uz": "Bizni suratga olib bera olasizmi?"
         },
         {
           "id": "QR112",
           "en": "Would you mind moving a little?",
-          "ru": "Не могли бы вы немного подвинуться?"
+          "ru": "Не могли бы вы немного подвинуться?",
+          "uz": "Biroz surilib tura olasizmi?"
         },
         {
           "id": "QR113",
           "en": "Could you tell me where the restroom is?",
-          "ru": "Не могли бы вы сказать, где туалет?"
+          "ru": "Не могли бы вы сказать, где туалет?",
+          "uz": "Hojatxona qayerdaligini ayta olasizmi?"
         },
         {
           "id": "QR114",
           "en": "Can I sit here?",
-          "ru": "Можно мне здесь сесть?"
+          "ru": "Можно мне здесь сесть?",
+          "uz": "Bu yerga oʻtirsam boʻladimi?"
         },
         {
           "id": "QR115",
           "en": "Would you keep this seat for me?",
-          "ru": "Не могли бы вы занять это место для меня?"
+          "ru": "Не могли бы вы занять это место для меня?",
+          "uz": "Bu joyni men uchun band qilib tura olasizmi?"
         },
         {
           "id": "QR116",
           "en": "Could you lower your voice, please?",
-          "ru": "Не могли бы вы говорить потише?"
+          "ru": "Не могли бы вы говорить потише?",
+          "uz": "Iltimos, ovozingizni pasaytira olasizmi?"
         },
         {
           "id": "QR117",
           "en": "Can you tell me when we arrive?",
-          "ru": "Можете сказать мне, когда мы приедем?"
+          "ru": "Можете сказать мне, когда мы приедем?",
+          "uz": "Yetib borganimizda menga ayta olasizmi?"
         },
         {
           "id": "QR118",
           "en": "Would you mind letting me pass?",
-          "ru": "Не могли бы вы меня пропустить?"
+          "ru": "Не могли бы вы меня пропустить?",
+          "uz": "Meni oʻtkazib yuborolasizmi?"
         },
         {
           "id": "QR119",
           "en": "Could you call a taxi for me?",
-          "ru": "Не могли бы вы вызвать мне такси?"
+          "ru": "Не могли бы вы вызвать мне такси?",
+          "uz": "Menga taksi chaqirib bera olasizmi?"
         },
         {
           "id": "QR120",
           "en": "Can you point me toward the exit?",
-          "ru": "Можете показать, где выход?"
+          "ru": "Можете показать, где выход?",
+          "uz": "Chiqish qayerdaligini koʻrsata olasizmi?"
         }
       ]
     },
@@ -733,58 +866,69 @@
       "order": 13,
       "title": {
         "en": "Asking about availability",
-        "ru": "Вопросы о наличии"
+        "ru": "Вопросы о наличии",
+        "uz": "Mavjudlik haqida savollar"
       },
       "phrases": [
         {
           "id": "QR121",
           "en": "Do you have any available rooms?",
-          "ru": "У вас есть свободные номера?"
+          "ru": "У вас есть свободные номера?",
+          "uz": "Boʻsh xonalaringiz bormi?"
         },
         {
           "id": "QR122",
           "en": "Is this still available?",
-          "ru": "Это ещё доступно?"
+          "ru": "Это ещё доступно?",
+          "uz": "Bu hali ham mavjudmi?"
         },
         {
           "id": "QR123",
           "en": "Do you have any appointments today?",
-          "ru": "У вас есть свободное время для записи сегодня?"
+          "ru": "У вас есть свободное время для записи сегодня?",
+          "uz": "Bugun navbatga yozilish imkoni bormi?"
         },
         {
           "id": "QR124",
           "en": "Are there any tickets left?",
-          "ru": "Билеты ещё остались?"
+          "ru": "Билеты ещё остались?",
+          "uz": "Chiptalar qoldimi?"
         },
         {
           "id": "QR125",
           "en": "Is anyone sitting here?",
-          "ru": "Здесь кто-нибудь сидит?"
+          "ru": "Здесь кто-нибудь сидит?",
+          "uz": "Bu yerda birov oʻtiribdimi?"
         },
         {
           "id": "QR126",
           "en": "Do you have this in stock?",
-          "ru": "Это есть в наличии?"
+          "ru": "Это есть в наличии?",
+          "uz": "Bu sizda bormi?"
         },
         {
           "id": "QR127",
           "en": "Would any time after lunch work?",
-          "ru": "Подойдёт любое время после обеда?"
+          "ru": "Подойдёт любое время после обеда?",
+          "uz": "Tushlikdan keyingi istalgan vaqt toʻgʻri keladimi?"
         },
         {
           "id": "QR128",
           "en": "Is there a table available for two?",
-          "ru": "Есть свободный столик на двоих?"
+          "ru": "Есть свободный столик на двоих?",
+          "uz": "Ikki kishilik boʻsh stol bormi?"
         },
         {
           "id": "QR129",
           "en": "Are you free this afternoon?",
-          "ru": "Вы свободны сегодня после обеда?"
+          "ru": "Вы свободны сегодня после обеда?",
+          "uz": "Bugun tushdan keyin boʻshmisiz?"
         },
         {
           "id": "QR130",
           "en": "When is the earliest available time?",
-          "ru": "Когда самое раннее свободное время?"
+          "ru": "Когда самое раннее свободное время?",
+          "uz": "Eng yaqin boʻsh vaqt qachon?"
         }
       ]
     },
@@ -793,58 +937,69 @@
       "order": 14,
       "title": {
         "en": "Requests for changes",
-        "ru": "Просьбы что-то изменить"
+        "ru": "Просьбы что-то изменить",
+        "uz": "Biror narsani oʻzgartirish iltimosi"
       },
       "phrases": [
         {
           "id": "QR131",
           "en": "Could we change the date?",
-          "ru": "Можем изменить дату?"
+          "ru": "Можем изменить дату?",
+          "uz": "Sanani oʻzgartira olamizmi?"
         },
         {
           "id": "QR132",
           "en": "Would it be possible to move my appointment?",
-          "ru": "Можно перенести мою запись?"
+          "ru": "Можно перенести мою запись?",
+          "uz": "Navbatimni koʻchirish mumkinmi?"
         },
         {
           "id": "QR133",
           "en": "Can I get a different room?",
-          "ru": "Можно другой номер?"
+          "ru": "Можно другой номер?",
+          "uz": "Boshqa xona olsam boʻladimi?"
         },
         {
           "id": "QR134",
           "en": "Could you make it a little smaller?",
-          "ru": "Не могли бы вы сделать это немного меньше?"
+          "ru": "Не могли бы вы сделать это немного меньше?",
+          "uz": "Buni biroz kichikroq qila olasizmi?"
         },
         {
           "id": "QR135",
           "en": "Would you mind changing our seats?",
-          "ru": "Не могли бы вы поменять наши места?"
+          "ru": "Не могли бы вы поменять наши места?",
+          "uz": "Joylarimizni almashtira olasizmi?"
         },
         {
           "id": "QR136",
           "en": "Can you update my details?",
-          "ru": "Можете обновить мои данные?"
+          "ru": "Можете обновить мои данные?",
+          "uz": "Maʼlumotlarimni yangilay olasizmi?"
         },
         {
           "id": "QR137",
           "en": "Could we try another option?",
-          "ru": "Можем попробовать другой вариант?"
+          "ru": "Можем попробовать другой вариант?",
+          "uz": "Boshqa variantni sinab koʻra olamizmi?"
         },
         {
           "id": "QR138",
           "en": "Can you make an exception this time?",
-          "ru": "Можете сделать исключение в этот раз?"
+          "ru": "Можете сделать исключение в этот раз?",
+          "uz": "Bu safar istisno qila olasizmi?"
         },
         {
           "id": "QR139",
           "en": "Would it be possible to extend the deadline?",
-          "ru": "Можно продлить срок?"
+          "ru": "Можно продлить срок?",
+          "uz": "Muddatni uzaytirish mumkinmi?"
         },
         {
           "id": "QR140",
           "en": "Could you correct this mistake?",
-          "ru": "Не могли бы вы исправить эту ошибку?"
+          "ru": "Не могли бы вы исправить эту ошибку?",
+          "uz": "Bu xatoni tuzata olasizmi?"
         }
       ]
     },
@@ -853,58 +1008,69 @@
       "order": 15,
       "title": {
         "en": "Asking for advice",
-        "ru": "Просьба о совете"
+        "ru": "Просьба о совете",
+        "uz": "Maslahat soʻrash"
       },
       "phrases": [
         {
           "id": "QR141",
           "en": "What would you recommend?",
-          "ru": "Что бы вы порекомендовали?"
+          "ru": "Что бы вы порекомендовали?",
+          "uz": "Nimani tavsiya qilasiz?"
         },
         {
           "id": "QR142",
           "en": "What do you think I should do?",
-          "ru": "Как ты думаешь, что мне следует сделать?"
+          "ru": "Как ты думаешь, что мне следует сделать?",
+          "uz": "Sizningcha, men nima qilishim kerak?"
         },
         {
           "id": "QR143",
           "en": "Could I get your opinion on this?",
-          "ru": "Могу я узнать твоё мнение об этом?"
+          "ru": "Могу я узнать твоё мнение об этом?",
+          "uz": "Bu haqda fikringizni bilsam boʻladimi?"
         },
         {
           "id": "QR144",
           "en": "What would you do in my situation?",
-          "ru": "Что бы ты сделал(а) на моём месте?"
+          "ru": "Что бы ты сделал(а) на моём месте?",
+          "uz": "Mening oʻrnimda nima qilardingiz?"
         },
         {
           "id": "QR145",
           "en": "Do you have any suggestions?",
-          "ru": "У тебя есть предложения?"
+          "ru": "У тебя есть предложения?",
+          "uz": "Takliflaringiz bormi?"
         },
         {
           "id": "QR146",
           "en": "Which option do you think is better?",
-          "ru": "Какой вариант, по-твоему, лучше?"
+          "ru": "Какой вариант, по-твоему, лучше?",
+          "uz": "Sizningcha, qaysi variant yaxshiroq?"
         },
         {
           "id": "QR147",
           "en": "Could you help me make a decision?",
-          "ru": "Можешь помочь мне принять решение?"
+          "ru": "Можешь помочь мне принять решение?",
+          "uz": "Qaror qilishimga yordam bera olasizmi?"
         },
         {
           "id": "QR148",
           "en": "Is there anything you'd do differently?",
-          "ru": "Ты бы что-нибудь сделал(а) иначе?"
+          "ru": "Ты бы что-нибудь сделал(а) иначе?",
+          "uz": "Boshqacha qiladigan narsangiz bormi?"
         },
         {
           "id": "QR149",
           "en": "Who would be the best person to ask?",
-          "ru": "Кого лучше всего спросить?"
+          "ru": "Кого лучше всего спросить?",
+          "uz": "Kimdan soʻrash eng maʼqul boʻlardi?"
         },
         {
           "id": "QR150",
           "en": "Would you recommend it?",
-          "ru": "Ты бы это порекомендовал(а)?"
+          "ru": "Ты бы это порекомендовал(а)?",
+          "uz": "Buni tavsiya qilasizmi?"
         }
       ]
     },
@@ -913,58 +1079,69 @@
       "order": 16,
       "title": {
         "en": "Asking someone to wait",
-        "ru": "Просьба подождать"
+        "ru": "Просьба подождать",
+        "uz": "Kutishni soʻrash"
       },
       "phrases": [
         {
           "id": "QR151",
           "en": "Could you wait a moment, please?",
-          "ru": "Не могли бы вы подождать минутку?"
+          "ru": "Не могли бы вы подождать минутку?",
+          "uz": "Iltimos, bir daqiqa kutib tura olasizmi?"
         },
         {
           "id": "QR152",
           "en": "Can you give me five minutes?",
-          "ru": "Можешь дать мне пять минут?"
+          "ru": "Можешь дать мне пять минут?",
+          "uz": "Menga besh daqiqa bera olasizmi?"
         },
         {
           "id": "QR153",
           "en": "Would you mind waiting here?",
-          "ru": "Не могли бы вы подождать здесь?"
+          "ru": "Не могли бы вы подождать здесь?",
+          "uz": "Shu yerda kutib tura olasizmi?"
         },
         {
           "id": "QR154",
           "en": "Please hold on a second.",
-          "ru": "Пожалуйста, подождите секунду."
+          "ru": "Пожалуйста, подождите секунду.",
+          "uz": "Iltimos, bir soniya kuting."
         },
         {
           "id": "QR155",
           "en": "Could you bear with me?",
-          "ru": "Прошу немного потерпеть."
+          "ru": "Прошу немного потерпеть.",
+          "uz": "Bir oz sabr qila olasizmi?"
         },
         {
           "id": "QR156",
           "en": "I'll be with you shortly.",
-          "ru": "Я скоро к вам подойду."
+          "ru": "Я скоро к вам подойду.",
+          "uz": "Tez orada sizga yetib boraman."
         },
         {
           "id": "QR157",
           "en": "Could you stay on the line?",
-          "ru": "Не могли бы вы оставаться на линии?"
+          "ru": "Не могли бы вы оставаться на линии?",
+          "uz": "Liniyada qolib tura olasizmi?"
         },
         {
           "id": "QR158",
           "en": "Just a moment, please.",
-          "ru": "Одну минуту, пожалуйста."
+          "ru": "Одну минуту, пожалуйста.",
+          "uz": "Iltimos, bir daqiqa."
         },
         {
           "id": "QR159",
           "en": "Can you wait until I'm finished?",
-          "ru": "Можешь подождать, пока я закончу?"
+          "ru": "Можешь подождать, пока я закончу?",
+          "uz": "Men tugatgunimcha kutib tura olasizmi?"
         },
         {
           "id": "QR160",
           "en": "Thanks for waiting.",
-          "ru": "Спасибо за ожидание."
+          "ru": "Спасибо за ожидание.",
+          "uz": "Kutganingiz uchun rahmat."
         }
       ]
     },
@@ -973,58 +1150,69 @@
       "order": 17,
       "title": {
         "en": "Asking someone to stop or be careful",
-        "ru": "Просьба остановиться или быть осторожным"
+        "ru": "Просьба остановиться или быть осторожным",
+        "uz": "Toʻxtash yoki ehtiyot boʻlish iltimosi"
       },
       "phrases": [
         {
           "id": "QR161",
           "en": "Could you stop for a moment?",
-          "ru": "Не могли бы вы на минуту остановиться?"
+          "ru": "Не могли бы вы на минуту остановиться?",
+          "uz": "Bir daqiqaga toʻxtab tura olasizmi?"
         },
         {
           "id": "QR162",
           "en": "Please be careful.",
-          "ru": "Пожалуйста, будь осторожен / осторожна."
+          "ru": "Пожалуйста, будь осторожен / осторожна.",
+          "uz": "Iltimos, ehtiyot boʻling."
         },
         {
           "id": "QR163",
           "en": "Could you slow down a little?",
-          "ru": "Не мог(ла) бы ты немного замедлиться?"
+          "ru": "Не мог(ла) бы ты немного замедлиться?",
+          "uz": "Biroz sekinlashtira olasizmi?"
         },
         {
           "id": "QR164",
           "en": "Please don't touch that.",
-          "ru": "Пожалуйста, не трогай это."
+          "ru": "Пожалуйста, не трогай это.",
+          "uz": "Iltimos, bunga tegmang."
         },
         {
           "id": "QR165",
           "en": "Would you mind keeping the noise down?",
-          "ru": "Не могли бы вы вести себя потише?"
+          "ru": "Не могли бы вы вести себя потише?",
+          "uz": "Shovqinni pasaytira olasizmi?"
         },
         {
           "id": "QR166",
           "en": "Could you move back a little?",
-          "ru": "Не могли бы вы немного отойти назад?"
+          "ru": "Не могли бы вы немного отойти назад?",
+          "uz": "Biroz orqaga surila olasizmi?"
         },
         {
           "id": "QR167",
           "en": "Please watch your step.",
-          "ru": "Пожалуйста, смотрите под ноги."
+          "ru": "Пожалуйста, смотрите под ноги.",
+          "uz": "Iltimos, oyogʻingiz ostiga qarang."
         },
         {
           "id": "QR168",
           "en": "Can you hold this steady?",
-          "ru": "Можешь держать это неподвижно?"
+          "ru": "Можешь держать это неподвижно?",
+          "uz": "Buni qimirlatmay ushlab tura olasizmi?"
         },
         {
           "id": "QR169",
           "en": "Please wait until I say it's okay.",
-          "ru": "Пожалуйста, подожди, пока я не скажу, что можно."
+          "ru": "Пожалуйста, подожди, пока я не скажу, что можно.",
+          "uz": "Iltimos, men «boʻladi» deganimcha kuting."
         },
         {
           "id": "QR170",
           "en": "Could you give me some room?",
-          "ru": "Не могли бы вы дать мне немного места?"
+          "ru": "Не могли бы вы дать мне немного места?",
+          "uz": "Menga biroz joy bera olasizmi?"
         }
       ]
     },
@@ -1033,58 +1221,69 @@
       "order": 18,
       "title": {
         "en": "Asking for confirmation",
-        "ru": "Просьба подтвердить"
+        "ru": "Просьба подтвердить",
+        "uz": "Tasdiqlashni soʻrash"
       },
       "phrases": [
         {
           "id": "QR171",
           "en": "Could you confirm that in writing?",
-          "ru": "Не могли бы вы подтвердить это письменно?"
+          "ru": "Не могли бы вы подтвердить это письменно?",
+          "uz": "Buni yozma ravishda tasdiqlay olasizmi?"
         },
         {
           "id": "QR172",
           "en": "Can you make sure this is correct?",
-          "ru": "Можешь убедиться, что это правильно?"
+          "ru": "Можешь убедиться, что это правильно?",
+          "uz": "Bu toʻgʻriligiga ishonch hosil qila olasizmi?"
         },
         {
           "id": "QR173",
           "en": "Would you confirm the appointment?",
-          "ru": "Не могли бы вы подтвердить запись?"
+          "ru": "Не могли бы вы подтвердить запись?",
+          "uz": "Uchrashuvni tasdiqlay olasizmi?"
         },
         {
           "id": "QR174",
           "en": "Can you let me know once it's done?",
-          "ru": "Можешь сообщить, когда это будет сделано?"
+          "ru": "Можешь сообщить, когда это будет сделано?",
+          "uz": "Bajarilganda menga xabar bera olasizmi?"
         },
         {
           "id": "QR175",
           "en": "Could you repeat the address?",
-          "ru": "Не могли бы вы повторить адрес?"
+          "ru": "Не могли бы вы повторить адрес?",
+          "uz": "Manzilni takrorlay olasizmi?"
         },
         {
           "id": "QR176",
           "en": "Is that everything I need to do?",
-          "ru": "Это всё, что мне нужно сделать?"
+          "ru": "Это всё, что мне нужно сделать?",
+          "uz": "Qilishim kerak boʻlgan hammasi shumi?"
         },
         {
           "id": "QR177",
           "en": "Could you check that I've filled this in correctly?",
-          "ru": "Не могли бы вы проверить, правильно ли я это заполнил(а)?"
+          "ru": "Не могли бы вы проверить, правильно ли я это заполнил(а)?",
+          "uz": "Buni toʻgʻri toʻldirganimni tekshira olasizmi?"
         },
         {
           "id": "QR178",
           "en": "Would you send me a confirmation?",
-          "ru": "Не могли бы вы отправить подтверждение?"
+          "ru": "Не могли бы вы отправить подтверждение?",
+          "uz": "Menga tasdiqnoma yuborib bera olasizmi?"
         },
         {
           "id": "QR179",
           "en": "Can you verify the date for me?",
-          "ru": "Можешь проверить дату для меня?"
+          "ru": "Можешь проверить дату для меня?",
+          "uz": "Sanani men uchun tekshira olasizmi?"
         },
         {
           "id": "QR180",
           "en": "Please confirm when you receive it.",
-          "ru": "Пожалуйста, подтвердите получение."
+          "ru": "Пожалуйста, подтвердите получение.",
+          "uz": "Iltimos, olganingizda tasdiqlang."
         }
       ]
     },
@@ -1093,58 +1292,69 @@
       "order": 19,
       "title": {
         "en": "Saying no and setting limits",
-        "ru": "Отказ и границы"
+        "ru": "Отказ и границы",
+        "uz": "Rad javobi va chegaralar"
       },
       "phrases": [
         {
           "id": "QR181",
           "en": "I'm afraid I can't help with that.",
-          "ru": "Боюсь, я не могу с этим помочь."
+          "ru": "Боюсь, я не могу с этим помочь.",
+          "uz": "Afsuski, bunda yordam bera olmayman."
         },
         {
           "id": "QR182",
           "en": "Could we do this another time?",
-          "ru": "Можем сделать это в другой раз?"
+          "ru": "Можем сделать это в другой раз?",
+          "uz": "Buni boshqa safar qila olamizmi?"
         },
         {
           "id": "QR183",
           "en": "I'm not able to commit to that right now.",
-          "ru": "Сейчас я не могу на это согласиться."
+          "ru": "Сейчас я не могу на это согласиться.",
+          "uz": "Hozir bunga vaʼda bera olmayman."
         },
         {
           "id": "QR184",
           "en": "I'd rather not, if that's okay.",
-          "ru": "Я бы предпочёл / предпочла не делать этого, если ты не против."
+          "ru": "Я бы предпочёл / предпочла не делать этого, если ты не против.",
+          "uz": "Agar qarshi boʻlmasangiz, buni qilmasam deyman."
         },
         {
           "id": "QR185",
           "en": "I'm sorry, but that won't be possible.",
-          "ru": "Извините, но это будет невозможно."
+          "ru": "Извините, но это будет невозможно.",
+          "uz": "Kechirasiz, lekin buning iloji boʻlmaydi."
         },
         {
           "id": "QR186",
           "en": "I can't promise that.",
-          "ru": "Я не могу этого обещать."
+          "ru": "Я не могу этого обещать.",
+          "uz": "Men buni vaʼda qila olmayman."
         },
         {
           "id": "QR187",
           "en": "Could you ask someone else?",
-          "ru": "Можешь попросить кого-нибудь другого?"
+          "ru": "Можешь попросить кого-нибудь другого?",
+          "uz": "Boshqa birovdan soʻray olasizmi?"
         },
         {
           "id": "QR188",
           "en": "I need to check my schedule first.",
-          "ru": "Мне нужно сначала проверить расписание."
+          "ru": "Мне нужно сначала проверить расписание.",
+          "uz": "Avval jadvalimni tekshirishim kerak."
         },
         {
           "id": "QR189",
           "en": "I'm not comfortable doing that.",
-          "ru": "Мне некомфортно это делать."
+          "ru": "Мне некомфортно это делать.",
+          "uz": "Men buni qilishdan noqulay ahvoldaman."
         },
         {
           "id": "QR190",
           "en": "Thanks for understanding.",
-          "ru": "Спасибо за понимание."
+          "ru": "Спасибо за понимание.",
+          "uz": "Tushunganingiz uchun rahmat."
         }
       ]
     },
@@ -1153,58 +1363,69 @@
       "order": 20,
       "title": {
         "en": "Follow-up questions",
-        "ru": "Уточняющие вопросы после ответа"
+        "ru": "Уточняющие вопросы после ответа",
+        "uz": "Javobdan keyingi aniqlashtiruvchi savollar"
       },
       "phrases": [
         {
           "id": "QR191",
           "en": "What happened after that?",
-          "ru": "Что произошло после этого?"
+          "ru": "Что произошло после этого?",
+          "uz": "Undan keyin nima boʻldi?"
         },
         {
           "id": "QR192",
           "en": "Could you tell me a little more?",
-          "ru": "Не могли бы вы рассказать немного подробнее?"
+          "ru": "Не могли бы вы рассказать немного подробнее?",
+          "uz": "Biroz batafsilroq aytib bera olasizmi?"
         },
         {
           "id": "QR193",
           "en": "And what did you do next?",
-          "ru": "И что ты сделал(а) потом?"
+          "ru": "И что ты сделал(а) потом?",
+          "uz": "Keyin nima qildingiz?"
         },
         {
           "id": "QR194",
           "en": "How did that turn out?",
-          "ru": "Чем это закончилось?"
+          "ru": "Чем это закончилось?",
+          "uz": "Bu nima bilan tugadi?"
         },
         {
           "id": "QR195",
           "en": "What makes you say that?",
-          "ru": "Почему ты так говоришь?"
+          "ru": "Почему ты так говоришь?",
+          "uz": "Nega bunday deyapsiz?"
         },
         {
           "id": "QR196",
           "en": "Could you explain your reasoning?",
-          "ru": "Не могли бы вы объяснить ход своих рассуждений?"
+          "ru": "Не могли бы вы объяснить ход своих рассуждений?",
+          "uz": "Mulohazangizni tushuntira olasizmi?"
         },
         {
           "id": "QR197",
           "en": "Is there a reason for that?",
-          "ru": "Есть ли для этого причина?"
+          "ru": "Есть ли для этого причина?",
+          "uz": "Buning sababi bormi?"
         },
         {
           "id": "QR198",
           "en": "What would happen if we changed it?",
-          "ru": "Что произойдёт, если мы это изменим?"
+          "ru": "Что произойдёт, если мы это изменим?",
+          "uz": "Agar buni oʻzgartirsak, nima boʻladi?"
         },
         {
           "id": "QR199",
           "en": "Is there anything I've missed?",
-          "ru": "Я что-нибудь упустил(а)?"
+          "ru": "Я что-нибудь упустил(а)?",
+          "uz": "Men biror narsani oʻtkazib yubordimmi?"
         },
         {
           "id": "QR200",
           "en": "What should I do next?",
-          "ru": "Что мне делать дальше?"
+          "ru": "Что мне делать дальше?",
+          "uz": "Keyin nima qilishim kerak?"
         }
       ]
     }

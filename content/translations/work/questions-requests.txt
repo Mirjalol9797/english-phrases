@@ -1,0 +1,200 @@
+phrase|What is this?||Что это?|Bu nima?
+phrase|Who is that?||Кто это?|U kim?
+phrase|Where are you going?||Куда ты идёшь?|Qayerga ketyapsiz?
+phrase|When does it start?||Когда это начинается?|U qachon boshlanadi?
+phrase|Why are you asking?||Почему ты спрашиваешь?|Nega soʻrayapsiz?
+phrase|Which one do you prefer?||Какой из них ты предпочитаешь?|Qaysi birini afzal koʻrasiz?
+phrase|How does it work?||Как это работает?|Bu qanday ishlaydi?
+phrase|How much does it cost?||Сколько это стоит?|Bu qancha turadi?
+phrase|How long will it take?||Сколько времени это займёт?|Bu qancha vaqt oladi?
+phrase|How often do you do that?||Как часто ты это делаешь?|Buni qanchalik tez-tez qilasiz?
+phrase|Could you give me some information?||Не могли бы вы дать мне информацию?|Menga biroz maʼlumot bera olasizmi?
+phrase|Could you tell me more about it?||Не могли бы вы рассказать об этом подробнее?|Bu haqda batafsilroq aytib bera olasizmi?
+phrase|Where can I find more details?||Где я могу найти подробности?|Batafsil maʼlumotni qayerdan topsam boʻladi?
+phrase|Do you know what time it opens?||Вы знаете, во сколько это открывается?|Bu necha soatda ochilishini bilasizmi?
+phrase|Could you explain how it works?||Не могли бы вы объяснить, как это работает?|Bu qanday ishlashini tushuntira olasizmi?
+phrase|Is there anything else I should know?||Есть ли ещё что-нибудь, что мне следует знать?|Yana bilishim kerak boʻlgan narsa bormi?
+phrase|Could you clarify one thing?||Не могли бы вы кое-что уточнить?|Bir narsani aniqlashtira olasizmi?
+phrase|What does this mean?||Что это означает?|Bu nimani anglatadi?
+phrase|Where did you hear that?||Где ты это услышал(а)?|Buni qayerdan eshitdingiz?
+phrase|Could you point me to the right source?||Не могли бы вы указать мне подходящий источник?|Menga kerakli manbani koʻrsata olasizmi?
+phrase|Could you help me, please?||Не могли бы вы мне помочь?|Iltimos, menga yordam bera olasizmi?
+phrase|Would you mind opening the window?||Не могли бы вы открыть окно?|Derazani ochib bera olasizmi?
+phrase|Could I ask you a favour?||Можно попросить вас об услуге?|Sizdan bir iltimos qilsam boʻladimi?
+phrase|Would it be possible to reschedule?||Можно ли перенести встречу?|Uchrashuvni boshqa vaqtga koʻchirish mumkinmi?
+phrase|Could you send it to me, please?||Не могли бы вы отправить это мне?|Iltimos, buni menga yuborib bera olasizmi?
+phrase|Would you mind waiting a moment?||Не могли бы вы подождать минутку?|Bir daqiqa kutib tura olasizmi?
+phrase|Could you speak a little more slowly?||Не могли бы вы говорить немного медленнее?|Biroz sekinroq gapira olasizmi?
+phrase|May I ask you a question?||Можно задать вам вопрос?|Sizga bir savol bersam boʻladimi?
+phrase|Could you show me how to do it?||Не могли бы вы показать, как это сделать?|Buni qanday qilishni koʻrsata olasizmi?
+phrase|Would you be able to help tomorrow?||Вы смогли бы помочь завтра?|Ertaga yordam bera olasizmi?
+phrase|Could you repeat that, please?||Не могли бы вы повторить?|Iltimos, buni takrorlay olasizmi?
+phrase|Sorry, what was that?||Извините, что вы сказали?|Kechirasiz, nima dedingiz?
+phrase|Could you say that one more time?||Не могли бы вы сказать это ещё раз?|Buni yana bir marta ayta olasizmi?
+phrase|I didn't quite catch that.||Я не совсем расслышал(а).|Men buni unchalik eshitmadim.
+phrase|Could you spell that for me?||Не могли бы вы произнести это по буквам?|Buni harflab ayta olasizmi?
+phrase|Would you mind speaking up?||Не могли бы вы говорить громче?|Balandroq gapira olasizmi?
+phrase|Could you write it down?||Не могли бы вы это записать?|Buni yozib bera olasizmi?
+phrase|Did you say fifteen or fifty?||Вы сказали пятнадцать или пятьдесят?|Oʻn besh dedingizmi yoki ellik?
+phrase|Could you explain that in another way?||Не могли бы вы объяснить это по-другому?|Buni boshqacha tushuntira olasizmi?
+phrase|Let me make sure I heard you correctly.||Позвольте убедиться, что я правильно вас услышал(а).|Sizni toʻgʻri eshitganimga ishonch hosil qilay.
+phrase|How do I get there?||Как мне туда добраться?|U yerga qanday boraman?
+phrase|Which way should I go?||В какую сторону мне идти?|Qaysi tomonga borishim kerak?
+phrase|Is it far from here?||Это далеко отсюда?|Bu yerdan uzoqmi?
+phrase|Could you show me on the map?||Не могли бы вы показать на карте?|Xaritada koʻrsata olasizmi?
+phrase|Where is the nearest bus stop?||Где ближайшая автобусная остановка?|Eng yaqin avtobus bekati qayerda?
+phrase|Should I turn left or right?||Мне повернуть налево или направо?|Chapga burilaymi yoki oʻngga?
+phrase|How many stops should I go?||Сколько остановок мне ехать?|Necha bekat yurishim kerak?
+phrase|Can I walk there?||Я могу дойти туда пешком?|U yerga piyoda bora olamanmi?
+phrase|Is this the right way?||Я иду в правильном направлении?|Men toʻgʻri ketyapmanmi?
+phrase|Could you tell me when to get off?||Не могли бы вы сказать, когда выходить?|Qachon tushishimni ayta olasizmi?
+phrase|May I come in?||Можно войти?|Kirsam boʻladimi?
+phrase|Can I use your phone?||Можно воспользоваться твоим телефоном?|Telefoningizdan foydalansam boʻladimi?
+phrase|Would it be okay if I left early?||Ничего, если я уйду пораньше?|Erta ketsam boʻladimi?
+phrase|Do you mind if I sit here?||Ты не против, если я сяду здесь?|Bu yerga oʻtirsam, qarshi emasmisiz?
+phrase|May I borrow this for a moment?||Можно одолжить это на минутку?|Buni bir daqiqaga olib tursam boʻladimi?
+phrase|Is it all right if I bring a friend?||Ничего, если я приведу друга?|Doʻstimni olib kelsam boʻladimi?
+phrase|Could I take a day off?||Могу я взять выходной?|Bir kun dam olsam boʻladimi?
+phrase|Would you mind if I opened the window?||Вы не возражаете, если я открою окно?|Derazani ochsam, qarshi emasmisiz?
+phrase|Am I allowed to park here?||Мне разрешено здесь парковаться?|Bu yerga toʻxtashga ruxsat bormi?
+phrase|Can I ask you something personal?||Можно спросить тебя о личном?|Shaxsiy bir narsa soʻrasam boʻladimi?
+phrase|Can I help you with that?||Могу я помочь тебе с этим?|Bunda sizga yordam bera olamanmi?
+phrase|Would you like a hand?||Тебе помочь?|Yordam kerakmi?
+phrase|Shall I carry that for you?||Мне понести это за тебя?|Buni koʻtarib beraymi?
+phrase|Do you need any help?||Тебе нужна помощь?|Yordam kerakmi?
+phrase|Can I get you anything?||Могу я тебе что-нибудь принести?|Sizga biror narsa olib kelaymi?
+phrase|Would you like me to call someone?||Хочешь, я кому-нибудь позвоню?|Birortasiga qoʻngʻiroq qilaymi?
+phrase|Let me know if you need anything.||Дай знать, если что-нибудь понадобится.|Biror narsa kerak boʻlsa, ayting.
+phrase|Can I do anything to help?||Могу я чем-нибудь помочь?|Yordam berish uchun biror ish qila olamanmi?
+phrase|Would it help if I came earlier?||Помогло бы, если бы я пришёл / пришла раньше?|Erta kelsam yordam boʻlarmidi?
+phrase|I'll be happy to help.||Я буду рад(а) помочь.|Yordam berishdan xursand boʻlaman.
+phrase|What exactly do you mean?||Что именно ты имеешь в виду?|Aniq nimani nazarda tutyapsiz?
+phrase|Could you be more specific?||Не могли бы вы уточнить?|Aniqroq ayta olasizmi?
+phrase|Which part are you referring to?||Какую именно часть вы имеете в виду?|Qaysi qismini nazarda tutyapsiz?
+phrase|Do you mean this one?||Ты имеешь в виду вот этот?|Shunisini nazarda tutyapsizmi?
+phrase|Could you give me an example?||Не могли бы вы привести пример?|Misol keltira olasizmi?
+phrase|Are you saying that we need to wait?||Ты говоришь, что нам нужно подождать?|Kutishimiz kerak demoqchimisiz?
+phrase|Did I understand you correctly?||Я правильно тебя понял(а)?|Sizni toʻgʻri tushundimmi?
+phrase|Can you explain why?||Можешь объяснить почему?|Nega ekanini tushuntira olasizmi?
+phrase|What do you mean by 'urgent'?||Что ты имеешь в виду под словом «срочно»?|«Shoshilinch» deganda nimani nazarda tutyapsiz?
+phrase|Could you clarify the last point?||Не могли бы вы уточнить последний пункт?|Oxirgi fikrni aniqlashtira olasizmi?
+phrase|Could you review this document?||Не могли бы вы проверить этот документ?|Bu hujjatni koʻrib chiqa olasizmi?
+phrase|Can you send me the latest version?||Можете отправить мне последнюю версию?|Menga oxirgi versiyasini yuborib bera olasizmi?
+phrase|Could you finish this by Friday?||Не могли бы вы закончить это к пятнице?|Buni juma kunigacha tugata olasizmi?
+phrase|Would you mind checking these numbers?||Не могли бы вы проверить эти цифры?|Bu raqamlarni tekshirib bera olasizmi?
+phrase|Can we move the meeting to tomorrow?||Можем перенести встречу на завтра?|Uchrashuvni ertaga koʻchira olamizmi?
+phrase|Could you keep me in the loop?||Не могли бы вы держать меня в курсе?|Meni xabardor qilib turasizmi?
+phrase|Please let me know when it's ready.||Пожалуйста, сообщите, когда будет готово.|Tayyor boʻlganda, iltimos, xabar bering.
+phrase|Could you share the meeting notes?||Не могли бы вы поделиться заметками со встречи?|Uchrashuv yozuvlarini ulasha olasizmi?
+phrase|Would you be able to take this on?||Вы смогли бы взять это на себя?|Buni oʻz zimmangizga ola olasizmi?
+phrase|Could you give me a quick update?||Не могли бы вы кратко сообщить новости?|Qisqacha yangilik aytib bera olasizmi?
+phrase|Could I see the menu, please?||Можно меню, пожалуйста?|Iltimos, menyuni koʻrsam boʻladimi?
+phrase|Can I try this on?||Можно это примерить?|Buni kiyib koʻrsam boʻladimi?
+phrase|Could I have a receipt?||Можно чек?|Chek olsam boʻladimi?
+phrase|Would you bring us some water?||Не могли бы вы принести нам воды?|Bizga suv olib kela olasizmi?
+phrase|Could I get this without sugar?||Можно это без сахара?|Buni shakarsiz olsam boʻladimi?
+phrase|Can I pay by card?||Можно оплатить картой?|Karta bilan toʻlasam boʻladimi?
+phrase|Could you pack this to go?||Не могли бы вы упаковать это с собой?|Buni oʻzim bilan olib ketishga oʻrab bera olasizmi?
+phrase|Do you have this in a larger size?||Есть это в большем размере?|Buning kattaroq oʻlchami bormi?
+phrase|Could I have a bag, please?||Можно пакет, пожалуйста?|Iltimos, paket bersangiz?
+phrase|Would you mind splitting the bill?||Не могли бы вы разделить счёт?|Hisobni boʻlib bera olasizmi?
+phrase|Could you turn down the TV?||Не мог(ла) бы ты сделать телевизор потише?|Televizorni pasaytira olasizmi?
+phrase|Can you take out the rubbish?||Можешь вынести мусор?|Axlatni chiqarib tashlay olasizmi?
+phrase|Would you mind washing the dishes?||Не мог(ла) бы ты помыть посуду?|Idishlarni yuvib bera olasizmi?
+phrase|Could you close the door?||Не мог(ла) бы ты закрыть дверь?|Eshikni yopa olasizmi?
+phrase|Can you pick up some bread?||Можешь купить хлеба?|Non olib kela olasizmi?
+phrase|Would you put this away?||Уберёшь это на место?|Buni joyiga qoʻyasizmi?
+phrase|Could you water the plants?||Не мог(ла) бы ты полить растения?|Gullarni sugʻora olasizmi?
+phrase|Can you keep an eye on dinner?||Можешь присмотреть за ужином?|Kechki ovqatga koʻz-quloq boʻla olasizmi?
+phrase|Would you mind helping me tidy up?||Не мог(ла) бы ты помочь мне прибраться?|Yigʻishtirishga yordam bera olasizmi?
+phrase|Could you wake me up at seven?||Не мог(ла) бы ты разбудить меня в семь?|Meni yettida uygʻota olasizmi?
+phrase|Could you take a photo of us?||Не могли бы вы сфотографировать нас?|Bizni suratga olib bera olasizmi?
+phrase|Would you mind moving a little?||Не могли бы вы немного подвинуться?|Biroz surilib tura olasizmi?
+phrase|Could you tell me where the restroom is?||Не могли бы вы сказать, где туалет?|Hojatxona qayerdaligini ayta olasizmi?
+phrase|Can I sit here?||Можно мне здесь сесть?|Bu yerga oʻtirsam boʻladimi?
+phrase|Would you keep this seat for me?||Не могли бы вы занять это место для меня?|Bu joyni men uchun band qilib tura olasizmi?
+phrase|Could you lower your voice, please?||Не могли бы вы говорить потише?|Iltimos, ovozingizni pasaytira olasizmi?
+phrase|Can you tell me when we arrive?||Можете сказать мне, когда мы приедем?|Yetib borganimizda menga ayta olasizmi?
+phrase|Would you mind letting me pass?||Не могли бы вы меня пропустить?|Meni oʻtkazib yuborolasizmi?
+phrase|Could you call a taxi for me?||Не могли бы вы вызвать мне такси?|Menga taksi chaqirib bera olasizmi?
+phrase|Can you point me toward the exit?||Можете показать, где выход?|Chiqish qayerdaligini koʻrsata olasizmi?
+phrase|Do you have any available rooms?||У вас есть свободные номера?|Boʻsh xonalaringiz bormi?
+phrase|Is this still available?||Это ещё доступно?|Bu hali ham mavjudmi?
+phrase|Do you have any appointments today?||У вас есть свободное время для записи сегодня?|Bugun navbatga yozilish imkoni bormi?
+phrase|Are there any tickets left?||Билеты ещё остались?|Chiptalar qoldimi?
+phrase|Is anyone sitting here?||Здесь кто-нибудь сидит?|Bu yerda birov oʻtiribdimi?
+phrase|Do you have this in stock?||Это есть в наличии?|Bu sizda bormi?
+phrase|Would any time after lunch work?||Подойдёт любое время после обеда?|Tushlikdan keyingi istalgan vaqt toʻgʻri keladimi?
+phrase|Is there a table available for two?||Есть свободный столик на двоих?|Ikki kishilik boʻsh stol bormi?
+phrase|Are you free this afternoon?||Вы свободны сегодня после обеда?|Bugun tushdan keyin boʻshmisiz?
+phrase|When is the earliest available time?||Когда самое раннее свободное время?|Eng yaqin boʻsh vaqt qachon?
+phrase|Could we change the date?||Можем изменить дату?|Sanani oʻzgartira olamizmi?
+phrase|Would it be possible to move my appointment?||Можно перенести мою запись?|Navbatimni koʻchirish mumkinmi?
+phrase|Can I get a different room?||Можно другой номер?|Boshqa xona olsam boʻladimi?
+phrase|Could you make it a little smaller?||Не могли бы вы сделать это немного меньше?|Buni biroz kichikroq qila olasizmi?
+phrase|Would you mind changing our seats?||Не могли бы вы поменять наши места?|Joylarimizni almashtira olasizmi?
+phrase|Can you update my details?||Можете обновить мои данные?|Maʼlumotlarimni yangilay olasizmi?
+phrase|Could we try another option?||Можем попробовать другой вариант?|Boshqa variantni sinab koʻra olamizmi?
+phrase|Can you make an exception this time?||Можете сделать исключение в этот раз?|Bu safar istisno qila olasizmi?
+phrase|Would it be possible to extend the deadline?||Можно продлить срок?|Muddatni uzaytirish mumkinmi?
+phrase|Could you correct this mistake?||Не могли бы вы исправить эту ошибку?|Bu xatoni tuzata olasizmi?
+phrase|What would you recommend?||Что бы вы порекомендовали?|Nimani tavsiya qilasiz?
+phrase|What do you think I should do?||Как ты думаешь, что мне следует сделать?|Sizningcha, men nima qilishim kerak?
+phrase|Could I get your opinion on this?||Могу я узнать твоё мнение об этом?|Bu haqda fikringizni bilsam boʻladimi?
+phrase|What would you do in my situation?||Что бы ты сделал(а) на моём месте?|Mening oʻrnimda nima qilardingiz?
+phrase|Do you have any suggestions?||У тебя есть предложения?|Takliflaringiz bormi?
+phrase|Which option do you think is better?||Какой вариант, по-твоему, лучше?|Sizningcha, qaysi variant yaxshiroq?
+phrase|Could you help me make a decision?||Можешь помочь мне принять решение?|Qaror qilishimga yordam bera olasizmi?
+phrase|Is there anything you'd do differently?||Ты бы что-нибудь сделал(а) иначе?|Boshqacha qiladigan narsangiz bormi?
+phrase|Who would be the best person to ask?||Кого лучше всего спросить?|Kimdan soʻrash eng maʼqul boʻlardi?
+phrase|Would you recommend it?||Ты бы это порекомендовал(а)?|Buni tavsiya qilasizmi?
+phrase|Could you wait a moment, please?||Не могли бы вы подождать минутку?|Iltimos, bir daqiqa kutib tura olasizmi?
+phrase|Can you give me five minutes?||Можешь дать мне пять минут?|Menga besh daqiqa bera olasizmi?
+phrase|Would you mind waiting here?||Не могли бы вы подождать здесь?|Shu yerda kutib tura olasizmi?
+phrase|Please hold on a second.||Пожалуйста, подождите секунду.|Iltimos, bir soniya kuting.
+phrase|Could you bear with me?||Прошу немного потерпеть.|Bir oz sabr qila olasizmi?
+phrase|I'll be with you shortly.||Я скоро к вам подойду.|Tez orada sizga yetib boraman.
+phrase|Could you stay on the line?||Не могли бы вы оставаться на линии?|Liniyada qolib tura olasizmi?
+phrase|Just a moment, please.||Одну минуту, пожалуйста.|Iltimos, bir daqiqa.
+phrase|Can you wait until I'm finished?||Можешь подождать, пока я закончу?|Men tugatgunimcha kutib tura olasizmi?
+phrase|Thanks for waiting.||Спасибо за ожидание.|Kutganingiz uchun rahmat.
+phrase|Could you stop for a moment?||Не могли бы вы на минуту остановиться?|Bir daqiqaga toʻxtab tura olasizmi?
+phrase|Please be careful.||Пожалуйста, будь осторожен / осторожна.|Iltimos, ehtiyot boʻling.
+phrase|Could you slow down a little?||Не мог(ла) бы ты немного замедлиться?|Biroz sekinlashtira olasizmi?
+phrase|Please don't touch that.||Пожалуйста, не трогай это.|Iltimos, bunga tegmang.
+phrase|Would you mind keeping the noise down?||Не могли бы вы вести себя потише?|Shovqinni pasaytira olasizmi?
+phrase|Could you move back a little?||Не могли бы вы немного отойти назад?|Biroz orqaga surila olasizmi?
+phrase|Please watch your step.||Пожалуйста, смотрите под ноги.|Iltimos, oyogʻingiz ostiga qarang.
+phrase|Can you hold this steady?||Можешь держать это неподвижно?|Buni qimirlatmay ushlab tura olasizmi?
+phrase|Please wait until I say it's okay.||Пожалуйста, подожди, пока я не скажу, что можно.|Iltimos, men «boʻladi» deganimcha kuting.
+phrase|Could you give me some room?||Не могли бы вы дать мне немного места?|Menga biroz joy bera olasizmi?
+phrase|Could you confirm that in writing?||Не могли бы вы подтвердить это письменно?|Buni yozma ravishda tasdiqlay olasizmi?
+phrase|Can you make sure this is correct?||Можешь убедиться, что это правильно?|Bu toʻgʻriligiga ishonch hosil qila olasizmi?
+phrase|Would you confirm the appointment?||Не могли бы вы подтвердить запись?|Uchrashuvni tasdiqlay olasizmi?
+phrase|Can you let me know once it's done?||Можешь сообщить, когда это будет сделано?|Bajarilganda menga xabar bera olasizmi?
+phrase|Could you repeat the address?||Не могли бы вы повторить адрес?|Manzilni takrorlay olasizmi?
+phrase|Is that everything I need to do?||Это всё, что мне нужно сделать?|Qilishim kerak boʻlgan hammasi shumi?
+phrase|Could you check that I've filled this in correctly?||Не могли бы вы проверить, правильно ли я это заполнил(а)?|Buni toʻgʻri toʻldirganimni tekshira olasizmi?
+phrase|Would you send me a confirmation?||Не могли бы вы отправить подтверждение?|Menga tasdiqnoma yuborib bera olasizmi?
+phrase|Can you verify the date for me?||Можешь проверить дату для меня?|Sanani men uchun tekshira olasizmi?
+phrase|Please confirm when you receive it.||Пожалуйста, подтвердите получение.|Iltimos, olganingizda tasdiqlang.
+phrase|I'm afraid I can't help with that.||Боюсь, я не могу с этим помочь.|Afsuski, bunda yordam bera olmayman.
+phrase|Could we do this another time?||Можем сделать это в другой раз?|Buni boshqa safar qila olamizmi?
+phrase|I'm not able to commit to that right now.||Сейчас я не могу на это согласиться.|Hozir bunga vaʼda bera olmayman.
+phrase|I'd rather not, if that's okay.||Я бы предпочёл / предпочла не делать этого, если ты не против.|Agar qarshi boʻlmasangiz, buni qilmasam deyman.
+phrase|I'm sorry, but that won't be possible.||Извините, но это будет невозможно.|Kechirasiz, lekin buning iloji boʻlmaydi.
+phrase|I can't promise that.||Я не могу этого обещать.|Men buni vaʼda qila olmayman.
+phrase|Could you ask someone else?||Можешь попросить кого-нибудь другого?|Boshqa birovdan soʻray olasizmi?
+phrase|I need to check my schedule first.||Мне нужно сначала проверить расписание.|Avval jadvalimni tekshirishim kerak.
+phrase|I'm not comfortable doing that.||Мне некомфортно это делать.|Men buni qilishdan noqulay ahvoldaman.
+phrase|Thanks for understanding.||Спасибо за понимание.|Tushunganingiz uchun rahmat.
+phrase|What happened after that?||Что произошло после этого?|Undan keyin nima boʻldi?
+phrase|Could you tell me a little more?||Не могли бы вы рассказать немного подробнее?|Biroz batafsilroq aytib bera olasizmi?
+phrase|And what did you do next?||И что ты сделал(а) потом?|Keyin nima qildingiz?
+phrase|How did that turn out?||Чем это закончилось?|Bu nima bilan tugadi?
+phrase|What makes you say that?||Почему ты так говоришь?|Nega bunday deyapsiz?
+phrase|Could you explain your reasoning?||Не могли бы вы объяснить ход своих рассуждений?|Mulohazangizni tushuntira olasizmi?
+phrase|Is there a reason for that?||Есть ли для этого причина?|Buning sababi bormi?
+phrase|What would happen if we changed it?||Что произойдёт, если мы это изменим?|Agar buni oʻzgartirsak, nima boʻladi?
+phrase|Is there anything I've missed?||Я что-нибудь упустил(а)?|Men biror narsani oʻtkazib yubordimmi?
+phrase|What should I do next?||Что мне делать дальше?|Keyin nima qilishim kerak?

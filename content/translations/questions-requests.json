@@ -1,0 +1,1029 @@
+{
+  "chapter": "questions-requests",
+  "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Savollar va iltimoslar",
+  "lessons": {
+    "Простые вопросы": "Oddiy savollar",
+    "Запрос информации": "Maʼlumot soʻrash",
+    "Вежливые просьбы": "Xushmuomala iltimoslar",
+    "Просьба повторить": "Takrorlashni soʻrash",
+    "Вопросы о дороге": "Yoʻl haqida savollar",
+    "Просьба о разрешении": "Ruxsat soʻrash",
+    "Предложение помощи": "Yordam taklif qilish",
+    "Уточняющие вопросы": "Aniqlashtiruvchi savollar",
+    "Просьбы на работе": "Ishdagi iltimoslar",
+    "Просьбы в магазинах и кафе": "Doʻkon va kafedagi iltimoslar",
+    "Просьбы дома": "Uydagi iltimoslar",
+    "Просьбы в общественных местах": "Jamoat joylaridagi iltimoslar",
+    "Вопросы о наличии": "Mavjudlik haqida savollar",
+    "Просьбы что-то изменить": "Biror narsani oʻzgartirish iltimosi",
+    "Просьба о совете": "Maslahat soʻrash",
+    "Просьба подождать": "Kutishni soʻrash",
+    "Просьба остановиться или быть осторожным": "Toʻxtash yoki ehtiyot boʻlish iltimosi",
+    "Просьба подтвердить": "Tasdiqlashni soʻrash",
+    "Отказ и границы": "Rad javobi va chegaralar",
+    "Уточняющие вопросы после ответа": "Javobdan keyingi aniqlashtiruvchi savollar"
+  },
+  "entries": [
+    {
+      "en": "What is this?",
+      "ru": "Что это?",
+      "uz": "Bu nima?"
+    },
+    {
+      "en": "Who is that?",
+      "ru": "Кто это?",
+      "uz": "U kim?"
+    },
+    {
+      "en": "Where are you going?",
+      "ru": "Куда ты идёшь?",
+      "uz": "Qayerga ketyapsiz?"
+    },
+    {
+      "en": "When does it start?",
+      "ru": "Когда это начинается?",
+      "uz": "U qachon boshlanadi?"
+    },
+    {
+      "en": "Why are you asking?",
+      "ru": "Почему ты спрашиваешь?",
+      "uz": "Nega soʻrayapsiz?"
+    },
+    {
+      "en": "Which one do you prefer?",
+      "ru": "Какой из них ты предпочитаешь?",
+      "uz": "Qaysi birini afzal koʻrasiz?"
+    },
+    {
+      "en": "How does it work?",
+      "ru": "Как это работает?",
+      "uz": "Bu qanday ishlaydi?"
+    },
+    {
+      "en": "How much does it cost?",
+      "ru": "Сколько это стоит?",
+      "uz": "Bu qancha turadi?"
+    },
+    {
+      "en": "How long will it take?",
+      "ru": "Сколько времени это займёт?",
+      "uz": "Bu qancha vaqt oladi?"
+    },
+    {
+      "en": "How often do you do that?",
+      "ru": "Как часто ты это делаешь?",
+      "uz": "Buni qanchalik tez-tez qilasiz?"
+    },
+    {
+      "en": "Could you give me some information?",
+      "ru": "Не могли бы вы дать мне информацию?",
+      "uz": "Menga biroz maʼlumot bera olasizmi?"
+    },
+    {
+      "en": "Could you tell me more about it?",
+      "ru": "Не могли бы вы рассказать об этом подробнее?",
+      "uz": "Bu haqda batafsilroq aytib bera olasizmi?"
+    },
+    {
+      "en": "Where can I find more details?",
+      "ru": "Где я могу найти подробности?",
+      "uz": "Batafsil maʼlumotni qayerdan topsam boʻladi?"
+    },
+    {
+      "en": "Do you know what time it opens?",
+      "ru": "Вы знаете, во сколько это открывается?",
+      "uz": "Bu necha soatda ochilishini bilasizmi?"
+    },
+    {
+      "en": "Could you explain how it works?",
+      "ru": "Не могли бы вы объяснить, как это работает?",
+      "uz": "Bu qanday ishlashini tushuntira olasizmi?"
+    },
+    {
+      "en": "Is there anything else I should know?",
+      "ru": "Есть ли ещё что-нибудь, что мне следует знать?",
+      "uz": "Yana bilishim kerak boʻlgan narsa bormi?"
+    },
+    {
+      "en": "Could you clarify one thing?",
+      "ru": "Не могли бы вы кое-что уточнить?",
+      "uz": "Bir narsani aniqlashtira olasizmi?"
+    },
+    {
+      "en": "What does this mean?",
+      "ru": "Что это означает?",
+      "uz": "Bu nimani anglatadi?"
+    },
+    {
+      "en": "Where did you hear that?",
+      "ru": "Где ты это услышал(а)?",
+      "uz": "Buni qayerdan eshitdingiz?"
+    },
+    {
+      "en": "Could you point me to the right source?",
+      "ru": "Не могли бы вы указать мне подходящий источник?",
+      "uz": "Menga kerakli manbani koʻrsata olasizmi?"
+    },
+    {
+      "en": "Could you help me, please?",
+      "ru": "Не могли бы вы мне помочь?",
+      "uz": "Iltimos, menga yordam bera olasizmi?"
+    },
+    {
+      "en": "Would you mind opening the window?",
+      "ru": "Не могли бы вы открыть окно?",
+      "uz": "Derazani ochib bera olasizmi?"
+    },
+    {
+      "en": "Could I ask you a favour?",
+      "ru": "Можно попросить вас об услуге?",
+      "uz": "Sizdan bir iltimos qilsam boʻladimi?"
+    },
+    {
+      "en": "Would it be possible to reschedule?",
+      "ru": "Можно ли перенести встречу?",
+      "uz": "Uchrashuvni boshqa vaqtga koʻchirish mumkinmi?"
+    },
+    {
+      "en": "Could you send it to me, please?",
+      "ru": "Не могли бы вы отправить это мне?",
+      "uz": "Iltimos, buni menga yuborib bera olasizmi?"
+    },
+    {
+      "en": "Would you mind waiting a moment?",
+      "ru": "Не могли бы вы подождать минутку?",
+      "uz": "Bir daqiqa kutib tura olasizmi?"
+    },
+    {
+      "en": "Could you speak a little more slowly?",
+      "ru": "Не могли бы вы говорить немного медленнее?",
+      "uz": "Biroz sekinroq gapira olasizmi?"
+    },
+    {
+      "en": "May I ask you a question?",
+      "ru": "Можно задать вам вопрос?",
+      "uz": "Sizga bir savol bersam boʻladimi?"
+    },
+    {
+      "en": "Could you show me how to do it?",
+      "ru": "Не могли бы вы показать, как это сделать?",
+      "uz": "Buni qanday qilishni koʻrsata olasizmi?"
+    },
+    {
+      "en": "Would you be able to help tomorrow?",
+      "ru": "Вы смогли бы помочь завтра?",
+      "uz": "Ertaga yordam bera olasizmi?"
+    },
+    {
+      "en": "Could you repeat that, please?",
+      "ru": "Не могли бы вы повторить?",
+      "uz": "Iltimos, buni takrorlay olasizmi?"
+    },
+    {
+      "en": "Sorry, what was that?",
+      "ru": "Извините, что вы сказали?",
+      "uz": "Kechirasiz, nima dedingiz?"
+    },
+    {
+      "en": "Could you say that one more time?",
+      "ru": "Не могли бы вы сказать это ещё раз?",
+      "uz": "Buni yana bir marta ayta olasizmi?"
+    },
+    {
+      "en": "I didn't quite catch that.",
+      "ru": "Я не совсем расслышал(а).",
+      "uz": "Men buni unchalik eshitmadim."
+    },
+    {
+      "en": "Could you spell that for me?",
+      "ru": "Не могли бы вы произнести это по буквам?",
+      "uz": "Buni harflab ayta olasizmi?"
+    },
+    {
+      "en": "Would you mind speaking up?",
+      "ru": "Не могли бы вы говорить громче?",
+      "uz": "Balandroq gapira olasizmi?"
+    },
+    {
+      "en": "Could you write it down?",
+      "ru": "Не могли бы вы это записать?",
+      "uz": "Buni yozib bera olasizmi?"
+    },
+    {
+      "en": "Did you say fifteen or fifty?",
+      "ru": "Вы сказали пятнадцать или пятьдесят?",
+      "uz": "Oʻn besh dedingizmi yoki ellik?"
+    },
+    {
+      "en": "Could you explain that in another way?",
+      "ru": "Не могли бы вы объяснить это по-другому?",
+      "uz": "Buni boshqacha tushuntira olasizmi?"
+    },
+    {
+      "en": "Let me make sure I heard you correctly.",
+      "ru": "Позвольте убедиться, что я правильно вас услышал(а).",
+      "uz": "Sizni toʻgʻri eshitganimga ishonch hosil qilay."
+    },
+    {
+      "en": "How do I get there?",
+      "ru": "Как мне туда добраться?",
+      "uz": "U yerga qanday boraman?"
+    },
+    {
+      "en": "Which way should I go?",
+      "ru": "В какую сторону мне идти?",
+      "uz": "Qaysi tomonga borishim kerak?"
+    },
+    {
+      "en": "Is it far from here?",
+      "ru": "Это далеко отсюда?",
+      "uz": "Bu yerdan uzoqmi?"
+    },
+    {
+      "en": "Could you show me on the map?",
+      "ru": "Не могли бы вы показать на карте?",
+      "uz": "Xaritada koʻrsata olasizmi?"
+    },
+    {
+      "en": "Where is the nearest bus stop?",
+      "ru": "Где ближайшая автобусная остановка?",
+      "uz": "Eng yaqin avtobus bekati qayerda?"
+    },
+    {
+      "en": "Should I turn left or right?",
+      "ru": "Мне повернуть налево или направо?",
+      "uz": "Chapga burilaymi yoki oʻngga?"
+    },
+    {
+      "en": "How many stops should I go?",
+      "ru": "Сколько остановок мне ехать?",
+      "uz": "Necha bekat yurishim kerak?"
+    },
+    {
+      "en": "Can I walk there?",
+      "ru": "Я могу дойти туда пешком?",
+      "uz": "U yerga piyoda bora olamanmi?"
+    },
+    {
+      "en": "Is this the right way?",
+      "ru": "Я иду в правильном направлении?",
+      "uz": "Men toʻgʻri ketyapmanmi?"
+    },
+    {
+      "en": "Could you tell me when to get off?",
+      "ru": "Не могли бы вы сказать, когда выходить?",
+      "uz": "Qachon tushishimni ayta olasizmi?"
+    },
+    {
+      "en": "May I come in?",
+      "ru": "Можно войти?",
+      "uz": "Kirsam boʻladimi?"
+    },
+    {
+      "en": "Can I use your phone?",
+      "ru": "Можно воспользоваться твоим телефоном?",
+      "uz": "Telefoningizdan foydalansam boʻladimi?"
+    },
+    {
+      "en": "Would it be okay if I left early?",
+      "ru": "Ничего, если я уйду пораньше?",
+      "uz": "Erta ketsam boʻladimi?"
+    },
+    {
+      "en": "Do you mind if I sit here?",
+      "ru": "Ты не против, если я сяду здесь?",
+      "uz": "Bu yerga oʻtirsam, qarshi emasmisiz?"
+    },
+    {
+      "en": "May I borrow this for a moment?",
+      "ru": "Можно одолжить это на минутку?",
+      "uz": "Buni bir daqiqaga olib tursam boʻladimi?"
+    },
+    {
+      "en": "Is it all right if I bring a friend?",
+      "ru": "Ничего, если я приведу друга?",
+      "uz": "Doʻstimni olib kelsam boʻladimi?"
+    },
+    {
+      "en": "Could I take a day off?",
+      "ru": "Могу я взять выходной?",
+      "uz": "Bir kun dam olsam boʻladimi?"
+    },
+    {
+      "en": "Would you mind if I opened the window?",
+      "ru": "Вы не возражаете, если я открою окно?",
+      "uz": "Derazani ochsam, qarshi emasmisiz?"
+    },
+    {
+      "en": "Am I allowed to park here?",
+      "ru": "Мне разрешено здесь парковаться?",
+      "uz": "Bu yerga toʻxtashga ruxsat bormi?"
+    },
+    {
+      "en": "Can I ask you something personal?",
+      "ru": "Можно спросить тебя о личном?",
+      "uz": "Shaxsiy bir narsa soʻrasam boʻladimi?"
+    },
+    {
+      "en": "Can I help you with that?",
+      "ru": "Могу я помочь тебе с этим?",
+      "uz": "Bunda sizga yordam bera olamanmi?"
+    },
+    {
+      "en": "Would you like a hand?",
+      "ru": "Тебе помочь?",
+      "uz": "Yordam kerakmi?"
+    },
+    {
+      "en": "Shall I carry that for you?",
+      "ru": "Мне понести это за тебя?",
+      "uz": "Buni koʻtarib beraymi?"
+    },
+    {
+      "en": "Do you need any help?",
+      "ru": "Тебе нужна помощь?",
+      "uz": "Yordam kerakmi?"
+    },
+    {
+      "en": "Can I get you anything?",
+      "ru": "Могу я тебе что-нибудь принести?",
+      "uz": "Sizga biror narsa olib kelaymi?"
+    },
+    {
+      "en": "Would you like me to call someone?",
+      "ru": "Хочешь, я кому-нибудь позвоню?",
+      "uz": "Birortasiga qoʻngʻiroq qilaymi?"
+    },
+    {
+      "en": "Let me know if you need anything.",
+      "ru": "Дай знать, если что-нибудь понадобится.",
+      "uz": "Biror narsa kerak boʻlsa, ayting."
+    },
+    {
+      "en": "Can I do anything to help?",
+      "ru": "Могу я чем-нибудь помочь?",
+      "uz": "Yordam berish uchun biror ish qila olamanmi?"
+    },
+    {
+      "en": "Would it help if I came earlier?",
+      "ru": "Помогло бы, если бы я пришёл / пришла раньше?",
+      "uz": "Erta kelsam yordam boʻlarmidi?"
+    },
+    {
+      "en": "I'll be happy to help.",
+      "ru": "Я буду рад(а) помочь.",
+      "uz": "Yordam berishdan xursand boʻlaman."
+    },
+    {
+      "en": "What exactly do you mean?",
+      "ru": "Что именно ты имеешь в виду?",
+      "uz": "Aniq nimani nazarda tutyapsiz?"
+    },
+    {
+      "en": "Could you be more specific?",
+      "ru": "Не могли бы вы уточнить?",
+      "uz": "Aniqroq ayta olasizmi?"
+    },
+    {
+      "en": "Which part are you referring to?",
+      "ru": "Какую именно часть вы имеете в виду?",
+      "uz": "Qaysi qismini nazarda tutyapsiz?"
+    },
+    {
+      "en": "Do you mean this one?",
+      "ru": "Ты имеешь в виду вот этот?",
+      "uz": "Shunisini nazarda tutyapsizmi?"
+    },
+    {
+      "en": "Could you give me an example?",
+      "ru": "Не могли бы вы привести пример?",
+      "uz": "Misol keltira olasizmi?"
+    },
+    {
+      "en": "Are you saying that we need to wait?",
+      "ru": "Ты говоришь, что нам нужно подождать?",
+      "uz": "Kutishimiz kerak demoqchimisiz?"
+    },
+    {
+      "en": "Did I understand you correctly?",
+      "ru": "Я правильно тебя понял(а)?",
+      "uz": "Sizni toʻgʻri tushundimmi?"
+    },
+    {
+      "en": "Can you explain why?",
+      "ru": "Можешь объяснить почему?",
+      "uz": "Nega ekanini tushuntira olasizmi?"
+    },
+    {
+      "en": "What do you mean by 'urgent'?",
+      "ru": "Что ты имеешь в виду под словом «срочно»?",
+      "uz": "«Shoshilinch» deganda nimani nazarda tutyapsiz?"
+    },
+    {
+      "en": "Could you clarify the last point?",
+      "ru": "Не могли бы вы уточнить последний пункт?",
+      "uz": "Oxirgi fikrni aniqlashtira olasizmi?"
+    },
+    {
+      "en": "Could you review this document?",
+      "ru": "Не могли бы вы проверить этот документ?",
+      "uz": "Bu hujjatni koʻrib chiqa olasizmi?"
+    },
+    {
+      "en": "Can you send me the latest version?",
+      "ru": "Можете отправить мне последнюю версию?",
+      "uz": "Menga oxirgi versiyasini yuborib bera olasizmi?"
+    },
+    {
+      "en": "Could you finish this by Friday?",
+      "ru": "Не могли бы вы закончить это к пятнице?",
+      "uz": "Buni juma kunigacha tugata olasizmi?"
+    },
+    {
+      "en": "Would you mind checking these numbers?",
+      "ru": "Не могли бы вы проверить эти цифры?",
+      "uz": "Bu raqamlarni tekshirib bera olasizmi?"
+    },
+    {
+      "en": "Can we move the meeting to tomorrow?",
+      "ru": "Можем перенести встречу на завтра?",
+      "uz": "Uchrashuvni ertaga koʻchira olamizmi?"
+    },
+    {
+      "en": "Could you keep me in the loop?",
+      "ru": "Не могли бы вы держать меня в курсе?",
+      "uz": "Meni xabardor qilib turasizmi?"
+    },
+    {
+      "en": "Please let me know when it's ready.",
+      "ru": "Пожалуйста, сообщите, когда будет готово.",
+      "uz": "Tayyor boʻlganda, iltimos, xabar bering."
+    },
+    {
+      "en": "Could you share the meeting notes?",
+      "ru": "Не могли бы вы поделиться заметками со встречи?",
+      "uz": "Uchrashuv yozuvlarini ulasha olasizmi?"
+    },
+    {
+      "en": "Would you be able to take this on?",
+      "ru": "Вы смогли бы взять это на себя?",
+      "uz": "Buni oʻz zimmangizga ola olasizmi?"
+    },
+    {
+      "en": "Could you give me a quick update?",
+      "ru": "Не могли бы вы кратко сообщить новости?",
+      "uz": "Qisqacha yangilik aytib bera olasizmi?"
+    },
+    {
+      "en": "Could I see the menu, please?",
+      "ru": "Можно меню, пожалуйста?",
+      "uz": "Iltimos, menyuni koʻrsam boʻladimi?"
+    },
+    {
+      "en": "Can I try this on?",
+      "ru": "Можно это примерить?",
+      "uz": "Buni kiyib koʻrsam boʻladimi?"
+    },
+    {
+      "en": "Could I have a receipt?",
+      "ru": "Можно чек?",
+      "uz": "Chek olsam boʻladimi?"
+    },
+    {
+      "en": "Would you bring us some water?",
+      "ru": "Не могли бы вы принести нам воды?",
+      "uz": "Bizga suv olib kela olasizmi?"
+    },
+    {
+      "en": "Could I get this without sugar?",
+      "ru": "Можно это без сахара?",
+      "uz": "Buni shakarsiz olsam boʻladimi?"
+    },
+    {
+      "en": "Can I pay by card?",
+      "ru": "Можно оплатить картой?",
+      "uz": "Karta bilan toʻlasam boʻladimi?"
+    },
+    {
+      "en": "Could you pack this to go?",
+      "ru": "Не могли бы вы упаковать это с собой?",
+      "uz": "Buni oʻzim bilan olib ketishga oʻrab bera olasizmi?"
+    },
+    {
+      "en": "Do you have this in a larger size?",
+      "ru": "Есть это в большем размере?",
+      "uz": "Buning kattaroq oʻlchami bormi?"
+    },
+    {
+      "en": "Could I have a bag, please?",
+      "ru": "Можно пакет, пожалуйста?",
+      "uz": "Iltimos, paket bersangiz?"
+    },
+    {
+      "en": "Would you mind splitting the bill?",
+      "ru": "Не могли бы вы разделить счёт?",
+      "uz": "Hisobni boʻlib bera olasizmi?"
+    },
+    {
+      "en": "Could you turn down the TV?",
+      "ru": "Не мог(ла) бы ты сделать телевизор потише?",
+      "uz": "Televizorni pasaytira olasizmi?"
+    },
+    {
+      "en": "Can you take out the rubbish?",
+      "ru": "Можешь вынести мусор?",
+      "uz": "Axlatni chiqarib tashlay olasizmi?"
+    },
+    {
+      "en": "Would you mind washing the dishes?",
+      "ru": "Не мог(ла) бы ты помыть посуду?",
+      "uz": "Idishlarni yuvib bera olasizmi?"
+    },
+    {
+      "en": "Could you close the door?",
+      "ru": "Не мог(ла) бы ты закрыть дверь?",
+      "uz": "Eshikni yopa olasizmi?"
+    },
+    {
+      "en": "Can you pick up some bread?",
+      "ru": "Можешь купить хлеба?",
+      "uz": "Non olib kela olasizmi?"
+    },
+    {
+      "en": "Would you put this away?",
+      "ru": "Уберёшь это на место?",
+      "uz": "Buni joyiga qoʻyasizmi?"
+    },
+    {
+      "en": "Could you water the plants?",
+      "ru": "Не мог(ла) бы ты полить растения?",
+      "uz": "Gullarni sugʻora olasizmi?"
+    },
+    {
+      "en": "Can you keep an eye on dinner?",
+      "ru": "Можешь присмотреть за ужином?",
+      "uz": "Kechki ovqatga koʻz-quloq boʻla olasizmi?"
+    },
+    {
+      "en": "Would you mind helping me tidy up?",
+      "ru": "Не мог(ла) бы ты помочь мне прибраться?",
+      "uz": "Yigʻishtirishga yordam bera olasizmi?"
+    },
+    {
+      "en": "Could you wake me up at seven?",
+      "ru": "Не мог(ла) бы ты разбудить меня в семь?",
+      "uz": "Meni yettida uygʻota olasizmi?"
+    },
+    {
+      "en": "Could you take a photo of us?",
+      "ru": "Не могли бы вы сфотографировать нас?",
+      "uz": "Bizni suratga olib bera olasizmi?"
+    },
+    {
+      "en": "Would you mind moving a little?",
+      "ru": "Не могли бы вы немного подвинуться?",
+      "uz": "Biroz surilib tura olasizmi?"
+    },
+    {
+      "en": "Could you tell me where the restroom is?",
+      "ru": "Не могли бы вы сказать, где туалет?",
+      "uz": "Hojatxona qayerdaligini ayta olasizmi?"
+    },
+    {
+      "en": "Can I sit here?",
+      "ru": "Можно мне здесь сесть?",
+      "uz": "Bu yerga oʻtirsam boʻladimi?"
+    },
+    {
+      "en": "Would you keep this seat for me?",
+      "ru": "Не могли бы вы занять это место для меня?",
+      "uz": "Bu joyni men uchun band qilib tura olasizmi?"
+    },
+    {
+      "en": "Could you lower your voice, please?",
+      "ru": "Не могли бы вы говорить потише?",
+      "uz": "Iltimos, ovozingizni pasaytira olasizmi?"
+    },
+    {
+      "en": "Can you tell me when we arrive?",
+      "ru": "Можете сказать мне, когда мы приедем?",
+      "uz": "Yetib borganimizda menga ayta olasizmi?"
+    },
+    {
+      "en": "Would you mind letting me pass?",
+      "ru": "Не могли бы вы меня пропустить?",
+      "uz": "Meni oʻtkazib yuborolasizmi?"
+    },
+    {
+      "en": "Could you call a taxi for me?",
+      "ru": "Не могли бы вы вызвать мне такси?",
+      "uz": "Menga taksi chaqirib bera olasizmi?"
+    },
+    {
+      "en": "Can you point me toward the exit?",
+      "ru": "Можете показать, где выход?",
+      "uz": "Chiqish qayerdaligini koʻrsata olasizmi?"
+    },
+    {
+      "en": "Do you have any available rooms?",
+      "ru": "У вас есть свободные номера?",
+      "uz": "Boʻsh xonalaringiz bormi?"
+    },
+    {
+      "en": "Is this still available?",
+      "ru": "Это ещё доступно?",
+      "uz": "Bu hali ham mavjudmi?"
+    },
+    {
+      "en": "Do you have any appointments today?",
+      "ru": "У вас есть свободное время для записи сегодня?",
+      "uz": "Bugun navbatga yozilish imkoni bormi?"
+    },
+    {
+      "en": "Are there any tickets left?",
+      "ru": "Билеты ещё остались?",
+      "uz": "Chiptalar qoldimi?"
+    },
+    {
+      "en": "Is anyone sitting here?",
+      "ru": "Здесь кто-нибудь сидит?",
+      "uz": "Bu yerda birov oʻtiribdimi?"
+    },
+    {
+      "en": "Do you have this in stock?",
+      "ru": "Это есть в наличии?",
+      "uz": "Bu sizda bormi?"
+    },
+    {
+      "en": "Would any time after lunch work?",
+      "ru": "Подойдёт любое время после обеда?",
+      "uz": "Tushlikdan keyingi istalgan vaqt toʻgʻri keladimi?"
+    },
+    {
+      "en": "Is there a table available for two?",
+      "ru": "Есть свободный столик на двоих?",
+      "uz": "Ikki kishilik boʻsh stol bormi?"
+    },
+    {
+      "en": "Are you free this afternoon?",
+      "ru": "Вы свободны сегодня после обеда?",
+      "uz": "Bugun tushdan keyin boʻshmisiz?"
+    },
+    {
+      "en": "When is the earliest available time?",
+      "ru": "Когда самое раннее свободное время?",
+      "uz": "Eng yaqin boʻsh vaqt qachon?"
+    },
+    {
+      "en": "Could we change the date?",
+      "ru": "Можем изменить дату?",
+      "uz": "Sanani oʻzgartira olamizmi?"
+    },
+    {
+      "en": "Would it be possible to move my appointment?",
+      "ru": "Можно перенести мою запись?",
+      "uz": "Navbatimni koʻchirish mumkinmi?"
+    },
+    {
+      "en": "Can I get a different room?",
+      "ru": "Можно другой номер?",
+      "uz": "Boshqa xona olsam boʻladimi?"
+    },
+    {
+      "en": "Could you make it a little smaller?",
+      "ru": "Не могли бы вы сделать это немного меньше?",
+      "uz": "Buni biroz kichikroq qila olasizmi?"
+    },
+    {
+      "en": "Would you mind changing our seats?",
+      "ru": "Не могли бы вы поменять наши места?",
+      "uz": "Joylarimizni almashtira olasizmi?"
+    },
+    {
+      "en": "Can you update my details?",
+      "ru": "Можете обновить мои данные?",
+      "uz": "Maʼlumotlarimni yangilay olasizmi?"
+    },
+    {
+      "en": "Could we try another option?",
+      "ru": "Можем попробовать другой вариант?",
+      "uz": "Boshqa variantni sinab koʻra olamizmi?"
+    },
+    {
+      "en": "Can you make an exception this time?",
+      "ru": "Можете сделать исключение в этот раз?",
+      "uz": "Bu safar istisno qila olasizmi?"
+    },
+    {
+      "en": "Would it be possible to extend the deadline?",
+      "ru": "Можно продлить срок?",
+      "uz": "Muddatni uzaytirish mumkinmi?"
+    },
+    {
+      "en": "Could you correct this mistake?",
+      "ru": "Не могли бы вы исправить эту ошибку?",
+      "uz": "Bu xatoni tuzata olasizmi?"
+    },
+    {
+      "en": "What would you recommend?",
+      "ru": "Что бы вы порекомендовали?",
+      "uz": "Nimani tavsiya qilasiz?"
+    },
+    {
+      "en": "What do you think I should do?",
+      "ru": "Как ты думаешь, что мне следует сделать?",
+      "uz": "Sizningcha, men nima qilishim kerak?"
+    },
+    {
+      "en": "Could I get your opinion on this?",
+      "ru": "Могу я узнать твоё мнение об этом?",
+      "uz": "Bu haqda fikringizni bilsam boʻladimi?"
+    },
+    {
+      "en": "What would you do in my situation?",
+      "ru": "Что бы ты сделал(а) на моём месте?",
+      "uz": "Mening oʻrnimda nima qilardingiz?"
+    },
+    {
+      "en": "Do you have any suggestions?",
+      "ru": "У тебя есть предложения?",
+      "uz": "Takliflaringiz bormi?"
+    },
+    {
+      "en": "Which option do you think is better?",
+      "ru": "Какой вариант, по-твоему, лучше?",
+      "uz": "Sizningcha, qaysi variant yaxshiroq?"
+    },
+    {
+      "en": "Could you help me make a decision?",
+      "ru": "Можешь помочь мне принять решение?",
+      "uz": "Qaror qilishimga yordam bera olasizmi?"
+    },
+    {
+      "en": "Is there anything you'd do differently?",
+      "ru": "Ты бы что-нибудь сделал(а) иначе?",
+      "uz": "Boshqacha qiladigan narsangiz bormi?"
+    },
+    {
+      "en": "Who would be the best person to ask?",
+      "ru": "Кого лучше всего спросить?",
+      "uz": "Kimdan soʻrash eng maʼqul boʻlardi?"
+    },
+    {
+      "en": "Would you recommend it?",
+      "ru": "Ты бы это порекомендовал(а)?",
+      "uz": "Buni tavsiya qilasizmi?"
+    },
+    {
+      "en": "Could you wait a moment, please?",
+      "ru": "Не могли бы вы подождать минутку?",
+      "uz": "Iltimos, bir daqiqa kutib tura olasizmi?"
+    },
+    {
+      "en": "Can you give me five minutes?",
+      "ru": "Можешь дать мне пять минут?",
+      "uz": "Menga besh daqiqa bera olasizmi?"
+    },
+    {
+      "en": "Would you mind waiting here?",
+      "ru": "Не могли бы вы подождать здесь?",
+      "uz": "Shu yerda kutib tura olasizmi?"
+    },
+    {
+      "en": "Please hold on a second.",
+      "ru": "Пожалуйста, подождите секунду.",
+      "uz": "Iltimos, bir soniya kuting."
+    },
+    {
+      "en": "Could you bear with me?",
+      "ru": "Прошу немного потерпеть.",
+      "uz": "Bir oz sabr qila olasizmi?"
+    },
+    {
+      "en": "I'll be with you shortly.",
+      "ru": "Я скоро к вам подойду.",
+      "uz": "Tez orada sizga yetib boraman."
+    },
+    {
+      "en": "Could you stay on the line?",
+      "ru": "Не могли бы вы оставаться на линии?",
+      "uz": "Liniyada qolib tura olasizmi?"
+    },
+    {
+      "en": "Just a moment, please.",
+      "ru": "Одну минуту, пожалуйста.",
+      "uz": "Iltimos, bir daqiqa."
+    },
+    {
+      "en": "Can you wait until I'm finished?",
+      "ru": "Можешь подождать, пока я закончу?",
+      "uz": "Men tugatgunimcha kutib tura olasizmi?"
+    },
+    {
+      "en": "Thanks for waiting.",
+      "ru": "Спасибо за ожидание.",
+      "uz": "Kutganingiz uchun rahmat."
+    },
+    {
+      "en": "Could you stop for a moment?",
+      "ru": "Не могли бы вы на минуту остановиться?",
+      "uz": "Bir daqiqaga toʻxtab tura olasizmi?"
+    },
+    {
+      "en": "Please be careful.",
+      "ru": "Пожалуйста, будь осторожен / осторожна.",
+      "uz": "Iltimos, ehtiyot boʻling."
+    },
+    {
+      "en": "Could you slow down a little?",
+      "ru": "Не мог(ла) бы ты немного замедлиться?",
+      "uz": "Biroz sekinlashtira olasizmi?"
+    },
+    {
+      "en": "Please don't touch that.",
+      "ru": "Пожалуйста, не трогай это.",
+      "uz": "Iltimos, bunga tegmang."
+    },
+    {
+      "en": "Would you mind keeping the noise down?",
+      "ru": "Не могли бы вы вести себя потише?",
+      "uz": "Shovqinni pasaytira olasizmi?"
+    },
+    {
+      "en": "Could you move back a little?",
+      "ru": "Не могли бы вы немного отойти назад?",
+      "uz": "Biroz orqaga surila olasizmi?"
+    },
+    {
+      "en": "Please watch your step.",
+      "ru": "Пожалуйста, смотрите под ноги.",
+      "uz": "Iltimos, oyogʻingiz ostiga qarang."
+    },
+    {
+      "en": "Can you hold this steady?",
+      "ru": "Можешь держать это неподвижно?",
+      "uz": "Buni qimirlatmay ushlab tura olasizmi?"
+    },
+    {
+      "en": "Please wait until I say it's okay.",
+      "ru": "Пожалуйста, подожди, пока я не скажу, что можно.",
+      "uz": "Iltimos, men «boʻladi» deganimcha kuting."
+    },
+    {
+      "en": "Could you give me some room?",
+      "ru": "Не могли бы вы дать мне немного места?",
+      "uz": "Menga biroz joy bera olasizmi?"
+    },
+    {
+      "en": "Could you confirm that in writing?",
+      "ru": "Не могли бы вы подтвердить это письменно?",
+      "uz": "Buni yozma ravishda tasdiqlay olasizmi?"
+    },
+    {
+      "en": "Can you make sure this is correct?",
+      "ru": "Можешь убедиться, что это правильно?",
+      "uz": "Bu toʻgʻriligiga ishonch hosil qila olasizmi?"
+    },
+    {
+      "en": "Would you confirm the appointment?",
+      "ru": "Не могли бы вы подтвердить запись?",
+      "uz": "Uchrashuvni tasdiqlay olasizmi?"
+    },
+    {
+      "en": "Can you let me know once it's done?",
+      "ru": "Можешь сообщить, когда это будет сделано?",
+      "uz": "Bajarilganda menga xabar bera olasizmi?"
+    },
+    {
+      "en": "Could you repeat the address?",
+      "ru": "Не могли бы вы повторить адрес?",
+      "uz": "Manzilni takrorlay olasizmi?"
+    },
+    {
+      "en": "Is that everything I need to do?",
+      "ru": "Это всё, что мне нужно сделать?",
+      "uz": "Qilishim kerak boʻlgan hammasi shumi?"
+    },
+    {
+      "en": "Could you check that I've filled this in correctly?",
+      "ru": "Не могли бы вы проверить, правильно ли я это заполнил(а)?",
+      "uz": "Buni toʻgʻri toʻldirganimni tekshira olasizmi?"
+    },
+    {
+      "en": "Would you send me a confirmation?",
+      "ru": "Не могли бы вы отправить подтверждение?",
+      "uz": "Menga tasdiqnoma yuborib bera olasizmi?"
+    },
+    {
+      "en": "Can you verify the date for me?",
+      "ru": "Можешь проверить дату для меня?",
+      "uz": "Sanani men uchun tekshira olasizmi?"
+    },
+    {
+      "en": "Please confirm when you receive it.",
+      "ru": "Пожалуйста, подтвердите получение.",
+      "uz": "Iltimos, olganingizda tasdiqlang."
+    },
+    {
+      "en": "I'm afraid I can't help with that.",
+      "ru": "Боюсь, я не могу с этим помочь.",
+      "uz": "Afsuski, bunda yordam bera olmayman."
+    },
+    {
+      "en": "Could we do this another time?",
+      "ru": "Можем сделать это в другой раз?",
+      "uz": "Buni boshqa safar qila olamizmi?"
+    },
+    {
+      "en": "I'm not able to commit to that right now.",
+      "ru": "Сейчас я не могу на это согласиться.",
+      "uz": "Hozir bunga vaʼda bera olmayman."
+    },
+    {
+      "en": "I'd rather not, if that's okay.",
+      "ru": "Я бы предпочёл / предпочла не делать этого, если ты не против.",
+      "uz": "Agar qarshi boʻlmasangiz, buni qilmasam deyman."
+    },
+    {
+      "en": "I'm sorry, but that won't be possible.",
+      "ru": "Извините, но это будет невозможно.",
+      "uz": "Kechirasiz, lekin buning iloji boʻlmaydi."
+    },
+    {
+      "en": "I can't promise that.",
+      "ru": "Я не могу этого обещать.",
+      "uz": "Men buni vaʼda qila olmayman."
+    },
+    {
+      "en": "Could you ask someone else?",
+      "ru": "Можешь попросить кого-нибудь другого?",
+      "uz": "Boshqa birovdan soʻray olasizmi?"
+    },
+    {
+      "en": "I need to check my schedule first.",
+      "ru": "Мне нужно сначала проверить расписание.",
+      "uz": "Avval jadvalimni tekshirishim kerak."
+    },
+    {
+      "en": "I'm not comfortable doing that.",
+      "ru": "Мне некомфортно это делать.",
+      "uz": "Men buni qilishdan noqulay ahvoldaman."
+    },
+    {
+      "en": "Thanks for understanding.",
+      "ru": "Спасибо за понимание.",
+      "uz": "Tushunganingiz uchun rahmat."
+    },
+    {
+      "en": "What happened after that?",
+      "ru": "Что произошло после этого?",
+      "uz": "Undan keyin nima boʻldi?"
+    },
+    {
+      "en": "Could you tell me a little more?",
+      "ru": "Не могли бы вы рассказать немного подробнее?",
+      "uz": "Biroz batafsilroq aytib bera olasizmi?"
+    },
+    {
+      "en": "And what did you do next?",
+      "ru": "И что ты сделал(а) потом?",
+      "uz": "Keyin nima qildingiz?"
+    },
+    {
+      "en": "How did that turn out?",
+      "ru": "Чем это закончилось?",
+      "uz": "Bu nima bilan tugadi?"
+    },
+    {
+      "en": "What makes you say that?",
+      "ru": "Почему ты так говоришь?",
+      "uz": "Nega bunday deyapsiz?"
+    },
+    {
+      "en": "Could you explain your reasoning?",
+      "ru": "Не могли бы вы объяснить ход своих рассуждений?",
+      "uz": "Mulohazangizni tushuntira olasizmi?"
+    },
+    {
+      "en": "Is there a reason for that?",
+      "ru": "Есть ли для этого причина?",
+      "uz": "Buning sababi bormi?"
+    },
+    {
+      "en": "What would happen if we changed it?",
+      "ru": "Что произойдёт, если мы это изменим?",
+      "uz": "Agar buni oʻzgartirsak, nima boʻladi?"
+    },
+    {
+      "en": "Is there anything I've missed?",
+      "ru": "Я что-нибудь упустил(а)?",
+      "uz": "Men biror narsani oʻtkazib yubordimmi?"
+    },
+    {
+      "en": "What should I do next?",
+      "ru": "Что мне делать дальше?",
+      "uz": "Keyin nima qilishim kerak?"
+    }
+  ]
+}

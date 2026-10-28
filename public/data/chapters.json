@@ -55,11 +55,13 @@
       "kind": "phrases",
       "title": {
         "en": "Questions & Requests",
-        "ru": "Вопросы и просьбы"
+        "ru": "Вопросы и просьбы",
+        "uz": "Savollar va iltimoslar"
       },
       "file": "chapters/questions-requests.json",
       "lessonCount": 20,
-      "phraseCount": 200
+      "phraseCount": 200,
+      "translatedUz": true
     },
     {
       "id": "opinions-feelings",
