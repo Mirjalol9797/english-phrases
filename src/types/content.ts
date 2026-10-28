@@ -74,6 +74,8 @@ export interface ChapterSummary {
   file: string
   lessonCount: number
   phraseCount: number
+  /** Есть ли узбекский перевод. Главы переводятся по одной, и это видно в списке. */
+  translatedUz?: boolean
 }
 
 export interface ContentIndex {

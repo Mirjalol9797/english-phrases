@@ -83,6 +83,7 @@ export const UZ_TEXT: Record<string, string> = {
     'Har bir bob darslarga boʻlingan, bir darsda besh tadan yigirma tagacha yozuv bor.',
   'начато {started}, выучено {learned}': 'boshlangan {started}, oʻrganilgan {learned}',
   'Пока не добавлена': 'Hali qoʻshilmagan',
+  'пока на русском': 'hozircha ruscha',
   'Урок выучен': 'Dars oʻrganildi',
   'Пройдено {done} из {total}': '{total} tadan {done} tasi bajarildi',
 

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { useSettingsStore } from '@/stores/settings'
 import { useI18n, nounOf } from '@/i18n'
 import { useContentStore } from '@/stores/content'
 import { useProgressStore } from '@/stores/progress'
@@ -8,6 +9,7 @@ import { useDocumentTitle } from '@/composables/useDocumentTitle'
 import StatusMessage from '@/components/StatusMessage.vue'
 import AppIcon from '@/components/AppIcon.vue'
 
+const settings = useSettingsStore()
 const { plural, t, tr } = useI18n()
 
 const content = useContentStore()
@@ -61,6 +63,13 @@ const emptySlots = computed(() => {
               {{ chapter.title.en }}
             </span>
             <span class="block text-muted">{{ tr(chapter.title) }}</span>
+            <!-- Честно показываем, что глава ещё на русском: перевод идёт по одной. -->
+            <span
+              v-if="settings.language === 'uz' && !chapter.translatedUz"
+              class="mt-0.5 block text-xs text-muted"
+            >
+              {{ t('пока на русском') }}
+            </span>
             <span class="mt-1 block text-sm text-muted">
               {{ plural(chapter.lessonCount, 'lesson') }},
               {{ plural(chapter.phraseCount, nounOf(chapter.kind)) }}

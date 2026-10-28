@@ -464,6 +464,8 @@ async function main() {
       file: `chapters/${c.id}.json`,
       lessonCount: c.lessons.length,
       phraseCount: c.lessons.reduce((s, l) => s + l.phrases.length, 0),
+      // Перевод берётся только целой главой, поэтому хватает одной записи.
+      ...(c.lessons[0]?.phrases[0]?.uz ? { translatedUz: true } : {}),
     })),
   }
   await writeFile(path.join(outDir, 'chapters.json'), JSON.stringify(index, null, 2) + '\n')
