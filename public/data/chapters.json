@@ -130,11 +130,13 @@
       "kind": "phrases",
       "title": {
         "en": "Phrasal Verbs",
-        "ru": "Фразовые глаголы"
+        "ru": "Фразовые глаголы",
+        "uz": "Frazali feʼllar"
       },
       "file": "chapters/phrasal-verbs.json",
       "lessonCount": 20,
-      "phraseCount": 200
+      "phraseCount": 200,
+      "translatedUz": true
     },
     {
       "id": "natural-english",

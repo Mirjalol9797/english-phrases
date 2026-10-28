@@ -1,0 +1,200 @@
+phrase|wake up||просыпаться|uygʻonmoq
+phrase|get up||вставать с кровати|oʻrindan turmoq
+phrase|lie down||лечь|yotmoq
+phrase|sit down||садиться|oʻtirmoq
+phrase|stand up||вставать|oʻrnidan turmoq
+phrase|put on||надевать|kiymoq
+phrase|take off||снимать; взлетать|yechmoq; (samolyot) uchib ketmoq
+phrase|hurry up||торопиться|shoshilmoq
+phrase|wash up||мыть посуду; умываться (в зависимости от контекста)|idish yuvmoq; yuvinmoq (kontekstga qarab)
+phrase|go out||выходить; идти куда-нибудь|tashqariga chiqmoq; sayr qilgani chiqmoq
+phrase|clean up||убирать; приводить в порядок|tozalamoq; tartibga keltirmoq
+phrase|tidy up||наводить порядок|tartib oʻrnatmoq
+phrase|throw away||выбрасывать|tashlab yubormoq
+phrase|put away||убирать на место|joyiga olib qoʻymoq
+phrase|pick up||поднимать; забирать|koʻtarmoq; olib ketmoq
+phrase|turn on||включать|yoqmoq
+phrase|turn off||выключать|oʻchirmoq
+phrase|fill up||наполнять|toʻldirmoq
+phrase|run out of||исчерпать запас чего-либо|biror narsa tugab qolmoq
+phrase|look after||заботиться о|gʻamxoʻrlik qilmoq
+phrase|speak up||говорить громче|balandroq gapirmoq
+phrase|call back||перезвонить|qayta qoʻngʻiroq qilmoq
+phrase|hang up||повесить трубку|goʻshakni qoʻymoq
+phrase|get back to||вернуться с ответом к кому-либо|kimgadir javob bilan qaytmoq
+phrase|bring up||поднять тему|mavzuni koʻtarmoq
+phrase|point out||указать на|eʼtiborni qaratmoq
+phrase|write down||записать|yozib olmoq
+phrase|read out||прочитать вслух|ovoz chiqarib oʻqimoq
+phrase|get through||дозвониться; пройти через|dozvon qilmoq; bosib oʻtmoq
+phrase|talk over||обсудить|muhokama qilmoq
+phrase|carry out||выполнять|bajarmoq
+phrase|hand in||сдать работу|ishni topshirmoq
+phrase|hand out||раздавать|tarqatmoq
+phrase|fill in||заполнять|hujjatni toʻldirmoq
+phrase|look over||просмотреть; проверить|koʻzdan kechirmoq; tekshirmoq
+phrase|go over||повторить; просмотреть|takrorlamoq; koʻrib chiqmoq
+phrase|catch up on||наверстать|orqada qolganini toʻldirmoq
+phrase|keep up with||не отставать от|ortda qolmaslik
+phrase|fall behind||отставать|ortda qolmoq
+phrase|work out||решить; разработать; тренироваться|hal qilmoq; ishlab chiqmoq; mashq qilmoq
+phrase|set up||организовать; настроить|tashkil qilmoq; sozlamoq
+phrase|put off||откладывать|keyinga qoldirmoq
+phrase|call off||отменять|bekor qilmoq
+phrase|carry on||продолжать|davom ettirmoq
+phrase|go ahead||продолжать; приступать|davom etmoq; kirishmoq
+phrase|move on||двигаться дальше|oldinga siljimoq
+phrase|come up with||придумать|oʻylab topmoq
+phrase|figure out||разобраться; понять|aniqlamoq; tushunib yetmoq
+phrase|sort out||уладить; разобраться|hal qilmoq; tartibga solmoq
+phrase|follow up||вернуться к вопросу; проследить за выполнением|masalaga qaytmoq; bajarilishini kuzatmoq
+phrase|get along with||ладить с|chiqishmoq
+phrase|fall out with||поссориться с|janjallashib qolmoq
+phrase|make up||помириться; выдумать|yarashmoq; toʻqib chiqarmoq
+phrase|break up||расстаться|ajrashmoq
+phrase|ask out||пригласить на свидание|uchrashuvga taklif qilmoq
+phrase|hang out||проводить время вместе|birga vaqt oʻtkazmoq
+phrase|open up||открыться; поделиться переживаниями|ochilmoq; dardini aytmoq
+phrase|cheer up||подбодриться; развеселить|kayfiyatini koʻtarmoq
+phrase|look up to||уважать; брать пример с|hurmat qilmoq; ibrat olmoq
+phrase|count on||полагаться на|tayanmoq
+phrase|set off||отправиться в путь|yoʻlga chiqmoq
+phrase|check in||зарегистрироваться|roʻyxatdan oʻtmoq
+phrase|check out||выписаться; проверить|mehmonxonadan chiqmoq; tekshirmoq
+phrase|get in||сесть в машину; прибыть|mashinaga oʻtirmoq; yetib kelmoq
+phrase|get out||выйти из машины|mashinadan tushmoq
+phrase|get on||сесть в автобус, поезд или самолёт|avtobus, poyezd yoki samolyotga chiqmoq
+phrase|get off||выйти из автобуса, поезда или самолёта|avtobus, poyezd yoki samolyotdan tushmoq
+phrase|drop off||подвезти и высадить; оставить|eltib qoʻymoq; qoldirmoq
+phrase|pick up||забрать кого-либо|kimnidir olib ketmoq
+phrase|stop over||сделать остановку в пути|yoʻlda toʻxtab oʻtmoq
+phrase|pay back||вернуть деньги|qarzni qaytarmoq
+phrase|save up||копить деньги|pul yigʻmoq
+phrase|cut down on||сократить потребление или расходы|isteʼmolni yoki xarajatni kamaytirmoq
+phrase|sell out||распродать всё|hammasini sotib tugatmoq
+phrase|try on||примерить|kiyib koʻrmoq
+phrase|give away||отдать бесплатно|bepul bermoq
+phrase|look around||осмотреться|atrofga qaramoq
+phrase|shop around||сравнить предложения в разных магазинах|turli doʻkonlardagi narxlarni solishtirmoq
+phrase|add up||сходиться в сумме|summasi toʻgʻri chiqmoq
+phrase|mark down||снизить цену|narxni tushirmoq
+phrase|break down||сломаться|buzilmoq
+phrase|blow up||взорваться; раздуть проблему|portlamoq; muammoni boʻrttirmoq
+phrase|deal with||иметь дело с; решать|ish koʻrmoq; hal qilmoq
+phrase|come across||случайно наткнуться|tasodifan duch kelmoq
+phrase|get over||пережить; оправиться|yengib oʻtmoq; oʻziga kelmoq
+phrase|work around||найти обходное решение|aylanma yechim topmoq
+phrase|back up||сделать резервную копию; поддержать|zaxira nusxa olmoq; qoʻllab-quvvatlamoq
+phrase|fix up||починить; привести в порядок|tuzatmoq; tartibga keltirmoq
+phrase|clear up||прояснить; убрать|oydinlashtirmoq; yigʻishtirmoq
+phrase|turn out||оказаться; закончиться определённым образом|maʼlum boʻlmoq; shunday yakunlanmoq
+phrase|calm down||успокоиться|tinchlanmoq
+phrase|break down||сорваться; потерять самообладание|asabi buzilmoq; oʻzini tutolmay qolmoq
+phrase|cheer up||взбодриться|ruhini koʻtarmoq
+phrase|freak out||сильно испугаться или запаниковать|qattiq qoʻrqmoq yoki vahimaga tushmoq
+phrase|look forward to||с нетерпением ждать|intiqlik bilan kutmoq
+phrase|feel up to||чувствовать себя в силах|oʻzida kuch sezmoq
+phrase|get excited about||воодушевиться чем-либо|biror narsadan ruhlanmoq
+phrase|put up with||терпеть|chidamoq
+phrase|bottle up||держать чувства в себе|his-tuygʻularini ichiga yutmoq
+phrase|snap out of||выйти из плохого состояния|yomon holatdan chiqmoq
+phrase|bring it up||поднять эту тему|shu mavzuni koʻtarmoq
+phrase|get across||донести мысль|fikrni yetkazmoq
+phrase|cut in||перебить|gapini boʻlmoq
+phrase|butt in||вмешаться в разговор|suhbatga aralashmoq
+phrase|sum up||подвести итог|yakun yasamoq
+phrase|clear up||прояснить|oydinlashtirmoq
+phrase|leave out||опустить; не включить|tushirib qoldirmoq; kiritmaslik
+phrase|spell out||объяснить подробно|batafsil tushuntirmoq
+phrase|read into||придавать скрытый смысл|yashirin maʼno izlamoq
+phrase|talk through||обсудить по шагам|bosqichma-bosqich muhokama qilmoq
+phrase|log in||войти в систему|tizimga kirmoq
+phrase|log out||выйти из системы|tizimdan chiqmoq
+phrase|sign up||зарегистрироваться|roʻyxatdan oʻtmoq
+phrase|sign in||войти в аккаунт|hisobga kirmoq
+phrase|shut down||выключить; завершить работу|oʻchirmoq; ishni yakunlamoq
+phrase|start up||запустить|ishga tushirmoq
+phrase|back up||создать резервную копию|zaxira nusxa yaratmoq
+phrase|scroll down||прокрутить вниз|pastga aylantirmoq
+phrase|plug in||подключить к розетке или устройству|rozetkaga yoki qurilmaga ulamoq
+phrase|hook up||подключить оборудование|jihozni ulamoq
+phrase|warm up||разминаться|qizdirish mashqlarini bajarmoq
+phrase|cool down||остывать после нагрузки|mashqdan keyin tanani sovitmoq
+phrase|work out||тренироваться|mashq qilmoq
+phrase|cut out||исключить из рациона или привычек|ratsiondan yoki odatdan chiqarmoq
+phrase|give up||бросить; отказаться|tashlamoq; voz kechmoq
+phrase|come down with||заболеть чем-либо|biror kasallikka chalinmoq
+phrase|get over||выздороветь; оправиться|tuzalmoq; oʻziga kelmoq
+phrase|pass out||потерять сознание|hushdan ketmoq
+phrase|throw up||блевать; рвать|qusmoq
+phrase|build up||наращивать; укреплять|oshirib bormoq; mustahkamlamoq
+phrase|take up||начать заниматься чем-либо|biror ish bilan shugʻullana boshlamoq
+phrase|try out||испытать; попробовать|sinab koʻrmoq
+phrase|go for||попытаться получить; выбрать|erishishga urinmoq; tanlamoq
+phrase|turn down||отклонить предложение|taklifni rad etmoq
+phrase|take on||взять на себя задачу|vazifani oʻz zimmasiga olmoq
+phrase|step up||усилить усилия|saʼy-harakatni kuchaytirmoq
+phrase|branch out||расширить деятельность|faoliyatni kengaytirmoq
+phrase|miss out||упустить возможность|imkoniyatni boy bermoq
+phrase|make it||добиться успеха; успеть|muvaffaqiyatga erishmoq; ulgurmoq
+phrase|come along||появиться; продвигаться|paydo boʻlmoq; oldinga siljimoq
+phrase|grow up||взрослеть|voyaga yetmoq
+phrase|bring about||вызывать; приводить к|keltirib chiqarmoq; olib kelmoq
+phrase|build on||развивать на основе|asosida rivojlantirmoq
+phrase|phase out||постепенно выводить из использования|bosqichma-bosqich foydalanishdan chiqarmoq
+phrase|roll out||запускать; внедрять|ishga tushirmoq; joriy etmoq
+phrase|scale up||увеличивать масштаб|koʻlamini kengaytirmoq
+phrase|slow down||замедляться|sekinlashmoq
+phrase|speed up||ускоряться|tezlashmoq
+phrase|turn into||превращаться в|aylanmoq
+phrase|end up||в итоге оказаться|oxir-oqibat shunday boʻlib qolmoq
+phrase|stick to||придерживаться|amal qilmoq
+phrase|break down||разбить на части; сломаться|qismlarga boʻlmoq; buzilmoq
+phrase|get away with||избежать наказания за|jazodan qutulib ketmoq
+phrase|own up||признаться|aybini tan olmoq
+phrase|carry out||выполнять|bajarmoq
+phrase|follow through||доводить до конца|oxiriga yetkazmoq
+phrase|answer for||нести ответственность за|javob bermoq
+phrase|look into||расследовать; изучить|tekshirmoq; oʻrganmoq
+phrase|crack down on||жёстко пресекать|qatʼiy chora koʻrmoq
+phrase|lay down||устанавливать правила|qoida belgilamoq
+phrase|hold on||подождать; держаться|kutib turmoq; ushlab turmoq
+phrase|keep on||продолжать делать|qilishda davom etmoq
+phrase|carry on||продолжать|davom ettirmoq
+phrase|put aside||отложить на потом; отложить деньги|keyinga qoldirmoq; pul yigʻib qoʻymoq
+phrase|run over||затянуться сверх времени; переехать|vaqtdan oshib ketmoq; urib ketmoq
+phrase|put back||перенести на более позднее время|kechroq vaqtga koʻchirmoq
+phrase|get around to||наконец найти время для|nihoyat vaqt topmoq
+phrase|wait around||долго ждать|uzoq kutib oʻtirmoq
+phrase|stay up||не ложиться спать|uxlamay oʻtirmoq
+phrase|sleep in||спать дольше обычного|odatdagidan koʻproq uxlamoq
+phrase|drop by||зайти ненадолго|qisqa vaqtga kirib oʻtmoq
+phrase|come over||зайти в гости|mehmonga kelmoq
+phrase|go along with||согласиться; поддержать идею|rozi boʻlmoq; fikrni qoʻllab-quvvatlamoq
+phrase|join in||присоединиться к занятию|mashgʻulotga qoʻshilmoq
+phrase|see off||проводить отъезжающего|kuzatib qoʻymoq
+phrase|show around||показать местность|atrofni koʻrsatmoq
+phrase|invite over||пригласить домой|uyga taklif qilmoq
+phrase|eat out||есть вне дома|tashqarida ovqatlanmoq
+phrase|dress up||нарядно одеться|chiroyli kiyinmoq
+phrase|stay over||остаться на ночь|tunab qolmoq
+phrase|find out||выяснить|bilib olmoq
+phrase|look up||найти информацию|maʼlumot topmoq
+phrase|come up||возникнуть; появиться|yuzaga kelmoq; paydo boʻlmoq
+phrase|pick out||выбрать|tanlab olmoq
+phrase|make out||разобрать; понять|ilgʻamoq; tushunib olmoq
+phrase|catch on||понять; стать популярным|tushunib yetmoq; ommalashmoq
+phrase|check out||проверить; посмотреть|tekshirmoq; koʻrib chiqmoq
+phrase|point to||указывать на|ishora qilmoq
+phrase|turn up||появиться; обнаружиться|paydo boʻlmoq; topilmoq
+phrase|narrow down||сузить выбор|tanlovni toraytirmoq
+phrase|take off||снять; взлететь; быстро стать успешным|yechmoq; uchib ketmoq; tez muvaffaqiyat qozonmoq
+phrase|bring back||вернуть; вызвать воспоминания|qaytarmoq; xotiralarni uygʻotmoq
+phrase|give in||уступить|yon bermoq
+phrase|give up||сдаться; бросить|taslim boʻlmoq; tashlamoq
+phrase|look into||изучить; расследовать|oʻrganmoq; tekshirmoq
+phrase|make up for||компенсировать|oʻrnini qoplamoq
+phrase|put up||разместить; построить; терпеть (в выражении put up with)|joylashtirmoq; qurmoq; chidamoq (put up with iborasida)
+phrase|run into||случайно встретить; столкнуться с проблемой|tasodifan uchratmoq; muammoga duch kelmoq
+phrase|take over||взять под контроль|nazoratni qoʻlga olmoq
+phrase|turn up||появиться; увеличить громкость|paydo boʻlmoq; ovozni balandlatmoq

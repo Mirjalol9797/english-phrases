@@ -1,0 +1,1019 @@
+{
+  "chapter": "phrasal-verbs",
+  "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Frazali feʼllar",
+  "lessons": {
+    "Утро и повседневные дела": "Tong va kundalik ishlar",
+    "Дом и домашние дела": "Uy va uy yumushlari",
+    "Общение": "Muloqot",
+    "Работа и учёба": "Ish va oʻqish",
+    "Планы и прогресс": "Rejalar va natijalar",
+    "Отношения": "Munosabatlar",
+    "Путешествия и транспорт": "Sayohat va transport",
+    "Покупки и деньги": "Xaridlar va pul",
+    "Проблемы и решения": "Muammolar va yechimlar",
+    "Чувства и реакции": "His-tuygʻular va munosabat",
+    "Разговор и понимание": "Suhbat va tushunish",
+    "Технологии": "Texnologiyalar",
+    "Здоровье и спорт": "Sogʻliq va sport",
+    "Возможности": "Imkoniyatlar",
+    "Изменения и развитие": "Oʻzgarish va rivojlanish",
+    "Правила и ответственность": "Qoidalar va javobgarlik",
+    "Время и продолжение": "Vaqt va davom etish",
+    "Социальная жизнь": "Ijtimoiy hayot",
+    "Понимание и открытия": "Tushunish va kashfiyot",
+    "Частые глаголы с разными значениями": "Koʻp maʼnoli keng tarqalgan feʼllar"
+  },
+  "entries": [
+    {
+      "en": "wake up",
+      "ru": "просыпаться",
+      "uz": "uygʻonmoq"
+    },
+    {
+      "en": "get up",
+      "ru": "вставать с кровати",
+      "uz": "oʻrindan turmoq"
+    },
+    {
+      "en": "lie down",
+      "ru": "лечь",
+      "uz": "yotmoq"
+    },
+    {
+      "en": "sit down",
+      "ru": "садиться",
+      "uz": "oʻtirmoq"
+    },
+    {
+      "en": "stand up",
+      "ru": "вставать",
+      "uz": "oʻrnidan turmoq"
+    },
+    {
+      "en": "put on",
+      "ru": "надевать",
+      "uz": "kiymoq"
+    },
+    {
+      "en": "take off",
+      "ru": "снимать; взлетать",
+      "uz": "yechmoq; (samolyot) uchib ketmoq"
+    },
+    {
+      "en": "hurry up",
+      "ru": "торопиться",
+      "uz": "shoshilmoq"
+    },
+    {
+      "en": "wash up",
+      "ru": "мыть посуду; умываться (в зависимости от контекста)",
+      "uz": "idish yuvmoq; yuvinmoq (kontekstga qarab)"
+    },
+    {
+      "en": "go out",
+      "ru": "выходить; идти куда-нибудь",
+      "uz": "tashqariga chiqmoq; sayr qilgani chiqmoq"
+    },
+    {
+      "en": "clean up",
+      "ru": "убирать; приводить в порядок",
+      "uz": "tozalamoq; tartibga keltirmoq"
+    },
+    {
+      "en": "tidy up",
+      "ru": "наводить порядок",
+      "uz": "tartib oʻrnatmoq"
+    },
+    {
+      "en": "throw away",
+      "ru": "выбрасывать",
+      "uz": "tashlab yubormoq"
+    },
+    {
+      "en": "put away",
+      "ru": "убирать на место",
+      "uz": "joyiga olib qoʻymoq"
+    },
+    {
+      "en": "pick up",
+      "ru": "поднимать; забирать",
+      "uz": "koʻtarmoq; olib ketmoq"
+    },
+    {
+      "en": "turn on",
+      "ru": "включать",
+      "uz": "yoqmoq"
+    },
+    {
+      "en": "turn off",
+      "ru": "выключать",
+      "uz": "oʻchirmoq"
+    },
+    {
+      "en": "fill up",
+      "ru": "наполнять",
+      "uz": "toʻldirmoq"
+    },
+    {
+      "en": "run out of",
+      "ru": "исчерпать запас чего-либо",
+      "uz": "biror narsa tugab qolmoq"
+    },
+    {
+      "en": "look after",
+      "ru": "заботиться о",
+      "uz": "gʻamxoʻrlik qilmoq"
+    },
+    {
+      "en": "speak up",
+      "ru": "говорить громче",
+      "uz": "balandroq gapirmoq"
+    },
+    {
+      "en": "call back",
+      "ru": "перезвонить",
+      "uz": "qayta qoʻngʻiroq qilmoq"
+    },
+    {
+      "en": "hang up",
+      "ru": "повесить трубку",
+      "uz": "goʻshakni qoʻymoq"
+    },
+    {
+      "en": "get back to",
+      "ru": "вернуться с ответом к кому-либо",
+      "uz": "kimgadir javob bilan qaytmoq"
+    },
+    {
+      "en": "bring up",
+      "ru": "поднять тему",
+      "uz": "mavzuni koʻtarmoq"
+    },
+    {
+      "en": "point out",
+      "ru": "указать на",
+      "uz": "eʼtiborni qaratmoq"
+    },
+    {
+      "en": "write down",
+      "ru": "записать",
+      "uz": "yozib olmoq"
+    },
+    {
+      "en": "read out",
+      "ru": "прочитать вслух",
+      "uz": "ovoz chiqarib oʻqimoq"
+    },
+    {
+      "en": "get through",
+      "ru": "дозвониться; пройти через",
+      "uz": "dozvon qilmoq; bosib oʻtmoq"
+    },
+    {
+      "en": "talk over",
+      "ru": "обсудить",
+      "uz": "muhokama qilmoq"
+    },
+    {
+      "en": "carry out",
+      "ru": "выполнять",
+      "uz": "bajarmoq"
+    },
+    {
+      "en": "hand in",
+      "ru": "сдать работу",
+      "uz": "ishni topshirmoq"
+    },
+    {
+      "en": "hand out",
+      "ru": "раздавать",
+      "uz": "tarqatmoq"
+    },
+    {
+      "en": "fill in",
+      "ru": "заполнять",
+      "uz": "hujjatni toʻldirmoq"
+    },
+    {
+      "en": "look over",
+      "ru": "просмотреть; проверить",
+      "uz": "koʻzdan kechirmoq; tekshirmoq"
+    },
+    {
+      "en": "go over",
+      "ru": "повторить; просмотреть",
+      "uz": "takrorlamoq; koʻrib chiqmoq"
+    },
+    {
+      "en": "catch up on",
+      "ru": "наверстать",
+      "uz": "orqada qolganini toʻldirmoq"
+    },
+    {
+      "en": "keep up with",
+      "ru": "не отставать от",
+      "uz": "ortda qolmaslik"
+    },
+    {
+      "en": "fall behind",
+      "ru": "отставать",
+      "uz": "ortda qolmoq"
+    },
+    {
+      "en": "work out",
+      "ru": "решить; разработать; тренироваться",
+      "uz": "hal qilmoq; ishlab chiqmoq; mashq qilmoq"
+    },
+    {
+      "en": "set up",
+      "ru": "организовать; настроить",
+      "uz": "tashkil qilmoq; sozlamoq"
+    },
+    {
+      "en": "put off",
+      "ru": "откладывать",
+      "uz": "keyinga qoldirmoq"
+    },
+    {
+      "en": "call off",
+      "ru": "отменять",
+      "uz": "bekor qilmoq"
+    },
+    {
+      "en": "carry on",
+      "ru": "продолжать",
+      "uz": "davom ettirmoq"
+    },
+    {
+      "en": "go ahead",
+      "ru": "продолжать; приступать",
+      "uz": "davom etmoq; kirishmoq"
+    },
+    {
+      "en": "move on",
+      "ru": "двигаться дальше",
+      "uz": "oldinga siljimoq"
+    },
+    {
+      "en": "come up with",
+      "ru": "придумать",
+      "uz": "oʻylab topmoq"
+    },
+    {
+      "en": "figure out",
+      "ru": "разобраться; понять",
+      "uz": "aniqlamoq; tushunib yetmoq"
+    },
+    {
+      "en": "sort out",
+      "ru": "уладить; разобраться",
+      "uz": "hal qilmoq; tartibga solmoq"
+    },
+    {
+      "en": "follow up",
+      "ru": "вернуться к вопросу; проследить за выполнением",
+      "uz": "masalaga qaytmoq; bajarilishini kuzatmoq"
+    },
+    {
+      "en": "get along with",
+      "ru": "ладить с",
+      "uz": "chiqishmoq"
+    },
+    {
+      "en": "fall out with",
+      "ru": "поссориться с",
+      "uz": "janjallashib qolmoq"
+    },
+    {
+      "en": "make up",
+      "ru": "помириться; выдумать",
+      "uz": "yarashmoq; toʻqib chiqarmoq"
+    },
+    {
+      "en": "break up",
+      "ru": "расстаться",
+      "uz": "ajrashmoq"
+    },
+    {
+      "en": "ask out",
+      "ru": "пригласить на свидание",
+      "uz": "uchrashuvga taklif qilmoq"
+    },
+    {
+      "en": "hang out",
+      "ru": "проводить время вместе",
+      "uz": "birga vaqt oʻtkazmoq"
+    },
+    {
+      "en": "open up",
+      "ru": "открыться; поделиться переживаниями",
+      "uz": "ochilmoq; dardini aytmoq"
+    },
+    {
+      "en": "cheer up",
+      "ru": "подбодриться; развеселить",
+      "uz": "kayfiyatini koʻtarmoq"
+    },
+    {
+      "en": "look up to",
+      "ru": "уважать; брать пример с",
+      "uz": "hurmat qilmoq; ibrat olmoq"
+    },
+    {
+      "en": "count on",
+      "ru": "полагаться на",
+      "uz": "tayanmoq"
+    },
+    {
+      "en": "set off",
+      "ru": "отправиться в путь",
+      "uz": "yoʻlga chiqmoq"
+    },
+    {
+      "en": "check in",
+      "ru": "зарегистрироваться",
+      "uz": "roʻyxatdan oʻtmoq"
+    },
+    {
+      "en": "check out",
+      "ru": "выписаться; проверить",
+      "uz": "mehmonxonadan chiqmoq; tekshirmoq"
+    },
+    {
+      "en": "get in",
+      "ru": "сесть в машину; прибыть",
+      "uz": "mashinaga oʻtirmoq; yetib kelmoq"
+    },
+    {
+      "en": "get out",
+      "ru": "выйти из машины",
+      "uz": "mashinadan tushmoq"
+    },
+    {
+      "en": "get on",
+      "ru": "сесть в автобус, поезд или самолёт",
+      "uz": "avtobus, poyezd yoki samolyotga chiqmoq"
+    },
+    {
+      "en": "get off",
+      "ru": "выйти из автобуса, поезда или самолёта",
+      "uz": "avtobus, poyezd yoki samolyotdan tushmoq"
+    },
+    {
+      "en": "drop off",
+      "ru": "подвезти и высадить; оставить",
+      "uz": "eltib qoʻymoq; qoldirmoq"
+    },
+    {
+      "en": "pick up",
+      "ru": "забрать кого-либо",
+      "uz": "kimnidir olib ketmoq"
+    },
+    {
+      "en": "stop over",
+      "ru": "сделать остановку в пути",
+      "uz": "yoʻlda toʻxtab oʻtmoq"
+    },
+    {
+      "en": "pay back",
+      "ru": "вернуть деньги",
+      "uz": "qarzni qaytarmoq"
+    },
+    {
+      "en": "save up",
+      "ru": "копить деньги",
+      "uz": "pul yigʻmoq"
+    },
+    {
+      "en": "cut down on",
+      "ru": "сократить потребление или расходы",
+      "uz": "isteʼmolni yoki xarajatni kamaytirmoq"
+    },
+    {
+      "en": "sell out",
+      "ru": "распродать всё",
+      "uz": "hammasini sotib tugatmoq"
+    },
+    {
+      "en": "try on",
+      "ru": "примерить",
+      "uz": "kiyib koʻrmoq"
+    },
+    {
+      "en": "give away",
+      "ru": "отдать бесплатно",
+      "uz": "bepul bermoq"
+    },
+    {
+      "en": "look around",
+      "ru": "осмотреться",
+      "uz": "atrofga qaramoq"
+    },
+    {
+      "en": "shop around",
+      "ru": "сравнить предложения в разных магазинах",
+      "uz": "turli doʻkonlardagi narxlarni solishtirmoq"
+    },
+    {
+      "en": "add up",
+      "ru": "сходиться в сумме",
+      "uz": "summasi toʻgʻri chiqmoq"
+    },
+    {
+      "en": "mark down",
+      "ru": "снизить цену",
+      "uz": "narxni tushirmoq"
+    },
+    {
+      "en": "break down",
+      "ru": "сломаться",
+      "uz": "buzilmoq"
+    },
+    {
+      "en": "blow up",
+      "ru": "взорваться; раздуть проблему",
+      "uz": "portlamoq; muammoni boʻrttirmoq"
+    },
+    {
+      "en": "deal with",
+      "ru": "иметь дело с; решать",
+      "uz": "ish koʻrmoq; hal qilmoq"
+    },
+    {
+      "en": "come across",
+      "ru": "случайно наткнуться",
+      "uz": "tasodifan duch kelmoq"
+    },
+    {
+      "en": "get over",
+      "ru": "пережить; оправиться",
+      "uz": "yengib oʻtmoq; oʻziga kelmoq"
+    },
+    {
+      "en": "work around",
+      "ru": "найти обходное решение",
+      "uz": "aylanma yechim topmoq"
+    },
+    {
+      "en": "back up",
+      "ru": "сделать резервную копию; поддержать",
+      "uz": "zaxira nusxa olmoq; qoʻllab-quvvatlamoq"
+    },
+    {
+      "en": "fix up",
+      "ru": "починить; привести в порядок",
+      "uz": "tuzatmoq; tartibga keltirmoq"
+    },
+    {
+      "en": "clear up",
+      "ru": "прояснить; убрать",
+      "uz": "oydinlashtirmoq; yigʻishtirmoq"
+    },
+    {
+      "en": "turn out",
+      "ru": "оказаться; закончиться определённым образом",
+      "uz": "maʼlum boʻlmoq; shunday yakunlanmoq"
+    },
+    {
+      "en": "calm down",
+      "ru": "успокоиться",
+      "uz": "tinchlanmoq"
+    },
+    {
+      "en": "break down",
+      "ru": "сорваться; потерять самообладание",
+      "uz": "asabi buzilmoq; oʻzini tutolmay qolmoq"
+    },
+    {
+      "en": "cheer up",
+      "ru": "взбодриться",
+      "uz": "ruhini koʻtarmoq"
+    },
+    {
+      "en": "freak out",
+      "ru": "сильно испугаться или запаниковать",
+      "uz": "qattiq qoʻrqmoq yoki vahimaga tushmoq"
+    },
+    {
+      "en": "look forward to",
+      "ru": "с нетерпением ждать",
+      "uz": "intiqlik bilan kutmoq"
+    },
+    {
+      "en": "feel up to",
+      "ru": "чувствовать себя в силах",
+      "uz": "oʻzida kuch sezmoq"
+    },
+    {
+      "en": "get excited about",
+      "ru": "воодушевиться чем-либо",
+      "uz": "biror narsadan ruhlanmoq"
+    },
+    {
+      "en": "put up with",
+      "ru": "терпеть",
+      "uz": "chidamoq"
+    },
+    {
+      "en": "bottle up",
+      "ru": "держать чувства в себе",
+      "uz": "his-tuygʻularini ichiga yutmoq"
+    },
+    {
+      "en": "snap out of",
+      "ru": "выйти из плохого состояния",
+      "uz": "yomon holatdan chiqmoq"
+    },
+    {
+      "en": "bring it up",
+      "ru": "поднять эту тему",
+      "uz": "shu mavzuni koʻtarmoq"
+    },
+    {
+      "en": "get across",
+      "ru": "донести мысль",
+      "uz": "fikrni yetkazmoq"
+    },
+    {
+      "en": "cut in",
+      "ru": "перебить",
+      "uz": "gapini boʻlmoq"
+    },
+    {
+      "en": "butt in",
+      "ru": "вмешаться в разговор",
+      "uz": "suhbatga aralashmoq"
+    },
+    {
+      "en": "sum up",
+      "ru": "подвести итог",
+      "uz": "yakun yasamoq"
+    },
+    {
+      "en": "clear up",
+      "ru": "прояснить",
+      "uz": "oydinlashtirmoq"
+    },
+    {
+      "en": "leave out",
+      "ru": "опустить; не включить",
+      "uz": "tushirib qoldirmoq; kiritmaslik"
+    },
+    {
+      "en": "spell out",
+      "ru": "объяснить подробно",
+      "uz": "batafsil tushuntirmoq"
+    },
+    {
+      "en": "read into",
+      "ru": "придавать скрытый смысл",
+      "uz": "yashirin maʼno izlamoq"
+    },
+    {
+      "en": "talk through",
+      "ru": "обсудить по шагам",
+      "uz": "bosqichma-bosqich muhokama qilmoq"
+    },
+    {
+      "en": "log in",
+      "ru": "войти в систему",
+      "uz": "tizimga kirmoq"
+    },
+    {
+      "en": "log out",
+      "ru": "выйти из системы",
+      "uz": "tizimdan chiqmoq"
+    },
+    {
+      "en": "sign up",
+      "ru": "зарегистрироваться",
+      "uz": "roʻyxatdan oʻtmoq"
+    },
+    {
+      "en": "sign in",
+      "ru": "войти в аккаунт",
+      "uz": "hisobga kirmoq"
+    },
+    {
+      "en": "shut down",
+      "ru": "выключить; завершить работу",
+      "uz": "oʻchirmoq; ishni yakunlamoq"
+    },
+    {
+      "en": "start up",
+      "ru": "запустить",
+      "uz": "ishga tushirmoq"
+    },
+    {
+      "en": "back up",
+      "ru": "создать резервную копию",
+      "uz": "zaxira nusxa yaratmoq"
+    },
+    {
+      "en": "scroll down",
+      "ru": "прокрутить вниз",
+      "uz": "pastga aylantirmoq"
+    },
+    {
+      "en": "plug in",
+      "ru": "подключить к розетке или устройству",
+      "uz": "rozetkaga yoki qurilmaga ulamoq"
+    },
+    {
+      "en": "hook up",
+      "ru": "подключить оборудование",
+      "uz": "jihozni ulamoq"
+    },
+    {
+      "en": "warm up",
+      "ru": "разминаться",
+      "uz": "qizdirish mashqlarini bajarmoq"
+    },
+    {
+      "en": "cool down",
+      "ru": "остывать после нагрузки",
+      "uz": "mashqdan keyin tanani sovitmoq"
+    },
+    {
+      "en": "work out",
+      "ru": "тренироваться",
+      "uz": "mashq qilmoq"
+    },
+    {
+      "en": "cut out",
+      "ru": "исключить из рациона или привычек",
+      "uz": "ratsiondan yoki odatdan chiqarmoq"
+    },
+    {
+      "en": "give up",
+      "ru": "бросить; отказаться",
+      "uz": "tashlamoq; voz kechmoq"
+    },
+    {
+      "en": "come down with",
+      "ru": "заболеть чем-либо",
+      "uz": "biror kasallikka chalinmoq"
+    },
+    {
+      "en": "get over",
+      "ru": "выздороветь; оправиться",
+      "uz": "tuzalmoq; oʻziga kelmoq"
+    },
+    {
+      "en": "pass out",
+      "ru": "потерять сознание",
+      "uz": "hushdan ketmoq"
+    },
+    {
+      "en": "throw up",
+      "ru": "блевать; рвать",
+      "uz": "qusmoq"
+    },
+    {
+      "en": "build up",
+      "ru": "наращивать; укреплять",
+      "uz": "oshirib bormoq; mustahkamlamoq"
+    },
+    {
+      "en": "take up",
+      "ru": "начать заниматься чем-либо",
+      "uz": "biror ish bilan shugʻullana boshlamoq"
+    },
+    {
+      "en": "try out",
+      "ru": "испытать; попробовать",
+      "uz": "sinab koʻrmoq"
+    },
+    {
+      "en": "go for",
+      "ru": "попытаться получить; выбрать",
+      "uz": "erishishga urinmoq; tanlamoq"
+    },
+    {
+      "en": "turn down",
+      "ru": "отклонить предложение",
+      "uz": "taklifni rad etmoq"
+    },
+    {
+      "en": "take on",
+      "ru": "взять на себя задачу",
+      "uz": "vazifani oʻz zimmasiga olmoq"
+    },
+    {
+      "en": "step up",
+      "ru": "усилить усилия",
+      "uz": "saʼy-harakatni kuchaytirmoq"
+    },
+    {
+      "en": "branch out",
+      "ru": "расширить деятельность",
+      "uz": "faoliyatni kengaytirmoq"
+    },
+    {
+      "en": "miss out",
+      "ru": "упустить возможность",
+      "uz": "imkoniyatni boy bermoq"
+    },
+    {
+      "en": "make it",
+      "ru": "добиться успеха; успеть",
+      "uz": "muvaffaqiyatga erishmoq; ulgurmoq"
+    },
+    {
+      "en": "come along",
+      "ru": "появиться; продвигаться",
+      "uz": "paydo boʻlmoq; oldinga siljimoq"
+    },
+    {
+      "en": "grow up",
+      "ru": "взрослеть",
+      "uz": "voyaga yetmoq"
+    },
+    {
+      "en": "bring about",
+      "ru": "вызывать; приводить к",
+      "uz": "keltirib chiqarmoq; olib kelmoq"
+    },
+    {
+      "en": "build on",
+      "ru": "развивать на основе",
+      "uz": "asosida rivojlantirmoq"
+    },
+    {
+      "en": "phase out",
+      "ru": "постепенно выводить из использования",
+      "uz": "bosqichma-bosqich foydalanishdan chiqarmoq"
+    },
+    {
+      "en": "roll out",
+      "ru": "запускать; внедрять",
+      "uz": "ishga tushirmoq; joriy etmoq"
+    },
+    {
+      "en": "scale up",
+      "ru": "увеличивать масштаб",
+      "uz": "koʻlamini kengaytirmoq"
+    },
+    {
+      "en": "slow down",
+      "ru": "замедляться",
+      "uz": "sekinlashmoq"
+    },
+    {
+      "en": "speed up",
+      "ru": "ускоряться",
+      "uz": "tezlashmoq"
+    },
+    {
+      "en": "turn into",
+      "ru": "превращаться в",
+      "uz": "aylanmoq"
+    },
+    {
+      "en": "end up",
+      "ru": "в итоге оказаться",
+      "uz": "oxir-oqibat shunday boʻlib qolmoq"
+    },
+    {
+      "en": "stick to",
+      "ru": "придерживаться",
+      "uz": "amal qilmoq"
+    },
+    {
+      "en": "break down",
+      "ru": "разбить на части; сломаться",
+      "uz": "qismlarga boʻlmoq; buzilmoq"
+    },
+    {
+      "en": "get away with",
+      "ru": "избежать наказания за",
+      "uz": "jazodan qutulib ketmoq"
+    },
+    {
+      "en": "own up",
+      "ru": "признаться",
+      "uz": "aybini tan olmoq"
+    },
+    {
+      "en": "follow through",
+      "ru": "доводить до конца",
+      "uz": "oxiriga yetkazmoq"
+    },
+    {
+      "en": "answer for",
+      "ru": "нести ответственность за",
+      "uz": "javob bermoq"
+    },
+    {
+      "en": "look into",
+      "ru": "расследовать; изучить",
+      "uz": "tekshirmoq; oʻrganmoq"
+    },
+    {
+      "en": "crack down on",
+      "ru": "жёстко пресекать",
+      "uz": "qatʼiy chora koʻrmoq"
+    },
+    {
+      "en": "lay down",
+      "ru": "устанавливать правила",
+      "uz": "qoida belgilamoq"
+    },
+    {
+      "en": "hold on",
+      "ru": "подождать; держаться",
+      "uz": "kutib turmoq; ushlab turmoq"
+    },
+    {
+      "en": "keep on",
+      "ru": "продолжать делать",
+      "uz": "qilishda davom etmoq"
+    },
+    {
+      "en": "put aside",
+      "ru": "отложить на потом; отложить деньги",
+      "uz": "keyinga qoldirmoq; pul yigʻib qoʻymoq"
+    },
+    {
+      "en": "run over",
+      "ru": "затянуться сверх времени; переехать",
+      "uz": "vaqtdan oshib ketmoq; urib ketmoq"
+    },
+    {
+      "en": "put back",
+      "ru": "перенести на более позднее время",
+      "uz": "kechroq vaqtga koʻchirmoq"
+    },
+    {
+      "en": "get around to",
+      "ru": "наконец найти время для",
+      "uz": "nihoyat vaqt topmoq"
+    },
+    {
+      "en": "wait around",
+      "ru": "долго ждать",
+      "uz": "uzoq kutib oʻtirmoq"
+    },
+    {
+      "en": "stay up",
+      "ru": "не ложиться спать",
+      "uz": "uxlamay oʻtirmoq"
+    },
+    {
+      "en": "sleep in",
+      "ru": "спать дольше обычного",
+      "uz": "odatdagidan koʻproq uxlamoq"
+    },
+    {
+      "en": "drop by",
+      "ru": "зайти ненадолго",
+      "uz": "qisqa vaqtga kirib oʻtmoq"
+    },
+    {
+      "en": "come over",
+      "ru": "зайти в гости",
+      "uz": "mehmonga kelmoq"
+    },
+    {
+      "en": "go along with",
+      "ru": "согласиться; поддержать идею",
+      "uz": "rozi boʻlmoq; fikrni qoʻllab-quvvatlamoq"
+    },
+    {
+      "en": "join in",
+      "ru": "присоединиться к занятию",
+      "uz": "mashgʻulotga qoʻshilmoq"
+    },
+    {
+      "en": "see off",
+      "ru": "проводить отъезжающего",
+      "uz": "kuzatib qoʻymoq"
+    },
+    {
+      "en": "show around",
+      "ru": "показать местность",
+      "uz": "atrofni koʻrsatmoq"
+    },
+    {
+      "en": "invite over",
+      "ru": "пригласить домой",
+      "uz": "uyga taklif qilmoq"
+    },
+    {
+      "en": "eat out",
+      "ru": "есть вне дома",
+      "uz": "tashqarida ovqatlanmoq"
+    },
+    {
+      "en": "dress up",
+      "ru": "нарядно одеться",
+      "uz": "chiroyli kiyinmoq"
+    },
+    {
+      "en": "stay over",
+      "ru": "остаться на ночь",
+      "uz": "tunab qolmoq"
+    },
+    {
+      "en": "find out",
+      "ru": "выяснить",
+      "uz": "bilib olmoq"
+    },
+    {
+      "en": "look up",
+      "ru": "найти информацию",
+      "uz": "maʼlumot topmoq"
+    },
+    {
+      "en": "come up",
+      "ru": "возникнуть; появиться",
+      "uz": "yuzaga kelmoq; paydo boʻlmoq"
+    },
+    {
+      "en": "pick out",
+      "ru": "выбрать",
+      "uz": "tanlab olmoq"
+    },
+    {
+      "en": "make out",
+      "ru": "разобрать; понять",
+      "uz": "ilgʻamoq; tushunib olmoq"
+    },
+    {
+      "en": "catch on",
+      "ru": "понять; стать популярным",
+      "uz": "tushunib yetmoq; ommalashmoq"
+    },
+    {
+      "en": "check out",
+      "ru": "проверить; посмотреть",
+      "uz": "tekshirmoq; koʻrib chiqmoq"
+    },
+    {
+      "en": "point to",
+      "ru": "указывать на",
+      "uz": "ishora qilmoq"
+    },
+    {
+      "en": "turn up",
+      "ru": "появиться; обнаружиться",
+      "uz": "paydo boʻlmoq; topilmoq"
+    },
+    {
+      "en": "narrow down",
+      "ru": "сузить выбор",
+      "uz": "tanlovni toraytirmoq"
+    },
+    {
+      "en": "take off",
+      "ru": "снять; взлететь; быстро стать успешным",
+      "uz": "yechmoq; uchib ketmoq; tez muvaffaqiyat qozonmoq"
+    },
+    {
+      "en": "bring back",
+      "ru": "вернуть; вызвать воспоминания",
+      "uz": "qaytarmoq; xotiralarni uygʻotmoq"
+    },
+    {
+      "en": "give in",
+      "ru": "уступить",
+      "uz": "yon bermoq"
+    },
+    {
+      "en": "give up",
+      "ru": "сдаться; бросить",
+      "uz": "taslim boʻlmoq; tashlamoq"
+    },
+    {
+      "en": "look into",
+      "ru": "изучить; расследовать",
+      "uz": "oʻrganmoq; tekshirmoq"
+    },
+    {
+      "en": "make up for",
+      "ru": "компенсировать",
+      "uz": "oʻrnini qoplamoq"
+    },
+    {
+      "en": "put up",
+      "ru": "разместить; построить; терпеть (в выражении put up with)",
+      "uz": "joylashtirmoq; qurmoq; chidamoq (put up with iborasida)"
+    },
+    {
+      "en": "run into",
+      "ru": "случайно встретить; столкнуться с проблемой",
+      "uz": "tasodifan uchratmoq; muammoga duch kelmoq"
+    },
+    {
+      "en": "take over",
+      "ru": "взять под контроль",
+      "uz": "nazoratni qoʻlga olmoq"
+    },
+    {
+      "en": "turn up",
+      "ru": "появиться; увеличить громкость",
+      "uz": "paydo boʻlmoq; ovozni balandlatmoq"
+    }
+  ]
+}
