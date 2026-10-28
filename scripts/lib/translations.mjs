@@ -27,6 +27,34 @@ export async function loadTranslation(dir, chapterId) {
  * Почему не попадает: в упражнении перемешались бы языки — ответ по-узбекски,
  * неверные варианты по-русски, и ответ стало бы видно по языку.
  */
+const CYRILLIC = /[А-Яа-яЁё]/
+
+/**
+ * Что проверяем у каждой записи перевода.
+ *
+ * Кириллица в узбекском — почти наверняка непереведённый кусок: латиница
+ * официальная, и смешивать их незачем. Дословное совпадение с русским —
+ * признак того, что строку скопировали и забыли перевести.
+ */
+function checkEntry(entry, where) {
+  const problems = []
+  const texts = [
+    ['перевод', entry.uz, entry.ru],
+    ...(entry.examples ?? []).map((example, i) => [`пример ${i + 1}`, example.uz, example.ru]),
+  ]
+
+  for (const [what, uz, ru] of texts) {
+    if (!uz) continue
+    if (CYRILLIC.test(uz)) {
+      problems.push(`${where}: у «${entry.en}» в узбекском ${what}е осталась кириллица — «${uz}».`)
+    }
+    if (ru && uz.trim() === ru.trim()) {
+      problems.push(`${where}: у «${entry.en}» узбекский ${what} дословно совпал с русским.`)
+    }
+  }
+  return problems
+}
+
 export function applyTranslation(chapter, translation) {
   const problems = []
   const warnings = []
@@ -50,10 +78,17 @@ export function applyTranslation(chapter, translation) {
       total += 1
       const found = entries.get(translationKey(phrase.en, phrase.pos, phrase.ru))
       if (!found) continue
+      // Русский текст примера известен только из главы: в файле перевода его нет.
+      for (const example of found.examples ?? []) {
+        example.ru = (phrase.examples ?? []).find((e) => e.en === example.en)?.ru
+      }
       used.add(translationKey(found.en, found.pos, found.ru))
       if (found.uz) applied.push({ phrase, entry: found })
     }
   }
+
+  // Проверяем после сопоставления: русский текст примера берётся из главы.
+  for (const entry of entries.values()) problems.push(...checkEntry(entry, where))
 
   for (const key of entries.keys()) {
     if (!used.has(key)) {

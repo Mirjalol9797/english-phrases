@@ -119,3 +119,54 @@ describe('перевод главы', () => {
     expect(translationKey('rock', 'n.', 'камень')).not.toBe(translationKey('rock', 'n.', 'рок'))
   })
 })
+
+describe('качество перевода', () => {
+  it('ловит кириллицу в узбекском: это непереведённый кусок', () => {
+    const c = chapter()
+    const { problems } = applyTranslation(
+      c,
+      translation([
+        { en: 'Hi!', ru: 'Привет!', uz: 'Salom, привет!' },
+        { en: 'Bye!', ru: 'Пока!', uz: 'Xayr!' },
+      ]),
+    )
+    expect(problems.join(' ')).toContain('осталась кириллица')
+  })
+
+  it('ловит перевод, дословно совпавший с русским', () => {
+    const c = chapter()
+    const { problems } = applyTranslation(
+      c,
+      translation([
+        { en: 'Hi!', ru: 'Привет!', uz: 'Привет!' },
+        { en: 'Bye!', ru: 'Пока!', uz: 'Xayr!' },
+      ]),
+    )
+    expect(problems.join(' ')).toContain('дословно совпал с русским')
+  })
+
+  it('кириллицу в примере тоже ловит', () => {
+    const c = chapter()
+    c.lessons[0].phrases[0].examples = [{ en: 'Hi there!', ru: 'Привет!' }]
+    const { problems } = applyTranslation(
+      c,
+      translation([
+        { en: 'Hi!', ru: 'Привет!', uz: 'Salom!', examples: [{ en: 'Hi there!', uz: 'Привет!' }] },
+        { en: 'Bye!', ru: 'Пока!', uz: 'Xayr!' },
+      ]),
+    )
+    expect(problems.join(' ')).toContain('осталась кириллица')
+  })
+
+  it('правильный перевод ничего не выдаёт', () => {
+    const c = chapter()
+    const { problems } = applyTranslation(
+      c,
+      translation([
+        { en: 'Hi!', ru: 'Привет!', uz: 'Salom!' },
+        { en: 'Bye!', ru: 'Пока!', uz: 'Xayr!' },
+      ]),
+    )
+    expect(problems).toEqual([])
+  })
+})
