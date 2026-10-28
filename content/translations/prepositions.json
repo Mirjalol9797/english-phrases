@@ -1,6 +1,43 @@
 {
   "chapter": "prepositions",
   "note": "Узбекский перевод главы. Собран командой scripts/translate-chapter.mjs build — правьте content/translations/work/<глава>.txt, а не этот файл.",
+  "title": "Ingliz tili predloglari",
+  "lessons": {
+    "Выражения с «in»": "«in» bilan iboralar",
+    "Выражения с «on»": "«on» bilan iboralar",
+    "Выражения с «at»": "«at» bilan iboralar",
+    "Выражения с «for»": "«for» bilan iboralar",
+    "Выражения с «to»": "«to» bilan iboralar",
+    "Выражения с «from»": "«from» bilan iboralar",
+    "Выражения с «with»": "«with» bilan iboralar",
+    "Выражения с «about»": "«about» bilan iboralar",
+    "Выражения с «of»": "«of» bilan iboralar",
+    "Выражения с «by»": "«by» bilan iboralar",
+    "Выражения с «without»": "«without» bilan iboralar",
+    "Выражения с «before»": "«before» bilan iboralar",
+    "Выражения с «after»": "«after» bilan iboralar",
+    "Выражения с «during»": "«during» bilan iboralar",
+    "Выражения с «between»": "«between» bilan iboralar",
+    "Выражения с «among»": "«among» bilan iboralar",
+    "Выражения с «under»": "«under» bilan iboralar",
+    "Выражения с «over»": "«over» bilan iboralar",
+    "Выражения с «above»": "«above» bilan iboralar",
+    "Выражения с «below»": "«below» bilan iboralar",
+    "Выражения с «behind»": "«behind» bilan iboralar",
+    "Выражения с «in front of»": "«in front of» bilan iboralar",
+    "Выражения с «next to»": "«next to» bilan iboralar",
+    "Выражения с «near»": "«near» bilan iboralar",
+    "Выражения с «across»": "«across» bilan iboralar",
+    "Выражения с «through»": "«through» bilan iboralar",
+    "Выражения с «around»": "«around» bilan iboralar",
+    "Выражения с «into»": "«into» bilan iboralar",
+    "Выражения с «out of»": "«out of» bilan iboralar",
+    "Выражения с «up»": "«up» bilan iboralar",
+    "Выражения с «down»": "«down» bilan iboralar",
+    "Выражения с «off»": "«off» bilan iboralar",
+    "Выражения с «past»": "«past» bilan iboralar",
+    "Выражения с «towards»": "«towards» bilan iboralar"
+  },
   "entries": [
     {
       "en": "in the morning",
@@ -1297,6 +1334,1304 @@
         {
           "en": "Don't talk during the lesson.",
           "uz": "Dars vaqtida gaplashmang."
+        }
+      ]
+    },
+    {
+      "en": "during my holiday",
+      "ru": "во время моего отпуска",
+      "uz": "taʼtilim davomida",
+      "examples": [
+        {
+          "en": "I read three books during my holiday.",
+          "uz": "Men taʼtilim davomida uchta kitob oʻqidim."
+        }
+      ]
+    },
+    {
+      "en": "between you and me",
+      "ru": "между нами",
+      "uz": "oramizda qolsin",
+      "examples": [
+        {
+          "en": "Between you and me, I don't like this plan.",
+          "uz": "Oramizda qolsin, menga bu reja yoqmaydi."
+        }
+      ]
+    },
+    {
+      "en": "between two buildings",
+      "ru": "между двумя зданиями",
+      "uz": "ikki bino orasida",
+      "examples": [
+        {
+          "en": "The café is between two buildings.",
+          "uz": "Kafe ikki bino orasida."
+        }
+      ]
+    },
+    {
+      "en": "between Monday and Friday",
+      "ru": "между понедельником и пятницей",
+      "uz": "dushanba bilan juma orasida",
+      "examples": [
+        {
+          "en": "I'll call you between Monday and Friday.",
+          "uz": "Men sizga dushanba bilan juma orasida qoʻngʻiroq qilaman."
+        }
+      ]
+    },
+    {
+      "en": "choose between",
+      "ru": "выбирать между",
+      "uz": "orasidan tanlamoq",
+      "examples": [
+        {
+          "en": "You must choose between these two options.",
+          "uz": "Siz shu ikki variant orasidan tanlashingiz kerak."
+        }
+      ]
+    },
+    {
+      "en": "share between us",
+      "ru": "разделить между нами",
+      "uz": "oʻzaro boʻlishmoq",
+      "examples": [
+        {
+          "en": "Let's share the cost between us.",
+          "uz": "Keling, xarajatni oʻzaro boʻlishamiz."
+        }
+      ]
+    },
+    {
+      "en": "the difference between",
+      "ru": "разница между",
+      "uz": "orasidagi farq",
+      "examples": [
+        {
+          "en": "What's the difference between these words?",
+          "uz": "Bu soʻzlar orasidagi farq nima?"
+        }
+      ]
+    },
+    {
+      "en": "among friends",
+      "ru": "среди друзей",
+      "uz": "doʻstlar orasida",
+      "examples": [
+        {
+          "en": "I feel comfortable among friends.",
+          "uz": "Men doʻstlar orasida oʻzimni erkin his qilaman."
+        }
+      ]
+    },
+    {
+      "en": "among the best",
+      "ru": "среди лучших",
+      "uz": "eng yaxshilar qatorida",
+      "examples": [
+        {
+          "en": "She's among the best students in class.",
+          "uz": "U sinfdagi eng yaxshi oʻquvchilar qatorida."
+        }
+      ]
+    },
+    {
+      "en": "among other things",
+      "ru": "среди прочего",
+      "uz": "boshqa narsalar qatori",
+      "examples": [
+        {
+          "en": "Among other things, we discussed the budget.",
+          "uz": "Boshqa narsalar qatori byudjetni ham muhokama qildik."
+        }
+      ]
+    },
+    {
+      "en": "share among yourselves",
+      "ru": "разделить между собой",
+      "uz": "oʻzaro taqsimlamoq",
+      "examples": [
+        {
+          "en": "Share the sweets among yourselves.",
+          "uz": "Shirinliklarni oʻzaro taqsimlang."
+        }
+      ]
+    },
+    {
+      "en": "popular among young people",
+      "ru": "популярный среди молодёжи",
+      "uz": "yoshlar orasida mashhur",
+      "examples": [
+        {
+          "en": "This app is popular among young people.",
+          "uz": "Bu ilova yoshlar orasida mashhur."
+        }
+      ]
+    },
+    {
+      "en": "under the table",
+      "ru": "под столом",
+      "uz": "stol tagida",
+      "examples": [
+        {
+          "en": "The cat is under the table.",
+          "uz": "Mushuk stol tagida."
+        }
+      ]
+    },
+    {
+      "en": "under the bed",
+      "ru": "под кроватью",
+      "uz": "karavot tagida",
+      "examples": [
+        {
+          "en": "I found my shoes under the bed.",
+          "uz": "Men oyoq kiyimimni karavot tagidan topdim."
+        }
+      ]
+    },
+    {
+      "en": "under 18",
+      "ru": "младше 18 лет",
+      "uz": "18 yoshdan kichik",
+      "examples": [
+        {
+          "en": "Children under 18 can enter for free.",
+          "uz": "18 yoshdan kichik bolalar bepul kiradi."
+        }
+      ]
+    },
+    {
+      "en": "under pressure",
+      "ru": "под давлением",
+      "uz": "bosim ostida",
+      "examples": [
+        {
+          "en": "I work better when I'm not under pressure.",
+          "uz": "Men bosim ostida boʻlmaganimda yaxshiroq ishlayman."
+        }
+      ]
+    },
+    {
+      "en": "under control",
+      "ru": "под контролем",
+      "uz": "nazorat ostida",
+      "examples": [
+        {
+          "en": "Don't worry; everything is under control.",
+          "uz": "Xavotir olmang; hammasi nazorat ostida."
+        }
+      ]
+    },
+    {
+      "en": "under construction",
+      "ru": "на реконструкции; строится",
+      "uz": "qurilish ishlari ketyapti",
+      "examples": [
+        {
+          "en": "The road is under construction.",
+          "uz": "Yoʻlda qurilish ishlari ketyapti."
+        }
+      ]
+    },
+    {
+      "en": "under the weather",
+      "ru": "плохо себя чувствовать",
+      "uz": "oʻzini yaxshi his qilmaslik",
+      "examples": [
+        {
+          "en": "I'm feeling a bit under the weather today.",
+          "uz": "Bugun oʻzimni unchalik yaxshi his qilmayapman."
+        }
+      ]
+    },
+    {
+      "en": "over the bridge",
+      "ru": "через мост",
+      "uz": "koʻprik orqali",
+      "examples": [
+        {
+          "en": "We walked over the bridge.",
+          "uz": "Biz koʻprik orqali piyoda oʻtdik."
+        }
+      ]
+    },
+    {
+      "en": "over there",
+      "ru": "вон там",
+      "uz": "ana u yerda",
+      "examples": [
+        {
+          "en": "The bus stop is over there.",
+          "uz": "Avtobus bekati ana u yerda."
+        }
+      ]
+    },
+    {
+      "en": "over 100 people",
+      "ru": "более 100 человек",
+      "uz": "100 dan ortiq odam",
+      "examples": [
+        {
+          "en": "Over 100 people came to the event.",
+          "uz": "Tadbirga 100 dan ortiq odam keldi."
+        }
+      ]
+    },
+    {
+      "en": "all over the world",
+      "ru": "по всему миру",
+      "uz": "butun dunyo boʻylab",
+      "examples": [
+        {
+          "en": "People use this app all over the world.",
+          "uz": "Bu ilovadan butun dunyo boʻylab odamlar foydalanadi."
+        }
+      ]
+    },
+    {
+      "en": "over the weekend",
+      "ru": "за выходные",
+      "uz": "dam olish kunlari davomida",
+      "examples": [
+        {
+          "en": "I finished the book over the weekend.",
+          "uz": "Men kitobni dam olish kunlari davomida tugatdim."
+        }
+      ]
+    },
+    {
+      "en": "get over something",
+      "ru": "пережить; оправиться",
+      "uz": "biror narsadan keyin oʻziga kelmoq",
+      "examples": [
+        {
+          "en": "It took me time to get over the flu.",
+          "uz": "Grippdan keyin oʻzimga kelishim uchun vaqt kerak boʻldi."
+        }
+      ]
+    },
+    {
+      "en": "over and over again",
+      "ru": "снова и снова",
+      "uz": "qayta-qayta",
+      "examples": [
+        {
+          "en": "I listened to the song over and over again.",
+          "uz": "Men qoʻshiqni qayta-qayta tingladim."
+        }
+      ]
+    },
+    {
+      "en": "above the door",
+      "ru": "над дверью",
+      "uz": "eshik tepasida",
+      "examples": [
+        {
+          "en": "There's a clock above the door.",
+          "uz": "Eshik tepasida soat bor."
+        }
+      ]
+    },
+    {
+      "en": "above average",
+      "ru": "выше среднего",
+      "uz": "oʻrtachadan yuqori",
+      "examples": [
+        {
+          "en": "Her English is above average.",
+          "uz": "Uning ingliz tili oʻrtachadan yuqori."
+        }
+      ]
+    },
+    {
+      "en": "above all",
+      "ru": "прежде всего",
+      "uz": "eng avvalo",
+      "examples": [
+        {
+          "en": "Above all, be honest.",
+          "uz": "Eng avvalo, halol boʻling."
+        }
+      ]
+    },
+    {
+      "en": "the temperature is above zero",
+      "ru": "температура выше нуля",
+      "uz": "harorat noldan yuqori",
+      "examples": [
+        {
+          "en": "The temperature is above zero today.",
+          "uz": "Bugun harorat noldan yuqori."
+        }
+      ]
+    },
+    {
+      "en": "mentioned above",
+      "ru": "упомянутый выше",
+      "uz": "yuqorida tilga olingan",
+      "examples": [
+        {
+          "en": "Please read the information mentioned above.",
+          "uz": "Iltimos, yuqorida tilga olingan maʼlumotni oʻqing."
+        }
+      ]
+    },
+    {
+      "en": "below zero",
+      "ru": "ниже нуля",
+      "uz": "noldan past",
+      "examples": [
+        {
+          "en": "It's five degrees below zero.",
+          "uz": "Havo noldan besh daraja past."
+        }
+      ]
+    },
+    {
+      "en": "below average",
+      "ru": "ниже среднего",
+      "uz": "oʻrtachadan past",
+      "examples": [
+        {
+          "en": "His score was below average.",
+          "uz": "Uning natijasi oʻrtachadan past edi."
+        }
+      ]
+    },
+    {
+      "en": "below the window",
+      "ru": "под окном; ниже окна",
+      "uz": "deraza tagida",
+      "examples": [
+        {
+          "en": "The desk is below the window.",
+          "uz": "Stol deraza tagida."
+        }
+      ]
+    },
+    {
+      "en": "see below",
+      "ru": "см. ниже",
+      "uz": "quyiga qarang",
+      "examples": [
+        {
+          "en": "Please see the details below.",
+          "uz": "Iltimos, tafsilotlarni quyida koʻring."
+        }
+      ]
+    },
+    {
+      "en": "below sea level",
+      "ru": "ниже уровня моря",
+      "uz": "dengiz sathidan past",
+      "examples": [
+        {
+          "en": "Some parts of the city are below sea level.",
+          "uz": "Shaharning baʼzi qismlari dengiz sathidan past."
+        }
+      ]
+    },
+    {
+      "en": "behind me",
+      "ru": "позади меня",
+      "uz": "orqamda",
+      "examples": [
+        {
+          "en": "Someone is standing behind me.",
+          "uz": "Kimdir orqamda turibdi."
+        }
+      ]
+    },
+    {
+      "en": "behind the house",
+      "ru": "за домом",
+      "uz": "uy orqasida",
+      "examples": [
+        {
+          "en": "There's a garden behind the house.",
+          "uz": "Uy orqasida bogʻ bor."
+        }
+      ]
+    },
+    {
+      "en": "behind schedule",
+      "ru": "с отставанием от графика",
+      "uz": "jadvaldan orqada",
+      "examples": [
+        {
+          "en": "We're behind schedule.",
+          "uz": "Biz jadvaldan orqadamiz."
+        }
+      ]
+    },
+    {
+      "en": "behind the scenes",
+      "ru": "за кулисами",
+      "uz": "parda ortida",
+      "examples": [
+        {
+          "en": "She works behind the scenes.",
+          "uz": "U parda ortida ishlaydi."
+        }
+      ]
+    },
+    {
+      "en": "fall behind",
+      "ru": "отставать",
+      "uz": "ortda qolmoq",
+      "examples": [
+        {
+          "en": "I missed a lesson and fell behind.",
+          "uz": "Men bir darsni qoldirib, ortda qoldim."
+        }
+      ]
+    },
+    {
+      "en": "behind the wheel",
+      "ru": "за рулём",
+      "uz": "rulda",
+      "examples": [
+        {
+          "en": "Never use your phone behind the wheel.",
+          "uz": "Rulda hech qachon telefondan foydalanmang."
+        }
+      ]
+    },
+    {
+      "en": "in front of the house",
+      "ru": "перед домом",
+      "uz": "uy oldida",
+      "examples": [
+        {
+          "en": "The car is in front of the house.",
+          "uz": "Mashina uy oldida."
+        }
+      ]
+    },
+    {
+      "en": "in front of me",
+      "ru": "передо мной",
+      "uz": "mening oldimda",
+      "examples": [
+        {
+          "en": "Please stand in front of me.",
+          "uz": "Iltimos, mening oldimda turing."
+        }
+      ]
+    },
+    {
+      "en": "in front of the bank",
+      "ru": "перед банком",
+      "uz": "bank oldida",
+      "examples": [
+        {
+          "en": "I'll wait in front of the bank.",
+          "uz": "Men bank oldida kutaman."
+        }
+      ]
+    },
+    {
+      "en": "speak in front of people",
+      "ru": "выступать перед людьми",
+      "uz": "odamlar oldida soʻzlamoq",
+      "examples": [
+        {
+          "en": "I'm nervous speaking in front of people.",
+          "uz": "Odamlar oldida soʻzlaganda hayajonlanaman."
+        }
+      ]
+    },
+    {
+      "en": "right in front of you",
+      "ru": "прямо перед тобой",
+      "uz": "aynan oldingizda",
+      "examples": [
+        {
+          "en": "Your phone is right in front of you.",
+          "uz": "Telefoningiz aynan oldingizda."
+        }
+      ]
+    },
+    {
+      "en": "next to me",
+      "ru": "рядом со мной",
+      "uz": "yonimda",
+      "examples": [
+        {
+          "en": "Please sit next to me.",
+          "uz": "Iltimos, yonimga oʻtiring."
+        }
+      ]
+    },
+    {
+      "en": "next to the bank",
+      "ru": "рядом с банком",
+      "uz": "bank yonida",
+      "examples": [
+        {
+          "en": "The café is next to the bank.",
+          "uz": "Kafe bank yonida."
+        }
+      ]
+    },
+    {
+      "en": "live next to",
+      "ru": "жить по соседству",
+      "uz": "qoʻshni boʻlib yashamoq",
+      "examples": [
+        {
+          "en": "I live next to a small park.",
+          "uz": "Men kichik bogʻ yonida yashayman."
+        }
+      ]
+    },
+    {
+      "en": "sit next to someone",
+      "ru": "сидеть рядом с кем-либо",
+      "uz": "kimningdir yoniga oʻtirmoq",
+      "examples": [
+        {
+          "en": "She sat next to her friend.",
+          "uz": "U doʻstining yoniga oʻtirdi."
+        }
+      ]
+    },
+    {
+      "en": "right next to",
+      "ru": "прямо рядом с",
+      "uz": "bevosita yonida",
+      "examples": [
+        {
+          "en": "The pharmacy is right next to the clinic.",
+          "uz": "Dorixona bevosita klinika yonida."
+        }
+      ]
+    },
+    {
+      "en": "near my house",
+      "ru": "рядом с моим домом",
+      "uz": "uyim yaqinida",
+      "examples": [
+        {
+          "en": "There's a shop near my house.",
+          "uz": "Uyim yaqinida doʻkon bor."
+        }
+      ]
+    },
+    {
+      "en": "near the station",
+      "ru": "рядом со станцией",
+      "uz": "bekat yaqinida",
+      "examples": [
+        {
+          "en": "Let's meet near the station.",
+          "uz": "Keling, bekat yaqinida uchrashamiz."
+        }
+      ]
+    },
+    {
+      "en": "near here",
+      "ru": "здесь поблизости",
+      "uz": "shu yaqin atrofda",
+      "examples": [
+        {
+          "en": "Is there a bank near here?",
+          "uz": "Shu yaqin atrofda bank bormi?"
+        }
+      ]
+    },
+    {
+      "en": "come near",
+      "ru": "подойти близко",
+      "uz": "yaqin kelmoq",
+      "examples": [
+        {
+          "en": "Don't come near the dog.",
+          "uz": "Itga yaqin kelmang."
+        }
+      ]
+    },
+    {
+      "en": "near the end",
+      "ru": "ближе к концу",
+      "uz": "oxiriga yaqin",
+      "examples": [
+        {
+          "en": "We're near the end of the lesson.",
+          "uz": "Biz dars oxiriga yaqinlashdik."
+        }
+      ]
+    },
+    {
+      "en": "across the street",
+      "ru": "через дорогу; на другой стороне улицы",
+      "uz": "koʻchaning narigi tomonida",
+      "examples": [
+        {
+          "en": "The bank is across the street.",
+          "uz": "Bank koʻchaning narigi tomonida."
+        }
+      ]
+    },
+    {
+      "en": "walk across the road",
+      "ru": "перейти дорогу",
+      "uz": "yoʻlni piyoda kesib oʻtmoq",
+      "examples": [
+        {
+          "en": "Look both ways before you walk across the road.",
+          "uz": "Yoʻlni kesib oʻtishdan oldin ikki tomonga qarang."
+        }
+      ]
+    },
+    {
+      "en": "across the river",
+      "ru": "через реку; на другом берегу",
+      "uz": "daryoning narigi qirgʻogʻida",
+      "examples": [
+        {
+          "en": "There's a bridge across the river.",
+          "uz": "Daryo ustida koʻprik bor."
+        }
+      ]
+    },
+    {
+      "en": "all across the country",
+      "ru": "по всей стране",
+      "uz": "butun mamlakat boʻylab",
+      "examples": [
+        {
+          "en": "The news spread all across the country.",
+          "uz": "Xabar butun mamlakat boʻylab tarqaldi."
+        }
+      ]
+    },
+    {
+      "en": "across from",
+      "ru": "напротив",
+      "uz": "roʻparasida",
+      "examples": [
+        {
+          "en": "The hotel is across from the station.",
+          "uz": "Mehmonxona bekat roʻparasida."
+        }
+      ]
+    },
+    {
+      "en": "go through the door",
+      "ru": "пройти через дверь",
+      "uz": "eshikdan oʻtmoq",
+      "examples": [
+        {
+          "en": "Please go through the door on the left.",
+          "uz": "Iltimos, chapdagi eshikdan oʻting."
+        }
+      ]
+    },
+    {
+      "en": "through the window",
+      "ru": "через окно",
+      "uz": "derazadan",
+      "examples": [
+        {
+          "en": "Sunlight came through the window.",
+          "uz": "Quyosh nuri derazadan tushdi."
+        }
+      ]
+    },
+    {
+      "en": "all through the night",
+      "ru": "всю ночь",
+      "uz": "tun boʻyi",
+      "examples": [
+        {
+          "en": "The baby cried all through the night.",
+          "uz": "Chaqaloq tun boʻyi yigʻladi."
+        }
+      ]
+    },
+    {
+      "en": "read through",
+      "ru": "прочитать полностью; просмотреть",
+      "uz": "boshidan oxirigacha oʻqimoq",
+      "examples": [
+        {
+          "en": "Please read through this message.",
+          "uz": "Iltimos, bu xabarni boshidan oxirigacha oʻqing."
+        }
+      ]
+    },
+    {
+      "en": "go through a difficult time",
+      "ru": "переживать трудный период",
+      "uz": "qiyin davrni boshidan kechirmoq",
+      "examples": [
+        {
+          "en": "He's going through a difficult time.",
+          "uz": "U qiyin davrni boshidan kechiryapti."
+        }
+      ]
+    },
+    {
+      "en": "through hard work",
+      "ru": "благодаря упорной работе",
+      "uz": "tinimsiz mehnat tufayli",
+      "examples": [
+        {
+          "en": "She succeeded through hard work.",
+          "uz": "U tinimsiz mehnat tufayli muvaffaqiyatga erishdi."
+        }
+      ]
+    },
+    {
+      "en": "around the world",
+      "ru": "по всему миру",
+      "uz": "dunyo boʻylab",
+      "examples": [
+        {
+          "en": "I'd love to travel around the world.",
+          "uz": "Men dunyo boʻylab sayohat qilishni juda istardim."
+        }
+      ]
+    },
+    {
+      "en": "around the corner",
+      "ru": "за углом; совсем скоро",
+      "uz": "burchak ortida; juda yaqin",
+      "examples": [
+        {
+          "en": "The shop is around the corner.",
+          "uz": "Doʻkon burchak ortida."
+        }
+      ]
+    },
+    {
+      "en": "look around",
+      "ru": "осмотреться",
+      "uz": "atrofni koʻzdan kechirmoq",
+      "examples": [
+        {
+          "en": "Let's look around the city.",
+          "uz": "Keling, shaharni aylanib koʻramiz."
+        }
+      ]
+    },
+    {
+      "en": "walk around",
+      "ru": "гулять вокруг; ходить по",
+      "uz": "aylanib yurmoq",
+      "examples": [
+        {
+          "en": "We walked around the park.",
+          "uz": "Biz bogʻni aylanib yurdik."
+        }
+      ]
+    },
+    {
+      "en": "around ten o'clock",
+      "ru": "около десяти часов",
+      "uz": "soat oʻnlarda",
+      "examples": [
+        {
+          "en": "I'll arrive around ten o'clock.",
+          "uz": "Men soat oʻnlarda yetib boraman."
+        }
+      ]
+    },
+    {
+      "en": "come around",
+      "ru": "зайти; прийти в себя",
+      "uz": "kirib oʻtmoq; oʻziga kelmoq",
+      "examples": [
+        {
+          "en": "Why don't you come around this evening?",
+          "uz": "Bugun kechqurun kirib oʻtsangiz-chi?"
+        }
+      ]
+    },
+    {
+      "en": "go into the room",
+      "ru": "войти в комнату",
+      "uz": "xonaga kirmoq",
+      "examples": [
+        {
+          "en": "She went into the room quietly.",
+          "uz": "U xonaga sekin kirdi."
+        }
+      ]
+    },
+    {
+      "en": "get into the car",
+      "ru": "сесть в машину",
+      "uz": "mashinaga oʻtirmoq",
+      "examples": [
+        {
+          "en": "Get into the car, please.",
+          "uz": "Iltimos, mashinaga oʻtiring."
+        }
+      ]
+    },
+    {
+      "en": "turn into",
+      "ru": "превратиться в",
+      "uz": "aylanmoq",
+      "examples": [
+        {
+          "en": "The water turned into ice.",
+          "uz": "Suv muzga aylandi."
+        }
+      ]
+    },
+    {
+      "en": "look into a problem",
+      "ru": "изучить проблему",
+      "uz": "muammoni oʻrganmoq",
+      "examples": [
+        {
+          "en": "We'll look into the problem tomorrow.",
+          "uz": "Biz muammoni ertaga oʻrganamiz."
+        }
+      ]
+    },
+    {
+      "en": "be into music",
+      "ru": "увлекаться музыкой",
+      "uz": "musiqaga qiziqmoq",
+      "examples": [
+        {
+          "en": "He's really into music.",
+          "uz": "U musiqaga juda qiziqadi."
+        }
+      ]
+    },
+    {
+      "en": "run into a friend",
+      "ru": "случайно встретить друга",
+      "uz": "doʻstni tasodifan uchratmoq",
+      "examples": [
+        {
+          "en": "I ran into a friend at the market.",
+          "uz": "Men bozorda doʻstimni tasodifan uchratdim."
+        }
+      ]
+    },
+    {
+      "en": "get out of the car",
+      "ru": "выйти из машины",
+      "uz": "mashinadan tushmoq",
+      "examples": [
+        {
+          "en": "Please get out of the car.",
+          "uz": "Iltimos, mashinadan tushing."
+        }
+      ]
+    },
+    {
+      "en": "out of time",
+      "ru": "время вышло; не осталось времени",
+      "uz": "vaqt tugadi",
+      "examples": [
+        {
+          "en": "We're out of time.",
+          "uz": "Vaqtimiz tugadi."
+        }
+      ]
+    },
+    {
+      "en": "out of money",
+      "ru": "без денег; деньги закончились",
+      "uz": "pul tugadi",
+      "examples": [
+        {
+          "en": "I'm almost out of money.",
+          "uz": "Pulim deyarli tugadi."
+        }
+      ]
+    },
+    {
+      "en": "out of order",
+      "ru": "не работает; неисправен",
+      "uz": "ishlamayapti",
+      "examples": [
+        {
+          "en": "The lift is out of order.",
+          "uz": "Lift ishlamayapti."
+        }
+      ]
+    },
+    {
+      "en": "out of date",
+      "ru": "устаревший; просроченный",
+      "uz": "eskirgan",
+      "examples": [
+        {
+          "en": "This information is out of date.",
+          "uz": "Bu maʼlumot eskirgan."
+        }
+      ]
+    },
+    {
+      "en": "out of breath",
+      "ru": "запыхавшийся",
+      "uz": "hansirab qolgan",
+      "examples": [
+        {
+          "en": "I was out of breath after running.",
+          "uz": "Yugurgandan keyin hansirab qoldim."
+        }
+      ]
+    },
+    {
+      "en": "get out of trouble",
+      "ru": "выйти из затруднительного положения",
+      "uz": "qiyin ahvoldan chiqmoq",
+      "examples": [
+        {
+          "en": "He helped me get out of trouble.",
+          "uz": "U menga qiyin ahvoldan chiqishga yordam berdi."
+        }
+      ]
+    },
+    {
+      "en": "stand up",
+      "ru": "встать",
+      "uz": "oʻrnidan turmoq",
+      "examples": [
+        {
+          "en": "Please stand up.",
+          "uz": "Iltimos, oʻrningizdan turing."
+        }
+      ]
+    },
+    {
+      "en": "get up",
+      "ru": "вставать",
+      "uz": "turmoq",
+      "examples": [
+        {
+          "en": "I get up at seven.",
+          "uz": "Men soat yettida turaman."
+        }
+      ]
+    },
+    {
+      "en": "go up the stairs",
+      "ru": "подниматься по лестнице",
+      "uz": "zinadan koʻtarilmoq",
+      "examples": [
+        {
+          "en": "We went up the stairs.",
+          "uz": "Biz zinadan koʻtarildik."
+        }
+      ]
+    },
+    {
+      "en": "wake up",
+      "ru": "просыпаться",
+      "uz": "uygʻonmoq",
+      "examples": [
+        {
+          "en": "I wake up early on weekdays.",
+          "uz": "Men ish kunlari erta uygʻonaman."
+        }
+      ]
+    },
+    {
+      "en": "pick up",
+      "ru": "поднять; забрать",
+      "uz": "koʻtarmoq; olib ketmoq",
+      "examples": [
+        {
+          "en": "Can you pick up the bag?",
+          "uz": "Sumkani koʻtara olasizmi?"
+        }
+      ]
+    },
+    {
+      "en": "hurry up",
+      "ru": "поторопиться",
+      "uz": "shoshilmoq",
+      "examples": [
+        {
+          "en": "Hurry up or we'll be late.",
+          "uz": "Shoshiling, boʻlmasa kechikamiz."
+        }
+      ]
+    },
+    {
+      "en": "clean up",
+      "ru": "убраться",
+      "uz": "yigʻishtirmoq",
+      "examples": [
+        {
+          "en": "Let's clean up the kitchen.",
+          "uz": "Keling, oshxonani yigʻishtiramiz."
+        }
+      ]
+    },
+    {
+      "en": "sit down",
+      "ru": "сесть",
+      "uz": "oʻtirmoq",
+      "examples": [
+        {
+          "en": "Please sit down.",
+          "uz": "Iltimos, oʻtiring."
+        }
+      ]
+    },
+    {
+      "en": "go down the stairs",
+      "ru": "спуститься по лестнице",
+      "uz": "zinadan tushmoq",
+      "examples": [
+        {
+          "en": "He went down the stairs.",
+          "uz": "U zinadan tushdi."
+        }
+      ]
+    },
+    {
+      "en": "slow down",
+      "ru": "сбавить скорость; замедлиться",
+      "uz": "sekinlashmoq",
+      "examples": [
+        {
+          "en": "Please slow down.",
+          "uz": "Iltimos, sekinlashing."
+        }
+      ]
+    },
+    {
+      "en": "write down",
+      "ru": "записать",
+      "uz": "yozib olmoq",
+      "examples": [
+        {
+          "en": "Write down the new words.",
+          "uz": "Yangi soʻzlarni yozib oling."
+        }
+      ]
+    },
+    {
+      "en": "calm down",
+      "ru": "успокоиться",
+      "uz": "tinchlanmoq",
+      "examples": [
+        {
+          "en": "Take a breath and calm down.",
+          "uz": "Chuqur nafas oling va tinchlaning."
+        }
+      ]
+    },
+    {
+      "en": "turn down the volume",
+      "ru": "уменьшить громкость",
+      "uz": "ovozni pasaytirmoq",
+      "examples": [
+        {
+          "en": "Turn down the volume, please.",
+          "uz": "Iltimos, ovozni pasaytiring."
+        }
+      ]
+    },
+    {
+      "en": "break down",
+      "ru": "сломаться",
+      "uz": "buzilmoq",
+      "examples": [
+        {
+          "en": "My car broke down yesterday.",
+          "uz": "Mashinam kecha buzilib qoldi."
+        }
+      ]
+    },
+    {
+      "en": "turn off the light",
+      "ru": "выключить свет",
+      "uz": "chiroqni oʻchirmoq",
+      "examples": [
+        {
+          "en": "Please turn off the light.",
+          "uz": "Iltimos, chiroqni oʻchiring."
+        }
+      ]
+    },
+    {
+      "en": "take off your shoes",
+      "ru": "снять обувь",
+      "uz": "oyoq kiyimni yechmoq",
+      "examples": [
+        {
+          "en": "Take off your shoes at the door.",
+          "uz": "Oyoq kiyimingizni eshik oldida yeching."
+        }
+      ]
+    },
+    {
+      "en": "get off the bus",
+      "ru": "выйти из автобуса",
+      "uz": "avtobusdan tushmoq",
+      "examples": [
+        {
+          "en": "We get off at the next stop.",
+          "uz": "Biz keyingi bekatda tushamiz."
+        }
+      ]
+    },
+    {
+      "en": "the day off",
+      "ru": "выходной день",
+      "uz": "dam olish kuni",
+      "examples": [
+        {
+          "en": "I have a day off tomorrow.",
+          "uz": "Ertaga mening dam olish kunim."
+        }
+      ]
+    },
+    {
+      "en": "be off work",
+      "ru": "не работать; быть выходным",
+      "uz": "ishda boʻlmaslik",
+      "examples": [
+        {
+          "en": "I'm off work today.",
+          "uz": "Men bugun ishda emasman."
+        }
+      ]
+    },
+    {
+      "en": "go off",
+      "ru": "зазвонить; сработать",
+      "uz": "jiringlamoq; ishga tushmoq",
+      "examples": [
+        {
+          "en": "My alarm went off at six.",
+          "uz": "Budilnigim soat oltida jiringladi."
+        }
+      ]
+    },
+    {
+      "en": "put off",
+      "ru": "отложить",
+      "uz": "keyinga qoldirmoq",
+      "examples": [
+        {
+          "en": "Don't put off your homework.",
+          "uz": "Uy vazifangizni keyinga qoldirmang."
+        }
+      ]
+    },
+    {
+      "en": "walk past",
+      "ru": "пройти мимо",
+      "uz": "yonidan piyoda oʻtmoq",
+      "examples": [
+        {
+          "en": "I walked past the school.",
+          "uz": "Men maktab yonidan piyoda oʻtdim."
+        }
+      ]
+    },
+    {
+      "en": "drive past",
+      "ru": "проехать мимо",
+      "uz": "yonidan mashinada oʻtmoq",
+      "examples": [
+        {
+          "en": "We drove past the stadium.",
+          "uz": "Biz stadion yonidan mashinada oʻtdik."
+        }
+      ]
+    },
+    {
+      "en": "half past six",
+      "ru": "половина седьмого",
+      "uz": "olti yarim",
+      "examples": [
+        {
+          "en": "The meeting starts at half past six.",
+          "uz": "Uchrashuv olti yarimda boshlanadi."
+        }
+      ]
+    },
+    {
+      "en": "past midnight",
+      "ru": "после полуночи",
+      "uz": "yarim tundan keyin",
+      "examples": [
+        {
+          "en": "I went to bed past midnight.",
+          "uz": "Men yarim tundan keyin uxlashga yotdim."
+        }
+      ]
+    },
+    {
+      "en": "it's past your bedtime",
+      "ru": "уже пора спать",
+      "uz": "uxlash vaqtingiz oʻtib ketdi",
+      "examples": [
+        {
+          "en": "It's past your bedtime.",
+          "uz": "Uxlash vaqtingiz oʻtib ketdi."
+        }
+      ]
+    },
+    {
+      "en": "walk towards me",
+      "ru": "идти ко мне",
+      "uz": "men tomon yurmoq",
+      "examples": [
+        {
+          "en": "Walk towards me slowly.",
+          "uz": "Men tomon sekin yuring."
+        }
+      ]
+    },
+    {
+      "en": "move towards the door",
+      "ru": "двигаться к двери",
+      "uz": "eshik tomon siljimoq",
+      "examples": [
+        {
+          "en": "Everyone moved towards the door.",
+          "uz": "Hamma eshik tomon siljidi."
+        }
+      ]
+    },
+    {
+      "en": "head towards the station",
+      "ru": "направляться к станции",
+      "uz": "bekat tomon yoʻl olmoq",
+      "examples": [
+        {
+          "en": "We headed towards the station.",
+          "uz": "Biz bekat tomon yoʻl oldik."
+        }
+      ]
+    },
+    {
+      "en": "work towards a goal",
+      "ru": "работать над достижением цели",
+      "uz": "maqsad sari ishlamoq",
+      "examples": [
+        {
+          "en": "I'm working towards my goal.",
+          "uz": "Men maqsadim sari ishlayapman."
+        }
+      ]
+    },
+    {
+      "en": "be friendly towards someone",
+      "ru": "быть дружелюбным к кому-либо",
+      "uz": "kimgadir samimiy munosabatda boʻlmoq",
+      "examples": [
+        {
+          "en": "She was friendly towards everyone.",
+          "uz": "U hammaga samimiy munosabatda edi."
         }
       ]
     }

@@ -5,7 +5,8 @@
   "kind": "expressions",
   "title": {
     "en": "English Prepositions",
-    "ru": "Предлоги"
+    "ru": "Предлоги",
+    "uz": "Ingliz tili predloglari"
   },
   "lessons": [
     {
@@ -13,7 +14,8 @@
       "order": 1,
       "title": {
         "en": "In",
-        "ru": "Выражения с «in»"
+        "ru": "Выражения с «in»",
+        "uz": "«in» bilan iboralar"
       },
       "phrases": [
         {
@@ -23,9 +25,11 @@
           "examples": [
             {
               "en": "I study English in the morning.",
-              "ru": "Я изучаю английский утром."
+              "ru": "Я изучаю английский утром.",
+              "uz": "Men ertalab ingliz tili oʻrganaman."
             }
-          ]
+          ],
+          "uz": "ertalab"
         },
         {
           "id": "PRE_IN002",
@@ -34,9 +38,11 @@
           "examples": [
             {
               "en": "We watch TV in the evening.",
-              "ru": "Мы смотрим телевизор вечером."
+              "ru": "Мы смотрим телевизор вечером.",
+              "uz": "Biz kechqurun televizor koʻramiz."
             }
-          ]
+          ],
+          "uz": "kechqurun"
         },
         {
           "id": "PRE_IN003",
@@ -45,9 +51,11 @@
           "examples": [
             {
               "en": "The children are in the room.",
-              "ru": "Дети в комнате."
+              "ru": "Дети в комнате.",
+              "uz": "Bolalar xonada."
             }
-          ]
+          ],
+          "uz": "xonada"
         },
         {
           "id": "PRE_IN004",
@@ -56,9 +64,11 @@
           "examples": [
             {
               "en": "I'm in a hurry.",
-              "ru": "Я спешу."
+              "ru": "Я спешу.",
+              "uz": "Men shoshyapman."
             }
-          ]
+          ],
+          "uz": "shosha-pisha"
         },
         {
           "id": "PRE_IN005",
@@ -67,9 +77,11 @@
           "examples": [
             {
               "en": "In fact, I don't know him.",
-              "ru": "На самом деле я его не знаю."
+              "ru": "На самом деле я его не знаю.",
+              "uz": "Aslida, men uni tanimayman."
             }
-          ]
+          ],
+          "uz": "aslida"
         },
         {
           "id": "PRE_IN006",
@@ -78,9 +90,11 @@
           "examples": [
             {
               "en": "I want to travel more in the future.",
-              "ru": "В будущем я хочу больше путешествовать."
+              "ru": "В будущем я хочу больше путешествовать.",
+              "uz": "Men kelajakda koʻproq sayohat qilmoqchiman."
             }
-          ]
+          ],
+          "uz": "kelajakda"
         },
         {
           "id": "PRE_IN007",
@@ -89,9 +103,11 @@
           "examples": [
             {
               "en": "The course starts in two days.",
-              "ru": "Курс начинается через два дня."
+              "ru": "Курс начинается через два дня.",
+              "uz": "Kurs ikki kundan keyin boshlanadi."
             }
-          ]
+          ],
+          "uz": "ikki kundan keyin"
         },
         {
           "id": "PRE_IN008",
@@ -100,9 +116,11 @@
           "examples": [
             {
               "en": "I'm interested in technology.",
-              "ru": "Я интересуюсь технологиями."
+              "ru": "Я интересуюсь технологиями.",
+              "uz": "Men texnologiyaga qiziqaman."
             }
-          ]
+          ],
+          "uz": "biror narsaga qiziqmoq"
         },
         {
           "id": "PRE_IN009",
@@ -111,9 +129,11 @@
           "examples": [
             {
               "en": "I believe in you.",
-              "ru": "Я верю в тебя."
+              "ru": "Я верю в тебя.",
+              "uz": "Men sizga ishonaman."
             }
-          ]
+          ],
+          "uz": "ishonmoq"
         },
         {
           "id": "PRE_IN010",
@@ -122,9 +142,11 @@
           "examples": [
             {
               "en": "Can you say it in English?",
-              "ru": "Можешь сказать это по-английски?"
+              "ru": "Можешь сказать это по-английски?",
+              "uz": "Buni ingliz tilida ayta olasizmi?"
             }
-          ]
+          ],
+          "uz": "ingliz tilida"
         }
       ]
     },
@@ -133,7 +155,8 @@
       "order": 2,
       "title": {
         "en": "On",
-        "ru": "Выражения с «on»"
+        "ru": "Выражения с «on»",
+        "uz": "«on» bilan iboralar"
       },
       "phrases": [
         {
@@ -143,9 +166,11 @@
           "examples": [
             {
               "en": "Your keys are on the table.",
-              "ru": "Твои ключи на столе."
+              "ru": "Твои ключи на столе.",
+              "uz": "Kalitlaringiz stolda."
             }
-          ]
+          ],
+          "uz": "stolda"
         },
         {
           "id": "PRE_ON002",
@@ -154,9 +179,11 @@
           "examples": [
             {
               "en": "I have an English lesson on Monday.",
-              "ru": "У меня урок английского в понедельник."
+              "ru": "У меня урок английского в понедельник.",
+              "uz": "Dushanba kuni ingliz tili darsim bor."
             }
-          ]
+          ],
+          "uz": "dushanba kuni"
         },
         {
           "id": "PRE_ON003",
@@ -165,9 +192,11 @@
           "examples": [
             {
               "en": "Please arrive on time.",
-              "ru": "Пожалуйста, приходи вовремя."
+              "ru": "Пожалуйста, приходи вовремя.",
+              "uz": "Iltimos, oʻz vaqtida keling."
             }
-          ]
+          ],
+          "uz": "oʻz vaqtida"
         },
         {
           "id": "PRE_ON004",
@@ -176,9 +205,11 @@
           "examples": [
             {
               "en": "I'll buy bread on the way home.",
-              "ru": "Я куплю хлеб по пути домой."
+              "ru": "Я куплю хлеб по пути домой.",
+              "uz": "Uyga ketayotib yoʻl-yoʻlakay non olaman."
             }
-          ]
+          ],
+          "uz": "yoʻl-yoʻlakay"
         },
         {
           "id": "PRE_ON005",
@@ -187,9 +218,11 @@
           "examples": [
             {
               "en": "I met her on the bus.",
-              "ru": "Я встретил её в автобусе."
+              "ru": "Я встретил её в автобусе.",
+              "uz": "Men u bilan avtobusda uchrashdim."
             }
-          ]
+          ],
+          "uz": "avtobusda"
         },
         {
           "id": "PRE_ON006",
@@ -198,9 +231,11 @@
           "examples": [
             {
               "en": "I'm on the phone right now.",
-              "ru": "Я сейчас разговариваю по телефону."
+              "ru": "Я сейчас разговариваю по телефону.",
+              "uz": "Men hozir telefonda gaplashyapman."
             }
-          ]
+          ],
+          "uz": "telefonda"
         },
         {
           "id": "PRE_ON007",
@@ -209,9 +244,11 @@
           "examples": [
             {
               "en": "I saw it on TV.",
-              "ru": "Я видел это по телевизору."
+              "ru": "Я видел это по телевизору.",
+              "uz": "Men buni televizorda koʻrdim."
             }
-          ]
+          ],
+          "uz": "televizorda"
         },
         {
           "id": "PRE_ON008",
@@ -220,9 +257,11 @@
           "examples": [
             {
               "en": "These shoes are on sale.",
-              "ru": "Эти туфли продаются со скидкой."
+              "ru": "Эти туфли продаются со скидкой.",
+              "uz": "Bu oyoq kiyim chegirmada."
             }
-          ]
+          ],
+          "uz": "chegirmada"
         },
         {
           "id": "PRE_ON009",
@@ -231,9 +270,11 @@
           "examples": [
             {
               "en": "They're on holiday this week.",
-              "ru": "На этой неделе они в отпуске."
+              "ru": "На этой неделе они в отпуске.",
+              "uz": "Ular bu hafta taʼtilda."
             }
-          ]
+          ],
+          "uz": "taʼtilda"
         },
         {
           "id": "PRE_ON010",
@@ -242,9 +283,11 @@
           "examples": [
             {
               "en": "It depends on the weather.",
-              "ru": "Это зависит от погоды."
+              "ru": "Это зависит от погоды.",
+              "uz": "Bu ob-havoga bogʻliq."
             }
-          ]
+          ],
+          "uz": "bogʻliq boʻlmoq"
         }
       ]
     },
@@ -253,7 +296,8 @@
       "order": 3,
       "title": {
         "en": "At",
-        "ru": "Выражения с «at»"
+        "ru": "Выражения с «at»",
+        "uz": "«at» bilan iboralar"
       },
       "phrases": [
         {
@@ -263,9 +307,11 @@
           "examples": [
             {
               "en": "I get up at seven o'clock.",
-              "ru": "Я встаю в семь часов."
+              "ru": "Я встаю в семь часов.",
+              "uz": "Men soat yettida turaman."
             }
-          ]
+          ],
+          "uz": "soat yettida"
         },
         {
           "id": "PRE_AT002",
@@ -274,9 +320,11 @@
           "examples": [
             {
               "en": "I sometimes work at night.",
-              "ru": "Иногда я работаю ночью."
+              "ru": "Иногда я работаю ночью.",
+              "uz": "Men baʼzan kechasi ishlayman."
             }
-          ]
+          ],
+          "uz": "kechasi"
         },
         {
           "id": "PRE_AT003",
@@ -285,9 +333,11 @@
           "examples": [
             {
               "en": "I'm at home now.",
-              "ru": "Я сейчас дома."
+              "ru": "Я сейчас дома.",
+              "uz": "Men hozir uydaman."
             }
-          ]
+          ],
+          "uz": "uyda"
         },
         {
           "id": "PRE_AT004",
@@ -296,9 +346,11 @@
           "examples": [
             {
               "en": "My father is at work.",
-              "ru": "Мой отец на работе."
+              "ru": "Мой отец на работе.",
+              "uz": "Otam ishda."
             }
-          ]
+          ],
+          "uz": "ishda"
         },
         {
           "id": "PRE_AT005",
@@ -307,9 +359,11 @@
           "examples": [
             {
               "en": "The children are at school.",
-              "ru": "Дети в школе."
+              "ru": "Дети в школе.",
+              "uz": "Bolalar maktabda."
             }
-          ]
+          ],
+          "uz": "maktabda"
         },
         {
           "id": "PRE_AT006",
@@ -318,9 +372,11 @@
           "examples": [
             {
               "en": "I'll meet you at the bus stop.",
-              "ru": "Я встречу тебя на автобусной остановке."
+              "ru": "Я встречу тебя на автобусной остановке.",
+              "uz": "Men sizni avtobus bekatida kutaman."
             }
-          ]
+          ],
+          "uz": "avtobus bekatida"
         },
         {
           "id": "PRE_AT007",
@@ -329,9 +385,11 @@
           "examples": [
             {
               "en": "At first, the task was difficult.",
-              "ru": "Сначала задание было трудным."
+              "ru": "Сначала задание было трудным.",
+              "uz": "Avvaliga vazifa qiyin edi."
             }
-          ]
+          ],
+          "uz": "avvaliga"
         },
         {
           "id": "PRE_AT008",
@@ -340,9 +398,11 @@
           "examples": [
             {
               "en": "I'm busy at the moment.",
-              "ru": "Я сейчас занят."
+              "ru": "Я сейчас занят.",
+              "uz": "Men ayni paytda bandman."
             }
-          ]
+          ],
+          "uz": "ayni paytda"
         },
         {
           "id": "PRE_AT009",
@@ -351,9 +411,11 @@
           "examples": [
             {
               "en": "She's good at maths.",
-              "ru": "Она хорошо разбирается в математике."
+              "ru": "Она хорошо разбирается в математике.",
+              "uz": "U matematikani yaxshi biladi."
             }
-          ]
+          ],
+          "uz": "biror narsani yaxshi uddalamoq"
         },
         {
           "id": "PRE_AT010",
@@ -362,9 +424,11 @@
           "examples": [
             {
               "en": "Look at this picture.",
-              "ru": "Посмотри на эту картинку."
+              "ru": "Посмотри на эту картинку.",
+              "uz": "Bu suratga qarang."
             }
-          ]
+          ],
+          "uz": "qaramoq"
         }
       ]
     },
@@ -373,7 +437,8 @@
       "order": 4,
       "title": {
         "en": "For",
-        "ru": "Выражения с «for»"
+        "ru": "Выражения с «for»",
+        "uz": "«for» bilan iboralar"
       },
       "phrases": [
         {
@@ -383,9 +448,11 @@
           "examples": [
             {
               "en": "This gift is for you.",
-              "ru": "Этот подарок для тебя."
+              "ru": "Этот подарок для тебя.",
+              "uz": "Bu sovgʻa siz uchun."
             }
-          ]
+          ],
+          "uz": "siz uchun"
         },
         {
           "id": "PRE_FOR002",
@@ -394,9 +461,11 @@
           "examples": [
             {
               "en": "For example, you can start with this book.",
-              "ru": "Например, можешь начать с этой книги."
+              "ru": "Например, можешь начать с этой книги.",
+              "uz": "Masalan, shu kitobdan boshlashingiz mumkin."
             }
-          ]
+          ],
+          "uz": "masalan"
         },
         {
           "id": "PRE_FOR003",
@@ -405,9 +474,11 @@
           "examples": [
             {
               "en": "I'm staying here for a week.",
-              "ru": "Я останусь здесь на неделю."
+              "ru": "Я останусь здесь на неделю.",
+              "uz": "Men bu yerda bir hafta qolaman."
             }
-          ]
+          ],
+          "uz": "bir hafta davomida"
         },
         {
           "id": "PRE_FOR004",
@@ -416,9 +487,11 @@
           "examples": [
             {
               "en": "We waited for two hours.",
-              "ru": "Мы ждали два часа."
+              "ru": "Мы ждали два часа.",
+              "uz": "Biz ikki soat kutdik."
             }
-          ]
+          ],
+          "uz": "ikki soat davomida"
         },
         {
           "id": "PRE_FOR005",
@@ -427,9 +500,11 @@
           "examples": [
             {
               "en": "I'm visiting Samarkand for the first time.",
-              "ru": "Я впервые посещаю Самарканд."
+              "ru": "Я впервые посещаю Самарканд.",
+              "uz": "Men Samarqandga birinchi marta kelyapman."
             }
-          ]
+          ],
+          "uz": "birinchi marta"
         },
         {
           "id": "PRE_FOR006",
@@ -438,9 +513,11 @@
           "examples": [
             {
               "en": "Thank you for your help.",
-              "ru": "Спасибо за помощь."
+              "ru": "Спасибо за помощь.",
+              "uz": "Yordamingiz uchun rahmat."
             }
-          ]
+          ],
+          "uz": "... uchun rahmat"
         },
         {
           "id": "PRE_FOR007",
@@ -449,9 +526,11 @@
           "examples": [
             {
               "en": "I'm waiting for the bus.",
-              "ru": "Я жду автобус."
+              "ru": "Я жду автобус.",
+              "uz": "Men avtobus kutyapman."
             }
-          ]
+          ],
+          "uz": "kimnidir yoki nimanidir kutmoq"
         },
         {
           "id": "PRE_FOR008",
@@ -460,9 +539,11 @@
           "examples": [
             {
               "en": "I'm looking for my keys.",
-              "ru": "Я ищу свои ключи."
+              "ru": "Я ищу свои ключи.",
+              "uz": "Men kalitlarimni qidiryapman."
             }
-          ]
+          ],
+          "uz": "qidirmoq"
         },
         {
           "id": "PRE_FOR009",
@@ -471,9 +552,11 @@
           "examples": [
             {
               "en": "Are you ready for the test?",
-              "ru": "Ты готов к тесту?"
+              "ru": "Ты готов к тесту?",
+              "uz": "Testga tayyormisiz?"
             }
-          ]
+          ],
+          "uz": "biror narsaga tayyor"
         },
         {
           "id": "PRE_FOR010",
@@ -482,9 +565,11 @@
           "examples": [
             {
               "en": "You can ask for help.",
-              "ru": "Ты можешь попросить о помощи."
+              "ru": "Ты можешь попросить о помощи.",
+              "uz": "Siz yordam soʻrashingiz mumkin."
             }
-          ]
+          ],
+          "uz": "biror narsa soʻramoq"
         }
       ]
     },
@@ -493,7 +578,8 @@
       "order": 5,
       "title": {
         "en": "To",
-        "ru": "Выражения с «to»"
+        "ru": "Выражения с «to»",
+        "uz": "«to» bilan iboralar"
       },
       "phrases": [
         {
@@ -503,9 +589,11 @@
           "examples": [
             {
               "en": "I go to work by bus.",
-              "ru": "Я езжу на работу на автобусе."
+              "ru": "Я езжу на работу на автобусе.",
+              "uz": "Men ishga avtobusda boraman."
             }
-          ]
+          ],
+          "uz": "ishga bormoq"
         },
         {
           "id": "PRE_TO002",
@@ -514,9 +602,11 @@
           "examples": [
             {
               "en": "I go to bed at eleven.",
-              "ru": "Я ложусь спать в одиннадцать."
+              "ru": "Я ложусь спать в одиннадцать.",
+              "uz": "Men soat oʻn birda uxlashga yotaman."
             }
-          ]
+          ],
+          "uz": "uxlashga yotmoq"
         },
         {
           "id": "PRE_TO003",
@@ -525,9 +615,11 @@
           "examples": [
             {
               "en": "I listen to music every day.",
-              "ru": "Я слушаю музыку каждый день."
+              "ru": "Я слушаю музыку каждый день.",
+              "uz": "Men har kuni musiqa tinglayman."
             }
-          ]
+          ],
+          "uz": "tinglamoq"
         },
         {
           "id": "PRE_TO004",
@@ -536,9 +628,11 @@
           "examples": [
             {
               "en": "I need to talk to you.",
-              "ru": "Мне нужно поговорить с тобой."
+              "ru": "Мне нужно поговорить с тобой.",
+              "uz": "Men siz bilan gaplashishim kerak."
             }
-          ]
+          ],
+          "uz": "bilan gaplashmoq"
         },
         {
           "id": "PRE_TO005",
@@ -547,9 +641,11 @@
           "examples": [
             {
               "en": "I wrote to my friend yesterday.",
-              "ru": "Вчера я написал другу."
+              "ru": "Вчера я написал другу.",
+              "uz": "Men kecha doʻstimga xat yozdim."
             }
-          ]
+          ],
+          "uz": "kimgadir xat yozmoq"
         },
         {
           "id": "PRE_TO006",
@@ -558,9 +654,11 @@
           "examples": [
             {
               "en": "Please give it to me.",
-              "ru": "Пожалуйста, дай это мне."
+              "ru": "Пожалуйста, дай это мне.",
+              "uz": "Iltimos, buni menga bering."
             }
-          ]
+          ],
+          "uz": "buni menga bering"
         },
         {
           "id": "PRE_TO007",
@@ -569,9 +667,11 @@
           "examples": [
             {
               "en": "Welcome to our school.",
-              "ru": "Добро пожаловать в нашу школу."
+              "ru": "Добро пожаловать в нашу школу.",
+              "uz": "Maktabimizga xush kelibsiz."
             }
-          ]
+          ],
+          "uz": "... ga xush kelibsiz"
         },
         {
           "id": "PRE_TO008",
@@ -580,9 +680,11 @@
           "examples": [
             {
               "en": "The bank is next to the shop.",
-              "ru": "Банк находится рядом с магазином."
+              "ru": "Банк находится рядом с магазином.",
+              "uz": "Bank doʻkon yonida."
             }
-          ]
+          ],
+          "uz": "yonida"
         },
         {
           "id": "PRE_TO009",
@@ -591,9 +693,11 @@
           "examples": [
             {
               "en": "I work from Monday to Friday.",
-              "ru": "Я работаю с понедельника по пятницу."
+              "ru": "Я работаю с понедельника по пятницу.",
+              "uz": "Men dushanbadan jumagacha ishlayman."
             }
-          ]
+          ],
+          "uz": "dushanbadan jumagacha"
         },
         {
           "id": "PRE_TO010",
@@ -602,9 +706,11 @@
           "examples": [
             {
               "en": "I want to learn English.",
-              "ru": "Я хочу учить английский."
+              "ru": "Я хочу учить английский.",
+              "uz": "Men ingliz tilini oʻrganmoqchiman."
             }
-          ]
+          ],
+          "uz": "oʻrganishni xohlamoq"
         }
       ]
     },
@@ -613,7 +719,8 @@
       "order": 6,
       "title": {
         "en": "From",
-        "ru": "Выражения с «from»"
+        "ru": "Выражения с «from»",
+        "uz": "«from» bilan iboralar"
       },
       "phrases": [
         {
@@ -623,9 +730,11 @@
           "examples": [
             {
               "en": "I'm from Uzbekistan.",
-              "ru": "Я из Узбекистана."
+              "ru": "Я из Узбекистана.",
+              "uz": "Men Oʻzbekistondanman."
             }
-          ]
+          ],
+          "uz": "Oʻzbekistondan"
         },
         {
           "id": "PRE_FROM002",
@@ -634,9 +743,11 @@
           "examples": [
             {
               "en": "I just got back from work.",
-              "ru": "Я только что вернулся с работы."
+              "ru": "Я только что вернулся с работы.",
+              "uz": "Men endigina ishdan qaytdim."
             }
-          ]
+          ],
+          "uz": "ishdan"
         },
         {
           "id": "PRE_FROM003",
@@ -645,9 +756,11 @@
           "examples": [
             {
               "en": "I work from home twice a week.",
-              "ru": "Я работаю из дома два раза в неделю."
+              "ru": "Я работаю из дома два раза в неделю.",
+              "uz": "Men haftada ikki marta uydan turib ishlayman."
             }
-          ]
+          ],
+          "uz": "uydan"
         },
         {
           "id": "PRE_FROM004",
@@ -656,9 +769,11 @@
           "examples": [
             {
               "en": "The office is open from 9 to 5.",
-              "ru": "Офис открыт с девяти до пяти."
+              "ru": "Офис открыт с девяти до пяти.",
+              "uz": "Ofis toʻqqizdan beshgacha ochiq."
             }
-          ]
+          ],
+          "uz": "toʻqqizdan beshgacha"
         },
         {
           "id": "PRE_FROM005",
@@ -667,9 +782,11 @@
           "examples": [
             {
               "en": "I got a message from my teacher.",
-              "ru": "Я получил сообщение от учителя."
+              "ru": "Я получил сообщение от учителя.",
+              "uz": "Men oʻqituvchimdan xabar oldim."
             }
-          ]
+          ],
+          "uz": "...dan xabar"
         },
         {
           "id": "PRE_FROM006",
@@ -678,9 +795,11 @@
           "examples": [
             {
               "en": "This version is different from the old one.",
-              "ru": "Эта версия отличается от старой."
+              "ru": "Эта версия отличается от старой.",
+              "uz": "Bu versiya eskisidan farq qiladi."
             }
-          ]
+          ],
+          "uz": "...dan farq qiladigan"
         },
         {
           "id": "PRE_FROM007",
@@ -689,9 +808,11 @@
           "examples": [
             {
               "en": "This jacket protects you from the cold.",
-              "ru": "Эта куртка защищает от холода."
+              "ru": "Эта куртка защищает от холода.",
+              "uz": "Bu kurtka sizni sovuqdan himoya qiladi."
             }
-          ]
+          ],
+          "uz": "...dan himoya qilmoq"
         },
         {
           "id": "PRE_FROM008",
@@ -700,9 +821,11 @@
           "examples": [
             {
               "en": "Can I borrow a pen from you?",
-              "ru": "Можно одолжить у тебя ручку?"
+              "ru": "Можно одолжить у тебя ручку?",
+              "uz": "Sizdan ruchka olib tursam boʻladimi?"
             }
-          ]
+          ],
+          "uz": "...dan qarzga olmoq"
         }
       ]
     },
@@ -711,7 +834,8 @@
       "order": 7,
       "title": {
         "en": "With",
-        "ru": "Выражения с «with»"
+        "ru": "Выражения с «with»",
+        "uz": "«with» bilan iboralar"
       },
       "phrases": [
         {
@@ -721,9 +845,11 @@
           "examples": [
             {
               "en": "Come with me, please.",
-              "ru": "Пойдём со мной, пожалуйста."
+              "ru": "Пойдём со мной, пожалуйста.",
+              "uz": "Iltimos, men bilan yuring."
             }
-          ]
+          ],
+          "uz": "men bilan"
         },
         {
           "id": "PRE_WITH002",
@@ -732,9 +858,11 @@
           "examples": [
             {
               "en": "I live with my family.",
-              "ru": "Я живу с семьёй."
+              "ru": "Я живу с семьёй.",
+              "uz": "Men oilam bilan yashayman."
             }
-          ]
+          ],
+          "uz": "oilam bilan"
         },
         {
           "id": "PRE_WITH003",
@@ -743,9 +871,11 @@
           "examples": [
             {
               "en": "I went there with a friend.",
-              "ru": "Я ходил туда с другом."
+              "ru": "Я ходил туда с другом.",
+              "uz": "Men u yerga doʻstim bilan bordim."
             }
-          ]
+          ],
+          "uz": "doʻst bilan"
         },
         {
           "id": "PRE_WITH004",
@@ -754,9 +884,11 @@
           "examples": [
             {
               "en": "I'd like tea with milk.",
-              "ru": "Я хотел бы чай с молоком."
+              "ru": "Я хотел бы чай с молоком.",
+              "uz": "Menga sutli choy bering."
             }
-          ]
+          ],
+          "uz": "sutli bir piyola choy"
         },
         {
           "id": "PRE_WITH005",
@@ -765,9 +897,11 @@
           "examples": [
             {
               "en": "Can you help me with my homework?",
-              "ru": "Можешь помочь мне с домашним заданием?"
+              "ru": "Можешь помочь мне с домашним заданием?",
+              "uz": "Uy vazifamda menga yordam bera olasizmi?"
             }
-          ]
+          ],
+          "uz": "...da yordam bermoq"
         },
         {
           "id": "PRE_WITH006",
@@ -776,9 +910,11 @@
           "examples": [
             {
               "en": "I agree with you.",
-              "ru": "Я с тобой согласен."
+              "ru": "Я с тобой согласен.",
+              "uz": "Men siz bilan roziman."
             }
-          ]
+          ],
+          "uz": "bilan rozi boʻlmoq"
         },
         {
           "id": "PRE_WITH007",
@@ -787,9 +923,11 @@
           "examples": [
             {
               "en": "I can deal with this problem.",
-              "ru": "Я могу справиться с этой проблемой."
+              "ru": "Я могу справиться с этой проблемой.",
+              "uz": "Men bu muammoni uddalay olaman."
             }
-          ]
+          ],
+          "uz": "...ni uddalamoq"
         },
         {
           "id": "PRE_WITH008",
@@ -798,9 +936,11 @@
           "examples": [
             {
               "en": "Be careful with that glass.",
-              "ru": "Будь осторожен с этим стаканом."
+              "ru": "Будь осторожен с этим стаканом.",
+              "uz": "Oʻsha stakanda ehtiyot boʻling."
             }
-          ]
+          ],
+          "uz": "...da ehtiyot boʻlmoq"
         },
         {
           "id": "PRE_WITH009",
@@ -809,9 +949,11 @@
           "examples": [
             {
               "en": "I'm happy with the result.",
-              "ru": "Я доволен результатом."
+              "ru": "Я доволен результатом.",
+              "uz": "Men natijadan mamnunman."
             }
-          ]
+          ],
+          "uz": "biror narsadan mamnun"
         },
         {
           "id": "PRE_WITH010",
@@ -820,9 +962,11 @@
           "examples": [
             {
               "en": "I talked with my manager.",
-              "ru": "Я поговорил со своим менеджером."
+              "ru": "Я поговорил со своим менеджером.",
+              "uz": "Men rahbarim bilan suhbatlashdim."
             }
-          ]
+          ],
+          "uz": "bilan suhbatlashmoq"
         }
       ]
     },
@@ -831,7 +975,8 @@
       "order": 8,
       "title": {
         "en": "About",
-        "ru": "Выражения с «about»"
+        "ru": "Выражения с «about»",
+        "uz": "«about» bilan iboralar"
       },
       "phrases": [
         {
@@ -841,9 +986,11 @@
           "examples": [
             {
               "en": "Let's talk about your plans.",
-              "ru": "Давай поговорим о твоих планах."
+              "ru": "Давай поговорим о твоих планах.",
+              "uz": "Keling, rejalaringiz haqida gaplashamiz."
             }
-          ]
+          ],
+          "uz": "haqida gapirmoq"
         },
         {
           "id": "PRE_ABOUT002",
@@ -852,9 +999,11 @@
           "examples": [
             {
               "en": "I'm thinking about my future.",
-              "ru": "Я думаю о своём будущем."
+              "ru": "Я думаю о своём будущем.",
+              "uz": "Men kelajagim haqida oʻylayapman."
             }
-          ]
+          ],
+          "uz": "haqida oʻylamoq"
         },
         {
           "id": "PRE_ABOUT003",
@@ -863,9 +1012,11 @@
           "examples": [
             {
               "en": "What do you know about this place?",
-              "ru": "Что ты знаешь об этом месте?"
+              "ru": "Что ты знаешь об этом месте?",
+              "uz": "Bu joy haqida nima bilasiz?"
             }
-          ]
+          ],
+          "uz": "haqida bilmoq"
         },
         {
           "id": "PRE_ABOUT004",
@@ -874,9 +1025,11 @@
           "examples": [
             {
               "en": "We learned about the city at school.",
-              "ru": "В школе мы узнали об этом городе."
+              "ru": "В школе мы узнали об этом городе.",
+              "uz": "Biz shahar haqida maktabda bilib oldik."
             }
-          ]
+          ],
+          "uz": "haqida bilib olmoq"
         },
         {
           "id": "PRE_ABOUT005",
@@ -885,9 +1038,11 @@
           "examples": [
             {
               "en": "Don't worry about me.",
-              "ru": "Не беспокойся обо мне."
+              "ru": "Не беспокойся обо мне.",
+              "uz": "Men haqimda xavotirlanmang."
             }
-          ]
+          ],
+          "uz": "haqida xavotirlanmoq"
         },
         {
           "id": "PRE_ABOUT006",
@@ -896,9 +1051,11 @@
           "examples": [
             {
               "en": "I'm excited about the trip.",
-              "ru": "Я с нетерпением жду поездку."
+              "ru": "Я с нетерпением жду поездку.",
+              "uz": "Men sayohatni intiqlik bilan kutyapman."
             }
-          ]
+          ],
+          "uz": "intiqlik bilan kutmoq"
         },
         {
           "id": "PRE_ABOUT007",
@@ -907,9 +1064,11 @@
           "examples": [
             {
               "en": "It takes about ten minutes.",
-              "ru": "Это занимает около десяти минут."
+              "ru": "Это занимает около десяти минут.",
+              "uz": "Bu taxminan oʻn daqiqa oladi."
             }
-          ]
+          ],
+          "uz": "taxminan oʻn daqiqa"
         },
         {
           "id": "PRE_ABOUT008",
@@ -918,9 +1077,11 @@
           "examples": [
             {
               "en": "What about going for a walk?",
-              "ru": "Как насчёт прогулки?"
+              "ru": "Как насчёт прогулки?",
+              "uz": "Sayrga chiqishga nima deysiz?"
             }
-          ]
+          ],
+          "uz": "...ga nima deysiz?"
         }
       ]
     },
@@ -929,7 +1090,8 @@
       "order": 9,
       "title": {
         "en": "Of",
-        "ru": "Выражения с «of»"
+        "ru": "Выражения с «of»",
+        "uz": "«of» bilan iboralar"
       },
       "phrases": [
         {
@@ -939,9 +1101,11 @@
           "examples": [
             {
               "en": "I'd like a cup of tea.",
-              "ru": "Я хотел бы чашку чая."
+              "ru": "Я хотел бы чашку чая.",
+              "uz": "Menga bir piyola choy bering."
             }
-          ]
+          ],
+          "uz": "bir piyola choy"
         },
         {
           "id": "PRE_OF002",
@@ -950,9 +1114,11 @@
           "examples": [
             {
               "en": "I have a lot of work today.",
-              "ru": "У меня сегодня много работы."
+              "ru": "У меня сегодня много работы.",
+              "uz": "Bugun menda koʻp ish bor."
             }
-          ]
+          ],
+          "uz": "koʻp"
         },
         {
           "id": "PRE_OF003",
@@ -961,9 +1127,11 @@
           "examples": [
             {
               "en": "Can I have a piece of cake?",
-              "ru": "Можно мне кусок торта?"
+              "ru": "Можно мне кусок торта?",
+              "uz": "Menga bir boʻlak tort bersangiz?"
             }
-          ]
+          ],
+          "uz": "bir boʻlak"
         },
         {
           "id": "PRE_OF004",
@@ -972,9 +1140,11 @@
           "examples": [
             {
               "en": "He's one of my best friends.",
-              "ru": "Он один из моих лучших друзей."
+              "ru": "Он один из моих лучших друзей.",
+              "uz": "U mening eng yaqin doʻstlarimdan biri."
             }
-          ]
+          ],
+          "uz": "doʻstlarimdan biri"
         },
         {
           "id": "PRE_OF005",
@@ -983,9 +1153,11 @@
           "examples": [
             {
               "en": "It's kind of strange.",
-              "ru": "Это немного странно."
+              "ru": "Это немного странно.",
+              "uz": "Bu biroz gʻalati."
             }
-          ]
+          ],
+          "uz": "qandaydir; bir turdagi"
         },
         {
           "id": "PRE_OF006",
@@ -994,9 +1166,11 @@
           "examples": [
             {
               "en": "I'm afraid of spiders.",
-              "ru": "Я боюсь пауков."
+              "ru": "Я боюсь пауков.",
+              "uz": "Men oʻrgimchaklardan qoʻrqaman."
             }
-          ]
+          ],
+          "uz": "qoʻrqmoq"
         },
         {
           "id": "PRE_OF007",
@@ -1005,9 +1179,11 @@
           "examples": [
             {
               "en": "I'm proud of you.",
-              "ru": "Я горжусь тобой."
+              "ru": "Я горжусь тобой.",
+              "uz": "Men siz bilan faxrlanaman."
             }
-          ]
+          ],
+          "uz": "faxrlanmoq"
         },
         {
           "id": "PRE_OF008",
@@ -1016,9 +1192,11 @@
           "examples": [
             {
               "en": "The game was cancelled because of rain.",
-              "ru": "Игра была отменена из-за дождя."
+              "ru": "Игра была отменена из-за дождя.",
+              "uz": "Oʻyin yomgʻir tufayli bekor qilindi."
             }
-          ]
+          ],
+          "uz": "tufayli"
         },
         {
           "id": "PRE_OF009",
@@ -1027,9 +1205,11 @@
           "examples": [
             {
               "en": "I'll call you at the end of the day.",
-              "ru": "Я позвоню тебе в конце дня."
+              "ru": "Я позвоню тебе в конце дня.",
+              "uz": "Men sizga kun oxirida qoʻngʻiroq qilaman."
             }
-          ]
+          ],
+          "uz": "kun oxiri"
         },
         {
           "id": "PRE_OF010",
@@ -1038,9 +1218,11 @@
           "examples": [
             {
               "en": "A friend of mine lives nearby.",
-              "ru": "Один мой друг живёт неподалёку."
+              "ru": "Один мой друг живёт неподалёку.",
+              "uz": "Bir doʻstim yaqin atrofda yashaydi."
             }
-          ]
+          ],
+          "uz": "bir doʻstim"
         }
       ]
     },
@@ -1049,7 +1231,8 @@
       "order": 10,
       "title": {
         "en": "By",
-        "ru": "Выражения с «by»"
+        "ru": "Выражения с «by»",
+        "uz": "«by» bilan iboralar"
       },
       "phrases": [
         {
@@ -1059,9 +1242,11 @@
           "examples": [
             {
               "en": "I go to work by bus.",
-              "ru": "Я езжу на работу на автобусе."
+              "ru": "Я езжу на работу на автобусе.",
+              "uz": "Men ishga avtobusda boraman."
             }
-          ]
+          ],
+          "uz": "avtobus bilan"
         },
         {
           "id": "PRE_BY002",
@@ -1070,9 +1255,11 @@
           "examples": [
             {
               "en": "We travelled by car.",
-              "ru": "Мы путешествовали на машине."
+              "ru": "Мы путешествовали на машине.",
+              "uz": "Biz mashinada sayohat qildik."
             }
-          ]
+          ],
+          "uz": "mashinada"
         },
         {
           "id": "PRE_BY003",
@@ -1081,9 +1268,11 @@
           "examples": [
             {
               "en": "You can get there by train.",
-              "ru": "Туда можно добраться на поезде."
+              "ru": "Туда можно добраться на поезде.",
+              "uz": "U yerga poyezdda borishingiz mumkin."
             }
-          ]
+          ],
+          "uz": "poyezdda"
         },
         {
           "id": "PRE_BY004",
@@ -1092,9 +1281,11 @@
           "examples": [
             {
               "en": "I did it by myself.",
-              "ru": "Я сделал это самостоятельно."
+              "ru": "Я сделал это самостоятельно.",
+              "uz": "Men buni oʻzim qildim."
             }
-          ]
+          ],
+          "uz": "oʻzim mustaqil"
         },
         {
           "id": "PRE_BY005",
@@ -1103,9 +1294,11 @@
           "examples": [
             {
               "en": "By the way, how's your brother?",
-              "ru": "Кстати, как твой брат?"
+              "ru": "Кстати, как твой брат?",
+              "uz": "Aytgancha, akangiz qalay?"
             }
-          ]
+          ],
+          "uz": "aytgancha"
         },
         {
           "id": "PRE_BY006",
@@ -1114,9 +1307,11 @@
           "examples": [
             {
               "en": "This bag is made by hand.",
-              "ru": "Эта сумка сделана вручную."
+              "ru": "Эта сумка сделана вручную.",
+              "uz": "Bu sumka qoʻlda tikilgan."
             }
-          ]
+          ],
+          "uz": "qoʻlda"
         },
         {
           "id": "PRE_BY007",
@@ -1125,9 +1320,11 @@
           "examples": [
             {
               "en": "I called you by mistake.",
-              "ru": "Я позвонил тебе по ошибке."
+              "ru": "Я позвонил тебе по ошибке.",
+              "uz": "Men sizga adashib qoʻngʻiroq qildim."
             }
-          ]
+          ],
+          "uz": "adashib"
         },
         {
           "id": "PRE_BY008",
@@ -1136,9 +1333,11 @@
           "examples": [
             {
               "en": "Please finish this by Friday.",
-              "ru": "Пожалуйста, закончи это к пятнице."
+              "ru": "Пожалуйста, закончи это к пятнице.",
+              "uz": "Iltimos, buni jumagacha tugating."
             }
-          ]
+          ],
+          "uz": "jumagacha"
         },
         {
           "id": "PRE_BY009",
@@ -1147,9 +1346,11 @@
           "examples": [
             {
               "en": "This book was written by a famous author.",
-              "ru": "Эта книга написана известным автором."
+              "ru": "Эта книга написана известным автором.",
+              "uz": "Bu kitob mashhur muallif tomonidan yozilgan."
             }
-          ]
+          ],
+          "uz": "kimdir tomonidan yozilgan"
         }
       ]
     },
@@ -1158,7 +1359,8 @@
       "order": 11,
       "title": {
         "en": "Without",
-        "ru": "Выражения с «without»"
+        "ru": "Выражения с «without»",
+        "uz": "«without» bilan iboralar"
       },
       "phrases": [
         {
@@ -1168,9 +1370,11 @@
           "examples": [
             {
               "en": "I can't do this without you.",
-              "ru": "Я не могу сделать это без тебя."
+              "ru": "Я не могу сделать это без тебя.",
+              "uz": "Men buni sizsiz qila olmayman."
             }
-          ]
+          ],
+          "uz": "sizsiz"
         },
         {
           "id": "PRE_WITHOUT002",
@@ -1179,9 +1383,11 @@
           "examples": [
             {
               "en": "She is without a doubt the best person for the job.",
-              "ru": "Она, без сомнения, лучший кандидат на эту работу."
+              "ru": "Она, без сомнения, лучший кандидат на эту работу.",
+              "uz": "U shubhasiz bu ish uchun eng mos odam."
             }
-          ]
+          ],
+          "uz": "shubhasiz"
         },
         {
           "id": "PRE_WITHOUT003",
@@ -1190,9 +1396,11 @@
           "examples": [
             {
               "en": "You can't enter without permission.",
-              "ru": "Нельзя входить без разрешения."
+              "ru": "Нельзя входить без разрешения.",
+              "uz": "Ruxsatsiz kira olmaysiz."
             }
-          ]
+          ],
+          "uz": "ruxsatsiz"
         },
         {
           "id": "PRE_WITHOUT004",
@@ -1201,9 +1409,11 @@
           "examples": [
             {
               "en": "We finished the work without any problems.",
-              "ru": "Мы закончили работу без каких-либо проблем."
+              "ru": "Мы закончили работу без каких-либо проблем.",
+              "uz": "Biz ishni hech qanday muammosiz tugatdik."
             }
-          ]
+          ],
+          "uz": "hech qanday muammosiz"
         },
         {
           "id": "PRE_WITHOUT005",
@@ -1212,9 +1422,11 @@
           "examples": [
             {
               "en": "I can't go without my phone.",
-              "ru": "Я не могу обходиться без телефона."
+              "ru": "Я не могу обходиться без телефона.",
+              "uz": "Men telefonimsiz kun koʻra olmayman."
             }
-          ]
+          ],
+          "uz": "...siz kun koʻrmoq"
         },
         {
           "id": "PRE_WITHOUT006",
@@ -1223,9 +1435,11 @@
           "examples": [
             {
               "en": "I'd like coffee without sugar.",
-              "ru": "Я хотел бы кофе без сахара."
+              "ru": "Я хотел бы кофе без сахара.",
+              "uz": "Menga shakarsiz qahva bering."
             }
-          ]
+          ],
+          "uz": "shakarsiz qahva"
         }
       ]
     },
@@ -1234,7 +1448,8 @@
       "order": 12,
       "title": {
         "en": "Before",
-        "ru": "Выражения с «before»"
+        "ru": "Выражения с «before»",
+        "uz": "«before» bilan iboralar"
       },
       "phrases": [
         {
@@ -1244,9 +1459,11 @@
           "examples": [
             {
               "en": "I exercise before work.",
-              "ru": "Я занимаюсь спортом до работы."
+              "ru": "Я занимаюсь спортом до работы.",
+              "uz": "Men ishdan oldin mashq qilaman."
             }
-          ]
+          ],
+          "uz": "ishdan oldin"
         },
         {
           "id": "PRE_BEFORE002",
@@ -1255,9 +1472,11 @@
           "examples": [
             {
               "en": "Let's finish this before lunch.",
-              "ru": "Давай закончим это до обеда."
+              "ru": "Давай закончим это до обеда.",
+              "uz": "Keling, buni tushlikdan oldin tugatamiz."
             }
-          ]
+          ],
+          "uz": "tushlikdan oldin"
         },
         {
           "id": "PRE_BEFORE003",
@@ -1266,9 +1485,11 @@
           "examples": [
             {
               "en": "Call me before you go.",
-              "ru": "Позвони мне перед уходом."
+              "ru": "Позвони мне перед уходом.",
+              "uz": "Ketishingizdan oldin menga qoʻngʻiroq qiling."
             }
-          ]
+          ],
+          "uz": "ketishingizdan oldin"
         },
         {
           "id": "PRE_BEFORE004",
@@ -1277,9 +1498,11 @@
           "examples": [
             {
               "en": "I saw him the day before.",
-              "ru": "Я видел его накануне."
+              "ru": "Я видел его накануне.",
+              "uz": "Men uni bir kun oldin koʻrgandim."
             }
-          ]
+          ],
+          "uz": "bir kun oldin"
         },
         {
           "id": "PRE_BEFORE005",
@@ -1288,9 +1511,11 @@
           "examples": [
             {
               "en": "You'll understand before long.",
-              "ru": "Скоро ты поймёшь."
+              "ru": "Скоро ты поймёшь.",
+              "uz": "Koʻp oʻtmay tushunasiz."
             }
-          ]
+          ],
+          "uz": "koʻp oʻtmay"
         },
         {
           "id": "PRE_BEFORE006",
@@ -1299,9 +1524,11 @@
           "examples": [
             {
               "en": "Take a photo before and after.",
-              "ru": "Сделай фото до и после."
+              "ru": "Сделай фото до и после.",
+              "uz": "Oldin va keyin surat oling."
             }
-          ]
+          ],
+          "uz": "oldin va keyin"
         }
       ]
     },
@@ -1310,7 +1537,8 @@
       "order": 13,
       "title": {
         "en": "After",
-        "ru": "Выражения с «after»"
+        "ru": "Выражения с «after»",
+        "uz": "«after» bilan iboralar"
       },
       "phrases": [
         {
@@ -1320,9 +1548,11 @@
           "examples": [
             {
               "en": "Let's meet after work.",
-              "ru": "Давай встретимся после работы."
+              "ru": "Давай встретимся после работы.",
+              "uz": "Keling, ishdan keyin uchrashamiz."
             }
-          ]
+          ],
+          "uz": "ishdan keyin"
         },
         {
           "id": "PRE_AFTER002",
@@ -1331,9 +1561,11 @@
           "examples": [
             {
               "en": "I play football after school.",
-              "ru": "Я играю в футбол после школы."
+              "ru": "Я играю в футбол после школы.",
+              "uz": "Men maktabdan keyin futbol oʻynayman."
             }
-          ]
+          ],
+          "uz": "maktabdan keyin"
         },
         {
           "id": "PRE_AFTER003",
@@ -1342,9 +1574,11 @@
           "examples": [
             {
               "en": "I'll call you after lunch.",
-              "ru": "Я позвоню тебе после обеда."
+              "ru": "Я позвоню тебе после обеда.",
+              "uz": "Men sizga tushlikdan keyin qoʻngʻiroq qilaman."
             }
-          ]
+          ],
+          "uz": "tushlikdan keyin"
         },
         {
           "id": "PRE_AFTER004",
@@ -1353,9 +1587,11 @@
           "examples": [
             {
               "en": "Can you look after my cat?",
-              "ru": "Можешь присмотреть за моей кошкой?"
+              "ru": "Можешь присмотреть за моей кошкой?",
+              "uz": "Mushugimga qarab tura olasizmi?"
             }
-          ]
+          ],
+          "uz": "qarab turmoq; gʻamxoʻrlik qilmoq"
         },
         {
           "id": "PRE_AFTER005",
@@ -1364,9 +1600,11 @@
           "examples": [
             {
               "en": "He arrived soon after me.",
-              "ru": "Он приехал вскоре после меня."
+              "ru": "Он приехал вскоре после меня.",
+              "uz": "U mendan sal keyin yetib keldi."
             }
-          ]
+          ],
+          "uz": "...dan sal keyin"
         },
         {
           "id": "PRE_AFTER006",
@@ -1375,9 +1613,11 @@
           "examples": [
             {
               "en": "She practised day after day.",
-              "ru": "Она тренировалась день за днём."
+              "ru": "Она тренировалась день за днём.",
+              "uz": "U kundan-kunga mashq qildi."
             }
-          ]
+          ],
+          "uz": "kundan-kunga"
         }
       ]
     },
@@ -1386,7 +1626,8 @@
       "order": 14,
       "title": {
         "en": "During",
-        "ru": "Выражения с «during»"
+        "ru": "Выражения с «during»",
+        "uz": "«during» bilan iboralar"
       },
       "phrases": [
         {
@@ -1396,9 +1637,11 @@
           "examples": [
             {
               "en": "I feel busy during the day.",
-              "ru": "В течение дня я занят."
+              "ru": "В течение дня я занят.",
+              "uz": "Men kun davomida band boʻlaman."
             }
-          ]
+          ],
+          "uz": "kun davomida"
         },
         {
           "id": "PRE_DURING002",
@@ -1407,9 +1650,11 @@
           "examples": [
             {
               "en": "Please don't use your phone during the meeting.",
-              "ru": "Пожалуйста, не пользуйся телефоном во время встречи."
+              "ru": "Пожалуйста, не пользуйся телефоном во время встречи.",
+              "uz": "Iltimos, uchrashuv vaqtida telefoningizdan foydalanmang."
             }
-          ]
+          ],
+          "uz": "uchrashuv vaqtida"
         },
         {
           "id": "PRE_DURING003",
@@ -1418,9 +1663,11 @@
           "examples": [
             {
               "en": "It rained during the night.",
-              "ru": "Ночью шёл дождь."
+              "ru": "Ночью шёл дождь.",
+              "uz": "Tun davomida yomgʻir yogʻdi."
             }
-          ]
+          ],
+          "uz": "tun davomida"
         },
         {
           "id": "PRE_DURING004",
@@ -1429,9 +1676,11 @@
           "examples": [
             {
               "en": "We stayed with our grandparents during the summer.",
-              "ru": "Летом мы жили у бабушки и дедушки."
+              "ru": "Летом мы жили у бабушки и дедушки.",
+              "uz": "Biz yoz davomida bobom va buvimnikida qoldik."
             }
-          ]
+          ],
+          "uz": "yoz davomida"
         },
         {
           "id": "PRE_DURING005",
@@ -1440,9 +1689,11 @@
           "examples": [
             {
               "en": "Don't talk during the lesson.",
-              "ru": "Не разговаривай во время урока."
+              "ru": "Не разговаривай во время урока.",
+              "uz": "Dars vaqtida gaplashmang."
             }
-          ]
+          ],
+          "uz": "dars vaqtida"
         },
         {
           "id": "PRE_DURING006",
@@ -1451,9 +1702,11 @@
           "examples": [
             {
               "en": "I read three books during my holiday.",
-              "ru": "Во время отпуска я прочитал три книги."
+              "ru": "Во время отпуска я прочитал три книги.",
+              "uz": "Men taʼtilim davomida uchta kitob oʻqidim."
             }
-          ]
+          ],
+          "uz": "taʼtilim davomida"
         }
       ]
     },
@@ -1462,7 +1715,8 @@
       "order": 15,
       "title": {
         "en": "Between",
-        "ru": "Выражения с «between»"
+        "ru": "Выражения с «between»",
+        "uz": "«between» bilan iboralar"
       },
       "phrases": [
         {
@@ -1472,9 +1726,11 @@
           "examples": [
             {
               "en": "Between you and me, I don't like this plan.",
-              "ru": "Между нами, мне не нравится этот план."
+              "ru": "Между нами, мне не нравится этот план.",
+              "uz": "Oramizda qolsin, menga bu reja yoqmaydi."
             }
-          ]
+          ],
+          "uz": "oramizda qolsin"
         },
         {
           "id": "PRE_BETWEEN002",
@@ -1483,9 +1739,11 @@
           "examples": [
             {
               "en": "The café is between two buildings.",
-              "ru": "Кафе находится между двумя зданиями."
+              "ru": "Кафе находится между двумя зданиями.",
+              "uz": "Kafe ikki bino orasida."
             }
-          ]
+          ],
+          "uz": "ikki bino orasida"
         },
         {
           "id": "PRE_BETWEEN003",
@@ -1494,9 +1752,11 @@
           "examples": [
             {
               "en": "I'll call you between Monday and Friday.",
-              "ru": "Я позвоню тебе с понедельника по пятницу."
+              "ru": "Я позвоню тебе с понедельника по пятницу.",
+              "uz": "Men sizga dushanba bilan juma orasida qoʻngʻiroq qilaman."
             }
-          ]
+          ],
+          "uz": "dushanba bilan juma orasida"
         },
         {
           "id": "PRE_BETWEEN004",
@@ -1505,9 +1765,11 @@
           "examples": [
             {
               "en": "You must choose between these two options.",
-              "ru": "Ты должен выбрать между этими двумя вариантами."
+              "ru": "Ты должен выбрать между этими двумя вариантами.",
+              "uz": "Siz shu ikki variant orasidan tanlashingiz kerak."
             }
-          ]
+          ],
+          "uz": "orasidan tanlamoq"
         },
         {
           "id": "PRE_BETWEEN005",
@@ -1516,9 +1778,11 @@
           "examples": [
             {
               "en": "Let's share the cost between us.",
-              "ru": "Давай разделим расходы между нами."
+              "ru": "Давай разделим расходы между нами.",
+              "uz": "Keling, xarajatni oʻzaro boʻlishamiz."
             }
-          ]
+          ],
+          "uz": "oʻzaro boʻlishmoq"
         },
         {
           "id": "PRE_BETWEEN006",
@@ -1527,9 +1791,11 @@
           "examples": [
             {
               "en": "What's the difference between these words?",
-              "ru": "В чём разница между этими словами?"
+              "ru": "В чём разница между этими словами?",
+              "uz": "Bu soʻzlar orasidagi farq nima?"
             }
-          ]
+          ],
+          "uz": "orasidagi farq"
         }
       ]
     },
@@ -1538,7 +1804,8 @@
       "order": 16,
       "title": {
         "en": "Among",
-        "ru": "Выражения с «among»"
+        "ru": "Выражения с «among»",
+        "uz": "«among» bilan iboralar"
       },
       "phrases": [
         {
@@ -1548,9 +1815,11 @@
           "examples": [
             {
               "en": "I feel comfortable among friends.",
-              "ru": "Я чувствую себя комфортно среди друзей."
+              "ru": "Я чувствую себя комфортно среди друзей.",
+              "uz": "Men doʻstlar orasida oʻzimni erkin his qilaman."
             }
-          ]
+          ],
+          "uz": "doʻstlar orasida"
         },
         {
           "id": "PRE_AMONG002",
@@ -1559,9 +1828,11 @@
           "examples": [
             {
               "en": "She's among the best students in class.",
-              "ru": "Она среди лучших учеников в классе."
+              "ru": "Она среди лучших учеников в классе.",
+              "uz": "U sinfdagi eng yaxshi oʻquvchilar qatorida."
             }
-          ]
+          ],
+          "uz": "eng yaxshilar qatorida"
         },
         {
           "id": "PRE_AMONG003",
@@ -1570,9 +1841,11 @@
           "examples": [
             {
               "en": "Among other things, we discussed the budget.",
-              "ru": "Среди прочего мы обсудили бюджет."
+              "ru": "Среди прочего мы обсудили бюджет.",
+              "uz": "Boshqa narsalar qatori byudjetni ham muhokama qildik."
             }
-          ]
+          ],
+          "uz": "boshqa narsalar qatori"
         },
         {
           "id": "PRE_AMONG004",
@@ -1581,9 +1854,11 @@
           "examples": [
             {
               "en": "Share the sweets among yourselves.",
-              "ru": "Разделите конфеты между собой."
+              "ru": "Разделите конфеты между собой.",
+              "uz": "Shirinliklarni oʻzaro taqsimlang."
             }
-          ]
+          ],
+          "uz": "oʻzaro taqsimlamoq"
         },
         {
           "id": "PRE_AMONG005",
@@ -1592,9 +1867,11 @@
           "examples": [
             {
               "en": "This app is popular among young people.",
-              "ru": "Это приложение популярно среди молодёжи."
+              "ru": "Это приложение популярно среди молодёжи.",
+              "uz": "Bu ilova yoshlar orasida mashhur."
             }
-          ]
+          ],
+          "uz": "yoshlar orasida mashhur"
         }
       ]
     },
@@ -1603,7 +1880,8 @@
       "order": 17,
       "title": {
         "en": "Under",
-        "ru": "Выражения с «under»"
+        "ru": "Выражения с «under»",
+        "uz": "«under» bilan iboralar"
       },
       "phrases": [
         {
@@ -1613,9 +1891,11 @@
           "examples": [
             {
               "en": "The cat is under the table.",
-              "ru": "Кошка под столом."
+              "ru": "Кошка под столом.",
+              "uz": "Mushuk stol tagida."
             }
-          ]
+          ],
+          "uz": "stol tagida"
         },
         {
           "id": "PRE_UNDER002",
@@ -1624,9 +1904,11 @@
           "examples": [
             {
               "en": "I found my shoes under the bed.",
-              "ru": "Я нашёл обувь под кроватью."
+              "ru": "Я нашёл обувь под кроватью.",
+              "uz": "Men oyoq kiyimimni karavot tagidan topdim."
             }
-          ]
+          ],
+          "uz": "karavot tagida"
         },
         {
           "id": "PRE_UNDER003",
@@ -1635,9 +1917,11 @@
           "examples": [
             {
               "en": "Children under 18 can enter for free.",
-              "ru": "Дети младше 18 лет могут входить бесплатно."
+              "ru": "Дети младше 18 лет могут входить бесплатно.",
+              "uz": "18 yoshdan kichik bolalar bepul kiradi."
             }
-          ]
+          ],
+          "uz": "18 yoshdan kichik"
         },
         {
           "id": "PRE_UNDER004",
@@ -1646,9 +1930,11 @@
           "examples": [
             {
               "en": "I work better when I'm not under pressure.",
-              "ru": "Я работаю лучше, когда на меня не давят."
+              "ru": "Я работаю лучше, когда на меня не давят.",
+              "uz": "Men bosim ostida boʻlmaganimda yaxshiroq ishlayman."
             }
-          ]
+          ],
+          "uz": "bosim ostida"
         },
         {
           "id": "PRE_UNDER005",
@@ -1657,9 +1943,11 @@
           "examples": [
             {
               "en": "Don't worry; everything is under control.",
-              "ru": "Не волнуйся, всё под контролем."
+              "ru": "Не волнуйся, всё под контролем.",
+              "uz": "Xavotir olmang; hammasi nazorat ostida."
             }
-          ]
+          ],
+          "uz": "nazorat ostida"
         },
         {
           "id": "PRE_UNDER006",
@@ -1668,9 +1956,11 @@
           "examples": [
             {
               "en": "The road is under construction.",
-              "ru": "Дорога на ремонте."
+              "ru": "Дорога на ремонте.",
+              "uz": "Yoʻlda qurilish ishlari ketyapti."
             }
-          ]
+          ],
+          "uz": "qurilish ishlari ketyapti"
         },
         {
           "id": "PRE_UNDER007",
@@ -1679,9 +1969,11 @@
           "examples": [
             {
               "en": "I'm feeling a bit under the weather today.",
-              "ru": "Сегодня я немного плохо себя чувствую."
+              "ru": "Сегодня я немного плохо себя чувствую.",
+              "uz": "Bugun oʻzimni unchalik yaxshi his qilmayapman."
             }
-          ]
+          ],
+          "uz": "oʻzini yaxshi his qilmaslik"
         }
       ]
     },
@@ -1690,7 +1982,8 @@
       "order": 18,
       "title": {
         "en": "Over",
-        "ru": "Выражения с «over»"
+        "ru": "Выражения с «over»",
+        "uz": "«over» bilan iboralar"
       },
       "phrases": [
         {
@@ -1700,9 +1993,11 @@
           "examples": [
             {
               "en": "We walked over the bridge.",
-              "ru": "Мы прошли по мосту."
+              "ru": "Мы прошли по мосту.",
+              "uz": "Biz koʻprik orqali piyoda oʻtdik."
             }
-          ]
+          ],
+          "uz": "koʻprik orqali"
         },
         {
           "id": "PRE_OVER002",
@@ -1711,9 +2006,11 @@
           "examples": [
             {
               "en": "The bus stop is over there.",
-              "ru": "Автобусная остановка вон там."
+              "ru": "Автобусная остановка вон там.",
+              "uz": "Avtobus bekati ana u yerda."
             }
-          ]
+          ],
+          "uz": "ana u yerda"
         },
         {
           "id": "PRE_OVER003",
@@ -1722,9 +2019,11 @@
           "examples": [
             {
               "en": "Over 100 people came to the event.",
-              "ru": "На мероприятие пришло более 100 человек."
+              "ru": "На мероприятие пришло более 100 человек.",
+              "uz": "Tadbirga 100 dan ortiq odam keldi."
             }
-          ]
+          ],
+          "uz": "100 dan ortiq odam"
         },
         {
           "id": "PRE_OVER004",
@@ -1733,9 +2032,11 @@
           "examples": [
             {
               "en": "People use this app all over the world.",
-              "ru": "Люди используют это приложение по всему миру."
+              "ru": "Люди используют это приложение по всему миру.",
+              "uz": "Bu ilovadan butun dunyo boʻylab odamlar foydalanadi."
             }
-          ]
+          ],
+          "uz": "butun dunyo boʻylab"
         },
         {
           "id": "PRE_OVER005",
@@ -1744,9 +2045,11 @@
           "examples": [
             {
               "en": "I finished the book over the weekend.",
-              "ru": "Я закончил книгу за выходные."
+              "ru": "Я закончил книгу за выходные.",
+              "uz": "Men kitobni dam olish kunlari davomida tugatdim."
             }
-          ]
+          ],
+          "uz": "dam olish kunlari davomida"
         },
         {
           "id": "PRE_OVER006",
@@ -1755,9 +2058,11 @@
           "examples": [
             {
               "en": "It took me time to get over the flu.",
-              "ru": "Мне понадобилось время, чтобы оправиться после гриппа."
+              "ru": "Мне понадобилось время, чтобы оправиться после гриппа.",
+              "uz": "Grippdan keyin oʻzimga kelishim uchun vaqt kerak boʻldi."
             }
-          ]
+          ],
+          "uz": "biror narsadan keyin oʻziga kelmoq"
         },
         {
           "id": "PRE_OVER007",
@@ -1766,9 +2071,11 @@
           "examples": [
             {
               "en": "I listened to the song over and over again.",
-              "ru": "Я слушал эту песню снова и снова."
+              "ru": "Я слушал эту песню снова и снова.",
+              "uz": "Men qoʻshiqni qayta-qayta tingladim."
             }
-          ]
+          ],
+          "uz": "qayta-qayta"
         }
       ]
     },
@@ -1777,7 +2084,8 @@
       "order": 19,
       "title": {
         "en": "Above",
-        "ru": "Выражения с «above»"
+        "ru": "Выражения с «above»",
+        "uz": "«above» bilan iboralar"
       },
       "phrases": [
         {
@@ -1787,9 +2095,11 @@
           "examples": [
             {
               "en": "There's a clock above the door.",
-              "ru": "Над дверью висят часы."
+              "ru": "Над дверью висят часы.",
+              "uz": "Eshik tepasida soat bor."
             }
-          ]
+          ],
+          "uz": "eshik tepasida"
         },
         {
           "id": "PRE_ABOVE002",
@@ -1798,9 +2108,11 @@
           "examples": [
             {
               "en": "Her English is above average.",
-              "ru": "Её английский выше среднего."
+              "ru": "Её английский выше среднего.",
+              "uz": "Uning ingliz tili oʻrtachadan yuqori."
             }
-          ]
+          ],
+          "uz": "oʻrtachadan yuqori"
         },
         {
           "id": "PRE_ABOVE003",
@@ -1809,9 +2121,11 @@
           "examples": [
             {
               "en": "Above all, be honest.",
-              "ru": "Прежде всего будь честным."
+              "ru": "Прежде всего будь честным.",
+              "uz": "Eng avvalo, halol boʻling."
             }
-          ]
+          ],
+          "uz": "eng avvalo"
         },
         {
           "id": "PRE_ABOVE004",
@@ -1820,9 +2134,11 @@
           "examples": [
             {
               "en": "The temperature is above zero today.",
-              "ru": "Сегодня температура выше нуля."
+              "ru": "Сегодня температура выше нуля.",
+              "uz": "Bugun harorat noldan yuqori."
             }
-          ]
+          ],
+          "uz": "harorat noldan yuqori"
         },
         {
           "id": "PRE_ABOVE005",
@@ -1831,9 +2147,11 @@
           "examples": [
             {
               "en": "Please read the information mentioned above.",
-              "ru": "Пожалуйста, прочитай информацию, упомянутую выше."
+              "ru": "Пожалуйста, прочитай информацию, упомянутую выше.",
+              "uz": "Iltimos, yuqorida tilga olingan maʼlumotni oʻqing."
             }
-          ]
+          ],
+          "uz": "yuqorida tilga olingan"
         }
       ]
     },
@@ -1842,7 +2160,8 @@
       "order": 20,
       "title": {
         "en": "Below",
-        "ru": "Выражения с «below»"
+        "ru": "Выражения с «below»",
+        "uz": "«below» bilan iboralar"
       },
       "phrases": [
         {
@@ -1852,9 +2171,11 @@
           "examples": [
             {
               "en": "It's five degrees below zero.",
-              "ru": "Пять градусов ниже нуля."
+              "ru": "Пять градусов ниже нуля.",
+              "uz": "Havo noldan besh daraja past."
             }
-          ]
+          ],
+          "uz": "noldan past"
         },
         {
           "id": "PRE_BELOW002",
@@ -1863,9 +2184,11 @@
           "examples": [
             {
               "en": "His score was below average.",
-              "ru": "Его результат был ниже среднего."
+              "ru": "Его результат был ниже среднего.",
+              "uz": "Uning natijasi oʻrtachadan past edi."
             }
-          ]
+          ],
+          "uz": "oʻrtachadan past"
         },
         {
           "id": "PRE_BELOW003",
@@ -1874,9 +2197,11 @@
           "examples": [
             {
               "en": "The desk is below the window.",
-              "ru": "Стол находится под окном."
+              "ru": "Стол находится под окном.",
+              "uz": "Stol deraza tagida."
             }
-          ]
+          ],
+          "uz": "deraza tagida"
         },
         {
           "id": "PRE_BELOW004",
@@ -1885,9 +2210,11 @@
           "examples": [
             {
               "en": "Please see the details below.",
-              "ru": "Подробности смотри ниже."
+              "ru": "Подробности смотри ниже.",
+              "uz": "Iltimos, tafsilotlarni quyida koʻring."
             }
-          ]
+          ],
+          "uz": "quyiga qarang"
         },
         {
           "id": "PRE_BELOW005",
@@ -1896,9 +2223,11 @@
           "examples": [
             {
               "en": "Some parts of the city are below sea level.",
-              "ru": "Некоторые части города находятся ниже уровня моря."
+              "ru": "Некоторые части города находятся ниже уровня моря.",
+              "uz": "Shaharning baʼzi qismlari dengiz sathidan past."
             }
-          ]
+          ],
+          "uz": "dengiz sathidan past"
         }
       ]
     },
@@ -1907,7 +2236,8 @@
       "order": 21,
       "title": {
         "en": "Behind",
-        "ru": "Выражения с «behind»"
+        "ru": "Выражения с «behind»",
+        "uz": "«behind» bilan iboralar"
       },
       "phrases": [
         {
@@ -1917,9 +2247,11 @@
           "examples": [
             {
               "en": "Someone is standing behind me.",
-              "ru": "Кто-то стоит позади меня."
+              "ru": "Кто-то стоит позади меня.",
+              "uz": "Kimdir orqamda turibdi."
             }
-          ]
+          ],
+          "uz": "orqamda"
         },
         {
           "id": "PRE_BEHIND002",
@@ -1928,9 +2260,11 @@
           "examples": [
             {
               "en": "There's a garden behind the house.",
-              "ru": "За домом есть сад."
+              "ru": "За домом есть сад.",
+              "uz": "Uy orqasida bogʻ bor."
             }
-          ]
+          ],
+          "uz": "uy orqasida"
         },
         {
           "id": "PRE_BEHIND003",
@@ -1939,9 +2273,11 @@
           "examples": [
             {
               "en": "We're behind schedule.",
-              "ru": "Мы отстаём от графика."
+              "ru": "Мы отстаём от графика.",
+              "uz": "Biz jadvaldan orqadamiz."
             }
-          ]
+          ],
+          "uz": "jadvaldan orqada"
         },
         {
           "id": "PRE_BEHIND004",
@@ -1950,9 +2286,11 @@
           "examples": [
             {
               "en": "She works behind the scenes.",
-              "ru": "Она работает за кулисами."
+              "ru": "Она работает за кулисами.",
+              "uz": "U parda ortida ishlaydi."
             }
-          ]
+          ],
+          "uz": "parda ortida"
         },
         {
           "id": "PRE_BEHIND005",
@@ -1961,9 +2299,11 @@
           "examples": [
             {
               "en": "I missed a lesson and fell behind.",
-              "ru": "Я пропустил урок и отстал."
+              "ru": "Я пропустил урок и отстал.",
+              "uz": "Men bir darsni qoldirib, ortda qoldim."
             }
-          ]
+          ],
+          "uz": "ortda qolmoq"
         },
         {
           "id": "PRE_BEHIND006",
@@ -1972,9 +2312,11 @@
           "examples": [
             {
               "en": "Never use your phone behind the wheel.",
-              "ru": "Никогда не пользуйся телефоном за рулём."
+              "ru": "Никогда не пользуйся телефоном за рулём.",
+              "uz": "Rulda hech qachon telefondan foydalanmang."
             }
-          ]
+          ],
+          "uz": "rulda"
         }
       ]
     },
@@ -1983,7 +2325,8 @@
       "order": 22,
       "title": {
         "en": "In Front of",
-        "ru": "Выражения с «in front of»"
+        "ru": "Выражения с «in front of»",
+        "uz": "«in front of» bilan iboralar"
       },
       "phrases": [
         {
@@ -1993,9 +2336,11 @@
           "examples": [
             {
               "en": "The car is in front of the house.",
-              "ru": "Машина стоит перед домом."
+              "ru": "Машина стоит перед домом.",
+              "uz": "Mashina uy oldida."
             }
-          ]
+          ],
+          "uz": "uy oldida"
         },
         {
           "id": "PRE_IN_FRONT_OF002",
@@ -2004,9 +2349,11 @@
           "examples": [
             {
               "en": "Please stand in front of me.",
-              "ru": "Пожалуйста, встань передо мной."
+              "ru": "Пожалуйста, встань передо мной.",
+              "uz": "Iltimos, mening oldimda turing."
             }
-          ]
+          ],
+          "uz": "mening oldimda"
         },
         {
           "id": "PRE_IN_FRONT_OF003",
@@ -2015,9 +2362,11 @@
           "examples": [
             {
               "en": "I'll wait in front of the bank.",
-              "ru": "Я подожду перед банком."
+              "ru": "Я подожду перед банком.",
+              "uz": "Men bank oldida kutaman."
             }
-          ]
+          ],
+          "uz": "bank oldida"
         },
         {
           "id": "PRE_IN_FRONT_OF004",
@@ -2026,9 +2375,11 @@
           "examples": [
             {
               "en": "I'm nervous speaking in front of people.",
-              "ru": "Я нервничаю, когда выступаю перед людьми."
+              "ru": "Я нервничаю, когда выступаю перед людьми.",
+              "uz": "Odamlar oldida soʻzlaganda hayajonlanaman."
             }
-          ]
+          ],
+          "uz": "odamlar oldida soʻzlamoq"
         },
         {
           "id": "PRE_IN_FRONT_OF005",
@@ -2037,9 +2388,11 @@
           "examples": [
             {
               "en": "Your phone is right in front of you.",
-              "ru": "Твой телефон прямо перед тобой."
+              "ru": "Твой телефон прямо перед тобой.",
+              "uz": "Telefoningiz aynan oldingizda."
             }
-          ]
+          ],
+          "uz": "aynan oldingizda"
         }
       ]
     },
@@ -2048,7 +2401,8 @@
       "order": 23,
       "title": {
         "en": "Next to",
-        "ru": "Выражения с «next to»"
+        "ru": "Выражения с «next to»",
+        "uz": "«next to» bilan iboralar"
       },
       "phrases": [
         {
@@ -2058,9 +2412,11 @@
           "examples": [
             {
               "en": "Please sit next to me.",
-              "ru": "Пожалуйста, сядь рядом со мной."
+              "ru": "Пожалуйста, сядь рядом со мной.",
+              "uz": "Iltimos, yonimga oʻtiring."
             }
-          ]
+          ],
+          "uz": "yonimda"
         },
         {
           "id": "PRE_NEXT_TO002",
@@ -2069,9 +2425,11 @@
           "examples": [
             {
               "en": "The café is next to the bank.",
-              "ru": "Кафе находится рядом с банком."
+              "ru": "Кафе находится рядом с банком.",
+              "uz": "Kafe bank yonida."
             }
-          ]
+          ],
+          "uz": "bank yonida"
         },
         {
           "id": "PRE_NEXT_TO003",
@@ -2080,9 +2438,11 @@
           "examples": [
             {
               "en": "I live next to a small park.",
-              "ru": "Я живу рядом с небольшим парком."
+              "ru": "Я живу рядом с небольшим парком.",
+              "uz": "Men kichik bogʻ yonida yashayman."
             }
-          ]
+          ],
+          "uz": "qoʻshni boʻlib yashamoq"
         },
         {
           "id": "PRE_NEXT_TO004",
@@ -2091,9 +2451,11 @@
           "examples": [
             {
               "en": "She sat next to her friend.",
-              "ru": "Она села рядом с подругой."
+              "ru": "Она села рядом с подругой.",
+              "uz": "U doʻstining yoniga oʻtirdi."
             }
-          ]
+          ],
+          "uz": "kimningdir yoniga oʻtirmoq"
         },
         {
           "id": "PRE_NEXT_TO005",
@@ -2102,9 +2464,11 @@
           "examples": [
             {
               "en": "The pharmacy is right next to the clinic.",
-              "ru": "Аптека находится прямо рядом с клиникой."
+              "ru": "Аптека находится прямо рядом с клиникой.",
+              "uz": "Dorixona bevosita klinika yonida."
             }
-          ]
+          ],
+          "uz": "bevosita yonida"
         }
       ]
     },
@@ -2113,7 +2477,8 @@
       "order": 24,
       "title": {
         "en": "Near",
-        "ru": "Выражения с «near»"
+        "ru": "Выражения с «near»",
+        "uz": "«near» bilan iboralar"
       },
       "phrases": [
         {
@@ -2123,9 +2488,11 @@
           "examples": [
             {
               "en": "There's a shop near my house.",
-              "ru": "Рядом с моим домом есть магазин."
+              "ru": "Рядом с моим домом есть магазин.",
+              "uz": "Uyim yaqinida doʻkon bor."
             }
-          ]
+          ],
+          "uz": "uyim yaqinida"
         },
         {
           "id": "PRE_NEAR002",
@@ -2134,9 +2501,11 @@
           "examples": [
             {
               "en": "Let's meet near the station.",
-              "ru": "Давай встретимся возле станции."
+              "ru": "Давай встретимся возле станции.",
+              "uz": "Keling, bekat yaqinida uchrashamiz."
             }
-          ]
+          ],
+          "uz": "bekat yaqinida"
         },
         {
           "id": "PRE_NEAR003",
@@ -2145,9 +2514,11 @@
           "examples": [
             {
               "en": "Is there a bank near here?",
-              "ru": "Здесь поблизости есть банк?"
+              "ru": "Здесь поблизости есть банк?",
+              "uz": "Shu yaqin atrofda bank bormi?"
             }
-          ]
+          ],
+          "uz": "shu yaqin atrofda"
         },
         {
           "id": "PRE_NEAR004",
@@ -2156,9 +2527,11 @@
           "examples": [
             {
               "en": "Don't come near the dog.",
-              "ru": "Не подходи близко к собаке."
+              "ru": "Не подходи близко к собаке.",
+              "uz": "Itga yaqin kelmang."
             }
-          ]
+          ],
+          "uz": "yaqin kelmoq"
         },
         {
           "id": "PRE_NEAR005",
@@ -2167,9 +2540,11 @@
           "examples": [
             {
               "en": "We're near the end of the lesson.",
-              "ru": "Мы близки к концу урока."
+              "ru": "Мы близки к концу урока.",
+              "uz": "Biz dars oxiriga yaqinlashdik."
             }
-          ]
+          ],
+          "uz": "oxiriga yaqin"
         }
       ]
     },
@@ -2178,7 +2553,8 @@
       "order": 25,
       "title": {
         "en": "Across",
-        "ru": "Выражения с «across»"
+        "ru": "Выражения с «across»",
+        "uz": "«across» bilan iboralar"
       },
       "phrases": [
         {
@@ -2188,9 +2564,11 @@
           "examples": [
             {
               "en": "The bank is across the street.",
-              "ru": "Банк находится на другой стороне улицы."
+              "ru": "Банк находится на другой стороне улицы.",
+              "uz": "Bank koʻchaning narigi tomonida."
             }
-          ]
+          ],
+          "uz": "koʻchaning narigi tomonida"
         },
         {
           "id": "PRE_ACROSS002",
@@ -2199,9 +2577,11 @@
           "examples": [
             {
               "en": "Look both ways before you walk across the road.",
-              "ru": "Посмотри в обе стороны перед тем, как переходить дорогу."
+              "ru": "Посмотри в обе стороны перед тем, как переходить дорогу.",
+              "uz": "Yoʻlni kesib oʻtishdan oldin ikki tomonga qarang."
             }
-          ]
+          ],
+          "uz": "yoʻlni piyoda kesib oʻtmoq"
         },
         {
           "id": "PRE_ACROSS003",
@@ -2210,9 +2590,11 @@
           "examples": [
             {
               "en": "There's a bridge across the river.",
-              "ru": "Через реку есть мост."
+              "ru": "Через реку есть мост.",
+              "uz": "Daryo ustida koʻprik bor."
             }
-          ]
+          ],
+          "uz": "daryoning narigi qirgʻogʻida"
         },
         {
           "id": "PRE_ACROSS004",
@@ -2221,9 +2603,11 @@
           "examples": [
             {
               "en": "The news spread all across the country.",
-              "ru": "Новость распространилась по всей стране."
+              "ru": "Новость распространилась по всей стране.",
+              "uz": "Xabar butun mamlakat boʻylab tarqaldi."
             }
-          ]
+          ],
+          "uz": "butun mamlakat boʻylab"
         },
         {
           "id": "PRE_ACROSS005",
@@ -2232,9 +2616,11 @@
           "examples": [
             {
               "en": "The hotel is across from the station.",
-              "ru": "Отель находится напротив станции."
+              "ru": "Отель находится напротив станции.",
+              "uz": "Mehmonxona bekat roʻparasida."
             }
-          ]
+          ],
+          "uz": "roʻparasida"
         }
       ]
     },
@@ -2243,7 +2629,8 @@
       "order": 26,
       "title": {
         "en": "Through",
-        "ru": "Выражения с «through»"
+        "ru": "Выражения с «through»",
+        "uz": "«through» bilan iboralar"
       },
       "phrases": [
         {
@@ -2253,9 +2640,11 @@
           "examples": [
             {
               "en": "Please go through the door on the left.",
-              "ru": "Пожалуйста, пройди через дверь слева."
+              "ru": "Пожалуйста, пройди через дверь слева.",
+              "uz": "Iltimos, chapdagi eshikdan oʻting."
             }
-          ]
+          ],
+          "uz": "eshikdan oʻtmoq"
         },
         {
           "id": "PRE_THROUGH002",
@@ -2264,9 +2653,11 @@
           "examples": [
             {
               "en": "Sunlight came through the window.",
-              "ru": "Солнечный свет проникал через окно."
+              "ru": "Солнечный свет проникал через окно.",
+              "uz": "Quyosh nuri derazadan tushdi."
             }
-          ]
+          ],
+          "uz": "derazadan"
         },
         {
           "id": "PRE_THROUGH003",
@@ -2275,9 +2666,11 @@
           "examples": [
             {
               "en": "The baby cried all through the night.",
-              "ru": "Ребёнок плакал всю ночь."
+              "ru": "Ребёнок плакал всю ночь.",
+              "uz": "Chaqaloq tun boʻyi yigʻladi."
             }
-          ]
+          ],
+          "uz": "tun boʻyi"
         },
         {
           "id": "PRE_THROUGH004",
@@ -2286,9 +2679,11 @@
           "examples": [
             {
               "en": "Please read through this message.",
-              "ru": "Пожалуйста, прочитай это сообщение полностью."
+              "ru": "Пожалуйста, прочитай это сообщение полностью.",
+              "uz": "Iltimos, bu xabarni boshidan oxirigacha oʻqing."
             }
-          ]
+          ],
+          "uz": "boshidan oxirigacha oʻqimoq"
         },
         {
           "id": "PRE_THROUGH005",
@@ -2297,9 +2692,11 @@
           "examples": [
             {
               "en": "He's going through a difficult time.",
-              "ru": "Он переживает трудный период."
+              "ru": "Он переживает трудный период.",
+              "uz": "U qiyin davrni boshidan kechiryapti."
             }
-          ]
+          ],
+          "uz": "qiyin davrni boshidan kechirmoq"
         },
         {
           "id": "PRE_THROUGH006",
@@ -2308,9 +2705,11 @@
           "examples": [
             {
               "en": "She succeeded through hard work.",
-              "ru": "Она добилась успеха благодаря упорной работе."
+              "ru": "Она добилась успеха благодаря упорной работе.",
+              "uz": "U tinimsiz mehnat tufayli muvaffaqiyatga erishdi."
             }
-          ]
+          ],
+          "uz": "tinimsiz mehnat tufayli"
         }
       ]
     },
@@ -2319,7 +2718,8 @@
       "order": 27,
       "title": {
         "en": "Around",
-        "ru": "Выражения с «around»"
+        "ru": "Выражения с «around»",
+        "uz": "«around» bilan iboralar"
       },
       "phrases": [
         {
@@ -2329,9 +2729,11 @@
           "examples": [
             {
               "en": "I'd love to travel around the world.",
-              "ru": "Я хотел бы путешествовать по всему миру."
+              "ru": "Я хотел бы путешествовать по всему миру.",
+              "uz": "Men dunyo boʻylab sayohat qilishni juda istardim."
             }
-          ]
+          ],
+          "uz": "dunyo boʻylab"
         },
         {
           "id": "PRE_AROUND002",
@@ -2340,9 +2742,11 @@
           "examples": [
             {
               "en": "The shop is around the corner.",
-              "ru": "Магазин находится за углом."
+              "ru": "Магазин находится за углом.",
+              "uz": "Doʻkon burchak ortida."
             }
-          ]
+          ],
+          "uz": "burchak ortida; juda yaqin"
         },
         {
           "id": "PRE_AROUND003",
@@ -2351,9 +2755,11 @@
           "examples": [
             {
               "en": "Let's look around the city.",
-              "ru": "Давай осмотрим город."
+              "ru": "Давай осмотрим город.",
+              "uz": "Keling, shaharni aylanib koʻramiz."
             }
-          ]
+          ],
+          "uz": "atrofni koʻzdan kechirmoq"
         },
         {
           "id": "PRE_AROUND004",
@@ -2362,9 +2768,11 @@
           "examples": [
             {
               "en": "We walked around the park.",
-              "ru": "Мы гуляли по парку."
+              "ru": "Мы гуляли по парку.",
+              "uz": "Biz bogʻni aylanib yurdik."
             }
-          ]
+          ],
+          "uz": "aylanib yurmoq"
         },
         {
           "id": "PRE_AROUND005",
@@ -2373,9 +2781,11 @@
           "examples": [
             {
               "en": "I'll arrive around ten o'clock.",
-              "ru": "Я приеду примерно в десять."
+              "ru": "Я приеду примерно в десять.",
+              "uz": "Men soat oʻnlarda yetib boraman."
             }
-          ]
+          ],
+          "uz": "soat oʻnlarda"
         },
         {
           "id": "PRE_AROUND006",
@@ -2384,9 +2794,11 @@
           "examples": [
             {
               "en": "Why don't you come around this evening?",
-              "ru": "Почему бы тебе не зайти сегодня вечером?"
+              "ru": "Почему бы тебе не зайти сегодня вечером?",
+              "uz": "Bugun kechqurun kirib oʻtsangiz-chi?"
             }
-          ]
+          ],
+          "uz": "kirib oʻtmoq; oʻziga kelmoq"
         }
       ]
     },
@@ -2395,7 +2807,8 @@
       "order": 28,
       "title": {
         "en": "Into",
-        "ru": "Выражения с «into»"
+        "ru": "Выражения с «into»",
+        "uz": "«into» bilan iboralar"
       },
       "phrases": [
         {
@@ -2405,9 +2818,11 @@
           "examples": [
             {
               "en": "She went into the room quietly.",
-              "ru": "Она тихо вошла в комнату."
+              "ru": "Она тихо вошла в комнату.",
+              "uz": "U xonaga sekin kirdi."
             }
-          ]
+          ],
+          "uz": "xonaga kirmoq"
         },
         {
           "id": "PRE_INTO002",
@@ -2416,9 +2831,11 @@
           "examples": [
             {
               "en": "Get into the car, please.",
-              "ru": "Садись в машину, пожалуйста."
+              "ru": "Садись в машину, пожалуйста.",
+              "uz": "Iltimos, mashinaga oʻtiring."
             }
-          ]
+          ],
+          "uz": "mashinaga oʻtirmoq"
         },
         {
           "id": "PRE_INTO003",
@@ -2427,9 +2844,11 @@
           "examples": [
             {
               "en": "The water turned into ice.",
-              "ru": "Вода превратилась в лёд."
+              "ru": "Вода превратилась в лёд.",
+              "uz": "Suv muzga aylandi."
             }
-          ]
+          ],
+          "uz": "aylanmoq"
         },
         {
           "id": "PRE_INTO004",
@@ -2438,9 +2857,11 @@
           "examples": [
             {
               "en": "We'll look into the problem tomorrow.",
-              "ru": "Мы изучим проблему завтра."
+              "ru": "Мы изучим проблему завтра.",
+              "uz": "Biz muammoni ertaga oʻrganamiz."
             }
-          ]
+          ],
+          "uz": "muammoni oʻrganmoq"
         },
         {
           "id": "PRE_INTO005",
@@ -2449,9 +2870,11 @@
           "examples": [
             {
               "en": "He's really into music.",
-              "ru": "Он очень увлекается музыкой."
+              "ru": "Он очень увлекается музыкой.",
+              "uz": "U musiqaga juda qiziqadi."
             }
-          ]
+          ],
+          "uz": "musiqaga qiziqmoq"
         },
         {
           "id": "PRE_INTO006",
@@ -2460,9 +2883,11 @@
           "examples": [
             {
               "en": "I ran into a friend at the market.",
-              "ru": "Я случайно встретил друга на рынке."
+              "ru": "Я случайно встретил друга на рынке.",
+              "uz": "Men bozorda doʻstimni tasodifan uchratdim."
             }
-          ]
+          ],
+          "uz": "doʻstni tasodifan uchratmoq"
         }
       ]
     },
@@ -2471,7 +2896,8 @@
       "order": 29,
       "title": {
         "en": "Out of",
-        "ru": "Выражения с «out of»"
+        "ru": "Выражения с «out of»",
+        "uz": "«out of» bilan iboralar"
       },
       "phrases": [
         {
@@ -2481,9 +2907,11 @@
           "examples": [
             {
               "en": "Please get out of the car.",
-              "ru": "Пожалуйста, выйди из машины."
+              "ru": "Пожалуйста, выйди из машины.",
+              "uz": "Iltimos, mashinadan tushing."
             }
-          ]
+          ],
+          "uz": "mashinadan tushmoq"
         },
         {
           "id": "PRE_OUT_OF002",
@@ -2492,9 +2920,11 @@
           "examples": [
             {
               "en": "We're out of time.",
-              "ru": "У нас закончилось время."
+              "ru": "У нас закончилось время.",
+              "uz": "Vaqtimiz tugadi."
             }
-          ]
+          ],
+          "uz": "vaqt tugadi"
         },
         {
           "id": "PRE_OUT_OF003",
@@ -2503,9 +2933,11 @@
           "examples": [
             {
               "en": "I'm almost out of money.",
-              "ru": "У меня почти закончились деньги."
+              "ru": "У меня почти закончились деньги.",
+              "uz": "Pulim deyarli tugadi."
             }
-          ]
+          ],
+          "uz": "pul tugadi"
         },
         {
           "id": "PRE_OUT_OF004",
@@ -2514,9 +2946,11 @@
           "examples": [
             {
               "en": "The lift is out of order.",
-              "ru": "Лифт не работает."
+              "ru": "Лифт не работает.",
+              "uz": "Lift ishlamayapti."
             }
-          ]
+          ],
+          "uz": "ishlamayapti"
         },
         {
           "id": "PRE_OUT_OF005",
@@ -2525,9 +2959,11 @@
           "examples": [
             {
               "en": "This information is out of date.",
-              "ru": "Эта информация устарела."
+              "ru": "Эта информация устарела.",
+              "uz": "Bu maʼlumot eskirgan."
             }
-          ]
+          ],
+          "uz": "eskirgan"
         },
         {
           "id": "PRE_OUT_OF006",
@@ -2536,9 +2972,11 @@
           "examples": [
             {
               "en": "I was out of breath after running.",
-              "ru": "После бега я запыхался."
+              "ru": "После бега я запыхался.",
+              "uz": "Yugurgandan keyin hansirab qoldim."
             }
-          ]
+          ],
+          "uz": "hansirab qolgan"
         },
         {
           "id": "PRE_OUT_OF007",
@@ -2547,9 +2985,11 @@
           "examples": [
             {
               "en": "He helped me get out of trouble.",
-              "ru": "Он помог мне выйти из затруднительного положения."
+              "ru": "Он помог мне выйти из затруднительного положения.",
+              "uz": "U menga qiyin ahvoldan chiqishga yordam berdi."
             }
-          ]
+          ],
+          "uz": "qiyin ahvoldan chiqmoq"
         }
       ]
     },
@@ -2558,7 +2998,8 @@
       "order": 30,
       "title": {
         "en": "Up",
-        "ru": "Выражения с «up»"
+        "ru": "Выражения с «up»",
+        "uz": "«up» bilan iboralar"
       },
       "phrases": [
         {
@@ -2568,9 +3009,11 @@
           "examples": [
             {
               "en": "Please stand up.",
-              "ru": "Пожалуйста, встань."
+              "ru": "Пожалуйста, встань.",
+              "uz": "Iltimos, oʻrningizdan turing."
             }
-          ]
+          ],
+          "uz": "oʻrnidan turmoq"
         },
         {
           "id": "PRE_UP002",
@@ -2579,9 +3022,11 @@
           "examples": [
             {
               "en": "I get up at seven.",
-              "ru": "Я встаю в семь."
+              "ru": "Я встаю в семь.",
+              "uz": "Men soat yettida turaman."
             }
-          ]
+          ],
+          "uz": "turmoq"
         },
         {
           "id": "PRE_UP003",
@@ -2590,9 +3035,11 @@
           "examples": [
             {
               "en": "We went up the stairs.",
-              "ru": "Мы поднялись по лестнице."
+              "ru": "Мы поднялись по лестнице.",
+              "uz": "Biz zinadan koʻtarildik."
             }
-          ]
+          ],
+          "uz": "zinadan koʻtarilmoq"
         },
         {
           "id": "PRE_UP004",
@@ -2601,9 +3048,11 @@
           "examples": [
             {
               "en": "I wake up early on weekdays.",
-              "ru": "По будням я рано просыпаюсь."
+              "ru": "По будням я рано просыпаюсь.",
+              "uz": "Men ish kunlari erta uygʻonaman."
             }
-          ]
+          ],
+          "uz": "uygʻonmoq"
         },
         {
           "id": "PRE_UP005",
@@ -2612,9 +3061,11 @@
           "examples": [
             {
               "en": "Can you pick up the bag?",
-              "ru": "Можешь поднять сумку?"
+              "ru": "Можешь поднять сумку?",
+              "uz": "Sumkani koʻtara olasizmi?"
             }
-          ]
+          ],
+          "uz": "koʻtarmoq; olib ketmoq"
         },
         {
           "id": "PRE_UP006",
@@ -2623,9 +3074,11 @@
           "examples": [
             {
               "en": "Hurry up or we'll be late.",
-              "ru": "Поторопись, иначе мы опоздаем."
+              "ru": "Поторопись, иначе мы опоздаем.",
+              "uz": "Shoshiling, boʻlmasa kechikamiz."
             }
-          ]
+          ],
+          "uz": "shoshilmoq"
         },
         {
           "id": "PRE_UP007",
@@ -2634,9 +3087,11 @@
           "examples": [
             {
               "en": "Let's clean up the kitchen.",
-              "ru": "Давай уберёмся на кухне."
+              "ru": "Давай уберёмся на кухне.",
+              "uz": "Keling, oshxonani yigʻishtiramiz."
             }
-          ]
+          ],
+          "uz": "yigʻishtirmoq"
         }
       ]
     },
@@ -2645,7 +3100,8 @@
       "order": 31,
       "title": {
         "en": "Down",
-        "ru": "Выражения с «down»"
+        "ru": "Выражения с «down»",
+        "uz": "«down» bilan iboralar"
       },
       "phrases": [
         {
@@ -2655,9 +3111,11 @@
           "examples": [
             {
               "en": "Please sit down.",
-              "ru": "Пожалуйста, садись."
+              "ru": "Пожалуйста, садись.",
+              "uz": "Iltimos, oʻtiring."
             }
-          ]
+          ],
+          "uz": "oʻtirmoq"
         },
         {
           "id": "PRE_DOWN002",
@@ -2666,9 +3124,11 @@
           "examples": [
             {
               "en": "He went down the stairs.",
-              "ru": "Он спустился по лестнице."
+              "ru": "Он спустился по лестнице.",
+              "uz": "U zinadan tushdi."
             }
-          ]
+          ],
+          "uz": "zinadan tushmoq"
         },
         {
           "id": "PRE_DOWN003",
@@ -2677,9 +3137,11 @@
           "examples": [
             {
               "en": "Please slow down.",
-              "ru": "Пожалуйста, сбавь скорость."
+              "ru": "Пожалуйста, сбавь скорость.",
+              "uz": "Iltimos, sekinlashing."
             }
-          ]
+          ],
+          "uz": "sekinlashmoq"
         },
         {
           "id": "PRE_DOWN004",
@@ -2688,9 +3150,11 @@
           "examples": [
             {
               "en": "Write down the new words.",
-              "ru": "Запиши новые слова."
+              "ru": "Запиши новые слова.",
+              "uz": "Yangi soʻzlarni yozib oling."
             }
-          ]
+          ],
+          "uz": "yozib olmoq"
         },
         {
           "id": "PRE_DOWN005",
@@ -2699,9 +3163,11 @@
           "examples": [
             {
               "en": "Take a breath and calm down.",
-              "ru": "Вдохни и успокойся."
+              "ru": "Вдохни и успокойся.",
+              "uz": "Chuqur nafas oling va tinchlaning."
             }
-          ]
+          ],
+          "uz": "tinchlanmoq"
         },
         {
           "id": "PRE_DOWN006",
@@ -2710,9 +3176,11 @@
           "examples": [
             {
               "en": "Turn down the volume, please.",
-              "ru": "Уменьши громкость, пожалуйста."
+              "ru": "Уменьши громкость, пожалуйста.",
+              "uz": "Iltimos, ovozni pasaytiring."
             }
-          ]
+          ],
+          "uz": "ovozni pasaytirmoq"
         },
         {
           "id": "PRE_DOWN007",
@@ -2721,9 +3189,11 @@
           "examples": [
             {
               "en": "My car broke down yesterday.",
-              "ru": "Моя машина сломалась вчера."
+              "ru": "Моя машина сломалась вчера.",
+              "uz": "Mashinam kecha buzilib qoldi."
             }
-          ]
+          ],
+          "uz": "buzilmoq"
         }
       ]
     },
@@ -2732,7 +3202,8 @@
       "order": 32,
       "title": {
         "en": "Off",
-        "ru": "Выражения с «off»"
+        "ru": "Выражения с «off»",
+        "uz": "«off» bilan iboralar"
       },
       "phrases": [
         {
@@ -2742,9 +3213,11 @@
           "examples": [
             {
               "en": "Please turn off the light.",
-              "ru": "Пожалуйста, выключи свет."
+              "ru": "Пожалуйста, выключи свет.",
+              "uz": "Iltimos, chiroqni oʻchiring."
             }
-          ]
+          ],
+          "uz": "chiroqni oʻchirmoq"
         },
         {
           "id": "PRE_OFF002",
@@ -2753,9 +3226,11 @@
           "examples": [
             {
               "en": "Take off your shoes at the door.",
-              "ru": "Сними обувь у двери."
+              "ru": "Сними обувь у двери.",
+              "uz": "Oyoq kiyimingizni eshik oldida yeching."
             }
-          ]
+          ],
+          "uz": "oyoq kiyimni yechmoq"
         },
         {
           "id": "PRE_OFF003",
@@ -2764,9 +3239,11 @@
           "examples": [
             {
               "en": "We get off at the next stop.",
-              "ru": "Мы выходим на следующей остановке."
+              "ru": "Мы выходим на следующей остановке.",
+              "uz": "Biz keyingi bekatda tushamiz."
             }
-          ]
+          ],
+          "uz": "avtobusdan tushmoq"
         },
         {
           "id": "PRE_OFF004",
@@ -2775,9 +3252,11 @@
           "examples": [
             {
               "en": "I have a day off tomorrow.",
-              "ru": "Завтра у меня выходной."
+              "ru": "Завтра у меня выходной.",
+              "uz": "Ertaga mening dam olish kunim."
             }
-          ]
+          ],
+          "uz": "dam olish kuni"
         },
         {
           "id": "PRE_OFF005",
@@ -2786,9 +3265,11 @@
           "examples": [
             {
               "en": "I'm off work today.",
-              "ru": "Сегодня я не работаю."
+              "ru": "Сегодня я не работаю.",
+              "uz": "Men bugun ishda emasman."
             }
-          ]
+          ],
+          "uz": "ishda boʻlmaslik"
         },
         {
           "id": "PRE_OFF006",
@@ -2797,9 +3278,11 @@
           "examples": [
             {
               "en": "My alarm went off at six.",
-              "ru": "Мой будильник зазвонил в шесть."
+              "ru": "Мой будильник зазвонил в шесть.",
+              "uz": "Budilnigim soat oltida jiringladi."
             }
-          ]
+          ],
+          "uz": "jiringlamoq; ishga tushmoq"
         },
         {
           "id": "PRE_OFF007",
@@ -2808,9 +3291,11 @@
           "examples": [
             {
               "en": "Don't put off your homework.",
-              "ru": "Не откладывай домашнее задание."
+              "ru": "Не откладывай домашнее задание.",
+              "uz": "Uy vazifangizni keyinga qoldirmang."
             }
-          ]
+          ],
+          "uz": "keyinga qoldirmoq"
         }
       ]
     },
@@ -2819,7 +3304,8 @@
       "order": 33,
       "title": {
         "en": "Past",
-        "ru": "Выражения с «past»"
+        "ru": "Выражения с «past»",
+        "uz": "«past» bilan iboralar"
       },
       "phrases": [
         {
@@ -2829,9 +3315,11 @@
           "examples": [
             {
               "en": "I walked past the school.",
-              "ru": "Я прошёл мимо школы."
+              "ru": "Я прошёл мимо школы.",
+              "uz": "Men maktab yonidan piyoda oʻtdim."
             }
-          ]
+          ],
+          "uz": "yonidan piyoda oʻtmoq"
         },
         {
           "id": "PRE_PAST002",
@@ -2840,9 +3328,11 @@
           "examples": [
             {
               "en": "We drove past the stadium.",
-              "ru": "Мы проехали мимо стадиона."
+              "ru": "Мы проехали мимо стадиона.",
+              "uz": "Biz stadion yonidan mashinada oʻtdik."
             }
-          ]
+          ],
+          "uz": "yonidan mashinada oʻtmoq"
         },
         {
           "id": "PRE_PAST003",
@@ -2851,9 +3341,11 @@
           "examples": [
             {
               "en": "The meeting starts at half past six.",
-              "ru": "Встреча начинается в половине седьмого."
+              "ru": "Встреча начинается в половине седьмого.",
+              "uz": "Uchrashuv olti yarimda boshlanadi."
             }
-          ]
+          ],
+          "uz": "olti yarim"
         },
         {
           "id": "PRE_PAST004",
@@ -2862,9 +3354,11 @@
           "examples": [
             {
               "en": "I went to bed past midnight.",
-              "ru": "Я лёг спать после полуночи."
+              "ru": "Я лёг спать после полуночи.",
+              "uz": "Men yarim tundan keyin uxlashga yotdim."
             }
-          ]
+          ],
+          "uz": "yarim tundan keyin"
         },
         {
           "id": "PRE_PAST005",
@@ -2873,9 +3367,11 @@
           "examples": [
             {
               "en": "It's past your bedtime.",
-              "ru": "Тебе уже пора спать."
+              "ru": "Тебе уже пора спать.",
+              "uz": "Uxlash vaqtingiz oʻtib ketdi."
             }
-          ]
+          ],
+          "uz": "uxlash vaqtingiz oʻtib ketdi"
         }
       ]
     },
@@ -2884,7 +3380,8 @@
       "order": 34,
       "title": {
         "en": "Towards",
-        "ru": "Выражения с «towards»"
+        "ru": "Выражения с «towards»",
+        "uz": "«towards» bilan iboralar"
       },
       "phrases": [
         {
@@ -2894,9 +3391,11 @@
           "examples": [
             {
               "en": "Walk towards me slowly.",
-              "ru": "Медленно иди ко мне."
+              "ru": "Медленно иди ко мне.",
+              "uz": "Men tomon sekin yuring."
             }
-          ]
+          ],
+          "uz": "men tomon yurmoq"
         },
         {
           "id": "PRE_TOWARDS002",
@@ -2905,9 +3404,11 @@
           "examples": [
             {
               "en": "Everyone moved towards the door.",
-              "ru": "Все двинулись к двери."
+              "ru": "Все двинулись к двери.",
+              "uz": "Hamma eshik tomon siljidi."
             }
-          ]
+          ],
+          "uz": "eshik tomon siljimoq"
         },
         {
           "id": "PRE_TOWARDS003",
@@ -2916,9 +3417,11 @@
           "examples": [
             {
               "en": "We headed towards the station.",
-              "ru": "Мы направились к станции."
+              "ru": "Мы направились к станции.",
+              "uz": "Biz bekat tomon yoʻl oldik."
             }
-          ]
+          ],
+          "uz": "bekat tomon yoʻl olmoq"
         },
         {
           "id": "PRE_TOWARDS004",
@@ -2927,9 +3430,11 @@
           "examples": [
             {
               "en": "I'm working towards my goal.",
-              "ru": "Я работаю над достижением своей цели."
+              "ru": "Я работаю над достижением своей цели.",
+              "uz": "Men maqsadim sari ishlayapman."
             }
-          ]
+          ],
+          "uz": "maqsad sari ishlamoq"
         },
         {
           "id": "PRE_TOWARDS005",
@@ -2938,9 +3443,11 @@
           "examples": [
             {
               "en": "She was friendly towards everyone.",
-              "ru": "Она была дружелюбна со всеми."
+              "ru": "Она была дружелюбна со всеми.",
+              "uz": "U hammaga samimiy munosabatda edi."
             }
-          ]
+          ],
+          "uz": "kimgadir samimiy munosabatda boʻlmoq"
         }
       ]
     }

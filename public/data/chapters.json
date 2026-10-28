@@ -175,11 +175,13 @@
       "kind": "expressions",
       "title": {
         "en": "English Prepositions",
-        "ru": "Предлоги"
+        "ru": "Предлоги",
+        "uz": "Ingliz tili predloglari"
       },
       "file": "chapters/prepositions.json",
       "lessonCount": 34,
-      "phraseCount": 236
+      "phraseCount": 236,
+      "translatedUz": true
     },
     {
       "id": "irregular-verbs",

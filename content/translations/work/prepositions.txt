@@ -234,3 +234,239 @@ phrase|during the summer||летом; в течение лета|yoz davomida
 example|during the summer||We stayed with our grandparents during the summer.|Biz yoz davomida bobom va buvimnikida qoldik.
 phrase|during the lesson||во время урока|dars vaqtida
 example|during the lesson||Don't talk during the lesson.|Dars vaqtida gaplashmang.
+phrase|during my holiday||во время моего отпуска|taʼtilim davomida
+example|during my holiday||I read three books during my holiday.|Men taʼtilim davomida uchta kitob oʻqidim.
+phrase|between you and me||между нами|oramizda qolsin
+example|between you and me||Between you and me, I don't like this plan.|Oramizda qolsin, menga bu reja yoqmaydi.
+phrase|between two buildings||между двумя зданиями|ikki bino orasida
+example|between two buildings||The café is between two buildings.|Kafe ikki bino orasida.
+phrase|between Monday and Friday||между понедельником и пятницей|dushanba bilan juma orasida
+example|between Monday and Friday||I'll call you between Monday and Friday.|Men sizga dushanba bilan juma orasida qoʻngʻiroq qilaman.
+phrase|choose between||выбирать между|orasidan tanlamoq
+example|choose between||You must choose between these two options.|Siz shu ikki variant orasidan tanlashingiz kerak.
+phrase|share between us||разделить между нами|oʻzaro boʻlishmoq
+example|share between us||Let's share the cost between us.|Keling, xarajatni oʻzaro boʻlishamiz.
+phrase|the difference between||разница между|orasidagi farq
+example|the difference between||What's the difference between these words?|Bu soʻzlar orasidagi farq nima?
+phrase|among friends||среди друзей|doʻstlar orasida
+example|among friends||I feel comfortable among friends.|Men doʻstlar orasida oʻzimni erkin his qilaman.
+phrase|among the best||среди лучших|eng yaxshilar qatorida
+example|among the best||She's among the best students in class.|U sinfdagi eng yaxshi oʻquvchilar qatorida.
+phrase|among other things||среди прочего|boshqa narsalar qatori
+example|among other things||Among other things, we discussed the budget.|Boshqa narsalar qatori byudjetni ham muhokama qildik.
+phrase|share among yourselves||разделить между собой|oʻzaro taqsimlamoq
+example|share among yourselves||Share the sweets among yourselves.|Shirinliklarni oʻzaro taqsimlang.
+phrase|popular among young people||популярный среди молодёжи|yoshlar orasida mashhur
+example|popular among young people||This app is popular among young people.|Bu ilova yoshlar orasida mashhur.
+phrase|under the table||под столом|stol tagida
+example|under the table||The cat is under the table.|Mushuk stol tagida.
+phrase|under the bed||под кроватью|karavot tagida
+example|under the bed||I found my shoes under the bed.|Men oyoq kiyimimni karavot tagidan topdim.
+phrase|under 18||младше 18 лет|18 yoshdan kichik
+example|under 18||Children under 18 can enter for free.|18 yoshdan kichik bolalar bepul kiradi.
+phrase|under pressure||под давлением|bosim ostida
+example|under pressure||I work better when I'm not under pressure.|Men bosim ostida boʻlmaganimda yaxshiroq ishlayman.
+phrase|under control||под контролем|nazorat ostida
+example|under control||Don't worry; everything is under control.|Xavotir olmang; hammasi nazorat ostida.
+phrase|under construction||на реконструкции; строится|qurilish ishlari ketyapti
+example|under construction||The road is under construction.|Yoʻlda qurilish ishlari ketyapti.
+phrase|under the weather||плохо себя чувствовать|oʻzini yaxshi his qilmaslik
+example|under the weather||I'm feeling a bit under the weather today.|Bugun oʻzimni unchalik yaxshi his qilmayapman.
+phrase|over the bridge||через мост|koʻprik orqali
+example|over the bridge||We walked over the bridge.|Biz koʻprik orqali piyoda oʻtdik.
+phrase|over there||вон там|ana u yerda
+example|over there||The bus stop is over there.|Avtobus bekati ana u yerda.
+phrase|over 100 people||более 100 человек|100 dan ortiq odam
+example|over 100 people||Over 100 people came to the event.|Tadbirga 100 dan ortiq odam keldi.
+phrase|all over the world||по всему миру|butun dunyo boʻylab
+example|all over the world||People use this app all over the world.|Bu ilovadan butun dunyo boʻylab odamlar foydalanadi.
+phrase|over the weekend||за выходные|dam olish kunlari davomida
+example|over the weekend||I finished the book over the weekend.|Men kitobni dam olish kunlari davomida tugatdim.
+phrase|get over something||пережить; оправиться|biror narsadan keyin oʻziga kelmoq
+example|get over something||It took me time to get over the flu.|Grippdan keyin oʻzimga kelishim uchun vaqt kerak boʻldi.
+phrase|over and over again||снова и снова|qayta-qayta
+example|over and over again||I listened to the song over and over again.|Men qoʻshiqni qayta-qayta tingladim.
+phrase|above the door||над дверью|eshik tepasida
+example|above the door||There's a clock above the door.|Eshik tepasida soat bor.
+phrase|above average||выше среднего|oʻrtachadan yuqori
+example|above average||Her English is above average.|Uning ingliz tili oʻrtachadan yuqori.
+phrase|above all||прежде всего|eng avvalo
+example|above all||Above all, be honest.|Eng avvalo, halol boʻling.
+phrase|the temperature is above zero||температура выше нуля|harorat noldan yuqori
+example|the temperature is above zero||The temperature is above zero today.|Bugun harorat noldan yuqori.
+phrase|mentioned above||упомянутый выше|yuqorida tilga olingan
+example|mentioned above||Please read the information mentioned above.|Iltimos, yuqorida tilga olingan maʼlumotni oʻqing.
+phrase|below zero||ниже нуля|noldan past
+example|below zero||It's five degrees below zero.|Havo noldan besh daraja past.
+phrase|below average||ниже среднего|oʻrtachadan past
+example|below average||His score was below average.|Uning natijasi oʻrtachadan past edi.
+phrase|below the window||под окном; ниже окна|deraza tagida
+example|below the window||The desk is below the window.|Stol deraza tagida.
+phrase|see below||см. ниже|quyiga qarang
+example|see below||Please see the details below.|Iltimos, tafsilotlarni quyida koʻring.
+phrase|below sea level||ниже уровня моря|dengiz sathidan past
+example|below sea level||Some parts of the city are below sea level.|Shaharning baʼzi qismlari dengiz sathidan past.
+phrase|behind me||позади меня|orqamda
+example|behind me||Someone is standing behind me.|Kimdir orqamda turibdi.
+phrase|behind the house||за домом|uy orqasida
+example|behind the house||There's a garden behind the house.|Uy orqasida bogʻ bor.
+phrase|behind schedule||с отставанием от графика|jadvaldan orqada
+example|behind schedule||We're behind schedule.|Biz jadvaldan orqadamiz.
+phrase|behind the scenes||за кулисами|parda ortida
+example|behind the scenes||She works behind the scenes.|U parda ortida ishlaydi.
+phrase|fall behind||отставать|ortda qolmoq
+example|fall behind||I missed a lesson and fell behind.|Men bir darsni qoldirib, ortda qoldim.
+phrase|behind the wheel||за рулём|rulda
+example|behind the wheel||Never use your phone behind the wheel.|Rulda hech qachon telefondan foydalanmang.
+phrase|in front of the house||перед домом|uy oldida
+example|in front of the house||The car is in front of the house.|Mashina uy oldida.
+phrase|in front of me||передо мной|mening oldimda
+example|in front of me||Please stand in front of me.|Iltimos, mening oldimda turing.
+phrase|in front of the bank||перед банком|bank oldida
+example|in front of the bank||I'll wait in front of the bank.|Men bank oldida kutaman.
+phrase|speak in front of people||выступать перед людьми|odamlar oldida soʻzlamoq
+example|speak in front of people||I'm nervous speaking in front of people.|Odamlar oldida soʻzlaganda hayajonlanaman.
+phrase|right in front of you||прямо перед тобой|aynan oldingizda
+example|right in front of you||Your phone is right in front of you.|Telefoningiz aynan oldingizda.
+phrase|next to me||рядом со мной|yonimda
+example|next to me||Please sit next to me.|Iltimos, yonimga oʻtiring.
+phrase|next to the bank||рядом с банком|bank yonida
+example|next to the bank||The café is next to the bank.|Kafe bank yonida.
+phrase|live next to||жить по соседству|qoʻshni boʻlib yashamoq
+example|live next to||I live next to a small park.|Men kichik bogʻ yonida yashayman.
+phrase|sit next to someone||сидеть рядом с кем-либо|kimningdir yoniga oʻtirmoq
+example|sit next to someone||She sat next to her friend.|U doʻstining yoniga oʻtirdi.
+phrase|right next to||прямо рядом с|bevosita yonida
+example|right next to||The pharmacy is right next to the clinic.|Dorixona bevosita klinika yonida.
+phrase|near my house||рядом с моим домом|uyim yaqinida
+example|near my house||There's a shop near my house.|Uyim yaqinida doʻkon bor.
+phrase|near the station||рядом со станцией|bekat yaqinida
+example|near the station||Let's meet near the station.|Keling, bekat yaqinida uchrashamiz.
+phrase|near here||здесь поблизости|shu yaqin atrofda
+example|near here||Is there a bank near here?|Shu yaqin atrofda bank bormi?
+phrase|come near||подойти близко|yaqin kelmoq
+example|come near||Don't come near the dog.|Itga yaqin kelmang.
+phrase|near the end||ближе к концу|oxiriga yaqin
+example|near the end||We're near the end of the lesson.|Biz dars oxiriga yaqinlashdik.
+phrase|across the street||через дорогу; на другой стороне улицы|koʻchaning narigi tomonida
+example|across the street||The bank is across the street.|Bank koʻchaning narigi tomonida.
+phrase|walk across the road||перейти дорогу|yoʻlni piyoda kesib oʻtmoq
+example|walk across the road||Look both ways before you walk across the road.|Yoʻlni kesib oʻtishdan oldin ikki tomonga qarang.
+phrase|across the river||через реку; на другом берегу|daryoning narigi qirgʻogʻida
+example|across the river||There's a bridge across the river.|Daryo ustida koʻprik bor.
+phrase|all across the country||по всей стране|butun mamlakat boʻylab
+example|all across the country||The news spread all across the country.|Xabar butun mamlakat boʻylab tarqaldi.
+phrase|across from||напротив|roʻparasida
+example|across from||The hotel is across from the station.|Mehmonxona bekat roʻparasida.
+phrase|go through the door||пройти через дверь|eshikdan oʻtmoq
+example|go through the door||Please go through the door on the left.|Iltimos, chapdagi eshikdan oʻting.
+phrase|through the window||через окно|derazadan
+example|through the window||Sunlight came through the window.|Quyosh nuri derazadan tushdi.
+phrase|all through the night||всю ночь|tun boʻyi
+example|all through the night||The baby cried all through the night.|Chaqaloq tun boʻyi yigʻladi.
+phrase|read through||прочитать полностью; просмотреть|boshidan oxirigacha oʻqimoq
+example|read through||Please read through this message.|Iltimos, bu xabarni boshidan oxirigacha oʻqing.
+phrase|go through a difficult time||переживать трудный период|qiyin davrni boshidan kechirmoq
+example|go through a difficult time||He's going through a difficult time.|U qiyin davrni boshidan kechiryapti.
+phrase|through hard work||благодаря упорной работе|tinimsiz mehnat tufayli
+example|through hard work||She succeeded through hard work.|U tinimsiz mehnat tufayli muvaffaqiyatga erishdi.
+phrase|around the world||по всему миру|dunyo boʻylab
+example|around the world||I'd love to travel around the world.|Men dunyo boʻylab sayohat qilishni juda istardim.
+phrase|around the corner||за углом; совсем скоро|burchak ortida; juda yaqin
+example|around the corner||The shop is around the corner.|Doʻkon burchak ortida.
+phrase|look around||осмотреться|atrofni koʻzdan kechirmoq
+example|look around||Let's look around the city.|Keling, shaharni aylanib koʻramiz.
+phrase|walk around||гулять вокруг; ходить по|aylanib yurmoq
+example|walk around||We walked around the park.|Biz bogʻni aylanib yurdik.
+phrase|around ten o'clock||около десяти часов|soat oʻnlarda
+example|around ten o'clock||I'll arrive around ten o'clock.|Men soat oʻnlarda yetib boraman.
+phrase|come around||зайти; прийти в себя|kirib oʻtmoq; oʻziga kelmoq
+example|come around||Why don't you come around this evening?|Bugun kechqurun kirib oʻtsangiz-chi?
+phrase|go into the room||войти в комнату|xonaga kirmoq
+example|go into the room||She went into the room quietly.|U xonaga sekin kirdi.
+phrase|get into the car||сесть в машину|mashinaga oʻtirmoq
+example|get into the car||Get into the car, please.|Iltimos, mashinaga oʻtiring.
+phrase|turn into||превратиться в|aylanmoq
+example|turn into||The water turned into ice.|Suv muzga aylandi.
+phrase|look into a problem||изучить проблему|muammoni oʻrganmoq
+example|look into a problem||We'll look into the problem tomorrow.|Biz muammoni ertaga oʻrganamiz.
+phrase|be into music||увлекаться музыкой|musiqaga qiziqmoq
+example|be into music||He's really into music.|U musiqaga juda qiziqadi.
+phrase|run into a friend||случайно встретить друга|doʻstni tasodifan uchratmoq
+example|run into a friend||I ran into a friend at the market.|Men bozorda doʻstimni tasodifan uchratdim.
+phrase|get out of the car||выйти из машины|mashinadan tushmoq
+example|get out of the car||Please get out of the car.|Iltimos, mashinadan tushing.
+phrase|out of time||время вышло; не осталось времени|vaqt tugadi
+example|out of time||We're out of time.|Vaqtimiz tugadi.
+phrase|out of money||без денег; деньги закончились|pul tugadi
+example|out of money||I'm almost out of money.|Pulim deyarli tugadi.
+phrase|out of order||не работает; неисправен|ishlamayapti
+example|out of order||The lift is out of order.|Lift ishlamayapti.
+phrase|out of date||устаревший; просроченный|eskirgan
+example|out of date||This information is out of date.|Bu maʼlumot eskirgan.
+phrase|out of breath||запыхавшийся|hansirab qolgan
+example|out of breath||I was out of breath after running.|Yugurgandan keyin hansirab qoldim.
+phrase|get out of trouble||выйти из затруднительного положения|qiyin ahvoldan chiqmoq
+example|get out of trouble||He helped me get out of trouble.|U menga qiyin ahvoldan chiqishga yordam berdi.
+phrase|stand up||встать|oʻrnidan turmoq
+example|stand up||Please stand up.|Iltimos, oʻrningizdan turing.
+phrase|get up||вставать|turmoq
+example|get up||I get up at seven.|Men soat yettida turaman.
+phrase|go up the stairs||подниматься по лестнице|zinadan koʻtarilmoq
+example|go up the stairs||We went up the stairs.|Biz zinadan koʻtarildik.
+phrase|wake up||просыпаться|uygʻonmoq
+example|wake up||I wake up early on weekdays.|Men ish kunlari erta uygʻonaman.
+phrase|pick up||поднять; забрать|koʻtarmoq; olib ketmoq
+example|pick up||Can you pick up the bag?|Sumkani koʻtara olasizmi?
+phrase|hurry up||поторопиться|shoshilmoq
+example|hurry up||Hurry up or we'll be late.|Shoshiling, boʻlmasa kechikamiz.
+phrase|clean up||убраться|yigʻishtirmoq
+example|clean up||Let's clean up the kitchen.|Keling, oshxonani yigʻishtiramiz.
+phrase|sit down||сесть|oʻtirmoq
+example|sit down||Please sit down.|Iltimos, oʻtiring.
+phrase|go down the stairs||спуститься по лестнице|zinadan tushmoq
+example|go down the stairs||He went down the stairs.|U zinadan tushdi.
+phrase|slow down||сбавить скорость; замедлиться|sekinlashmoq
+example|slow down||Please slow down.|Iltimos, sekinlashing.
+phrase|write down||записать|yozib olmoq
+example|write down||Write down the new words.|Yangi soʻzlarni yozib oling.
+phrase|calm down||успокоиться|tinchlanmoq
+example|calm down||Take a breath and calm down.|Chuqur nafas oling va tinchlaning.
+phrase|turn down the volume||уменьшить громкость|ovozni pasaytirmoq
+example|turn down the volume||Turn down the volume, please.|Iltimos, ovozni pasaytiring.
+phrase|break down||сломаться|buzilmoq
+example|break down||My car broke down yesterday.|Mashinam kecha buzilib qoldi.
+phrase|turn off the light||выключить свет|chiroqni oʻchirmoq
+example|turn off the light||Please turn off the light.|Iltimos, chiroqni oʻchiring.
+phrase|take off your shoes||снять обувь|oyoq kiyimni yechmoq
+example|take off your shoes||Take off your shoes at the door.|Oyoq kiyimingizni eshik oldida yeching.
+phrase|get off the bus||выйти из автобуса|avtobusdan tushmoq
+example|get off the bus||We get off at the next stop.|Biz keyingi bekatda tushamiz.
+phrase|the day off||выходной день|dam olish kuni
+example|the day off||I have a day off tomorrow.|Ertaga mening dam olish kunim.
+phrase|be off work||не работать; быть выходным|ishda boʻlmaslik
+example|be off work||I'm off work today.|Men bugun ishda emasman.
+phrase|go off||зазвонить; сработать|jiringlamoq; ishga tushmoq
+example|go off||My alarm went off at six.|Budilnigim soat oltida jiringladi.
+phrase|put off||отложить|keyinga qoldirmoq
+example|put off||Don't put off your homework.|Uy vazifangizni keyinga qoldirmang.
+phrase|walk past||пройти мимо|yonidan piyoda oʻtmoq
+example|walk past||I walked past the school.|Men maktab yonidan piyoda oʻtdim.
+phrase|drive past||проехать мимо|yonidan mashinada oʻtmoq
+example|drive past||We drove past the stadium.|Biz stadion yonidan mashinada oʻtdik.
+phrase|half past six||половина седьмого|olti yarim
+example|half past six||The meeting starts at half past six.|Uchrashuv olti yarimda boshlanadi.
+phrase|past midnight||после полуночи|yarim tundan keyin
+example|past midnight||I went to bed past midnight.|Men yarim tundan keyin uxlashga yotdim.
+phrase|it's past your bedtime||уже пора спать|uxlash vaqtingiz oʻtib ketdi
+example|it's past your bedtime||It's past your bedtime.|Uxlash vaqtingiz oʻtib ketdi.
+phrase|walk towards me||идти ко мне|men tomon yurmoq
+example|walk towards me||Walk towards me slowly.|Men tomon sekin yuring.
+phrase|move towards the door||двигаться к двери|eshik tomon siljimoq
+example|move towards the door||Everyone moved towards the door.|Hamma eshik tomon siljidi.
+phrase|head towards the station||направляться к станции|bekat tomon yoʻl olmoq
+example|head towards the station||We headed towards the station.|Biz bekat tomon yoʻl oldik.
+phrase|work towards a goal||работать над достижением цели|maqsad sari ishlamoq
+example|work towards a goal||I'm working towards my goal.|Men maqsadim sari ishlayapman.
+phrase|be friendly towards someone||быть дружелюбным к кому-либо|kimgadir samimiy munosabatda boʻlmoq
+example|be friendly towards someone||She was friendly towards everyone.|U hammaga samimiy munosabatda edi.
