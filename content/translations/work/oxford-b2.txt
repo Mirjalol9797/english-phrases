@@ -1,0 +1,225 @@
+phrase|concentration|n.|концентрация, сосредоточенность|diqqatni jamlash
+example|concentration|n.|This task needs a lot of concentration.|Bu vazifa koʻp diqqat jamlashni talab qiladi.
+example|concentration|n.|Concentration goes first when people are tired, and mistakes follow.|Odamlar charchaganda birinchi boʻlib diqqat yoʻqoladi, keyin xatolar keladi.
+phrase|dishonest|adj.|нечестный|insofsiz, halol emas
+example|dishonest|adj.|It was dishonest of him.|Bu uning tomonidan insofsizlik edi.
+example|dishonest|adj.|It wasn't dishonest exactly, but it wasn't honest either.|Bu aynan insofsizlik emasdi, lekin halollik ham emasdi.
+phrase|priority|n.|приоритет|ustuvorlik
+example|priority|n.|My family is my priority.|Oilam men uchun ustuvor.
+example|priority|n.|When everything is a priority, nothing is.|Hamma narsa ustuvor boʻlsa, hech narsa ustuvor emas.
+phrase|yet|conj.|но, однако|ammo
+example|yet|conj.|It was cold, yet sunny.|Havo sovuq, ammo quyoshli edi.
+example|yet|conj.|The evidence was clear, yet nothing at all was done.|Dalillar aniq edi, ammo umuman hech narsa qilinmadi.
+phrase|project|v.|прогнозировать; проецировать|bashorat qilmoq; proyeksiya qilmoq
+example|project|v.|Sales are projected to rise.|Sotuv oʻsishi bashorat qilinmoqda.
+example|project|v.|Costs are projected to rise again in the second half of the year.|Xarajatlar yilning ikkinchi yarmida yana oshishi bashorat qilinmoqda.
+phrase|catch|n.|улов; подвох|ov; yashirin shart
+example|catch|n.|What's the catch?|Yashirin sharti nima?
+example|catch|n.|The offer sounded perfect, which is how we knew there was a catch.|Taklif mukammal eshitilardi, shundan yashirin shart borligini bildik.
+phrase|approve|v.|одобрять|maʼqullamoq
+example|approve|v.|My parents don't approve of my plan.|Ota-onam rejamni maʼqullashmaydi.
+example|approve|v.|The budget was approved by people who had not read it.|Byudjetni uni oʻqimagan odamlar maʼqullashdi.
+phrase|mysterious|adj.|таинственный|sirli
+example|mysterious|adj.|A mysterious man called me.|Menga sirli bir odam qoʻngʻiroq qildi.
+example|mysterious|adj.|There's nothing mysterious about it once you see who benefits.|Kim foyda koʻrishini koʻrsangiz, bunda hech qanday sirlilik qolmaydi.
+phrase|combination|n.|сочетание, комбинация|birikma, uygʻunlik
+example|combination|n.|What a strange combination of colours!|Qanday gʻalati ranglar uygʻunligi!
+example|combination|n.|It was a combination of bad luck and worse planning.|Bu omadsizlik va undan ham yomonroq rejalashtirishning birikmasi edi.
+phrase|pile|n., v.|куча, стопка; складывать в кучу|uyum; uyib qoʻymoq
+example|pile|n., v.|There's a pile of books on the desk.|Stolda kitoblar uyumi bor.
+example|pile|n., v.|Work had piled up while everyone waited for a decision.|Hamma qaror kutib turganda ish uyulib qoldi.
+phrase|concept|n.|понятие, концепция|tushuncha
+example|concept|n.|The concept is easy to understand.|Tushunchani anglash oson.
+example|concept|n.|The concept is simple; everything after it is not.|Tushuncha oddiy; undan keyingi hamma narsa esa yoʻq.
+phrase|complicated|adj.|сложный, запутанный|murakkab
+example|complicated|adj.|The rules are too complicated.|Qoidalar juda murakkab.
+example|complicated|adj.|It's complicated in the way that things are when someone benefits.|Bu kimdir foyda koʻrganda narsalar murakkab boʻladigan tarzda murakkab.
+phrase|sincere|adj.|искренний|samimiy
+example|sincere|adj.|Please accept my sincere apologies.|Iltimos, samimiy uzrimni qabul qiling.
+example|sincere|adj.|The apology sounded sincere and changed nothing.|Uzr samimiy eshitildi va hech narsani oʻzgartirmadi.
+phrase|instance|n.|пример, случай (for instance)|misol, holat
+example|instance|n.|For instance, you can learn ten words a day.|Misol uchun, kuniga oʻnta soʻz oʻrganishingiz mumkin.
+example|instance|n.|In this instance the rule was applied and in others it wasn't.|Bu holatda qoida qoʻllandi, boshqalarida esa yoʻq.
+phrase|inform|v.|сообщать, информировать|xabardor qilmoq
+example|inform|v.|Please inform us of any changes.|Iltimos, har qanday oʻzgarish haqida bizni xabardor qiling.
+example|inform|v.|Staff were informed by email three minutes before the press.|Xodimlar matbuotdan uch daqiqa oldin elektron xat orqali xabardor qilindi.
+phrase|detailed|adj.|подробный|batafsil
+example|detailed|adj.|Give me a detailed plan.|Menga batafsil reja bering.
+example|detailed|adj.|A detailed answer would have taken five minutes to write.|Batafsil javob yozishga besh daqiqa ketardi.
+phrase|prospect|n.|перспектива|istiqbol
+example|prospect|n.|The job has good prospects.|Ishning istiqboli yaxshi.
+example|prospect|n.|The prospect of another year like this one worries everybody.|Yana shunday bir yil istiqboli hammani xavotirga soladi.
+phrase|grant|v., n.|предоставлять; грант|bermoq; grant
+example|grant|v., n.|She got a grant to study abroad.|U chet elda oʻqish uchun grant oldi.
+example|grant|v., n.|Permission was granted after the work had already been done.|Ruxsat ish allaqachon bajarilganidan keyin berildi.
+phrase|scheme|n.|схема, программа, план|dastur, sxema
+example|scheme|n.|There is a new scheme to help students.|Talabalarga yordam berish boʻyicha yangi dastur bor.
+example|scheme|n.|The scheme helped very few of the people it was designed for.|Dastur oʻzi moʻljallangan odamlarning juda kamiga yordam berdi.
+phrase|emerge|v.|появляться, выходить|paydo boʻlmoq
+example|emerge|v.|The sun emerged from behind the clouds.|Quyosh bulutlar ortidan chiqdi.
+example|emerge|v.|It emerged later that two people had raised the same concern.|Keyinchalik ikki kishi xuddi shu xavotirni bildirgani maʼlum boʻldi.
+phrase|construct|v.|строить, конструировать|qurmoq
+example|construct|v.|They constructed a new bridge.|Ular yangi koʻprik qurishdi.
+example|construct|v.|The argument is carefully constructed and rests on nothing.|Dalil puxta qurilgan va hech narsaga tayanmaydi.
+phrase|bacteria|n.|бактерии|bakteriyalar
+example|bacteria|n.|Wash your hands to kill bacteria.|Bakteriyalarni yoʻqotish uchun qoʻlingizni yuving.
+example|bacteria|n.|The bacteria had been there all along and nobody had tested.|Bakteriyalar boshidan oʻsha yerda edi va hech kim tekshirmagandi.
+phrase|reserve|n., v.|запас, резерв; бронировать|zaxira; band qilmoq
+example|reserve|n., v.|I reserved a table for four.|Men toʻrt kishiga stol band qildim.
+example|reserve|n., v.|The reserves had been spent before anyone noticed they were gone.|Zaxiralar ular tugaganini kimdir sezgunicha sarflab boʻlingandi.
+phrase|worth|n.|ценность, стоимость|qiymat
+example|worth|n.|He sold ten dollars' worth of fruit.|U oʻn dollarlik meva sotdi.
+example|worth|n.|They got a month's worth of work out of a week's budget.|Ular bir haftalik byudjetdan bir oylik ish chiqarishdi.
+phrase|evaluate|v.|оценивать|baholamoq
+example|evaluate|v.|We need to evaluate the results.|Biz natijalarni baholashimiz kerak.
+example|evaluate|v.|Nobody had evaluated whether the previous change had worked.|Oldingi oʻzgarish ish berganmi-yoʻqmi, hech kim baholamagandi.
+phrase|shallow|adj.|мелкий, неглубокий|sayoz
+example|shallow|adj.|The water is shallow here.|Bu yerda suv sayoz.
+example|shallow|adj.|The analysis is shallow and the conclusions are confident.|Tahlil sayoz va xulosalar ishonch bilan aytilgan.
+phrase|downwards|adv.|вниз|pastga qarab
+example|downwards|adv.|The road goes downwards to the river.|Yoʻl daryo tomon pastga tushadi.
+example|downwards|adv.|The figures have been revised downwards three times.|Raqamlar uch marta pastga qarab qayta koʻrib chiqildi.
+phrase|aircraft|n.|самолёт, воздушное судно|havo kemasi
+example|aircraft|n.|The aircraft landed safely.|Havo kemasi omon-eson qoʻndi.
+example|aircraft|n.|The aircraft had been grounded for a fault nobody could reproduce.|Havo kemasi hech kim takrorlay olmagan nosozlik tufayli uchishdan toʻxtatilgandi.
+phrase|beg|v.|умолять; просить милостыню|yolvormoq
+example|beg|v.|I begged him to stay.|Men unga qolishini yolvordim.
+example|beg|v.|They'd begged for the repairs for years before the ceiling fell in.|Shift qulagunicha ular yillab taʼmir uchun yolvorishgandi.
+phrase|regional|adj.|региональный|mintaqaviy
+example|regional|adj.|They speak a regional dialect.|Ular mintaqaviy shevada gapiradi.
+example|regional|adj.|Regional offices were given targets set without consulting them.|Mintaqaviy ofislarga ular bilan maslahatlashmay belgilangan mezonlar berildi.
+phrase|psychology|n.|психология|psixologiya
+example|psychology|n.|He is studying psychology.|U psixologiyani oʻqiyapti.
+example|psychology|n.|The psychology of it matters more than the economics.|Buning psixologiyasi iqtisoddan muhimroq.
+phrase|witness|n., v.|свидетель; быть свидетелем|guvoh; guvoh boʻlmoq
+example|witness|n., v.|Did anyone witness the accident?|Baxtsiz hodisaga kimdir guvoh boʻlganmi?
+example|witness|n., v.|Two witnesses gave accounts that cannot both be true.|Ikki guvoh ikkalasi ham rost boʻla olmaydigan bayonot berdi.
+phrase|low|n.|минимум, низшая точка|eng past nuqta
+example|low|n.|Temperatures hit a new low.|Harorat yangi eng past nuqtaga tushdi.
+example|low|n.|Morale has reached a low that nobody is willing to measure.|Ruhiy holat hech kim oʻlchashni istamaydigan past nuqtaga yetdi.
+phrase|favour|v.|отдавать предпочтение|afzal koʻrmoq
+example|favour|v.|The new law favours small businesses.|Yangi qonun kichik bizneslarni afzal koʻradi.
+example|favour|v.|The rules favour whoever can afford to wait.|Qoidalar kutishga qurbi yetadiganlar foydasiga ishlaydi.
+phrase|fellow|adj.|товарищ (по…)|hamroh, birga ... qiladigan
+example|fellow|adj.|I met a fellow student in the library.|Men kutubxonada hamkurs talabani uchratdim.
+example|fellow|adj.|A fellow passenger explained what the announcement had meant.|Hamroh yoʻlovchi eʼlon nimani anglatganini tushuntirdi.
+phrase|tale|n.|сказка, история|ertak, hikoya
+example|tale|n.|My grandmother told us old tales.|Buvim bizga qadimgi ertaklar aytardi.
+example|tale|n.|It's a cautionary tale that everybody repeats and nobody heeds.|Bu hamma takrorlaydigan va hech kim quloq solmaydigan ibratli hikoya.
+phrase|figure|v.|полагать (разг.); понять (figure out)|tushunib yetmoq
+example|figure|v.|I can't figure out this problem.|Men bu masalani tushunib yeta olmayapman.
+example|figure|v.|It took us a month to figure out what had actually gone wrong.|Aslida nima notoʻgʻri ketganini tushunib yetishimizga bir oy ketdi.
+phrase|flame|n.|пламя|alanga
+example|flame|n.|The house was in flames.|Uy alanga ichida edi.
+example|flame|n.|The row has been fanned into flames by people with nothing to lose.|Janjalni yoʻqotadigan hech narsasi boʻlmaganlar alangalatib yuborishdi.
+phrase|unconscious|adj.|без сознания|hushsiz; ongsiz
+example|unconscious|adj.|He was unconscious for two hours.|U ikki soat hushsiz yotdi.
+example|unconscious|adj.|There's an unconscious bias in how the cases are sorted.|Ishlar saralanishida ongsiz tarzdagi yon bosish bor.
+phrase|bar|v.|запрещать, не пускать|yoʻl qoʻymaslik
+example|bar|v.|He was barred from the club.|U klubga kiritilmadi.
+example|bar|v.|Journalists were barred from a meeting that was supposed to be public.|Jurnalistlar ochiq boʻlishi kerak boʻlgan yigʻilishga kiritilmadi.
+phrase|extent|n.|степень, масштаб|daraja, koʻlam
+example|extent|n.|To some extent, I agree.|Maʼlum darajada men roziman.
+example|extent|n.|The extent of the damage only became clear in the spring.|Zararning koʻlami faqat bahorda ayon boʻldi.
+phrase|acknowledge|v.|признавать|tan olmoq
+example|acknowledge|v.|She acknowledged her mistake.|U xatosini tan oldi.
+example|acknowledge|v.|They acknowledged the problem without accepting responsibility for it.|Ular muammoni tan olishdi, lekin uning uchun javobgarlikni qabul qilishmadi.
+phrase|impatient|adj.|нетерпеливый|sabrsiz
+example|impatient|adj.|Don't be so impatient!|Bunchalik sabrsiz boʻlmang!
+example|impatient|adj.|People are getting impatient, and they have every right to be.|Odamlar sabri tugayapti va ularning bunga toʻliq haqqi bor.
+phrase|stock|n.|запас; акции|zaxira; aksiyalar
+example|stock|n.|The item is out of stock.|Mahsulot zaxirada yoʻq.
+example|stock|n.|The item had been out of stock for four months.|Mahsulot toʻrt oydan beri zaxirada yoʻq edi.
+phrase|approach|n., v.|подход; приближаться|yondashuv; yaqinlashmoq
+example|approach|n., v.|We need a new approach.|Bizga yangi yondashuv kerak.
+example|approach|n., v.|A different approach was suggested and dismissed in two minutes.|Boshqacha yondashuv taklif qilindi va ikki daqiqada rad etildi.
+phrase|proof|n.|доказательство|isbot
+example|proof|n.|Do you have any proof?|Sizda biror isbot bormi?
+example|proof|n.|There's proof of what happened and no appetite to look at it.|Nima boʻlganining isboti bor va unga qarashga ishtiyoq yoʻq.
+phrase|praise|n., v.|похвала; хвалить|maqtov; maqtamoq
+example|praise|n., v.|The teacher praised my work.|Oʻqituvchi ishimni maqtadi.
+example|praise|n., v.|The praise went to the person who presented, not the one who did it.|Maqtov ishni bajargan odamga emas, taqdim qilgan odamga tegdi.
+phrase|subject|adj.|подверженный (subject to)|...ga bogʻliq
+example|subject|adj.|Prices are subject to change.|Narxlar oʻzgarishi mumkin.
+example|subject|adj.|The figures are subject to revision, which they always are.|Raqamlar qayta koʻrib chiqilishi mumkin, ular doim shunday.
+phrase|largely|adv.|в основном|asosan
+example|largely|adv.|The success was largely due to luck.|Muvaffaqiyat asosan omad tufayli boʻldi.
+example|largely|adv.|The problem is largely of our own making.|Muammo asosan oʻzimiz keltirib chiqargan muammo.
+phrase|nightmare|n.|кошмар|dahshatli tush
+example|nightmare|n.|I had a nightmare last night.|Kecha kechasi dahshatli tush koʻrdim.
+example|nightmare|n.|The paperwork alone was a nightmare that took six months.|Faqat qogʻozbozlikning oʻzi olti oy davom etgan dahshat boʻldi.
+phrase|adapt|v.|адаптироваться, приспосабливать|moslashmoq
+example|adapt|v.|It took me a year to adapt to the new city.|Yangi shaharga moslashishim uchun bir yil kerak boʻldi.
+example|adapt|v.|Those who adapted quickly did better than those who were right.|Tez moslashganlar haq boʻlganlardan koʻra yaxshiroq natijaga erishdi.
+phrase|sequence|n.|последовательность|ketma-ketlik
+example|sequence|n.|Put the pictures in the right sequence.|Suratlarni toʻgʻri ketma-ketlikda joylashtiring.
+example|sequence|n.|The sequence of events in the report is simply wrong.|Hisobotdagi voqealar ketma-ketligi shunchaki notoʻgʻri.
+phrase|chief|adj., n.|главный; начальник, шеф|bosh; boshliq
+example|chief|adj., n.|He is the chief of police.|U politsiya boshligʻi.
+example|chief|adj., n.|The chief difficulty is that nobody owns the decision.|Bosh qiyinchilik shundaki, qarorga hech kim egalik qilmaydi.
+phrase|satisfy|v.|удовлетворять|qoniqtirmoq
+example|satisfy|v.|Nothing satisfies him.|Uni hech narsa qoniqtirmaydi.
+example|satisfy|v.|The answer satisfies the form and not the question.|Javob blankni qoniqtiradi, savolni esa yoʻq.
+phrase|firm|n.|фирма|firma
+example|firm|n.|He works for a law firm.|U yuridik firmada ishlaydi.
+example|firm|n.|The firm has been sold twice and still carries the founder's name.|Firma ikki marta sotilgan va hamon asoschisining nomini saqlaydi.
+phrase|function|v.|функционировать|ishlamoq
+example|function|v.|The machine isn't functioning properly.|Mashina tuzukroq ishlamayapti.
+example|function|v.|The department functions despite the structure, not because of it.|Boʻlim tuzilma tufayli emas, unga qaramay ishlaydi.
+phrase|actual|adj.|фактический, реальный|haqiqiy, amaldagi
+example|actual|adj.|The actual price was much higher.|Haqiqiy narx ancha yuqori edi.
+example|actual|adj.|The actual cost turned out to be nearly double the estimate.|Amaldagi xarajat hisob-kitobdan deyarli ikki baravar koʻp chiqdi.
+phrase|close|n.|конец, завершение|yakun, tugash
+example|close|n.|At the close of the meeting, we voted.|Yigʻilish yakunida biz ovoz berdik.
+example|close|n.|At the close of the year nothing had been resolved.|Yil yakunida hech narsa hal qilinmagandi.
+phrase|transform|v.|преобразовывать|tubdan oʻzgartirmoq
+example|transform|v.|The new park transformed the area.|Yangi bogʻ hududni tubdan oʻzgartirdi.
+example|transform|v.|One honest meeting transformed how the team worked.|Bitta samimiy yigʻilish jamoaning ishlash tarzini tubdan oʻzgartirdi.
+phrase|vision|n.|зрение; видение|koʻrish; qarash
+example|vision|n.|She has good vision.|Uning koʻrish qobiliyati yaxshi.
+example|vision|n.|What's missing is any vision of where this is going.|Yetishmayotgani — bu qayoqqa ketayotganimiz haqidagi qarash.
+phrase|elderly|adj.|пожилой|keksa
+example|elderly|adj.|Help elderly people.|Keksa odamlarga yordam bering.
+example|elderly|adj.|Elderly residents were the last to be told.|Keksa aholiga eng oxirida aytildi.
+phrase|justify|v.|оправдывать, обосновывать|oqlamoq, asoslamoq
+example|justify|v.|How can you justify the cost?|Xarajatni qanday oqlay olasiz?
+example|justify|v.|Nothing in the file justifies a decision of that size.|Jilddagi hech narsa bunday katta qarorni oqlamaydi.
+phrase|status|n.|статус, положение|maqom, holat
+example|status|n.|What's the status of my order?|Buyurtmamning holati qanday?
+example|status|n.|The status of the project has been unclear since March.|Loyihaning holati martdan beri noaniq.
+phrase|debate|n., v.|дебаты; обсуждать|munozara; muhokama qilmoq
+example|debate|n., v.|There was a long debate about the new law.|Yangi qonun haqida uzoq munozara boʻldi.
+example|debate|n., v.|The debate ended with everyone holding exactly their original view.|Munozara hamma aynan oʻz dastlabki fikrida qolgan holda tugadi.
+phrase|humorous|adj.|юмористический, забавный|hazil-mutoyibali
+example|humorous|adj.|He wrote a humorous story.|U hazil-mutoyibali hikoya yozdi.
+example|humorous|adj.|He made a humorous remark that nobody found funny.|U hazil aytdi, lekin uni hech kim kulgili deb topmadi.
+phrase|complex|n.|комплекс (зданий)|majmua
+example|complex|n.|They built a new sports complex.|Ular yangi sport majmuasini qurishdi.
+example|complex|n.|The complex was built for two thousand people and houses four hundred.|Majmua ikki ming kishiga qurilgan va toʻrt yuz kishini sigʻdiradi.
+phrase|stuff|v.|набивать, запихивать|tiqmoq
+example|stuff|v.|He stuffed the clothes into his bag.|U kiyimlarni sumkasiga tiqdi.
+example|stuff|v.|The findings were stuffed into an appendix nobody opens.|Natijalar hech kim ochmaydigan ilovaga tiqib qoʻyilgandi.
+phrase|insurance|n.|страхование, страховка|sugʻurta
+example|insurance|n.|Do you have travel insurance?|Sayohat sugʻurtangiz bormi?
+example|insurance|n.|The insurance covered everything except what actually happened.|Sugʻurta aslida yuz bergan narsadan boshqa hamma narsani qopladi.
+phrase|border|v.|граничить|chegaradosh boʻlmoq
+example|border|v.|Uzbekistan borders Kazakhstan.|Oʻzbekiston Qozogʻiston bilan chegaradosh.
+example|border|v.|The claim borders on the absurd and was accepted without question.|Daʼvo bemaʼnilikka yaqin va u soʻroqsiz qabul qilindi.
+phrase|routine|adj.|обычный, плановый|odatiy, rejali
+example|routine|adj.|It's just a routine check.|Bu shunchaki rejali tekshiruv.
+example|routine|adj.|It was described as a routine check and lasted three days.|U rejali tekshiruv deb aytildi va uch kun davom etdi.
+phrase|otherwise|adv.|иначе, в противном случае|aks holda
+example|otherwise|adv.|Hurry up, otherwise we'll be late.|Shoshiling, aks holda kechikamiz.
+example|otherwise|adv.|We need an answer by Friday; otherwise the offer lapses.|Bizga jumagacha javob kerak; aks holda taklif kuchini yoʻqotadi.
+phrase|depth|n.|глубина|chuqurlik
+example|depth|n.|What is the depth of the pool?|Basseynning chuqurligi qancha?
+example|depth|n.|Nobody had looked at the problem in any depth.|Muammoga hech kim chuqurroq qaramagandi.
+phrase|master|n., v.|мастер; овладевать|usta; egallamoq
+example|master|n., v.|It takes years to master a language.|Tilni egallash uchun yillar kerak.
+example|master|n., v.|It takes about ten years to master and about two to look competent.|Egallashga oʻn yilcha, malakali koʻrinishga esa ikki yil kerak.
+phrase|stand|n.|стенд, прилавок; позиция|rasta; pozitsiya
+example|stand|n.|There's a fruit stand on the corner.|Burchakda meva rastasi bor.
+example|stand|n.|She took a stand that cost her a great deal.|U oʻziga juda qimmatga tushgan pozitsiyani egalladi.
+phrase|material|adj.|материальный|moddiy
+example|material|adj.|Material things don't make you happy.|Moddiy narsalar sizni baxtli qilmaydi.
+example|material|adj.|Nothing material has changed since the last review.|Oxirgi koʻrikdan beri moddiy jihatdan hech narsa oʻzgarmadi.
