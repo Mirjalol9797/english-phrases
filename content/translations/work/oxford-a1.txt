@@ -448,3 +448,228 @@ example|topic|n.|It's a topic she avoids, and everyone has learned not to raise 
 phrase|nothing|pron.|ничего|hech narsa
 example|nothing|pron.|There is nothing in the box.|Qutida hech narsa yoʻq.
 example|nothing|pron.|Nothing was decided, and another meeting was arranged.|Hech narsa hal qilinmadi va yana bir yigʻilish belgilandi.
+phrase|should|modal v.|следует, стоит|kerak, lozim
+example|should|modal v.|You should sleep more.|Siz koʻproq uxlashingiz kerak.
+example|should|modal v.|You should have told me before you agreed to anything.|Biror narsaga rozi boʻlishingizdan oldin menga aytishingiz kerak edi.
+phrase|fun|n.|веселье, удовольствие|zavq, koʻngilxushlik
+example|fun|n.|We had a lot of fun at the party.|Biz bazmda juda zavqlandik.
+example|fun|n.|It stopped being fun as soon as money got involved.|Ishga pul aralashishi bilan undan zavq qolmadi.
+phrase|hard|adj., adv.|трудный; твёрдый; усердно|qiyin; qattiq; tirishib
+example|hard|adj., adv.|He works very hard.|U juda tirishib ishlaydi.
+example|hard|adj., adv.|It's hard to argue with someone who has already made up their mind.|Qaroriga kelib boʻlgan odam bilan bahslashish qiyin.
+phrase|hobby|n.|хобби|sevimli mashgʻulot
+example|hobby|n.|My hobby is photography.|Mening sevimli mashgʻulotim — fotosurat.
+example|hobby|n.|What began as a hobby now takes up most of her weekends.|Sevimli mashgʻulot sifatida boshlangan ish endi uning dam olish kunlarini toʻliq egallaydi.
+phrase|help|v., n.|помогать; помощь|yordam bermoq; yordam
+example|help|v., n.|Can you help me?|Menga yordam bera olasizmi?
+example|help|v., n.|If you need any help with the application, just ask.|Ariza bilan biror yordam kerak boʻlsa, bemalol ayting.
+phrase|girlfriend|n.|девушка (подруга)|qiz doʻst
+example|girlfriend|n.|His girlfriend is a nurse.|Uning qiz doʻsti hamshira.
+example|girlfriend|n.|His girlfriend had been telling him to leave that job for months.|Qiz doʻsti unga oylar davomida oʻsha ishni tashlashni aytib kelgandi.
+phrase|where|adv., conj.|где, куда|qayerda, qayerga
+example|where|adv., conj.|Where do you live?|Qayerda yashaysiz?
+example|where|adv., conj.|This is where the whole plan starts to fall apart.|Butun reja aynan shu yerda buzila boshlaydi.
+phrase|onion|n.|лук (репчатый)|piyoz
+example|onion|n.|Cut the onion, please.|Iltimos, piyozni toʻgʻrang.
+example|onion|n.|Fry the onions slowly until they turn golden.|Piyozni sarigʻ tusga kirguncha sekin qovuring.
+phrase|they|pron.|они|ular
+example|they|pron.|They are my friends.|Ular mening doʻstlarim.
+example|they|pron.|They had promised an answer by Friday and said nothing for a month.|Ular jumagacha javob berishga vaʼda bergandi va bir oy indamadi.
+phrase|fantastic|adj.|фантастический, замечательный|ajoyib, zoʻr
+example|fantastic|adj.|The concert was fantastic!|Konsert zoʻr boʻldi!
+example|fantastic|adj.|The food was fantastic, which almost made up for the service.|Taom ajoyib edi, bu xizmat koʻrsatishning oʻrnini deyarli qopladi.
+phrase|hello|exclam./n.|привет, здравствуйте|salom
+example|hello|exclam./n.|Hello! How are you?|Salom! Qalaysiz?
+example|hello|exclam./n.|She said hello to everyone in the room before she sat down.|U oʻtirishdan oldin xonadagi hammaga salom berdi.
+phrase|agree|v.|соглашаться|rozi boʻlmoq
+example|agree|v.|I agree with you.|Men siz bilan roziman.
+example|agree|v.|We couldn't agree on a date, so the meeting was put off again.|Biz sana boʻyicha kelisha olmadik, shuning uchun uchrashuv yana keyinga surildi.
+phrase|uncle|n.|дядя|amaki, togʻa
+example|uncle|n.|My uncle is a farmer.|Amakim fermer.
+example|uncle|n.|My uncle had been a sailor and never talked about the sea.|Amakim dengizchi boʻlgan, lekin dengiz haqida hech gapirmasdi.
+phrase|party|n.|вечеринка|bazm, ziyofat
+example|party|n.|Are you coming to my party?|Bazmimga kelasizmi?
+example|party|n.|The party went on far longer than the neighbours would have liked.|Bazm qoʻshnilar xohlaganidan ancha uzoq davom etdi.
+phrase|fill|v.|наполнять, заполнять|toʻldirmoq
+example|fill|v.|Fill the glass with water.|Stakanni suvga toʻldiring.
+example|fill|v.|The hall filled up long before the doors were due to close.|Zal eshiklar yopilishidan ancha oldin toʻlib ketdi.
+phrase|past|adj., n., prep.|прошлое; прошлый; после|oʻtmish; oʻtgan; ...dan keyin
+example|past|adj., n., prep.|It's ten past five.|Hozir beshdan oʻn daqiqa oʻtdi.
+example|past|adj., n., prep.|Over the past few years the town has changed completely.|Soʻnggi bir necha yilda shahar butunlay oʻzgardi.
+phrase|as|prep.|как, в качестве|sifatida
+example|as|prep.|She works as a teacher.|U oʻqituvchi boʻlib ishlaydi.
+example|as|prep.|He spent two years working as a volunteer before he found a paid job.|U pullik ish topgunicha ikki yil koʻngilli sifatida ishladi.
+phrase|farmer|n.|фермер|fermer
+example|farmer|n.|The farmer has many sheep.|Fermerning koʻp qoʻyi bor.
+example|farmer|n.|Farmers here have had to change what they grow entirely.|Bu yerdagi fermerlar nima yetishtirishni butunlay oʻzgartirishga majbur boʻlishdi.
+phrase|beginning|n.|начало|boshlanish
+example|beginning|n.|I liked the beginning of the film.|Menga filmning boshlanishi yoqdi.
+example|beginning|n.|I had a feeling from the very beginning that something was wrong.|Menda eng boshidan nimadir notoʻgʻri degan tuygʻu bor edi.
+phrase|once|adv.|один раз; однажды|bir marta; bir vaqtlar
+example|once|adv.|I go to the gym once a week.|Men haftada bir marta sport zaliga boraman.
+example|once|adv.|Once you've seen how it's made, you can't unsee it.|Uning qanday tayyorlanishini bir marta koʻrsangiz, buni boshqa unuta olmaysiz.
+phrase|question|n.|вопрос|savol
+example|question|n.|Can I ask a question?|Savol bersam boʻladimi?
+example|question|n.|It's a fair question, and nobody has given a straight answer to it.|Bu oʻrinli savol va unga hech kim ochiq javob bermagan.
+phrase|relax|v.|расслабляться, отдыхать|dam olmoq, yayramoq
+example|relax|v.|I relax by reading.|Men kitob oʻqib dam olaman.
+example|relax|v.|It took him a week to relax properly after the move.|Koʻchib oʻtgandan keyin tuzukroq dam olishi uchun unga bir hafta kerak boʻldi.
+phrase|slow|adj.|медленный|sekin
+example|slow|adj.|The internet is very slow today.|Bugun internet juda sekin.
+example|slow|adj.|Progress has been slow, but it has at least been steady.|Siljish sekin boʻlyapti, lekin hech boʻlmasa barqaror.
+phrase|month|n.|месяц|oy
+example|month|n.|I'll see you next month.|Kelasi oy koʻrishamiz.
+example|month|n.|We've been waiting for an answer for over two months.|Biz javobni ikki oydan ortiq kutyapmiz.
+phrase|hundred|number|сто|yuz
+example|hundred|number|There are a hundred people here.|Bu yerda yuz kishi bor.
+example|hundred|number|Several hundred people showed up, far more than expected.|Bir necha yuz kishi keldi, bu kutilganidan ancha koʻp edi.
+phrase|bus|n.|автобус|avtobus
+example|bus|n.|I go to school by bus.|Men maktabga avtobusda boraman.
+example|bus|n.|If you miss this bus, there isn't another one for an hour.|Bu avtobusga ulgurmasangiz, keyingisi bir soatdan keyin keladi.
+phrase|check|v.|проверять|tekshirmoq
+example|check|v.|Check your answers, please.|Iltimos, javoblaringizni tekshiring.
+example|check|v.|I'd check the figures again before you send the report anywhere.|Hisobotni biror joyga yuborishdan oldin raqamlarni yana bir bor tekshirardim.
+phrase|February|n.|февраль|fevral
+example|February|n.|February is the shortest month.|Fevral — eng qisqa oy.
+example|February|n.|The deadline was moved to February, which gave us no time at all.|Muddat fevralga koʻchirildi, bu esa bizga umuman vaqt qoldirmadi.
+phrase|water|n.|вода|suv
+example|water|n.|Drink more water.|Koʻproq suv iching.
+example|water|n.|The water here has to be boiled, whatever the hotel tells you.|Mehmonxona nima desa ham, bu yerdagi suvni qaynatish kerak.
+phrase|fat|adj.|толстый|semiz
+example|fat|adj.|The cat is fat and lazy.|Mushuk semiz va dangasa.
+example|fat|adj.|He'd got rather fat during the years he spent behind a desk.|U stol ortida oʻtkazgan yillar davomida ancha semirib ketgandi.
+phrase|eat|v.|есть, кушать|yemoq
+example|eat|v.|What do you usually eat for lunch?|Odatda tushlikka nima yeysiz?
+example|eat|v.|We ate at a place that looked terrible and turned out to be excellent.|Biz tashqi koʻrinishi juda yomon, lekin aslida zoʻr chiqqan joyda ovqatlandik.
+phrase|routine|n.|распорядок, режим|kundalik tartib
+example|routine|n.|Describe your daily routine.|Kundalik tartibingizni tasvirlab bering.
+example|routine|n.|Once he'd got into a routine, the work took half the time.|U kundalik tartibga kirgach, ish ikki baravar kam vaqt oladigan boʻldi.
+phrase|else|adv.|ещё, кроме|yana, boshqa
+example|else|adv.|Do you want anything else?|Yana biror narsa xohlaysizmi?
+example|else|adv.|If nobody else volunteers, I'll have to do it myself.|Boshqa hech kim koʻngilli boʻlmasa, buni oʻzim qilishimga toʻgʻri keladi.
+phrase|every|det.|каждый|har
+example|every|det.|I go to the gym every day.|Men har kuni sport zaliga boraman.
+example|every|det.|Every time we try to fix one thing, something else breaks.|Har safar bir narsani tuzatmoqchi boʻlsak, boshqasi buziladi.
+phrase|reader|n.|читатель|kitobxon
+example|reader|n.|He is a fast reader.|U tez oʻqiydigan kitobxon.
+example|reader|n.|Readers kept writing in long after the column had ended.|Ustun yopilganidan keyin ham kitobxonlar uzoq vaqt xat yozishda davom etishdi.
+phrase|object|n.|предмет, объект|narsa, obyekt
+example|object|n.|Describe an object in your room.|Xonangizdagi biror narsani tasvirlab bering.
+example|object|n.|The only object left in the room was a chair with a broken leg.|Xonada qolgan yagona narsa oyogʻi singan stul edi.
+phrase|possible|adj.|возможный|mumkin boʻlgan
+example|possible|adj.|Is it possible to change the date?|Sanani oʻzgartirish mumkinmi?
+example|possible|adj.|It's possible they simply forgot, though I doubt it.|Ular shunchaki unutgan boʻlishi mumkin, garchi bunga ishonmasam ham.
+phrase|correct|adj., v.|правильный; исправлять|toʻgʻri; tuzatmoq
+example|correct|adj., v.|Your answer is correct.|Javobingiz toʻgʻri.
+example|correct|adj., v.|Only one of the answers was correct, and even that was a lucky guess.|Javoblarning faqat bittasi toʻgʻri edi, u ham tasodifan topilgandi.
+phrase|mum|n.|мама|oyi
+example|mum|n.|My mum makes great plov.|Oyim zoʻr palov qiladi.
+example|mum|n.|My mum still rings every Sunday, whatever time zone I'm in.|Qaysi vaqt mintaqasida boʻlmayin, oyim hali ham har yakshanba qoʻngʻiroq qiladi.
+phrase|tooth|n.|зуб|tish
+example|tooth|n.|I have a bad tooth.|Mening tishim ogʻriyapti.
+example|tooth|n.|He'd been putting off the dentist until the tooth gave him no choice.|U tishi chidab boʻlmas holga kelgunicha shifokorga borishni keyinga surib keldi.
+phrase|thirty|number|тридцать|oʻttiz
+example|thirty|number|The bus comes every thirty minutes.|Avtobus har oʻttiz daqiqada keladi.
+example|thirty|number|Thirty years in the same job taught him patience if nothing else.|Bir ishda oʻttiz yil unga boshqa hech narsa boʻlmasa ham sabrni oʻrgatdi.
+phrase|hate|v.|ненавидеть|yomon koʻrmoq
+example|hate|v.|I hate waiting.|Men kutishni yomon koʻraman.
+example|hate|v.|She hates being told what to do, even when the advice is good.|U maslahat yaxshi boʻlsa ham, unga buyruq berilishini yomon koʻradi.
+phrase|bath|n.|ванна|vanna
+example|bath|n.|I take a bath in the evening.|Men kechqurun vannada yuvinaman.
+example|bath|n.|After a long walk in the cold, nothing beats a hot bath.|Sovuqda uzoq yurgandan keyin issiq vannadan yaxshisi yoʻq.
+phrase|blue|adj., n.|синий, голубой|koʻk
+example|blue|adj., n.|The sky is blue.|Osmon koʻk.
+example|blue|adj., n.|The walls had once been blue, but the sun had faded them completely.|Devorlar bir paytlar koʻk edi, quyosh esa rangini butunlay oʻchirgan.
+phrase|museum|n.|музей|muzey
+example|museum|n.|We visited the history museum.|Biz tarix muzeyiga bordik.
+example|museum|n.|The museum has been closed for repairs for longer than it was open.|Muzey taʼmir uchun ochiq boʻlganidan koʻra uzoqroq yopiq turibdi.
+phrase|sometimes|adv.|иногда|baʼzan
+example|sometimes|adv.|Sometimes I walk to work.|Baʼzan men ishga piyoda boraman.
+example|sometimes|adv.|Sometimes the simplest explanation really is the right one.|Baʼzan eng oddiy izoh haqiqatan ham toʻgʻri boʻlib chiqadi.
+phrase|evening|n.|вечер|kech, oqshom
+example|evening|n.|I watch TV in the evening.|Men kechqurun televizor koʻraman.
+example|evening|n.|The evening was going well until somebody mentioned politics.|Kimdir siyosatni tilga olmaguncha oqshom yaxshi kechayotgandi.
+phrase|understand|v.|понимать|tushunmoq
+example|understand|v.|I don't understand.|Men tushunmayapman.
+example|understand|v.|I understand the decision; I just don't agree with it.|Qarorni tushunaman; shunchaki unga qoʻshilmayman.
+phrase|fourth|number|четвёртый|toʻrtinchi
+example|fourth|number|It's my fourth time in London.|Bu mening Londonga toʻrtinchi kelishim.
+example|fourth|number|By the fourth attempt even the judges looked tired.|Toʻrtinchi urinishga borib hakamlar ham charchagan koʻrinardi.
+phrase|blog|n.|блог|blog
+example|blog|n.|I write a blog about travel.|Men sayohat haqida blog yuritaman.
+example|blog|n.|He started a blog about cooking and ended up writing a cookbook.|U pazandachilik haqida blog boshlagandi, oxiri oshpazlik kitobi yozdi.
+phrase|capital|n., adj.|столица; заглавный|poytaxt; bosh harf
+example|capital|n., adj.|Tashkent is the capital of Uzbekistan.|Toshkent — Oʻzbekiston poytaxti.
+example|capital|n., adj.|The capital has grown so fast that the roads can't cope.|Poytaxt shunchalik tez oʻsdiki, yoʻllar bardosh bera olmayapti.
+phrase|college|n.|колледж|kollej
+example|college|n.|My sister goes to college.|Singlim kollejda oʻqiydi.
+example|college|n.|She worked two jobs to pay her way through college.|U kollejda oʻqishini toʻlash uchun ikkita ishda ishladi.
+phrase|design|n., v.|дизайн; проектировать|dizayn; loyihalashtirmoq
+example|design|n., v.|I like the design of this phone.|Menga bu telefonning dizayni yoqadi.
+example|design|n., v.|The design was changed three times before anyone started building.|Qurilish boshlanishidan oldin dizayn uch marta oʻzgartirildi.
+phrase|newspaper|n.|газета|gazeta
+example|newspaper|n.|My grandfather reads the newspaper every day.|Bobom har kuni gazeta oʻqiydi.
+example|newspaper|n.|The newspaper printed a correction two weeks later, in small type.|Gazeta ikki hafta oʻtib mayda harflarda tuzatish chiqardi.
+phrase|article|n.|статья; артикль|maqola; artikl
+example|article|n.|I read an article about health.|Men sogʻliq haqida maqola oʻqidim.
+example|article|n.|I came across an article arguing that remote work is here to stay.|Masofaviy ish abadiy qolishini asoslagan maqolaga duch keldim.
+phrase|only|adj., adv.|только; единственный|faqat; yagona
+example|only|adj., adv.|I have only ten dollars.|Menda faqat oʻn dollar bor.
+example|only|adj., adv.|She was the only one who asked what it would cost.|Buning qanchaga tushishini soʻragan yagona odam u edi.
+phrase|it|pron.|он, она, оно (о предметах); это|u (narsa haqida); bu
+example|it|pron.|It is a nice day.|Bugun kun yaxshi.
+example|it|pron.|It's not as simple as it looks from the outside.|Bu tashqaridan koʻringanchalik oddiy emas.
+phrase|grandmother|n.|бабушка|buvi
+example|grandmother|n.|My grandmother makes delicious bread.|Buvim juda mazali non yopadi.
+example|grandmother|n.|My grandmother could tell when you were lying before you opened your mouth.|Buvim siz ogʻzingizni ochmasingizdan yolgʻon gapirayotganingizni bilardi.
+phrase|practise|v.|практиковаться, тренироваться|mashq qilmoq
+example|practise|v.|I practise English every day.|Men har kuni ingliz tilida mashq qilaman.
+example|practise|v.|She practises for an hour every morning before anyone else is awake.|U har kuni ertalab hamma uygʻonmasidan bir soat mashq qiladi.
+phrase|home|n., adv.|дом; домой|uy; uyga
+example|home|n., adv.|I'm going home.|Men uyga ketyapman.
+example|home|n., adv.|By the time he got home, everyone had already eaten.|U uyga yetib kelganida hamma allaqachon ovqatlanib boʻlgandi.
+phrase|land|n.|земля, суша|yer, quruqlik
+example|land|n.|The plane is over land now.|Samolyot hozir quruqlik ustida.
+example|land|n.|The land here has been farmed by the same families for centuries.|Bu yerdagi yerga asrlar davomida oʻsha oilalar ishlov berib keladi.
+phrase|air|n.|воздух|havo
+example|air|n.|The air is fresh in the mountains.|Togʻda havo toza.
+example|air|n.|The air in the city gets much worse during the summer months.|Shahardagi havo yoz oylarida ancha yomonlashadi.
+phrase|use|v.|использовать|foydalanmoq
+example|use|v.|Can I use your phone?|Telefoningizdan foydalansam boʻladimi?
+example|use|v.|The room is never used, which makes the rent hard to justify.|Xonadan hech foydalanilmaydi, shuning uchun ijara haqini oqlash qiyin.
+phrase|fine|adj.|хороший; в порядке|yaxshi; joyida
+example|fine|adj.|I'm fine, thanks.|Rahmat, men yaxshiman.
+example|fine|adj.|Everything was fine until the money ran out.|Pul tugagunicha hammasi joyida edi.
+phrase|radio|n.|радио|radio
+example|radio|n.|I listen to the radio in the car.|Men mashinada radio tinglayman.
+example|radio|n.|He'd been listening to the same radio station for thirty years.|U oʻttiz yildan beri bitta radio toʻlqinini tinglab keladi.
+phrase|seven|number|семь|yetti
+example|seven|number|There are seven days in a week.|Bir haftada yetti kun bor.
+example|seven|number|Seven of the nine people in the photo have since moved abroad.|Suratdagi toʻqqiz kishidan yettitasi oʻshandan beri chet elga koʻchib ketdi.
+phrase|father|n.|отец|ota
+example|father|n.|My father is a doctor.|Otam shifokor.
+example|father|n.|His father had wanted him to study law, and he never forgave himself for agreeing.|Otasi uning huquqshunoslikka oʻqishini istagandi, u esa rozi boʻlganini hech kechira olmadi.
+phrase|love|n., v.|любовь; любить|sevgi; sevmoq
+example|love|n., v.|I love my family.|Men oilamni sevaman.
+example|love|n., v.|He loves the work, even though it pays almost nothing.|U deyarli pul keltirmasa ham, bu ishni sevadi.
+phrase|skill|n.|навык, умение|koʻnikma
+example|skill|n.|Speaking is an important skill.|Gapirish — muhim koʻnikma.
+example|skill|n.|It's a skill that takes years and can be lost in months.|Bu yillar talab qiladigan va oylar ichida yoʻqolishi mumkin boʻlgan koʻnikma.
+phrase|September|n.|сентябрь|sentabr
+example|September|n.|School starts in September.|Oʻquv yili sentabrda boshlanadi.
+example|September|n.|Everything starts again in September, whether you're ready or not.|Tayyormisiz yoki yoʻqmi, sentabrda hammasi yangidan boshlanadi.
+phrase|useful|adj.|полезный|foydali
+example|useful|adj.|This is a very useful app.|Bu juda foydali ilova.
+example|useful|adj.|The most useful thing he said was in the last two minutes.|U aytgan eng foydali narsa oxirgi ikki daqiqada aytildi.
+phrase|never|adv.|никогда|hech qachon
+example|never|adv.|I never drink coffee.|Men hech qachon qahva ichmayman.
+example|never|adv.|I'd never have agreed if I'd known what it involved.|Bu nimani anglatishini bilganimda hech qachon rozi boʻlmasdim.
+phrase|chart|n.|диаграмма, таблица|diagramma, jadval
+example|chart|n.|Look at the chart on page 5.|5-betdagi diagrammaga qarang.
+example|chart|n.|The chart shows how sales have fallen over the last three quarters.|Diagramma soʻnggi uch chorakda sotuv qanday tushganini koʻrsatadi.
+phrase|fourteen|number|четырнадцать|oʻn toʻrt
+example|fourteen|number|My brother is fourteen.|Akam oʻn toʻrt yoshda.
+example|fourteen|number|He left school at fourteen and taught himself everything else.|U oʻn toʻrt yoshida maktabni tashlab, qolgan hamma narsani oʻzi oʻrgandi.
+phrase|add|v.|добавлять|qoʻshmoq
+example|add|v.|Add some salt to the soup.|Shoʻrvaga bir oz tuz qoʻshing.
+example|add|v.|I'd just like to add that none of this would have been possible without her.|Shuni ham qoʻshmoqchimanki, bularning hech biri usiz mumkin boʻlmasdi.
